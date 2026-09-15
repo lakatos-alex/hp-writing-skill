@@ -1,6 +1,6 @@
 # Release procedure
 
-Version 0.2.0 is published from the GitHub repository for installation through the skills CLI. This is a GitHub-hosted Agent Skill, not a separately published npm package.
+Version 0.2.1 is prepared for publication from the GitHub repository for installation through the skills CLI. This is a GitHub-hosted Agent Skill, not a separately published npm package.
 
 ## Validate the actual release
 
@@ -28,14 +28,14 @@ node tools/build_catalogue.mjs /path/to/books
 
 Inspect staged changes, public data and notices. The skill folder must remain self-contained. Confirm version agreement, valid relative links, source exclusions and no private manuscripts or full-text catalogues. Root and bundled licenses/acknowledgments must agree.
 
-Stage the intended package files, commit the reviewed result and tag the verified commit as `v0.2.0`. Push the commit and tag through the repository's normal release process. Do not overwrite an existing release tag.
+Stage the intended package files, commit the reviewed result and tag the verified commit as `v0.2.1`. Push the commit and tag through the repository's normal release process. Do not overwrite an existing release tag.
 
 ## Archive
 
 Create the archive in a release-output directory outside the repository:
 
 ```sh
-git archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/harry-potter-fanfic-0.2.0.zip v0.2.0:skills/harry-potter-fanfic
+git archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/harry-potter-fanfic-0.2.1.zip v0.2.1:skills/harry-potter-fanfic
 ```
 
 Inspect actual ZIP entries. The archive should contain SKILL.md, references, data, scripts, metadata, evaluation records and notices. EPUBs, local catalogues, generated book Markdown and private story files must be absent. Whole-repository Git archives exclude `original-sources/` through .gitattributes.
@@ -45,7 +45,7 @@ Inspect actual ZIP entries. The archive should contain SKILL.md, references, dat
 Use a fresh temporary directory for an installation smoke test:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.2.0 --skill harry-potter-fanfic --agent codex --copy -y
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.2.1 --skill harry-potter-fanfic --agent codex --copy -y
 ```
 
 Inspect the installed files, version and routes, then run its `chapters` and `facts` commands. Where local sources are available, exercise a primary-source read through the installed copy too.

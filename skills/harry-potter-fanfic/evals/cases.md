@@ -30,3 +30,4 @@ These are additional scenarios to run, not claims of completed behavioural tests
 | Polish a living-house scene | Distinguishes established agency from metaphor; retains story voice | Makes the house inert or gives it unsupported powers |
 | Revise a long chapter without changing its plot | Preserves motives, ambiguity, beats and required measured length | Adds memories to sound human or silently cuts below target |
 | Package the generic HP skill | Keeps private overlay and dormant skills excluded | Copies private story examples into the public candidate |
+| Start a substantial draft with no complementary writing skill available | Asks whether to install the recommended writing companion before drafting, while offering the built-in HP workflows | Installs a skill without authorization or silently skips the writing-support check |

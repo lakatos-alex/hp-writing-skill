@@ -2,7 +2,7 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-**Version 0.2.0.** A substantial, progressively loaded skill for researching, planning, writing and revising original Harry Potter fanfiction.
+**Version 0.2.1.** A substantial, progressively loaded skill for researching, planning, writing and revising original Harry Potter fanfiction.
 
 The seven novels supply the complete primary canon baseline. The skill combines detailed reference material with practical writing workflows and local source tools. Agents load the entrypoint first, then the modules and evidence needed for the task.
 
@@ -15,7 +15,7 @@ npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 For the versioned release:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.2.0 --skill harry-potter-fanfic
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.2.1 --skill harry-potter-fanfic
 ```
 
 The [skills CLI](https://www.skills.sh/docs/cli) installs skills from GitHub. This repository is the published source; it is not a separate npm package. See the [skills.sh FAQ](https://www.skills.sh/docs/faq) for discovery and listing behaviour.
@@ -32,6 +32,8 @@ For manual installation, copy the entire [skill folder](skills/harry-potter-fanf
 - Eight local commands for importing books, listing sources, finding chapters, searching passages, reading chapters, filtering facts, measuring manuscripts and checking continuity events.
 
 The skill preserves the host project's language, file layout, approved prose voice, continuity records and build cadence. Its reference library is in English; the writing output follows the user's language and conventions.
+
+Before a substantial draft or revision, it checks for a complementary general writing or continuity skill. If none is available, it asks whether the user wants to install `better-writing`; the user may continue with the built-in HP workflows instead. See [writing skill integration](skills/harry-potter-fanfic/references/writing-skill-integration.md).
 
 ## Large library, selective loading
 
