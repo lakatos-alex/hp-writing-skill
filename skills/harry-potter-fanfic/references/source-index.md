@@ -22,11 +22,9 @@ PS16 means book PS, chapter 16; ranges are inclusive. These anchors identify whe
 - **AU / proposal:** identify the user's intentional change and trace its consequences.
 - **Unverified detail:** leave open or consult a primary source; never manufacture precision.
 
-The full chapter-title inventory below was extracted from seven EPUBs. Next-book promotional previews were excluded. Targeted passages across all seven books were consulted during this expansion; this is not a claim of a fresh cover-to-cover reread. The references mix directly checked evidence anchors with a broader chapter navigation guide. Recheck decisive details when writing a scene.
+The complete title inventory was checked against the 199 primary chapters imported from the supplied English Pottermore EPUBs. Next-book previews are excluded. The machine-readable [chapter catalogue](../data/chapters.json) adds lexical topic counts; [evidence cards](../data/facts.json) provide 44 selected passage-checked claims with limitations.
 
-## Directly checked anchors in this expansion
-
-PS12–13 and PS16–17: chess and distributed competence. CoS18: choices and Dobby's freedom. PoA18: Animagi, Wolfsbane, risk and Lupin's shame. GoF8–9 and GoF21: house-elf responses; GoF17: the Tournament contract; GoF28: Hogwarts and electronics. OotP18: Room access; OotP23: Ginny's correction, Neville's family and the wrapper. HBP27: Draco's hesitation and enchanted coins; HBP29: Fleur and Bill. DH4, DH9 and DH11: Trace and Lupin's family fears; DH15 and DH29: food; DH24–25: wandlore and ownership; DH31: defence and loss. DH33 was sampled for childhood relationships, not exhaustively reread.
+See [coverage](coverage.md) for the distinction between full structural indexing, passage verification and broader interpretive references. Use [canon research](workflow-canon-research.md) for precise questions and [knowledge development](workflow-knowledge-development.md) for broad or full-corpus assignments. A chapter anchor identifies where to investigate; it does not certify every interpretation.
 
 ## Chapter navigation
 

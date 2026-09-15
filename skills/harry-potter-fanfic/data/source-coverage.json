@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "edition": "English Pottermore EPUBs supplied by the maintainer",
+  "measuredAt": "2026-09-15",
+  "method": "Every primary narrative chapter in EPUB spine order, including DH epilogue; front matter, advertisements and next-book previews excluded. Topics are lexical counts, not semantic verification.",
+  "books": [
+    {
+      "code": "PS",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "language": "en-GB",
+      "sourceSha256": "66c8af2707a3da8f2e3edcba281c4cf69299675589988e1e56b3d01f0341b47d",
+      "chapters": 17,
+      "words": 78559,
+      "excludedEntries": 15
+    },
+    {
+      "code": "CoS",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "language": "en-GB",
+      "sourceSha256": "a7370ecf9c56785576cce9b21f0a71e41c6db3c4f9b3e8cd29f4222291c6588b",
+      "chapters": 18,
+      "words": 86278,
+      "excludedEntries": 15
+    },
+    {
+      "code": "PoA",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "language": "en-GB",
+      "sourceSha256": "77686a0ef2e7304331535f5d907fc008a488dcce33b402d82febae598c7070ab",
+      "chapters": 22,
+      "words": 109198,
+      "excludedEntries": 15
+    },
+    {
+      "code": "GoF",
+      "title": "Harry Potter and the Goblet of Fire",
+      "language": "en-GB",
+      "sourceSha256": "f041f4df52394e54aff88cfd0815a95e053be9275bbcd46f2ab779216ba3fd39",
+      "chapters": 37,
+      "words": 194245,
+      "excludedEntries": 15
+    },
+    {
+      "code": "OotP",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "language": "en-GB",
+      "sourceSha256": "e41c9d55179a6df58e2ae73cdefb34e667f917ecdb1f8ef771382c238618a38d",
+      "chapters": 38,
+      "words": 260191,
+      "excludedEntries": 15
+    },
+    {
+      "code": "HBP",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "language": "en-GB",
+      "sourceSha256": "a4604a6fec8d6006f7bdd744665ca8fabcf747026677ad0de25c63d9c71dd454",
+      "chapters": 30,
+      "words": 171644,
+      "excludedEntries": 16
+    },
+    {
+      "code": "DH",
+      "title": "Harry Potter and the Deathly Hallows",
+      "language": "en-GB",
+      "sourceSha256": "3ef9ec776f8e31f08f52dfd582abc532f832fe52e2ece8da026ba4e651238481",
+      "chapters": 37,
+      "words": 200261,
+      "excludedEntries": 9
+    }
+  ]
+}

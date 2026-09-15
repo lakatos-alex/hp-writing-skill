@@ -1,0 +1,835 @@
+[
+  {
+    "id": "currency-ratios",
+    "topics": [
+      "money",
+      "economy"
+    ],
+    "kind": "testimony",
+    "claim": "Hagrid gives seventeen Sickles per Galleon and twenty-nine Knuts per Sickle.",
+    "anchors": [
+      "PS5"
+    ],
+    "limits": "These ratios do not establish modern exchange rates, wages or purchasing power.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "seventeen"
+    }
+  },
+  {
+    "id": "house-sorting",
+    "topics": [
+      "school",
+      "houses"
+    ],
+    "kind": "testimony",
+    "claim": "McGonagall presents houses as school communities with shared lessons, dormitories and common rooms.",
+    "anchors": [
+      "PS7"
+    ],
+    "limits": "A house does not determine every member's ethics or temperament.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Sorting"
+    }
+  },
+  {
+    "id": "mirror-desire",
+    "topics": [
+      "objects",
+      "knowledge"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore explains that the Mirror shows deepest desire, not reliable knowledge or truth.",
+    "anchors": [
+      "PS12"
+    ],
+    "limits": "Do not use the image as a prophecy or an objective compatibility test.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "desire"
+    }
+  },
+  {
+    "id": "trio-competence",
+    "topics": [
+      "Harry",
+      "Ron",
+      "Hermione",
+      "plot"
+    ],
+    "kind": "interpretation",
+    "claim": "The final obstacles distribute essential work among the trio; Hermione's logic complements Ron's chess.",
+    "anchors": [
+      "PS16"
+    ],
+    "limits": "Interpretation of scene design, not a universal division of intelligence.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "logic"
+    }
+  },
+  {
+    "id": "lily-protection",
+    "topics": [
+      "Harry",
+      "Lily",
+      "sacrifice"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore attributes Quirrell's inability to touch Harry to Lily's sacrificial protection.",
+    "anchors": [
+      "PS17"
+    ],
+    "limits": "Keep this account distinct from the later Privet Drive protection and blood tether.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "love"
+    }
+  },
+  {
+    "id": "trace-misattribution",
+    "topics": [
+      "Trace",
+      "Ministry",
+      "Dobby"
+    ],
+    "kind": "event",
+    "claim": "The Ministry's letter attributes a Hover Charm at Harry's home to underage wrongdoing after Dobby's visit.",
+    "anchors": [
+      "CoS2"
+    ],
+    "limits": "Detection near a child is not proof of who cast the spell.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Hover Charm"
+    }
+  },
+  {
+    "id": "blood-slur",
+    "topics": [
+      "Draco",
+      "Hermione",
+      "prejudice"
+    ],
+    "kind": "event",
+    "claim": "Draco uses a blood-status slur against Hermione during a conflict involving money and Quidditch.",
+    "anchors": [
+      "CoS7"
+    ],
+    "limits": "Blood ideology is social aggression, not a measure of magical ability.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Mudblood"
+    }
+  },
+  {
+    "id": "polyjuice-animal",
+    "topics": [
+      "Polyjuice",
+      "potions",
+      "Hermione"
+    ],
+    "kind": "event",
+    "claim": "A cat hair causes Hermione's Polyjuice transformation to go wrong.",
+    "anchors": [
+      "CoS12"
+    ],
+    "limits": "Hermione says the potion is not intended for animal transformations.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "animal"
+    }
+  },
+  {
+    "id": "diary-coercion",
+    "topics": [
+      "Ginny",
+      "Riddle",
+      "Horcrux"
+    ],
+    "kind": "testimony",
+    "claim": "Riddle describes manipulating Ginny through the diary and making her act without initial awareness.",
+    "anchors": [
+      "CoS17"
+    ],
+    "limits": "Riddle is an antagonist explaining his exploitation; keep speaker and coercion visible.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "roosters"
+    }
+  },
+  {
+    "id": "choice-identity",
+    "topics": [
+      "Harry",
+      "Dumbledore",
+      "identity"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore contrasts Harry's choices with similarities of ability between Harry and Riddle.",
+    "anchors": [
+      "CoS18"
+    ],
+    "limits": "This is an ethical argument, not proof that sorting or ability fixes destiny.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "choices"
+    }
+  },
+  {
+    "id": "boggart-laughter",
+    "topics": [
+      "Boggart",
+      "fear",
+      "teaching"
+    ],
+    "kind": "testimony",
+    "claim": "Lupin teaches that the charm needs mental effort and an amusing transformation; laughter finishes the Boggart.",
+    "anchors": [
+      "PoA7"
+    ],
+    "limits": "The incantation alone is not the entire technique.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Riddikulus"
+    }
+  },
+  {
+    "id": "fidelius-disclosure",
+    "topics": [
+      "Fidelius",
+      "secrecy"
+    ],
+    "kind": "testimony",
+    "claim": "Flitwick describes a secret concealed in a living Secret Keeper and disclosed by that keeper.",
+    "anchors": [
+      "PoA10"
+    ],
+    "limits": "The surrounding conversation contains an incorrect belief about the Potters' keeper; later revelations matter.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Fidelius"
+    }
+  },
+  {
+    "id": "patronus-training",
+    "topics": [
+      "Patronus",
+      "Harry",
+      "Lupin"
+    ],
+    "kind": "testimony",
+    "claim": "Lupin teaches Harry to focus intensely on a happy memory and warns that many qualified wizards struggle.",
+    "anchors": [
+      "PoA12"
+    ],
+    "limits": "Training success does not guarantee performance under real Dementor pressure.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "happy"
+    }
+  },
+  {
+    "id": "wolfsbane-management",
+    "topics": [
+      "Lupin",
+      "werewolf",
+      "Wolfsbane"
+    ],
+    "kind": "testimony",
+    "claim": "Lupin says the potion taken during the preceding week preserves his mind during transformation.",
+    "anchors": [
+      "PoA18"
+    ],
+    "limits": "It manages the transformation; it is not a cure.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Wolfsbane"
+    }
+  },
+  {
+    "id": "time-turner-rescue",
+    "topics": [
+      "Time-Turner",
+      "Hermione",
+      "time"
+    ],
+    "kind": "event",
+    "claim": "Dumbledore directs Hermione to use three turns and stresses that the rescuers must not be seen.",
+    "anchors": [
+      "PoA21"
+    ],
+    "limits": "Do not infer unlimited alternate-timeline editing from this rescue.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "three turns"
+    }
+  },
+  {
+    "id": "unforgivable-lesson",
+    "topics": [
+      "law",
+      "curses",
+      "Crouch"
+    ],
+    "kind": "testimony",
+    "claim": "The apparent Moody names three Unforgivable Curses and describes a life sentence for use on another human.",
+    "anchors": [
+      "GoF14"
+    ],
+    "limits": "The teacher is an impersonator; later regimes and exceptional use require context.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Unforgivable"
+    }
+  },
+  {
+    "id": "tournament-contract",
+    "topics": [
+      "Triwizard",
+      "contracts"
+    ],
+    "kind": "testimony",
+    "claim": "Adults insist that the selected champions must compete under a binding magical contract.",
+    "anchors": [
+      "GoF17"
+    ],
+    "limits": "The books do not specify a universal soul-loss or death penalty for nonparticipation.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "binding magical"
+    }
+  },
+  {
+    "id": "dobby-wages",
+    "topics": [
+      "Dobby",
+      "labour",
+      "Hogwarts"
+    ],
+    "kind": "testimony",
+    "claim": "Dobby describes negotiated pay of one Galleon a week and one day off a month, below Dumbledore's offer.",
+    "anchors": [
+      "GoF21"
+    ],
+    "limits": "One elf's negotiated preference does not establish universal elf wishes.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Galleon"
+    }
+  },
+  {
+    "id": "hogwarts-electronics",
+    "topics": [
+      "technology",
+      "Hogwarts",
+      "Hermione"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione says electricity, computers and radar malfunction around Hogwarts because of the magical environment.",
+    "anchors": [
+      "GoF28"
+    ],
+    "limits": "This does not establish that every mechanical Muggle object fails everywhere.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "electricity"
+    }
+  },
+  {
+    "id": "room-discovery",
+    "topics": [
+      "Dobby",
+      "Room of Requirement",
+      "DA"
+    ],
+    "kind": "event",
+    "claim": "Dobby tells Harry about the Room of Requirement and explains its response to need.",
+    "anchors": [
+      "OotP18"
+    ],
+    "limits": "Keep discovery, entrance conditions, secrecy and particular room configurations separate.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Come and Go"
+    }
+  },
+  {
+    "id": "protean-coins",
+    "topics": [
+      "communication",
+      "Hermione",
+      "DA"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione links imitation Galleons so changed meeting details on Harry's coin update the others and make them warm.",
+    "anchors": [
+      "OotP19"
+    ],
+    "limits": "This supports a specific messaging mechanism, not an unlimited internet.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Protean"
+    }
+  },
+  {
+    "id": "neville-wrapper",
+    "topics": [
+      "Neville",
+      "Alice",
+      "family"
+    ],
+    "kind": "event",
+    "claim": "Alice gives Neville an empty gum wrapper during a hospital visit and he thanks her.",
+    "anchors": [
+      "OotP23"
+    ],
+    "limits": "The object's relational meaning is interpretation; do not use it as proof of recovered memory.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "wrapper"
+    }
+  },
+  {
+    "id": "legilimency-limits",
+    "topics": [
+      "Snape",
+      "Legilimency",
+      "knowledge"
+    ],
+    "kind": "testimony",
+    "claim": "Snape describes interpreting feelings and memories under conditions, rejecting a simple book-like model of a mind.",
+    "anchors": [
+      "OotP24"
+    ],
+    "limits": "Do not present it as a complete, infallible transcript or automatic courtroom solution.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "mind-reading"
+    }
+  },
+  {
+    "id": "marietta-betrayal",
+    "topics": [
+      "Marietta",
+      "Cho",
+      "DA"
+    ],
+    "kind": "event",
+    "claim": "Umbridge presents Marietta as the witness in the exposure of Dumbledore's Army.",
+    "anchors": [
+      "OotP27"
+    ],
+    "limits": "Do not transfer this book action to Cho without an explicit adaptation choice.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Marietta"
+    }
+  },
+  {
+    "id": "unbreakable-vow",
+    "topics": [
+      "Snape",
+      "Narcissa",
+      "Vow"
+    ],
+    "kind": "event",
+    "claim": "Narcissa asks Snape to make an Unbreakable Vow to protect Draco.",
+    "anchors": [
+      "HBP2"
+    ],
+    "limits": "Do not generalise a named ritual into every spoken promise.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Unbreakable Vow"
+    }
+  },
+  {
+    "id": "altered-memory",
+    "topics": [
+      "Pensieve",
+      "Slughorn",
+      "memory"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore identifies Slughorn's displayed memory as tampered with to conceal shameful information.",
+    "anchors": [
+      "HBP17"
+    ],
+    "limits": "A shown memory still needs provenance and interpretation.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "tampered"
+    }
+  },
+  {
+    "id": "apparition-training",
+    "topics": [
+      "Apparition",
+      "travel"
+    ],
+    "kind": "testimony",
+    "claim": "Twycross teaches destination, determination and deliberation through controlled practice.",
+    "anchors": [
+      "HBP18"
+    ],
+    "limits": "Know-how, restrictions and Splinching make travel more than a destination command.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "destination"
+    }
+  },
+  {
+    "id": "draco-disarms",
+    "topics": [
+      "Draco",
+      "Dumbledore",
+      "wands"
+    ],
+    "kind": "event",
+    "claim": "Draco disarms Dumbledore on the tower after Dumbledore immobilises Harry.",
+    "anchors": [
+      "HBP27"
+    ],
+    "limits": "Reader knowledge of later wand allegiance is unavailable to most witnesses here.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "disarmer"
+    }
+  },
+  {
+    "id": "trace-age",
+    "topics": [
+      "Trace",
+      "age",
+      "travel"
+    ],
+    "kind": "testimony",
+    "claim": "Moody describes detection of magical activity around under-seventeens and the Trace breaking at seventeen.",
+    "anchors": [
+      "DH4"
+    ],
+    "limits": "It is not an adult tracking implant or exact caster identification.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Trace"
+    }
+  },
+  {
+    "id": "fidelius-death",
+    "topics": [
+      "Fidelius",
+      "Dumbledore",
+      "secrecy"
+    ],
+    "kind": "testimony",
+    "claim": "Arthur explains that people told Grimmauld Place's secret become Secret Keepers after Dumbledore dies.",
+    "anchors": [
+      "DH6"
+    ],
+    "limits": "More possible disclosure routes do not mean the location instantly becomes public.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Secret Keeper"
+    }
+  },
+  {
+    "id": "horcrux-remorse",
+    "topics": [
+      "Horcrux",
+      "soul",
+      "remorse"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione reports that genuine remorse can reunite a fragmented soul and that the pain may be fatal.",
+    "anchors": [
+      "DH6"
+    ],
+    "limits": "This is research reported by a character, not a demonstrated safe healing procedure.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "remorse"
+    }
+  },
+  {
+    "id": "regulus-identity",
+    "topics": [
+      "Regulus",
+      "Kreacher",
+      "RAB"
+    ],
+    "kind": "event",
+    "claim": "Harry connects the initials R.A.B. with Regulus Arcturus Black while searching Grimmauld Place.",
+    "anchors": [
+      "DH10"
+    ],
+    "limits": "This recognition does not itself reveal every step of Regulus's actions.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Regulus Arcturus"
+    }
+  },
+  {
+    "id": "lupin-family",
+    "topics": [
+      "Lupin",
+      "Tonks",
+      "family"
+    ],
+    "kind": "event",
+    "claim": "Lupin offers to accompany the trio and then acknowledges that Tonks is expecting a baby.",
+    "anchors": [
+      "DH11"
+    ],
+    "limits": "His offer must be interpreted alongside responsibility and fear, not only heroic usefulness.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "baby"
+    }
+  },
+  {
+    "id": "food-exception",
+    "topics": [
+      "food",
+      "Gamp",
+      "survival"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione explains that food cannot be produced from nothing, but existing food can be summoned, transformed or increased.",
+    "anchors": [
+      "DH15"
+    ],
+    "limits": "Do not invent the other four exceptions or unbounded yields as established rules.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Gamp"
+    }
+  },
+  {
+    "id": "sword-pool",
+    "topics": [
+      "sword",
+      "Harry",
+      "Ron",
+      "Horcrux"
+    ],
+    "kind": "event",
+    "claim": "Harry finds Gryffindor's sword beneath an icy forest pool after following the silver doe.",
+    "anchors": [
+      "DH19"
+    ],
+    "limits": "Separate the discovery from knowledge of who sent the Patronus.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "forest pool"
+    }
+  },
+  {
+    "id": "taboo-trigger",
+    "topics": [
+      "Taboo",
+      "security",
+      "Voldemort"
+    ],
+    "kind": "event",
+    "claim": "Saying Voldemort's name triggers the group's detection after Ron's warning about the Taboo.",
+    "anchors": [
+      "DH22"
+    ],
+    "limits": "Do not treat every earlier use of the name as carrying this later mechanism.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Taboo"
+    }
+  },
+  {
+    "id": "wand-allegiance",
+    "topics": [
+      "wands",
+      "Ollivander",
+      "Draco"
+    ],
+    "kind": "testimony",
+    "claim": "Ollivander says winning a wand can change allegiance, with the manner of taking and the wand itself affecting the result.",
+    "anchors": [
+      "DH24"
+    ],
+    "limits": "Neither mere possession nor every classroom disarming is a universal transfer rule.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "allegiance"
+    }
+  },
+  {
+    "id": "goblin-ownership",
+    "topics": [
+      "goblins",
+      "Griphook",
+      "ownership"
+    ],
+    "kind": "testimony",
+    "claim": "Bill explains a goblin understanding of maker ownership and purchases as something closer to lifetime use.",
+    "anchors": [
+      "DH25"
+    ],
+    "limits": "Bill is a wizard interpreting goblin views; avoid giving every goblin one identical opinion.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "rightful"
+    }
+  },
+  {
+    "id": "room-food-route",
+    "topics": [
+      "Room of Requirement",
+      "Aberforth",
+      "food"
+    ],
+    "kind": "testimony",
+    "claim": "Neville says the Room opened a passage to the Hog's Head and Aberforth supplied food.",
+    "anchors": [
+      "DH29"
+    ],
+    "limits": "The room creates access to a supplier, not food from nothing.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "food"
+    }
+  },
+  {
+    "id": "fiendfyre-destruction",
+    "topics": [
+      "Fiendfyre",
+      "Horcrux",
+      "Crabbe"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione identifies Fiendfyre as a Horcrux-destroying substance after the diadem breaks.",
+    "anchors": [
+      "DH31"
+    ],
+    "limits": "The scene demonstrates catastrophic control risk; power is not a practical safety guarantee.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Fiendfyre"
+    }
+  },
+  {
+    "id": "blood-tether",
+    "topics": [
+      "Harry",
+      "Lily",
+      "Voldemort",
+      "sacrifice"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore explains Harry's survival through Voldemort carrying Harry's blood and Lily's protection.",
+    "anchors": [
+      "DH35"
+    ],
+    "limits": "The King's Cross encounter has its own narrative uncertainty; avoid a general immortality recipe.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "blood"
+    }
+  },
+  {
+    "id": "narcissa-lie",
+    "topics": [
+      "Narcissa",
+      "Draco",
+      "Harry"
+    ],
+    "kind": "event",
+    "claim": "After Harry tells her Draco is alive, Narcissa announces that Harry is dead.",
+    "anchors": [
+      "DH36"
+    ],
+    "limits": "A protective lie about her son does not prove that she abandoned blood prejudice.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Is Draco alive"
+    }
+  },
+  {
+    "id": "elder-wand-repair",
+    "topics": [
+      "Elder Wand",
+      "Harry",
+      "wands"
+    ],
+    "kind": "event",
+    "claim": "Harry repairs his holly wand with the Elder Wand before discussing returning the Elder Wand.",
+    "anchors": [
+      "DH36"
+    ],
+    "limits": "The novel's ending differs from the film's destruction of the Elder Wand.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "repair"
+    }
+  },
+  {
+    "id": "neville-professor",
+    "topics": [
+      "Neville",
+      "postwar",
+      "epilogue"
+    ],
+    "kind": "event",
+    "claim": "James refers to Professor Longbottom and Herbology in the epilogue.",
+    "anchors": [
+      "DH-epilogue"
+    ],
+    "limits": "This establishes his teaching role by that scene, not a complete career chronology.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-16",
+      "locator": "Professor Longbottom"
+    }
+  }
+]

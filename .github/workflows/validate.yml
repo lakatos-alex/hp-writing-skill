@@ -4,11 +4,16 @@ permissions:
   contents: read
 jobs:
   package:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: ['22', '24']
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: '3.12'
-      - run: python tools/validate_package.py
+          node-version: ${{ matrix.node }}
+      - run: node tools/validate_package.mjs
+      - run: node --test tools/tests/hp.test.mjs
       - run: git diff --check

@@ -1,18 +1,11 @@
-# Canon and fanfic reference routing
+# Source-use routing
 
-Read this reference only when a task needs a canonical fact, a worldbuilding calibration, or a long-form serial craft check.
-
-## Routing
-
-| Need | Start here | Then consult |
+| Need | Primary route | Decision |
 |---|---|---|
-| Book canon | The novel or reliable user-supplied reference for the exact fact | Distinguish confirmed text, reasonable inference, and a deliberate AU choice. |
-| Story-local continuity | The story bible, previous chapter, and decision log | Local canon wins once an intentional divergence is recorded. |
-| Serial pacing, time jumps, emotional accumulation | The story's timeline and unresolved hooks | Use a targeted craft reference only when it answers a concrete structural question. |
+| Book-canon fact | [Canon research](workflow-canon-research.md), then the relevant novel | Distinguish event, testimony and interpretation |
+| Accepted story state | Existing manuscript, timeline and decisions | Preserve deliberate AU and local continuity |
+| Serial plot or clue structure | [Story architecture](workflow-story-architecture.md), [mystery](workflow-mystery.md) | Trace cause, information and payoff |
+| Full-corpus development | [Knowledge development](workflow-knowledge-development.md) | Read at requested depth and report actual coverage |
+| Additional media or outside knowledge | [Evidence and extensions](evidence-and-extensions.md) | Label the adopted source and scope |
 
-## Guardrails
-
-- Do not load an entire novel for an ordinary scene request.
-- Do not reproduce source text or imitate the source author's exact voice.
-- Translate a craft observation into an original, project-specific instruction before drafting.
-- Record intended canon divergences and unresolved conflicts in a retrievable story decision log.
+Write original prose using the fanwork's accepted voice. Book passages supply evidence and craft examples; they do not require imitating the source author's sentences. Keep accepted story decisions separate from new proposals.

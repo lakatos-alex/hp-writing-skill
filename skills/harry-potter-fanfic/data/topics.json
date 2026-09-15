@@ -1,0 +1,215 @@
+{
+  "identity": [
+    "Harry Potter",
+    "Tom Riddle",
+    "Parseltongue",
+    "Half-Blood Prince",
+    "Polyjuice"
+  ],
+  "friendship": [
+    "friend",
+    "friends",
+    "trust",
+    "forgive"
+  ],
+  "family": [
+    "mother",
+    "father",
+    "brother",
+    "sister",
+    "family"
+  ],
+  "school": [
+    "lesson",
+    "homework",
+    "exam",
+    "prefect",
+    "detention"
+  ],
+  "houses": [
+    "Gryffindor",
+    "Slytherin",
+    "Ravenclaw",
+    "Hufflepuff"
+  ],
+  "ministry": [
+    "Ministry",
+    "Minister",
+    "Wizengamot",
+    "Decree"
+  ],
+  "prejudice": [
+    "Muggle-born",
+    "Mudblood",
+    "pure-blood",
+    "half-blood"
+  ],
+  "elves": [
+    "Dobby",
+    "Winky",
+    "Kreacher",
+    "house-elf",
+    "house-elves"
+  ],
+  "goblins": [
+    "goblin",
+    "goblins",
+    "Griphook",
+    "Gringotts"
+  ],
+  "secrecy": [
+    "Fidelius",
+    "Secret Keeper",
+    "secret",
+    "invisible"
+  ],
+  "memory": [
+    "Pensieve",
+    "memory",
+    "memories",
+    "remember"
+  ],
+  "mind-magic": [
+    "Occlumency",
+    "Legilimency",
+    "Imperius"
+  ],
+  "travel": [
+    "Apparate",
+    "Apparition",
+    "Portkey",
+    "Floo",
+    "Knight Bus"
+  ],
+  "food": [
+    "food",
+    "kitchen",
+    "breakfast",
+    "dinner",
+    "Gamp"
+  ],
+  "healing": [
+    "Pomfrey",
+    "St Mungo",
+    "Skele-Gro",
+    "Wolfsbane",
+    "bezoar"
+  ],
+  "wands": [
+    "wand",
+    "Ollivander",
+    "allegiance",
+    "Elder Wand"
+  ],
+  "horcruxes": [
+    "Horcrux",
+    "Horcruxes",
+    "diary",
+    "locket",
+    "diadem"
+  ],
+  "hallows": [
+    "Hallows",
+    "Resurrection Stone",
+    "Elder Wand",
+    "Invisibility Cloak"
+  ],
+  "room": [
+    "Room of Requirement",
+    "Come and Go Room",
+    "Hog's Head",
+    "Hog’s Head"
+  ],
+  "communication": [
+    "owl",
+    "letter",
+    "Patronus",
+    "Protean",
+    "coin"
+  ],
+  "creatures": [
+    "Basilisk",
+    "hippogriff",
+    "dragon",
+    "Dementor",
+    "Boggart",
+    "phoenix"
+  ],
+  "forest": [
+    "Forbidden Forest",
+    "centaur",
+    "unicorn",
+    "Acromantula"
+  ],
+  "sport": [
+    "Quidditch",
+    "Snitch",
+    "Quaffle",
+    "Bludger",
+    "Seeker"
+  ],
+  "tournament": [
+    "Tournament",
+    "champion",
+    "Goblet",
+    "Yule Ball"
+  ],
+  "death": [
+    "dead",
+    "death",
+    "died",
+    "grief",
+    "funeral"
+  ],
+  "choices": [
+    "choice",
+    "choose",
+    "chose",
+    "decision"
+  ],
+  "law": [
+    "trial",
+    "arrest",
+    "Azkaban",
+    "hearing",
+    "prison"
+  ],
+  "money": [
+    "Galleon",
+    "Sickle",
+    "Knut",
+    "gold",
+    "pay"
+  ],
+  "research": [
+    "library",
+    "book",
+    "research",
+    "Runes",
+    "Arithmancy"
+  ],
+  "technology": [
+    "electricity",
+    "computer",
+    "radar",
+    "radio",
+    "telephone"
+  ],
+  "time": [
+    "Time-Turner",
+    "Time Turner",
+    "hourglass"
+  ],
+  "resistance": [
+    "Dumbledore's Army",
+    "Dumbledore’s Army",
+    "Order of the Phoenix",
+    "Potterwatch"
+  ],
+  "villains": [
+    "Voldemort",
+    "Death Eater",
+    "Umbridge",
+    "Bellatrix"
+  ]
+}

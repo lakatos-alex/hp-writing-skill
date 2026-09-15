@@ -1,6 +1,6 @@
 interface:
   display_name: "Harry Potter Fanfic"
-  short_description: "Plan, continue, and revise canon-aware Harry Potter fanfiction"
-  default_prompt: "Use $harry-potter-fanfic to plan or revise a canon-aware Harry Potter fanfiction chapter while preserving continuity and the story's own voice."
+  short_description: "Research, write and revise book-grounded Harry Potter fanfic"
+  default_prompt: "Use $harry-potter-fanfic to research, plan or write my next chapter using the relevant workflow, seven-book evidence and my accepted story continuity."
 policy:
   allow_implicit_invocation: true
