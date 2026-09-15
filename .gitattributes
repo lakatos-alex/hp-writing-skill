@@ -5,3 +5,4 @@
 *.yml text eol=lf
 original-sources/ export-ignore
 .github/ export-ignore
+assets/README.md export-ignore

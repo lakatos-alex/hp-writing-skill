@@ -1,10 +1,12 @@
 # Harry Potter Writing Skill
 
+![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
+
 A writing skill for original Harry Potter fanfiction: book-aware character decisions, consequence-bearing magic, long-form continuity, and revision that respects the story's own voice.
 
 Created and maintained by **Alex Lakatos** · [lakatosalex.hu](https://lakatosalex.hu)
 
-**Version:** 0.1.0-rc.1. Prepared privately for a future public release. Repository access currently requires permission.
+**Version:** 0.1.0-rc.1. Public release candidate.
 
 ## Capabilities
 
@@ -73,6 +75,10 @@ python tools/validate_package.py
 ```
 
 The 199-entry chapter index states its [evidence coverage](skills/harry-potter-fanfic/references/source-index.md). It does not imply every canon assertion was freshly verified. Recheck decisive facts against primary text when available.
+
+## Artwork
+
+The repository artwork is an original AI-generated editorial illustration created for this project. It depicts a generic magical academy and contains no franchise characters, logos, or book text. Its [source details](assets/README.md) record its intended use and prompt.
 
 ## Maintenance and credits
 

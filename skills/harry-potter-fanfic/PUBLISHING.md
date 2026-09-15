@@ -11,7 +11,7 @@ The self-contained skill folder includes its license and attribution. Private bo
 
 ## Package
 
-The initial candidate is `0.1.0-rc.1`. Keep repository visibility private until the owner decides to publish. Changing visibility is a separate owner decision, never automatic maintenance.
+The initial candidate is `0.1.0-rc.1` and the repository is public. Before a stable release, review the full Git history, confirm no private material is present, and verify the public README, license and artwork attribution remain accurate.
 
 Create an output directory outside the repository, then run:
 
@@ -21,4 +21,4 @@ git archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/
 
 Inspect ZIP entries before distributing: SKILL.md, references, metadata, evaluations, license and attribution must be present; local books must be absent. Whole-repository archives made with `git archive` exclude `original-sources/` via `.gitattributes`. Arbitrary filesystem ZIP tools may include ignored files, so use the documented command.
 
-When public release is authorized, review repository history and create a versioned release from the verified commit. No public release or automatic publishing workflow is enabled by this candidate.
+Create a versioned GitHub release from a verified commit when the owner accepts a stable version. No automatic publishing workflow is enabled by this candidate.
