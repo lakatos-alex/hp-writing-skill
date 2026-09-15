@@ -6,7 +6,9 @@ A writing skill for original Harry Potter fanfiction: book-aware character decis
 
 Created and maintained by **Alex Lakatos** · [lakatosalex.hu](https://lakatosalex.hu)
 
-**Version:** 0.1.0-rc.1. Public release candidate.
+**Version:** 0.1.0-rc.1. Published public release candidate.
+
+The repository is publicly available on GitHub. The package remains marked `rc.1` until a versioned stable release is tagged; public availability and stable-release status are tracked separately.
 
 ## Capabilities
 
