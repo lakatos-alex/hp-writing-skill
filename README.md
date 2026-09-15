@@ -2,13 +2,11 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-A writing skill for original Harry Potter fanfiction: book-aware character decisions, consequence-bearing magic, long-form continuity, and revision that respects the story's own voice.
-
-Created and maintained by **Alex Lakatos** · [lakatosalex.hu](https://lakatosalex.hu)
+A writing skill for original Harry Potter fanfiction. It supports book-aware character decisions, consequence-bearing magic, long-form continuity, and revision that respects each story's own voice.
 
 **Version:** 0.1.0-rc.1. Published public release candidate.
 
-The repository is publicly available on GitHub. The package remains marked `rc.1` until a versioned stable release is tagged; public availability and stable-release status are tracked separately.
+The repository is publicly available on GitHub. The package remains marked `rc.1` until a versioned stable release is tagged.
 
 ## Capabilities
 
@@ -17,7 +15,7 @@ The repository is publicly available on GitHub. The package remains marked `rc.1
 - Trace changed reveals through earlier reactions and later consequences.
 - Polish repetitive prose without erasing deliberate imagery, ambiguity or individual voices.
 
-The skill follows your existing project layout, documentation and workflow. Review requests remain reviews unless you authorize edits. It provides writing guidance and references, not novels, a hosted generation service or an exhaustive lore database.
+The skill follows an existing project's layout, documentation and workflow. A review request remains a review unless the author authorizes edits. The package provides writing guidance and references; it does not include the novels, a hosted generation service, or an exhaustive lore database.
 
 ## Install
 
@@ -58,7 +56,7 @@ deliberate repetition and Hungarian dialogue format. Calibrate against
 the two approved passages I supplied.
 ```
 
-The seven novels supply default canon. Films, fanon and later material remain separate sources. Explicit AU decisions remain valid. Write in the requested language; the included reference notes and chapter navigation are in English.
+The seven novels supply the default canon. Film details, fanon, and later material remain separate sources. Explicit alternate-universe decisions remain valid. Write in the requested language; the included reference notes and chapter navigation are in English.
 
 ## Optional book sources
 
@@ -86,4 +84,4 @@ The repository artwork is an original AI-generated editorial illustration create
 
 See [CONTRIBUTING.md](CONTRIBUTING.md), the [release procedure](skills/harry-potter-fanfic/PUBLISHING.md), and [acknowledgments](ACKNOWLEDGMENTS.md).
 
-Original guidance and tooling are [MIT licensed](LICENSE), copyright 2026 Alex Lakatos. That license does not grant rights to the Harry Potter books, characters or trademarks. This independent fan project is unaffiliated with and not endorsed by the franchise's creators or rightsholders. It was developed with AI assistance and editorial direction from Alex Lakatos.
+Original guidance and tooling are [MIT licensed](LICENSE), copyright 2026 Alex Lakatos. Maintainer: [Alex Lakatos](https://lakatosalex.hu). The license does not grant rights to the Harry Potter books, characters, or trademarks. This independent fan project is unaffiliated with and not endorsed by the franchise's creators or rightsholders. It was developed with AI assistance and editorial direction.

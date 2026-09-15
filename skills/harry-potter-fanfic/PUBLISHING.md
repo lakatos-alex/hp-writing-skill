@@ -11,7 +11,7 @@ The self-contained skill folder includes its license and attribution. Private bo
 
 ## Package
 
-The `0.1.0-rc.1` candidate has been published in the public repository. No versioned GitHub release tag is currently recorded. Before promoting it to a stable release, review the full Git history, confirm no private material is present, and verify the public README, license and artwork attribution remain accurate.
+The `0.1.0-rc.1` candidate is published in the public repository. No versioned GitHub release tag is currently recorded. Before promoting it to a stable release, review the full Git history, confirm that no private material is present, and verify the public README, license, and artwork attribution.
 
 Create an output directory outside the repository, then run:
 
