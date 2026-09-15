@@ -5,7 +5,7 @@ description: Use when planning, continuing, revising, or auditing Harry Potter f
 metadata:
   author: Alex Lakatos
   version: "0.1.0-rc.1"
-  short-description: Write canon-aware Harry Potter fanfiction
+  short-description: Plan, continue, and revise canon-aware Harry Potter fanfiction
 ---
 
 # Harry Potter fanfic
