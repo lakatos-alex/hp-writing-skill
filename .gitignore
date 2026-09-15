@@ -1,0 +1,14 @@
+/original-sources/*
+!/original-sources/README.md
+*.epub
+*.pdf
+*.mobi
+*.azw
+*.azw3
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.env
+.env.*
+/dist/

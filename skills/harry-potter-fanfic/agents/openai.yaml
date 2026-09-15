@@ -1,0 +1,6 @@
+interface:
+  display_name: "Harry Potter Fanfic"
+  short_description: "Write canon-aware Harry Potter fanfiction"
+  default_prompt: "Use $harry-potter-fanfic to plan a canon-aware Harry Potter fanfic chapter."
+policy:
+  allow_implicit_invocation: true
