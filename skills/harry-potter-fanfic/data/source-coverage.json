@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "edition": "English Pottermore EPUBs supplied by the maintainer",
+  "edition": "Documented English Pottermore EPUB layout",
   "measuredAt": "2026-09-15",
   "method": "Every primary narrative chapter in EPUB spine order, including DH epilogue; front matter, advertisements and next-book previews excluded. Topics are lexical counts, not semantic verification.",
   "books": [

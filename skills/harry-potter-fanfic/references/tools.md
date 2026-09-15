@@ -20,10 +20,10 @@ The data-only commands `chapters` and `facts` work without books. The manuscript
 ## Import
 
 ```sh
-node scripts/hp.mjs import --sources /path/to/original-sources
+node scripts/hp.mjs import --sources /path/to/sources
 ```
 
-The source directory defaults to `HP_SOURCES`, then `original-sources` under the working directory. `--sources` takes precedence. The importer supports the supplied English Pottermore EPUB layout with `hpNN_chNNN` filenames. It validates the primary chapter sequence and expected counts, including DH's epilogue. Other edition layouts fail clearly rather than guessing chapter boundaries.
+The source directory defaults to `HP_SOURCES`, then `original-sources` under the working directory. `--sources` takes precedence. The importer supports the documented English Pottermore EPUB layout with `hpNN_chNNN` filenames. It validates the primary chapter sequence and expected counts, including DH's epilogue. Other edition layouts fail clearly rather than guessing chapter boundaries.
 
 Each import overwrites generated same-stem Markdown and `catalogue.local.json`. EPUBs are read only. All sources are parsed before output writing begins. An operating-system write failure can still leave a partial refresh; rerun after resolving it.
 

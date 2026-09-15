@@ -21,9 +21,9 @@ try {
   const [header, body] = entry.slice(4).split('\n---\n');
   check(/^name: harry-potter-fanfic$/m.test(header), 'Invalid skill name');
   check(/^description: .{1,1024}$/m.test(header), 'Invalid description');
-  check(/version: "0.2.1"/.test(header), 'Unexpected version');
+  check(/version: "0.2.2"/.test(header), 'Unexpected version');
   check(body.split('\n').length < 500, 'Entrypoint needs progressive disclosure');
-  check(fs.readFileSync(path.join(ROOT,'README.md'),'utf8').includes('0.2.1'), 'README version mismatch');
+  check(fs.readFileSync(path.join(ROOT,'README.md'),'utf8').includes('0.2.2'), 'README version mismatch');
   for(const n of ['LICENSE','ACKNOWLEDGMENTS.md']) check(fs.readFileSync(path.join(ROOT,n)).equals(fs.readFileSync(path.join(SKILL,n))), `Notice copy differs: ${n}`);
   const chapters=JSON.parse(fs.readFileSync(path.join(SKILL,'data/chapters.json'),'utf8'));
   const anchors=new Set(chapters.map(c=>c.anchor));

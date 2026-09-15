@@ -17,7 +17,7 @@ The writing agent reported using chapter production, character, continuity and s
 
 ## Deterministic checks
 
-The automated test suite covers text conversion, Unicode/entity handling, literal search and pagination, manuscript counts, missing knowledge routes, object custody, stale catalogues, invalid input and source-free data retrieval. Source integration checks cover all seven local EPUBs and all 199 chapters.
+The automated test suite covers text conversion, Unicode/entity handling, literal search and pagination, manuscript counts, missing knowledge routes, object custody, stale catalogues, invalid input and source-free data retrieval. Source integration checks cover the supported seven-book EPUB collection and all 199 chapters.
 
 The local source test compares normalized letters/numbers across original chapter HTML and converted Markdown, verifies titles, order, hashes and public catalogue alignment, and checks the 44 evidence-card locators. It also looks for exact 30-word source sequences in public Markdown/JSON. This is a specific leak check, not a legal conclusion or exhaustive similarity analysis.
 

@@ -2,7 +2,7 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-**Version 0.2.1.** A substantial, progressively loaded skill for researching, planning, writing and revising original Harry Potter fanfiction.
+**Version 0.2.2.** A substantial, progressively loaded skill for researching, planning, writing and revising original Harry Potter fanfiction.
 
 The seven novels supply the complete primary canon baseline. The skill combines detailed reference material with practical writing workflows and local source tools. Agents load the entrypoint first, then the modules and evidence needed for the task.
 
@@ -15,7 +15,7 @@ npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 For the versioned release:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.2.1 --skill harry-potter-fanfic
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.2.2 --skill harry-potter-fanfic
 ```
 
 The [skills CLI](https://www.skills.sh/docs/cli) installs skills from GitHub. This repository is the published source; it is not a separate npm package. See the [skills.sh FAQ](https://www.skills.sh/docs/faq) for discovery and listing behaviour.
@@ -65,7 +65,7 @@ separate indexed coverage from passages actually examined.
 
 ## Local books and tools
 
-The public package distributes original guidance and tools. Your own sources provide exact primary-text access. The supplied development copies remain local under [original-sources](original-sources/README.md).
+The public package distributes original guidance and tools. A project can provide its own primary-text sources to the optional local importer when exact textual verification is needed.
 
 Guidance and bundled reference data need no runtime. Optional tools require **Node.js 22+**, have no external dependencies and make no network requests:
 
@@ -94,7 +94,7 @@ node tools/verify_sources.mjs /path/to/books
 git diff --check
 ```
 
-The source check requires local books; public CI uses synthetic fixtures and packaged data. See [evaluation cases](skills/harry-potter-fanfic/evals/cases.md), the [release evaluation](skills/harry-potter-fanfic/evals/release-0.2.0.md), and [contributing](CONTRIBUTING.md).
+The source check requires a source directory; public CI uses synthetic fixtures and packaged data. See [evaluation cases](skills/harry-potter-fanfic/evals/cases.md), the [release evaluation](skills/harry-potter-fanfic/evals/release-0.2.0.md), and [contributing](CONTRIBUTING.md).
 
 ## Publication and maintenance
 

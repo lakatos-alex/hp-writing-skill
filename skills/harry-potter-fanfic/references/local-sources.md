@@ -4,9 +4,9 @@ The seven novels are the primary authority for book canon. Development can use t
 
 ## Availability and installation
 
-The public skill contains original analysis, a chapter catalogue and local tools. Supply your own book files when exact evidence is needed. Use the source path from the user or host project; a repository checkout provides `original-sources/` as an optional location. Do not copy a private corpus into the installed skill.
+The public skill contains original analysis, a chapter catalogue and local tools. Supply your own book files when exact evidence is needed. Use the source path provided by the user or host project. Do not copy a private corpus into the installed skill.
 
-The supported EPUB importer produces searchable UTF-8 Markdown and a local catalogue with 199 chapter records across all seven supplied books. See [tools](tools.md) for commands, edition support, output files and side effects. Existing TXT or Markdown can also be searched directly without conversion.
+The supported EPUB importer produces searchable UTF-8 Markdown and a local catalogue with 199 chapter records across the seven novels in the documented edition layout. See [tools](tools.md) for commands, edition support, output files and side effects. Existing TXT or Markdown can also be searched directly without conversion.
 
 ## Evidence retrieval
 
@@ -20,7 +20,7 @@ Depth follows the assignment. A disputed mechanism may need several chapters. A 
 
 ## Source integrity
 
-The importer records source hashes and verifies chapter order, count and titles during development checks. Source commands reject stale hashes. Front matter and promotional excerpts are excluded from narrative output, so a preview of the next novel cannot be mistaken for another chapter of the current novel.
+The importer records source hashes and verifies chapter order, count and titles. Source commands reject stale hashes. Front matter and promotional excerpts are excluded from narrative output, so a preview of the next novel cannot be mistaken for another chapter of the current novel.
 
 The original EPUB remains the reference for layout, illustrations and exact edition features. The conversion handles text and simple emphasis; it is not a facsimile.
 

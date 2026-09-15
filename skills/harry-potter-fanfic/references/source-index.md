@@ -22,7 +22,7 @@ PS16 means book PS, chapter 16; ranges are inclusive. These anchors identify whe
 - **AU / proposal:** identify the user's intentional change and trace its consequences.
 - **Unverified detail:** leave open or consult a primary source; never manufacture precision.
 
-The complete title inventory was checked against the 199 primary chapters imported from the supplied English Pottermore EPUBs. Next-book previews are excluded. The machine-readable [chapter catalogue](../data/chapters.json) adds lexical topic counts; [evidence cards](../data/facts.json) provide 44 selected passage-checked claims with limitations.
+The complete title inventory covers the 199 primary chapters in the documented English Pottermore edition layout. Next-book previews are excluded. The machine-readable [chapter catalogue](../data/chapters.json) adds lexical topic counts; [evidence cards](../data/facts.json) provide 44 selected passage-checked claims with limitations.
 
 See [coverage](coverage.md) for the distinction between full structural indexing, passage verification and broader interpretive references. Use [canon research](workflow-canon-research.md) for precise questions and [knowledge development](workflow-knowledge-development.md) for broad or full-corpus assignments. A chapter anchor identifies where to investigate; it does not certify every interpretation.
 
