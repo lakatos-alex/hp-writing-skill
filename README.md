@@ -2,7 +2,7 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-**Version 0.3.0.** A literary craft framework and deterministic canon engine for researching, planning, writing, and revising original Harry Potter fiction in **English** and **Hungarian**, grounded in the complete seven-book baseline.
+**Version 0.3.1.** A literary craft framework and deterministic canon engine for researching, planning, writing, and revising original Harry Potter fiction in **English** and **Hungarian**, grounded in the complete seven-book baseline.
 
 ---
 
@@ -31,7 +31,7 @@ npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 For a pinned release:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.3.0 --skill harry-potter-fanfic
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.3.1 --skill harry-potter-fanfic
 ```
 
 For manual installation, copy the self-contained [skill folder](skills/harry-potter-fanfic/SKILL.md) into your agent's skills directory.

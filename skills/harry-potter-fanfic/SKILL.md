@@ -4,7 +4,7 @@ description: Plan, write, revise and research Harry Potter fanfiction in English
 license: MIT
 metadata:
   author: Alex Lakatos
-  version: "0.3.0"
+  version: "0.3.1"
   runtime: "Optional tools require Node.js 22+; guidance has no runtime requirement"
 ---
 
