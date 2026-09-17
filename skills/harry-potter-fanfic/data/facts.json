@@ -831,5 +831,120 @@
       "date": "2026-09-16",
       "locator": "Professor Longbottom"
     }
+  },
+  {
+    "id": "flitwick-duelling-champion",
+    "topics": [
+      "Flitwick",
+      "Charms",
+      "duelling"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione mentions hearing that Professor Flitwick was a duelling champion when he was young.",
+    "anchors": [
+      "CoS11"
+    ],
+    "limits": "Reported student testimony; the novels show his teaching and defensive charms rather than his tournament record.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-17",
+      "locator": "duelling champion"
+    }
+  },
+  {
+    "id": "filch-squib-kwikspell",
+    "topics": [
+      "Filch",
+      "Squib",
+      "Kwikspell"
+    ],
+    "kind": "event",
+    "claim": "Harry discovers Filch's Kwikspell correspondence course envelope, and Ron explains that Filch is a Squib.",
+    "anchors": [
+      "CoS8",
+      "CoS9"
+    ],
+    "limits": "Filch's shame and resentment explain his hatred of students, but the books do not present a method for Squibs to acquire magic.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-17",
+      "locator": "KWIKSPELL"
+    }
+  },
+  {
+    "id": "pomfrey-medical-authority",
+    "topics": [
+      "Madam Pomfrey",
+      "healing",
+      "hospital wing"
+    ],
+    "kind": "event",
+    "claim": "Madam Pomfrey enforces strict hospital wing rules, controlling visitor access and even dismissing Dumbledore to ensure patient rest.",
+    "anchors": [
+      "PS17"
+    ],
+    "limits": "Her authority governs the medical space, but dark magical injuries and cursed wounds have permanent limits.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-17",
+      "locator": "Madam Pomfrey, the matron"
+    }
+  },
+  {
+    "id": "sprout-mandrake-antidote",
+    "topics": [
+      "Sprout",
+      "Herbology",
+      "Mandrake"
+    ],
+    "kind": "event",
+    "claim": "Professor Sprout cultivates Mandrakes whose mature cry is lethal, repotting seedlings for a restorative draught.",
+    "anchors": [
+      "CoS6"
+    ],
+    "limits": "The restorative requires mature Mandrakes, imposing a months-long agricultural wait before petrified victims can be cured.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-17",
+      "locator": "re-potting Mandrakes"
+    }
+  },
+  {
+    "id": "percy-ministry-break",
+    "topics": [
+      "Percy",
+      "Ministry",
+      "Weasley"
+    ],
+    "kind": "event",
+    "claim": "Percy sides with Fudge and the Ministry against Dumbledore, severing ties with his family after a bitter argument with Arthur.",
+    "anchors": [
+      "OotP4"
+    ],
+    "limits": "His estrangement is driven by genuine belief in institutional order and personal ambition, not Death Eater loyalty.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-17",
+      "locator": "Percy and Dad had a row"
+    }
+  },
+  {
+    "id": "zabini-slughorn-cynicism",
+    "topics": [
+      "Zabini",
+      "Slytherin",
+      "Slughorn"
+    ],
+    "kind": "testimony",
+    "claim": "Blaise Zabini attends Slughorn's train luncheon, sneering at peers and noting that Nott was excluded after his father's capture at the Ministry.",
+    "anchors": [
+      "HBP7"
+    ],
+    "limits": "Zabini shows high status and pureblood disdain without actively joining Draco's Death Eater mission.",
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-09-17",
+      "locator": "bank on an invitation"
+    }
   }
 ]

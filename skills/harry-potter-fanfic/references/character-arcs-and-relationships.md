@@ -64,9 +64,20 @@ Read alongside the short character map; this file supplies evidence anchors and 
 **Arthur:** GoF7–9 puts curiosity beside Ministry work and response to violence. OotP7 shows professional marginality. OotP22–23 gives the family a tangible fear around his injury.
 **Molly:** OotP5–9 combines hospitality, disputes over information, worry and a Boggart shaped by family loss. Care may become control, but care is still labour with real cost.
 **Fred and George:** GoF37 supplies the shop funding; OotP29 turns spectacle into resistance; DH5 injures George, DH31 kills Fred. Never quietly substitute one twin's outcome for the other's.
-**Percy:** ambition, family conflict and institutional allegiance culminate in return during DH30–31. Give reconciliation awkwardness and timing, not just a moral slogan.
+**Percy:** PS12 makes him the self-important prefect; GoF5 and GoF23 show his desperate emulation of Barty Crouch Sr. and pedantic pride in cauldron-bottom reports; OotP4 details the painful row with Arthur and break with the family; DH30–31 stages his return, grief, and self-deprecating joke before Fred's death. In scenes, do not reduce him to a joke: his ambition is rooted in the fear of family poverty and a genuine desire to build a clean, lawful society.
 **Bill and Fleur:** HBP29 tests others' assumptions about Fleur after Bill's injury; DH24–25 makes Shell Cottage a working refuge. Fleur's courage and competence deserve scenes beyond beauty or accent.
 **Scene use:** large families should contain private alliances, interrupted conversations and unequal knowledge. A group meal is not a roll call in which everyone delivers one interchangeable joke.
+
+## Faculty and staff: pastoral authority, physical limits, and school order
+**Filius Flitwick anchors:** PS8 introduces Charms; CoS11 notes his duelling championship past; DH30–31 shows him taking defensive command at the castle gates and battling Snape.
+**Pomona Sprout anchors:** PS8, greenhouse work; CoS6, repotting Mandrakes with careful noise precautions; DH30–31, weaponising plants (Devil's Snare, Snargaluff pods) against Death Eaters.
+**Poppy Pomfrey anchors:** PS17, strict hospital jurisdiction and ordering Dumbledore out; CoS10, regrowing Harry's arm bones with Skele-Gro overnight; HBP29, treating Bill's werewolf wounds and defining the limits of healing cursed flesh.
+**Argus Filch anchors:** PS8, patrolling corridors with Mrs Norris; CoS8–9, shame over the Kwikspell course and exposure as a Squib; OotP28–29, zeal for Umbridge's decree enforcement as institutional revenge.
+**Scene use:** Faculty authority is not an undifferentiated wall of adult power. Flitwick teaches clean charm mechanics; Sprout insists on patience with living matter; Pomfrey prioritises physical recovery over school glory; Filch tracks physical infractions through non-magical diligence. Distinguish a teacher's classroom persona from their emergency courage.
+
+## Slytherin peer dynamics beyond Draco
+**Blaise Zabini & Theodore Nott anchors:** OotP26 places Nott studying alongside Malfoy in the library; HBP7 shows Zabini at Slughorn's train luncheon, sneering at peers and observing that Nott was excluded after his father's capture at the Ministry.
+**Scene use:** Slytherin is not a monolithic clique subservient to Malfoy. Zabini disdains Death Eater zealotry and Gryffindor earnestness equally, maintaining high-status, detached social independence. Nott carries the quiet intellectual burden of his father's Azkaban trial, keeping counsel in the library rather than brawling in corridors. In scenes, let them disagree with Draco or refuse to applaud his boasts.
 
 ## Supporting cast with useful independent motives
 | Person | Book anchor | Writing use / distortion to avoid |
@@ -75,6 +86,13 @@ Read alongside the short character map; this file supplies evidence anchors and 
 | Kreacher | OotP6, OotP37; DH10 | Inherited loyalty and mistreatment shape cooperation. A changed relationship requires evidence and practical treatment. |
 | Winky | GoF8–9, GoF21, GoF35 | Loyalty, dismissal and distress; Dobby's wishes cannot stand for every elf's experience. |
 | Hagrid | PS4–5; PoA6; GoF24 | Recognition of outsiders and flawed risk judgement; creature enthusiasm is not a reliable safety assessment. |
+| Flitwick | PS8; CoS11; DH30–31 | Precision, joy in charm mechanics, dueling mastery; avoid squeaky cartoon reduction. |
+| Sprout | PS8; CoS6; DH30–31 | Earthy resilience, managing lethal ecosystems, calm pastoral defence; avoid simple gardening caricature. |
+| Pomfrey | PS17; CoS10; HBP29 | Inviolable medical jurisdiction, triage ethics, dark curse limits; avoid potion vending-machine tropes. |
+| Filch | PS8; CoS8–9; OotP28–29 | Squib humiliation, castle navigation, genuine bond with Mrs Norris; avoid pantomime villainy. |
+| Percy | PS6; GoF5, GoF23; OotP4; DH31 | Administrative ambition, family insecurity, costly reconciliation; avoid flat pompous villainy. |
+| Zabini | HBP7, HBP18 | Aristocratic cynicism, detachment from Death Eater fanaticism, high-status observation. |
+| Nott | OotP26; HBP7 | Quiet intellect, Azkaban family trauma, cynical pureblood independence. |
 | Slughorn | HBP4, HBP17, HBP22–23 | Patronage, comfort, shame and selective memory; geniality can conceal consequential evasion. |
 | Tonks | OotP3; HBP29; DH11 | Professional skill alongside awkwardness and emotional stakes; do not let romance erase her work. |
 | Moody / false Moody | GoF14, GoF35; OotP3 | Fourth-year teaching is the impersonator's performance. Do not attribute every action to the real Auror. |

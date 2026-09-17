@@ -48,6 +48,9 @@ Suffix a name according to its pronunciation and written ending; a foreign spell
 | Hermione | `Hermionéval beszélt.` | Final vowel lengthening and a spoken vowel ending |
 | Dumbledore | `Dumbledore-ral találkozott.` | Silent final letter; hyphen and pronunciation-based assimilation |
 | Roxfort | `Roxfortban maradt.` / `roxforti diák` | Case suffix versus derived adjective and capitalization |
+| Zárolt szekció | `A zárolt szekcióban kutatott.` / `a zárolt rész könyvei` | Canonical name for Restricted Section (PS12, CoS9); informal *tiltott könyvek* |
+| Kvibli | `Frics kvibli mivolta kiderült.` | Direct suffix attachment for Squib (CoS9) |
+| VillámVarázs | `A VillámVarázsból próbált tanulni.` | Canonical name for Kwikspell course (CoS8, CoS9) |
 
 These examples do not constitute a universal suffix generator. Check unfamiliar spellings and uncertain pronunciation against a reliable Hungarian orthographic reference or the project's established forms. Do not extrapolate from the final written letter alone. Distinguish attaching a suffix from forming a compound; they do not share one blanket hyphen rule.
 

@@ -80,6 +80,38 @@ This is a quick interpretive overview of the seven novels, not exhaustive biogra
 - **Friction:** arrested development, recklessness, restlessness, contempt for caution, and a tendency to project old conflicts onto younger people.
 - **Writing risk:** do not write him as uncomplicatedly glamorous; the same energy that makes him magnetic can make him dangerous.
 
+### Filius Flitwick
+
+- **Core drive:** foster joy and technical mastery in practical magic, ensuring students develop precision without fear of failure.
+- **Strengths:** supreme non-verbal precision, deep encyclopedic knowledge of charms, pedagogical patience, past championship dueling skill, and fierce protective courage when his house or school is attacked.
+- **Friction:** his gentle demeanor can lead students to underestimate his disciplinary resolve; he prefers encouraging correction over confrontation until safety is compromised.
+- **Relationship logic:** he relates to students as young artisans, valuing curiosity and clean execution over raw spectacle. He balances Ravenclaw's intellectual competition with genuine warmth.
+- **Writing risk:** avoid turning him into a squeaky, comic carnival prop standing on book stacks for cheap laughs. He is an exceptionally accomplished wizard whose cheerfulness is a deliberate pedagogical choice.
+
+### Pomona Sprout
+
+- **Core drive:** nurture life and practical resilience, teaching students that quiet labour and understanding living systems are as essential as wandcraft.
+- **Strengths:** unmatched herbological expertise, practical calm in the face of lethal flora, sturdy common sense, loyalty, and deep pastoral commitment to Hufflepuff's vulnerable students.
+- **Friction:** dirt-stained bluntness, impatience with pureblood posturing or abstract academic vanity that ignores physical labour.
+- **Relationship logic:** she values work ethic, reliability, and care for living things. She does not demand brilliance from her students, only sustained effort and attentiveness to danger.
+- **Writing risk:** do not depict her as a harmless, simple gardening aunt. She cultivates lethal Mandrakes and Venomous Tentacula, weaponises the grounds during the Battle of Hogwarts, and possesses iron resolve.
+
+### Poppy Pomfrey
+
+- **Core drive:** preserve life, health, and dignity in a school whose daily magic routinely causes bodily catastrophe.
+- **Strengths:** clinical decisiveness, encyclopedic diagnostic knowledge, rapid crisis triage, and an incorruptible sense of duty that prioritises patients above institutional convenience.
+- **Friction:** severe bedside manner, impatience with heroism that results in preventable injury, and rigid territorialism over the hospital wing.
+- **Relationship logic:** inside her ward, medical need overrides all social hierarchy; she will order Dumbledore, Ministers, and Aurors out if a patient needs sleep. She asks few questions about rule-breaking provided the student accepts treatment.
+- **Writing risk:** do not treat her as an automatic medical reset button who instantly cures everything with a generic potion. Dark magic, cursed wounds, and missing bones impose real physical limits, pain, and recovery times.
+
+### Argus Filch
+
+- **Core drive:** impose physical order and enforce accountability on a magical population whose casually wielded power constantly reminds him of what he was denied.
+- **Strengths:** exhaustive physical knowledge of castle geography, secret passages, and maintenance shortcuts; relentless vigilance; and deep, genuine devotion to Mrs Norris.
+- **Friction:** bitter resentment, cruelty born of institutional humiliation as a Squib, vindictiveness, and futile yearning for corporal punishment.
+- **Relationship logic:** Mrs Norris is his only mutual, non-judgmental bond in the castle. With students, he expects deception and delivers hostility; with teachers, he navigates an uneasy dependence, grateful for authority but isolated from their magic.
+- **Writing risk:** do not reduce him to a flat, cackling caricature. His malice is rooted in the tragic, claustrophobic reality of a Squib cleaning mud off stone while eleven-year-olds levitate brooms over his head.
+
 ## Peers, rivals, and the Weasley family
 
 ### Luna Lovegood
@@ -123,6 +155,30 @@ This is a quick interpretive overview of the seven novels, not exhaustive biogra
 - **Strengths:** creative intelligence, courage, solidarity, entrepreneurial energy, and an instinct for puncturing authoritarianism.
 - **Friction:** escalation, collateral embarrassment, and a habit of treating rules or risks as material for a joke.
 - **Writing risk:** distinguish their individual reactions when the scene needs emotional precision; humour does not erase grief or consequence.
+
+### Percy Weasley
+
+- **Core drive:** achieve security, respect, and professional distinction through competence, institutional rules, and meritocratic diligence.
+- **Strengths:** meticulous organizational skill, work ethic, academic brilliance (twelve O.W.L.s), administrative stamina, and underlying family loyalty once blinders fall.
+- **Friction:** self-righteous pomposity, rigid deference to authority figures (Crouch, Fudge), defensiveness about family poverty, and profound difficulty admitting error.
+- **Relationship logic:** he measures care through guidance and correction, which younger siblings experience as lecturing. He craves validation from mentors who exploit his eagerness, blinding him to corruption until the break becomes public.
+- **Writing risk:** do not write him merely as a pompous joke or a heartless traitor. His tragedy is that his ambition and desire for respectability were real, making his eventual return and confession of blindness emotionally costly.
+
+### Blaise Zabini
+
+- **Core drive:** maintain aristocratic detachment, social sovereignty, and aesthetic standards without entangling himself in losing causes or vulgar street-level zealotry.
+- **Strengths:** sharp social observation, unflappable composure, independence from both the Death Eater vanguard and Gryffindor posturing, and high pureblood status.
+- **Friction:** chilling arrogance, class prejudice, cynical contempt for almost everyone around him, and zero inclination to risk anything for others.
+- **Relationship logic:** he considers himself superior to Malfoy's desperate posturing and Slughorn's eager networking, observing them with a quiet sneer. He does not seek followers or alliances, only comfortable autonomy.
+- **Writing risk:** do not lump him in with Crabbe and Goyle or make him Malfoy's henchman. Zabini looks down on Malfoy as much as he looks down on everyone else.
+
+### Theodore Nott
+
+- **Core drive:** pursue solitary intellectual mastery and personal survival under the heavy shadow of a violent Death Eater lineage.
+- **Strengths:** acute intelligence, quiet observational capability, independent academic focus (can see Thestrals; studies alongside Malfoy in the library without being his minion).
+- **Friction:** physical frailty, sullen cynicism, isolation, and the inescapable domestic taint of his father's crimes and capture.
+- **Relationship logic:** he operates on the intellectual fringe of Slytherin. He shares pureblood assumptions but has little patience for loud spectacle; he knows firsthand what happens when pureblood posturing meets Azkaban.
+- **Writing risk:** do not treat him as a generic background thug or romanticise him into a secretly soft-hearted rebel. His distance comes from cynicism and caution, not hidden heroism.
 
 ## Antagonistic pressure
 

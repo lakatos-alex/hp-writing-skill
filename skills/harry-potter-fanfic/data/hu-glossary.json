@@ -2327,5 +2327,119 @@
       "enLocator": "Transfiguration",
       "huLocator": "átváltoztatástan"
     }
+  },
+  {
+    "id": "restricted-section",
+    "category": "place",
+    "en": "Restricted Section",
+    "hu": "zárolt szekció",
+    "aliases": [
+      "zárolt rész",
+      "tiltott könyvek"
+    ],
+    "anchors": [
+      "CoS9",
+      "PS12"
+    ],
+    "notes": "Controlled-access collection in the Hogwarts library for advanced, dangerous, or dark texts. Canonical translation uses zárolt szekció or zárolt rész; popular fanon often uses Tiltott Részleg.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Restricted Section",
+      "huLocator": "zárolt szekció"
+    }
+  },
+  {
+    "id": "kwikspell",
+    "category": "object",
+    "en": "Kwikspell",
+    "hu": "VillámVarázs",
+    "aliases": [
+      "beginners magic course"
+    ],
+    "anchors": [
+      "CoS8",
+      "CoS9"
+    ],
+    "notes": "Correspondence course in basic magic ordered by Filch to overcome his lack of magic as a Squib.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Kwikspell",
+      "huLocator": "VillámVarázs"
+    }
+  },
+  {
+    "id": "mandrake",
+    "category": "object",
+    "en": "Mandrake",
+    "hu": "mandragóra",
+    "aliases": [
+      "Mandragora",
+      "szerencsegyökér"
+    ],
+    "anchors": [
+      "CoS6",
+      "CoS18"
+    ],
+    "notes": "Magical restorative plant with a fatal cry when mature, cultivated by Professor Sprout for reviving petrified victims.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Mandrake",
+      "huLocator": "mandragóra"
+    }
+  },
+  {
+    "id": "percy-weasley",
+    "category": "person",
+    "en": "Percy Weasley",
+    "hu": "Percy Weasley",
+    "aliases": [
+      "Percy"
+    ],
+    "anchors": [
+      "PS6"
+    ],
+    "notes": "Third Weasley son, Gryffindor prefect and later Head Boy and Ministry official.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Percy",
+      "huLocator": "Percy"
+    }
+  },
+  {
+    "id": "zabini",
+    "category": "person",
+    "en": "Blaise Zabini",
+    "hu": "Blaise Zambini",
+    "aliases": [
+      "Zabini",
+      "Zambini"
+    ],
+    "anchors": [
+      "HBP7"
+    ],
+    "notes": "Slytherin student in Harry's year. Notice the Hungarian translation renders the surname with an 'm' as Zambini.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Zabini",
+      "huLocator": "Zambini"
+    }
+  },
+  {
+    "id": "theodore-nott",
+    "category": "person",
+    "en": "Theodore Nott",
+    "hu": "Theodore Nott",
+    "aliases": [
+      "Nott"
+    ],
+    "anchors": [
+      "OotP26"
+    ],
+    "notes": "Weedy-looking Slytherin student in Harry's year; son of the Death Eater Nott.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Theodore Nott",
+      "huLocator": "Theodore Nott"
+    }
   }
 ]
