@@ -56,6 +56,7 @@ try {
     check(['event','testimony','interpretation'].includes(f.kind),`Invalid evidence kind: ${f.id}`);
     check(f.verification.status==='passage-checked' && f.verification.locator,`Missing evidence status: ${f.id}`);
   }
+  execFileSync(process.execPath,[path.join(ROOT,'tools','validate_book_knowledge.mjs')],{cwd:ROOT,stdio:'pipe'});
   for(const file of files) {
     const rel=path.relative(ROOT,file);
     check(!/\.(epub|pdf|mobi|azw3?|zip|tgz)$/i.test(file)&&!file.endsWith('.local.json'),`Private or generated payload: ${rel}`);

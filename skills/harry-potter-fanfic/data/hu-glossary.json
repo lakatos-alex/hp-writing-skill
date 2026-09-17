@@ -4,50 +4,127 @@
     "category": "person",
     "en": "Flitwick",
     "hu": "Flitwick",
-    "aliases": ["Charms teacher", "bűbájtanár"],
-    "anchors": ["PS8"],
+    "aliases": [
+      "Charms teacher",
+      "bűbájtanár"
+    ],
+    "anchors": [
+      "PS8",
+      "PS10"
+    ],
     "notes": "Unchanged surname of the Charms teacher, explicitly identified in the lesson introduction. The title follows the name in Hungarian: Flitwick professzor.",
-    "verification": {"status": "paired-term-checked", "enLocator": "Flitwick", "huLocator": "Flitwick"}
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Flitwick",
+      "huLocator": "Flitwick"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Professor Flitwick appeared",
+            "huLocator": "Flitwick professzor bukkant",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "mrs-norris",
     "category": "creature",
     "en": "Mrs Norris",
     "hu": "Mrs Norris",
-    "aliases": ["Norris", "Filch's cat"],
-    "anchors": ["PS8"],
+    "aliases": [
+      "Norris",
+      "Filch's cat"
+    ],
+    "anchors": [
+      "PS8"
+    ],
     "notes": "The caretaker's named cat; both editions retain this name. Do not invent a translated surname merely because Filch becomes Frics.",
-    "verification": {"status": "paired-term-checked", "enLocator": "Mrs Norris", "huLocator": "Mrs Norris"}
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Mrs Norris",
+      "huLocator": "Mrs Norris"
+    }
   },
   {
     "id": "madam-pomfrey",
     "category": "person",
     "en": "Madam Pomfrey",
     "hu": "Madam Pomfrey",
-    "aliases": ["Pomfrey", "school nurse"],
-    "anchors": ["PS17"],
+    "aliases": [
+      "Pomfrey",
+      "school nurse"
+    ],
+    "anchors": [
+      "PS17",
+      "PS1"
+    ],
     "notes": "Unchanged name and title of the school nurse in the hospital scene. This record verifies the name, not every treatment or medical power.",
-    "verification": {"status": "paired-term-checked", "enLocator": "Madam Pomfrey", "huLocator": "Madam Pomfrey"}
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Madam Pomfrey",
+      "huLocator": "Madam Pomfrey"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Madam Pomfrey",
+            "huLocator": "Madam Pomfrey",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
   },
   {
     "id": "hospital-wing",
     "category": "place",
     "en": "hospital wing",
     "hu": "gyengélkedő",
-    "aliases": ["school infirmary"],
-    "anchors": ["PS17"],
+    "aliases": [
+      "school infirmary"
+    ],
+    "anchors": [
+      "PS17"
+    ],
     "notes": "The school's care location where Harry wakes. The Hungarian locator matches the locative gyengélkedőn; it is distinct from the separate St Mungo's hospital.",
-    "verification": {"status": "paired-term-checked", "enLocator": "hospital wing", "huLocator": "gyengélkedő"}
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "hospital wing",
+      "huLocator": "gyengélkedő"
+    }
   },
   {
     "id": "summoning-charm",
     "category": "concept",
     "en": "Summoning Charm",
     "hu": "begyűjtőbűbáj",
-    "aliases": ["summoning", "Accio", "Invito"],
-    "anchors": ["GoF6"],
+    "aliases": [
+      "summoning",
+      "Accio",
+      "Invito"
+    ],
+    "anchors": [
+      "GoF6"
+    ],
     "notes": "The descriptive spell name, distinct from its spoken formula (Accio/Invito). The paired scene describes retrieving hidden sweets; no unlimited range or automatic mastery is implied. Hungarian locator matches the possessive begyűjtőbűbája.",
-    "verification": {"status": "paired-term-checked", "enLocator": "Summoning Charm", "huLocator": "begyűjtőbűbáj"}
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Summoning Charm",
+      "huLocator": "begyűjtőbűbáj"
+    }
   },
   {
     "id": "barty-crouch",
@@ -234,13 +311,30 @@
       "McGalagony"
     ],
     "anchors": [
-      "PS4"
+      "PS4",
+      "PS1",
+      "PS10"
     ],
     "notes": "Translated personal name, checked in the Hogwarts acceptance letter signature.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Minerva McGonagall",
       "huLocator": "Minerva McGalagony"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Professor M. McGonagall",
+            "huLocator": "McGalagony professzor",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -316,13 +410,29 @@
     "hu": "Hóborc",
     "aliases": [],
     "anchors": [
-      "PS7"
+      "PS7",
+      "PS10"
     ],
     "notes": "Named Hogwarts troublemaker. The ghosts' discussion distinguishes him from an ordinary ghost.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Peeves",
       "huLocator": "Hóborc"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Maybe Peeves let it in",
+            "huLocator": "Talán Hóborc szabadított",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -348,13 +458,29 @@
     "hu": "Mógus",
     "aliases": [],
     "anchors": [
-      "PS5"
+      "PS5",
+      "PS10"
     ],
     "notes": "Surname of the professor introduced by Hagrid at the Leaky Cauldron.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Quirrell",
       "huLocator": "Mógus"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Professor Quirrell came",
+            "huLocator": "Mógus rontott",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -386,13 +512,29 @@
       "Piton"
     ],
     "anchors": [
-      "PS9"
+      "PS9",
+      "PS10"
     ],
     "notes": "Translated personal name. The comparison with McGonagall's defeated Quidditch team identifies Snape.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Severus Snape",
       "huLocator": "Perselus Piton"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "not Percy but Snape",
+            "huLocator": "hanem Pitont",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -533,13 +675,29 @@
     "hu": "nagyterem",
     "aliases": [],
     "anchors": [
-      "PS7"
+      "PS7",
+      "PS10"
     ],
     "notes": "Hall used for the school feast. HU locator matches the inflected nagyteremben.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Great Hall",
       "huLocator": "nagyterem"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Great Hall",
+            "huLocator": "nagyterem",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -581,13 +739,29 @@
     "hu": "Roxfort",
     "aliases": [],
     "anchors": [
-      "PS4"
+      "PS4",
+      "PS10"
     ],
     "notes": "School and castle name, checked in Hagrid's introduction. Institutional references use the same name.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Hogwarts",
       "huLocator": "Roxfort"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "at Hogwarts",
+            "huLocator": "a Roxfortból",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -677,13 +851,29 @@
     "hu": "Griffendél",
     "aliases": [],
     "anchors": [
-      "PS6"
+      "PS6",
+      "PS10"
     ],
     "notes": "Hogwarts house, discussed by Hermione on the train. House membership must not be inferred from a name match alone.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Gryffindor",
       "huLocator": "Griffendél"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Gryffindor five points",
+            "huLocator": "Griffendélnek",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -1164,6 +1354,21 @@
       "status": "paired-term-checked",
       "enLocator": "Wingardium Leviosa",
       "huLocator": "Vingardium Leviosa"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Wingardium Leviosa!",
+            "huLocator": "Vingardium leviosa!",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -1180,6 +1385,21 @@
       "status": "paired-term-checked",
       "enLocator": "Bludger",
       "huLocator": "gurkó"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "the Bludgers",
+            "huLocator": "a gurkók",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -1247,6 +1467,21 @@
       "status": "paired-term-checked",
       "enLocator": "Golden Snitch",
       "huLocator": "aranycikesz"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Golden Snitch",
+            "huLocator": "aranycikesz",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -1391,6 +1626,21 @@
       "status": "paired-term-checked",
       "enLocator": "Quaffle",
       "huLocator": "kvaff"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "called the Quaffle",
+            "huLocator": "Ennek a neve kvaff",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -1400,13 +1650,29 @@
     "hu": "nefeleddgömb",
     "aliases": [],
     "anchors": [
-      "PS9"
+      "PS9",
+      "PS10"
     ],
     "notes": "Neville's reminder object. It signals that something was forgotten, not which thing.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Remembrall",
       "huLocator": "nefeleddgömb"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Neville’s Remembrall",
+            "huLocator": "Neville nefeleddgömbjét",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2013,13 +2279,29 @@
     "hu": "Tudjukki",
     "aliases": [],
     "anchors": [
-      "PoA10"
+      "PoA10",
+      "PS1"
     ],
     "notes": "Evasive name for Voldemort. HU forms vary with speaker and sentence; this anchor specifically supports Tudjukki.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "You-Know-Who",
       "huLocator": "Tudjukki"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "You-Know-Who",
+            "huLocator": "Tudjaki",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2084,6 +2366,21 @@
       "status": "paired-term-checked",
       "enLocator": "Beater",
       "huLocator": "terelő"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "two Beaters",
+            "huLocator": "két terelő",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2100,6 +2397,21 @@
       "status": "paired-term-checked",
       "enLocator": "Chaser",
       "huLocator": "hajtó"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "called Chasers",
+            "huLocator": "hajtóknak nevezünk",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2182,6 +2494,21 @@
       "status": "paired-term-checked",
       "enLocator": "Keeper",
       "huLocator": "őrző"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "called the Keeper",
+            "huLocator": "egy őrző is",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2230,6 +2557,21 @@
       "status": "paired-term-checked",
       "enLocator": "Muggle",
       "huLocator": "mugli"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Muggle",
+            "huLocator": "mugli",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2271,13 +2613,29 @@
     "hu": "kviddics",
     "aliases": [],
     "anchors": [
-      "PS5"
+      "PS5",
+      "PS10"
     ],
     "notes": "Wizarding sport named in the shop conversation. HU locator also occurs inside the verb kviddicsezni.",
     "verification": {
       "status": "paired-term-checked",
       "enLocator": "Quidditch",
       "huLocator": "kviddics"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Quidditch is easy enough",
+            "huLocator": "megérteni elég könnyű a kviddicset",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2294,6 +2652,21 @@
       "status": "paired-term-checked",
       "enLocator": "Seeker",
       "huLocator": "fogó"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "the Seeker",
+            "huLocator": "a fogó",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   },
   {
@@ -2440,6 +2813,1277 @@
       "status": "paired-term-checked",
       "enLocator": "Theodore Nott",
       "huLocator": "Theodore Nott"
+    }
+  },
+  {
+    "id": "mr-dursley",
+    "category": "person",
+    "en": "Mr Dursley",
+    "hu": "Dursley úr",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Mr Dursley",
+      "huLocator": "Dursley úr"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Mr Dursley",
+            "huLocator": "Dursley úr",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "petunia-dursley",
+    "category": "person",
+    "en": "Petunia",
+    "hu": "Petunia",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Petunia",
+      "huLocator": "Petunia"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Petunia",
+            "huLocator": "Petunia",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dudley-dursley",
+    "category": "person",
+    "en": "Dudley Dursley",
+    "hu": "Dudley",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Dudley",
+      "huLocator": "Dudley"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Dudley",
+            "huLocator": "Dudley",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "harry-potter",
+    "category": "person",
+    "en": "Harry Potter",
+    "hu": "Harry Potter",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Harry Potter",
+      "huLocator": "Harry Potter"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Harry Potter",
+            "huLocator": "Harry Potter",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lily-potter",
+    "category": "person",
+    "en": "Lily Potter",
+    "hu": "Lily Potter",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Lily and James",
+      "huLocator": "Lily és James"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Lily and James",
+            "huLocator": "Lily és James",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "james-potter",
+    "category": "person",
+    "en": "James Potter",
+    "hu": "James Potter",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Lily and James",
+      "huLocator": "Lily és James"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Lily and James",
+            "huLocator": "Lily és James",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "albus-dumbledore",
+    "category": "person",
+    "en": "Albus Dumbledore",
+    "hu": "Albus Dumbledore",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Albus Dumbledore",
+      "huLocator": "Albus Dumbledore"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Albus Dumbledore",
+            "huLocator": "Albus Dumbledore",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hagrid",
+    "category": "person",
+    "en": "Hagrid",
+    "hu": "Hagrid",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Hagrid",
+      "huLocator": "Hagrid"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Hagrid",
+            "huLocator": "Hagrid",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sirius-black",
+    "category": "person",
+    "en": "Sirius Black",
+    "hu": "Sirius Black",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Sirius Black",
+      "huLocator": "Sirius Blacktől"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Sirius Black",
+            "huLocator": "Sirius Blacktől",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "voldemort",
+    "category": "person",
+    "en": "Voldemort",
+    "hu": "Voldemort",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Voldemort",
+      "huLocator": "Voldemort"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Voldemort",
+            "huLocator": "Voldemort",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dedalus-diggle",
+    "category": "person",
+    "en": "Dedalus Diggle",
+    "hu": "Dedalus Diggle",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Dedalus Diggle",
+      "huLocator": "Dedalus Diggle"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Dedalus Diggle",
+            "huLocator": "Dedalus Diggle",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "jim-mcguffin",
+    "category": "person",
+    "en": "Jim McGuffin",
+    "hu": "Jim McGuffin",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Jim McGuffin",
+      "huLocator": "Jim McGuffin"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Jim McGuffin",
+            "huLocator": "Jim McGuffin",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ted-newsreader",
+    "category": "person",
+    "en": "Ted",
+    "hu": "Ted",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Well, Ted",
+      "huLocator": "Nos, Ted"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Well, Ted",
+            "huLocator": "Nos, Ted",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "voldemort-name",
+    "category": "concept",
+    "en": "Voldemort",
+    "hu": "Voldemort",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Voldemort",
+      "huLocator": "Voldemortnak"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Voldemort",
+            "huLocator": "Voldemortnak",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "put-outer-term",
+    "category": "creature",
+    "en": "Put-Outer",
+    "hu": "önoltó",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Put-Outer",
+      "huLocator": "önoltó"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Put-Outer",
+            "huLocator": "önoltó",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sherbet-lemon",
+    "category": "concept",
+    "en": "sherbet lemon",
+    "hu": "citromos italpor",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "sherbet lemon",
+      "huLocator": "citromos italpor"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "sherbet lemon",
+            "huLocator": "citromos italpor",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "boy-who-lived",
+    "category": "concept",
+    "en": "the boy who lived",
+    "hu": "a kisfiú, aki túlélte",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "the boy who lived",
+      "huLocator": "a kisfiúra, aki túlélte"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "the boy who lived",
+            "huLocator": "a kisfiúra, aki túlélte",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "godrics-hollow",
+    "category": "concept",
+    "en": "Godric's Hollow",
+    "hu": "Godric's Hollow",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Godric’s Hollow",
+      "huLocator": "Godric's Hollowban"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Godric’s Hollow",
+            "huLocator": "Godric's Hollowban",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "privet-drive",
+    "category": "concept",
+    "en": "Privet Drive",
+    "hu": "Privet Drive",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Privet Drive",
+      "huLocator": "Privet Drive"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Privet Drive",
+            "huLocator": "Privet Drive",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "grunnings",
+    "category": "concept",
+    "en": "Grunnings",
+    "hu": "Grunnings",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Paired PS1 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "firm called Grunnings",
+      "huLocator": "egy Grunnings nevű"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS1 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "firm called Grunnings",
+            "huLocator": "egy Grunnings nevű",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "harry",
+    "category": "person",
+    "en": "Harry",
+    "hu": "Harry",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Harry filled Ron in",
+      "huLocator": "Harry időközben beszámolt Ronnak"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Harry filled Ron in",
+            "huLocator": "Harry időközben beszámolt Ronnak",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ron",
+    "category": "person",
+    "en": "Ron",
+    "hu": "Ron",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Harry filled Ron in",
+      "huLocator": "Harry időközben beszámolt Ronnak"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Harry filled Ron in",
+            "huLocator": "Harry időközben beszámolt Ronnak",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "hermione",
+    "category": "person",
+    "en": "Hermione",
+    "hu": "Hermione",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Hermione was now refusing",
+      "huLocator": "Hermione a történtek után"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Hermione was now refusing",
+            "huLocator": "Hermione a történtek után",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "malfoy",
+    "category": "person",
+    "en": "Malfoy",
+    "hu": "Malfoy",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Malfoy seized the package",
+      "huLocator": "Malfoy is felbukkant"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Malfoy seized the package",
+            "huLocator": "Malfoy is felbukkant",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "neville",
+    "category": "person",
+    "en": "Neville",
+    "hu": "Neville",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "All Neville cared about",
+      "huLocator": "Ami Neville-t illeti"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "All Neville cared about",
+            "huLocator": "Ami Neville-t illeti",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "oliver-wood",
+    "category": "person",
+    "en": "Oliver Wood",
+    "hu": "Oliver Wood",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Oliver Wood had arrived",
+      "huLocator": "Megérkezett Oliver Wood"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Oliver Wood had arrived",
+            "huLocator": "Megérkezett Oliver Wood",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "seamus-finnigan",
+    "category": "person",
+    "en": "Seamus Finnigan",
+    "hu": "Seamus Finnigan",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Seamus Finnigan",
+      "huLocator": "Seamus Finnigan"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Seamus Finnigan",
+            "huLocator": "Seamus Finnigan",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "percy",
+    "category": "person",
+    "en": "Percy",
+    "hu": "Percy",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Percy was in his element",
+      "huLocator": "Percy azonnal elemében volt"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Percy was in his element",
+            "huLocator": "Percy azonnal elemében volt",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "professor-dumbledore",
+    "category": "person",
+    "en": "Professor Dumbledore",
+    "hu": "Dumbledore professzor",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Professor Dumbledore’s chair",
+      "huLocator": "Dumbledore professzor asztalához"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Professor Dumbledore’s chair",
+            "huLocator": "Dumbledore professzor asztalához",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "charlie-weasley",
+    "category": "person",
+    "en": "Charlie Weasley",
+    "hu": "Charlie Weasley",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Charlie Weasley",
+      "huLocator": "Charlie Weasleyt"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Charlie Weasley",
+            "huLocator": "Charlie Weasleyt",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "parvati-patil",
+    "category": "person",
+    "en": "Parvati Patil",
+    "hu": "Parvati Patil",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Parvati Patil telling",
+      "huLocator": "Parvati Patil és"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Parvati Patil telling",
+            "huLocator": "Parvati Patil és",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "lavender",
+    "category": "person",
+    "en": "Lavender",
+    "hu": "Lavender",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "friend Lavender",
+      "huLocator": "barátnője, Lavender"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "friend Lavender",
+            "huLocator": "barátnője, Lavender",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "crabbe",
+    "category": "person",
+    "en": "Crabbe",
+    "hu": "Crak",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Crabbe and Goyle",
+      "huLocator": "Crak és Monstro"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Crabbe and Goyle",
+            "huLocator": "Crak és Monstro",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "goyle",
+    "category": "person",
+    "en": "Goyle",
+    "hu": "Monstro",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Crabbe and Goyle",
+      "huLocator": "Crak és Monstro"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Crabbe and Goyle",
+            "huLocator": "Crak és Monstro",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "baruffio",
+    "category": "person",
+    "en": "Wizard Baruffio",
+    "hu": "Baruffio mágus",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Wizard Baruffio",
+      "huLocator": "Baruffio mágus"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Wizard Baruffio",
+            "huLocator": "Baruffio mágus",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fat-lady",
+    "category": "person",
+    "en": "Fat Lady",
+    "hu": "Kövér Dáma",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Fat Lady",
+      "huLocator": "Kövér Dáma"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Fat Lady",
+            "huLocator": "Kövér Dáma",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "nimbus-two-thousand",
+    "category": "concept",
+    "en": "Nimbus Two Thousand",
+    "hu": "Nimbusz Kétezres",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Nimbus Two Thousand",
+      "huLocator": "Nimbusz Kétezres"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Nimbus Two Thousand",
+            "huLocator": "Nimbusz Kétezres",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "comet-two-sixty",
+    "category": "concept",
+    "en": "Comet Two Sixty",
+    "hu": "Kométa Kettő-hatvanas",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Comet Two Sixty",
+      "huLocator": "Kométa Kettő-hatvanas"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Comet Two Sixty",
+            "huLocator": "Kométa Kettő-hatvanas",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "charms",
+    "category": "concept",
+    "en": "Charms",
+    "hu": "bűbájtan",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "in Charms",
+      "huLocator": "bűbájórán"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "in Charms",
+            "huLocator": "bűbájórán",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "mountain-troll-term",
+    "category": "creature",
+    "en": "mountain troll",
+    "hu": "hegyi troll",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "mountain troll",
+      "huLocator": "hegyi troll"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "mountain troll",
+            "huLocator": "hegyi troll",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "pig-snout",
+    "category": "concept",
+    "en": "Pig snout",
+    "hu": "Disznóorr",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Paired PS10 usage; use the chapter-attested form only.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Pig snout",
+      "huLocator": "Disznóorr"
+    },
+    "bookUsage": {
+      "PS": {
+        "notes": "Paired PS10 usage; use the chapter-attested form only.",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Pig snout",
+            "huLocator": "Disznóorr",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   }
 ]

@@ -1,5 +1,7 @@
 # Philosopher's Stone: discovery and belonging
 
+For targeted identity or magic questions, query the [partial character](../data/books/ps/characters.json) and [magic](../data/books/ps/magic.json) datasets through the [local tools](tools.md#book-one-pilot-retrieval). Their [coverage](../data/books/ps/coverage.json) is limited to reviewed PS1/PS10 material. A missing result is a research gap, not a canon absence. Use these book-specific records before the series-wide character map when later revelations would be inappropriate.
+
 ## Narrative orientation
 
 PS1–4 contrasts public magical celebration with Harry's constrained domestic understanding. PS5–7 turns world entry into transactions, travel and sorting. PS8–13 lets ordinary lessons, sport, rule-breaking and friendship accumulate information. PS14–17 brings practical consequences and the final confrontation together. These ranges are orientation, not a claim that every chapter performs only one function.

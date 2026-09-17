@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "book": "PS",
+  "policyVersion": 1,
+  "sourceManifests": {
+    "en": "data/source-coverage.json",
+    "hu": "data/source-coverage-hu.json"
+  },
+  "chapters": [
+    {
+      "anchor": "PS1",
+      "en": "independently-reviewed",
+      "hu": "independently-reviewed"
+    },
+    {
+      "anchor": "PS2",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS3",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS4",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS5",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS6",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS7",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS8",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS9",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS10",
+      "en": "independently-reviewed",
+      "hu": "independently-reviewed"
+    },
+    {
+      "anchor": "PS11",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS12",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS13",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS14",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS15",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS16",
+      "en": "not-started",
+      "hu": "not-started"
+    },
+    {
+      "anchor": "PS17",
+      "en": "not-started",
+      "hu": "not-started"
+    }
+  ],
+  "categoryCounts": {
+    "characters": 42,
+    "magic": 14,
+    "terms": 27,
+    "facts": 12
+  },
+  "candidateDisposition": {
+    "pending": 43,
+    "accepted": 74,
+    "merged": 24,
+    "excluded": 5,
+    "unresolved": 4
+  },
+  "reviewDate": "2026-09-17",
+  "limitations": [
+    "Partial PS pilot: only PS1 and PS10 received independent paired review and consolidation.",
+    "PS2–PS9 and PS11–PS17 are not started.",
+    "Published entries record only paired chapter context and do not establish unstated mechanisms or later-book details."
+  ]
+}

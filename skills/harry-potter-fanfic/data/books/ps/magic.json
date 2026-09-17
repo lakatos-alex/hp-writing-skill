@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "book": "PS",
+  "entries": [
+    {
+      "id": "mcgonagall-cat-transformation",
+      "kind": "magical-effect",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "McGonagall's cat form",
+      "labelHu": "McGalagony macskaalakja",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "McGonagall is observed as a tabby cat and returns to human form; mechanism is not explained here.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "Professor McGonagall",
+              "huLocator": "McGalagony professzor",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "put-outer-street-lamps",
+      "kind": "enchanted-object",
+      "nameGlossaryId": "put-outer-term",
+      "incantationGlossaryId": null,
+      "labelEn": "Put-Outer",
+      "labelHu": "önoltó",
+      "labelKind": "canonical-term",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "Dumbledore extinguishes twelve street lamps and later restores their lights with the silver device.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "Put-Outer",
+              "huLocator": "önoltó",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "dumbledore-arrival-disappearance",
+      "kind": "magical-effect",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Dumbledore's sudden arrival and departure",
+      "labelHu": "Dumbledore hirtelen érkezése és távozása",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "Dumbledore appears silently at the street corner and later vanishes with a swish; method unnamed.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "appeared so suddenly",
+              "huLocator": "hirtelen és csendesen jelent meg",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "flying-motorbike",
+      "kind": "enchanted-object",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "flying motorbike",
+      "labelHu": "motorkerékpár",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "Hagrid arrives by an airborne motorbike and departs into the night sky.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "motorbike fell out of the air",
+              "huLocator": "motorkerékpárt",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "harry-survives-voldemort-attack",
+      "kind": "claimed-magic",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Harry's survival and Voldemort's broken power",
+      "labelHu": "Harry túlélése és Voldemort erejének megtörése",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "reported",
+          "outcome": "uncertain",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "McGonagall reports that Voldemort failed to kill Harry and lost his power; Dumbledore confirms only the broad report, cause unknown.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "Voldemort’s power somehow broke",
+              "huLocator": "egyszerre elhagyta az ereje",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "lightning-scar",
+      "kind": "magical-effect",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Harry's lightning-shaped scar",
+      "labelHu": "Harry villám alakú sebe",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "explained",
+          "outcome": "not-demonstrated",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "Harry bears a permanent scar from the attack; whether it has an active magical effect is not demonstrated.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "lightning",
+              "huLocator": "villám alakú seb",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "shooting-stars-reported",
+      "kind": "claimed-magic",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "shooting stars",
+      "labelHu": "hullócsillagok",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS1",
+          "mode": "reported",
+          "outcome": "uncertain",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "Muggle weather report describes shooting stars; McGonagall speculates Dedalus Diggle caused the Kent display.",
+          "evidence": [
+            {
+              "anchor": "PS1",
+              "kind": "event",
+              "enLocator": "downpour of shooting stars",
+              "huLocator": "hullócsillagok záporoztak",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "nimbus-flight",
+      "kind": "enchanted-object",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Nimbus Two Thousand flight",
+      "labelHu": "Nimbusz Kétezres repülése",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Nimbus Two Thousand flight; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "Nimbus Two Thousand turned",
+              "huLocator": "Nimbusz Kétezres szinte",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "bludger-behaviour",
+      "kind": "enchanted-object",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Bludger",
+      "labelHu": "A gurkó viselkedése",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Bludger / gurkó behaviour; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "freed one of the Bludgers",
+              "huLocator": "kiszabadította az egyik gurkót",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "golden-snitch-behaviour",
+      "kind": "enchanted-object",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Golden Snitch",
+      "labelHu": "Az aranycikesz viselkedése",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Golden Snitch / aranycikesz behaviour; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "is the Golden Snitch",
+              "huLocator": "Ez itt az aranycikesz",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "flitwick-toad-flight",
+      "kind": "magical-effect",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Flitwick’s prior toad flight demonstration",
+      "labelHu": "Flitwick korábbi varangyreptetése",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Flitwick’s prior toad flight demonstration; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "make Neville’s toad zoom",
+              "huLocator": "körberöptette a teremben Neville varangyát",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "seamus-feather-ignition",
+      "kind": "magical-effect",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Seamus’s feather ignition",
+      "labelHu": "Seamus tollának meggyulladása",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Seamus’s feather ignition; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "set fire to it",
+              "huLocator": "lángra lobbantotta a tollat",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "wingardium-leviosa",
+      "kind": "spell",
+      "nameGlossaryId": "wingardium-leviosa",
+      "incantationGlossaryId": "wingardium-leviosa",
+      "labelEn": "Wingardium Leviosa",
+      "labelHu": "Vingardium leviosa",
+      "labelKind": "canonical-term",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Wingardium Leviosa / Vingardium leviosa; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "Wingardium Leviosa!",
+              "huLocator": "Vingardium leviosa!",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    },
+    {
+      "id": "dumbledore-firecrackers",
+      "kind": "magical-effect",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Dumbledore’s wand firecrackers",
+      "labelHu": "Dumbledore pálcás tűzijátéka",
+      "labelKind": "editorial-label",
+      "occurrences": [
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [],
+          "targetIds": [],
+          "summary": "The paired chapter records Dumbledore’s wand firecrackers; no additional mechanism is inferred.",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "purple firecrackers exploding",
+              "huLocator": "piros tűzijátékot kellett pálcájával",
+              "scope": "chapter context",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+    }
+  ]
+}

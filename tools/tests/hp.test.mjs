@@ -4,7 +4,9 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-import { decode, plain, markdown, unzip, search, audit, checkState, loadCatalogue, hash, root } from '../../skills/harry-potter-fanfic/scripts/hp.mjs';
+import { decode, plain, markdown, unzip, search, audit, checkState, loadCatalogue, hash, root, projectBookFact, projectBookGlossary } from '../../skills/harry-potter-fanfic/scripts/hp.mjs';
+import { validateBookKnowledge, validatePrivateProgress } from '../validate_book_knowledge.mjs';
+function temporary(run) { const dir=fs.mkdtempSync(path.join(os.tmpdir(),'hp-knowledge-')); try{return run(dir);}finally{fs.rmSync(dir,{recursive:true,force:true});} }
 test('conversion preserves Unicode and simple emphasis, removes empty emphasis and head',()=>{
   const result=markdown('<html><head><title>Metadata</title></head><body><h1>Chapter</h1><p>Éva &amp; Ivo: <em>wait</em>.</p><p><em> </em></p><p>Next&#8217;s turn.</p></body></html>');
   assert.equal(result,"## Chapter\n\nÉva & Ivo: *wait*.\n\nNext’s turn.");
@@ -59,4 +61,28 @@ test('CLI provides help for --help, -h, help, or subcommand --help',()=>{
     assert.equal(r.status, 0);
     assert.match(r.stdout, /hp\.mjs import\|inventory/);
   }
+});
+test('book knowledge pilot is structurally valid and retrieval is explicitly incomplete',()=>{
+  assert.deepEqual(validateBookKnowledge(),{characters:42,magic:14,coverage:17});
+  const coverage=cli('coverage','--book','PS');assert.equal(coverage.status,0);assert.equal(JSON.parse(coverage.stdout).coverageState,'incomplete');
+  const characters=cli('characters','--book','PS','--limit','1');assert.equal(characters.status,0);assert.equal(JSON.parse(characters.stdout).total,42);
+  const paged=cli('facts','--book','PS','--page','--limit','1');assert.equal(paged.status,0);assert.deepEqual(Object.keys(JSON.parse(paged.stdout)).sort(),['facts','nextOffset','offset','total']);
+  assert.notEqual(cli('facts','--limit','1').status,0);assert.notEqual(cli('magic','--book','PS','--id','x','--query','x').status,0);
+});
+test('private progress validator rejects stale hashes and incomplete reviewed intervals',()=>temporary(dir=>{
+  const valid={schemaVersion:1,book:'PS',sourceHashes:{en:'en-hash',hu:'hu-hash'},candidateDisposition:{pending:0,accepted:0,merged:0,excluded:0,unresolved:0},chapter:{anchor:'PS1',en:{semanticStatus:'reviewed',reviewedIntervals:[{start:0,end:4,totalCharacters:4,sourceHash:'en-hash',reader:'test'}]},hu:{semanticStatus:'reviewed',reviewedIntervals:[{start:0,end:4,totalCharacters:4,sourceHash:'hu-hash',reader:'test'}]}}};
+  const file=path.join(dir,'progress.local.json');fs.writeFileSync(file,JSON.stringify(valid));assert.equal(validatePrivateProgress(file).chapters,1);
+  valid.chapter.en.reviewedIntervals[0].sourceHash='stale';fs.writeFileSync(file,JSON.stringify(valid));assert.throws(()=>validatePrivateProgress(file),/Stale interval hash/);
+}));
+test('private progress validator accepts per-chapter languages shape without aggregate counters',()=>temporary(dir=>{
+  const valid={schemaVersion:1,book:'PS',anchor:'PS10',sourceHashes:{en:'en-hash',hu:'hu-hash'},languages:{en:{semanticStatus:'reviewed',reviewedIntervals:[{start:0,end:4,totalCharacters:4,sourceHash:'en-hash',reader:'test'}]},hu:{semanticStatus:'reviewed',reviewedIntervals:[{start:0,end:4,totalCharacters:4,sourceHash:'hu-hash',reader:'test'}]}}};
+  const file=path.join(dir,'progress-PS10.local.json');fs.writeFileSync(file,JSON.stringify(valid));
+  assert.deepEqual(validatePrivateProgress(file),{chapters:1,candidates:{pending:0,accepted:0,merged:0,excluded:0,unresolved:0}});
+}));
+test('strict PS projections remove later-scope legacy text',()=>{
+  const evidence=[{anchor:'PS1',kind:'event',enLocator:'one',huLocator:'egy',scope:'scene',status:'paired-context-reviewed'}];
+  const fact=projectBookFact({id:'safe',topics:['x'],kind:'event',claim:'later reveal',limits:'later limits',anchors:['PS1','DH1'],bookUsage:{PS:{claim:'PS-only claim',limits:'PS-only limits',status:'paired-context-reviewed',evidence}}},'PS');
+  assert.deepEqual(fact,{id:'safe',topics:['x'],kind:'event',claim:'PS-only claim',limits:'PS-only limits',anchors:['PS1'],evidence});
+  const term=projectBookGlossary({id:'term',en:'Term',hu:'Kifejezés',aliases:[],anchors:['PS1','DH1'],notes:'later notes',bookUsage:{PS:{notes:'PS-only note',evidence}}},'PS');
+  assert.equal(term.notes,'PS-only note');assert.deepEqual(term.anchors,['PS1']);assert.deepEqual(term.evidence,evidence);
 });

@@ -946,5 +946,413 @@
       "date": "2026-09-17",
       "locator": "bank on an invitation"
     }
+  },
+  {
+    "id": "potter-deaths-reported",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore confirms the report of their deaths after Voldemort's visit; source is dialogue testimony.",
+    "anchors": [
+      "PS1"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "Lily and James Potter are"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "Dumbledore confirms the report of their deaths after Voldemort's visit; source is dialogue testimony.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Lily and James Potter are",
+            "huLocator": "Lily és James Potter",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "harry-only-family",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore gives this as the reason for placing Harry with the Dursleys.",
+    "anchors": [
+      "PS1"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "only family he has left"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "Dumbledore gives this as the reason for placing Harry with the Dursleys.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "only family he has left",
+            "huLocator": "egyedüli rokonai",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "wizarding-secrecy-risk",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "testimony",
+    "claim": "McGonagall treats public robes, rumours, owls, and stars as a secrecy risk.",
+    "anchors": [
+      "PS1"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "Muggles found out about us"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "McGonagall treats public robes, rumours, owls, and stars as a secrecy risk.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "Muggles found out about us",
+            "huLocator": "leplezzük le magunkat a muglik",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "harry-placed-privet-drive",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "claim": "Dumbledore leaves sleeping Harry with a letter at the Dursleys' door.",
+    "anchors": [
+      "PS1"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "laid Harry gently on the doorstep"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "Dumbledore leaves sleeping Harry with a letter at the Dursleys' door.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "laid Harry gently on the doorstep",
+            "huLocator": "lefektette Harryt az ajtó elé",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "potter-attack-cause-unknown",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "testimony",
+    "claim": "Dumbledore explicitly limits knowledge about how Harry survived.",
+    "anchors": [
+      "PS1"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "We may never know"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "Dumbledore explicitly limits knowledge about how Harry survived.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS1",
+            "kind": "event",
+            "enLocator": "We may never know",
+            "huLocator": "Nem tudunk semmi biztosat",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "first-year-broom-exception",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "special circumstances"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records first-year broom exception.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "special circumstances",
+            "huLocator": "kivételesen engedélyezték",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records first-year broom exception."
+  },
+  {
+    "id": "quidditch-team-structure",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "seven players on each side"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records Quidditch team structure and scoring.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "seven players on each side",
+            "huLocator": "Mindkét csapat hét játékosból áll",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records Quidditch team structure and scoring."
+  },
+  {
+    "id": "quidditch-practice-cadence",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "three times a week"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records Harry’s training schedule.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "three times a week",
+            "huLocator": "hetente háromszor",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records Harry’s training schedule."
+  },
+  {
+    "id": "charms-levitation-lesson",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "nice wrist movement"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records first-year levitation lesson.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "nice wrist movement",
+            "huLocator": "finom csuklómozdulatról",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records first-year levitation lesson."
+  },
+  {
+    "id": "troll-evacuation",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "lead your houses back"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records troll emergency evacuation.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "lead your houses back",
+            "huLocator": "vezessék a házuk tanulóit",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records troll emergency evacuation."
+  },
+  {
+    "id": "troll-encounter-consequences",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "You each win Gryffindor five points"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records troll encounter points and testimony.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "You each win Gryffindor five points",
+            "huLocator": "fejenként öt pontot szereztek",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records troll encounter points and testimony."
+  },
+  {
+    "id": "trio-friendship-turn",
+    "topics": [
+      "ps",
+      "chapter-evidence"
+    ],
+    "kind": "event",
+    "anchors": [
+      "PS10"
+    ],
+    "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+    "verification": {
+      "status": "passage-checked",
+      "locator": "became their friend"
+    },
+    "bookUsage": {
+      "PS": {
+        "claim": "The chapter records Hermione becomes Harry and Ron’s friend.",
+        "limits": "Limited to the paired chapter context; this does not establish later causes, identities, or consequences.",
+        "status": "paired-context-reviewed",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "became their friend",
+            "huLocator": "a barátjuk volt",
+            "scope": "chapter context",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    },
+    "claim": "The chapter records Hermione becomes Harry and Ron’s friend."
   }
 ]

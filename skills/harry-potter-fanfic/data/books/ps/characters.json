@@ -1,0 +1,1500 @@
+{
+  "schemaVersion": 1,
+  "book": "PS",
+  "entries": [
+    {
+      "id": "mr-dursley",
+      "glossaryId": "mr-dursley",
+      "labelEn": "Mr Dursley",
+      "labelHu": "Dursley úr",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Mr Dursley",
+          "huLocator": "Dursley úr",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "petunia-dursley",
+      "glossaryId": "petunia-dursley",
+      "labelEn": "Petunia",
+      "labelHu": "Petunia",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Petunia",
+          "huLocator": "Petunia",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "dudley-dursley",
+      "glossaryId": "dudley-dursley",
+      "labelEn": "Dudley Dursley",
+      "labelHu": "Dudley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "harry-potter",
+      "glossaryId": "harry-potter",
+      "labelEn": "Harry Potter",
+      "labelHu": "Harry Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        },
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Harry filled Ron in",
+          "huLocator": "Harry időközben beszámolt Ronnak",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "lily-potter",
+      "glossaryId": "lily-potter",
+      "labelEn": "Lily Potter",
+      "labelHu": "Lily Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Lily and James",
+          "huLocator": "Lily és James",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "james-potter",
+      "glossaryId": "james-potter",
+      "labelEn": "James Potter",
+      "labelHu": "James Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Lily and James",
+          "huLocator": "Lily és James",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "albus-dumbledore",
+      "glossaryId": "albus-dumbledore",
+      "labelEn": "Albus Dumbledore",
+      "labelHu": "Albus Dumbledore",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        },
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Professor Dumbledore’s chair",
+          "huLocator": "Dumbledore professzor asztalához",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "minerva-mcgonagall",
+      "glossaryId": "minerva-mcgonagall",
+      "labelEn": "Professor McGonagall",
+      "labelHu": "McGalagony professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "hagrid",
+      "glossaryId": "hagrid",
+      "labelEn": "Hagrid",
+      "labelHu": "Hagrid",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "sirius-black",
+      "glossaryId": "sirius-black",
+      "labelEn": "Sirius Black",
+      "labelHu": "Sirius Black",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Blacktől",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "voldemort",
+      "glossaryId": "voldemort",
+      "labelEn": "Voldemort",
+      "labelHu": "Voldemort",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "dedalus-diggle",
+      "glossaryId": "dedalus-diggle",
+      "labelEn": "Dedalus Diggle",
+      "labelHu": "Dedalus Diggle",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Dedalus Diggle",
+          "huLocator": "Dedalus Diggle",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "madam-pomfrey",
+      "glossaryId": "madam-pomfrey",
+      "labelEn": "Madam Pomfrey",
+      "labelHu": "Madam Pomfrey",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "jim-mcguffin",
+      "glossaryId": "jim-mcguffin",
+      "labelEn": "Jim McGuffin",
+      "labelHu": "Jim McGuffin",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Jim McGuffin",
+          "huLocator": "Jim McGuffin",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "ted-newsreader",
+      "glossaryId": "ted-newsreader",
+      "labelEn": "Ted",
+      "labelHu": "Ted",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Well, Ted",
+          "huLocator": "Nos, Ted",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "violet-cloaked-old-man",
+      "glossaryId": null,
+      "labelEn": "tiny old violet-cloaked man",
+      "labelHu": "töpörödött öregember",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "tiny old man",
+          "huLocator": "töpörödött öregember",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "dursley-secretary",
+      "glossaryId": null,
+      "labelEn": "Mr Dursley's secretary",
+      "labelHu": "titkárnője",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "his secretary",
+          "huLocator": "titkárnőjére",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "mrs-next-door",
+      "glossaryId": null,
+      "labelEn": "Mrs Next Door",
+      "labelHu": "szomszédasszony",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Mrs Next Door",
+          "huLocator": "szomszédasszony",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "neighbours-child",
+      "glossaryId": null,
+      "labelEn": "Mrs Next Door's daughter",
+      "labelHu": "szomszédasszony gyereke",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "her daughter",
+          "huLocator": "gyerekéről",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "owls-group",
+      "glossaryId": null,
+      "labelEn": "owls",
+      "labelHu": "baglyok",
+      "labelKind": "editorial-label",
+      "entityKind": "group",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "owls swooping",
+          "huLocator": "röpködő baglyok",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "cloaked-celebrants",
+      "glossaryId": null,
+      "labelEn": "people in cloaks",
+      "labelHu": "taláros emberek",
+      "labelKind": "editorial-label",
+      "entityKind": "group",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "people in cloaks",
+          "huLocator": "taláros emberek",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "muggles-group",
+      "glossaryId": null,
+      "labelEn": "Muggles",
+      "labelHu": "muglik",
+      "labelKind": "editorial-label",
+      "entityKind": "group",
+      "presence": [
+        {
+          "anchor": "PS1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Muggles",
+          "huLocator": "muglik",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS1"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "ron",
+      "glossaryId": "ron",
+      "labelEn": "Ron",
+      "labelHu": "Ron",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Harry filled Ron in",
+          "huLocator": "Harry időközben beszámolt Ronnak",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "hermione",
+      "glossaryId": "hermione",
+      "labelEn": "Hermione",
+      "labelHu": "Hermione",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Hermione was now refusing",
+          "huLocator": "Hermione a történtek után",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "malfoy",
+      "glossaryId": "malfoy",
+      "labelEn": "Malfoy",
+      "labelHu": "Malfoy",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Malfoy seized the package",
+          "huLocator": "Malfoy is felbukkant",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "neville",
+      "glossaryId": "neville",
+      "labelEn": "Neville",
+      "labelHu": "Neville",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "All Neville cared about",
+          "huLocator": "Ami Neville-t illeti",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "oliver-wood",
+      "glossaryId": "oliver-wood",
+      "labelEn": "Oliver Wood",
+      "labelHu": "Oliver Wood",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Oliver Wood had arrived",
+          "huLocator": "Megérkezett Oliver Wood",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "flitwick",
+      "glossaryId": "flitwick",
+      "labelEn": "Professor Flitwick",
+      "labelHu": "Flitwick professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Professor Flitwick appeared",
+          "huLocator": "Flitwick professzor bukkant",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "seamus-finnigan",
+      "glossaryId": "seamus-finnigan",
+      "labelEn": "Seamus Finnigan",
+      "labelHu": "Seamus Finnigan",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "percy-weasley",
+      "glossaryId": "percy",
+      "labelEn": "Percy",
+      "labelHu": "Percy",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Percy was in his element",
+          "huLocator": "Percy azonnal elemében volt",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "severus-snape",
+      "glossaryId": "severus-snape",
+      "labelEn": "Snape",
+      "labelHu": "Piton",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "not Percy but Snape",
+          "huLocator": "hanem Pitont",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "quirrell",
+      "glossaryId": "quirrell",
+      "labelEn": "Professor Quirrell",
+      "labelHu": "Mógus professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Professor Quirrell came",
+          "huLocator": "Mógus rontott",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "charlie-weasley",
+      "glossaryId": "charlie-weasley",
+      "labelEn": "Charlie Weasley",
+      "labelHu": "Charlie Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Charlie Weasley",
+          "huLocator": "Charlie Weasleyt",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "parvati-patil",
+      "glossaryId": "parvati-patil",
+      "labelEn": "Parvati Patil",
+      "labelHu": "Parvati Patil",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Parvati Patil telling",
+          "huLocator": "Parvati Patil és",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "lavender",
+      "glossaryId": "lavender",
+      "labelEn": "Lavender",
+      "labelHu": "Lavender",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "friend Lavender",
+          "huLocator": "barátnője, Lavender",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "crabbe",
+      "glossaryId": "crabbe",
+      "labelEn": "Crabbe",
+      "labelHu": "Crak",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Crabbe and Goyle",
+          "huLocator": "Crak és Monstro",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "goyle",
+      "glossaryId": "goyle",
+      "labelEn": "Goyle",
+      "labelHu": "Monstro",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Crabbe and Goyle",
+          "huLocator": "Crak és Monstro",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "weasley-twins",
+      "glossaryId": null,
+      "labelEn": "Weasley twins",
+      "labelHu": "Weasley ikrek",
+      "labelKind": "editorial-label",
+      "entityKind": "group",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "The Weasley twins",
+          "huLocator": "Weasley ikrek",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "baruffio",
+      "glossaryId": "baruffio",
+      "labelEn": "Wizard Baruffio",
+      "labelHu": "Baruffio mágus",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Wizard Baruffio",
+          "huLocator": "Baruffio mágus",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "mountain-troll",
+      "glossaryId": null,
+      "labelEn": "mountain troll",
+      "labelHu": "hegyi troll",
+      "labelKind": "editorial-label",
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "mountain troll",
+          "huLocator": "hegyi troll",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "peeves",
+      "glossaryId": "peeves",
+      "labelEn": "Peeves",
+      "labelHu": "Hóborc",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Maybe Peeves let it in",
+          "huLocator": "Talán Hóborc szabadított",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    },
+    {
+      "id": "fat-lady",
+      "glossaryId": "fat-lady",
+      "labelEn": "Fat Lady",
+      "labelHu": "Kövér Dáma",
+      "labelKind": "canonical-term",
+      "entityKind": "portrait",
+      "presence": [
+        {
+          "anchor": "PS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Fat Lady",
+          "huLocator": "Kövér Dáma",
+          "scope": "chapter context",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [
+        {
+          "text": "Record only the paired chapter context; later identity details are outside this entry.",
+          "kind": "interpretation",
+          "anchors": [
+            "PS10"
+          ]
+        }
+      ],
+      "limits": "This record is limited to the named or described PS chapter referent."
+    }
+  ]
+}

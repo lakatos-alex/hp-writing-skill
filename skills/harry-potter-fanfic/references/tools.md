@@ -14,13 +14,29 @@ The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no thir
 | `align` | Read an English/Hungarian chapter pair with independent offsets | None |
 | `facts` | Filter bundled original evidence cards | None |
 | `glossary` | Find English/Hungarian terms, aliases and usage notes | None |
+| `characters`, `magic` | Query the partial PS character and magic datasets | None |
+| `coverage` | Report reviewed chapter coverage and limitations for PS | None |
 | `lint-hu` | Flag English headwords that may be inconsistent with a Hungarian draft | None |
 | `audit` | Count manuscript words and find long duplicate paragraphs | None |
 | `check-state` | Check explicit knowledge routes and object transfers | None |
 
 The data-only commands `chapters`, `facts` and `glossary` work without books. The manuscript commands need only the selected input file. The advisory `lint-hu` scan never changes text and does not replace grammatical or editorial review.
 
-## Import
+## Book-one pilot retrieval
+
+The source-free PS datasets currently cover reviewed material from PS1 and PS10, not the whole book. Query coverage before relying on a missing result. Supported book-specific knowledge is currently PS only.
+
+```sh
+node scripts/hp.mjs characters --book PS --id harry-potter
+node scripts/hp.mjs magic --book PS --query Leviosa --limit 5
+node scripts/hp.mjs glossary --book PS --query Harry
+node scripts/hp.mjs facts --book PS --page --limit 10 --offset 0
+node scripts/hp.mjs coverage --book PS
+```
+
+Character and magic results use `total`, `offset`, `nextOffset` and `entries`; choose either `--id` or `--query`. Paged facts use the same pagination fields and `facts`. Existing unpaged fact commands still return an array; `--limit` and `--offset` require `--page`. Strict PS lookups omit unreviewed later-book notes and use reviewed PS-specific claims. This book filter does not impose a chapter-by-chapter knowledge cutoff on a scene.
+
+## Import books
 
 ```sh
 node scripts/hp.mjs import --sources /path/to/sources

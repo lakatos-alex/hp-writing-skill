@@ -363,7 +363,7 @@ function options(args) {
   for (let i = 0; i < args.length; i++) {
     if (!args[i].startsWith('--')) throw Error(`Unexpected argument: ${args[i]}`);
     const key = args[i].slice(2);
-    if (['json', 'full', 'strict', 'help'].includes(key)) out[key] = true;
+    if (['json', 'full', 'strict', 'help', 'page'].includes(key)) out[key] = true;
     else { if (args[i + 1] == null || args[i + 1].startsWith('--')) throw Error(`Missing value for --${key}`); out[key] = args[++i]; }
   }
   return out;
@@ -385,11 +385,21 @@ export function sourceDirectory(base, language) {
   if (fs.existsSync(nested) && fs.statSync(nested).isDirectory()) return nested;
   return base;
 }
-export function glossary(query, category) {
+export function projectBookGlossary(entry, book) {
+  const usage = entry.bookUsage?.[book];
+  return {...entry, anchors:entry.anchors.filter(anchor => anchor.startsWith(book)), notes:usage?.notes ?? 'Verified terminology occurrence only; no book-specific usage note has been reviewed.', ...(usage?.evidence ? {evidence:usage.evidence} : {})};
+}
+export function projectBookFact(fact, book) {
+  const usage = fact.bookUsage?.[book];
+  if (!usage?.evidence?.length || usage.status !== 'paired-context-reviewed') return null;
+  return {id:fact.id, topics:fact.topics, kind:fact.kind, claim:usage.claim, limits:usage.limits, anchors:fact.anchors.filter(anchor => anchor.startsWith(book)), evidence:usage.evidence};
+}
+export function glossary(query, category, book) {
   const entries = JSON.parse(fs.readFileSync(path.join(root, 'data/hu-glossary.json'), 'utf8'));
   if (category && !entries.some(e => e.category === category)) throw Error(`Unknown glossary category: ${category}`);
+  if (book && book !== 'PS') throw Error(`Unsupported book knowledge: ${book}`);
   const needle = query?.normalize('NFKC').toLocaleLowerCase('hu');
-  return entries.filter(e => (!category || e.category === category) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle)));
+  return entries.filter(e => (!category || e.category === category) && (!book || e.anchors?.some(anchor => anchor.startsWith(`${book}`))) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle))).map(e => book ? projectBookGlossary(e, book) : e);
 }
 export function lintHungarian(text) {
   const warnings = [];
@@ -458,10 +468,10 @@ export function checkState(s) {
   return { ok: errors.length === 0, errors, note: 'Checks supplied events, not manuscript semantics.' };
 }
 export function main(args = process.argv.slice(2)) {
-  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--query TEXT] [--category person] [--limit 20]. Facts: --query TEXT [--kind event|testimony|interpretation]. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.';
+  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|magic|coverage|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Characters/magic: --book PS [--query TEXT|--id ID] [--limit 10] [--offset 0]. Coverage: --book PS. PS is the only published book dataset currently; its pilot coverage is incomplete. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.';
   if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') return console.log(helpText);
   const [command, ...rest] = args, o = options(rest);
-  const allowed = { help: [], import: ['sources', 'lang', 'strict', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','limit','offset','json'], 'lint-hu': ['file','json'], facts: ['query', 'kind', 'json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
+  const allowed = { help: [], import: ['sources', 'lang', 'strict', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','book','limit','offset','json'], 'lint-hu': ['file','json'], facts: ['query', 'kind', 'book', 'page', 'limit', 'offset', 'json'], characters: ['book','query','id','limit','offset','json'], magic: ['book','query','id','limit','offset','json'], coverage: ['book','json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
   if (!allowed[command]) throw Error(`Unknown command: ${command}`);
   for (const k of Object.keys(o)) if (!allowed[command].includes(k)) throw Error(`Unknown option --${k} for ${command}`);
   const base = path.resolve(o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
@@ -478,10 +488,29 @@ export function main(args = process.argv.slice(2)) {
     result = { total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, chapters: found.slice(offset, offset + limit) };
   } else if (command === 'facts') {
     const facts = JSON.parse(fs.readFileSync(path.join(root, 'data', 'facts.json'), 'utf8'));
-    result = facts.filter(f => (!o.kind || f.kind === o.kind) && (!o.query || JSON.stringify(f).toLowerCase().includes(o.query.toLowerCase())));
+    if (o.kind && !['event','testimony','interpretation'].includes(o.kind)) throw Error(`Unknown fact kind: ${o.kind}`);
+    if (o.book && o.book !== 'PS') throw Error(`Unsupported book knowledge: ${o.book}`);
+    if (!o.page && (o.limit != null || o.offset != null)) throw Error('Facts pagination requires --page');
+    const found = facts.filter(f => (!o.kind || f.kind === o.kind) && (!o.query || JSON.stringify(f).toLowerCase().includes(o.query.toLowerCase()))).map(f => o.book ? projectBookFact(f, o.book) : f).filter(Boolean);
+    if (o.page) { const offset = integer(o.offset, 0), limit = integer(o.limit, 10, 1); result = {total:found.length, offset, nextOffset:offset + limit < found.length ? offset + limit : null, facts:found.slice(offset, offset + limit)}; }
+    else result = found;
   } else if (command === 'glossary') {
-    const found = glossary(o.query, o.category), offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
+    const found = glossary(o.query, o.category, o.book), offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
     result = { total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, entries: found.slice(offset, offset + limit) };
+  } else if (command === 'characters' || command === 'magic') {
+    if (o.book !== 'PS') throw Error(`Unsupported book knowledge: ${o.book ?? '(choose PS)'}`);
+    if (o.id && o.query) throw Error('--id and --query cannot be combined');
+    const entries = JSON.parse(fs.readFileSync(path.join(root, 'data', 'books', 'ps', `${command}.json`), 'utf8')).entries;
+    const query = o.query?.normalize('NFKC').toLocaleLowerCase('hu');
+    const found = entries.filter(entry => (!o.id || entry.id === o.id) && (!query || [entry.id,entry.labelEn,entry.labelHu, ...(command === 'magic' ? entry.occurrences.map(item => item.summary) : [])].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(query)));
+    const offset = integer(o.offset, 0), limit = integer(o.limit, 10, 1); result = {total:found.length, offset, nextOffset:offset + limit < found.length ? offset + limit : null, entries:found.slice(offset, offset + limit)};
+  } else if (command === 'coverage') {
+    if (o.book !== 'PS') throw Error(`Unsupported book knowledge: ${o.book ?? '(choose PS)'}`);
+    const coverage = JSON.parse(fs.readFileSync(path.join(root, 'data', 'books', 'ps', 'coverage.json'), 'utf8'));
+    const characters=JSON.parse(fs.readFileSync(path.join(root, 'data', 'books', 'ps', 'characters.json'), 'utf8')).entries;
+    const magic=JSON.parse(fs.readFileSync(path.join(root, 'data', 'books', 'ps', 'magic.json'), 'utf8')).entries;
+    const complete=coverage.chapters.every(chapter => chapter.en === 'independently-reviewed' && chapter.hu === 'independently-reviewed') && coverage.candidateDisposition.pending === 0 && coverage.candidateDisposition.unresolved === 0 && coverage.categoryCounts.characters === characters.length && coverage.categoryCounts.magic === magic.length;
+    result = {book:coverage.book, coverageState:complete ? 'complete' : 'incomplete', chapters:coverage.chapters, categoryCounts:coverage.categoryCounts, candidateDisposition:coverage.candidateDisposition, limitations:coverage.limitations};
   } else if (command === 'align') {
     if (!o.anchor) throw Error('--anchor is required');
     const offset = integer(o.offset, 0), limit = integer(o['max-chars'], 4000, 1);

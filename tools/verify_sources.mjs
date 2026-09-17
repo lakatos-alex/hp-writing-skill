@@ -1,7 +1,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { root, extractBook, loadCatalogue, unzip, plain, search, sourceDirectory } from '../skills/harry-potter-fanfic/scripts/hp.mjs';
 const dir=path.resolve(process.argv[2]??'original-sources');
+const projectRoot=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const check=(ok,m)=>{if(!ok)throw Error(m);};
 const normalize=s=>s.normalize('NFKC').replace(/[^\p{L}\p{N}]/gu,'');
 try {
@@ -32,7 +34,10 @@ try {
   check(count===199,'Incomplete narrative corpus');
   const facts=JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8'));
   for(const f of facts)check(search(books,{anchor:f.anchors[0],query:f.verification.locator,limit:1,context:0}).total>0,`Missing fact locator: ${f.id}`);
+  const psBookRecords=['characters','magic'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data','books','ps',`${name}.json`),'utf8')).entries);
+  const psEvidencePresent=[...JSON.parse(fs.readFileSync(path.join(root,'data/hu-glossary.json'),'utf8')),...JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8')),...psBookRecords].some(record=>(record.evidence??[]).some(item=>item.anchor.startsWith('PS')) || (record.bookUsage?.PS?.evidence?.length) || (record.occurrences??[]).some(occurrence=>(occurrence.evidence??[]).length));
   const huDir=path.join(dir,'hu'); let hu=[];
+  check(!psEvidencePresent || fs.existsSync(path.join(huDir,'catalogue.local.json')),'PS evidence requires a Hungarian source catalogue');
   if(fs.existsSync(path.join(huDir,'catalogue.local.json'))) {
     hu=loadCatalogue(huDir).books;
     check(hu.length===7&&hu.flatMap(b=>b.chapters).length===199,'Expected complete Hungarian seven-book corpus');
@@ -57,14 +62,20 @@ try {
       check(search(books,{anchor:e.anchors[0],query:e.verification.enLocator,limit:1,context:0}).total>0,`Missing English term: ${e.id}`);
       check(search(hu,{anchor:e.anchors[0],query:e.verification.huLocator,limit:1,context:0}).total>0,`Missing Hungarian term: ${e.id}`);
     }
+    const facts=JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8'));
+    const bookRecords=psBookRecords;
+    const evidenceRecords=[...glossary,...facts,...bookRecords];
+    const checkEvidence=(record,label)=>{for(const item of record.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English evidence locator: ${label}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian evidence locator: ${label}`);}}
+    for(const record of evidenceRecords) checkEvidence(record,record.id);
+    for(const record of bookRecords) for(const occurrence of record.occurrences??[]) for(const item of occurrence.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English occurrence locator: ${record.id}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian occurrence locator: ${record.id}`);}
     console.log(`PASS: 199 Hungarian chapters; 162 EPUB chapters compared to XHTML; 37 PDF chapter hashes/Markdown checked; ${glossary.length} bilingual term locators present.`);
     console.log('PDF extraction fidelity is evaluated separately by the edition-specific converter and visual page checks.');
   }
   // Report long exact word sequences copied into public prose/data, using 30-word windows.
   const tokenize=s=>(s.toLowerCase().match(/[\p{L}\p{N}]+/gu)??[]);
   const candidates=new Map();
-  function walk(p){for(const e of fs.readdirSync(p,{withFileTypes:true})){const f=path.join(p,e.name);if(e.isDirectory())walk(f);else if(/\.(md|json)$/.test(f)){const w=tokenize(fs.readFileSync(f,'utf8'));for(let i=0;i+30<=w.length;i++)candidates.set(w.slice(i,i+30).join(' '),path.relative(root,f));}}}
-  walk(root);
+  function walk(p){for(const e of fs.readdirSync(p,{withFileTypes:true})){if(['.git','node_modules','original-sources'].includes(e.name))continue;const f=path.join(p,e.name);if(e.isDirectory())walk(f);else if(/\.(md|json)$/.test(f)){const w=tokenize(fs.readFileSync(f,'utf8'));for(let i=0;i+30<=w.length;i++)candidates.set(w.slice(i,i+30).join(' '),path.relative(projectRoot,f));}}}
+  walk(projectRoot);
   for(const b of [...books,...hu])for(const c of b.chapters){const w=tokenize(c.text);for(let i=0;i+30<=w.length;i++){const key=w.slice(i,i+30).join(' ');check(!candidates.has(key),`Long source sequence in ${candidates.get(key)} from ${c.anchor}`);}}
   console.log(`PASS: ${books.length} EPUBs, ${count} primary chapters; normalized text preserved, titles and hashes agree; ${facts.length} locators present; no 30-word source sequences in public prose/data.`);
   console.log('Text comparison ignores punctuation/whitespace and checks letters/numbers. Locator checks are retrieval tests, not independent semantic verification.');

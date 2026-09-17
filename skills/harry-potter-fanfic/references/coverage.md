@@ -18,7 +18,7 @@ That PDF already contains missing accents, displaced initials, inconsistent head
 | Hungarian EPUB structure and normalized text | 6 EPUBs, 162 chapters | NCX/spine agreement; letters/numbers compared to source XHTML |
 | Hungarian PDF text layer | 1 PDF, 37 chapters | Page/line accounting, source defects retained, hashes and saved text checked |
 | Topic retrieval | 33 English vocabularies | Lexical counts; Hungarian ranks inherit aligned English counts |
-| Evidence cards | 44 original cards | Selected passage readings with claim type and limitations |
+| Evidence cards | 62 original cards | Selected passage readings with claim type and limitations |
 | Bilingual terminology | Searchable paired entries | Short term locators in EN/HU chapters, referents checked in context |
 | Hungarian craft analysis | 12 paired chapter samples across the first six books | Selected windows actually examined, listed in the prose guide |
 | Behavioural evaluation | Fixed A/B/C protocol and preserved outputs | Observed writing behaviour under stated resource conditions |
@@ -26,6 +26,8 @@ That PDF already contains missing accents, displaced initials, inconsistent head
 The [Hungarian prose sampling table](hungarian-prose.md#paired-evidence-sampling) identifies the examined windows. These findings describe broad craft functions and support original writing. They are not a translator fingerprint, a signature phrase collection or full-book literary verification.
 
 ## Limits
+
+The [PS character and magic coverage record](../data/books/ps/coverage.json) describes an incremental pilot: PS1 and PS10 were read in both languages and independently reviewed. The published slice contains 42 character identities and 14 magic records, with qualified evidence and Hungarian labels. Other PS chapters are not represented by this published pilot; private research in progress does not count as published coverage. The shared glossary currently contains 192 paired entries. These counts do not establish complete book-one coverage or improved writing quality.
 
 An indexed chapter is not a chapter semantically read by an agent. A locator match is not independent proof of a claim. The source check re-finds evidence-card and glossary locators; interpretive accuracy still needs contextual judgment. The no-long-match publication scan catches exact 30-word source sequences, not every possible copyright or editorial issue.
 
