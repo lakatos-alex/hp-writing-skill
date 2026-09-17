@@ -1,0 +1,61 @@
+{
+  "files": [
+    {
+      "file": "A1.md",
+      "sha256": "5c106cbb34dcebead384da50f3865b1a9144bfb8dff388bcae173ebf335d9b89"
+    },
+    {
+      "file": "A2.md",
+      "sha256": "0b7188d300d24cb8412f536251100aeb8b97c57b352ce30a45f078b54db718de"
+    },
+    {
+      "file": "B1.md",
+      "sha256": "1c23add22630c5270e990945c08926da9f64e91119c86121bf567f6fe95cf3cd"
+    },
+    {
+      "file": "B2.md",
+      "sha256": "75a95c3468597040ad5c41b87671e014a62601e7ed0175648bf39191f36e9090"
+    },
+    {
+      "file": "C1.md",
+      "sha256": "555163bdeb48c743b93e461a22db09828c858a7bc77919b8a0713b05833abc79"
+    },
+    {
+      "file": "C2.md",
+      "sha256": "6611eec5ca4a8735d282ea216669823957da3e254c26208303c9cad01d1968b9"
+    },
+    {
+      "file": "scenarios.json",
+      "sha256": "46d18ec08de572b109dadaf7fa9b15195113acaaf638f428fc86ed24feae5083"
+    },
+    {
+      "file": "snapshot.json",
+      "sha256": "66629f1d96a0e3ba758202a8fa9e367fc560c589247b302d9ec244361234fa34"
+    },
+    {
+      "file": "blind-map.json",
+      "sha256": "2b975cfc43dd722b146cb85dde7f695f750d7382689931bd5c2aff636dad2274"
+    },
+    {
+      "file": "judge-1.json",
+      "sha256": "bd41d0f329ac2457edc458f7144689f07a3800d870666d2ea0c83a80d3c1f24a"
+    },
+    {
+      "file": "judge-2.json",
+      "sha256": "c5414a2f7cca7d3642dd6055499ab3c799ac5c383a16229d32df7d7e8b8c08ef"
+    },
+    {
+      "file": "judge-1-calibrated.json",
+      "sha256": "ae20b68375660e70c1db0e31803185ec29a40827c773377237de5ec86438a32f"
+    },
+    {
+      "file": "judge-2-calibrated.json",
+      "sha256": "9e178ad6e45293156f1ddf8f2e9b43194d508f2983706d2ec98e24daca8b451f"
+    },
+    {
+      "file": "retest.md",
+      "sha256": "7552fcc8f72d25948e9ddcfeb564bab6c6575c618344482d374aab6043f7a216"
+    }
+  ],
+  "retestWords": 385
+}

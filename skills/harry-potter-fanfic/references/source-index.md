@@ -24,6 +24,8 @@ PS16 means book PS, chapter 16; ranges are inclusive. These anchors identify whe
 
 The complete title inventory covers the 199 primary chapters in the documented English Pottermore edition layout. Next-book previews are excluded. The machine-readable [chapter catalogue](../data/chapters.json) adds lexical topic counts; [evidence cards](../data/facts.json) provide 44 selected passage-checked claims with limitations.
 
+The [Hungarian catalogue](../data/chapters-hu.json) uses the same anchors. Query it with `chapters --lang hu`; its topic ranks come from the aligned English chapter. Hungarian DH titles preserve a degraded PDF transcription and are not authoritative spellings. Use the [terminology guide](hungarian-terminology.md) for cross-language naming questions.
+
 See [coverage](coverage.md) for the distinction between full structural indexing, passage verification and broader interpretive references. Use [canon research](workflow-canon-research.md) for precise questions and [knowledge development](workflow-knowledge-development.md) for broad or full-corpus assignments. A chapter anchor identifies where to investigate; it does not certify every interpretation.
 
 ## Chapter navigation

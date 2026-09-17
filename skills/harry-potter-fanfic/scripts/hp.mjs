@@ -88,12 +88,35 @@ export function extractBook(file) {
     const m = doc.name.match(/hp(\d{2})_ch(\d{3})_/i);
     if (m) { const key = Number(m[1]); if (!grouped.has(key)) grouped.set(key, []); grouped.get(key).push({ ...doc, number: Number(m[2]) }); }
   }
-  const winner = [...grouped.entries()].sort((a, b) => b[1].length - a[1].length)[0];
-  if (!winner) throw Error('Unsupported edition: expected hpNN_chNNN chapter filenames; no guessed boundaries');
+  let winner = [...grouped.entries()].sort((a, b) => b[1].length - a[1].length)[0];
+  if (!winner && /^hu(?:-|$)/i.test(language)) {
+    const titles = ['bölcsek köve', 'titkok kamrája', 'azkabani fogoly', 'tűz serlege', 'főnix rendje', 'félvér herceg', 'halál ereklyéi'];
+    const bookNumber = titles.findIndex(t => title.toLocaleLowerCase('hu').includes(t)) + 1;
+    const ncx = [...manifest.values()].find(item => item['media-type'] === 'application/x-dtbncx+xml');
+    if (!bookNumber || !ncx) throw Error('Unsupported Hungarian edition: missing recognised title or NCX');
+    const ncxName = path.posix.normalize(path.posix.join(base, ncx.href));
+    const nav = [...get(ncxName).matchAll(/<navPoint\b[^]*?<\/navPoint>/g)].map(m => ({
+      label: plain(m[0].match(/<navLabel\b[^>]*>([^]*?)<\/navLabel>/)?.[1] ?? ''),
+      href: attrs(m[0].match(/<content\b[^>]*>/)?.[0] ?? '').src
+    }));
+    if (nav.length !== counts[bookNumber - 1] || nav.some(n => !n.href || n.href.includes('#') || !/fejezet /i.test(n.label))) throw Error('Unsupported Hungarian chapter navigation; no guessed boundaries');
+    const raw = nav.map((n, i) => {
+      const name = path.posix.normalize(path.posix.join(path.posix.dirname(ncxName), decodeURIComponent(n.href)));
+      const doc = documents.find(d => d.name === name);
+      if (!doc) throw Error(`Chapter missing from spine: ${name}`);
+      const heading = plain(doc.html.match(/<h1\b[^>]*>([^]*?)<\/h1>/i)?.[1] ?? '');
+      if (heading !== n.label) throw Error(`Navigation/title mismatch: ${name}`);
+      return { ...doc, number: i + 1 };
+    });
+    const positions = raw.map(c => documents.findIndex(d => d.name === c.name));
+    if (positions.some((p, i) => i > 0 && p !== positions[i - 1] + 1)) throw Error('Duplicate, split or out-of-order Hungarian chapters');
+    winner = [bookNumber, raw];
+  }
+  if (!winner) throw Error('Unsupported edition: expected Pottermore chapter filenames or documented Hungarian NCX layout');
   const [bookNumber, raw] = winner, code = codes[bookNumber - 1];
   if (!code || raw.length !== counts[bookNumber - 1] || raw.some((c, i) => c.number !== i + 1)) throw Error(`Missing, duplicate, or out-of-order chapters in ${file}`);
   const chapters = raw.map(c => {
-    const title = plain(c.html.match(/<h1\b[^>]*>([^]*?)<\/h1>/i)?.[1] ?? '');
+    const title = plain(c.html.match(/<h1\b[^>]*>([^]*?)<\/h1>/i)?.[1] ?? '').replace(/^\S+ fejezet\s+/i, '');
     if (!title) throw Error(`Missing chapter title: ${c.name}`);
     const text = markdown(c.html.replace(/<h[1-6]\b[^>]*>[^]*?<\/h[1-6]>/gi, ''));
     if (text.length < 100) throw Error(`Empty chapter: ${c.name}`);
@@ -103,16 +126,24 @@ export function extractBook(file) {
   return { code, title, language, source: path.basename(file), sha256: hash(bytes), chapters,
     excluded: documents.filter(d => !raw.some(c => c.name === d.name)).map(d => d.name) };
 }
-export function importSources(dir) {
+export function importSources(dir, language) {
   dir = path.resolve(dir);
-  const files = fs.readdirSync(dir).filter(f => f.toLowerCase().endsWith('.epub'));
-  if (!files.length) throw Error(`No EPUB sources in ${dir}`);
-  const books = files.map(f => extractBook(path.join(dir, f))).sort((a, b) => codes.indexOf(a.code) - codes.indexOf(b.code));
+  const entries = fs.readdirSync(dir);
+  const files = entries.filter(f => f.toLowerCase().endsWith('.epub'));
+  const sidecars = entries.filter(f => f.endsWith('.pdf.local.json')).map(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
+  if (!files.length && !sidecars.length) throw Error(`No EPUB sources or converted PDF sidecars in ${dir}`);
+  for (const b of sidecars) {
+    if (path.basename(b.source ?? '') !== b.source || !b.source.endsWith('.pdf') || hash(fs.readFileSync(path.join(dir, b.source))) !== b.sha256) throw Error('Invalid or stale PDF sidecar source');
+    if (!codes.includes(b.code) || b.chapters?.length !== counts[codes.indexOf(b.code)] || b.chapters.some((c,i) => c.number !== i+1 || c.anchor !== (b.code === 'DH' && i === 36 ? 'DH-epilogue' : `${b.code}${i+1}`) || typeof c.text !== 'string' || hash(c.text) !== c.sha256)) throw Error('Invalid PDF sidecar chapters');
+  }
+  const books = [...files.map(f => extractBook(path.join(dir, f))), ...sidecars].sort((a, b) => codes.indexOf(a.code) - codes.indexOf(b.code));
   if (new Set(books.map(b => b.code)).size !== books.length) throw Error('Duplicate editions: use one edition per book');
+  if (new Set(books.map(b => b.language.split('-')[0])).size !== 1) throw Error('Use a separate source directory per language');
+  if (language && books.some(b => b.language.split('-')[0] !== language)) throw Error('Source language differs from --lang');
   // Every source passes validation before generated outputs are replaced.
-  for (const b of books) fs.writeFileSync(path.join(dir, b.source.replace(/\.epub$/i, '.md')), `# ${b.title}\n\nSource: ${b.source} | Language: ${b.language}\n\n` + b.chapters.map(c => `## ${c.anchor}: ${c.title}\n\n${c.text}\n`).join('\n'), 'utf8');
+  for (const b of books) fs.writeFileSync(path.join(dir, b.source.replace(/\.(epub|pdf)$/i, '.md')), `# ${b.title}\n\nSource: ${b.source} | Language: ${b.language}\n\n` + b.chapters.map(c => `## ${c.anchor}: ${c.title}\n\n${c.text}\n`).join('\n'), 'utf8');
   fs.writeFileSync(path.join(dir, 'catalogue.local.json'), JSON.stringify({ schemaVersion: 1, generatedAt: new Date().toISOString(), books }), 'utf8');
-  return books.map(b => ({ code: b.code, chapters: b.chapters.length, words: b.chapters.reduce((n, c) => n + c.words, 0), excludedEntries: b.excluded.length }));
+  return books.map(b => ({ code: b.code, chapters: b.chapters.length, words: b.chapters.reduce((n, c) => n + c.words, 0), excludedEntries: b.excluded.length, ...(b.conversion?.warnings ? {sourceWarnings:b.conversion.warnings} : {}) }));
 }
 function options(args) {
   const out = {};
@@ -135,8 +166,32 @@ export function loadCatalogue(dir) {
   }
   return cat;
 }
+export function sourceDirectory(base, language) {
+  if (language && !['en', 'hu'].includes(language)) throw Error('--lang must be en or hu');
+  const nested = path.join(base, language ?? 'en');
+  if (fs.existsSync(nested) && fs.statSync(nested).isDirectory()) return nested;
+  return base;
+}
+export function glossary(query, category) {
+  const entries = JSON.parse(fs.readFileSync(path.join(root, 'data/hu-glossary.json'), 'utf8'));
+  if (category && !entries.some(e => e.category === category)) throw Error(`Unknown glossary category: ${category}`);
+  const needle = query?.normalize('NFKC').toLocaleLowerCase('hu');
+  return entries.filter(e => (!category || e.category === category) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle)));
+}
+export function lintHungarian(text) {
+  const warnings = [];
+  for (const e of glossary()) {
+    if (e.en.toLocaleLowerCase('hu') === e.hu.toLocaleLowerCase('hu')) continue;
+    const escaped = e.en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    for (const m of text.matchAll(new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'giu'))) {
+      warnings.push({ id: e.id, offset: m.index, found: m[0], suggested: e.hu, reason: 'English term in Hungarian draft; check quotation, character voice and project overrides before changing.' });
+    }
+  }
+  return { warnings, note: 'Advisory term scan, not a grammar checker. Does not detect every inflected form or apply edits.' };
+}
 export function search(books, o) {
   if (!o.query?.trim()) throw Error('--query is required');
+  const radius = integer(o.context, 180);
   const query = o.query.normalize('NFKC'), hits = [];
   const pattern = new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'giu');
   for (const b of books) for (const c of b.chapters) {
@@ -145,8 +200,7 @@ export function search(books, o) {
     const text = c.text.normalize('NFKC');
     for (const match of text.matchAll(pattern)) {
       const pos = match.index;
-      const radius = integer(o.context, 180);
-      hits.push({ anchor: c.anchor, title: c.title, offset: pos, excerpt: c.text.normalize('NFKC').slice(Math.max(0, pos - radius), pos + query.length + radius) });
+      hits.push({ anchor: c.anchor, title: c.title, offset: pos, excerpt: c.text.normalize('NFKC').slice(Math.max(0, pos - radius), pos + query.length + radius), ...(b.conversion?.warnings ? {sourceQuality:'degraded transcription; verify spelling and reading order against a reliable edition'} : {}) });
     }
   }
   const offset = integer(o.offset, 0), limit = integer(o.limit, 12, 1);
@@ -192,15 +246,16 @@ export function checkState(s) {
 }
 export function main(args = process.argv.slice(2)) {
   const [command = 'help', ...rest] = args, o = options(rest);
-  const allowed = { help: [], import: ['sources', 'json'], inventory: ['sources', 'json'], chapters: ['query', 'book', 'topic', 'limit', 'offset', 'json'], search: ['sources', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'anchor', 'offset', 'max-chars', 'full', 'json'], facts: ['query', 'kind', 'json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
+  const allowed = { help: [], import: ['sources', 'lang', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','limit','offset','json'], 'lint-hu': ['file','json'], facts: ['query', 'kind', 'json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
   if (!allowed[command]) throw Error(`Unknown command: ${command}`);
   for (const k of Object.keys(o)) if (!allowed[command].includes(k)) throw Error(`Unknown option --${k} for ${command}`);
-  const dir = path.resolve(o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
+  const base = path.resolve(o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
+  const dir = sourceDirectory(base, o.lang);
   let result;
-  if (command === 'help') return console.log('hp.mjs import|inventory|chapters|search|read|facts|audit|check-state\nSources: --sources PATH or HP_SOURCES. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Chapters: [--topic KEY] [--book PS] [--query TEXT]. Facts: --query TEXT [--kind event|testimony|interpretation]. Audit/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.');
-  if (command === 'import') result = importSources(dir);
+  if (command === 'help') return console.log('hp.mjs import|inventory|chapters|search|read|align|facts|glossary|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots). Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--query TEXT] [--category person] [--limit 20]. Facts: --query TEXT [--kind event|testimony|interpretation]. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.');
+  if (command === 'import') result = importSources(dir, o.lang);
   else if (command === 'chapters') {
-    const chapters = JSON.parse(fs.readFileSync(path.join(root, 'data/chapters.json'), 'utf8'));
+    const chapters = JSON.parse(fs.readFileSync(path.join(root, o.lang === 'hu' ? 'data/chapters-hu.json' : 'data/chapters.json'), 'utf8'));
     const topics = JSON.parse(fs.readFileSync(path.join(root, 'data/topics.json'), 'utf8'));
     if (o.topic && !Object.hasOwn(topics, o.topic)) throw Error(`Unknown topic: ${o.topic}`);
     const found = chapters.filter(c => (!o.book || c.book.toLowerCase() === o.book.toLowerCase()) && (!o.topic || c.topicCounts[o.topic]) && (!o.query || `${c.anchor} ${c.title}`.toLowerCase().includes(o.query.toLowerCase())));
@@ -210,21 +265,36 @@ export function main(args = process.argv.slice(2)) {
   } else if (command === 'facts') {
     const facts = JSON.parse(fs.readFileSync(path.join(root, 'data', 'facts.json'), 'utf8'));
     result = facts.filter(f => (!o.kind || f.kind === o.kind) && (!o.query || JSON.stringify(f).toLowerCase().includes(o.query.toLowerCase())));
-  } else if (command === 'audit' || command === 'check-state') {
+  } else if (command === 'glossary') {
+    const found = glossary(o.query, o.category), offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
+    result = { total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, entries: found.slice(offset, offset + limit) };
+  } else if (command === 'align') {
+    if (!o.anchor) throw Error('--anchor is required');
+    const offset = integer(o.offset, 0), limit = integer(o['max-chars'], 4000, 1);
+    result = { anchor: o.anchor, alignment: 'chapter only; character offsets are independent in each language', passages: ['en','hu'].map(language => {
+      const { books } = loadCatalogue(path.join(base, language));
+      const book = books.find(b => b.chapters.some(c => c.anchor.toLowerCase() === o.anchor.toLowerCase()));
+      const chapter = book?.chapters.find(c => c.anchor.toLowerCase() === o.anchor.toLowerCase());
+      if (!chapter) throw Error(`Missing ${language} chapter: ${o.anchor}`);
+      return { language, title: chapter.title, offset, totalCharacters: chapter.text.length, nextOffset: offset + limit < chapter.text.length ? offset + limit : null, text: chapter.text.slice(offset, offset + limit), ...(book.conversion?.warnings ? {sourceWarnings:book.conversion.warnings} : {}) };
+    }) };
+  } else if (command === 'audit' || command === 'check-state' || command === 'lint-hu') {
     if (!o.file) throw Error('--file is required');
-    const text = fs.readFileSync(o.file, 'utf8'); result = command === 'audit' ? audit(text) : checkState(JSON.parse(text));
+    const text = fs.readFileSync(o.file, 'utf8'); result = command === 'audit' ? audit(text) : command === 'lint-hu' ? lintHungarian(text) : checkState(JSON.parse(text));
     if (result.ok === false) process.exitCode = 1;
   } else {
     const { books } = loadCatalogue(dir);
-    if (command === 'inventory') result = books.map(({ code, title, language, sha256, chapters }) => ({ code, title, language, sha256, chapters: chapters.map(({ text, ...c }) => c) }));
+    if (o.lang && books.some(b => b.language.split('-')[0] !== o.lang)) throw Error('Source language differs from --lang');
+    if (command === 'inventory') result = books.map(({ code, title, language, sha256, chapters, conversion }) => ({ code, title, language, sha256, chapters: chapters.map(({ text, ...c }) => c), ...(conversion?.warnings ? {sourceWarnings:conversion.warnings} : {}) }));
     if (command === 'search') result = search(books, o);
     if (command === 'read') {
       if (!o.anchor) throw Error('--anchor is required');
-      const c = books.flatMap(b => b.chapters).find(c => c.anchor.toLowerCase() === o.anchor.toLowerCase());
+      const book = books.find(b => b.chapters.some(c => c.anchor.toLowerCase() === o.anchor.toLowerCase()));
+      const c = book?.chapters.find(c => c.anchor.toLowerCase() === o.anchor.toLowerCase());
       if (!c) throw Error(`Unknown chapter: ${o.anchor}`);
       const offset = integer(o.offset, 0), limit = o.full ? c.text.length : integer(o['max-chars'], 12000, 1);
-      result = { anchor: c.anchor, title: c.title, offset, totalCharacters: c.text.length, nextOffset: offset + limit < c.text.length ? offset + limit : null, text: c.text.slice(offset, offset + limit) };
-      if (!o.json) return console.log(`# ${result.anchor}: ${result.title}\n[offset=${offset}; nextOffset=${result.nextOffset}; total=${result.totalCharacters}]\n\n${result.text}`);
+      result = { anchor: c.anchor, title: c.title, offset, totalCharacters: c.text.length, nextOffset: offset + limit < c.text.length ? offset + limit : null, text: c.text.slice(offset, offset + limit), ...(book.conversion?.warnings ? {sourceWarnings:book.conversion.warnings} : {}) };
+      if (!o.json) return console.log(`# ${result.anchor}: ${result.title}\n[offset=${offset}; nextOffset=${result.nextOffset}; total=${result.totalCharacters}]\n${result.sourceWarnings ? '\nSource warnings: '+result.sourceWarnings.join(' ')+'\n' : ''}\n${result.text}`);
     }
   }
   console.log(JSON.stringify(result, null, 2));

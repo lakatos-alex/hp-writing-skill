@@ -1,12 +1,12 @@
 # Local primary sources
 
-The seven novels are the primary authority for book canon. Development can use the complete corpus, full chapters and cross-book research. Ordinary writing can retrieve the sources relevant to the scene.
+The seven novels are the primary authority for book canon. Research can use full chapters or the complete corpus; ordinary writing can retrieve the sources relevant to the scene.
 
 ## Availability and installation
 
 The public skill contains original analysis, a chapter catalogue and local tools. Supply your own book files when exact evidence is needed. Use the source path provided by the user or host project. Do not copy a private corpus into the installed skill.
 
-The supported EPUB importer produces searchable UTF-8 Markdown and a local catalogue with 199 chapter records across the seven novels in the documented edition layout. See [tools](tools.md) for commands, edition support, output files and side effects. Existing TXT or Markdown can also be searched directly without conversion.
+The supported EPUB importer produces searchable UTF-8 Markdown and a local catalogue. Keep English and Hungarian sources in separate `en/` and `hu/` directories, or pass a single-language directory directly. Use `--lang` for language selection and `align` for paired chapters. See [tools](tools.md) for edition support, PDF sidecars, output files and side effects. Existing TXT or Markdown can also be searched directly without conversion.
 
 ## Evidence retrieval
 
@@ -23,6 +23,8 @@ Depth follows the assignment. A disputed mechanism may need several chapters. A 
 The importer records source hashes and verifies chapter order, count and titles. Source commands reject stale hashes. Front matter and promotional excerpts are excluded from narrative output, so a preview of the next novel cannot be mistaken for another chapter of the current novel.
 
 The original EPUB remains the reference for layout, illustrations and exact edition features. The conversion handles text and simple emphasis; it is not a facsimile.
+
+The Hungarian DH PDF transcription retains known source defects; do not use it to settle spelling, attribution or prose-style questions. Prefer the verified glossary or a reliable edition. Chapter-aligned translations help check terms, but a translation variant alone does not establish a new canonical event.
 
 ## Publication
 

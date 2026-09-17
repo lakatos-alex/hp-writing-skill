@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "run": "A1",
+      "judges": [
+        {
+          "id": "45401f9e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Terminológia: a „Bevonzó bűbáj” nem a magyar könyvek hívóbűbáj elnevezése. A papírkampó szétnyílása érthető, kicsi mágikus bonyodalom; Tobias öccsének megígért ládajavítása önálló gyakorlati motiváció. Lina döntését a visszafordulásra utaló „Azt vedd fel. Még kelleni fog holnap” és Tobias későbbi jelenléte jelzi; nem szükséges külön kimondott döntésmondat. A mosókonyhába küldés konkrét következmény. A megadott 500 szó megfelelő. A közölt változatból hiányzik a kért külön forráshasználati megjegyzés; annak esetleges csomagoláskori elhagyása nem ellenőrizhető.",
+          "total": 18
+        },
+        {
+          "id": "45401f9e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Terminológia: »Bevonzó bűbáj« szerepel a könyvbeli begyűjtőbűbáj helyett. A »Hallottam róla« és Lina válasza közvetetten, de megfelelően jelzi a tudás hiányát. A lebegtetett papírkampó meghibásodása okszerű, Tobias öccsének ládája saját gyakorlati indokot ad, Lina pedig ténylegesen dönt arról, elengedi-e a fiút Frics utasítása ellenére. A szakadt aláírás és a rács elcipelése konkrét következmény, a nézőpont következetes. 500 szó. A kért külön erőforrás-használati megjegyzés a közölt szövegből hiányzik; a csomagon kívüliről nincs információ.",
+          "total": 18
+        }
+      ],
+      "meanTotal": 18
+    },
+    {
+      "run": "A2",
+      "judges": [
+        {
+          "id": "57d10bba",
+          "language": 4,
+          "terminology": 4,
+          "continuity": 3,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Folytonosság: „Eszter ... térdei közé szorítva a húga iskolatáskáját” nyelvtanilag Eszter húgához rendeli a táskát, miközben a feladat és Ben későbbi „A húgom is jönni akart” mondata Ben húgáról szól. Ez helyi, félrevezető rokonsági visszautalás; a levél birtoklása ettől külön végig követhető: Ben átadja, engedélyezi a felolvasást, majd visszakapja és elteszi. A csatok számolása és Ben ajtóhoz visszalépése eltérő aggodalomkezelést mutat. A „külön használati utasítást” tréfa a madárra vonatkozik, a kezelés nyitva marad. A megadott 490 szó megfelelő. A közölt változatból hiányzik a kért külön forráshasználati megjegyzés; annak esetleges csomagoláskori elhagyása nem ellenőrizhető.",
+          "total": 18
+        },
+        {
+          "id": "57d10bba",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 3,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "A nyitó »Eszter ... térdei közé szorítva a húga iskolatáskáját« természetes olvasatban Eszter húgának tulajdonítja a táskát, noha Ben húgáról kellene szólnia; ez helyi birtokosreferencia- és folytonossági bizonytalanság. A későbbi Benhez címzett levél és családi emlék tisztázza a szándékot. Maga a lezárt levél átadása, a felolvasási engedély és a visszaadás pontos. A használati utasításos tréfa nem a sérülést kisebbíti; a kezelés nincs lezárva, a zsebkendő felhajtása megfelelő befejezés. 490 szó. A külön erőforrás-használati megjegyzés nem szerepel a közölt szövegben; esetleges csomagon kívüli megléte ismeretlen.",
+          "total": 17
+        }
+      ],
+      "meanTotal": 17.5
+    },
+    {
+      "run": "B1",
+      "judges": [
+        {
+          "id": "eae3a26e",
+          "language": 4,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "A „Hívóbűbáj”, Roxfort, Flitwick és Frics megfelel a kért terminológiának; a macska név nélküli szerepeltetése teljesíti a találkozás követelményét. A „Nem. Te?” és Lina fejrázása rögzíti, hogy egyikük sem tanulta a bűbájt. A lebegtetéstől lehulló por és beszoruló sarok kis, okozatilag követhető bonyodalom. Tobias javítandó dolgozata saját tétet ad; a segítségkérésből kötelező takarítás, késés, majd a foglalási cédula levétele következik. A nézőpont következetesen Lináé, a zárás konkrét veszteség. A megadott 485 szó megfelelő. A közölt változatból hiányzik a kért külön forráshasználati megjegyzés; annak esetleges csomagoláskori elhagyása nem ellenőrizhető.",
+          "total": 19
+        },
+        {
+          "id": "eae3a26e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Terminológia: a Summoning Charm magyar könyvbeli neve begyűjtőbűbáj, itt »Hívóbűbáj« szerepel. A lebegtetés okozta beakadás követhető; Tobias javítandó gyógynövénytan-dolgozata önálló indok, Lina takarítást vállaló döntése és a könyvfoglalás elvesztése konkrét következmény. A nézőpont következetes. 485 szó, megfelelő terjedelem. A csomagban közölt szöveget nem követi a kért külön erőforrás-használati megjegyzés; a csomagon kívüli esetleges megjegyzésről nincs információ.",
+          "total": 18
+        }
+      ],
+      "meanTotal": 18.5
+    },
+    {
+      "run": "B2",
+      "judges": [
+        {
+          "id": "67b35d70",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 2,
+          "narrative": 4,
+          "compliance": 2,
+          "evidence": "Nyelvi és tárgyfolytonossági hiba a központi átadásnál: „– Elolvasnád? – Ben felé nyújtotta a levelet.” A „Ben felé” irányhatározó, tehát a mondat Bennek nyújtott levelet ír le, nem azt, hogy Ben adja át Eszternek; közvetlenül utána mégis „Eszter átvette a borítékot”. Ez a feladatban külön hangsúlyozott birtoklási láncot sérti, akkor is, ha az író szándéka kikövetkeztethető. A beleegyezés és a későbbi visszaadás tiszta. A nagyapa által faragott madár emléktárgy marad, a szerelős tréfa kíméletes, a tenyér áthelyezése megfelelő kis záróakció. A megadott 452 szó megfelelő. A közölt változatból a kért külön forráshasználati megjegyzés is hiányzik; annak esetleges csomagoláskori elhagyása nem ellenőrizhető.",
+          "total": 15
+        },
+        {
+          "id": "67b35d70",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 2,
+          "narrative": 4,
+          "compliance": 2,
+          "evidence": "Az előírt levélátadás helyén »– Elolvasnád? – Ben felé nyújtotta a levelet« áll: nyelvtanilag Ben a címzett, holott ő tartja a levelet, és Eszternek kellene adnia. A következő »Eszter átvette a borítékot« helyreállítja a szándékolt helyzetet, de nem törli ezt a központi tárgyfolytonossági hibát. Az egyetértés, felolvasás és későbbi visszaadás rendben van; a tudáskorlát, a javított emléktárgy, a különböző aggodalomkezelés és a tenyér alácsúsztatásával záró jelenet működik. 452 szó. Megfelelés: a kifejezetten előírt következetes levélbirtoklás helyi sérülése mellett a közölt szövegben a külön erőforrás-használati megjegyzés sincs jelen; csomagon kívüli megjegyzésről nincs adat.",
+          "total": 15
+        }
+      ],
+      "meanTotal": 15
+    },
+    {
+      "run": "C1",
+      "judges": [
+        {
+          "id": "359dbf6b",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Terminológia: a megidéző varázslatra használt „Begyűjtőbűbáj” helyett a magyar könyvterminus hívóbűbáj. A „Még nem” / „Én sem” világosan rögzíti a tudáshiányt; a lebegtetéstől csavarba akadó lap, a beismerés és a takarítás okozati lánca követhető. Tobias önálló indoka: „Nem akarok megint mástól másolni.” A nézőpont Lináé marad. A megadott 485 szó megfelelő. A közölt változatból hiányzik a kért külön forráshasználati megjegyzés; annak esetleges csomagoláskori elhagyása nem ellenőrizhető. Az évszám kimondásának hiányát önmagában nem tekintem dátumhibának.",
+          "total": 18
+        },
+        {
+          "id": "359dbf6b",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Nyelvi gyengeség Frics kérdése: »És a szél a könyveken is megtaposta a padlót?« A »könyveken ... megtaposta a padlót« viszony nehezen értelmezhető; a könyvekre állás nyomaira célzó vád csak a környezetből fejthető meg. A begyűjtőbűbáj és a megnevezett szereplők terminológiája megfelelő. Tobias másolás helyett önálló dolgozatot akar; Lina hibájának bevallása valódi árat kap az azonnali súrolással. A szakadás, a papír visszaszerzése és átadása követhető, a nézőpont nem vált. 485 szó. A kért külön erőforrás-használati megjegyzés nem látható a csomag szövegében; csomagon kívüli megjegyzésről nincs adat.",
+          "total": 18
+        }
+      ],
+      "meanTotal": 18
+    },
+    {
+      "run": "C2",
+      "judges": [
+        {
+          "id": "bcda3d77",
+          "language": 2,
+          "terminology": 4,
+          "continuity": 2,
+          "narrative": 4,
+          "compliance": 2,
+          "evidence": "Két helyi mondatszerkezeti hiba: „Ben felé nyújtotta a levelet” Ben felé történő átadást jelent, holott addig Ben tartja, utána pedig „Eszter átvette”; a kiemelten kért levélbirtoklási lánc így szövegszerűen hibás. Bimba válaszának közvetítése: „Hogy itt keressen minket, ha végzett az üvegházban.” A „keressen” felszólítás egy meg nem nevezett harmadik személynek szól; a folytatás alapján várt ígéretet a „keres majd minket” fejezné ki. A történet többi része követhető: Ben ismételt kérdezése és Eszter teendőrendezése eltér, a „Komoly kötődés” a ragasztásra épülő szelíd tréfa, a be nem váltott megnyugtatás után a kendő behajtása jó konkrét lezárás. A megadott 468 szó megfelelő. A közölt változatból a kért külön forráshasználati megjegyzés is hiányzik; annak esetleges csomagoláskori elhagyása nem ellenőrizhető.",
+          "total": 14
+        },
+        {
+          "id": "bcda3d77",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Nyelvi gyengeség Bimba válaszának függő beszéde: »Hogy itt keressen minket, ha végzett az üvegházban« felszólító alakja nem világosan azt jelenti, hogy a professzor majd itt keresi őket. A levél átadása, engedélyezett felolvasása és visszaadása egyértelmű; a madárról csak olvasás után szereznek tudomást. A »Komoly kötődés alakult ki köztünk« gyengéd, helyzethez kötött tréfa; a kezelés nyitva marad, a kendő behajtása kis záró cselekvés. 468 szó. A közölt szövegből hiányzik a kért külön erőforrás-használati megjegyzés; annak esetleges csomagon kívüli megléte nem ellenőrizhető.",
+          "total": 18
+        }
+      ],
+      "meanTotal": 16
+    }
+  ],
+  "conditionMeans": {
+    "A": 17.75,
+    "B": 16.75,
+    "C": 17
+  },
+  "note": "Descriptive two-scenario results, not a statistical effectiveness estimate."
+}

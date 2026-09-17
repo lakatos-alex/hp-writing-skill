@@ -21,9 +21,10 @@ try {
   const [header, body] = entry.slice(4).split('\n---\n');
   check(/^name: harry-potter-fanfic$/m.test(header), 'Invalid skill name');
   check(/^description: .{1,1024}$/m.test(header), 'Invalid description');
-  check(/version: "0.2.2"/.test(header), 'Unexpected version');
+  const version=header.match(/^  version: "(\d+\.\d+\.\d+)"$/m)?.[1];
+  check(version, 'Missing semantic release version');
   check(body.split('\n').length < 500, 'Entrypoint needs progressive disclosure');
-  check(fs.readFileSync(path.join(ROOT,'README.md'),'utf8').includes('0.2.2'), 'README version mismatch');
+  check(fs.readFileSync(path.join(ROOT,'README.md'),'utf8').includes(`Version ${version}`), 'README version mismatch');
   for(const n of ['LICENSE','ACKNOWLEDGMENTS.md']) check(fs.readFileSync(path.join(ROOT,n)).equals(fs.readFileSync(path.join(SKILL,n))), `Notice copy differs: ${n}`);
   const chapters=JSON.parse(fs.readFileSync(path.join(SKILL,'data/chapters.json'),'utf8'));
   const anchors=new Set(chapters.map(c=>c.anchor));
@@ -32,6 +33,21 @@ try {
   for(const c of chapters) {
     check(c.title && c.words>100 && Number.isInteger(c.number),'Invalid chapter metadata');
     for(const [k,v] of Object.entries(c.topicCounts)) check(Object.hasOwn(topics,k)&&Number.isInteger(v)&&v>0,'Invalid topic count');
+  }
+  const huChapters=JSON.parse(fs.readFileSync(path.join(SKILL,'data/chapters-hu.json'),'utf8'));
+  check(huChapters.length===199&&new Set(huChapters.map(c=>c.anchor)).size===199,'Expected 199 Hungarian anchors');
+  for(const c of huChapters) {
+    const en=chapters.find(e=>e.anchor===c.anchor);
+    check(en&&c.book===en.book&&c.number===en.number&&c.title&&c.words>100,'Invalid Hungarian chapter alignment');
+    check(c.topicBasis==='aligned English lexical counts'&&JSON.stringify(c.topicCounts)===JSON.stringify(en.topicCounts),'Hungarian topic provenance mismatch');
+  }
+  const glossary=JSON.parse(fs.readFileSync(path.join(SKILL,'data/hu-glossary.json'),'utf8'));
+  check(glossary.length>0&&new Set(glossary.map(e=>e.id)).size===glossary.length,'Duplicate or empty glossary');
+  const categories=['person','place','house','spell','object','potion','institution','creature','expression','concept'];
+  for(const e of glossary) {
+    check(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(e.id)&&categories.includes(e.category),`Invalid glossary ID/category: ${e.id}`);
+    check(e.en&&e.hu&&e.notes&&Array.isArray(e.aliases)&&e.aliases.every(a=>typeof a==='string')&&e.anchors.length&&e.anchors.every(a=>anchors.has(a)),`Incomplete glossary record: ${e.id}`);
+    check(e.verification?.status==='paired-term-checked'&&e.verification.enLocator&&e.verification.huLocator,`Missing paired term provenance: ${e.id}`);
   }
   const facts=JSON.parse(fs.readFileSync(path.join(SKILL,'data/facts.json'),'utf8'));
   check(new Set(facts.map(f=>f.id)).size===facts.length,'Duplicate fact ID');
@@ -62,6 +78,6 @@ try {
     check(tracked.every(p=>!p.startsWith('original-sources/')||p==='original-sources/README.md'),'Source material tracked');
     check(execFileSync('git',['check-attr','export-ignore','--','original-sources/'],{cwd:ROOT,encoding:'utf8'}).trim().endsWith(': set'),'Source archive exclusion missing');
   }
-  console.log(`PASS: ${files.length} files; 199 chapters; ${facts.length} evidence cards; links, metadata, data integrity and publication boundaries.`);
+  console.log(`PASS: ${files.length} files; 199 paired chapters; ${facts.length} evidence cards; ${glossary.length} bilingual terms; links, metadata, data integrity and publication boundaries.`);
   console.log('These checks do not establish canon interpretation or literary quality.');
 }catch(e){console.error(`FAIL: ${e.message}`);process.exitCode=1;}

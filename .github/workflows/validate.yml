@@ -15,5 +15,5 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
       - run: node tools/validate_package.mjs
-      - run: node --test tools/tests/hp.test.mjs
+      - run: node --test tools/tests/*.test.mjs
       - run: git diff --check

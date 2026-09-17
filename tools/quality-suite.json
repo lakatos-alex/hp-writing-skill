@@ -1,0 +1,50 @@
+{
+  "id": "writing-quality-v1",
+  "wordRange": [350, 450],
+  "conditions": {
+    "baseline": "Frozen pre-iteration 0.3.0 candidate; no books.",
+    "candidate": "Frozen revised skill; no books.",
+    "unaided": "Brief only; no skill or books.",
+    "optional": "Revised skill; local books available; retrieval optional.",
+    "required": "Revised skill; inspect relevant English and Hungarian primary context before drafting; record anchors and the decision affected."
+  },
+  "scenarios": [
+    {
+      "id": "queue",
+      "language": "hu",
+      "prompt": "Write 350–450 words of original Hungarian fiction. September 1993, Hogwarts: two original third-year pupils, Lilla and Máté, are waiting outside a classroom. Lilla needs to recover a borrowed atlas before its owner arrives. Máté has it and needs help repairing his badly drawn star chart, but he is not entitled to her help. A self-important prefect is applying a queue rule inconsistently. Stay in Lilla's close-third viewpoint. Use dry situational comedy, differentiated dialogue and a small magical-school detail. Let the negotiation change through action; Lilla may accept, refuse or counteroffer. Make the atlas's final location clear. Do not finish by stating a moral. The names are the project's chosen names. Output the scene, not analysis.",
+      "invariants": ["Máté initially has the atlas", "Lilla can refuse or counteroffer", "Final atlas custody is inferable", "No unmarked access to another character's private thoughts"]
+    },
+    {
+      "id": "visit",
+      "language": "hu",
+      "prompt": "Write 350–450 words of original Hungarian fiction. February 1996, a quiet Hogwarts hospital-wing afternoon: original fifth-year pupil Eszter is recovering from a minor accident, and her friend Áron brings her unfinished class notes. Eszter wants useful work rather than another reassurance; Áron needs to leave for an obligation he has already postponed. Only Áron initially knows that their teacher has extended Eszter's deadline until Friday. Stay close to Eszter's viewpoint. Use warm but unsentimental narration; a feeling may be named directly. Let both characters retain independent priorities. Convey the extension through an observable information route and let their practical arrangement change. Avoid a miraculous cure or an ending that explains the lesson. Use the project's chosen names and natural Hungarian. Output the scene, not analysis.",
+      "invariants": ["Only Áron initially knows the extension", "Eszter learns it through an observable route", "Áron's obligation remains consequential", "No miraculous cure"]
+    },
+    {
+      "id": "practice",
+      "language": "hu",
+      "prompt": "Write 350–450 words of original Hungarian fiction. November 1991, Hogwarts: original first-year pupils Bori and Levente practise levitating a feather after their lesson. Bori wants one successful controlled attempt before supper; Levente wants his borrowed ink bottle kept safe. Bori initially holds her own wand; the uncapped ink bottle is on the desk and the feather is beside it. They have no advanced magic, and a mistake must have a practical consequence rather than a convenient new spell solving everything. Stay in Bori's close-third viewpoint. Make the physical action easy to follow without narrating every movement. Use the Hungarian book terminology if naming the Charms teacher or levitation incantation. Include disagreement and a decision, not just a demonstration. Output the scene, not analysis.",
+      "invariants": ["Bori initially holds her wand", "Uncapped ink starts on the desk", "No advanced rescue magic", "A mistake has a practical consequence", "Viewpoint remains Bori's"]
+    },
+    {
+      "id": "receipt",
+      "language": "en",
+      "prompt": "Write 350–450 words of original English fiction. At a small wizarding repair shop after the war, original adult apprentice Nell receives a claim that her colleague Tomas stole a customer's repaired watch. Nell has a receipt showing collection at 4:10, but the receipt names no collector; Tomas left at four according to Nell's own observation. The customer insists Tomas handed it over. Stay in Nell's close-third viewpoint. Let a concrete detail complicate the accusation without conclusively proving guilt or innocence. Nell must choose an immediate next action with a cost to her own work. Use restrained investigative tension, distinct dialogue, and ordinary practical limits on magic. Do not use a new all-knowing spell, a surprise confession, or an explanatory moral. Output the scene, not analysis.",
+      "invariants": ["Receipt does not name a collector", "Nell observed Tomas leaving at four", "Customer's accusation is testimony, not established fact", "No conclusive guilt verdict", "Nell's next action costs her work time or progress"]
+    }
+  ],
+  "runs": [
+    {"id":"baseline-queue","condition":"baseline","scenario":"queue"},
+    {"id":"candidate-queue","condition":"candidate","scenario":"queue"},
+    {"id":"baseline-visit","condition":"baseline","scenario":"visit"},
+    {"id":"candidate-visit","condition":"candidate","scenario":"visit"},
+    {"id":"baseline-practice","condition":"baseline","scenario":"practice"},
+    {"id":"candidate-practice","condition":"candidate","scenario":"practice"},
+    {"id":"baseline-receipt","condition":"baseline","scenario":"receipt"},
+    {"id":"candidate-receipt","condition":"candidate","scenario":"receipt"},
+    {"id":"unaided-practice","condition":"unaided","scenario":"practice"},
+    {"id":"optional-practice","condition":"optional","scenario":"practice"},
+    {"id":"required-practice","condition":"required","scenario":"practice"}
+  ]
+}

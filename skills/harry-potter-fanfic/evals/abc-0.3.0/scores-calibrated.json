@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "run": "A1",
+      "judges": [
+        {
+          "id": "45401f9e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "A terminológiai 3 megmarad, de javított indokkal: a „Bevonzó bűbáj” eltér az ellenőrzött „begyűjtőbűbáj” elnevezéstől; az előző értékelés hibásan a hívóbűbájt adta meg viszonyításként. Megfelelés 3→4: a külön megjegyzés megléte igazolt, az 500 szó megfelelő; a terminuseltérést a terminológiai dimenzióban értékelem. A papírkampó szétnyílása kis, érthető bonyodalom. Tobias öccsének megígért ládajavítása önálló gyakorlati motiváció. Lina „Azt vedd fel. Még kelleni fog holnap” mondata és Tobias ott maradása együtt követhetővé teszi a választást. A mosókonyhába küldés konkrét következmény, Lina nézőpontja nem sérül.",
+          "total": 19
+        },
+        {
+          "id": "45401f9e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "A »Bevonzó bűbáj« nem felel meg az ellenőrzött begyűjtőbűbáj terminkulcsnak; a terminológia marad 3. A »Hallottam róla« és Lina válasza közvetetten jelzi, hogy nem tudják alkalmazni. A papírkampó meghibásodása okszerű; Tobias öccsének ládája gyakorlati indok, Lina visszatartó döntése és a sérült aláírás, majd a rács elcipelése tényleges következmény. A nézőpont következetes. Október és harmadév szerepel; az 1993-as év nincs külön kiírva, de nincs vele összeegyeztethetetlen adat, ezért ezt nem büntetem. 500 szó. A külön megjegyzés igazolt megléte miatt a korábbi levonást töröltem; a megfelelés újraértékelve 3 marad kizárólag az előírt könyvterminológia helyi hibájáért.",
+          "total": 18
+        }
+      ],
+      "meanTotal": 18.5
+    },
+    {
+      "run": "A2",
+      "judges": [
+        {
+          "id": "57d10bba",
+          "language": 4,
+          "terminology": 4,
+          "continuity": 3,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "A folytonossági 3 megmarad, pontosított indokkal: „Eszter ... térdei közé szorítva a húga iskolatáskáját” első olvasásra Eszter húgát sugallja, miközben Ben később „A húgom is jönni akart” mondattal azonosítja a rokonságot. A magyar birtokos személyjel nem kötelezően a mondat alanyára utal, ezért az előző értékelés kategorikus nyelvtani állítását visszavonom: ez helyi referenciális bizonytalanság, nem bizonyított rokonságcsere. A levél útja, a felolvasáshoz adott beleegyezés és az ismeretszerzés sorrendje tiszta. A csatok számolása és Ben ajtóhoz visszalépése különböző aggodalomkezelés; a használati utasításos tréfa nem a sérülést célozza. Megfelelés 3→4: a külön megjegyzés igazolt, a 490 szó megfelelő, a kezelés nyitva marad és kis cselekvés zár.",
+          "total": 19
+        },
+        {
+          "id": "57d10bba",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 3,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "Az »Eszter ... térdei közé szorítva a húga iskolatáskáját« természetes helyi olvasata Eszter húgára mutat; Ben húga csak később válik egyértelművé. A birtokos személyjel önmagában nem kényszeríti ki az Eszterre vonatkoztatást, ezért megőrzöm a bizonytalanság minősítést, nem állítok biztos rokonságcserét. Ez indokolja a nyelv és folytonosság 3 pontját. A levél tényleges átadása, engedélyezett felolvasása és visszaadása pontos; a családi tárgy, a különböző aggodalomkezelés, a használati utasításos tréfa és a nyitott orvosi helyzet működik. 490 szó. A megjegyzés miatti korábbi levonás megszűnik; a megfelelés újraértékelve 3 marad az előírt Ben-húg viszony nyitó megfogalmazásának helyi bizonytalansága miatt.",
+          "total": 17
+        }
+      ],
+      "meanTotal": 18
+    },
+    {
+      "run": "B1",
+      "judges": [
+        {
+          "id": "eae3a26e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "Terminológia 4→3: a „Hívóbűbáj” eltér az ellenőrzött „begyűjtőbűbáj” terminustól; az előző értékelés ezt tévesen kanonikusnak fogadta el. Roxfort, Flitwick és Frics megfelelő, a macska név nélküli szerepeltetése nem hiányosság. A „Nem. Te?” és Lina fejrázása rögzíti a tudáshiányt. A lebegtetéstől lehulló por és beszoruló sarok követhető kis bonyodalom; Tobias javítandó dolgozata saját tétet ad. A segítségkérést takarítás, késés, majd a foglalási cédula levétele követi. Lina nézőpontja és a konkrét veszteséggel zárás működik. Megfelelés 3→4: a külön megjegyzés igazolt, a 485 szó megfelelő; a terminuseltérést a terminológiai dimenzióban értékelem.",
+          "total": 19
+        },
+        {
+          "id": "eae3a26e",
+          "language": 4,
+          "terminology": 3,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 3,
+          "evidence": "A »Hívóbűbáj« eltér a megadott, elsődleges szöveggel ellenőrzött begyűjtőbűbáj terminustól; a terminológia marad 3. A lebegtetés miatti beakadás okszerű, Tobias gyógynövénytan-dolgozata önálló indok, a takarítás vállalása választás, a könyvfoglalás elvesztése konkrét következmény. Lina nézőpontja következetes, a dátum és az évfolyam megfelelő; 485 szó. A megjegyzés miatti levonást töröltem, annak meglétét a koordinátori ellenőrzés igazolja. A megfelelés újraértékelve mégis 3: kizárólag az előírt magyar könyvterminológia helyi sérülése miatt, nem a csomagból eltávolított megjegyzésért.",
+          "total": 18
+        }
+      ],
+      "meanTotal": 18.5
+    },
+    {
+      "run": "B2",
+      "judges": [
+        {
+          "id": "67b35d70",
+          "language": 4,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "Nyelv 3→4, folytonosság 2→4: a „Ben felé nyújtotta a levelet” korábbi elemzése túl szűk volt. A „felé” önálló, harmadik személyű névmási határozószóként is olvasható: Ben az alany, Eszter felé nyújtja a levelet. Az „Elolvasnád?”, a „nevemen” és az utána következő „Eszter átvette a borítékot” ezt a nyelvtanilag lehetséges olvasatot támasztja alá; nincs igazolt birtoklási törés. A nyitó „a húga kéréséről” visszautalását az első mondat „Ben a húga lezárt levelét” szerkezete megalapozza. A beleegyezés, felolvasás és visszaadás következetes. A nagyapa faragta madár emléktárgy, a szerelős tréfa kíméletes, a tenyér áthelyezése megfelelő kis záróakció. Megfelelés 2→4: a téves átadási kifogást visszavonom, a külön megjegyzés igazolt, a 452 szó megfelelő.",
+          "total": 20
+        },
+        {
+          "id": "67b35d70",
+          "language": 2,
+          "terminology": 4,
+          "continuity": 2,
+          "narrative": 4,
+          "compliance": 2,
+          "evidence": "A »– Elolvasnád? – Ben felé nyújtotta a levelet« mondatban Ben nyelvtanilag címzett, nem megnevezett cselekvő; az »Eszter átvette a borítékot« csak a szándékolt irányt tisztázza. A kifejezetten előírt átadás és birtoklás lényeges helyi hibája miatt a continuity és compliance marad 2, immár megjegyzéshiány miatti levonás nélkül. Nyelv 3-ról 2-re: az újraolvasáskor az »Eszter csak annyit tudott a húga kéréséről« további, Eszter saját húgára is érthető birtokosreferencia-gyengeségét is figyelembe vettem. Az előző mondatok Ben húgát nevezik meg, ezért ezt bizonytalanságnak, nem bizonyított új rokonságnak tekintem. A további engedélyezett olvasás, visszaadás és tudásrend követhető. Az emléktárgy nem gyógyít, a szerelős tréfa gyengéd, a tenyér alácsúsztatása megfelelő kis befejezés. 452 szó; a külön megjegyzés igazolt meglétéért nincs fenntartás.",
+          "total": 14
+        }
+      ],
+      "meanTotal": 17
+    },
+    {
+      "run": "C1",
+      "judges": [
+        {
+          "id": "359dbf6b",
+          "language": 4,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "Terminológia 3→4: a „Begyűjtőbűbáj” megfelel a koordinátor által ellenőrzött magyar terminusnak; az előző levonás téves volt. Megfelelés 3→4: a külön megjegyzés megléte igazolt, a csomagból való eltávolítása nem jelenethiba. A megadott 485 szó megfelelő. A „Még nem” / „Én sem” rögzíti a tudáshiányt; a lebegtetéstől csavarba akadó és szakadó lap, a segítségkérés és a takarítás követhető okozati láncot alkot. Tobias saját indoka: „Nem akarok megint mástól másolni.” Lina mérlegeli az újabb próbálkozást és a tanárkeresést, majd vállalja a beismerést. A nézőpont következetes, az átázott talártérd konkrét következmény. Az évszám kimondásának hiánya önmagában nem bizonyít dátumhibát.",
+          "total": 20
+        },
+        {
+          "id": "359dbf6b",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "A »Begyűjtőbűbáj« megfelel az ellenőrzött terminkulcsnak; terminológia 4. A nyelvi 3 megmarad: »És a szél a könyveken is megtaposta a padlót?« nehézkesen kapcsolja össze a könyveken állást és a padló megtaposását; a vád értelme csak a környezetből áll össze. Tobias önálló dolgozatot akar írni, Lina bevallja a hibát és vállalja a súrolást; a papír sérülése, visszaszerzése és átadása követhető. Lina nézőpontja nem vált, a zárás konkrét átázott térd. Október és harmadév szerepel, az 1993-as év külön megnevezésének hiányát ellentmondó adat nélkül nem tekintem hibának. 485 szó. Compliance 3-ról 4-re: a koordinátor igazolta a külön megjegyzést, így annak eltávolítása miatt nincs levonás, és más érdemi követelménysértést nem találok.",
+          "total": 19
+        }
+      ],
+      "meanTotal": 19.5
+    },
+    {
+      "run": "C2",
+      "judges": [
+        {
+          "id": "bcda3d77",
+          "language": 3,
+          "terminology": 4,
+          "continuity": 4,
+          "narrative": 4,
+          "compliance": 4,
+          "evidence": "Nyelv 2→3, folytonosság 2→4: a „Ben felé nyújtotta a levelet” helyesen elemezhető Ben alannyal és az Eszterre visszautaló önálló „felé” határozószóval. A „Kinyitnád?”, „nevemet”, majd „Eszter átvette” egyértelműsíti az átadás menetét; a korábbi birtoklási kifogást visszavonom. Egy nyelvi gyengeség megmarad: Bimba válaszára kérdeznek rá („Mit mondott?”), de „Hogy itt keressen minket, ha végzett az üvegházban” következik. A „keressen” felszólító alak nem világosan közvetíti Bimba saját későbbi cselekvését; a beszélő és a felszólítás címzettje összecsúszik. Ez helyi függőbeszéd-hiba, nem a levél folytonosságának sérülése. Ben ismételt kérdezése, Eszter teendőrendezése, a ragasztásos „Komoly kötődés” tréfa és a kendő behajtása jól működik. Megfelelés 2→4: a levélátadás teljesül, a külön megjegyzés igazolt, a 468 szó megfelelő.",
+          "total": 19
+        },
+        {
+          "id": "bcda3d77",
+          "language": 2,
+          "terminology": 4,
+          "continuity": 2,
+          "narrative": 4,
+          "compliance": 2,
+          "evidence": "Újraolvasva a korábban elnézett »Ben felé nyújtotta a levelet« itt is Bent teszi címzetté: a »felé« névutó a Ben névhez tartozik, a cselekvő nincs megnevezve. Ez nem írja le az előírt Ben → Eszter átadást, és ütközik Ben kezdeti birtoklásával, majd az »Eszter átvette« mondattal. A szándék kikövetkeztethető, de a központi tárgyfolytonosság helyi hibája lényeges: continuity 4-ről 2-re, compliance 3-ról 2-re. Nyelv 3-ról 2-re: ehhez társul a »Mit mondott?« kérdésre adott »Hogy itt keressen minket, ha végzett az üvegházban« hibásan kapcsolt függő beszéde; inkább Eszter kérését, mint Bimba válaszát fejezi ki. A későbbi beleegyezés, olvasás, visszaadás és tudásszerzés követhető. A kötődéses tréfa, az eltérő aggodalomkezelés és a kendő behajtásával lezárt, orvosilag nyitott vég működik. 468 szó; a külön megjegyzés meglétét elfogadom, azért nincs levonás.",
+          "total": 14
+        }
+      ],
+      "meanTotal": 16.5
+    }
+  ],
+  "conditionMeans": {
+    "A": 18.25,
+    "B": 17.75,
+    "C": 18
+  },
+  "note": "Descriptive two-scenario results, not a statistical effectiveness estimate."
+}

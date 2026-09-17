@@ -1,0 +1,2331 @@
+[
+  {
+    "id": "flitwick",
+    "category": "person",
+    "en": "Flitwick",
+    "hu": "Flitwick",
+    "aliases": ["Charms teacher", "bűbájtanár"],
+    "anchors": ["PS8"],
+    "notes": "Unchanged surname of the Charms teacher, explicitly identified in the lesson introduction. The title follows the name in Hungarian: Flitwick professzor.",
+    "verification": {"status": "paired-term-checked", "enLocator": "Flitwick", "huLocator": "Flitwick"}
+  },
+  {
+    "id": "mrs-norris",
+    "category": "creature",
+    "en": "Mrs Norris",
+    "hu": "Mrs Norris",
+    "aliases": ["Norris", "Filch's cat"],
+    "anchors": ["PS8"],
+    "notes": "The caretaker's named cat; both editions retain this name. Do not invent a translated surname merely because Filch becomes Frics.",
+    "verification": {"status": "paired-term-checked", "enLocator": "Mrs Norris", "huLocator": "Mrs Norris"}
+  },
+  {
+    "id": "madam-pomfrey",
+    "category": "person",
+    "en": "Madam Pomfrey",
+    "hu": "Madam Pomfrey",
+    "aliases": ["Pomfrey", "school nurse"],
+    "anchors": ["PS17"],
+    "notes": "Unchanged name and title of the school nurse in the hospital scene. This record verifies the name, not every treatment or medical power.",
+    "verification": {"status": "paired-term-checked", "enLocator": "Madam Pomfrey", "huLocator": "Madam Pomfrey"}
+  },
+  {
+    "id": "hospital-wing",
+    "category": "place",
+    "en": "hospital wing",
+    "hu": "gyengélkedő",
+    "aliases": ["school infirmary"],
+    "anchors": ["PS17"],
+    "notes": "The school's care location where Harry wakes. The Hungarian locator matches the locative gyengélkedőn; it is distinct from the separate St Mungo's hospital.",
+    "verification": {"status": "paired-term-checked", "enLocator": "hospital wing", "huLocator": "gyengélkedő"}
+  },
+  {
+    "id": "summoning-charm",
+    "category": "concept",
+    "en": "Summoning Charm",
+    "hu": "begyűjtőbűbáj",
+    "aliases": ["summoning", "Accio", "Invito"],
+    "anchors": ["GoF6"],
+    "notes": "The descriptive spell name, distinct from its spoken formula (Accio/Invito). The paired scene describes retrieving hidden sweets; no unlimited range or automatic mastery is implied. Hungarian locator matches the possessive begyűjtőbűbája.",
+    "verification": {"status": "paired-term-checked", "enLocator": "Summoning Charm", "huLocator": "begyűjtőbűbáj"}
+  },
+  {
+    "id": "barty-crouch",
+    "category": "person",
+    "en": "Barty Crouch",
+    "hu": "Barty Kupor",
+    "aliases": [
+      "Crouch",
+      "Kupor"
+    ],
+    "anchors": [
+      "GoF7"
+    ],
+    "notes": "Translated name. The campsite passage concerns the elder Crouch; father and son share the name, so distinguish them in scenes.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Barty Crouch",
+      "huLocator": "Barty Kupor"
+    }
+  },
+  {
+    "id": "bloody-baron",
+    "category": "person",
+    "en": "Bloody Baron",
+    "hu": "Véres Báró",
+    "aliases": [],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Name of the Slytherin ghost discussed during the feast.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Bloody Baron",
+      "huLocator": "Véres Báró"
+    }
+  },
+  {
+    "id": "cornelius-fudge",
+    "category": "person",
+    "en": "Cornelius Fudge",
+    "hu": "Cornelius Caramel",
+    "aliases": [
+      "Fudge",
+      "Caramel"
+    ],
+    "anchors": [
+      "CoS14"
+    ],
+    "notes": "Translated personal name, explicitly identified as the Minister of Magic visiting Hagrid.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Cornelius Fudge",
+      "huLocator": "Cornelius Caramel"
+    }
+  },
+  {
+    "id": "fat-friar",
+    "category": "person",
+    "en": "Fat Friar",
+    "hu": "Pufók Fráter",
+    "aliases": [],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Name of the ghost welcoming the new pupils and mentioning Hufflepuff.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Fat Friar",
+      "huLocator": "Pufók Fráter"
+    }
+  },
+  {
+    "id": "filch",
+    "category": "person",
+    "en": "Filch",
+    "hu": "Frics",
+    "aliases": [],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Surname of the caretaker in Dumbledore's opening announcements.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Filch",
+      "huLocator": "Frics"
+    }
+  },
+  {
+    "id": "grawp",
+    "category": "person",
+    "en": "Grawp",
+    "hu": "Gróp",
+    "aliases": [],
+    "anchors": [
+      "OotP30"
+    ],
+    "notes": "Name of the giant Hagrid introduces as his half-brother; not a general word for a giant.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Grawp",
+      "huLocator": "Gróp"
+    }
+  },
+  {
+    "id": "horace-slughorn",
+    "category": "person",
+    "en": "Horace Slughorn",
+    "hu": "Horatius Lumpsluck",
+    "aliases": [
+      "Slughorn",
+      "Lumpsluck"
+    ],
+    "anchors": [
+      "HBP4"
+    ],
+    "notes": "Translated personal name, checked in Dumbledore's introduction of his former colleague.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Horace Slughorn",
+      "huLocator": "Horatius Lumpsluck"
+    }
+  },
+  {
+    "id": "kreacher",
+    "category": "person",
+    "en": "Kreacher",
+    "hu": "Sipor",
+    "aliases": [],
+    "anchors": [
+      "OotP4"
+    ],
+    "notes": "Named member of the Black household, mentioned by Mrs Weasley when discussing the scattered objects.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Kreacher",
+      "huLocator": "Sipor"
+    }
+  },
+  {
+    "id": "ludo-bagman",
+    "category": "person",
+    "en": "Ludo Bagman",
+    "hu": "Ludo Bumfolt",
+    "aliases": [
+      "Bagman",
+      "Bumfolt"
+    ],
+    "anchors": [
+      "GoF7"
+    ],
+    "notes": "Translated personal name; both passages blame Bagman's indiscreet talk at the World Cup campsite.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Ludo Bagman",
+      "huLocator": "Ludo Bumfolt"
+    }
+  },
+  {
+    "id": "mad-eye-moody",
+    "category": "person",
+    "en": "Mad-Eye Moody",
+    "hu": "Rémszem Mordon",
+    "aliases": [
+      "Moody",
+      "Mordon"
+    ],
+    "anchors": [
+      "GoF11"
+    ],
+    "notes": "Moody's nickname and translated surname, identified in the Weasley breakfast conversation.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Mad-Eye Moody",
+      "huLocator": "Rémszem Mordon"
+    }
+  },
+  {
+    "id": "minerva-mcgonagall",
+    "category": "person",
+    "en": "Minerva McGonagall",
+    "hu": "Minerva McGalagony",
+    "aliases": [
+      "McGonagall",
+      "McGalagony"
+    ],
+    "anchors": [
+      "PS4"
+    ],
+    "notes": "Translated personal name, checked in the Hogwarts acceptance letter signature.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Minerva McGonagall",
+      "huLocator": "Minerva McGalagony"
+    }
+  },
+  {
+    "id": "moaning-myrtle",
+    "category": "person",
+    "en": "Moaning Myrtle",
+    "hu": "Hisztis Myrtle",
+    "aliases": [],
+    "anchors": [
+      "CoS8"
+    ],
+    "notes": "Name of the ghost haunting the girls' bathroom.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Moaning Myrtle",
+      "huLocator": "Hisztis Myrtle"
+    }
+  },
+  {
+    "id": "moony",
+    "category": "person",
+    "en": "Moony",
+    "hu": "Holdsáp",
+    "aliases": [],
+    "anchors": [
+      "PoA14"
+    ],
+    "notes": "Map-maker nickname. The first individual message to Snape in PoA14 establishes this pair.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Moony",
+      "huLocator": "Holdsáp"
+    }
+  },
+  {
+    "id": "nearly-headless-nick",
+    "category": "person",
+    "en": "Nearly Headless Nick",
+    "hu": "Félig Fej Nélküli Nick",
+    "aliases": [
+      "Nick"
+    ],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Nickname used for the Gryffindor ghost; preserve it as a name rather than translating word by word.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Nearly Headless Nick",
+      "huLocator": "Félig Fej Nélküli Nick"
+    }
+  },
+  {
+    "id": "padfoot",
+    "category": "person",
+    "en": "Padfoot",
+    "hu": "Tapmancs",
+    "aliases": [],
+    "anchors": [
+      "PoA14"
+    ],
+    "notes": "Map-maker nickname. The individual message about Snape becoming a teacher establishes this pair in PoA14.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Padfoot",
+      "huLocator": "Tapmancs"
+    }
+  },
+  {
+    "id": "peeves",
+    "category": "person",
+    "en": "Peeves",
+    "hu": "Hóborc",
+    "aliases": [],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Named Hogwarts troublemaker. The ghosts' discussion distinguishes him from an ordinary ghost.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Peeves",
+      "huLocator": "Hóborc"
+    }
+  },
+  {
+    "id": "prongs",
+    "category": "person",
+    "en": "Prongs",
+    "hu": "Ágas",
+    "aliases": [],
+    "anchors": [
+      "PoA14"
+    ],
+    "notes": "Map-maker nickname. The second individual message to Snape establishes this pair in PoA14.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Prongs",
+      "huLocator": "Ágas"
+    }
+  },
+  {
+    "id": "quirrell",
+    "category": "person",
+    "en": "Quirrell",
+    "hu": "Mógus",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Surname of the professor introduced by Hagrid at the Leaky Cauldron.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Quirrell",
+      "huLocator": "Mógus"
+    }
+  },
+  {
+    "id": "rita-skeeter",
+    "category": "person",
+    "en": "Rita Skeeter",
+    "hu": "Rita Vitrol",
+    "aliases": [
+      "Skeeter",
+      "Vitrol"
+    ],
+    "anchors": [
+      "GoF10"
+    ],
+    "notes": "Translated name of the journalist whose report criticizes Ministry security.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Rita Skeeter",
+      "huLocator": "Rita Vitrol"
+    }
+  },
+  {
+    "id": "severus-snape",
+    "category": "person",
+    "en": "Severus Snape",
+    "hu": "Perselus Piton",
+    "aliases": [
+      "Snape",
+      "Piton"
+    ],
+    "anchors": [
+      "PS9"
+    ],
+    "notes": "Translated personal name. The comparison with McGonagall's defeated Quidditch team identifies Snape.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Severus Snape",
+      "huLocator": "Perselus Piton"
+    }
+  },
+  {
+    "id": "sprout",
+    "category": "person",
+    "en": "Sprout",
+    "hu": "Bimba",
+    "aliases": [],
+    "anchors": [
+      "PS8"
+    ],
+    "notes": "Surname of the teacher taking the pupils to the greenhouses.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Sprout",
+      "huLocator": "Bimba"
+    }
+  },
+  {
+    "id": "tom-riddle",
+    "category": "person",
+    "en": "Tom Riddle",
+    "hu": "Tom Denem",
+    "aliases": [
+      "Riddle",
+      "Denem"
+    ],
+    "anchors": [
+      "CoS13"
+    ],
+    "notes": "Translated personal name given by the writer answering Harry through the diary.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Tom Riddle",
+      "huLocator": "Tom Denem"
+    }
+  },
+  {
+    "id": "wormtail",
+    "category": "person",
+    "en": "Wormtail",
+    "hu": "Féregfark",
+    "aliases": [],
+    "anchors": [
+      "PoA14"
+    ],
+    "notes": "Map-maker nickname. The individual final message to Snape in PoA14 establishes this pair; do not infer it from list order.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Wormtail",
+      "huLocator": "Féregfark"
+    }
+  },
+  {
+    "id": "azkaban",
+    "category": "place",
+    "en": "Azkaban",
+    "hu": "Azkaban",
+    "aliases": [],
+    "anchors": [
+      "CoS12"
+    ],
+    "notes": "Wizarding prison. Malfoy's guess about a particular prisoner in this scene should not be treated as established fact.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Azkaban",
+      "huLocator": "Azkaban"
+    }
+  },
+  {
+    "id": "burrow",
+    "category": "place",
+    "en": "Burrow",
+    "hu": "Odú",
+    "aliases": [],
+    "anchors": [
+      "CoS3"
+    ],
+    "notes": "Weasley home, identified by its sign. EN commonly takes the article The.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Burrow",
+      "huLocator": "Odú"
+    }
+  },
+  {
+    "id": "chamber-of-secrets",
+    "category": "place",
+    "en": "Chamber of Secrets",
+    "hu": "Titkok Kamrája",
+    "aliases": [],
+    "anchors": [
+      "CoS8"
+    ],
+    "notes": "Named chamber in the wall message; this anchor verifies the wording, not the truth of every claim in the message.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Chamber of Secrets",
+      "huLocator": "Titkok Kamrája"
+    }
+  },
+  {
+    "id": "diagon-alley",
+    "category": "place",
+    "en": "Diagon Alley",
+    "hu": "Abszol út",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Wizarding shopping street. The HU locator also matches the case form Abszol úton.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Diagon Alley",
+      "huLocator": "Abszol út"
+    }
+  },
+  {
+    "id": "forbidden-forest",
+    "category": "place",
+    "en": "Forbidden Forest",
+    "hu": "Tiltott Rengeteg",
+    "aliases": [],
+    "anchors": [
+      "PS8"
+    ],
+    "notes": "Forest bordering Hagrid's hut. The HU source uses lower case here; capitalization is not part of the locator check.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Forbidden Forest",
+      "huLocator": "Tiltott Rengeteg"
+    }
+  },
+  {
+    "id": "great-hall",
+    "category": "place",
+    "en": "Great Hall",
+    "hu": "nagyterem",
+    "aliases": [],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Hall used for the school feast. HU locator matches the inflected nagyteremben.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Great Hall",
+      "huLocator": "nagyterem"
+    }
+  },
+  {
+    "id": "hogs-head",
+    "category": "place",
+    "en": "Hog's Head",
+    "hu": "Szárnyas Vadkan",
+    "aliases": [],
+    "anchors": [
+      "PS16"
+    ],
+    "notes": "Village pub named in Hagrid's account of obtaining the dragon egg. EN locator preserves the source's curly apostrophe.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Hog’s Head",
+      "huLocator": "Szárnyas Vadkan"
+    }
+  },
+  {
+    "id": "hogsmeade",
+    "category": "place",
+    "en": "Hogsmeade",
+    "hu": "Roxmorts",
+    "aliases": [],
+    "anchors": [
+      "PoA1"
+    ],
+    "notes": "Village named in the permission notice for third-year visits.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Hogsmeade",
+      "huLocator": "Roxmorts"
+    }
+  },
+  {
+    "id": "hogwarts",
+    "category": "place",
+    "en": "Hogwarts",
+    "hu": "Roxfort",
+    "aliases": [],
+    "anchors": [
+      "PS4"
+    ],
+    "notes": "School and castle name, checked in Hagrid's introduction. Institutional references use the same name.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Hogwarts",
+      "huLocator": "Roxfort"
+    }
+  },
+  {
+    "id": "knockturn-alley",
+    "category": "place",
+    "en": "Knockturn Alley",
+    "hu": "Zsebpiszok köz",
+    "aliases": [],
+    "anchors": [
+      "CoS4"
+    ],
+    "notes": "Shopping alley Harry reaches by mistake; the HU locator matches the case form Zsebpiszok közben.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Knockturn Alley",
+      "huLocator": "Zsebpiszok köz"
+    }
+  },
+  {
+    "id": "leaky-cauldron",
+    "category": "place",
+    "en": "Leaky Cauldron",
+    "hu": "Foltozott Üst",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Pub through which Harry and Hagrid enter the wizarding shopping area.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Leaky Cauldron",
+      "huLocator": "Foltozott Üst"
+    }
+  },
+  {
+    "id": "room-of-requirement",
+    "category": "place",
+    "en": "Room of Requirement",
+    "hu": "Szükség Szobája",
+    "aliases": [],
+    "anchors": [
+      "OotP18"
+    ],
+    "notes": "Dobby's name for the room that appears when needed. His explanation is testimony, not a complete specification of the room's limits.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Room of Requirement",
+      "huLocator": "Szükség Szobája"
+    }
+  },
+  {
+    "id": "shrieking-shack",
+    "category": "place",
+    "en": "Shrieking Shack",
+    "hu": "Szellemszállás",
+    "aliases": [],
+    "anchors": [
+      "PoA5"
+    ],
+    "notes": "Building discussed as haunted. The chapter reports its reputation; that reputation is not proof of what caused the sounds.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Shrieking Shack",
+      "huLocator": "Szellemszállás"
+    }
+  },
+  {
+    "id": "three-broomsticks",
+    "category": "place",
+    "en": "Three Broomsticks",
+    "hu": "Három Seprű",
+    "aliases": [],
+    "anchors": [
+      "PoA8"
+    ],
+    "notes": "Village pub where Ron and Hermione report drinking butterbeer; the HU locator matches Három Seprűbe.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Three Broomsticks",
+      "huLocator": "Három Seprű"
+    }
+  },
+  {
+    "id": "gryffindor",
+    "category": "house",
+    "en": "Gryffindor",
+    "hu": "Griffendél",
+    "aliases": [],
+    "anchors": [
+      "PS6"
+    ],
+    "notes": "Hogwarts house, discussed by Hermione on the train. House membership must not be inferred from a name match alone.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Gryffindor",
+      "huLocator": "Griffendél"
+    }
+  },
+  {
+    "id": "hufflepuff",
+    "category": "house",
+    "en": "Hufflepuff",
+    "hu": "Hugrabug",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Hogwarts house. Do not turn the speaker's dismissive opinion into an objective description of its pupils.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Hufflepuff",
+      "huLocator": "Hugrabug"
+    }
+  },
+  {
+    "id": "ravenclaw",
+    "category": "house",
+    "en": "Ravenclaw",
+    "hu": "Hollóhát",
+    "aliases": [],
+    "anchors": [
+      "PS6"
+    ],
+    "notes": "Hogwarts house, discussed by Hermione on the train.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Ravenclaw",
+      "huLocator": "Hollóhát"
+    }
+  },
+  {
+    "id": "slytherin",
+    "category": "house",
+    "en": "Slytherin",
+    "hu": "Mardekár",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Hogwarts house. The shop conversation expresses a pupil's expectation, not a completed Sorting.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Slytherin",
+      "huLocator": "Mardekár"
+    }
+  },
+  {
+    "id": "accio",
+    "category": "spell",
+    "en": "Accio",
+    "hu": "Invito",
+    "aliases": [],
+    "anchors": [
+      "GoF6"
+    ],
+    "notes": "Translated Summoning Charm incantation. Mrs Weasley draws concealed objects out of George's pocket; no unlimited range is implied.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Accio",
+      "huLocator": "Invito"
+    }
+  },
+  {
+    "id": "aguamenti",
+    "category": "spell",
+    "en": "Aguamenti",
+    "hu": "Aguamenti",
+    "aliases": [],
+    "anchors": [
+      "HBP26"
+    ],
+    "notes": "Unchanged water-producing incantation. The cup fills, but its contents then disappear at Dumbledore's lips in the enchanted cave.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Aguamenti",
+      "huLocator": "Aguamenti"
+    }
+  },
+  {
+    "id": "alohomora",
+    "category": "spell",
+    "en": "Alohomora",
+    "hu": "Alohomora",
+    "aliases": [],
+    "anchors": [
+      "PS9"
+    ],
+    "notes": "Unchanged incantation. Hermione opens a locked door here; this does not establish that it defeats every lock or enchantment.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Alohomora",
+      "huLocator": "Alohomora"
+    }
+  },
+  {
+    "id": "avada-kedavra",
+    "category": "spell",
+    "en": "Avada Kedavra",
+    "hu": "Avada Kedavra",
+    "aliases": [],
+    "anchors": [
+      "OotP36"
+    ],
+    "notes": "Unchanged Killing Curse incantation. The statue intercepts the attack in this scene; do not infer that every casting reaches its target.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Avada Kedavra",
+      "huLocator": "Avada Kedavra"
+    }
+  },
+  {
+    "id": "crucio",
+    "category": "spell",
+    "en": "Crucio",
+    "hu": "Crucio",
+    "aliases": [],
+    "anchors": [
+      "GoF14"
+    ],
+    "notes": "Unchanged incantation of the Cruciatus Curse. The classroom demonstration inflicts pain on a spider.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Crucio",
+      "huLocator": "Crucio"
+    }
+  },
+  {
+    "id": "expecto-patronum",
+    "category": "spell",
+    "en": "Expecto Patronum",
+    "hu": "Expecto patronum",
+    "aliases": [],
+    "anchors": [
+      "PoA12"
+    ],
+    "notes": "Unchanged incantation for the Patronus Charm, taught as protection against dementors. Lupin's lesson also requires concentration on a happy memory.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Expecto Patronum",
+      "huLocator": "Expecto patronum"
+    }
+  },
+  {
+    "id": "expelliarmus",
+    "category": "spell",
+    "en": "Expelliarmus",
+    "hu": "Capitulatus",
+    "aliases": [],
+    "anchors": [
+      "CoS11"
+    ],
+    "notes": "Translated incantation for disarming. Snape's demonstration also knocks Lockhart backwards; that extra movement is not a universal rule.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Expelliarmus",
+      "huLocator": "Capitulatus"
+    }
+  },
+  {
+    "id": "impedimenta",
+    "category": "spell",
+    "en": "Impedimenta",
+    "hu": "Obstructo",
+    "aliases": [],
+    "anchors": [
+      "GoF31"
+    ],
+    "notes": "Translated incantation for impeding movement. The spell rebounds from the Skrewt's armour before working on its unarmoured underside.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Impedimenta",
+      "huLocator": "Obstructo"
+    }
+  },
+  {
+    "id": "imperio",
+    "category": "spell",
+    "en": "Imperio",
+    "hu": "Imperio",
+    "aliases": [],
+    "anchors": [
+      "GoF14"
+    ],
+    "notes": "Unchanged incantation of the Imperius Curse. The classroom demonstration makes a spider perform commanded movements.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Imperio",
+      "huLocator": "Imperio"
+    }
+  },
+  {
+    "id": "incendio",
+    "category": "spell",
+    "en": "Incendio",
+    "hu": "Piroinitio",
+    "aliases": [],
+    "anchors": [
+      "GoF4"
+    ],
+    "notes": "Translated fire-starting incantation. Mr Weasley lights the fireplace before the journey.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Incendio",
+      "huLocator": "Piroinitio"
+    }
+  },
+  {
+    "id": "levicorpus",
+    "category": "spell",
+    "en": "Levicorpus",
+    "hu": "Levicorpus",
+    "aliases": [],
+    "anchors": [
+      "HBP12"
+    ],
+    "notes": "Unchanged incantation. Harry casts it silently and Ron hangs upside down by an ankle; this scene alone does not impose a universal casting rule.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Levicorpus",
+      "huLocator": "Levicorpus"
+    }
+  },
+  {
+    "id": "liberacorpus",
+    "category": "spell",
+    "en": "Liberacorpus",
+    "hu": "Liberacorpus",
+    "aliases": [],
+    "anchors": [
+      "HBP12"
+    ],
+    "notes": "Unchanged counter-incantation used to release Ron after Levicorpus.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Liberacorpus",
+      "huLocator": "Liberacorpus"
+    }
+  },
+  {
+    "id": "lumos",
+    "category": "spell",
+    "en": "Lumos",
+    "hu": "Lumos",
+    "aliases": [],
+    "anchors": [
+      "CoS15"
+    ],
+    "notes": "Unchanged incantation. Produces light at the wand tip in the forest scene.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Lumos",
+      "huLocator": "Lumos"
+    }
+  },
+  {
+    "id": "morsmordre",
+    "category": "spell",
+    "en": "Morsmordre",
+    "hu": "Morsmordre",
+    "aliases": [],
+    "anchors": [
+      "GoF9"
+    ],
+    "notes": "Unchanged incantation used to conjure the Dark Mark into the sky; not the spoken name of every Dark Mark.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Morsmordre",
+      "huLocator": "Morsmordre"
+    }
+  },
+  {
+    "id": "nox",
+    "category": "spell",
+    "en": "Nox",
+    "hu": "Nox",
+    "aliases": [],
+    "anchors": [
+      "PoA17"
+    ],
+    "notes": "Unchanged incantation. Extinguishes the light at the wand tips before entry into the upstairs room.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Nox",
+      "huLocator": "Nox"
+    }
+  },
+  {
+    "id": "obliviate",
+    "category": "spell",
+    "en": "Obliviate",
+    "hu": "Exmemoriam",
+    "aliases": [],
+    "anchors": [
+      "CoS16"
+    ],
+    "notes": "Translated memory-modifying incantation. Lockhart uses Ron's damaged wand and the attempt backfires; this is not an ordinary successful demonstration.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Obliviate",
+      "huLocator": "Exmemoriam"
+    }
+  },
+  {
+    "id": "petrificus-totalus",
+    "category": "spell",
+    "en": "Petrificus Totalus",
+    "hu": "Petrificus Totalus",
+    "aliases": [],
+    "anchors": [
+      "PS16"
+    ],
+    "notes": "Unchanged incantation. Hermione immobilizes Neville's whole body; this is not the same effect as knocking him unconscious.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Petrificus Totalus",
+      "huLocator": "Petrificus Totalus"
+    }
+  },
+  {
+    "id": "protego",
+    "category": "spell",
+    "en": "Protego",
+    "hu": "Protego",
+    "aliases": [],
+    "anchors": [
+      "OotP26"
+    ],
+    "notes": "Unchanged Shield Charm incantation. Harry uses it during Snape's mental-intrusion lesson; this instance does not define all of its limits.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Protego",
+      "huLocator": "Protego"
+    }
+  },
+  {
+    "id": "reducto",
+    "category": "spell",
+    "en": "Reducto",
+    "hu": "Reducto",
+    "aliases": [],
+    "anchors": [
+      "GoF31"
+    ],
+    "notes": "Unchanged incantation associated here with blasting solid obstacles. It fails on the mist. EN locator includes punctuation to avoid confusing Reducto with the effect name Reductor.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Reducto!",
+      "huLocator": "Reducto"
+    }
+  },
+  {
+    "id": "reparo",
+    "category": "spell",
+    "en": "Reparo",
+    "hu": "Reparo",
+    "aliases": [],
+    "anchors": [
+      "GoF11"
+    ],
+    "notes": "Unchanged repair incantation. Hermione restores the broken compartment-door glass in this scene.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Reparo",
+      "huLocator": "Reparo"
+    }
+  },
+  {
+    "id": "rictusempra",
+    "category": "spell",
+    "en": "Rictusempra",
+    "hu": "Rictusempra",
+    "aliases": [],
+    "anchors": [
+      "CoS11"
+    ],
+    "notes": "Unchanged incantation. Harry's duelling spell makes Malfoy double over laughing.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Rictusempra",
+      "huLocator": "Rictusempra"
+    }
+  },
+  {
+    "id": "riddikulus",
+    "category": "spell",
+    "en": "Riddikulus",
+    "hu": "Comikulissimus",
+    "aliases": [],
+    "anchors": [
+      "PoA7"
+    ],
+    "notes": "Translated incantation used against a boggart. Lupin teaches that the word alone is insufficient; an amusing imagined transformation accompanies it.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Riddikulus",
+      "huLocator": "Comikulissimus"
+    }
+  },
+  {
+    "id": "sectumsempra",
+    "category": "spell",
+    "en": "Sectumsempra",
+    "hu": "Sectumsempra",
+    "aliases": [],
+    "anchors": [
+      "HBP24"
+    ],
+    "notes": "Unchanged incantation. Harry's use against Draco causes severe cutting wounds; this anchor shows the effect rather than merely the written spell name.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Sectumsempra",
+      "huLocator": "Sectumsempra"
+    }
+  },
+  {
+    "id": "serpensortia",
+    "category": "spell",
+    "en": "Serpensortia",
+    "hu": "Serpensortia",
+    "aliases": [],
+    "anchors": [
+      "CoS11"
+    ],
+    "notes": "Unchanged incantation. A snake emerges from Malfoy's wand during the duel.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Serpensortia",
+      "huLocator": "Serpensortia"
+    }
+  },
+  {
+    "id": "silencio",
+    "category": "spell",
+    "en": "Silencio",
+    "hu": "Silencio",
+    "aliases": [],
+    "anchors": [
+      "OotP18"
+    ],
+    "notes": "Unchanged silencing incantation. Hermione stops the frog's croaking during practice.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Silencio",
+      "huLocator": "Silencio"
+    }
+  },
+  {
+    "id": "stupefy",
+    "category": "spell",
+    "en": "Stupefy",
+    "hu": "Stupor",
+    "aliases": [],
+    "anchors": [
+      "GoF9"
+    ],
+    "notes": "Translated Stunning Spell incantation. Ministry wizards cast it during the campsite confrontation.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Stupefy",
+      "huLocator": "Stupor"
+    }
+  },
+  {
+    "id": "wingardium-leviosa",
+    "category": "spell",
+    "en": "Wingardium Leviosa",
+    "hu": "Vingardium Leviosa",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Incantation spelling changes from initial W to V in HU. The lesson concerns levitation; pronunciation and wand movement matter in that lesson.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Wingardium Leviosa",
+      "huLocator": "Vingardium Leviosa"
+    }
+  },
+  {
+    "id": "bludger",
+    "category": "object",
+    "en": "Bludger",
+    "hu": "gurkó",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Quidditch ball that threatens players and is redirected by Beaters. Locators also match plural forms.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Bludger",
+      "huLocator": "gurkó"
+    }
+  },
+  {
+    "id": "firebolt",
+    "category": "object",
+    "en": "Firebolt",
+    "hu": "Tűzvillám",
+    "aliases": [],
+    "anchors": [
+      "PoA4"
+    ],
+    "notes": "Brand/model name of the racing broom displayed in the shop.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Firebolt",
+      "huLocator": "Tűzvillám"
+    }
+  },
+  {
+    "id": "floo-powder",
+    "category": "object",
+    "en": "Floo powder",
+    "hu": "hop-por",
+    "aliases": [],
+    "anchors": [
+      "CoS4"
+    ],
+    "notes": "Powder used for fireplace travel. Preserve the compound hop-por; it is not the term for Apparition.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Floo powder",
+      "huLocator": "hop-por"
+    }
+  },
+  {
+    "id": "galleon",
+    "category": "object",
+    "en": "galleon",
+    "hu": "galleon",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Gold wizarding coin. EN and HU locators also match plural and suffixed forms.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "galleon",
+      "huLocator": "galleon"
+    }
+  },
+  {
+    "id": "golden-snitch",
+    "category": "object",
+    "en": "Golden Snitch",
+    "hu": "aranycikesz",
+    "aliases": [
+      "Snitch",
+      "cikesz"
+    ],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Small winged Quidditch ball the Seeker must catch, identified in Wood's explanation.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Golden Snitch",
+      "huLocator": "aranycikesz"
+    }
+  },
+  {
+    "id": "howler",
+    "category": "object",
+    "en": "Howler",
+    "hu": "rivalló",
+    "aliases": [],
+    "anchors": [
+      "CoS6"
+    ],
+    "notes": "Letter that delivers a loud spoken reprimand. Ron identifies the envelope sent by his mother.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Howler",
+      "huLocator": "rivalló"
+    }
+  },
+  {
+    "id": "invisibility-cloak",
+    "category": "object",
+    "en": "Invisibility Cloak",
+    "hu": "láthatatlanná tévő köpeny",
+    "aliases": [],
+    "anchors": [
+      "PS14"
+    ],
+    "notes": "Harry's concealment cloak in the dragon-removal sequence. This anchor does not establish later claims about its origin or uniqueness.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Invisibility Cloak",
+      "huLocator": "láthatatlanná tévő köpeny"
+    }
+  },
+  {
+    "id": "knut",
+    "category": "object",
+    "en": "knut",
+    "hu": "knút",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Bronze wizarding coin, identified when Harry pays the newspaper owl.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "knut",
+      "huLocator": "knút"
+    }
+  },
+  {
+    "id": "marauders-map",
+    "category": "object",
+    "en": "Marauder's Map",
+    "hu": "Tekergők Térképe",
+    "aliases": [],
+    "anchors": [
+      "PoA10"
+    ],
+    "notes": "Named magical map, identified by its heading and moving labelled dots. EN locator retains the source's curly apostrophe.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Marauder’s Map",
+      "huLocator": "Tekergők Térképe"
+    }
+  },
+  {
+    "id": "mirror-of-erised",
+    "category": "object",
+    "en": "Mirror of Erised",
+    "hu": "Edevis tükre",
+    "aliases": [],
+    "anchors": [
+      "PS12"
+    ],
+    "notes": "Named mirror discussed by Dumbledore with Harry. The locator pair identifies the artifact rather than an ordinary mirror.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Mirror of Erised",
+      "huLocator": "Edevis tükre"
+    }
+  },
+  {
+    "id": "pensieve",
+    "category": "object",
+    "en": "Pensieve",
+    "hu": "merengő",
+    "aliases": [],
+    "anchors": [
+      "GoF30"
+    ],
+    "notes": "Dumbledore's named memory artifact, identified as he explains the contents of the basin.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Pensieve",
+      "huLocator": "merengő"
+    }
+  },
+  {
+    "id": "philosophers-stone",
+    "category": "object",
+    "en": "Philosopher's Stone",
+    "hu": "bölcsek köve",
+    "aliases": [],
+    "anchors": [
+      "PS13"
+    ],
+    "notes": "Alchemical stone discussed in the Flamel reference. EN locator retains the printed curly apostrophe; HU is the base form of an inflected title.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Philosopher’s Stone",
+      "huLocator": "bölcsek köve"
+    }
+  },
+  {
+    "id": "portkey",
+    "category": "object",
+    "en": "Portkey",
+    "hu": "zsupszkulcs",
+    "aliases": [],
+    "anchors": [
+      "GoF6"
+    ],
+    "notes": "Transport object. The World Cup explanation concerns scheduled group travel; it is not a rule that every Portkey operates identically.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Portkey",
+      "huLocator": "zsupszkulcs"
+    }
+  },
+  {
+    "id": "quaffle",
+    "category": "object",
+    "en": "Quaffle",
+    "hu": "kvaff",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Quidditch ball handled by Chasers and thrown through the hoops.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Quaffle",
+      "huLocator": "kvaff"
+    }
+  },
+  {
+    "id": "remembrall",
+    "category": "object",
+    "en": "Remembrall",
+    "hu": "nefeleddgömb",
+    "aliases": [],
+    "anchors": [
+      "PS9"
+    ],
+    "notes": "Neville's reminder object. It signals that something was forgotten, not which thing.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Remembrall",
+      "huLocator": "nefeleddgömb"
+    }
+  },
+  {
+    "id": "sickle",
+    "category": "object",
+    "en": "sickle",
+    "hu": "sarló",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Silver wizarding coin. The surrounding purchase discussion identifies money, not an agricultural sickle.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "sickle",
+      "huLocator": "sarló"
+    }
+  },
+  {
+    "id": "sorting-hat",
+    "category": "object",
+    "en": "Sorting Hat",
+    "hu": "Teszlek Süveg",
+    "aliases": [],
+    "anchors": [
+      "PS7"
+    ],
+    "notes": "Name of the Sorting artifact, identified by its own introduction before the ceremony.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Sorting Hat",
+      "huLocator": "Teszlek Süveg"
+    }
+  },
+  {
+    "id": "time-turner",
+    "category": "object",
+    "en": "Time-Turner",
+    "hu": "időnyerő",
+    "aliases": [],
+    "anchors": [
+      "PoA21"
+    ],
+    "notes": "Time-travel device Hermione names while explaining her timetable. Her explanation does not establish unrestricted time travel.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Time-Turner",
+      "huLocator": "időnyerő"
+    }
+  },
+  {
+    "id": "wand",
+    "category": "object",
+    "en": "wand",
+    "hu": "varázspálca",
+    "aliases": [
+      "pálca"
+    ],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Ordinary equipment term, checked in the school supply list.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "wand",
+      "huLocator": "varázspálca"
+    }
+  },
+  {
+    "id": "amortentia",
+    "category": "potion",
+    "en": "Amortentia",
+    "hu": "Amortentia",
+    "aliases": [],
+    "anchors": [
+      "HBP9"
+    ],
+    "notes": "Named love potion identified in Slughorn's lesson. Its category label does not establish freely chosen, lasting love.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Amortentia",
+      "huLocator": "Amortentia"
+    }
+  },
+  {
+    "id": "draught-of-living-death",
+    "category": "potion",
+    "en": "Draught of Living Death",
+    "hu": "élő halál eszenciája",
+    "aliases": [],
+    "anchors": [
+      "HBP9"
+    ],
+    "notes": "Potion assigned in Slughorn's lesson. HU uses eszencia with one s; locator ends at eszenciá to match the inflected eszenciáját.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Draught of Living Death",
+      "huLocator": "élő halál eszenciá"
+    }
+  },
+  {
+    "id": "felix-felicis",
+    "category": "potion",
+    "en": "Felix Felicis",
+    "hu": "Felix Felicis",
+    "aliases": [],
+    "anchors": [
+      "HBP9"
+    ],
+    "notes": "Named luck potion introduced in Slughorn's lesson; not a guarantee that every possible aim becomes achievable.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Felix Felicis",
+      "huLocator": "Felix Felicis"
+    }
+  },
+  {
+    "id": "polyjuice-potion",
+    "category": "potion",
+    "en": "Polyjuice Potion",
+    "hu": "Százfűlé-főzet",
+    "aliases": [],
+    "anchors": [
+      "CoS9"
+    ],
+    "notes": "Potion Hermione proposes for temporarily taking another person's appearance. The name alone does not establish every ingredient, limit or result.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Polyjuice Potion",
+      "huLocator": "Százfűlé-főzet"
+    }
+  },
+  {
+    "id": "veritaserum",
+    "category": "potion",
+    "en": "Veritaserum",
+    "hu": "Veritaserum",
+    "aliases": [],
+    "anchors": [
+      "GoF27"
+    ],
+    "notes": "Named truth potion. Snape describes its strength as a threat; do not elevate that speech into a rule of infallibility.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Veritaserum",
+      "huLocator": "Veritaserum"
+    }
+  },
+  {
+    "id": "wolfsbane-potion",
+    "category": "potion",
+    "en": "Wolfsbane Potion",
+    "hu": "farkasölőfű-főzet",
+    "aliases": [],
+    "anchors": [
+      "PoA18"
+    ],
+    "notes": "Potion Lupin describes as allowing him to retain his mind during transformation; not a cure for being a werewolf.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Wolfsbane Potion",
+      "huLocator": "farkasölőfű-főzet"
+    }
+  },
+  {
+    "id": "beauxbatons",
+    "category": "institution",
+    "en": "Beauxbatons",
+    "hu": "Beauxbatons",
+    "aliases": [],
+    "anchors": [
+      "GoF9"
+    ],
+    "notes": "Wizarding academy Hermione identifies when recognizing the foreign pupils.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Beauxbatons",
+      "huLocator": "Beauxbatons"
+    }
+  },
+  {
+    "id": "daily-prophet",
+    "category": "institution",
+    "en": "Daily Prophet",
+    "hu": "Reggeli Próféta",
+    "aliases": [],
+    "anchors": [
+      "PS6"
+    ],
+    "notes": "Newspaper title in the discussion of the attempted Gringotts robbery.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Daily Prophet",
+      "huLocator": "Reggeli Próféta"
+    }
+  },
+  {
+    "id": "death-eater",
+    "category": "institution",
+    "en": "Death Eater",
+    "hu": "halálfaló",
+    "aliases": [],
+    "anchors": [
+      "GoF9"
+    ],
+    "notes": "Member of Voldemort's organization. The entry is singular; the chapter also uses plural and case-inflected forms.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Death Eater",
+      "huLocator": "halálfaló"
+    }
+  },
+  {
+    "id": "dumbledores-army",
+    "category": "institution",
+    "en": "Dumbledore's Army",
+    "hu": "Dumbledore Serege",
+    "aliases": [
+      "DA",
+      "DS"
+    ],
+    "anchors": [
+      "OotP18"
+    ],
+    "notes": "Name adopted by the student defence group. The local abbreviations are DA in EN and DS in HU; preserve the language-specific initials.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Dumbledore’s Army",
+      "huLocator": "Dumbledore Serege"
+    }
+  },
+  {
+    "id": "durmstrang",
+    "category": "institution",
+    "en": "Durmstrang",
+    "hu": "Durmstrang",
+    "aliases": [],
+    "anchors": [
+      "GoF11"
+    ],
+    "notes": "Wizarding school mentioned by Draco. His statements about its admissions policy remain character testimony.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Durmstrang",
+      "huLocator": "Durmstrang"
+    }
+  },
+  {
+    "id": "gringotts",
+    "category": "institution",
+    "en": "Gringotts",
+    "hu": "Gringotts",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Wizarding bank named by Hagrid; an institution rather than a generic vault.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Gringotts",
+      "huLocator": "Gringotts"
+    }
+  },
+  {
+    "id": "ministry-of-magic",
+    "category": "institution",
+    "en": "Ministry of Magic",
+    "hu": "Mágiaügyi Minisztérium",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Wizarding government institution discussed by Hagrid.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Ministry of Magic",
+      "huLocator": "Mágiaügyi Minisztérium"
+    }
+  },
+  {
+    "id": "order-of-the-phoenix",
+    "category": "institution",
+    "en": "Order of the Phoenix",
+    "hu": "Főnix Rendje",
+    "aliases": [],
+    "anchors": [
+      "OotP4"
+    ],
+    "notes": "Organization Hermione identifies as founded and led by Dumbledore to oppose Voldemort.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Order of the Phoenix",
+      "huLocator": "Főnix Rendje"
+    }
+  },
+  {
+    "id": "st-mungos",
+    "category": "institution",
+    "en": "St Mungo's",
+    "hu": "Szent Mungó",
+    "aliases": [],
+    "anchors": [
+      "GoF8"
+    ],
+    "notes": "Hospital name. Locators select the opening of the full institutional name, not a person named Mungo.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "St Mungo",
+      "huLocator": "Szent Mungó"
+    }
+  },
+  {
+    "id": "wizengamot",
+    "category": "institution",
+    "en": "Wizengamot",
+    "hu": "Wizengamot",
+    "aliases": [],
+    "anchors": [
+      "OotP5"
+    ],
+    "notes": "Wizarding high court named while discussing Dumbledore's removal from office.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Wizengamot",
+      "huLocator": "Wizengamot"
+    }
+  },
+  {
+    "id": "basilisk",
+    "category": "creature",
+    "en": "basilisk",
+    "hu": "baziliskus",
+    "aliases": [],
+    "anchors": [
+      "CoS16"
+    ],
+    "notes": "The giant serpent species in the Chamber investigation. The local HU edition prints baziliskus, including outside the archaic reference-book excerpt; do not silently replace it with a dictionary spelling.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "basilisk",
+      "huLocator": "baziliskus"
+    }
+  },
+  {
+    "id": "boggart",
+    "category": "creature",
+    "en": "boggart",
+    "hu": "mumus",
+    "aliases": [],
+    "anchors": [
+      "PoA7"
+    ],
+    "notes": "Shape-changing creature in Lupin's wardrobe lesson. The HU word is an ordinary short noun used as the creature term.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "boggart",
+      "huLocator": "mumus"
+    }
+  },
+  {
+    "id": "buckbeak",
+    "category": "creature",
+    "en": "Buckbeak",
+    "hu": "Csikócsőr",
+    "aliases": [],
+    "anchors": [
+      "PoA6"
+    ],
+    "notes": "The individual hippogriff Hagrid introduces for Harry's approach and bow; not a species name.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Buckbeak",
+      "huLocator": "Csikócsőr"
+    }
+  },
+  {
+    "id": "centaur",
+    "category": "creature",
+    "en": "centaur",
+    "hu": "kentaur",
+    "aliases": [],
+    "anchors": [
+      "PS15"
+    ],
+    "notes": "Creature type identified when Hagrid greets Ronan in the forest.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "centaur",
+      "huLocator": "kentaur"
+    }
+  },
+  {
+    "id": "crookshanks",
+    "category": "creature",
+    "en": "Crookshanks",
+    "hu": "Csámpás",
+    "aliases": [],
+    "anchors": [
+      "PoA4"
+    ],
+    "notes": "The named cat in the magical pet shop. Both passages identify it while it attacks Scabbers.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Crookshanks",
+      "huLocator": "Csámpás"
+    }
+  },
+  {
+    "id": "dementor",
+    "category": "creature",
+    "en": "Dementor",
+    "hu": "dementor",
+    "aliases": [],
+    "anchors": [
+      "PoA5"
+    ],
+    "notes": "Creature encountered on the train, identified by Lupin as one of Azkaban's dementors.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Dementor",
+      "huLocator": "dementor"
+    }
+  },
+  {
+    "id": "fang",
+    "category": "creature",
+    "en": "Fang",
+    "hu": "Agyar",
+    "aliases": [],
+    "anchors": [
+      "PS8"
+    ],
+    "notes": "Hagrid's named boarhound, not a species or a tooth. Punctuation in both locators selects the dog's name and avoids fangs or the substring in magyarázta.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Fang –",
+      "huLocator": "Agyar!"
+    }
+  },
+  {
+    "id": "fluffy",
+    "category": "creature",
+    "en": "Fluffy",
+    "hu": "Bolyhoska",
+    "aliases": [],
+    "anchors": [
+      "PS11"
+    ],
+    "notes": "Hagrid's named three-headed dog. The conversation identifies the animal guarding the concealed object.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Fluffy",
+      "huLocator": "Bolyhoska"
+    }
+  },
+  {
+    "id": "goblin",
+    "category": "creature",
+    "en": "goblin",
+    "hu": "kobold",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Gringotts-associated beings in Hagrid's explanation; distinct from house-elves. Locators also match plurals.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "goblin",
+      "huLocator": "kobold"
+    }
+  },
+  {
+    "id": "hippogriff",
+    "category": "creature",
+    "en": "hippogriff",
+    "hu": "hippogriff",
+    "aliases": [],
+    "anchors": [
+      "PoA6"
+    ],
+    "notes": "Species introduced by Hagrid; distinguish this term from the individual name Buckbeak/Csikócsőr.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "hippogriff",
+      "huLocator": "hippogriff"
+    }
+  },
+  {
+    "id": "house-elf",
+    "category": "creature",
+    "en": "house-elf",
+    "hu": "házimanó",
+    "aliases": [],
+    "anchors": [
+      "CoS2"
+    ],
+    "notes": "Species/social group Dobby uses to identify himself; not interchangeable with goblin.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "house-elf",
+      "huLocator": "házimanó"
+    }
+  },
+  {
+    "id": "phoenix",
+    "category": "creature",
+    "en": "phoenix",
+    "hu": "főnix",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Creature whose feathers Ollivander names as a wand-core material; not the proper name of a particular phoenix.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "phoenix",
+      "huLocator": "főnix"
+    }
+  },
+  {
+    "id": "scabbers",
+    "category": "creature",
+    "en": "Scabbers",
+    "hu": "Makesz",
+    "aliases": [],
+    "anchors": [
+      "PS6"
+    ],
+    "notes": "The named rat Ron shows Harry on the train; a character name, not a general animal term.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Scabbers",
+      "huLocator": "Makesz"
+    }
+  },
+  {
+    "id": "thestral",
+    "category": "creature",
+    "en": "Thestral",
+    "hu": "thesztrál",
+    "aliases": [],
+    "anchors": [
+      "OotP17"
+    ],
+    "notes": "Creature type mentioned by Grubbly-Plank when discussing possible attacks on birds. The plural HU is thesztrálok.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Thestral",
+      "huLocator": "thesztrál"
+    }
+  },
+  {
+    "id": "werewolf",
+    "category": "creature",
+    "en": "werewolf",
+    "hu": "vérfarkas",
+    "aliases": [],
+    "anchors": [
+      "PS13"
+    ],
+    "notes": "Creature term identified in a lesson about bites. HU locator is the initial compound element of vérfarkasharapás.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "werewolf",
+      "huLocator": "vérfarkas"
+    }
+  },
+  {
+    "id": "dark-lord",
+    "category": "expression",
+    "en": "Dark Lord",
+    "hu": "Sötét Nagyúr",
+    "aliases": [],
+    "anchors": [
+      "OotP24"
+    ],
+    "notes": "Epithet for Voldemort used by Snape; preserve the speaker's choice rather than replacing all references with it.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Dark Lord",
+      "huLocator": "Sötét Nagyúr"
+    }
+  },
+  {
+    "id": "sir",
+    "category": "expression",
+    "en": "sir",
+    "hu": "uram",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Respectful male address in the street encounter. This pair is contextual: teacher address can instead be tanár úr, and sir is not universally uram.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "sir",
+      "huLocator": "uram"
+    }
+  },
+  {
+    "id": "you-know-who",
+    "category": "expression",
+    "en": "You-Know-Who",
+    "hu": "Tudjukki",
+    "aliases": [],
+    "anchors": [
+      "PoA10"
+    ],
+    "notes": "Evasive name for Voldemort. HU forms vary with speaker and sentence; this anchor specifically supports Tudjukki.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "You-Know-Who",
+      "huLocator": "Tudjukki"
+    }
+  },
+  {
+    "id": "animagus",
+    "category": "concept",
+    "en": "Animagus",
+    "hu": "animágus",
+    "aliases": [],
+    "anchors": [
+      "PoA17"
+    ],
+    "notes": "A person who can take an animal form, identified in the Shrieking Shack confrontation; distinct from being a werewolf.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Animagus",
+      "huLocator": "animágus"
+    }
+  },
+  {
+    "id": "apparition",
+    "category": "concept",
+    "en": "Apparition",
+    "hu": "hoppanálás",
+    "aliases": [],
+    "anchors": [
+      "GoF6"
+    ],
+    "notes": "Magical travel term discussed before the World Cup. Keep it distinct from Portkeys and travel with Floo powder.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Apparition",
+      "huLocator": "hoppanálás"
+    }
+  },
+  {
+    "id": "auror",
+    "category": "concept",
+    "en": "Auror",
+    "hu": "auror",
+    "aliases": [],
+    "anchors": [
+      "GoF11"
+    ],
+    "notes": "Magical profession Charlie explains through Moody's former work catching Dark wizards.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Auror",
+      "huLocator": "auror"
+    }
+  },
+  {
+    "id": "beater",
+    "category": "concept",
+    "en": "Beater",
+    "hu": "terelő",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Quidditch position redirecting Bludgers. Both locators may appear with plural suffixes.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Beater",
+      "huLocator": "terelő"
+    }
+  },
+  {
+    "id": "chaser",
+    "category": "concept",
+    "en": "Chaser",
+    "hu": "hajtó",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Quidditch position handling the Quaffle. Both locators also match plural or suffixed forms.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Chaser",
+      "huLocator": "hajtó"
+    }
+  },
+  {
+    "id": "defence-against-the-dark-arts",
+    "category": "concept",
+    "en": "Defence Against the Dark Arts",
+    "hu": "sötét varázslatok kivédése",
+    "aliases": [],
+    "anchors": [
+      "PS8"
+    ],
+    "notes": "School subject name in the account of Quirrell's classes.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Defence Against the Dark Arts",
+      "huLocator": "sötét varázslatok kivédése"
+    }
+  },
+  {
+    "id": "divination",
+    "category": "concept",
+    "en": "Divination",
+    "hu": "jóslástan",
+    "aliases": [],
+    "anchors": [
+      "CoS14"
+    ],
+    "notes": "School subject Percy recommends while discussing Harry's future options.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Divination",
+      "huLocator": "jóslástan"
+    }
+  },
+  {
+    "id": "herbology",
+    "category": "concept",
+    "en": "Herbology",
+    "hu": "gyom- és gyógynövénytan",
+    "aliases": [
+      "gyógynövénytan"
+    ],
+    "anchors": [
+      "PS8"
+    ],
+    "notes": "School subject as named in the greenhouse lesson. The paired passage uses the fuller gyom- és gyógynövénytan; shorter gyógynövénytan is useful for lookup.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Herbology",
+      "huLocator": "gyom- és gyógynövénytan"
+    }
+  },
+  {
+    "id": "horcrux",
+    "category": "concept",
+    "en": "Horcrux",
+    "hu": "horcrux",
+    "aliases": [],
+    "anchors": [
+      "HBP23"
+    ],
+    "notes": "Term discussed in Slughorn's restored memory. Prefer HBP23 for this pair rather than treating the altered HBP17 memory as a full explanation.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Horcrux",
+      "huLocator": "horcrux"
+    }
+  },
+  {
+    "id": "keeper",
+    "category": "concept",
+    "en": "Keeper",
+    "hu": "őrző",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Quidditch position: protects the hoops. Not a general translation of every use of keeper.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Keeper",
+      "huLocator": "őrző"
+    }
+  },
+  {
+    "id": "legilimency",
+    "category": "concept",
+    "en": "Legilimency",
+    "hu": "legilimencia",
+    "aliases": [],
+    "anchors": [
+      "OotP24"
+    ],
+    "notes": "Access to another person's feelings and memories, as Snape explains; avoid reducing his qualified account to unrestricted mind-reading.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Legilimency",
+      "huLocator": "legilimencia"
+    }
+  },
+  {
+    "id": "mudblood",
+    "category": "concept",
+    "en": "Mudblood",
+    "hu": "sárvérű",
+    "aliases": [],
+    "anchors": [
+      "CoS7"
+    ],
+    "notes": "Derogatory blood-status slur directed at Hermione. Mark it as abusive character language, not a neutral ancestry label.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Mudblood",
+      "huLocator": "sárvérű"
+    }
+  },
+  {
+    "id": "muggle",
+    "category": "concept",
+    "en": "Muggle",
+    "hu": "mugli",
+    "aliases": [],
+    "anchors": [
+      "PS1"
+    ],
+    "notes": "Non-magical person, as addressed by the wizard speaking to Dursley. Locators also match plural and inflected forms.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Muggle",
+      "huLocator": "mugli"
+    }
+  },
+  {
+    "id": "occlumency",
+    "category": "concept",
+    "en": "Occlumency",
+    "hu": "okklumencia",
+    "aliases": [],
+    "anchors": [
+      "OotP24"
+    ],
+    "notes": "Mental defence against intrusion, explicitly defined by Snape. HU locator is the inflected okklumenciát; the headword is its nominative form.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Occlumency",
+      "huLocator": "okklumenciát"
+    }
+  },
+  {
+    "id": "parseltongue",
+    "category": "concept",
+    "en": "Parseltongue",
+    "hu": "párszaszó",
+    "aliases": [],
+    "anchors": [
+      "CoS11"
+    ],
+    "notes": "Snake language identified by Ron after the duel. HU locator is a stem matching párszaszóul.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Parseltongue",
+      "huLocator": "párszaszó"
+    }
+  },
+  {
+    "id": "quidditch",
+    "category": "concept",
+    "en": "Quidditch",
+    "hu": "kviddics",
+    "aliases": [],
+    "anchors": [
+      "PS5"
+    ],
+    "notes": "Wizarding sport named in the shop conversation. HU locator also occurs inside the verb kviddicsezni.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Quidditch",
+      "huLocator": "kviddics"
+    }
+  },
+  {
+    "id": "seeker",
+    "category": "concept",
+    "en": "Seeker",
+    "hu": "fogó",
+    "aliases": [],
+    "anchors": [
+      "PS10"
+    ],
+    "notes": "Quidditch position responsible for catching the Snitch; not the ordinary verb meaning to seek.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Seeker",
+      "huLocator": "fogó"
+    }
+  },
+  {
+    "id": "squib",
+    "category": "concept",
+    "en": "Squib",
+    "hu": "kvibli",
+    "aliases": [],
+    "anchors": [
+      "CoS9"
+    ],
+    "notes": "Term Filch uses when revealing his lack of magical ability. Do not substitute it indiscriminately for Muggle.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Squib",
+      "huLocator": "kvibli"
+    }
+  },
+  {
+    "id": "transfiguration",
+    "category": "concept",
+    "en": "Transfiguration",
+    "hu": "átváltoztatástan",
+    "aliases": [],
+    "anchors": [
+      "PS16"
+    ],
+    "notes": "School subject name in Hermione's exam discussion. HU locator also matches the inflected átváltoztatástant.",
+    "verification": {
+      "status": "paired-term-checked",
+      "enLocator": "Transfiguration",
+      "huLocator": "átváltoztatástan"
+    }
+  }
+]

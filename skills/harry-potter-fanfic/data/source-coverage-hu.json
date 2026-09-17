@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "measuredAt": "2026-09-16",
+  "method": "NCX/spine chapter alignment for EPUB; page-aware extraction for PDF. Titles retain edition spelling. English topic ranks are chapter-alignment hints, not Hungarian lexical measurements.",
+  "books": [
+    {
+      "code": "PS",
+      "title": "Harry Potter és a Bölcsek Köve",
+      "language": "hu",
+      "sourceSha256": "93585ba050a2ad6dac0bc2747bc1f18fca3f90ed824c7a206414c4437225c94f",
+      "format": "epub",
+      "chapters": 17,
+      "words": 69412,
+      "excludedEntries": 3,
+      "conversion": {
+        "method": "EPUB NCX and consecutive spine chapters"
+      }
+    },
+    {
+      "code": "CoS",
+      "title": "Harry Potter és a Titkok Kamrája",
+      "language": "hu",
+      "sourceSha256": "284bd056acf03f6a5cb89a53749a4d25855a5c20d6b7bfc5b1c6c610e271bdd0",
+      "format": "epub",
+      "chapters": 18,
+      "words": 75720,
+      "excludedEntries": 3,
+      "conversion": {
+        "method": "EPUB NCX and consecutive spine chapters"
+      }
+    },
+    {
+      "code": "PoA",
+      "title": "Harry Potter és az azkabani fogoly",
+      "language": "hu",
+      "sourceSha256": "698e57acf3e210ad4da1c5dd8d0729fd6804a85c8484cb17920f4e36d193e611",
+      "format": "epub",
+      "chapters": 22,
+      "words": 95454,
+      "excludedEntries": 3,
+      "conversion": {
+        "method": "EPUB NCX and consecutive spine chapters"
+      }
+    },
+    {
+      "code": "GoF",
+      "title": "Harry Potter és a Tűz Serlege",
+      "language": "hu",
+      "sourceSha256": "32b38cf3c8e97b2787c42285f09b75a5336b3902c2af794969dcceb4b9882493",
+      "format": "epub",
+      "chapters": 37,
+      "words": 166425,
+      "excludedEntries": 3,
+      "conversion": {
+        "method": "EPUB NCX and consecutive spine chapters"
+      }
+    },
+    {
+      "code": "OotP",
+      "title": "Harry Potter és a Főnix Rendje",
+      "language": "hu",
+      "sourceSha256": "66ddb73960139eade40b5051bc16bf284a97b76ee4dad0bd26949e8cf454b1cb",
+      "format": "epub",
+      "chapters": 38,
+      "words": 213777,
+      "excludedEntries": 4,
+      "conversion": {
+        "method": "EPUB NCX and consecutive spine chapters"
+      }
+    },
+    {
+      "code": "HBP",
+      "title": "Harry Potter és a Félvér Herceg",
+      "language": "hu",
+      "sourceSha256": "ced5d2492709ccf9d111c8c68c7a2a26fd01759c8c41f8892c440de2b5080ac6",
+      "format": "epub",
+      "chapters": 30,
+      "words": 145682,
+      "excludedEntries": 4,
+      "conversion": {
+        "method": "EPUB NCX and consecutive spine chapters"
+      }
+    },
+    {
+      "code": "DH",
+      "title": "Harry Potter és a Halál ereklyéi",
+      "language": "hu",
+      "sourceSha256": "63cbbd57b94335909bd8310b17455484ac6a913c43861bd69e7dbf92e2feb119",
+      "format": "pdf",
+      "chapters": 37,
+      "words": 165167,
+      "excludedEntries": 0,
+      "conversion": {
+        "method": "Page-aware PDF text-layer extraction",
+        "pages": 1140,
+        "paragraphs": "heuristic",
+        "editorialQuality": "source defects retained; not a reliable Hungarian prose or terminology standard",
+        "warnings": [
+          "The PDF visibly lacks many Hungarian accents. Existing characters are preserved; missing accents cannot be reliably recovered from this source.",
+          "Chapter-opening initials are displaced in this edition, sometimes into later lines. No letters are silently moved or inserted.",
+          "Paragraph boundaries are inferred: the PDF has flattened indentation and spacing. Exact original paragraphs cannot be certified.",
+          "Spelling, inconsistent terminology, damaged word spacing and punctuation remain source-faithful; this is not an editorially corrected edition.",
+          "No OCR was run. Text-layer coverage does not establish translation quality or fidelity to a published Hungarian edition.",
+          "Extraction engines differ in word spacing or reading order on the recorded pages; character and sequence comparisons are recorded separately."
+        ],
+        "independentPagesCompared": 1140
+      }
+    }
+  ]
+}

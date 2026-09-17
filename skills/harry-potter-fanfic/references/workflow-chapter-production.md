@@ -8,6 +8,8 @@ A long chapter needs several developments. Allocate rough space to arrival or op
 
 For each scene, identify who wants what now, why the request is difficult, what the viewpoint character notices, and what changes. If two adjacent scenes perform the same function, differentiate their pressure or combine them. Include quiet time when it changes familiarity, interpretation or willingness to act.
 
+For a short standalone scene, this can remain a mental note. When handoffs, private knowledge or limitations drive the action, use the [small scene-state check](scene-state.md) at those beats. Do not turn the finished narration into an inventory of positions and possessions.
+
 ## Draft from particular activity
 
 Give dialogue a surface task: repairing a cupboard, preparing a lesson, walking through a busy corridor, returning borrowed equipment, cleaning up after visitors. Activity sets pace, creates interruptions and makes care visible. The magic should affect the task rather than decorate it.
@@ -25,6 +27,8 @@ If a requested change needs a new magical ability, use the magic workflow to est
 ## Voice and dialogue
 
 Calibrate to approved project passages. Preserve narrative distance, humour, rhythm, imagery and conventions of address. Distinguish a character's objective from a speech habit. Let exchanges contain incomplete answers, changed tactics, directness and silence; not every line needs subtext.
+
+If no project voice is established, choose a few [prose controls](prose-profiles.md) from the brief, draft, then repair the most consequential weak passage. The controls allow different successful voices; they do not prescribe compulsory restraint or constant wit.
 
 For intimacy, give participants independent initiative, preferences and boundaries. Affection should be specific to their history. Preserve the requested rating and actual ages; a fade can carry emotional continuity into the following scene.
 

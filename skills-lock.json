@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "harry-potter-fanfic": {
+      "source": "lakatos-alex/hp-writing-skill",
+      "sourceType": "github",
+      "skillPath": "skills/harry-potter-fanfic/SKILL.md",
+      "computedHash": "fe1a0f89a3ae6aaff3ab861bbbe44f66bbd08bd8026a0990d91e46ee604dc94f"
+    }
+  }
+}
