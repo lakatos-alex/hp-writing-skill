@@ -110,7 +110,11 @@ node tools/verify_sources.mjs /path/to/books
 git diff --check
 ```
 
-The source check requires a source directory; public CI uses synthetic fixtures and packaged data. See [evaluation cases](skills/harry-potter-fanfic/evals/cases.md), the [A/B/C results and limitations](skills/harry-potter-fanfic/evals/release-0.3.0.md), and [contributing](CONTRIBUTING.md). The small writing test found useful terminology and clarity gaps, but did not establish an overall quality gain over the unaided baseline.
+The source check requires a source directory; public CI uses synthetic fixtures and packaged data. See [evaluation cases](skills/harry-potter-fanfic/evals/cases.md), the [A/B/C results and limitations](skills/harry-potter-fanfic/evals/release-0.3.0.md), the [writing samples and evaluation report](samples/README.md), and [contributing](CONTRIBUTING.md).
+
+## Writing evaluation and samples
+
+Side-by-side comparative writing samples across three conditions (unaided baseline, skill-guided without books, and skill-guided with primary book access) are available in the [samples directory](samples/README.md). They demonstrate how the skill eliminates machine-translation errors (e.g. *Pince asszony* vs. *Madam Cvikker*, *Accio* vs. *Invito*), replaces melodramatic tropes with natural Hungarian information flow, and enriches narrative scenes with canon-grounded physical consequences.
 
 ## Publication and maintenance
 
