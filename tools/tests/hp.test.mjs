@@ -53,3 +53,10 @@ test('bundled chapter and fact lookup need no corpus',()=>{
 test('CLI rejects misspelled options, missing values and unavailable sources',()=>{
   assert.notEqual(cli('read','--anchro','PS1').status,0);assert.notEqual(cli('search','--query').status,0);assert.notEqual(cli('read','--sources','not-a-source-folder','--anchor','PS1').status,0);
 });
+test('CLI provides help for --help, -h, help, or subcommand --help',()=>{
+  for (const args of [[], ['--help'], ['-h'], ['help'], ['search', '--help'], ['chapters', '-h']]) {
+    const r = cli(...args);
+    assert.equal(r.status, 0);
+    assert.match(r.stdout, /hp\.mjs import\|inventory/);
+  }
+});

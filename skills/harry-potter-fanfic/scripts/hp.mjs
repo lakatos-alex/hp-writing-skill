@@ -363,7 +363,7 @@ function options(args) {
   for (let i = 0; i < args.length; i++) {
     if (!args[i].startsWith('--')) throw Error(`Unexpected argument: ${args[i]}`);
     const key = args[i].slice(2);
-    if (['json', 'full', 'strict'].includes(key)) out[key] = true;
+    if (['json', 'full', 'strict', 'help'].includes(key)) out[key] = true;
     else { if (args[i + 1] == null || args[i + 1].startsWith('--')) throw Error(`Missing value for --${key}`); out[key] = args[++i]; }
   }
   return out;
@@ -458,14 +458,15 @@ export function checkState(s) {
   return { ok: errors.length === 0, errors, note: 'Checks supplied events, not manuscript semantics.' };
 }
 export function main(args = process.argv.slice(2)) {
-  const [command = 'help', ...rest] = args, o = options(rest);
+  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--query TEXT] [--category person] [--limit 20]. Facts: --query TEXT [--kind event|testimony|interpretation]. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.';
+  if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') return console.log(helpText);
+  const [command, ...rest] = args, o = options(rest);
   const allowed = { help: [], import: ['sources', 'lang', 'strict', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','limit','offset','json'], 'lint-hu': ['file','json'], facts: ['query', 'kind', 'json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
   if (!allowed[command]) throw Error(`Unknown command: ${command}`);
   for (const k of Object.keys(o)) if (!allowed[command].includes(k)) throw Error(`Unknown option --${k} for ${command}`);
   const base = path.resolve(o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
   const dir = sourceDirectory(base, o.lang);
   let result;
-  if (command === 'help') return console.log('hp.mjs import|inventory|chapters|search|read|align|facts|glossary|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--query TEXT] [--category person] [--limit 20]. Facts: --query TEXT [--kind event|testimony|interpretation]. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.');
   if (command === 'import') result = importSources(dir, o.lang, { strict: !!o.strict });
   else if (command === 'chapters') {
     const chapters = JSON.parse(fs.readFileSync(path.join(root, o.lang === 'hu' ? 'data/chapters-hu.json' : 'data/chapters.json'), 'utf8'));
