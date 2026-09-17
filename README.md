@@ -2,16 +2,19 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
+> *"Words are, in my not-so-humble opinion, our most inexhaustible source of magic."*
+> — Albus Dumbledore
+
 **Version 0.3.1.** A literary craft framework and deterministic canon engine for researching, planning, writing, and revising original Harry Potter fiction in **English** and **Hungarian**, grounded in the complete seven-book baseline.
 
 ---
 
-## Why This Skill Exists
+## ⚡ Why This Skill Exists
 
 When asked to write fiction set at Hogwarts, standard large language models consistently drift into predictable failures:
 
-- **Bodily and stylistic clichés:** Characters take constant *deep, shuddering breaths*, knuckles turn white on wands every other paragraph, and narration lapses into generic purple prose.
-- **Caricatured personalities:** Ron is reduced to loud quips about food, Hermione recites textbook definitions like a search engine, and Draco delivers flat melodrama.
+- **Bodily and stylistic clichés:** Characters take constant *deep, shuddering breaths*, knuckles turn white on wands every other paragraph, and narration lapses into generic purple melodrama.
+- **Caricatured personalities:** Ron is reduced to loud quips about food, Hermione recites textbook definitions like a search engine, and Draco delivers flat comic-book villainy.
 - **Unearned and anachronistic magic:** Third-year students cast non-verbal N.E.W.T.-level spells without consequence, or summon objects with *Accio* years before it appears in the curriculum.
 - **Hollywood banter over British boarding school reality:** Snappy contemporary dialogue replaces the dry situational comedy, institutional absurdity, practical student motives, and social hierarchy of British school life.
 - **Broken Hungarian localization:** Without explicit craft rules, models produce awkward machine calques, misplace Hungarian focus and word order, use English quotation marks instead of dialogue dashes (`–`), and mangle canonical terms (*Madam Pince* becoming *"Pince asszony"*, or using literal translations instead of Tóth Tamás Boldizsár's established book vocabulary).
@@ -20,7 +23,30 @@ This skill enforces primary book evidence, strict point-of-view discipline, phys
 
 ---
 
-## Quick Install
+## 🕯️ How It Started: From Ephemeral Chats to a Canon Engine
+
+This project didn't start in an abstract laboratory or as a generic prompt collection. It grew out of a very real, frustrating creative hurdle.
+
+Over many months, a substantial volume of original Harry Potter fanfiction chapters had accumulated inside ephemeral LLM chat threads. But as the story deepened across dozens of scenes, working purely within conversational chats broke down:
+- The context window repeatedly lost the thread, dropping established character arcs and the custody of key magical artifacts.
+- Unique character voices slowly degraded into homogenized AI chatter.
+- Every other paragraph began leaning on lazy physical mannerisms and unearned melodrama.
+
+To save the story and sustain it over the long haul, the entire endeavor had to be **projectified**—brought into a proper repository with version control, persistent tracking, and deterministic rules.
+
+The turning point came when using **Astra** to comb through the archive of already-written chapters. Instead of prompting an AI from scratch each time, Astra analyzed the accepted text to extract its specific tone, sentence rhythm, and narrative texture—essentially teaching the system how those chapters actually sounded.
+
+From that initial tone-extraction, the framework expanded piece by piece to solve each craft breakdown as it occurred:
+1. **Literary Craft Rules:** Codifying strict point-of-view discipline, physical cause and effect, and age-appropriate magical mechanics while outlawing generic purple prose.
+2. **Character Continuity & Knowledge Custody:** Implementing custody chains and information tracking so characters never act on clues they haven't personally uncovered.
+3. **Bilingual Canon Glossary:** Honoring the official Hungarian translations by Tóth Tamás Boldizsár—eradicating clumsy machine calques (*"Pince asszony"*, *"Roxmocs"*) and establishing canonical vocabulary (*Invito*, *Madam Cvikker*, *zárolt szekció*) alongside proper Hungarian topic-focus word order.
+4. **Deterministic Canon Engine:** Developing pure, zero-dependency Node tools (`hp.mjs`) to verify facts, cross-reference 199 paired chapters, and anchor every creative choice directly in the seven original novels.
+
+What began as an effort to protect a private ongoing story became an open, rigorous craft skill designed for anyone serious about writing in the wizarding world.
+
+---
+
+## 📦 Quick Install
 
 Install directly via the [skills CLI](https://www.skills.sh/docs/cli) from GitHub:
 
@@ -38,17 +64,17 @@ For manual installation, copy the self-contained [skill folder](skills/harry-pot
 
 ---
 
-## Core Principles
+## 🏰 Core Principles
 
 - **Primary Seven-Book Canon:** The seven original novels outrank films, companion books, wiki summaries, and model recollection.
 - **Grounded British Boarding School Realism:** Student actions are constrained by class schedules, physical exhaustion, school rules, caretaker patrols, and genuine social friction.
 - **Progressive Disclosure (11 Subskills):** Agents load only the specific reference modules required for their task rather than polluting context with unnecessary lore.
 - **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text searches, bilingual passage alignment, knowledge/custody state validation, and Hungarian terminology linting.
-- **Bilingual Canon Parity:** 199 paired English and Hungarian chapters, 33 topical indices, and 145 verified canon terms with exact chapter locators.
+- **Bilingual Canon Parity:** 199 paired English and Hungarian chapters, 33 topical indices, 50 verified evidence cards, and 151 verified canon terms with exact chapter locators.
 
 ---
 
-## Subskill Directory
+## 🧭 Subskill Directory
 
 Load only the workflow and reference matching your active task:
 
@@ -68,7 +94,7 @@ Load only the workflow and reference matching your active task:
 
 ---
 
-## Empirical Benchmark: A/B/C Evaluation
+## 🧪 Empirical Benchmark: A/B/C Evaluation
 
 We evaluated the skill across three isolated conditions under a standardized testing protocol ([abc-0.3.0-protocol.md](skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md)).
 
@@ -84,7 +110,7 @@ Read the complete benchmark breakdown, blind judging criteria, and full generate
 
 ---
 
-## A könyvtár zárolt része: Magyar alkotóknak / For Hungarian Writers
+## 🇭🇺 Roxforti kalauz magyar alkotóknak / For Hungarian Writers
 
 > *„A gyűjtemény zárolt részéből azonban csak azok vehettek ki egy-egy könyvet, akik külön tanári engedéllyel rendelkeztek...”*
 > — *Bölcsek köve*, 12. fejezet (Tóth Tamás Boldizsár fordítása)
@@ -111,7 +137,7 @@ A felkészületlen AI-memória a fórumok leggyakoribb szavait ismételgeti; ez 
 
 ---
 
-## Example Prompts
+## 📜 Example Prompts
 
 ```text
 Use $harry-potter-fanfic to draft the next scene. Follow Lina's close-third-person
@@ -129,7 +155,7 @@ sentence order, and use dialogue dashes (–).
 
 ---
 
-## Local Tools & Command-Line Engine (`hp.mjs`)
+## 🛠️ Local Tools & Command-Line Engine (`hp.mjs`)
 
 Optional deterministic tools run on **Node.js 22+** with zero third-party dependencies:
 
@@ -156,7 +182,7 @@ node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/draft.md
 
 ---
 
-## Roadmap: The Restricted Section (A zárolt szekció)
+## 🔮 The Restricted Section: Roadmap
 
 No overengineered fluff—just practical, book-grounded craft improvements planned for upcoming revisions:
 
@@ -165,13 +191,13 @@ No overengineered fluff—just practical, book-grounded craft improvements plann
 
 ---
 
-## Publication and Maintenance
+## 🚀 Publication and Maintenance
 
 The skill package is self-contained. Local book files, extracted texts, and user manuscripts are excluded from version control and distribution packages. Consult [`skills/harry-potter-fanfic/PUBLISHING.md`](skills/harry-potter-fanfic/PUBLISHING.md) for archive validation and release guidelines.
 
 ---
 
-## Legal & License
+## ⚖️ Legal & License
 
 Original framework, tools, and documentation are licensed under the [MIT License](LICENSE), copyright 2026 Alex Lakatos. Maintainer: [Alex Lakatos](https://lakatosalex.hu). See [acknowledgments](ACKNOWLEDGMENTS.md).
 
