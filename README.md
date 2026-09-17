@@ -158,13 +158,10 @@ node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/draft.md
 
 ## Roadmap: The Restricted Section (A zárolt szekció)
 
-Planned extensions to the core framework:
+No overengineered fluff—just practical, book-grounded craft improvements planned for upcoming revisions:
 
-1. **Universal Corpus Ingestion:** Native support for varied e-book editions, plaintext manuscripts, and page-aligned PDF sidecars with automated chapter detection.
-2. **Character Voice Profiles:** Fine-grained lexical and syntactic guidelines for distinct viewpoints (e.g., Snape's clipped precision, Dumbledore's measured deflection, Hermione's structured explanations).
-3. **Causality & Custody Visualizer:** Automated validation of object custody and information transmission across long multi-chapter stories.
-4. **Expanded Multilingual Glossaries:** Extending the bilingual architecture to additional official translations (e.g., German, French, Spanish).
-5. **Multi-Agent Collaborative Workflows:** Structured co-writing pipelines pairing an archivist agent (canon verification) with a stylist agent (rhythm and viewpoint auditing).
+- **Granular Book-by-Book Deep Dive:** Systematically working through the core seven novels volume by volume to extract finer-grained evidence cards, castle geography, classroom logistics, faculty routines, and subtle period details.
+- **The Restricted Section (Extra Canonical Texts):** Expanding the corpus beyond the main septology to include the Hogwarts library companion volumes (*Fantastic Beasts and Where to Find Them*, *Quidditch Through the Ages*, *The Tales of Beedle the Bard*) with full bilingual indexing and lore integration.
 
 ---
 
