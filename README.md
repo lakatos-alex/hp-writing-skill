@@ -2,14 +2,21 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-> *"Words are, in my not-so-humble opinion, our most inexhaustible source of magic."*
-> — Albus Dumbledore
+**Version 0.3.0.** A literary craft framework and deterministic canon engine for researching, planning, writing, and revising original Harry Potter fiction in **English** and **Hungarian**, grounded in the complete seven-book baseline.
 
-**Version 0.3.0.** A precision craft and canon framework for researching, planning, writing, and revising original Harry Potter fiction in **English** and **Hungarian**, grounded in the complete seven-book baseline.
+---
 
-Ever asked an AI to write a Hogwarts scene, only to watch Harry take his seventeenth *deep, shuddering breath*, Ron morph into a cartoon caricature yelling about treacle tart, third-year students casually hurling N.E.W.T.-level *Accio* charms before breakfast, and Madam Pince speaking like a Victorian melodrama?
+## Why This Skill Exists
 
-**This skill is the counter-curse.** It pairs detailed literary craft references with deterministic local tools to keep character voices authentic, magic grounded in its canonical curriculum, and school drama governed by genuine physical stakes.
+When asked to write fiction set at Hogwarts, standard large language models consistently drift into predictable failures:
+
+- **Bodily and stylistic clichés:** Characters take constant *deep, shuddering breaths*, knuckles turn white on wands every other paragraph, and narration lapses into generic purple prose.
+- **Caricatured personalities:** Ron is reduced to loud quips about food, Hermione recites textbook definitions like a search engine, and Draco delivers flat melodrama.
+- **Unearned and anachronistic magic:** Third-year students cast non-verbal N.E.W.T.-level spells without consequence, or summon objects with *Accio* years before it appears in the curriculum.
+- **Hollywood banter over British boarding school reality:** Snappy contemporary dialogue replaces the dry situational comedy, institutional absurdity, practical student motives, and social hierarchy of British school life.
+- **Broken Hungarian localization:** Without explicit craft rules, models produce awkward machine calques, misplace Hungarian focus and word order, use English quotation marks instead of dialogue dashes (`–`), and mangle canonical terms (*Madam Pince* becoming *"Pince asszony"*, or using literal translations instead of Tóth Tamás Boldizsár's established book vocabulary).
+
+This skill enforces primary book evidence, strict point-of-view discipline, physical cause and effect, and age-appropriate magical mechanics.
 
 ---
 
@@ -21,7 +28,7 @@ Install directly via the [skills CLI](https://www.skills.sh/docs/cli) from GitHu
 npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 ```
 
-For a pinned, versioned release:
+For a pinned release:
 
 ```sh
 npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.3.0 --skill harry-potter-fanfic
@@ -31,134 +38,144 @@ For manual installation, copy the self-contained [skill folder](skills/harry-pot
 
 ---
 
-## What Makes It Magical
+## Core Principles
 
-- **Grounded Seven-Book Canon Baseline:** Primary book authority outranks wiki trivia, film-only deviations, and AI recollection.
-- **Genuine Boarding School Voice:** British cadence, dry situational comedy, practical schoolboy and schoolgirl motives, and earned emotional restraint over purple prose and visceral bodily clichés.
-- **Eleven On-Demand Subskills:** Load only what your scene needs through progressive disclosure:
-  - 🔍 [Canon Research](skills/harry-potter-fanfic/references/workflow-canon-research.md) & [Source Index](skills/harry-potter-fanfic/references/source-index.md)
-  - 🏛️ [Story Architecture](skills/harry-potter-fanfic/references/workflow-story-architecture.md) & [Book Dossiers](skills/harry-potter-fanfic/references/book-dossiers.md)
-  - ✍️ [Chapter Production](skills/harry-potter-fanfic/references/workflow-chapter-production.md) & [Scene Craft](skills/harry-potter-fanfic/references/scene-craft-and-revision.md)
-  - 🇭🇺 [Hungarian Writing](skills/harry-potter-fanfic/references/workflow-hungarian-writing.md), [Prose Craft](skills/harry-potter-fanfic/references/hungarian-prose.md) & [Terminology](skills/harry-potter-fanfic/references/hungarian-terminology.md)
-  - 🕵️ [Mystery Design](skills/harry-potter-fanfic/references/workflow-mystery.md) & [Information Concealment](skills/harry-potter-fanfic/references/information-and-concealment.md)
-  - 🎭 [Character Workshop](skills/harry-potter-fanfic/references/workflow-character-workshop.md) & [Character Map](skills/harry-potter-fanfic/references/canon-character-map.md)
-  - ⚡ [Magic Engineering](skills/harry-potter-fanfic/references/workflow-magic-engineering.md) & [Magic Constraints](skills/harry-potter-fanfic/references/magic-constraints-and-tools.md)
-  - 🏰 [Worldbuilding](skills/harry-potter-fanfic/references/workflow-worldbuilding.md) & [Daily Life](skills/harry-potter-fanfic/references/locations-and-daily-life.md)
-  - ⏳ [Continuity & AU](skills/harry-potter-fanfic/references/workflow-continuity.md) & [Era Ledger](skills/harry-potter-fanfic/references/era-and-knowledge-ledger.md)
-  - ✂️ [Revision Studio](skills/harry-potter-fanfic/references/workflow-revision.md) & [Prose Profiles](skills/harry-potter-fanfic/references/prose-profiles.md)
-  - 📚 [Knowledge Development](skills/harry-potter-fanfic/references/workflow-knowledge-development.md) & [Evidence Rules](skills/harry-potter-fanfic/references/evidence-and-extensions.md)
-- **Zero-Dependency Deterministic Engine (`hp.mjs`):** Pure Node.js CLI for chapter retrieval, literal text searches, bilingual alignment, custody verification, and advisory Hungarian linting without third-party dependencies or network calls.
-- **Bilingual Corpus & Verified Glossary:** 199 paired English and Hungarian chapters, 33 topical indices, and 145 verified canon terms with precise chapter locators.
-- **Strict & Permissive Corpus Ingestion:** Flexible EPUB 3 / NCX importer and direct `.txt` / `.md` novel parser with non-fatal warning tolerance, alongside `--strict` mode for formal benchmarks.
+- **Primary Seven-Book Canon:** The seven original novels outrank films, companion books, wiki summaries, and model recollection.
+- **Grounded British Boarding School Realism:** Student actions are constrained by class schedules, physical exhaustion, school rules, caretaker patrols, and genuine social friction.
+- **Progressive Disclosure (11 Subskills):** Agents load only the specific reference modules required for their task rather than polluting context with unnecessary lore.
+- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text searches, bilingual passage alignment, knowledge/custody state validation, and Hungarian terminology linting.
+- **Bilingual Canon Parity:** 199 paired English and Hungarian chapters, 33 topical indices, and 145 verified canon terms with exact chapter locators.
 
 ---
 
-## Writing Evaluation and Samples
+## Subskill Directory
 
-See the difference for yourself. We rigorously tested the skill across three isolated conditions under our [A/B/C testing protocol](skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md):
-- **Condition A (Unaided):** Raw base model without skills or book access.
-- **Condition B (Skill Only):** Guided by the craft rules, subskills, and glossary; zero book files.
-- **Condition C (Skill + Books):** Guided by the skill and grounded in the complete primary corpus.
+Load only the workflow and reference matching your active task:
 
-Read the full evaluation breakdown, side-by-side scorecards, and complete scenes in both English and Hungarian in the [samples directory](samples/README.md).
+| Domain | Subskill | Purpose & Supporting References |
+|---|---|---|
+| **Canon & Evidence** | [Canon Research](skills/harry-potter-fanfic/references/workflow-canon-research.md) | Resolve contradictory claims and verify book evidence ([Source Index](skills/harry-potter-fanfic/references/source-index.md), [Evidence Rules](skills/harry-potter-fanfic/references/evidence-and-extensions.md)) |
+| | [Story Architecture](skills/harry-potter-fanfic/references/workflow-story-architecture.md) | Plan multi-chapter arcs and book-length structures ([Book Dossiers](skills/harry-potter-fanfic/references/book-dossiers.md)) |
+| | [Knowledge Development](skills/harry-potter-fanfic/references/workflow-knowledge-development.md) | Systematically research characters or themes across the series ([Coverage](skills/harry-potter-fanfic/references/coverage.md)) |
+| **Craft & Production** | [Chapter Production](skills/harry-potter-fanfic/references/workflow-chapter-production.md) | Draft full chapters with pacing and turn mechanics ([Scene Craft](skills/harry-potter-fanfic/references/scene-craft-and-revision.md)) |
+| | [Revision Studio](skills/harry-potter-fanfic/references/workflow-revision.md) | Tighten structure, polish rhythm, and audit voice ([Prose Profiles](skills/harry-potter-fanfic/references/prose-profiles.md)) |
+| | [Character Workshop](skills/harry-potter-fanfic/references/workflow-character-workshop.md) | Calibrate voices, relationships, and distinct student motives ([Character Map](skills/harry-potter-fanfic/references/canon-character-map.md)) |
+| | [Mystery Design](skills/harry-potter-fanfic/references/workflow-mystery.md) | Construct clues, false leads, and revelations ([Information Concealment](skills/harry-potter-fanfic/references/information-and-concealment.md)) |
+| **Magic & World** | [Magic Engineering](skills/harry-potter-fanfic/references/workflow-magic-engineering.md) | Enforce curriculum limits, spell costs, and physical constraints ([Magic Constraints](skills/harry-potter-fanfic/references/magic-constraints-and-tools.md)) |
+| | [Worldbuilding & Daily Life](skills/harry-potter-fanfic/references/workflow-worldbuilding.md) | Structure school routines, economy, and institutions ([Locations & Daily Life](skills/harry-potter-fanfic/references/locations-and-daily-life.md)) |
+| | [Continuity & AU](skills/harry-potter-fanfic/references/workflow-continuity.md) | Track divergences, timelines, and knowledge custody ([Era Ledger](skills/harry-potter-fanfic/references/era-and-knowledge-ledger.md)) |
+| **Localization** | [Hungarian Writing](skills/harry-potter-fanfic/references/workflow-hungarian-writing.md) | Produce original Hungarian prose matching the official book register ([Hungarian Prose](skills/harry-potter-fanfic/references/hungarian-prose.md), [Terminology](skills/harry-potter-fanfic/references/hungarian-terminology.md)) |
 
 ---
 
-## A Roxforti Könyvtár Magyar Részlege / For Hungarian Writers
+## Empirical Benchmark: A/B/C Evaluation
 
-> *„Roxfortban vagyunk, kérem szépen, nem a Hogwartsban.”*
+We evaluated the skill across three isolated conditions under a standardized testing protocol ([abc-0.3.0-protocol.md](skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md)).
 
-A magyar nyelvű rajongói irodalom (fanfiction) különös kihívásokkal küzd a generatív modellek korában. A legtöbb AI angolul gondolkodik, és magyar szöveg írásakor gépies tükörfordításokat állít elő: *Madam Pince*-ből *"Pince asszony"* lesz, *Hogsmeade*-ből *"Roxmocs"*, a párbeszédeket angol idézőjelek közé szorítja, a mondatokat pedig teletömi felesleges mutató névmásokkal és teátrális amerikai melodrámával.
+**Scenario:** Two original third-year students (Lina and Tobias) in October 1993 must retrieve a stuck library permission slip before dinner without knowing the Summoning Charm. Strict close-third perspective, caretaker encounter, practical consequences.
 
-Ez a skill **Tóth Tamás Boldizsár legendás műfordítói hagyományára** építve tisztítja meg a magyar prózát:
-- **Hivatalos kánoni nevek és formulák:** Ismeri a 145 legfontosabb magyar szakkifejezést. A kimondott varázsige az *Invito* (nem *Accio*), a lebegtetés *Vingardium Leviosa* (V-vel), a könyvtárosnő pedig *Madam Cvikker*.
-- **Magyar mondatszerkezet és fókusz:** Érvényesíti a magyar topik-fókusz dinamikát (*„A kulcsot Júlia vitte el”* vs. *„Júlia a kulcsot vitte el”*), elhagyja a felesleges ragadvány-szavakat, és a magyar irodalmi gondolatjelet (`–`) használja a párbeszédekhez.
-- **Száraz humor az olcsó giccs helyett:** A kora- és késő-kamaszkori Roxfort lényege az iskolai helyzetkomikum, a valódi felelősség, a tanári tekintély és a diákcsínyek súlya.
+| Condition | Description | English Score (max 20) | Hungarian Score (max 20) | Key Qualitative Difference |
+|---|---|:---:|:---:|---|
+| **A (Unaided)** | Raw model baseline without skills or corpus. | **16.8** | **15.2** | Relied on cinematic tropes (*"stomach dropped"*, echoing clangs), shallow banter, and awkward machine-translated phrasing in Hungarian. |
+| **B (Skill Only)** | Guided by craft rules, subskills, and glossary; zero book texts. | **19.3** | **18.9** | Distinct student motives, proper topic-focus syntax, physical complications, and canonical Hungarian vocabulary. |
+| **C (Skill + Books)** | Guided by the skill and grounded in the primary text corpus. | **19.9** | **19.8** | Exact period curriculum (Miranda Goshawk's Grade 4 textbook for *Accio/Invito*), authentic October 1993 Filch dialogue, and castle physical mechanics. |
 
-Próbáld ki bátran:
+Read the complete benchmark breakdown, blind judging criteria, and full generated scenes in [`samples/README.md`](samples/README.md).
+
+---
+
+## A könyvtár zárolt része: Magyar alkotóknak / For Hungarian Writers
+
+> *„A gyűjtemény zárolt részéből azonban csak azok vehettek ki egy-egy könyvet, akik külön tanári engedéllyel rendelkeztek...”*
+> — *Bölcsek köve*, 12. fejezet (Tóth Tamás Boldizsár fordítása)
+
+A legtöbb nyelvi modell az angol Harry Potter szövegeken szocializálódott. Amikor magyar jelenetet kell írnia, szinte mindig felületes tükörfordításokhoz nyúl:
+- Angol idézőjeleket (`"..."`) tesz a magyar párbeszéd-gondolatjelek (`–`) helyére.
+- A mondatok elejét teletömi felesleges mutató névmásokkal és mesterkélt kötőszavakkal (*„hirtelen”*, *„miközben”*, *„úgy érezte, mintha”*).
+- Gépiesen fordítja a neveket (*Madam Pince* helyett *„Pince asszony”*, *Hogsmeade* helyett *„Roxmocs”*).
+
+### „Tiltott Részleg” vagy „Zárolt szekció”?
+
+Ez a dilemma pontosan szemlélteti a skill létjogosultságát:
+- A rajongói köznyelvben és a nyers tükörfordításokban elterjedt a **„Tiltott Részleg”** kifejezés (az angol *Restricted Section* szó szerinti átvételeként).
+- A kanonikus magyar regényekben (PS12, CoS9) Tóth Tamás Boldizsár következetesen **a könyvtár zárolt részeként** vagy **zárolt szekciójaként** nevezi meg a helyet (a köteteket pedig egyszerűen *a tiltott könyvekként* említi).
+
+A felkészületlen AI-memória a fórumok leggyakoribb szavait ismételgeti; ez a skill viszont az elsődleges regényszöveget tekinti referenciának.
+
+### Magyar prózatechnikai alapelvek
+
+1. **Topik-fókusz és szórend:** A magyar mondat hangsúlyát a szórend határozza meg, nem a dőlt betűs szavak halmozása.
+   *(„A kulcsot Júlia vitte el” ≠ „Júlia elvitte a kulcsot”)*
+2. **Kanonikus kifejezéstár:** A kimondott varázsige az *Invito* (nem *Accio*), a bűbáj neve *Begyejtő bűbáj*, a lebegtetés *Vingardium Leviosa*, a könyvtárosnő pedig *Madam Cvikker*.
+3. **Száraz iskolai helyzetkomikum:** A Roxfort valódi ízét nem a cirkuszi varázslatok adják, hanem a szigorú házirend, a büntetőmunkák valós veszélye, a tanárok sajátos szokásai és a kamaszos gyakorlati érdekek.
+
+---
+
+## Example Prompts
+
 ```text
-Írj egy jelenetet 1993 októberéből a Roxfortban. Őrizd meg a harmadik személyű
-közeli nézőpontot és a korabeli tanmenet határait. Használd a hivatalos magyar
-könyvneveket; a humor a helyzetből fakadjon, a jelenet végén pedig legyen
-kézzelfogható gyakorlati következmény.
+Use $harry-potter-fanfic to draft the next scene. Follow Lina's close-third-person
+viewpoint, respect third-year curriculum limits, keep Tobias's motive practical,
+and let their attempted shortcut lead to an earned physical consequence.
+
+Use $harry-potter-fanfic to audit an upcoming reveal. Map which characters
+currently hold the information, identify how the protagonist learns it,
+and verify that no prior scene violates the custody chain.
+
+Use $harry-potter-fanfic in Hungarian mode to write a dormitory discussion
+following a missed curfew. Apply canonical Hungarian names, enforce topic-focus
+sentence order, and use dialogue dashes (–).
 ```
 
 ---
 
-## Example Requests
+## Local Tools & Command-Line Engine (`hp.mjs`)
 
-```text
-Use $harry-potter-fanfic to continue my next chapter. Read the preceding
-scene and accepted story notes, preserve my voice and AU, and meet the
-requested length with meaningful scene development.
-
-Use $harry-potter-fanfic to design a post-war magical communication
-system. Ground its starting mechanism in the books, label inventions,
-and test how its limits affect privacy and everyday use.
-
-Use $harry-potter-fanfic to audit this reveal after moving it two
-chapters later. Trace who knows what, when they learn it, and which
-later actions now need repair. Review only.
-
-Use $harry-potter-fanfic in knowledge-development mode to study a
-character across the complete books. Read at the needed depth and
-separate indexed coverage from passages actually examined.
-```
-
----
-
-## Local Books and Tools
-
-Use the bundled references directly, or run the optional tools with **Node.js 22+**:
+Optional deterministic tools run on **Node.js 22+** with zero third-party dependencies:
 
 ```sh
-# Import books in permissive mode (accepts non-standard EPUBs and text novels)
+# Display help and available commands
+node skills/harry-potter-fanfic/scripts/hp.mjs --help
+
+# Ingest books in permissive mode (handles non-standard EPUBs and text novels)
 node skills/harry-potter-fanfic/scripts/hp.mjs import --sources /path/to/books --lang en
 node skills/harry-potter-fanfic/scripts/hp.mjs import --sources /path/to/books --lang hu
 
-# Search local chapters and aligned bilingual passages
-node skills/harry-potter-fanfic/scripts/hp.mjs chapters --topic food --limit 5
-node skills/harry-potter-fanfic/scripts/hp.mjs chapters --lang hu --book PoA
+# Search chapters, facts, and glossary entries
+node skills/harry-potter-fanfic/scripts/hp.mjs chapters --book PoA --topic food --limit 5
 node skills/harry-potter-fanfic/scripts/hp.mjs glossary --query Accio
 node skills/harry-potter-fanfic/scripts/hp.mjs facts --query Fidelius
-node skills/harry-potter-fanfic/scripts/hp.mjs search --sources /path/to/books --lang hu --query Roxfort
-node skills/harry-potter-fanfic/scripts/hp.mjs align --sources /path/to/books --anchor PS6 --max-chars 3000
+node skills/harry-potter-fanfic/scripts/hp.mjs search --sources /path/to/books --lang en --query "Restricted Section"
+
+# Compare aligned bilingual chapters with independent character offsets
+node skills/harry-potter-fanfic/scripts/hp.mjs align --sources /path/to/books --anchor PS12 --max-chars 3000
 
 # Advisory Hungarian terminology linter
-node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/chapter.md
+node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/draft.md
 ```
 
 ---
 
-## 🔮 The Restricted Section (Roadmap & Future Work)
+## Roadmap: The Restricted Section (A zárolt szekció)
 
-> *„Aki a Tiltott Részlegbe kíván belépni, jobb, ha bemutatja a tanári engedélycéduláját. Kérjük, a sikoltozó könyveket ne etessék.”*
+Planned extensions to the core framework:
 
-Future development on the skill explores deep literary modeling, multilingual craft, and autonomous editorial agents:
-
-1. **📜 Universal Grimoire Ingestion (Permissive Pipeline)**
-   - Broaden beyond strict Pottermore layouts to arbitrary e-books, direct `.txt` / `.md` ingestion (implemented in v0.3.1), and native clean PDF extraction without external dependencies.
-2. **🌍 Multilingual Wandlore**
-   - Extend our verified bilingual (EN/HU) engine to additional European translations (German, French, Spanish), matching canonical spellings and localized voice profiles.
-3. **🧪 The Polyjuice Voice Engine (Granular Stylistic Sliders)**
-   - Dial in distinct point-of-view cadences: Snape's surgical, cutting brevity; Dumbledore's deceptively gentle deflection; Hermione's rapid, encyclopedic cadence; and Luna's serenely unsettling matter-of-factness.
-4. **🗺️ The Marauder's Map & Causality Ledger**
-   - Automated timeline graphing, knowledge boundary validation, and object custody visualizer for complex alternate universes (AUs) and multi-chapter mysteries.
-5. **🤝 Collaborative Writing Guilds (Multi-Agent Co-Writing)**
-   - Autonomous agent pairing: an *Archivist* verifying canon rules, an *Editor* auditing sentence rhythm and viewpoint discipline, and a *Director* managing scene tension and turn mechanics.
+1. **Universal Corpus Ingestion:** Native support for varied e-book editions, plaintext manuscripts, and page-aligned PDF sidecars with automated chapter detection.
+2. **Character Voice Profiles:** Fine-grained lexical and syntactic guidelines for distinct viewpoints (e.g., Snape's clipped precision, Dumbledore's measured deflection, Hermione's structured explanations).
+3. **Causality & Custody Visualizer:** Automated validation of object custody and information transmission across long multi-chapter stories.
+4. **Expanded Multilingual Glossaries:** Extending the bilingual architecture to additional official translations (e.g., German, French, Spanish).
+5. **Multi-Agent Collaborative Workflows:** Structured co-writing pipelines pairing an archivist agent (canon verification) with a stylist agent (rhythm and viewpoint auditing).
 
 ---
 
 ## Publication and Maintenance
 
-The whole skill folder is self-contained. Local books, generated source text and private manuscript material are excluded from Git and release archives. Follow the [release procedure](skills/harry-potter-fanfic/PUBLISHING.md) for validation, archive inspection and a tagged publication.
-
-The reference library is designed to grow through supported claims, useful procedures and observed evaluation results. It does not require every agent to read every module, nor promise exhaustive canon coverage or a literary-quality score.
+The skill package is self-contained. Local book files, extracted texts, and user manuscripts are excluded from version control and distribution packages. Consult [`skills/harry-potter-fanfic/PUBLISHING.md`](skills/harry-potter-fanfic/PUBLISHING.md) for archive validation and release guidelines.
 
 ---
 
-## Artwork and Credits
+## Legal & License
 
-The [artwork](assets/README.md) is an original AI-generated editorial illustration of a generic magical academy, with no franchise characters, logos or book text.
+Original framework, tools, and documentation are licensed under the [MIT License](LICENSE), copyright 2026 Alex Lakatos. Maintainer: [Alex Lakatos](https://lakatosalex.hu). See [acknowledgments](ACKNOWLEDGMENTS.md).
 
-Original guidance and code are [MIT licensed](LICENSE), copyright 2026 Alex Lakatos. Maintainer: [Alex Lakatos](https://lakatosalex.hu). See [acknowledgments](ACKNOWLEDGMENTS.md). The license does not grant rights to the novels, characters or trademarks. This independent fan project is unaffiliated with the franchise's creators or rightsholders and was developed with AI assistance and editorial direction.
+*Disclaimer:* This is an independent fan-created development tool. It is not affiliated with, authorized, or endorsed by J.K. Rowling, Warner Bros. Entertainment, or any rightsholders of the Harry Potter franchise. All trademarks and copyright in characters, names, and related indicia belong to their respective owners.
