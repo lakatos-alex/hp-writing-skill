@@ -3,7 +3,7 @@
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
 > *"Words are, in my not-so-humble opinion, our most inexhaustible source of magic."*
-> — Albus Dumbledore (*Harry Potter and the Deathly Hallows – Part 2*, film adaptation)
+> — Albus Dumbledore (DH pt 2, movie)
 
 **Version 0.3.1.** A craft framework and deterministic canon/reference engine for researching, planning, writing, and revising original Harry Potter fiction in **English** and **Hungarian**, using a seven-book indexed baseline with selective passage verification and semantic knowledge.
 
