@@ -24,13 +24,14 @@ The data-only commands `chapters`, `facts` and `glossary` work without books. Th
 
 ```sh
 node scripts/hp.mjs import --sources /path/to/sources
+node scripts/hp.mjs import --sources /path/to/sources --strict
 ```
 
 The source directory defaults to `HP_SOURCES`, then `original-sources` under the working directory. `--sources` takes precedence. A bilingual root contains `en/` and `hu/`; `--lang en` or `--lang hu` selects the child. Without `--lang`, a bilingual root selects English. A flat single-language directory remains supported. Use separate catalogues for separate languages and one edition per book per catalogue.
 
-English EPUB support uses the Pottermore `hpNN_chNNN` chapter layout. Hungarian EPUB support requires a recognised book title, NCX chapter links without fragments, matching chapter headings and consecutive spine entries. The importer validates the expected chapter count. Unsupported layouts fail instead of guessing boundaries.
+By default, the importer operates in permissive mode: it accepts arbitrary EPUBs (via EPUB 3 Navigation documents, standard NCX with fragment links, or spine fallback) and direct novel text files (`.txt` / `.md`). If a non-canonical edition contains preview chapters or minor discrepancies, non-fatal warnings are recorded instead of halting the import. Passing `--strict` enforces exact verification against official benchmark editions (Pottermore `hpNN_chNNN` layout for English, documented strict NCX layout for Hungarian, and exact canonical chapter counts).
 
-Each import overwrites generated same-stem Markdown and `catalogue.local.json`. EPUBs are read only. All sources are parsed before output writing begins. An operating-system write failure can still leave a partial refresh; rerun after resolving it.
+Each import overwrites generated same-stem Markdown and `catalogue.local.json`. EPUBs and text sources are read only. All sources are parsed before output writing begins. An operating-system write failure can still leave a partial refresh; rerun after resolving it.
 
 The catalogue contains full chapter text and belongs with the private source files. It records EPUB and extracted-text SHA-256 hashes, language, titles, source entries and excluded spine entries. Cover/front matter, advertisements and next-book previews are excluded from the narrative Markdown. The original EPUB retains them.
 

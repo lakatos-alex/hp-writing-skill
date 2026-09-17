@@ -6,7 +6,7 @@ The seven novels are the primary authority for book canon. Research can use full
 
 The public skill contains original analysis, a chapter catalogue and local tools. Supply your own book files when exact evidence is needed. Use the source path provided by the user or host project. Do not copy a private corpus into the installed skill.
 
-The supported EPUB importer produces searchable UTF-8 Markdown and a local catalogue. Keep English and Hungarian sources in separate `en/` and `hu/` directories, or pass a single-language directory directly. Use `--lang` for language selection and `align` for paired chapters. See [tools](tools.md) for edition support, PDF sidecars, output files and side effects. Existing TXT or Markdown can also be searched directly without conversion.
+The supported EPUB and text importer produces searchable UTF-8 Markdown and a local catalogue. It supports standard EPUBs, arbitrary EPUB editions (with EPUB 3 navigation or fragment links), converted PDF sidecars, and plain text/Markdown novel files (`.txt`/`.md`). Keep English and Hungarian sources in separate `en/` and `hu/` directories, or pass a single-language directory directly. Use `--lang` for language selection and `align` for paired chapters. See [tools](tools.md) for edition support, permissive vs strict mode, PDF sidecars, output files and side effects. Existing TXT or Markdown can also be searched directly without conversion.
 
 ## Evidence retrieval
 
