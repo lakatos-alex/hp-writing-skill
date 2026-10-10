@@ -1,0 +1,1577 @@
+{
+  "schemaVersion": 1,
+  "book": "CoS",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "privet-drive",
+      "labelEn": "Privet Drive",
+      "labelHu": "Privet Drive",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The Dursleys' residential street.",
+      "searchTerms": [
+        "Dursley",
+        "home",
+        "otthon",
+        "street",
+        "utca"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "dursley-house",
+      "labelEn": "Number four Privet Drive",
+      "labelHu": "Privet Drive négy",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "Harry's summer home, where the Masons dine and Dobby visits.",
+      "searchTerms": [
+        "Dursley",
+        "house",
+        "ház",
+        "dinner",
+        "vacsora"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "harrys-bedroom",
+      "labelEn": "Harry's bedroom at the Dursleys'",
+      "labelHu": "Harry Dursleyéknál levő szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The barred room from which the Weasley boys rescue Harry.",
+      "searchTerms": [
+        "prison",
+        "bezárás",
+        "bars",
+        "rács",
+        "rescue",
+        "mentés"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS2",
+          "kind": "event",
+          "enLocator": "bedroom",
+          "huLocator": "szobá",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "the-burrow",
+      "labelEn": "The Burrow",
+      "labelHu": "Az Odú",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "The Weasley home near the village; Harry stays before returning to school.",
+      "searchTerms": [
+        "Weasley",
+        "home",
+        "otthon",
+        "family",
+        "család"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "The Burrow",
+          "huLocator": "Az Odú",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "The Burrow",
+          "huLocator": "Az Odú",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "The Burrow",
+          "huLocator": "Az Odú",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "ottery-st-catchpole",
+      "labelEn": "Ottery St Catchpole",
+      "labelHu": "Widra St. Capdel",
+      "labelKind": "editorial-label",
+      "placeKind": "village",
+      "aliases": [],
+      "description": "The village near the Burrow named by George.",
+      "searchTerms": [
+        "village",
+        "falu",
+        "Weasley"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Ottery St Catchpole",
+          "huLocator": "Widra St. Capdel",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Ottery St Catchpole",
+          "huLocator": "Widra St. Capdel",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "burrow-kitchen",
+      "labelEn": "Burrow kitchen",
+      "labelHu": "Az Odú konyhája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The crowded family kitchen with a task-labelled clock and wizard cookbooks.",
+      "searchTerms": [
+        "kitchen",
+        "konyha",
+        "breakfast",
+        "reggeli",
+        "cooking",
+        "főzés"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "rons-bedroom",
+      "labelEn": "Ron's bedroom",
+      "labelHu": "Ron szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The orange upper room beneath the ghoul's attic, filled with Cannons posters and comics.",
+      "searchTerms": [
+        "bedroom",
+        "hálószoba",
+        "orange",
+        "narancssárga",
+        "comics",
+        "képregény"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Ronald’s Room",
+          "huLocator": "Ronald-rezidencia",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "burrow-garden",
+      "labelEn": "Burrow garden",
+      "labelHu": "Az Odú kertje",
+      "labelKind": "editorial-label",
+      "placeKind": "garden",
+      "aliases": [],
+      "description": "The overgrown garden the boys clear of gnomes.",
+      "searchTerms": [
+        "garden",
+        "kert",
+        "gnomes",
+        "törpék",
+        "pests",
+        "kártevők"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "garden was large",
+          "huLocator": "kert nagy volt",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "diagon-alley",
+      "labelEn": "Diagon Alley",
+      "labelHu": "Abszol út",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The wizard shopping street reached through the Floo network.",
+      "searchTerms": [
+        "shopping",
+        "bevásárlás",
+        "shops",
+        "boltok",
+        "Floo",
+        "hopp"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol út",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "knockturn-alley",
+      "labelEn": "Knockturn Alley",
+      "labelHu": "Zsebpiszok köz",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The dark shopping street where Harry emerges after mispronouncing the destination.",
+      "searchTerms": [
+        "dark",
+        "objects",
+        "sötét",
+        "tárgyak",
+        "wrong",
+        "destination",
+        "rossz",
+        "cél"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Knockturn Alley",
+          "huLocator": "Zsebpiszok köz",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Knockturn Alley",
+          "huLocator": "Zsebpiszok köz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "borgin-burkes",
+      "labelEn": "Borgin's shop",
+      "labelHu": "Borgin boltja",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [
+        "Borgin & Burkes"
+      ],
+      "description": "The dark-artefact shop where Harry hides while Lucius negotiates.",
+      "searchTerms": [
+        "dark",
+        "objects",
+        "sötét",
+        "tárgyak",
+        "Hand",
+        "Glory",
+        "Dicsőség",
+        "Keze"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Mr Borgin",
+          "huLocator": "Mr Borgin",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "flourish-blotts",
+      "labelEn": "Flourish and Blotts",
+      "labelHu": "Czikornyai és Patza",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The bookshop hosting Lockhart's signing, where the fathers fight.",
+      "searchTerms": [
+        "bookshop",
+        "könyvesbolt",
+        "books",
+        "könyvek",
+        "Lockhart",
+        "signing",
+        "dedikálás"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Flourish and Blotts",
+          "huLocator": "Czikornyai és Patzában",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "leaky-cauldron",
+      "labelEn": "Leaky Cauldron",
+      "labelHu": "Foltozott Üst",
+      "labelKind": "editorial-label",
+      "placeKind": "pub",
+      "aliases": [],
+      "description": "The meeting place for drinks after the shopping encounter.",
+      "searchTerms": [
+        "pub",
+        "kocsma",
+        "drinks",
+        "italok"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "gringotts",
+      "labelEn": "Gringotts",
+      "labelHu": "Gringotts",
+      "labelKind": "editorial-label",
+      "placeKind": "bank",
+      "aliases": [],
+      "description": "The bank where the families exchange and withdraw money.",
+      "searchTerms": [
+        "bank",
+        "bank",
+        "money",
+        "pénz",
+        "vaults",
+        "széfek"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "weasley-vault",
+      "labelEn": "Weasley vault",
+      "labelHu": "Weasleyék széfje",
+      "labelKind": "editorial-label",
+      "placeKind": "vault",
+      "aliases": [],
+      "description": "The family's nearly empty bank vault contrasts with Harry's.",
+      "searchTerms": [
+        "vault",
+        "széf",
+        "money",
+        "pénz",
+        "poverty",
+        "szegénység"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Weasleys’ vault",
+          "huLocator": "Weasleyék széfét",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "gambol-japes",
+      "labelEn": "Gambol and Japes Wizarding Joke Shop",
+      "labelHu": "Hunczut & Zsupsz – Mágikus Tréfák Boltja",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The joke shop where the twins and Lee buy fireworks.",
+      "searchTerms": [
+        "joke",
+        "shop",
+        "tréfabolt",
+        "fireworks",
+        "tűzijáték"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Gambol and Japes",
+          "huLocator": "Mágikus Tréfák Boltjában",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "quality-quidditch-supplies",
+      "labelEn": "Quality Quidditch Supplies",
+      "labelHu": "Kviddics a javából",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "A shop the boys browse for sports equipment.",
+      "searchTerms": [
+        "sports",
+        "sport",
+        "shopping",
+        "bevásárlás",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Quality Quidditch Supplies",
+          "huLocator": "Kviddics a javából",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Quality Quidditch Supplies",
+          "huLocator": "Kviddics a javából",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "kings-cross",
+      "labelEn": "King's Cross",
+      "labelHu": "King's Cross",
+      "labelKind": "editorial-label",
+      "placeKind": "station",
+      "aliases": [],
+      "description": "The London station where Harry and Ron cannot cross the concealed barrier.",
+      "searchTerms": [
+        "station",
+        "pályaudvar",
+        "train",
+        "vonat",
+        "London"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "King’s Cross",
+          "huLocator": "King's Cross",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "platform-nine-three-quarters",
+      "labelEn": "Platform nine and three-quarters",
+      "labelHu": "Kilenc és háromnegyedik vágány",
+      "labelKind": "editorial-label",
+      "placeKind": "platform",
+      "aliases": [],
+      "description": "The train platform Dobby prevents Harry and Ron reaching.",
+      "searchTerms": [
+        "platform",
+        "peron",
+        "barrier",
+        "átjáró",
+        "train",
+        "vonat"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "platform nine",
+          "huLocator": "kilenc és háromnegyed",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "hogwarts",
+      "labelEn": "Hogwarts",
+      "labelHu": "Roxfort",
+      "labelKind": "editorial-label",
+      "placeKind": "school",
+      "aliases": [],
+      "description": "The school under threat from attacks and possible closure.",
+      "searchTerms": [
+        "school",
+        "iskola",
+        "castle",
+        "kastély"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "whomping-willow-site",
+      "labelEn": "Whomping Willow grounds",
+      "labelHu": "Fúriafűz környéke",
+      "labelKind": "editorial-label",
+      "placeKind": "grounds",
+      "aliases": [],
+      "description": "The school tree struck by the car and later tended by Sprout.",
+      "searchTerms": [
+        "tree",
+        "fa",
+        "crash",
+        "ütközés",
+        "car",
+        "autó"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Whomping Willow",
+          "huLocator": "fúriafűz",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "entrance-hall",
+      "labelEn": "Entrance Hall",
+      "labelHu": "Bejárati csarnok",
+      "labelKind": "editorial-label",
+      "placeKind": "hall",
+      "aliases": [],
+      "description": "The school entrance used for notices, messages and the Valentine's delivery.",
+      "searchTerms": [
+        "entrance",
+        "bejárat",
+        "notice",
+        "hirdetmény"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Entrance Hall",
+          "huLocator": "tágas előcsarnokba",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "great-hall",
+      "labelEn": "Great Hall",
+      "labelHu": "Nagyterem",
+      "labelKind": "editorial-label",
+      "placeKind": "hall",
+      "aliases": [],
+      "description": "The dining hall also used for the duelling club and end-of-year feast.",
+      "searchTerms": [
+        "dining",
+        "étkezés",
+        "duel",
+        "párbaj",
+        "feast",
+        "lakoma"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "gryffindor-tower",
+      "labelEn": "Gryffindor Tower",
+      "labelHu": "Griffendél-torony",
+      "labelKind": "editorial-label",
+      "placeKind": "tower",
+      "aliases": [],
+      "description": "The Gryffindor living area Harry and Ron return to after punishment.",
+      "searchTerms": [
+        "Gryffindor",
+        "Griffendél",
+        "dormitory",
+        "hálóterem"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "gryffindor-common-room",
+      "labelEn": "Gryffindor common room",
+      "labelHu": "Griffendél klubhelyiség",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The pupils' shared sitting room behind the portrait entrance.",
+      "searchTerms": [
+        "friends",
+        "barátok",
+        "fireplace",
+        "kandalló",
+        "common",
+        "közös"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "greenhouse-three",
+      "labelEn": "Greenhouse Three",
+      "labelHu": "Hármas üvegház",
+      "labelKind": "editorial-label",
+      "placeKind": "greenhouse",
+      "aliases": [],
+      "description": "The Herbology space used for repotting Mandrakes.",
+      "searchTerms": [
+        "Herbology",
+        "gyógynövénytan",
+        "Mandrake",
+        "mandragóra"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Greenhouse Three",
+          "huLocator": "hármas",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "defence-classroom",
+      "labelEn": "Defence classroom",
+      "labelHu": "Sötét varázslatok kivédése tanterem",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Lockhart's classroom, where pixies escape and pupils practise.",
+      "searchTerms": [
+        "Defence",
+        "sötét",
+        "varázslatok",
+        "pixies",
+        "tündérmanók",
+        "lesson",
+        "óra"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Lockhart’s classroom",
+          "huLocator": "tanterem",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "quidditch-pitch",
+      "labelEn": "Quidditch pitch",
+      "labelHu": "Kviddicspálya",
+      "labelKind": "editorial-label",
+      "placeKind": "sports-ground",
+      "aliases": [],
+      "description": "The ground used for practice and the rogue-Bludger match.",
+      "searchTerms": [
+        "sport",
+        "sport",
+        "Quidditch",
+        "kviddics",
+        "practice",
+        "edzés"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Quidditch pitch",
+          "huLocator": "kviddicspálya",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "hagrids-hut",
+      "labelEn": "Hagrid's hut",
+      "labelHu": "Hagrid kunyhója",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "The gamekeeper's home, visited after Ron's backfire and during Hagrid's arrest.",
+      "searchTerms": [
+        "gamekeeper",
+        "vadőr",
+        "home",
+        "otthon",
+        "hut",
+        "kunyhó"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "get him to Hagrid’s",
+          "huLocator": "vadőr kunyhója",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "lockhart-office",
+      "labelEn": "Lockhart's office",
+      "labelHu": "Lockhart szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Harry copies fan-mail addresses here; Lockhart later packs to flee.",
+      "searchTerms": [
+        "office",
+        "dolgozószoba",
+        "fan",
+        "mail",
+        "rajongói",
+        "levél"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Lockhart’s office",
+          "huLocator": "Lockhart szobájába",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "filch-office",
+      "labelEn": "Filch's office",
+      "labelHu": "Frics szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The caretaker's disciplinary office contains punishment files and the beginner course.",
+      "searchTerms": [
+        "office",
+        "iroda",
+        "punishment",
+        "büntetés",
+        "course",
+        "tanfolyam"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Filch’s office",
+          "huLocator": "Frics szobájában",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "deathday-dungeon",
+      "labelEn": "Deathday-party dungeon",
+      "labelHu": "Kimúlásnapi pincehelyiség",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The underground room hosting Nick's ghost party, with rotting food and music.",
+      "searchTerms": [
+        "ghost",
+        "party",
+        "kísértet",
+        "parti",
+        "deathday",
+        "kimúlásnap"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "roomier dungeons",
+          "huLocator": "tágasabb pincehelyiségben",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "myrtles-bathroom",
+      "labelEn": "Moaning Myrtle's bathroom",
+      "labelHu": "Hisztis Myrtle mosdója",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The disused bathroom is the potion laboratory and the Chamber entrance.",
+      "searchTerms": [
+        "bathroom",
+        "mosdó",
+        "potion",
+        "bájital",
+        "entrance",
+        "bejárat",
+        "Myrtle"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "girls’ toilet",
+          "huLocator": "lányvécé",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "library",
+      "labelEn": "Hogwarts library",
+      "labelHu": "Roxforti könyvtár",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The research space where Hermione obtains permission for the potion book.",
+      "searchTerms": [
+        "research",
+        "kutatás",
+        "books",
+        "könyvek",
+        "librarian",
+        "könyvtáros"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS10",
+          "kind": "event",
+          "enLocator": "library",
+          "huLocator": "könyvtár",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "restricted-section",
+      "labelEn": "Restricted Section",
+      "labelHu": "Zárolt részleg",
+      "labelKind": "editorial-label",
+      "placeKind": "library-section",
+      "aliases": [],
+      "description": "The book collection requiring a signed teacher's permission.",
+      "searchTerms": [
+        "restricted",
+        "zárolt",
+        "permission",
+        "engedély",
+        "potion",
+        "bájital"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS10",
+          "kind": "event",
+          "enLocator": "Restricted Section",
+          "huLocator": "zárolt",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "hospital-wing",
+      "labelEn": "Hospital wing",
+      "labelHu": "Gyengélkedő",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The ward holding Harry and the petrified victims during recovery.",
+      "searchTerms": [
+        "hospital",
+        "kórház",
+        "nurse",
+        "ápoló",
+        "healing",
+        "gyógyítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS10",
+          "kind": "event",
+          "enLocator": "hospital wing",
+          "huLocator": "gyengélkedő",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "snape-private-stores",
+      "labelEn": "Snape's private stores",
+      "labelHu": "Piton magánraktára",
+      "labelKind": "editorial-label",
+      "placeKind": "store-room",
+      "aliases": [],
+      "description": "The ingredient supply Hermione steals from during the classroom distraction.",
+      "searchTerms": [
+        "ingredients",
+        "hozzávalók",
+        "potion",
+        "bájital",
+        "theft",
+        "lopás"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "private stores",
+          "huLocator": "privát készletéből",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "dumbledore-office",
+      "labelEn": "Dumbledore's office",
+      "labelHu": "Dumbledore dolgozószobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The circular room above the gargoyle has instruments, portraits, Fawkes and the Hat.",
+      "searchTerms": [
+        "headmaster",
+        "igazgató",
+        "portraits",
+        "festmények",
+        "phoenix",
+        "főnix"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS12",
+          "kind": "event",
+          "enLocator": "office",
+          "huLocator": "dolgozószoba",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "slytherin-common-room",
+      "labelEn": "Slytherin common room",
+      "labelHu": "Mardekár klubhelyiség",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The low underground room Harry and Ron enter while impersonating Malfoy's companions.",
+      "searchTerms": [
+        "Slytherin",
+        "Mardekár",
+        "dungeon",
+        "pince",
+        "impersonation",
+        "álruha"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS12",
+          "kind": "event",
+          "enLocator": "Slytherin common room",
+          "huLocator": "Mardekár klubhelyiség",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "vauxhall-road",
+      "labelEn": "Vauxhall Road",
+      "labelHu": "Vauxhall Road",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The London newsagent address printed on the diary.",
+      "searchTerms": [
+        "diary",
+        "napló",
+        "shop",
+        "bolt",
+        "London"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS13",
+          "kind": "event",
+          "enLocator": "Vauxhall Road",
+          "huLocator": "Vauxhall Road",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS13",
+          "enLocator": "Vauxhall Road",
+          "huLocator": "Vauxhall Road",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "london",
+      "labelEn": "London",
+      "labelHu": "London",
+      "labelKind": "editorial-label",
+      "placeKind": "city",
+      "aliases": [],
+      "description": "The city linked to the diary's printed shop address and King's Cross.",
+      "searchTerms": [
+        "city",
+        "város",
+        "train",
+        "vonat",
+        "diary",
+        "napló"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS13",
+          "kind": "event",
+          "enLocator": "London",
+          "huLocator": "londoni",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "chamber-of-secrets",
+      "labelEn": "Chamber of Secrets",
+      "labelHu": "Titkok Kamrája",
+      "labelKind": "editorial-label",
+      "placeKind": "chamber",
+      "aliases": [],
+      "description": "Slytherin's hidden chamber contains the basilisk and the founder's statue.",
+      "searchTerms": [
+        "secret",
+        "titok",
+        "snake",
+        "kígyó",
+        "basilisk",
+        "baziliskus",
+        "monster",
+        "szörny"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS17",
+          "kind": "event",
+          "enLocator": "Chamber of Secrets",
+          "huLocator": "Titkok Kamrájában",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Chamber of Secrets",
+          "huLocator": "Titkok Kamrája",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Chamber of Secrets",
+          "huLocator": "Titkok Kamrája",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Chamber of Secrets",
+          "huLocator": "Titkok Kamrája",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "forbidden-forest",
+      "labelEn": "Forbidden Forest",
+      "labelHu": "Tiltott Rengeteg",
+      "labelKind": "editorial-label",
+      "placeKind": "forest",
+      "aliases": [],
+      "description": "The forest where Harry, Ron and Fang follow spiders to Aragog.",
+      "searchTerms": [
+        "spiders",
+        "pókok",
+        "forest",
+        "erdő",
+        "Aragog"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS15",
+          "kind": "event",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "aragog-hollow",
+      "labelEn": "Aragog's hollow",
+      "labelHu": "Aragog tisztása",
+      "labelKind": "editorial-label",
+      "placeKind": "clearing",
+      "aliases": [],
+      "description": "The spider colony's hollow reached by following the fleeing spiders.",
+      "searchTerms": [
+        "spider",
+        "pók",
+        "colony",
+        "kolónia",
+        "Aragog"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS15",
+          "kind": "event",
+          "enLocator": "hollow",
+          "huLocator": "boltozatos hálóharang",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "azkaban",
+      "labelEn": "Azkaban",
+      "labelHu": "Azkaban",
+      "labelKind": "editorial-label",
+      "placeKind": "prison",
+      "aliases": [],
+      "description": "The wizard prison to which Fudge takes Hagrid; no visit to the prison is narrated.",
+      "searchTerms": [
+        "prison",
+        "börtön",
+        "arrest",
+        "letartóztatás"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS14",
+          "kind": "event",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS14",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "chamber-pipe",
+      "labelEn": "Chamber entrance pipe",
+      "labelHu": "Kamrába vezető cső",
+      "labelKind": "editorial-label",
+      "placeKind": "passage",
+      "aliases": [],
+      "description": "The pipe revealed under the sink carries the group below the school.",
+      "searchTerms": [
+        "pipe",
+        "cső",
+        "slide",
+        "csúszás",
+        "entrance",
+        "bejárat"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS16",
+          "kind": "event",
+          "enLocator": "large pipe exposed",
+          "huLocator": "cső szája",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    },
+    {
+      "id": "chamber-tunnel",
+      "labelEn": "Tunnel beneath Hogwarts",
+      "labelHu": "Roxfort alatti alagút",
+      "labelKind": "editorial-label",
+      "placeKind": "passage",
+      "aliases": [],
+      "description": "The dark route with shed snake skin is blocked by the memory-charm explosion.",
+      "searchTerms": [
+        "tunnel",
+        "alagút",
+        "snake",
+        "skin",
+        "kígyóbőr",
+        "rockfall",
+        "omlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS16",
+          "kind": "event",
+          "enLocator": "tunnel",
+          "huLocator": "alagút",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-two setting. Descriptive room labels do not claim a formal canonical place name."
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const dataRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data/books');
 const categories = {characters:'person', magic:'spell', places:'place', objects:'object'};
+export const knowledgeBooks = {PS:17, CoS:18};
 export const fold = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
   .replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const tokens = value => fold(value).split(' ').filter(Boolean);
@@ -27,6 +28,12 @@ const groups = [
   ['fire','flame','flames','tuz','lang','langok','langocska'],
   ['gold','golden','arany'], ['blue','kek'], ['feather','toll'], ['club','bunko'],
   ['wand','wands','palca','varazspalca'], ['school','hogwarts','roxfort'],
+  ['disarm','disarming','lefegyverez','lefegyverzes'],
+  ['erase','erasing','erase-memory','torol','torles'],
+  ['freeze','freezing','immobilise','immobilize','dermeszt','dermeszto'],
+  ['tickle','tickling','csiklandoz','csiklandozo'],
+  ['dance','dancing','tanc','tancol'], ['snake','serpent','kigyo'],
+  ['light','illuminate','illumination','feny','vilagit','vilagitas'],
 ];
 const expansions = new Map(groups.flatMap(group => group.map(word => [word, group])));
 function number(value, fallback, minimum = 0) {
@@ -35,7 +42,7 @@ function number(value, fallback, minimum = 0) {
   return n;
 }
 export function loadKnowledge(book = 'PS', directory = dataRoot) {
-  if (book !== 'PS') throw Error(`Unsupported book knowledge: ${book}`);
+  if (!Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book knowledge: ${book}`);
   return Object.entries(categories).flatMap(([file,category]) => {
     const data = JSON.parse(fs.readFileSync(path.join(directory, book.toLowerCase(), `${file}.json`), 'utf8'));
     return data.entries.map(entry => ({...entry, category:entry.entityKind === 'animal' ? 'animal' : category}));
@@ -43,7 +50,7 @@ export function loadKnowledge(book = 'PS', directory = dataRoot) {
 }
 function evidenceAnchors(entry) {
   return [...new Set([...(entry.evidence ?? []).map(e => e.anchor),
-    ...(entry.termMentions ?? []).map(e => e.anchor), ...(entry.occurrences ?? []).map(e => e.anchor)])];
+    ...(entry.termMentions ?? []).map(e => e.anchor), ...(entry.reportedClassUses ?? []).flatMap(r => r.evidence.map(e => e.anchor)), ...(entry.occurrences ?? []).map(e => e.anchor)])];
 }
 function rank(entry, query) {
   if (!query) return {score:0, matched:[]};
@@ -71,7 +78,7 @@ function rank(entry, query) {
 }
 export function semanticSearch(options = {}, entries = loadKnowledge(options.book ?? 'PS')) {
   const book = options.book ?? 'PS';
-  if (book !== 'PS') throw Error(`Unsupported book knowledge: ${book}`);
+  if (!Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book knowledge: ${book}`);
   if (options.id && options.query != null) throw Error('--id and --query cannot be combined');
   if (options.query != null && !options.query.trim()) throw Error('--query must not be empty');
   const intentWords = {object:['object','objects','targy','targyak'],spell:['spell','spells','varazslat','varazslatok'],person:['person','people','ember','emberek'],place:['place','places','hely','helyek']};
@@ -81,7 +88,8 @@ export function semanticSearch(options = {}, entries = loadKnowledge(options.boo
   if (!options.category && intents.length === 0 && queryWords.includes('who')) options = {...options,category:'person'};
   if (!options.category && intents.length === 0 && queryWords.includes('where')) options = {...options,category:'place'};
   if (options.category && !['person','animal','place','object','spell'].includes(options.category)) throw Error(`Unknown semantic category: ${options.category}`);
-  if (options.anchor && !/^PS(?:[1-9]|1[0-7])$/.test(options.anchor)) throw Error(`Invalid PS anchor: ${options.anchor}`);
+  const anchorNumber = options.anchor?.startsWith(book) ? options.anchor.slice(book.length) : '';
+  if (options.anchor && (!/^[1-9]\d*$/.test(anchorNumber) || Number(anchorNumber) > knowledgeBooks[book])) throw Error(`Invalid ${book} anchor: ${options.anchor}`);
   if (options['magic-status'] && !['demonstrated','ordinary','not-established'].includes(options['magic-status'])) throw Error('Invalid --magic-status');
   if (options['magic-status'] && options.category !== 'object') throw Error('--magic-status requires object category');
   if (options.kind && !entries.some(entry => (entry.entityKind ?? entry.placeKind ?? entry.objectKind ?? entry.kind) === options.kind)) throw Error(`Unknown entity kind: ${options.kind}`);
@@ -96,4 +104,21 @@ export function semanticSearch(options = {}, entries = loadKnowledge(options.boo
   return {book, method:'curated aliases and bilingual concepts; deterministic ranking, no embeddings',
     total:ranked.length,offset,nextOffset:offset+limit<ranked.length?offset+limit:null,
     entries:ranked.slice(offset,offset+limit).map(({entry,match}) => ({...entry,retrieval:{...match,anchors:evidenceAnchors(entry)}}))};
+}
+
+export function knowledgeStats(book) {
+  const books = book == null ? Object.keys(knowledgeBooks) : [book];
+  return books.map(book => {
+    const entries = loadKnowledge(book);
+    const count = category => entries.filter(e => e.category === category).length;
+    const evidencePairs = entries.reduce((n,e) => n + (e.evidence?.length ?? 0)
+      + (e.reportedClassUses ?? []).reduce((n,r) => n + r.evidence.length,0)
+      + (e.identification?.evidence?.length ?? 0) + (e.laterIncantation?.evidence?.length ?? 0)
+      + (e.occurrences ?? []).reduce((n,o) => n + o.evidence.length + (o.nonVerbalEvidence?.length ?? 0),0),0);
+    return {book, chapters:knowledgeBooks[book], people:count('person'), animals:count('animal'),
+      places:count('place'), objects:count('object'), spells:count('spell'), records:entries.length,
+      castingRecords:entries.reduce((n,e) => n + (e.occurrences?.length ?? 0),0),
+      classReportRecords:entries.reduce((n,e) => n + (e.reportedClassUses?.length ?? 0),0),
+      contextEvidencePairs:evidencePairs, literalMentionPairs:entries.reduce((n,e) => n + (e.termMentions?.length ?? 0),0)};
+  });
 }

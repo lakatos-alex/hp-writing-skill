@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { knowledgeBooks } from '../skills/harry-potter-fanfic/scripts/semantic.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -13,7 +14,7 @@ const check = (value, message) => { if (!value) fail(message); };
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const isNfc = value => typeof value === 'string' && value === value.normalize('NFC');
 function strings(value, label) { check(Array.isArray(value) && value.every(isNfc), `${label} must be NFC strings`); }
-function evidence(items, label, characterIds, allowedAnchors = psAnchors) {
+function validateEvidence(items, label, characterIds, allowedAnchors = psAnchors) {
   check(Array.isArray(items) && items.length, `${label} evidence must be a non-empty array`);
   for (const item of items) {
     check(item && allowedAnchors.includes(item.anchor), `${label} evidence has invalid anchor`);
@@ -23,10 +24,11 @@ function evidence(items, label, characterIds, allowedAnchors = psAnchors) {
     if (item.speakerId != null) check(characterIds.has(item.speakerId), `${label} evidence references unknown speaker`);
   }
 }
-function envelope(data, name) { check(data?.schemaVersion === 1 && data.book === 'PS' && Array.isArray(data.entries), `${name} needs schemaVersion 1, book PS and entries`); }
-export function validateBookKnowledge(base = ROOT) {
+function envelope(data, name, book) { check(data?.schemaVersion === 1 && data.policyVersion === 2 && data.book === book && Array.isArray(data.entries), `${name} needs schemaVersion 1, book ${book} and entries`); }
+export function validateBookKnowledge(base = ROOT, book = 'PS') {
+  check(Object.hasOwn(knowledgeBooks,book), `Unsupported book knowledge: ${book}`);
   const dataDir = path.join(base, 'skills', 'harry-potter-fanfic', 'data');
-  const booksDir = path.join(dataDir, 'books', 'ps');
+  const booksDir = path.join(dataDir, 'books', book.toLowerCase());
   const glossary = read(path.join(dataDir, 'hu-glossary.json'));
   const facts = read(path.join(dataDir, 'facts.json'));
   const characters = read(path.join(booksDir, 'characters.json'));
@@ -34,9 +36,13 @@ export function validateBookKnowledge(base = ROOT) {
   const coverage = read(path.join(booksDir, 'coverage.json'));
   const places = read(path.join(booksDir, 'places.json'));
   const objects = read(path.join(booksDir, 'objects.json'));
-  const anchors = read(path.join(dataDir, 'chapters.json')).map(c => c.anchor);
-  envelope(characters, 'characters'); envelope(magic, 'magic');
-  envelope(places, 'places'); envelope(objects, 'objects');
+  const chapters = read(path.join(dataDir, 'chapters.json'));
+  const anchors = chapters.map(c => c.anchor);
+  const bookAnchors = chapters.filter(c => c.book === book).map(c => c.anchor);
+  const chapterCount = knowledgeBooks[book];
+  function evidence(items,label,ids,allowed = bookAnchors) { validateEvidence(items,label,ids,allowed); }
+  envelope(characters, 'characters', book); envelope(magic, 'magic', book);
+  envelope(places, 'places', book); envelope(objects, 'objects', book);
   const all = [...characters.entries,...magic.entries,...places.entries,...objects.entries];
   check(new Set(all.map(e => e.id)).size === all.length, 'Cross-category duplicate identity');
   for (const entry of all) {
@@ -44,12 +50,12 @@ export function validateBookKnowledge(base = ROOT) {
     check(isNfc(entry.description) && entry.description.trim(), `Entity needs description: ${entry.id}`);
     strings(entry.aliases, `${entry.id} aliases`); strings(entry.searchTerms, `${entry.id} concepts`);
     check(entry.searchTerms.length && entry.searchTerms.every(s => s.trim()), `Empty concepts: ${entry.id}`);
-    for (const mention of entry.termMentions ?? []) check(psAnchors.includes(mention.anchor) && mention.status === 'paired-term-checked' && isNfc(mention.enLocator) && mention.enLocator.trim() && isNfc(mention.huLocator) && mention.huLocator.trim(), `Invalid term mention: ${entry.id}`);
+    for (const mention of entry.termMentions ?? []) check(bookAnchors.includes(mention.anchor) && mention.status === 'paired-term-checked' && isNfc(mention.enLocator) && mention.enLocator.trim() && isNfc(mention.huLocator) && mention.huLocator.trim(), `Invalid term mention: ${entry.id}`);
   }
   const glossaryIds = new Set(glossary.map(entry => entry.id)), factIds = new Set(facts.map(entry => entry.id));
-  for (const entry of [...glossary, ...facts]) if (entry.evidence != null) evidence(entry.evidence, `Legacy ${entry.id}`, new Set());
-  for (const entry of glossary) if (entry.bookUsage?.PS != null) { const usage = entry.bookUsage.PS; check(isNfc(usage.notes) && usage.notes.trim(), `Invalid PS glossary usage: ${entry.id}`); evidence(usage.evidence, `PS glossary usage ${entry.id}`, new Set()); }
-  for (const entry of facts) if (entry.bookUsage?.PS != null) { const usage = entry.bookUsage.PS; check(isNfc(usage.claim) && usage.claim.trim() && isNfc(usage.limits) && usage.limits.trim(), `Invalid PS fact usage: ${entry.id}`); evidence(usage.evidence, `PS fact usage ${entry.id}`, new Set()); }
+  for (const entry of [...glossary, ...facts]) if (entry.evidence != null) evidence(entry.evidence, `Legacy ${entry.id}`, new Set(), anchors);
+  for (const entry of glossary) if (entry.bookUsage?.[book] != null) { const usage = entry.bookUsage[book]; check(isNfc(usage.notes) && usage.notes.trim(), `Invalid book glossary usage: ${entry.id}`); evidence(usage.evidence, `Book glossary usage ${entry.id}`, new Set()); }
+  for (const entry of facts) if (entry.bookUsage?.[book] != null) { const usage = entry.bookUsage[book]; check(isNfc(usage.claim) && usage.claim.trim() && isNfc(usage.limits) && usage.limits.trim(), `Invalid book fact usage: ${entry.id}`); evidence(usage.evidence, `Book fact usage ${entry.id}`, new Set()); }
   const characterIds = new Set(characters.entries.map(entry => entry.id));
   check(characterIds.size === characters.entries.length, 'Duplicate character ID');
   for (const entry of characters.entries) {
@@ -60,10 +66,10 @@ export function validateBookKnowledge(base = ROOT) {
     check(['human','ghost','portrait','animal','magical-being','group','unknown'].includes(entry.entityKind), `Invalid character entity kind: ${entry.id}`);
     check(isNfc(entry.labelEn) && isNfc(entry.labelHu) && isNfc(entry.limits), `Character requires NFC labels and limits: ${entry.id}`);
     check(Array.isArray(entry.presence) && entry.presence.length, `Character needs presence: ${entry.id}`);
-    for (const presence of entry.presence) check(psAnchors.includes(presence.anchor) && ['appears','mentioned'].includes(presence.mode), `Invalid character presence: ${entry.id}`);
+    for (const presence of entry.presence) check(bookAnchors.includes(presence.anchor) && ['appears','mentioned'].includes(presence.mode), `Invalid character presence: ${entry.id}`);
     strings(entry.factIds, `Character ${entry.id} factIds`); check(entry.factIds.every(id => factIds.has(id)), `Unknown character fact ID: ${entry.id}`);
     check(Array.isArray(entry.writingNotes), `Character writing notes must be array: ${entry.id}`);
-    for (const note of entry.writingNotes) { check(isNfc(note.text) && evidenceKinds.has(note.kind), `Invalid character writing note: ${entry.id}`); strings(note.anchors, `Character ${entry.id} note anchors`); check(note.anchors.every(anchor => psAnchors.includes(anchor)), `Invalid character note anchor: ${entry.id}`); }
+    for (const note of entry.writingNotes) { check(isNfc(note.text) && evidenceKinds.has(note.kind), `Invalid character writing note: ${entry.id}`); strings(note.anchors, `Character ${entry.id} note anchors`); check(note.anchors.every(anchor => bookAnchors.includes(anchor)), `Invalid character note anchor: ${entry.id}`); }
     evidence(entry.evidence, `Character ${entry.id}`, characterIds);
     check(entry.presence.every(presence => entry.evidence.some(item => item.anchor === presence.anchor)), `Character presence lacks evidence: ${entry.id}`);
   }
@@ -79,12 +85,18 @@ export function validateBookKnowledge(base = ROOT) {
     check(Array.isArray(entry.occurrences) && entry.occurrences.length, `Magic needs occurrences: ${entry.id}`);
     check(['named-in-book','named-effect-in-book','later-explicit-identification'].includes(entry.identification?.basis), `Unidentified spell: ${entry.id}`);
     const later = entry.identification.basis === 'later-explicit-identification';
-    check(!later || anchors.includes(entry.identification.availableFrom) && !psAnchors.includes(entry.identification.availableFrom), `Later identification needs later anchor: ${entry.id}`);
-    evidence(entry.identification.evidence, `Spell identification ${entry.id}`, characterIds, later ? anchors : psAnchors);
+    check(!later || anchors.includes(entry.identification.availableFrom) && anchors.indexOf(entry.identification.availableFrom) > anchors.indexOf(bookAnchors.at(-1)), `Later identification needs later anchor: ${entry.id}`);
+    evidence(entry.identification.evidence, `Spell identification ${entry.id}`, characterIds, later ? anchors : bookAnchors);
     check(!later || entry.identification.evidence.some(e => e.anchor === entry.identification.availableFrom), `Identification cutoff lacks evidence: ${entry.id}`);
     if (entry.laterIncantation) {
       check(later && entry.laterIncantation.availableFrom === entry.identification.availableFrom && isNfc(entry.laterIncantation.en) && isNfc(entry.laterIncantation.hu), `Invalid later incantation: ${entry.id}`);
       evidence(entry.laterIncantation.evidence, `Later incantation ${entry.id}`, characterIds, anchors);
+    }
+    if (entry.incantation != null) check(isNfc(entry.incantation.en) && entry.incantation.en.trim() && isNfc(entry.incantation.hu) && entry.incantation.hu.trim(), `Invalid incantation: ${entry.id}`);
+    for (const report of entry.reportedClassUses ?? []) {
+      check(report.practitionerIds?.length && report.practitionerIds.every(id => characters.entries.some(c => c.id === id && c.entityKind === 'human')), `Class report needs human caster: ${entry.id}`);
+      evidence(report.evidence, `Class report ${entry.id}`, characterIds);
+      check(isNfc(report.limits) && report.limits.trim(), `Class report needs identity limits: ${entry.id}`);
     }
     for (const occurrence of entry.occurrences) {
       check(occurrence.practitionerIds?.length && occurrence.practitionerIds.every(id => characters.entries.some(c => c.id === id && c.entityKind === 'human')), `Spell needs human caster: ${entry.id}`);
@@ -95,7 +107,7 @@ export function validateBookKnowledge(base = ROOT) {
         check(occurrence.nonVerbalEvidence.some(e => e.kind === 'event'), `Non-verbal claim needs event evidence: ${entry.id}`);
       }
     }
-    for (const occurrence of entry.occurrences) { check(psAnchors.includes(occurrence.anchor), `Invalid magic anchor: ${entry.id}`); check(['performed','practised','reported','explained','attempted'].includes(occurrence.mode), `Invalid magic mode: ${entry.id}`); check(['success','failure','uncertain','not-demonstrated'].includes(occurrence.outcome), `Invalid magic outcome: ${entry.id}`); strings(occurrence.practitionerIds, `Magic ${entry.id} practitionerIds`); strings(occurrence.targetIds, `Magic ${entry.id} targetIds`); check(occurrence.practitionerIds.every(id => characterIds.has(id)) && occurrence.targetIds.every(id => characterIds.has(id)), `Unknown magic actor ID: ${entry.id}`); check(isNfc(occurrence.summary) && occurrence.summary.trim(), `Magic summary must be NFC: ${entry.id}`); evidence(occurrence.evidence, `Magic ${entry.id}`, characterIds); check(occurrence.evidence.every(item => item.anchor === occurrence.anchor), `Magic occurrence evidence anchor mismatch: ${entry.id}`); }
+    for (const occurrence of entry.occurrences) { check(bookAnchors.includes(occurrence.anchor), `Invalid magic anchor: ${entry.id}`); check(['performed','practised','reported','explained','attempted'].includes(occurrence.mode), `Invalid magic mode: ${entry.id}`); check(['success','failure','uncertain','not-demonstrated'].includes(occurrence.outcome), `Invalid magic outcome: ${entry.id}`); strings(occurrence.practitionerIds, `Magic ${entry.id} practitionerIds`); strings(occurrence.targetIds, `Magic ${entry.id} targetIds`); check(occurrence.practitionerIds.every(id => characterIds.has(id)) && occurrence.targetIds.every(id => characterIds.has(id)), `Unknown magic actor ID: ${entry.id}`); check(isNfc(occurrence.summary) && occurrence.summary.trim(), `Magic summary must be NFC: ${entry.id}`); evidence(occurrence.evidence, `Magic ${entry.id}`, characterIds); check(occurrence.evidence.every(item => item.anchor === occurrence.anchor), `Magic occurrence evidence anchor mismatch: ${entry.id}`); }
   }
   for (const entry of [...places.entries,...objects.entries]) {
     check(isNfc(entry.labelEn) && entry.labelEn.trim() && isNfc(entry.labelHu) && entry.labelHu.trim() && isNfc(entry.limits), `Invalid entity labels: ${entry.id}`);
@@ -108,16 +120,16 @@ export function validateBookKnowledge(base = ROOT) {
     check(isNfc(entry.objectKind) && entry.objectKind.trim(), `Invalid object kind: ${entry.id}`);
     check(['demonstrated','ordinary','not-established'].includes(entry.magicStatus), `Invalid object magic status: ${entry.id}`);
   }
-  check(coverage?.schemaVersion === 1 && coverage.book === 'PS' && coverage.policyVersion === 2, 'Invalid PS coverage envelope');
-  check(Array.isArray(coverage.chapters) && coverage.chapters.length === 17 && new Set(coverage.chapters.map(c => c.anchor)).size === 17, 'Coverage needs 17 unique PS chapters');
-  for (const chapter of coverage.chapters) check(psAnchors.includes(chapter.anchor) && states.has(chapter.en) && states.has(chapter.hu), `Invalid coverage state: ${chapter.anchor}`);
+  check(coverage?.schemaVersion === 1 && coverage.book === book && coverage.policyVersion === 2, 'Invalid book coverage envelope');
+  check(Array.isArray(coverage.chapters) && coverage.chapters.length === chapterCount && new Set(coverage.chapters.map(c => c.anchor)).size === chapterCount, 'Coverage needs all unique book chapters');
+  for (const chapter of coverage.chapters) check(bookAnchors.includes(chapter.anchor) && states.has(chapter.en) && states.has(chapter.hu), `Invalid coverage state: ${chapter.anchor}`);
   for (const category of ['characters','magic','terms','facts']) check(Number.isInteger(coverage.categoryCounts?.[category]) && coverage.categoryCounts[category] >= 0, `Invalid coverage count: ${category}`);
   check(coverage.categoryCounts.characters === characters.entries.length && coverage.categoryCounts.magic === magic.entries.length, 'Coverage counts do not match accepted records');
   check(coverage.categoryCounts.places === places.entries.length && coverage.categoryCounts.objects === objects.entries.length, 'Coverage place/object counts do not match');
-  check(coverage.categoryCounts.terms === glossary.filter(e => e.bookUsage?.PS).length && coverage.categoryCounts.facts === facts.filter(e => e.bookUsage?.PS).length, 'Coverage glossary/fact usage counts do not match');
-  check(coverage.retrievalPass?.policyVersion === 2 && coverage.retrievalPass.chapterAnchors?.length === 17 && psAnchors.every(a => coverage.retrievalPass.chapterAnchors.includes(a)), 'Retrieval pass needs all PS chapters');
+  check(coverage.categoryCounts.terms === glossary.filter(e => e.bookUsage?.[book]).length && coverage.categoryCounts.facts === facts.filter(e => e.bookUsage?.[book]).length, 'Coverage glossary/fact usage counts do not match');
+  check(coverage.retrievalPass?.policyVersion === 2 && coverage.retrievalPass.chapterAnchors?.length === chapterCount && bookAnchors.every(a => coverage.retrievalPass.chapterAnchors.includes(a)), 'Retrieval pass needs all book chapters');
   const represented = new Set(all.flatMap(e => [...(e.evidence ?? []).map(x => x.anchor),...(e.occurrences ?? []).map(x => x.anchor),...(e.termMentions ?? []).map(x => x.anchor)]));
-  check(psAnchors.every(a => represented.has(a)), 'Unrepresented chapter in PS inventory');
+  check(bookAnchors.every(a => represented.has(a)), 'Unrepresented chapter in book inventory');
   for (const disposition of ['pending','accepted','merged','excluded','unresolved']) check(Number.isInteger(coverage.candidateDisposition?.[disposition]) && coverage.candidateDisposition[disposition] >= 0, `Invalid candidate disposition: ${disposition}`);
   check(coverage.candidateDisposition.accepted === all.length, 'Accepted count does not match finalized index records');
   check(Array.isArray(coverage.limitations) && coverage.limitations.every(isNfc), 'Coverage limitations must be NFC strings');
@@ -144,5 +156,5 @@ export function validatePrivateProgress(file, candidatesDir) {
   if (candidatesDir && progress.candidateDisposition) for (const [key, value] of Object.entries(counts)) check(progress.candidateDisposition[key] === value, `Candidate disposition reconciliation failed: ${key}`);
   return {chapters: chapters.length, candidates: counts};
 }
-function main(args) { const privateIndex = args.indexOf('--private-progress'), candidatesIndex = args.indexOf('--candidates'); const result = privateIndex >= 0 ? validatePrivateProgress(path.resolve(args[privateIndex + 1]), candidatesIndex >= 0 ? path.resolve(args[candidatesIndex + 1]) : undefined) : validateBookKnowledge(); console.log(`PASS: PS book knowledge valid (${JSON.stringify(result)}).`); }
+function main(args) { const privateIndex = args.indexOf('--private-progress'), candidatesIndex = args.indexOf('--candidates'); const result = privateIndex >= 0 ? validatePrivateProgress(path.resolve(args[privateIndex + 1]), candidatesIndex >= 0 ? path.resolve(args[candidatesIndex + 1]) : undefined) : args.includes('--book') ? validateBookKnowledge(ROOT,args[args.indexOf('--book')+1]) : Object.fromEntries(Object.keys(knowledgeBooks).map(book => [book,validateBookKnowledge(ROOT,book)])); console.log(`PASS: book knowledge valid (${JSON.stringify(result)}).`); }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) { try { main(process.argv.slice(2)); } catch (error) { console.error(`FAIL: ${error.message}`); process.exitCode = 1; } }

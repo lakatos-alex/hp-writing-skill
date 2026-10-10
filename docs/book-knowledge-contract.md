@@ -2,7 +2,9 @@
 
 This is the data and private-research contract for the book datasets. It
 does not certify semantic completeness. Policy-2 validation requires the scoped
-PS inventory to represent all 17 chapters; this does not certify full reading.
+PS and CoS inventories to represent all 17 and 18 chapters respectively; this
+does not certify full reading. The private candidate-ledger format below remains
+PS-specific; other books' targeted inventories do not imply that ledger exists.
 
 ## Private PS candidates
 
@@ -86,7 +88,8 @@ scaffold is deliberately `not-started` and never represents complete coverage.
 
 ## Policy 2 retrieval extensions
 
-The PS entity envelopes remain schema version 1 with `policyVersion: 2`.
+The PS and CoS entity envelopes remain schema version 1 with `policyVersion: 2`
+and their respective `book` value; folders are `ps` and `cos`.
 `magic.json` is now an identified-spell index: all entries have `kind: spell`.
 The historical wider magic taxonomy above describes the superseded pilot.
 Each occurrence needs non-empty human `practitionerIds`, `vocalisation`
@@ -96,7 +99,15 @@ Missing dialogue is not that evidence. Spell `identification` has a basis
 (`named-in-book`, `named-effect-in-book`, `later-explicit-identification`) and
 paired evidence. Later identifications require `availableFrom` and evidence at
 that later anchor. Optional `laterIncantation` keeps its own provenance.
-Occurrence anchors remain PS-only. Do not infer an incantation from an effect.
+Occurrence, presence, term-mention and ordinary evidence anchors stay within
+the indexed book. Later identification evidence is the explicit exception.
+Do not infer an incantation from an effect.
+
+Optional `reportedClassUses` holds reports of the spell class without attaching
+the entry's exact formula to those events. Each report needs human
+`practitionerIds`, paired testimony evidence and `limits` spelling out what is
+unattested. CoS reports of Memory Charms use this field rather than adding
+formula-attested `Obliviate` occurrences or inventing an individual cast count.
 
 All four indexes (`characters`, `magic`, `places`, `objects`) have original
 `description`, `aliases` and bilingual `searchTerms`. Identity IDs are unique
@@ -122,19 +133,30 @@ review method and source hashes. Reading states remain partial unless actual
 full-chapter reading supports a stronger claim. `legacyPilot` preserves the
 earlier counters as history; it is not the active candidate ledger. Current
 accepted counts refer to the finalized four-index records, not legacy glossary
-or fact cards. `terms` and `facts` count cards with explicit `bookUsage.PS`,
+or fact cards. `terms` and `facts` count cards with explicit `bookUsage[book]`,
 not every headword with a lexical PS reference. Excluded observations are documented in the contributor review,
 not counted as finalized index entries. The scoped inventory is not a claim of
 exhaustive literary or independent semantic review.
 
 ## Validation commands
 
-Run `node tools/validate_book_knowledge.mjs` for published records. Add
+Run `node tools/validate_book_knowledge.mjs` for both supported inventories, or
+add `--book PS` / `--book CoS` for one. Add
 `--private-progress original-sources/research/ps/progress.local.json` to verify
 the private ledger, and `--candidates DIR` to reconcile private candidate
-counts. Source checking is separate: `node tools/verify_sources.mjs
-original-sources` verifies every published PS evidence locator in both supplied
-languages when PS evidence exists.
+counts; private progress validation remains PS-only. Source checking is separate:
+`node tools/verify_sources.mjs original-sources` verifies every published PS/CoS
+evidence locator in both supplied languages, including explicit later
+identifications. It also checks inventory source hashes against the catalogues.
+
+`hp.mjs stats [--book PS|CoS]` counts the four indexes. Characters equal people
+plus animals; records are summed per book, not deduplicated across books.
+Casting rows may group practice or reports. Contextual evidence counts every
+stored pair in entity evidence, identification, later incantation, occurrences,
+non-verbal evidence and class reports. Literal mention pairs are counted
+separately. Repeated locators count again; neither measure denotes independent
+readings or unique passages. Source verification reconciles its locator count
+with these counts.
 
 To check private chapter candidate files against the actual bilingual PS
 catalogues, run:

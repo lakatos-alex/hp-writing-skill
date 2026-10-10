@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "book": "CoS",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "freezing-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Freezing Charm",
+      "labelHu": "Dermesztő átok",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione immobilises two escaped pixies; the novel names the effect but supplies no incantation.",
+      "searchTerms": [
+        "freeze",
+        "freezing",
+        "immobilise",
+        "pixies",
+        "dermesztő",
+        "átok",
+        "mozdulatlan",
+        "tündérmanók"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS6",
+            "kind": "event",
+            "enLocator": "Freezing Charm",
+            "huLocator": "dermesztő átokkal",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS6",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione immobilises two pixies at once and returns them to the cage.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "CoS6",
+              "kind": "event",
+              "enLocator": "Freezing Charm",
+              "huLocator": "dermesztő átokkal",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "expelliarmus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Expelliarmus",
+      "labelHu": "Capitulatus",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Disarming Charm",
+        "Lefegyverző bűbáj"
+      ],
+      "description": "The disarming charm removes the opponent's held object; powerful examples also throw the target backwards.",
+      "searchTerms": [
+        "disarm",
+        "disarming",
+        "remove",
+        "wand",
+        "lefegyverzés",
+        "eltávolít",
+        "pálca"
+      ],
+      "incantation": {
+        "en": "Expelliarmus",
+        "hu": "Capitulatus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS11",
+            "kind": "event",
+            "enLocator": "Snape cried",
+            "huLocator": "Piton így kiáltott",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [
+            "gilderoy-lockhart"
+          ],
+          "summary": "Snape demonstrates disarming by blasting Lockhart off the platform and removing his wand.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS11",
+              "kind": "event",
+              "enLocator": "Snape cried",
+              "huLocator": "Piton így kiáltott",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "CoS13",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "malfoy"
+          ],
+          "summary": "Harry disarms Malfoy of the stolen diary; Ron catches it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS13",
+              "kind": "event",
+              "enLocator": "pulled out his wand and shouted",
+              "huLocator": "Capitulatus",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "CoS16",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "gilderoy-lockhart"
+          ],
+          "summary": "Harry disarms Lockhart before the threatened Memory Charm can be cast.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS16",
+              "kind": "event",
+              "enLocator": "Harry bellowed",
+              "huLocator": "Capitulatus",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "rictusempra",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Rictusempra",
+      "labelHu": "Rictusempra",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Tickling Charm",
+        "Csiklandozó bűbáj"
+      ],
+      "description": "A Tickling Charm makes Malfoy collapse with laughter during the duel.",
+      "searchTerms": [
+        "tickle",
+        "tickling",
+        "laughter",
+        "csiklandozó",
+        "bűbáj",
+        "nevetés"
+      ],
+      "incantation": {
+        "en": "Rictusempra",
+        "hu": "Rictusempra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS11",
+            "kind": "event",
+            "enLocator": "Rictusempra",
+            "huLocator": "Rictusempra",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "malfoy"
+          ],
+          "summary": "Harry points his wand and casts the Tickling Charm at Malfoy.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS11",
+              "kind": "event",
+              "enLocator": "Rictusempra",
+              "huLocator": "Rictusempra",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "tarantallegra",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Tarantallegra",
+      "labelHu": "Tarantallegra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The curse forces Harry's legs into an uncontrollable dance.",
+      "searchTerms": [
+        "dance",
+        "dancing",
+        "legs",
+        "tánc",
+        "táncol",
+        "láb"
+      ],
+      "incantation": {
+        "en": "Tarantallegra",
+        "hu": "Tarantallegra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS11",
+            "kind": "event",
+            "enLocator": "Tarantallegra",
+            "huLocator": "Tarantallegra",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Malfoy casts at Harry's knees, making his legs dance.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS11",
+              "kind": "event",
+              "enLocator": "Tarantallegra",
+              "huLocator": "Tarantallegra",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "finite-incantatem",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Finite Incantatem",
+      "labelHu": "Finite incantatem",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape ends the tickling and dancing effects in the duelling club.",
+      "searchTerms": [
+        "end",
+        "stop",
+        "counter",
+        "curse",
+        "megszüntet",
+        "ellenátok",
+        "leállít"
+      ],
+      "incantation": {
+        "en": "Finite Incantatem",
+        "hu": "Finite incantatem"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS11",
+            "kind": "event",
+            "enLocator": "Finite Incantatem",
+            "huLocator": "Finite incantatem",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [
+            "harry-potter",
+            "malfoy"
+          ],
+          "summary": "Snape stops Harry's dancing feet and Malfoy's laughter with the spoken counter-spell.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS11",
+              "kind": "event",
+              "enLocator": "Finite Incantatem",
+              "huLocator": "Finite incantatem",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "serpensortia",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Serpensortia",
+      "labelHu": "Serpensortia",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The conjuring spell produces a long black snake from Malfoy's wand.",
+      "searchTerms": [
+        "snake",
+        "serpent",
+        "conjure",
+        "summon",
+        "kígyó",
+        "elővarázsol",
+        "megidéz"
+      ],
+      "incantation": {
+        "en": "Serpensortia",
+        "hu": "Serpensortia"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS11",
+            "kind": "event",
+            "enLocator": "Serpensortia",
+            "huLocator": "Serpensortia",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [],
+          "summary": "Malfoy conjures a black snake between himself and Harry.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS11",
+              "kind": "event",
+              "enLocator": "Serpensortia",
+              "huLocator": "Serpensortia",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "lumos",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Lumos",
+      "labelHu": "Lumos",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "A small wand-tip light helps Harry follow spiders and explore the tunnel.",
+      "searchTerms": [
+        "light",
+        "illuminate",
+        "wand",
+        "tip",
+        "fény",
+        "világítás",
+        "pálca",
+        "sötét"
+      ],
+      "incantation": {
+        "en": "Lumos",
+        "hu": "Lumos"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS15",
+            "kind": "event",
+            "enLocator": "Lumos",
+            "huLocator": "Lumos",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS15",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights his wand for the Forest search; Ron expressly declines to light his broken wand.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS15",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "CoS16",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights his wand again in the dark tunnel beneath the school.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS16",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts."
+    },
+    {
+      "id": "obliviate",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Obliviate",
+      "labelHu": "Exmemoriam",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Memory Charm",
+        "Felejtésátok"
+      ],
+      "description": "Lockhart's attempted Memory Charm rebounds from Ron's damaged wand and erases his own memory.",
+      "searchTerms": [
+        "memory",
+        "erase",
+        "forget",
+        "emlékezet",
+        "törlés",
+        "felejtés",
+        "emléktörlés"
+      ],
+      "incantation": {
+        "en": "Obliviate",
+        "hu": "Exmemoriam"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "CoS16",
+            "kind": "event",
+            "enLocator": "Obliviate",
+            "huLocator": "Exmemoriam",
+            "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "CoS16",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "gilderoy-lockhart"
+          ],
+          "targetIds": [
+            "harry-potter",
+            "ron"
+          ],
+          "summary": "Lockhart attempts to erase both boys' memories; the damaged wand backfires and the intended targets remain unharmed.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "CoS16",
+              "kind": "event",
+              "enLocator": "Obliviate",
+              "huLocator": "Exmemoriam",
+              "scope": "Casting or reported casting and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unreported vocalisation does not certify non-verbal casting. Reports do not establish an exact number of individual casts.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "arthur-weasley",
+            "perkins"
+          ],
+          "evidence": [
+            {
+              "anchor": "CoS3",
+              "kind": "testimony",
+              "enLocator": "they had to do Memory Charms",
+              "huLocator": "felejtésátkokkal",
+              "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Fred reports Memory Charms after enchanted cutlery incidents; Obliviate is not spoken or explicitly assigned to these events."
+        },
+        {
+          "practitionerIds": [
+            "gilderoy-lockhart"
+          ],
+          "evidence": [
+            {
+              "anchor": "CoS16",
+              "kind": "testimony",
+              "enLocator": "put a Memory Charm on them",
+              "huLocator": "felejtésát",
+              "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Lockhart confesses erasing the real adventurers. This class-level report does not attest a formula, target list or cast count."
+        }
+      ]
+    }
+  ]
+}

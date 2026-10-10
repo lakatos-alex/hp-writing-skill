@@ -1,0 +1,6047 @@
+{
+  "schemaVersion": 1,
+  "book": "CoS",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "harry-potter",
+      "glossaryId": "harry-potter",
+      "labelEn": "Harry Potter",
+      "labelHu": "Harry Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Harry",
+        "the boy who lived",
+        "a kis túlélő"
+      ],
+      "description": "The second-year Gryffindor hears a voice others cannot, is suspected of attacking pupils, and enters the Chamber to rescue Ginny.",
+      "searchTerms": [
+        "Parselmouth",
+        "párszaszájú",
+        "survivor",
+        "túlélő",
+        "seeker",
+        "fogó",
+        "rescue",
+        "mentés"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "ron",
+      "glossaryId": "ron",
+      "labelEn": "Ron Weasley",
+      "labelHu": "Ron Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Ron"
+      ],
+      "description": "Harry's Gryffindor friend joins the rescue flight, potion investigation and journey beneath the school; his damaged wand backfires.",
+      "searchTerms": [
+        "friend",
+        "barát",
+        "broken",
+        "wand",
+        "törött",
+        "pálca",
+        "chess",
+        "sakk"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Ron Weasley",
+          "huLocator": "Ron Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Ron Weasley",
+          "huLocator": "Ron Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Ron Weasley",
+          "huLocator": "Ron Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "hermione",
+      "glossaryId": "hermione",
+      "labelEn": "Hermione Granger",
+      "labelHu": "Hermione Granger",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Hermione"
+      ],
+      "description": "The Gryffindor pupil brews Polyjuice Potion and identifies the monster from a library passage before being petrified.",
+      "searchTerms": [
+        "research",
+        "kutatás",
+        "clever",
+        "okos",
+        "potion",
+        "bájital",
+        "library",
+        "könyvtár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Hermione Granger",
+          "huLocator": "Hermione Granger",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Hermione Granger",
+          "huLocator": "Hermione Granger",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Hermione Granger",
+          "huLocator": "Hermione Granger",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Hermione Granger",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "mr-dursley",
+      "glossaryId": "mr-dursley",
+      "labelEn": "Vernon Dursley",
+      "labelHu": "Vernon Dursley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Mr Dursley",
+        "Uncle Vernon",
+        "Vernon bácsi"
+      ],
+      "description": "Harry's uncle hosts the Masons and later locks Harry in his bedroom.",
+      "searchTerms": [
+        "uncle",
+        "nagybácsi",
+        "prison",
+        "bezárás",
+        "drills",
+        "fúró"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Vernon Dursley",
+          "huLocator": "Mr Dursley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "petunia-dursley",
+      "glossaryId": "petunia-dursley",
+      "labelEn": "Petunia Dursley",
+      "labelHu": "Petunia Dursley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Mrs Dursley",
+        "Aunt Petunia",
+        "Petunia néni",
+        "Dursleyné"
+      ],
+      "description": "Harry's aunt prepares the dinner for the Masons and sides with Vernon against Harry.",
+      "searchTerms": [
+        "aunt",
+        "nagynéni",
+        "dinner",
+        "vacsora"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Mrs Dursley",
+          "huLocator": "Mrs Dursley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "dudley-dursley",
+      "glossaryId": "dudley-dursley",
+      "labelEn": "Dudley Dursley",
+      "labelHu": "Dudley Dursley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Harry's cousin taunts him about his birthday and expects praise at his father's business dinner.",
+      "searchTerms": [
+        "cousin",
+        "unokatestvér",
+        "bully",
+        "zaklató"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Dudley Dursley",
+          "huLocator": "Dudley Dursley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "albus-dumbledore",
+      "glossaryId": "albus-dumbledore",
+      "labelEn": "Albus Dumbledore",
+      "labelHu": "Albus Dumbledore",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Dumbledore"
+      ],
+      "description": "The headmaster is suspended during the attacks and returns to explain Harry's choices and the diary's significance.",
+      "searchTerms": [
+        "headmaster",
+        "igazgató",
+        "phoenix",
+        "főnix",
+        "choices",
+        "választás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS2",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS2",
+          "kind": "event",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS2",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "minerva-mcgonagall",
+      "glossaryId": "minerva-mcgonagall",
+      "labelEn": "Professor McGonagall",
+      "labelHu": "McGalagony professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "McGonagall",
+        "McGalagony"
+      ],
+      "description": "Gryffindor's head disciplines the car flight and manages the school during the attacks.",
+      "searchTerms": [
+        "transfiguration",
+        "teacher",
+        "átváltoztatástan",
+        "tanár",
+        "discipline",
+        "fegyelem"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "hagrid",
+      "glossaryId": "hagrid",
+      "labelEn": "Rubeus Hagrid",
+      "labelHu": "Rubeus Hagrid",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Hagrid"
+      ],
+      "description": "The gamekeeper is wrongly arrested; his earlier friendship with Aragog helps Harry and Ron investigate the old accusation.",
+      "searchTerms": [
+        "gamekeeper",
+        "vadőr",
+        "spider",
+        "pók",
+        "arrest",
+        "letartóztatás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "severus-snape",
+      "glossaryId": "severus-snape",
+      "labelEn": "Snape",
+      "labelHu": "Piton",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Potions teacher objects to the flying car, demonstrates disarming and ends the duelling club's jinxes.",
+      "searchTerms": [
+        "potions",
+        "teacher",
+        "bájitaltan",
+        "tanár",
+        "disarm",
+        "lefegyverzés"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Severus Snape",
+          "huLocator": "Perselus Piton",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "flitwick",
+      "glossaryId": "flitwick",
+      "labelEn": "Professor Flitwick",
+      "labelHu": "Flitwick professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Flitwick"
+      ],
+      "description": "The Charms teacher is mentioned in lessons and carries a petrified pupil to the hospital wing.",
+      "searchTerms": [
+        "charms",
+        "teacher",
+        "bűbájtan",
+        "tanár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Flitwick",
+          "huLocator": "Flitwick",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "sprout",
+      "glossaryId": "sprout",
+      "labelEn": "Professor Sprout",
+      "labelHu": "Bimba tanárnő",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Sprout",
+        "Bimba"
+      ],
+      "description": "The Herbology teacher raises Mandrakes needed to restore the petrified victims.",
+      "searchTerms": [
+        "herbology",
+        "teacher",
+        "gyógynövénytan",
+        "tanár",
+        "Mandrake",
+        "mandragóra"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS6",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "binns",
+      "glossaryId": null,
+      "labelEn": "Professor Binns",
+      "labelHu": "Binns professzor",
+      "labelKind": "editorial-label",
+      "entityKind": "ghost",
+      "aliases": [
+        "Binns"
+      ],
+      "description": "The ghost history teacher recounts the school's founders and the Chamber legend.",
+      "searchTerms": [
+        "history",
+        "teacher",
+        "mágiatörténet",
+        "tanár",
+        "ghost",
+        "kísértet",
+        "founders",
+        "alapítók"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Professor Binns",
+          "huLocator": "Binns",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Professor Binns",
+          "huLocator": "Binns professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Professor Binns",
+          "huLocator": "Binns",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "filch",
+      "glossaryId": "filch",
+      "labelEn": "Argus Filch",
+      "labelHu": "Argus Frics",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Filch",
+        "Frics"
+      ],
+      "description": "The caretaker patrols with Mrs Norris and conceals his beginner-magic correspondence course.",
+      "searchTerms": [
+        "caretaker",
+        "gondnok",
+        "Squib",
+        "kvibli",
+        "cat",
+        "macska"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Argus Filch",
+          "huLocator": "Argus Frics",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Argus Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Argus Filch",
+          "huLocator": "Argus Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Argus Filch",
+          "huLocator": "Argus Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "madam-pince",
+      "glossaryId": null,
+      "labelEn": "Madam Pince",
+      "labelHu": "Madam Cvikker",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Pince",
+        "Cvikker"
+      ],
+      "description": "The librarian requires a teacher's permission for the restricted potion book.",
+      "searchTerms": [
+        "librarian",
+        "könyvtáros",
+        "restricted",
+        "zárolt"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS10",
+          "kind": "event",
+          "enLocator": "Madam Pince",
+          "huLocator": "Madam Cvikker",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS10",
+          "enLocator": "Madam Pince",
+          "huLocator": "Madam Cvikker",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Madam Pince",
+          "huLocator": "Madam Cvikker",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "madam-pomfrey",
+      "glossaryId": "madam-pomfrey",
+      "labelEn": "Madam Pomfrey",
+      "labelHu": "Madam Pomfrey",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The school healer treats colds, Harry's boneless arm and the petrified victims.",
+      "searchTerms": [
+        "nurse",
+        "ápoló",
+        "healer",
+        "gyógyító",
+        "hospital",
+        "gyengélkedő"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS10",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "madam-hooch",
+      "glossaryId": null,
+      "labelEn": "Madam Hooch",
+      "labelHu": "Madam Hooch",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The flying teacher referees the Gryffindor-Slytherin match with the rogue Bludger.",
+      "searchTerms": [
+        "referee",
+        "játékvezető",
+        "flying",
+        "repüléstan"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS10",
+          "kind": "event",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS10",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "malfoy",
+      "glossaryId": "malfoy",
+      "labelEn": "Draco Malfoy",
+      "labelHu": "Draco Malfoy",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Malfoy",
+        "Draco"
+      ],
+      "description": "Lucius's son becomes Slytherin's Seeker, insults Hermione and duels Harry; he is not the attacker Harry suspects.",
+      "searchTerms": [
+        "rival",
+        "vetélytárs",
+        "seeker",
+        "fogó",
+        "Slytherin",
+        "Mardekár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "fred-weasley",
+      "glossaryId": null,
+      "labelEn": "Fred Weasley",
+      "labelHu": "Fred Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Fred"
+      ],
+      "description": "Ron's twin brother helps rescue Harry and plays Beater; his jokes later expose Ginny and Percy's secrets.",
+      "searchTerms": [
+        "twin",
+        "iker",
+        "beater",
+        "terelő",
+        "prank",
+        "csíny"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Fred Weasley",
+          "huLocator": "Fred Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Fred",
+          "huLocator": "Fred Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Fred Weasley",
+          "huLocator": "Fred Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "george-weasley",
+      "glossaryId": null,
+      "labelEn": "George Weasley",
+      "labelHu": "George Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "George"
+      ],
+      "description": "Ron's other twin brother helps with the rescue and fights off the rogue Bludger with Fred.",
+      "searchTerms": [
+        "twin",
+        "iker",
+        "beater",
+        "terelő",
+        "prank",
+        "csíny"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "George",
+          "huLocator": "George",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "George Weasley",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "percy-weasley",
+      "glossaryId": "percy-weasley",
+      "labelEn": "Percy Weasley",
+      "labelHu": "Percy Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Percy"
+      ],
+      "description": "The Gryffindor prefect is absorbed in his duties and secretly seeing Penelope Clearwater.",
+      "searchTerms": [
+        "prefect",
+        "prefektus",
+        "Penelope",
+        "girlfriend",
+        "barátnő"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "ginny-weasley",
+      "glossaryId": null,
+      "labelEn": "Ginny",
+      "labelHu": "Ginny",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Ron's younger sister starts Hogwarts and unknowingly feeds the diary-memory that possesses her.",
+      "searchTerms": [
+        "sister",
+        "húg",
+        "diary",
+        "napló",
+        "possession",
+        "megszállás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "mrs-weasley",
+      "glossaryId": null,
+      "labelEn": "Molly Weasley",
+      "labelHu": "Molly Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Molly Weasley scolds the rescue flight, sends Ron a Howler and worries about her children.",
+      "searchTerms": [
+        "mother",
+        "anya",
+        "Howler",
+        "rivalló",
+        "family",
+        "család"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Molly",
+          "huLocator": "Molly",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "bill-weasley",
+      "glossaryId": null,
+      "labelEn": "Bill",
+      "labelHu": "Bill",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The older Weasley brother is mentioned when Molly compares the twins' behaviour with her other sons.",
+      "searchTerms": [
+        "brother",
+        "báty",
+        "family",
+        "család"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Bill or Charlie",
+          "huLocator": "Bill, Charlie",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "charlie-weasley",
+      "glossaryId": "charlie-weasley",
+      "labelEn": "Charlie Weasley",
+      "labelHu": "Charlie Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Charlie"
+      ],
+      "description": "The older Weasley brother is mentioned in family comparisons; no visit to Hogwarts is inferred.",
+      "searchTerms": [
+        "brother",
+        "báty",
+        "family",
+        "család"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Charlie or Percy",
+          "huLocator": "Charlie vagy Percy",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Charlie",
+          "huLocator": "Charlie",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Charlie",
+          "huLocator": "Charlie",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Charlie",
+          "huLocator": "Charlie",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "lee-jordan",
+      "glossaryId": null,
+      "labelEn": "Lee Jordan",
+      "labelHu": "Lee Jordan",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The twins' friend shops for fireworks and comments on Quidditch.",
+      "searchTerms": [
+        "commentator",
+        "kommentátor",
+        "fireworks",
+        "tűzijáték"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordannal",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordan",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "neville",
+      "glossaryId": "neville",
+      "labelEn": "Neville Longbottom",
+      "labelHu": "Neville Longbottom",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Neville"
+      ],
+      "description": "The Gryffindor pupil has poor luck in practical magic and buys a protective amulet during the attacks.",
+      "searchTerms": [
+        "student",
+        "diák",
+        "forgetful",
+        "feledékeny",
+        "amulet",
+        "amulett"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Neville",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Neville",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "dean-thomas",
+      "glossaryId": null,
+      "labelEn": "Dean Thomas",
+      "labelHu": "Dean Thomas",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Harry's Gryffindor classmate is present for school discussions and duelling.",
+      "searchTerms": [
+        "classmate",
+        "osztálytárs",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "seamus-finnigan",
+      "glossaryId": "seamus-finnigan",
+      "labelEn": "Seamus Finnigan",
+      "labelHu": "Seamus Finnigan",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Harry's Gryffindor classmate suffers an unspecified mishap from Ron's wand at the duelling club.",
+      "searchTerms": [
+        "classmate",
+        "osztálytárs",
+        "Gryffindor",
+        "Griffendél",
+        "duel",
+        "párbaj"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "oliver-wood",
+      "glossaryId": "oliver-wood",
+      "labelEn": "Oliver Wood",
+      "labelHu": "Oliver Wood",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Wood"
+      ],
+      "description": "Gryffindor's captain insists on intensive practice and prioritises the Slytherin match.",
+      "searchTerms": [
+        "captain",
+        "kapitány",
+        "keeper",
+        "őrző",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS8",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Wood",
+          "huLocator": "Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Wood",
+          "huLocator": "Wood",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "angelina-johnson",
+      "glossaryId": null,
+      "labelEn": "Angelina Johnson",
+      "labelHu": "Angelina Johnson",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Gryffindor Chaser at Wood's early practice.",
+      "searchTerms": [
+        "chaser",
+        "hajtó",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Angelina Johnson",
+          "huLocator": "Angelina Johnson",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Angelina Johnson",
+          "huLocator": "Angelina Johnson",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "alicia-spinnet",
+      "glossaryId": null,
+      "labelEn": "Alicia Spinnet",
+      "labelHu": "Alicia Spinnet",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Gryffindor Chaser who challenges the Slytherin team's claim to the pitch.",
+      "searchTerms": [
+        "chaser",
+        "hajtó",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Alicia Spinnet",
+          "huLocator": "Alicia Spinnet",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Alicia Spinnet",
+          "huLocator": "Alicia Spinnet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Alicia Spinnet",
+          "huLocator": "Alicia Spinnet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "katie-bell",
+      "glossaryId": null,
+      "labelEn": "Katie Bell",
+      "labelHu": "Katie Bell",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Gryffindor Chaser named at the early-morning team practice.",
+      "searchTerms": [
+        "chaser",
+        "hajtó",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Katie Bell",
+          "huLocator": "Katie Bell",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Katie Bell",
+          "huLocator": "Katie Bell",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "marcus-flint",
+      "glossaryId": null,
+      "labelEn": "Marcus Flint",
+      "labelHu": "Marcus Flint",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Slytherin captain presents permission to train the team's new Seeker.",
+      "searchTerms": [
+        "captain",
+        "kapitány",
+        "Slytherin",
+        "Mardekár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Marcus Flint",
+          "huLocator": "Marcus Flint",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Marcus Flint",
+          "huLocator": "Marcus Flint",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Marcus Flint",
+          "huLocator": "Marcus Flint",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "adrian-pucey",
+      "glossaryId": null,
+      "labelEn": "Adrian Pucey",
+      "labelHu": "Adrian Pucey",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Slytherin player is struck during the match against Gryffindor.",
+      "searchTerms": [
+        "Quidditch",
+        "kviddics",
+        "Slytherin",
+        "Mardekár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS10",
+          "kind": "event",
+          "enLocator": "Adrian Pucey",
+          "huLocator": "Adrian Pucey",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS10",
+          "enLocator": "Adrian Pucey",
+          "huLocator": "Adrian Pucey",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "crabbe",
+      "glossaryId": "crabbe",
+      "labelEn": "Crabbe",
+      "labelHu": "Crak",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Malfoy's companion is drugged with a sleeping cake so Harry can impersonate him.",
+      "searchTerms": [
+        "companion",
+        "társ",
+        "Polyjuice",
+        "százfűlé"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS12",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS12",
+          "kind": "event",
+          "enLocator": "Crabbe",
+          "huLocator": "Crak",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS6",
+          "enLocator": "Crabbe",
+          "huLocator": "Crak",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Crabbe",
+          "huLocator": "Crak",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Crabbe",
+          "huLocator": "Crak",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "goyle",
+      "glossaryId": "goyle",
+      "labelEn": "Goyle",
+      "labelHu": "Monstro",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Malfoy's other companion is drugged so Ron can use his appearance.",
+      "searchTerms": [
+        "companion",
+        "társ",
+        "Polyjuice",
+        "százfűlé"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS12",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS12",
+          "kind": "event",
+          "enLocator": "Goyle",
+          "huLocator": "Monstro",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS6",
+          "enLocator": "Goyle",
+          "huLocator": "Monstro",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Goyle",
+          "huLocator": "Monstro",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Goyle",
+          "huLocator": "Monstro",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "millicent-bulstrode",
+      "glossaryId": null,
+      "labelEn": "Millicent Bulstrode",
+      "labelHu": "Millicent Bulstrode",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Hermione's duelling opponent has a cat whose hair is mistaken for her own in the potion.",
+      "searchTerms": [
+        "duel",
+        "párbaj",
+        "cat",
+        "macska",
+        "hair",
+        "haj"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "Millicent Bulstrode",
+          "huLocator": "Millicent Bulstrode",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS11",
+          "enLocator": "Millicent Bulstrode",
+          "huLocator": "Millicent Bulstrode",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "justin-finch-fletchley",
+      "glossaryId": null,
+      "labelEn": "Justin Finch-Fletchley",
+      "labelHu": "Justin Finch-Fletchley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Muggle-born Hufflepuff fears Harry after the snake incident and is later petrified.",
+      "searchTerms": [
+        "Hufflepuff",
+        "Hugrabug",
+        "Muggle-born",
+        "mugliszületésű",
+        "victim",
+        "áldozat"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Justin Finch-Fletchley",
+          "huLocator": "Justin Finch-Fletchley",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS6",
+          "enLocator": "Justin Finch-Fletchley",
+          "huLocator": "Justin Finch-Fletchley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Justin Finch-Fletchley",
+          "huLocator": "Justin Finch-Fletchley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Justin Finch-Fletchley",
+          "huLocator": "Justin Finch-Fletchley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "hannah-abbott",
+      "glossaryId": null,
+      "labelEn": "Hannah",
+      "labelHu": "Hannah",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Hufflepuff pupil listens to Ernie's suspicions about Harry.",
+      "searchTerms": [
+        "Hufflepuff",
+        "Hugrabug",
+        "student",
+        "diák"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "Hannah",
+          "huLocator": "Hannah",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS11",
+          "enLocator": "Hannah",
+          "huLocator": "Hannah",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Hannah",
+          "huLocator": "Hannah",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "terry-boot",
+      "glossaryId": null,
+      "labelEn": "Boot",
+      "labelHu": "Boot",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A pupil addressed by surname while Lockhart tends duelling injuries; no first name is supplied in this scene.",
+      "searchTerms": [
+        "duel",
+        "párbaj",
+        "pupil",
+        "diák"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "Boot",
+          "huLocator": "Boot",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS11",
+          "enLocator": "Boot",
+          "huLocator": "Boot",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "lavender",
+      "glossaryId": "lavender",
+      "labelEn": "Lavender Brown",
+      "labelHu": "Lavender Brown",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Lavender"
+      ],
+      "description": "Harry's Gryffindor classmate is mentioned during the History of Magic lesson.",
+      "searchTerms": [
+        "Gryffindor",
+        "Griffendél",
+        "history",
+        "történelem"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Lavender Brown",
+          "huLocator": "Lavender Brown",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Lavender Brown",
+          "huLocator": "Lavender Brown",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "parvati-patil",
+      "glossaryId": "parvati-patil",
+      "labelEn": "Parvati Patil",
+      "labelHu": "Parvati Patil",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Gryffindor pupil asks about the Chamber during Binns's lesson.",
+      "searchTerms": [
+        "Gryffindor",
+        "Griffendél",
+        "history",
+        "történelem"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Parvati Patil",
+          "huLocator": "Parvati Patil",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Parvati Patil",
+          "huLocator": "Parvati Patil",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "neville-gran",
+      "glossaryId": null,
+      "labelEn": "Neville's grandmother",
+      "labelHu": "Neville nagyanyja",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Neville recalls previously receiving a Howler from his grandmother; her personal name is not supplied here.",
+      "searchTerms": [
+        "grandmother",
+        "nagymama",
+        "Howler",
+        "rivalló"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "My Gran",
+          "huLocator": "nagyitól",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "godric-gryffindor",
+      "glossaryId": null,
+      "labelEn": "Godric Gryffindor",
+      "labelHu": "Griffendél Godrik",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "One of the four school founders; the sword Harry draws from the Hat bears his name.",
+      "searchTerms": [
+        "founder",
+        "alapító",
+        "sword",
+        "kard",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Godric Gryffindor",
+          "huLocator": "Griffendél Godrik",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Godric Gryffindor",
+          "huLocator": "Griffendél Godrik",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Godric Gryffindor",
+          "huLocator": "Griffendél Godrik",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "helga-hufflepuff",
+      "glossaryId": null,
+      "labelEn": "Helga Hufflepuff",
+      "labelHu": "Hugrabug Helga",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "One of the four founders named in Binns's account.",
+      "searchTerms": [
+        "founder",
+        "alapító",
+        "Hufflepuff",
+        "Hugrabug"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Helga Hufflepuff",
+          "huLocator": "Hugrabug Helga",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Helga Hufflepuff",
+          "huLocator": "Hugrabug Helga",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "rowena-ravenclaw",
+      "glossaryId": null,
+      "labelEn": "Rowena Ravenclaw",
+      "labelHu": "Hollóháti Hedvig",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "One of the four founders named in Binns's account.",
+      "searchTerms": [
+        "founder",
+        "alapító",
+        "Ravenclaw",
+        "Hollóhát"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Rowena Ravenclaw",
+          "huLocator": "Hollóháti Hedvig",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Rowena Ravenclaw",
+          "huLocator": "Hollóháti Hedvig",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "salazar-slytherin",
+      "glossaryId": null,
+      "labelEn": "Salazar Slytherin",
+      "labelHu": "Mardekár Malazár",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The founder who opposed teaching Muggle-borns and left the Chamber's monster.",
+      "searchTerms": [
+        "founder",
+        "alapító",
+        "Chamber",
+        "kamra",
+        "monster",
+        "szörny"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Salazar Slytherin",
+          "huLocator": "Mardekár Malazár",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Salazar Slytherin",
+          "huLocator": "Mardekár Malazár",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Salazar Slytherin",
+          "huLocator": "Mardekár Malazár",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Salazar Slytherin",
+          "huLocator": "Mardekár Malazár",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "miranda-goshawk",
+      "glossaryId": null,
+      "labelEn": "Miranda Goshawk",
+      "labelHu": "Miranda Dabrak",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Author of the required second-grade spell textbook.",
+      "searchTerms": [
+        "author",
+        "szerző",
+        "textbook",
+        "tankönyv"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Miranda Goshawk",
+          "huLocator": "Dabrak, Miranda",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "nearly-headless-nick",
+      "glossaryId": "nearly-headless-nick",
+      "labelEn": "Nearly Headless Nick",
+      "labelHu": "Félig Fej Nélküli Nick",
+      "labelKind": "canonical-term",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "Gryffindor's ghost hosts his deathday party and is later petrified by the monster.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "deathday",
+        "kimúlásnap",
+        "victim",
+        "áldozat"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS8",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "fat-friar",
+      "glossaryId": "fat-friar",
+      "labelEn": "Fat Friar",
+      "labelHu": "Pufók Fráter",
+      "labelKind": "canonical-term",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "The Hufflepuff ghost is present at Nick's party.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "Hufflepuff",
+        "Hugrabug"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Fat Friar",
+          "huLocator": "Pufók Fráter",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "bloody-baron",
+      "glossaryId": "bloody-baron",
+      "labelEn": "Bloody Baron",
+      "labelHu": "Véres Báró",
+      "labelKind": "canonical-term",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "The Slytherin ghost is present at the deathday gathering.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "Slytherin",
+        "Mardekár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Bloody Baron",
+          "huLocator": "Véres Báró",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "peeves",
+      "glossaryId": "peeves",
+      "labelEn": "Peeves",
+      "labelHu": "Hóborc",
+      "labelKind": "canonical-term",
+      "entityKind": "magical-being",
+      "aliases": [],
+      "description": "The poltergeist drops a cabinet as a distraction and later sings about Harry's supposed attacks.",
+      "searchTerms": [
+        "poltergeist",
+        "kopogószellem",
+        "mischief",
+        "rendbontás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS8",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "fat-lady",
+      "glossaryId": "fat-lady",
+      "labelEn": "Fat Lady",
+      "labelHu": "Kövér Dáma",
+      "labelKind": "canonical-term",
+      "entityKind": "portrait",
+      "aliases": [],
+      "description": "The portrait guards the entrance to Gryffindor's tower.",
+      "searchTerms": [
+        "portrait",
+        "festmény",
+        "entrance",
+        "bejárat",
+        "password",
+        "jelszó"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "fat lady",
+          "huLocator": "kövér, rózsaszín ruhás hölgy",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "hedwig",
+      "glossaryId": null,
+      "labelEn": "Hedwig",
+      "labelHu": "Hedvig",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Harry's owl is confined at the Dursleys' and later delivers letters.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "mail",
+        "posta"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "scabbers",
+      "glossaryId": "scabbers",
+      "labelEn": "Scabbers",
+      "labelHu": "Makesz",
+      "labelKind": "canonical-term",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Ron's grey rat sleeps in his room at the Burrow; its later human identity is outside this book's record.",
+      "searchTerms": [
+        "rat",
+        "patkány",
+        "pet",
+        "kedvenc"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "mrs-norris",
+      "glossaryId": "mrs-norris",
+      "labelEn": "Mrs Norris",
+      "labelHu": "Mrs Norris",
+      "labelKind": "canonical-term",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Filch's cat is petrified after seeing the monster indirectly.",
+      "searchTerms": [
+        "cat",
+        "macska",
+        "Filch",
+        "Frics",
+        "victim",
+        "áldozat"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs Norris",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS8",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs Norris",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs Norris",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs Norris",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs Norris",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs Norris",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "fang",
+      "glossaryId": "fang",
+      "labelEn": "Fang",
+      "labelHu": "Agyar",
+      "labelKind": "canonical-term",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Hagrid's dog accompanies Harry and Ron into the Forest and escapes in the car.",
+      "searchTerms": [
+        "dog",
+        "kutya",
+        "forest",
+        "rengeteg"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS15",
+          "kind": "event",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two summary. Paired term mentions do not establish appearance or knowledge at that chapter."
+    },
+    {
+      "id": "arthur-weasley",
+      "glossaryId": null,
+      "labelEn": "Arthur Weasley",
+      "labelHu": "Arthur Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Ron's father works on misuse of Muggle artefacts and has enchanted the family car.",
+      "searchTerms": [
+        "father",
+        "apa",
+        "Muggle",
+        "artefacts",
+        "mugli",
+        "tárgyak",
+        "Ministry",
+        "minisztérium",
+        "car",
+        "autó"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Mr Weasley",
+          "huLocator": "Mr Weasley",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Arthur Weasley",
+          "huLocator": "Arthur Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Arthur Weasley",
+          "huLocator": "Arthur Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Arthur Weasley",
+          "huLocator": "Arthur Weasley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "lucius-malfoy",
+      "glossaryId": null,
+      "labelEn": "Lucius Malfoy",
+      "labelHu": "Lucius Malfoy",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Draco's father pressures the governors and slips the diary into Ginny's books; Dobby serves him until freed.",
+      "searchTerms": [
+        "father",
+        "apa",
+        "governor",
+        "kormányzó",
+        "diary",
+        "napló",
+        "Dobby"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Mr Malfoy",
+          "huLocator": "Mr Malfoy",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "dobby",
+      "glossaryId": null,
+      "labelEn": "Dobby",
+      "labelHu": "Dobby",
+      "labelKind": "editorial-label",
+      "entityKind": "magical-being",
+      "aliases": [
+        "house-elf Dobby",
+        "Dobby házimanó"
+      ],
+      "description": "Lucius's house-elf intercepts Harry's letters, blocks the platform and tampers with the Bludger to protect Harry.",
+      "searchTerms": [
+        "house-elf",
+        "házimanó",
+        "freedom",
+        "szabadság",
+        "letters",
+        "levelek"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS2",
+          "kind": "event",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS2",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS3",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "gilderoy-lockhart",
+      "glossaryId": null,
+      "labelEn": "Gilderoy Lockhart",
+      "labelHu": "Gilderoy Lockhart",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Lockhart"
+      ],
+      "description": "The new Defence teacher takes credit for others' deeds and erases their memories; the wand he takes from Ron later backfires.",
+      "searchTerms": [
+        "defence",
+        "teacher",
+        "sötét",
+        "varázslatok",
+        "tanár",
+        "author",
+        "szerző",
+        "memory",
+        "emlékezet",
+        "fraud",
+        "csaló"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS5",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Gilderoy Lockhart",
+          "huLocator": "Gilderoy Lockhart",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "voldemort",
+      "glossaryId": null,
+      "labelEn": "Tom Riddle / Voldemort",
+      "labelHu": "Tom Denem / Voldemort",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Voldemort",
+        "Tom Riddle",
+        "Tom Marvolo Riddle",
+        "Tom Denem",
+        "Tom Rowle Denem",
+        "T. M. Riddle",
+        "T. R. Denem",
+        "the Heir of Slytherin",
+        "Mardekár utódja"
+      ],
+      "description": "The diary's teenage memory reveals he is Voldemort; he uses Ginny to reopen the Chamber and regain strength.",
+      "searchTerms": [
+        "memory",
+        "emlék",
+        "heir",
+        "utód",
+        "diary",
+        "napló",
+        "dark",
+        "lord",
+        "sötét",
+        "nagyúr"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS17",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS17",
+          "kind": "event",
+          "enLocator": "Tom Riddle",
+          "huLocator": "Tom Denem",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Tom Riddle",
+          "huLocator": "Tom Denem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Tom Riddle",
+          "huLocator": "Tom Denem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mr-mason",
+      "glossaryId": null,
+      "labelEn": "Mr Mason",
+      "labelHu": "Mr Mallter",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Vernon's wealthy prospective client attends the dinner disrupted by Dobby.",
+      "searchTerms": [
+        "client",
+        "ügyfél",
+        "dinner",
+        "vacsora"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Mr Mason",
+          "huLocator": "Mr Mallter",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Mr Mason",
+          "huLocator": "Mr Mallter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Mr Mason",
+          "huLocator": "Mr Mallter",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mrs-mason",
+      "glossaryId": null,
+      "labelEn": "Mrs Mason",
+      "labelHu": "Mrs Mallter",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The business guest's wife fears birds and flees when the Ministry owl arrives.",
+      "searchTerms": [
+        "guest",
+        "vendég",
+        "birds",
+        "madarak",
+        "dinner",
+        "vacsora"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS1",
+          "kind": "event",
+          "enLocator": "Mrs Mason",
+          "huLocator": "Mrs Mallter",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS1",
+          "enLocator": "Mrs Mason",
+          "huLocator": "Mrs Mallter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS2",
+          "enLocator": "Mrs Mason",
+          "huLocator": "Mrs Mallter",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mafalda-hopkirk",
+      "glossaryId": null,
+      "labelEn": "Mafalda Hopkirk",
+      "labelHu": "Mafalda Hopkirk",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Signs the Ministry warning that wrongly attributes the house-elf's Hover Charm to Harry.",
+      "searchTerms": [
+        "Ministry",
+        "minisztérium",
+        "underage",
+        "kiskorú",
+        "warning",
+        "figyelmeztetés"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS2",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS2",
+          "kind": "event",
+          "enLocator": "Mafalda Hopkirk",
+          "huLocator": "Mafalda Hopkirk",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS2",
+          "enLocator": "Mafalda Hopkirk",
+          "huLocator": "Mafalda Hopkirk",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "perkins",
+      "glossaryId": null,
+      "labelEn": "Perkins",
+      "labelHu": "Perkins",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Arthur's elderly office colleague helps conceal enchanted cutlery incidents with Memory Charms.",
+      "searchTerms": [
+        "Ministry",
+        "minisztérium",
+        "memory",
+        "felejtés",
+        "colleague",
+        "munkatárs"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Perkins",
+          "huLocator": "Perkins",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Perkins",
+          "huLocator": "Perkins",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mundungus-fletcher",
+      "glossaryId": null,
+      "labelEn": "Mundungus Fletcher",
+      "labelHu": "Mundungus Fletcher",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Arthur reports that Fletcher tried to hex him during a raid; the hex is not identified.",
+      "searchTerms": [
+        "raid",
+        "razzia",
+        "hex",
+        "rontás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Mundungus Fletcher",
+          "huLocator": "Mundungus Fletcher",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Mundungus Fletcher",
+          "huLocator": "Mundungus Fletcher",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mortlake",
+      "glossaryId": null,
+      "labelEn": "Mortlake",
+      "labelHu": "Mortlake",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Arthur reports questioning about odd ferrets; no later identity or spell is inferred.",
+      "searchTerms": [
+        "ferrets",
+        "vadászgörény",
+        "investigation",
+        "kihallgatás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Mortlake",
+          "huLocator": "Mortlake",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Mortlake",
+          "huLocator": "Mortlake",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "celestina-warbeck",
+      "glossaryId": null,
+      "labelEn": "Celestina Warbeck",
+      "labelHu": "Celestina Maggica",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The singer advertised on the Weasleys' radio programme.",
+      "searchTerms": [
+        "singer",
+        "énekes",
+        "radio",
+        "rádió",
+        "music",
+        "zene"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Celestina Warbeck",
+          "huLocator": "Celestina Maggica",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Celestina Warbeck",
+          "huLocator": "Celestina Maggica",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "borgin",
+      "glossaryId": null,
+      "labelEn": "Mr Borgin",
+      "labelHu": "Mr Borgin",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Knockturn Alley shopkeeper negotiates with Lucius and describes the Hand of Glory.",
+      "searchTerms": [
+        "shopkeeper",
+        "kereskedő",
+        "dark",
+        "objects",
+        "sötét",
+        "tárgyak"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Mr Borgin",
+          "huLocator": "Mr Borgin",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Mr Borgin",
+          "huLocator": "Mr Borgin",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mr-granger",
+      "glossaryId": null,
+      "labelEn": "Mr Granger",
+      "labelHu": "Mr Granger",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Hermione's Muggle dentist father visits Diagon Alley and exchanges money.",
+      "searchTerms": [
+        "dentist",
+        "fogorvos",
+        "father",
+        "apa",
+        "Muggle",
+        "mugli"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Mr Granger",
+          "huLocator": "Mr Granger",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Mr Granger",
+          "huLocator": "Mr Granger",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mrs-granger",
+      "glossaryId": null,
+      "labelEn": "Mrs Granger",
+      "labelHu": "Mrs Granger",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Hermione's Muggle dentist mother accompanies the shopping visit.",
+      "searchTerms": [
+        "dentist",
+        "fogorvos",
+        "mother",
+        "anya",
+        "Muggle",
+        "mugli"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Mrs Granger",
+          "huLocator": "Granger házaspárt",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "dr-filibuster",
+      "glossaryId": null,
+      "labelEn": "Dr Filibuster",
+      "labelHu": "Filibuster",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The name on the twins' wet-start, no-heat fireworks; no personal biography is inferred.",
+      "searchTerms": [
+        "manufacturer",
+        "gyártó",
+        "fireworks",
+        "tűzijáték"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS4",
+          "kind": "event",
+          "enLocator": "Dr Filibuster",
+          "huLocator": "Filibuster",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS4",
+          "enLocator": "Dr Filibuster",
+          "huLocator": "Filibuster",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "hetty-bayliss",
+      "glossaryId": null,
+      "labelEn": "Hetty Bayliss",
+      "labelHu": "Hetty Bayliss",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Norfolk witness quoted in the newspaper report about the flying car.",
+      "searchTerms": [
+        "witness",
+        "szemtanú",
+        "car",
+        "autó",
+        "newspaper",
+        "újság"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Hetty Bayliss",
+          "huLocator": "Hetty Bayliss",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Hetty Bayliss",
+          "huLocator": "Hetty Bayliss",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "angus-fleet",
+      "glossaryId": null,
+      "labelEn": "Angus Fleet",
+      "labelHu": "Angus Fleet",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Peebles witness reports the airborne Ford in the newspaper.",
+      "searchTerms": [
+        "witness",
+        "szemtanú",
+        "car",
+        "autó",
+        "newspaper",
+        "újság"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS5",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS5",
+          "kind": "event",
+          "enLocator": "Angus Fleet",
+          "huLocator": "Angus Fleet",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS5",
+          "enLocator": "Angus Fleet",
+          "huLocator": "Angus Fleet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "colin-creevey",
+      "glossaryId": null,
+      "labelEn": "Colin Creevey",
+      "labelHu": "Colin Creevey",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Muggle-born Gryffindor admirer of Harry who takes photographs and is petrified through his camera.",
+      "searchTerms": [
+        "photographer",
+        "fényképész",
+        "camera",
+        "fényképezőgép",
+        "fan",
+        "rajongó",
+        "victim",
+        "áldozat"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS6",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS7",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mr-creevey",
+      "glossaryId": null,
+      "labelEn": "Colin's father",
+      "labelHu": "Colin apja",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Colin describes his Muggle father as a milkman; no given name is supplied.",
+      "searchTerms": [
+        "father",
+        "apa",
+        "milkman",
+        "tejesember",
+        "Muggle",
+        "mugli"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS6",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS6",
+          "kind": "event",
+          "enLocator": "milkman",
+          "huLocator": "tejesember",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "gladys-gudgeon",
+      "glossaryId": null,
+      "labelEn": "Gladys Gudgeon",
+      "labelHu": "Gladys Gudgeon",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A devoted correspondent to whom Lockhart dictates a reply during Harry's detention.",
+      "searchTerms": [
+        "fan",
+        "rajongó",
+        "letter",
+        "levél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Gladys Gudgeon",
+          "huLocator": "Gladys Gudgeon",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "veronica-smethley",
+      "glossaryId": null,
+      "labelEn": "Veronica Smethley",
+      "labelHu": "Veronica Smethley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Lockhart describes another admiring correspondent to Harry.",
+      "searchTerms": [
+        "fan",
+        "rajongó",
+        "letter",
+        "levél"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS7",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS7",
+          "kind": "event",
+          "enLocator": "Veronica Smethley",
+          "huLocator": "Veronica Smethley",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS7",
+          "enLocator": "Veronica Smethley",
+          "huLocator": "Veronica Smethley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "sir-patrick-delaney-podmore",
+      "glossaryId": null,
+      "labelEn": "Sir Patrick Delaney-Podmore",
+      "labelHu": "Sir Patrick Delaney Podmore",
+      "labelKind": "editorial-label",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "Leader of the Headless Hunt who rejects Nick's membership and interrupts the deathday party.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "headless",
+        "fejvesztett",
+        "hunt",
+        "futam"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Sir Patrick Delaney-Podmore",
+          "huLocator": "Sir Patrick Delaney Podmore",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS8",
+          "enLocator": "Sir Patrick Delaney-Podmore",
+          "huLocator": "Sir Patrick Delaney Podmore",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "moaning-myrtle",
+      "glossaryId": null,
+      "labelEn": "Moaning Myrtle",
+      "labelHu": "Hisztis Myrtle",
+      "labelKind": "editorial-label",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "The ghost haunting the girls' bathroom describes her death and the eyes seen near the Chamber entrance.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "bathroom",
+        "mosdó",
+        "death",
+        "halál",
+        "witness",
+        "szemtanú"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS8",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS9",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS10",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS11",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS12",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS15",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS16",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Moaning Myrtle",
+          "huLocator": "Hisztis Myrtle",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "wailing-widow",
+      "glossaryId": null,
+      "labelEn": "Wailing Widow",
+      "labelHu": "Őrült Özvegy",
+      "labelKind": "editorial-label",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "A ghost visitor from Kent named by Nick at his party.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "deathday",
+        "kimúlásnap"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS8",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS8",
+          "kind": "event",
+          "enLocator": "Wailing Widow",
+          "huLocator": "Őrült Özvegy",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS8",
+          "enLocator": "Wailing Widow",
+          "huLocator": "Őrült Özvegy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mrs-skower",
+      "glossaryId": null,
+      "labelEn": "Mrs Skower",
+      "labelHu": "Mrs Skower",
+      "labelKind": "editorial-label",
+      "entityKind": "unknown",
+      "aliases": [],
+      "description": "The name on Filch's magical cleaning product; neither a biography nor a witnessed person is established.",
+      "searchTerms": [
+        "cleaner",
+        "tisztító",
+        "manufacturer",
+        "gyártó"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS9",
+          "kind": "event",
+          "enLocator": "Mrs Skower",
+          "huLocator": "Mrs Skower",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS9",
+          "enLocator": "Mrs Skower",
+          "huLocator": "Mrs Skower",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "ernie-macmillan",
+      "glossaryId": null,
+      "labelEn": "Ernie Macmillan",
+      "labelHu": "Ernie Macmillan",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Hufflepuff who suspects Harry after the snake incident and later apologises.",
+      "searchTerms": [
+        "Hufflepuff",
+        "Hugrabug",
+        "suspicion",
+        "gyanú",
+        "apology",
+        "bocsánat"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "Ernie",
+          "huLocator": "Ernie",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS13",
+          "enLocator": "Ernie Macmillan",
+          "huLocator": "Ernie Macmillan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS14",
+          "enLocator": "Ernie Macmillan",
+          "huLocator": "Ernie Macmillan",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "miss-fawcett",
+      "glossaryId": null,
+      "labelEn": "Miss Fawcett",
+      "labelHu": "Fawcett kisasszony",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A pupil injured at the duelling club; no later first name or house is imported.",
+      "searchTerms": [
+        "duel",
+        "párbaj",
+        "pupil",
+        "diák"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "Miss Fawcett",
+          "huLocator": "Fawcett kisasszony",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS11",
+          "enLocator": "Miss Fawcett",
+          "huLocator": "Fawcett kisasszony",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "professor-sinistra",
+      "glossaryId": null,
+      "labelEn": "Professor Sinistra",
+      "labelHu": "Sinistra professzor",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Astronomy professor helps carry Justin to the hospital wing.",
+      "searchTerms": [
+        "astronomy",
+        "teacher",
+        "csillagászat",
+        "tanár"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS11",
+          "kind": "event",
+          "enLocator": "Professor Sinistra",
+          "huLocator": "Sinistra professzor",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS11",
+          "enLocator": "Professor Sinistra",
+          "huLocator": "Sinistra professzor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "armando-dippet",
+      "glossaryId": null,
+      "labelEn": "Armando Dippet",
+      "labelHu": "Armando Dippet",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The headmaster named in Riddle's account of the earlier attacks; Harry sees him in the diary memory.",
+      "searchTerms": [
+        "former",
+        "headmaster",
+        "korábbi",
+        "igazgató",
+        "memory",
+        "emlék"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS17",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS17",
+          "kind": "event",
+          "enLocator": "Armando Dippet",
+          "huLocator": "Armando Dippet",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS17",
+          "enLocator": "Armando Dippet",
+          "huLocator": "Armando Dippet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "penelope-clearwater",
+      "glossaryId": null,
+      "labelEn": "Penelope Clearwater",
+      "labelHu": "Penelope Clearwater",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Ravenclaw prefect petrified with Hermione is later revealed as Percy's girlfriend.",
+      "searchTerms": [
+        "Ravenclaw",
+        "Hollóhát",
+        "prefect",
+        "prefektus",
+        "mirror",
+        "tükör",
+        "victim",
+        "áldozat"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS14",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS14",
+          "kind": "event",
+          "enLocator": "Penelope Clearwater",
+          "huLocator": "Penelope Clearwater",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS14",
+          "enLocator": "Penelope Clearwater",
+          "huLocator": "Penelope Clearwater",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Penelope Clearwater",
+          "huLocator": "Penelope Clearwater",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "cornelius-fudge",
+      "glossaryId": null,
+      "labelEn": "Cornelius Fudge",
+      "labelHu": "Cornelius Caramel",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Fudge",
+        "Caramel"
+      ],
+      "description": "The Minister for Magic takes Hagrid to Azkaban during the attacks despite admitting uncertainty.",
+      "searchTerms": [
+        "minister",
+        "miniszter",
+        "Azkaban",
+        "arrest",
+        "letartóztatás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS14",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS14",
+          "kind": "event",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS14",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "aragog",
+      "glossaryId": null,
+      "labelEn": "Aragog",
+      "labelHu": "Aragog",
+      "labelKind": "editorial-label",
+      "entityKind": "magical-being",
+      "aliases": [],
+      "description": "Hagrid's old spider denies being the Chamber monster and lets his descendants attack the visitors.",
+      "searchTerms": [
+        "spider",
+        "pók",
+        "forest",
+        "rengeteg",
+        "testimony",
+        "vallomás"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS15",
+          "kind": "event",
+          "enLocator": "Aragog",
+          "huLocator": "Aragog",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS15",
+          "enLocator": "Aragog",
+          "huLocator": "Aragog",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "mosag",
+      "glossaryId": null,
+      "labelEn": "Mosag",
+      "labelHu": "Mosag",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Aragog names the mate Hagrid found for him; she is not given a separate speaking scene.",
+      "searchTerms": [
+        "spider",
+        "pók",
+        "wife",
+        "feleség",
+        "family",
+        "család"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS15",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS15",
+          "kind": "event",
+          "enLocator": "Mosag",
+          "huLocator": "Mosag",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS15",
+          "enLocator": "Mosag",
+          "huLocator": "Mosag",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "olive-hornby",
+      "glossaryId": null,
+      "labelEn": "Olive Hornby",
+      "labelHu": "Olive Hornby",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Myrtle names the girl whose teasing made her hide in the bathroom before she died.",
+      "searchTerms": [
+        "bully",
+        "csúfolódás",
+        "Myrtle",
+        "glasses",
+        "szemüveg"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS16",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS16",
+          "kind": "event",
+          "enLocator": "Olive Hornby",
+          "huLocator": "Olive Hornby",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS16",
+          "enLocator": "Olive Hornby",
+          "huLocator": "Olive Hornby",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "fawkes",
+      "glossaryId": null,
+      "labelEn": "Fawkes",
+      "labelHu": "Fawkes",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Dumbledore's phoenix is reborn, brings the Hat, blinds the basilisk, heals Harry and carries the group out.",
+      "searchTerms": [
+        "phoenix",
+        "főnix",
+        "healing",
+        "gyógyítás",
+        "tears",
+        "könnyek",
+        "rescue",
+        "mentés"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS12",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS12",
+          "kind": "event",
+          "enLocator": "Fawkes",
+          "huLocator": "Fawkes",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS12",
+          "enLocator": "Fawkes",
+          "huLocator": "Fawkes",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS13",
+          "enLocator": "Fawkes",
+          "huLocator": "Fawkes",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS17",
+          "enLocator": "Fawkes",
+          "huLocator": "Fawkes",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS18",
+          "enLocator": "Fawkes",
+          "huLocator": "Fawkes",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "errol",
+      "glossaryId": null,
+      "labelEn": "Errol",
+      "labelHu": "Errol",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "The Weasleys' elderly delivery owl is unreliable and later collapses with Ron's Howler.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "mail",
+        "posta"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "CoS3",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS4",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "CoS6",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "hermes",
+      "glossaryId": null,
+      "labelEn": "Hermes",
+      "labelHu": "Hermes",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Percy's owl, bought when he became a prefect; Ron cannot borrow it for Harry's letters.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "Percy",
+        "mail",
+        "posta"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS3",
+          "kind": "event",
+          "enLocator": "Hermes",
+          "huLocator": "Hermész",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    },
+    {
+      "id": "slytherin-basilisk",
+      "glossaryId": null,
+      "labelEn": "Slytherin's basilisk",
+      "labelHu": "Mardekár baziliskusa",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "The giant snake in the Chamber kills through direct eye contact and petrifies through indirect sight.",
+      "searchTerms": [
+        "monster",
+        "szörny",
+        "snake",
+        "kígyó",
+        "eyes",
+        "szem",
+        "petrification",
+        "megkövülés"
+      ],
+      "presence": [
+        {
+          "anchor": "CoS17",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "CoS17",
+          "kind": "event",
+          "enLocator": "Basilisk",
+          "huLocator": "Baziliskus",
+          "scope": "Identity and the selected contextual claim; the description is a book-level summary, not a claim that every detail occurs at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-two identity and selected claims only; mentioned people and named animals are not promoted to witnessed appearances."
+    }
+  ]
+}

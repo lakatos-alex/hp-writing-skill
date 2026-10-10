@@ -14,20 +14,21 @@ The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no thir
 | `align` | Read an English/Hungarian chapter pair with independent offsets | None |
 | `facts` | Filter bundled original evidence cards | None |
 | `glossary` | Find English/Hungarian terms, aliases and usage notes | None |
-| `semantic` | Rank PS people, places, objects and spells by aliases and bilingual concepts | None |
+| `semantic` | Rank PS/CoS people, places, objects and spells by aliases and bilingual concepts | None |
 | `characters`, `people` | Find characters; `people` excludes animals | None |
 | `spells`, `magic` | Find identified human-cast spells; `magic` is a compatibility alias | None |
-| `places`, `objects` | Find PS settings and notable objects, with explicit object magic status | None |
-| `coverage` | Report reviewed chapter coverage and limitations for PS | None |
+| `places`, `objects` | Find PS/CoS settings and notable objects, with explicit object magic status | None |
+| `coverage` | Report inventory and reading/review states for PS/CoS | None |
+| `stats` | Count per-book semantic records, casting rows and stored evidence pairs | None |
 | `lint-hu` | Flag English headwords that may be inconsistent with a Hungarian draft | None |
 | `audit` | Count manuscript words and find long duplicate paragraphs | None |
 | `check-state` | Check explicit knowledge routes and object transfers | None |
 
 The data-only commands `chapters`, `facts` and `glossary` work without books. The manuscript commands need only the selected input file. The advisory `lint-hu` scan never changes text and does not replace grammatical or editorial review.
 
-## Book-one concept retrieval
+## Concept retrieval
 
-The source-free PS inventory spans all 17 chapters. It contains 117 distinct characters (seven typed as animals), 53 places, 70 notable objects and six identified spells. This is a curated inventory of named and significant referents, not every noun. Targeted passage review and literal bilingual mentions are separate from independent full-book semantic reading, which remains incomplete. Query `coverage` for both states. Other book datasets are planned; unsupported book requests fail visibly.
+The source-free inventories represent PS1–PS17 and CoS1–CoS18. PS contains 117 characters (seven typed as animals), 53 places, 70 objects and six identified spells. CoS contains 97 characters (nine typed as animals), 47 places, 75 objects and eight spells. These are curated inventories of named and significant referents, not every noun. Targeted passage review and literal bilingual mentions are separate from independent full-book semantic reading, which remains incomplete. Query `coverage` for both states and `stats` for counts. Other typed book datasets are planned; unsupported book requests fail visibly.
 
 ```sh
 node scripts/hp.mjs characters --book PS --id harry-potter
@@ -39,15 +40,22 @@ node scripts/hp.mjs objects --book PS --magic-status ordinary --limit 10
 node scripts/hp.mjs glossary --book PS --query Harry
 node scripts/hp.mjs facts --book PS --page --limit 10 --offset 0
 node scripts/hp.mjs coverage --book PS
+node scripts/hp.mjs spells --book CoS --query "erase memory"
+node scripts/hp.mjs people --book CoS --query "Tom Denem"
+node scripts/hp.mjs objects --book CoS --query "diary memory possession"
+node scripts/hp.mjs coverage --book CoS
+node scripts/hp.mjs stats
 ```
 
-Entity results use `total`, `offset`, `nextOffset` and `entries`; choose either `--id` or `--query`. Each hit includes its category, ranking score, matched fields and chapter anchors. `--category person|animal|place|object|spell` filters unified retrieval; `--kind` filters entity kinds, and `--anchor PS1` selects evidence or literal mentions at that chapter. Characters include animals; people exclude them. `objects --magic-status demonstrated|ordinary|not-established` separates demonstrated properties from ordinary objects and uncertain enchantment. Object classification alone never establishes magic.
+Entity results use `total`, `offset`, `nextOffset` and `entries`; choose either `--id` or `--query`. Each hit includes its category, ranking score, matched fields and chapter anchors. `--category person|animal|place|object|spell` filters unified retrieval; `--kind` filters entity kinds, and `--anchor PS1` or `--anchor CoS11` selects evidence or literal mentions within the chosen book. Characters include animals; people exclude them. `objects --magic-status demonstrated|ordinary|not-established` separates demonstrated properties from ordinary objects and uncertain enchantment. Object classification alone never establishes magic.
 
 Ranking uses curated aliases, concept synonym groups and original descriptions, with exact names first and accent-insensitive English/Hungarian matching. It requires every meaningful query term; it does not embed the novels or call a model. Common request words are ignored; a single explicit category word, or `who`/`where`, can select a category. Unmapped wording can return no results. Use simpler concepts or literal source search when necessary. Scores are ranking weights, not confidence probabilities. Negative results are not canon-absence proof.
 
-Spells require identified deliberate human casting, with or without a wand. Known failed casts qualify. Accidental magic, creature abilities, potions, object behaviour, uncast theory and unidentified effects do not. `vocalisation` is `spoken`, `non-verbal` or `unreported`; missing words do not prove silence. Bluebell Flames has an unknown incantation. The Killing Curse's PS4 reports have separate GoF14 identification and incantation evidence. Later identification is explicit metadata, not knowledge available to a PS character. No PS occurrence currently has proven non-verbal casting.
+Spells require identified deliberate human casting, with or without a wand. Known failed casts qualify. Accidental magic, creature abilities, potions, object behaviour, uncast theory and unidentified effects do not. `vocalisation` is `spoken`, `non-verbal` or `unreported`; missing words do not prove silence. Bluebell Flames and the CoS Freezing Charm have unknown incantations. The Killing Curse's PS4 reports have separate GoF14 identification and incantation evidence. Later identification is explicit metadata, not knowledge available to a PS character. No PS/CoS occurrence currently has proven non-verbal casting. CoS Memory Charm class reports appear under `reportedClassUses`; they do not certify the formula `Obliviate` for those events. Its attested attempt uses Hungarian `Exmemoriam`; `Expelliarmus` uses `Capitulatus`.
 
-The chapter filter selects whole records; descriptions may contain later events within PS, and explicitly marked later spell identification. It is not a scene knowledge cutoff. Paged facts use the pagination fields and `facts`; legacy unpaged facts return an array, and `--limit`/`--offset` require `--page`. The evidence-card/glossary layer retains its own selective review coverage; the new inventory does not certify all older claims.
+The chapter filter selects whole records; descriptions may contain later events within the chosen book, and explicitly marked later spell identification. It is not a scene knowledge cutoff. Tom Riddle and Voldemort share one CoS identity, including that book's reveal. Paged facts use the pagination fields and `facts`; legacy unpaged facts return an array, and `--limit`/`--offset` require `--page`. The evidence-card/glossary layer retains its own selective review coverage; its `--book` projection remains PS-only. Unfiltered cards span selected claims across the series. The typed inventories do not certify all older claims.
+
+`stats [--book PS|CoS]` returns per-book counts. `people` plus `animals` gives the character count. `castingRecords` includes grouped practice and reports, not individual cast counts; `classReportRecords` counts qualified class-level reports. `contextEvidencePairs` and `literalMentionPairs` count stored bilingual references, which may reuse source passages. These are separate from reading coverage and seven-book chapter metadata.
 
 ## Import books
 

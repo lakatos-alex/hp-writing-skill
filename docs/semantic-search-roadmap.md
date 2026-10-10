@@ -32,6 +32,11 @@ enchantment: use `demonstrated`, `not-established` or `ordinary` magic status.
 
 ## Implementation order
 
+Phases 1 and 2 have completed scoped retrieval inventories; see the
+[PS review](ps-semantic-review.md) and [CoS review](cos-semantic-review.md).
+Their independent full-book reading/review gates remain incomplete. Phases
+3–8 remain planned. This status does not imply publication of a release.
+
 | Phase | Book / chapters | Main work | Completion gate |
 |---|---|---|---|
 | 1 | Philosopher's Stone / PS1–PS17 | Replace the PS1/PS10 magic pilot; curate all four categories; bilingual concepts and aliases; ranked unified retrieval; explicit exclusions and later identification | All 17 chapters represented in the scoped inventory; paired locators pass; taxonomy and retrieval regressions pass |

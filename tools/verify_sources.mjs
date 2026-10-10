@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {knowledgeBooks,knowledgeStats} from '../skills/harry-potter-fanfic/scripts/semantic.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { root, extractBook, loadCatalogue, unzip, plain, search, sourceDirectory } from '../skills/harry-potter-fanfic/scripts/hp.mjs';
@@ -34,10 +35,10 @@ try {
   check(count===199,'Incomplete narrative corpus');
   const facts=JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8'));
   for(const f of facts)check(search(books,{anchor:f.anchors[0],query:f.verification.locator,limit:1,context:0}).total>0,`Missing fact locator: ${f.id}`);
-  const psBookRecords=['characters','magic','places','objects'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data','books','ps',`${name}.json`),'utf8')).entries);
-  const psEvidencePresent=[...JSON.parse(fs.readFileSync(path.join(root,'data/hu-glossary.json'),'utf8')),...JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8')),...psBookRecords].some(record=>(record.evidence??[]).some(item=>item.anchor.startsWith('PS')) || (record.bookUsage?.PS?.evidence?.length) || (record.occurrences??[]).some(occurrence=>(occurrence.evidence??[]).length));
+  const semanticRecords=Object.keys(knowledgeBooks).flatMap(book => ['characters','magic','places','objects'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data','books',book.toLowerCase(),`${name}.json`),'utf8')).entries));
+  const pairedEvidencePresent=[...JSON.parse(fs.readFileSync(path.join(root,'data/hu-glossary.json'),'utf8')),...JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8')),...semanticRecords].some(record=>(record.evidence??[]).length || Object.values(record.bookUsage??{}).some(usage=>usage.evidence?.length) || (record.occurrences??[]).some(occurrence=>occurrence.evidence?.length));
   const huDir=path.join(dir,'hu'); let hu=[];
-  check(!psEvidencePresent || fs.existsSync(path.join(huDir,'catalogue.local.json')),'PS evidence requires a Hungarian source catalogue');
+  check(!pairedEvidencePresent || fs.existsSync(path.join(huDir,'catalogue.local.json')),'Typed book evidence requires a Hungarian source catalogue');
   if(fs.existsSync(path.join(huDir,'catalogue.local.json'))) {
     hu=loadCatalogue(huDir).books;
     check(hu.length===7&&hu.flatMap(b=>b.chapters).length===199,'Expected complete Hungarian seven-book corpus');
@@ -63,21 +64,25 @@ try {
       check(search(hu,{anchor:e.anchors[0],query:e.verification.huLocator,limit:1,context:0}).total>0,`Missing Hungarian term: ${e.id}`);
     }
     const facts=JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8'));
-    const bookRecords=psBookRecords;
+    const bookRecords=semanticRecords;
     const evidenceRecords=[...glossary,...facts,...bookRecords];
     const checkEvidence=(record,label)=>{for(const item of record.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English evidence locator: ${label}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian evidence locator: ${label}`);}}
     for(const record of evidenceRecords) checkEvidence(record,record.id);
-    for(const record of evidenceRecords) if(record.bookUsage?.PS) checkEvidence(record.bookUsage.PS,`PS usage ${record.id}`);
+    for(const record of evidenceRecords) for(const [book,usage] of Object.entries(record.bookUsage ?? {})) checkEvidence(usage,`${book} usage ${record.id}`);
     let semanticLocators=0;
     for(const record of bookRecords) {
+      for(const report of record.reportedClassUses ?? []) {checkEvidence(report,`Class report ${record.id}`);semanticLocators+=2*report.evidence.length;}
       if(record.identification) checkEvidence(record.identification,`Identification ${record.id}`);
       if(record.laterIncantation) checkEvidence(record.laterIncantation,`Later incantation ${record.id}`);
       for(const mention of record.termMentions??[]) {checkEvidence({evidence:[mention]},`Term mention ${record.id}`);semanticLocators+=2;}
       semanticLocators+=2*((record.evidence??[]).length+(record.identification?.evidence??[]).length+(record.laterIncantation?.evidence??[]).length);
-      for(const occurrence of record.occurrences??[]) {if(occurrence.nonVerbalEvidence) checkEvidence({evidence:occurrence.nonVerbalEvidence},`Non-verbal ${record.id}`);semanticLocators+=2*(occurrence.evidence??[]).length;}
+      for(const occurrence of record.occurrences??[]) {if(occurrence.nonVerbalEvidence) checkEvidence({evidence:occurrence.nonVerbalEvidence},`Non-verbal ${record.id}`);semanticLocators+=2*((occurrence.evidence??[]).length+(occurrence.nonVerbalEvidence??[]).length);}
     }
     for(const record of bookRecords) for(const occurrence of record.occurrences??[]) for(const item of occurrence.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English occurrence locator: ${record.id}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian occurrence locator: ${record.id}`);}
-    console.log(`PASS: ${bookRecords.length} PS retrieval records; ${semanticLocators} semantic-index locators verified against local EN/HU sources, including later identifications.`);
+    const stats=knowledgeStats();
+    for(const s of stats) {const coverage=JSON.parse(fs.readFileSync(path.join(root,'data','books',s.book.toLowerCase(),'coverage.json')));for(const l of ['en','hu'])check(coverage.retrievalPass.sourceHashes[l] === (l==='en'?books:hu).find(b=>b.code===s.book).sha256, `Stale semantic source hash: ${s.book}/${l}`);}
+    check(semanticLocators===2*stats.reduce((n,s)=>n+s.contextEvidencePairs+s.literalMentionPairs,0),'Semantic locator count and stats differ');
+    console.log(`PASS: ${bookRecords.length} PS/CoS retrieval records; ${semanticLocators} semantic-index locators verified against local EN/HU sources, including later identifications.`);
     console.log(`PASS: 199 Hungarian chapters; 162 EPUB chapters compared to XHTML; 37 PDF chapter hashes/Markdown checked; ${glossary.length} bilingual term locators present.`);
     console.log('PDF extraction fidelity is evaluated separately by the edition-specific converter and visual page checks.');
   }

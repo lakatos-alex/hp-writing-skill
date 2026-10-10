@@ -8,7 +8,7 @@ This workspace develops the skill; its consumer writing workflows are testable p
 
 Use the seven novels as primary authority. Add a concise paraphrase, chapter anchor, evidence type and meaningful limitation for each maintained claim. Distinguish events from testimony and interpretation. Record exact source coverage; a keyword match is not semantic verification.
 
-For typed retrieval data, follow the [seven-book roadmap](docs/semantic-search-roadmap.md), [data contract](docs/book-knowledge-contract.md) and [PS taxonomy review](docs/ps-semantic-review.md). Maintain distinct referents, bilingual search concepts, explicit casting identities and object magic status. Do not relabel missing incantations as non-verbal casting or silently guess an unnamed spell.
+For typed retrieval data, follow the [seven-book roadmap](docs/semantic-search-roadmap.md), [data contract](docs/book-knowledge-contract.md), [PS taxonomy review](docs/ps-semantic-review.md) and [CoS review](docs/cos-semantic-review.md). Maintain distinct referents, bilingual search concepts, explicit casting identities and object magic status. Do not relabel missing incantations as non-verbal casting or silently guess an unnamed spell.
 
 For new evidence cards, follow [facts.json](skills/harry-potter-fanfic/data/facts.json). For lexical topics, edit [topics.json](skills/harry-potter-fanfic/data/topics.json) and regenerate with `node tools/build_catalogue.mjs /path/to/books`. This writes public metadata without copying passages. Read the [development workflow](skills/harry-potter-fanfic/references/workflow-knowledge-development.md) for the full process.
 

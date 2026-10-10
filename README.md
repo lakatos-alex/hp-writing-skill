@@ -69,7 +69,7 @@ For manual installation, copy the self-contained [skill folder](skills/harry-pot
 - **Primary Seven-Book Canon:** The seven original novels outrank films, companion books, wiki summaries, and model recollection. Exact claims still need passage verification.
 - **Grounded British Boarding School Realism:** Student actions are constrained by class schedules, physical exhaustion, school rules, caretaker patrols, and genuine social friction.
 - **Progressive Disclosure (11 Subskills):** Agents load only the specific reference modules required for their task rather than polluting context with unnecessary lore.
-- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text search, bilingual passage alignment, knowledge/custody checks, and Hungarian terminology linting. Source-free PS concept retrieval ranks distinct people, places, notable objects and identified human-cast spells. Its inventory spans 17 chapters; independent full-book semantic review remains incomplete. See the [tool guide](skills/harry-potter-fanfic/references/tools.md) for scope and filters.
+- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text search, bilingual passage alignment, knowledge/custody checks, and Hungarian terminology linting. Source-free concept retrieval covers the first two books, ranking people, places, notable objects and identified human-cast spells. Independent full-book semantic review remains incomplete. See the [tool guide](skills/harry-potter-fanfic/references/tools.md) for scope and filters.
 - **Bilingual References:** Indexed English and Hungarian chapter pairs, topical indices, evidence cards, and terminology locators support targeted lookup in both languages.
 
 ---
@@ -162,6 +162,9 @@ node skills/harry-potter-fanfic/scripts/hp.mjs chapters --book PoA --topic food 
 node skills/harry-potter-fanfic/scripts/hp.mjs glossary --query Accio
 node skills/harry-potter-fanfic/scripts/hp.mjs semantic --book PS --query "object that tells you something is forgotten"
 node skills/harry-potter-fanfic/scripts/hp.mjs spells --book PS --query "float feather"
+node skills/harry-potter-fanfic/scripts/hp.mjs spells --book CoS --query "erase memory"
+node skills/harry-potter-fanfic/scripts/hp.mjs objects --book CoS --query "diary memory possession"
+node skills/harry-potter-fanfic/scripts/hp.mjs stats
 node skills/harry-potter-fanfic/scripts/hp.mjs facts --query Fidelius
 node skills/harry-potter-fanfic/scripts/hp.mjs search --sources /path/to/books --lang en --query "Restricted Section"
 
@@ -171,6 +174,42 @@ node skills/harry-potter-fanfic/scripts/hp.mjs align --sources /path/to/books --
 # Advisory Hungarian terminology linter
 node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/draft.md
 ```
+
+---
+
+## Semantic reference data
+
+The typed semantic reference contains source-free records with English/Hungarian
+labels, aliases, original descriptions, concept terms and short chapter locators.
+It currently covers *Philosopher's Stone* and *Chamber of Secrets*.
+
+| Book | Chapters represented | Characters | Places | Objects | Spell records | Total records |
+|---|---:|---:|---:|---:|---:|---:|
+| Philosopher's Stone (PS) | 17 | 117 | 53 | 70 | 6 | 246 |
+| Chamber of Secrets (CoS) | 18 | 97 | 47 | 75 | 8 | 227 |
+| Total across these books | 35 | 214 | 100 | 145 | 14 | 473 |
+
+Counts are per-book records; a character or object can recur in both books.
+Characters include humans, speaking beings, ghosts, portraits and 16 separately
+typed animals. Objects include notable ordinary items and reading titles;
+classification does not establish enchantment. Spell records require identified
+human casting and keep unknown speech distinct from proven non-verbal casting.
+
+The spell records contain 25 casting, practice or reported-event rows, plus two
+separate reports of Memory Charm use whose exact formula is not attested.
+Grouped practice and reports are not counts of individual casts. The reference
+stores 501 contextual evidence pairs and 843 literal-mention pairs. These count
+stored English/Hungarian references, which can reuse a passage; they are not
+unique passages or independent readings.
+
+Run `node skills/harry-potter-fanfic/scripts/hp.mjs stats` to reproduce the counts,
+or add `--book CoS` for one book. `coverage --book PS` and `coverage --book CoS`
+separate scoped inventory completion from reading and review status. Targeted
+passage checks do not certify exhaustive or independent full-book review.
+The seven-book chapter catalogue and selective glossary/evidence cards are
+separate layers; typed retrieval for the remaining five books follows the
+[roadmap](docs/semantic-search-roadmap.md). Pinned releases retain their own
+data and command set.
 
 ---
 

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "book": "CoS",
+  "policyVersion": 2,
+  "sourceManifests": {
+    "en": "data/source-coverage.json",
+    "hu": "data/source-coverage-hu.json"
+  },
+  "chapters": [
+    {
+      "anchor": "CoS1",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS2",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS3",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS4",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS5",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS6",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS7",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS8",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS9",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS10",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS11",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS12",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS13",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS14",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS15",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS16",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS17",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "CoS18",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    }
+  ],
+  "categoryCounts": {
+    "characters": 97,
+    "magic": 8,
+    "places": 47,
+    "objects": 75,
+    "terms": 0,
+    "facts": 0
+  },
+  "candidateDisposition": {
+    "pending": 0,
+    "accepted": 227,
+    "merged": 0,
+    "excluded": 0,
+    "unresolved": 0
+  },
+  "reviewDate": "2026-10-10",
+  "limitations": [
+    "The scoped inventory represents all 18 chapters through selected paired passages and literal mentions. Independent full-book semantic/editorial review is incomplete.",
+    "Characters are deduplicated within this book. Tom Riddle and Voldemort share a record; a whole-book query includes the reveal. Chapter filters do not enforce scene knowledge cutoffs.",
+    "House-elf and creature magic, object operation, unnamed human effects and unsupported adaptation incantations are outside the spell results.",
+    "No occurrence is labelled non-verbal merely because spoken words are unreported. Generic Memory Charm reports are separate from formula-attested casts.",
+    "Hungarian labels follow the indexed edition, including Mallter, Caramel, Celestina Maggica, Capitulatus and Exmemoriam."
+  ],
+  "retrievalPass": {
+    "policyVersion": 2,
+    "state": "complete",
+    "scope": "Curated named characters and significant places, notable catalogue object types and titles, and identified human spells across CoS1–CoS18.",
+    "chapterAnchors": [
+      "CoS1",
+      "CoS2",
+      "CoS3",
+      "CoS4",
+      "CoS5",
+      "CoS6",
+      "CoS7",
+      "CoS8",
+      "CoS9",
+      "CoS10",
+      "CoS11",
+      "CoS12",
+      "CoS13",
+      "CoS14",
+      "CoS15",
+      "CoS16",
+      "CoS17",
+      "CoS18"
+    ],
+    "reviewMethod": "Targeted paired evidence review and explicit classification decisions; independent whole-book semantic reading not performed.",
+    "sourceHashes": {
+      "en": "a7370ecf9c56785576cce9b21f0a71e41c6db3c4f9b3e8cd29f4222291c6588b",
+      "hu": "284bd056acf03f6a5cb89a53749a4d25855a5c20d6b7bfc5b1c6c610e271bdd0"
+    }
+  }
+}
