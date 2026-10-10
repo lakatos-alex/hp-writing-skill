@@ -164,6 +164,8 @@ node skills/harry-potter-fanfic/scripts/hp.mjs semantic --book PS --query "objec
 node skills/harry-potter-fanfic/scripts/hp.mjs spells --book PS --query "float feather"
 node skills/harry-potter-fanfic/scripts/hp.mjs spells --book CoS --query "erase memory"
 node skills/harry-potter-fanfic/scripts/hp.mjs objects --book CoS --query "diary memory possession"
+node skills/harry-potter-fanfic/scripts/hp.mjs spells --book PoA --query "repel Dementors"
+node skills/harry-potter-fanfic/scripts/hp.mjs objects --book PoA --query "travel time"
 node skills/harry-potter-fanfic/scripts/hp.mjs stats
 node skills/harry-potter-fanfic/scripts/hp.mjs facts --query Fidelius
 node skills/harry-potter-fanfic/scripts/hp.mjs search --sources /path/to/books --lang en --query "Restricted Section"
@@ -181,35 +183,42 @@ node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/draft.md
 
 The typed semantic reference contains source-free records with English/Hungarian
 labels, aliases, original descriptions, concept terms and short chapter locators.
-It currently covers *Philosopher's Stone* and *Chamber of Secrets*.
+It covers *Philosopher's Stone*, *Chamber of Secrets* and *Prisoner of Azkaban*.
 
 | Book | Chapters represented | Characters | Places | Objects | Spell records | Total records |
 |---|---:|---:|---:|---:|---:|---:|
 | Philosopher's Stone (PS) | 17 | 117 | 53 | 70 | 6 | 246 |
 | Chamber of Secrets (CoS) | 18 | 97 | 47 | 75 | 8 | 227 |
-| Total across these books | 35 | 214 | 100 | 145 | 14 | 473 |
+| Prisoner of Azkaban (PoA) | 22 | 89 | 56 | 72 | 14 | 231 |
+| Total across these books | 57 | 303 | 156 | 217 | 28 | 704 |
 
-Counts are per-book records; a character or object can recur in both books.
-Characters include humans, speaking beings, ghosts, portraits and 16 separately
+Counts are per-book records; a character or object can recur across books.
+Characters include humans, speaking beings, ghosts, portraits and 27 separately
 typed animals. Objects include notable ordinary items and reading titles;
 classification does not establish enchantment. Spell records require identified
 human casting and keep unknown speech distinct from proven non-verbal casting.
 
-The spell records contain 25 casting, practice or reported-event rows, plus two
+The spell records contain 57 casting, practice or reported-event rows, plus two
 separate reports of Memory Charm use whose exact formula is not attested.
 Grouped practice and reports are not counts of individual casts. The reference
-stores 501 contextual evidence pairs and 843 literal-mention pairs. These count
+stores 774 contextual evidence pairs and 1380 literal-mention pairs. These count
 stored English/Hungarian references, which can reuse a passage; they are not
 unique passages or independent readings.
 
 Run `node skills/harry-potter-fanfic/scripts/hp.mjs stats` to reproduce the counts,
-or add `--book CoS` for one book. `coverage --book PS` and `coverage --book CoS`
+or add `--book PoA` for one book. `coverage --book PS`, `coverage --book CoS`
+and `coverage --book PoA`
 separate scoped inventory completion from reading and review status. Targeted
 passage checks do not certify exhaustive or independent full-book review.
 The seven-book chapter catalogue and selective glossary/evidence cards are
-separate layers; typed retrieval for the remaining five books follows the
+separate layers; typed retrieval for the remaining four books follows the
 [roadmap](docs/semantic-search-roadmap.md). Pinned releases retain their own
 data and command set.
+
+PoA keeps Scabbers/Peter Pettigrew as one identity and the lake rescue Patronus
+as one casting row with evidence for its other viewpoint. Map and Time-Turner
+operation remain object behaviour. Chapter filters select whole-book records
+and do not hide later identity reveals.
 
 ---
 

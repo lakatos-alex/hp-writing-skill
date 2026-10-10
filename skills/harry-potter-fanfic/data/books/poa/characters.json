@@ -1,0 +1,6185 @@
+{
+  "schemaVersion": 1,
+  "book": "PoA",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "harry-potter",
+      "glossaryId": "harry-potter",
+      "labelEn": "Harry Potter",
+      "labelHu": "Harry Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Harry",
+        "the boy who lived",
+        "a kis túlélő"
+      ],
+      "description": "The third-year Gryffindor learns to resist Dementors and uses revised knowledge to save Sirius and Buckbeak.",
+      "searchTerms": [
+        "seeker",
+        "fogó",
+        "Patronus",
+        "patrónus",
+        "rescue",
+        "mentés",
+        "time",
+        "idő"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Harry Potter",
+          "huLocator": "Harry Potter",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "ron",
+      "glossaryId": "ron",
+      "labelEn": "Ron Weasley",
+      "labelHu": "Ron Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Ron"
+      ],
+      "description": "Harry's friend acquires a new wand, discovers his rat's human identity and suffers a broken leg in the pursuit.",
+      "searchTerms": [
+        "friend",
+        "barát",
+        "rat",
+        "patkány",
+        "wand",
+        "pálca",
+        "leg",
+        "láb"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Ron Weasley",
+          "huLocator": "Ron Weasley",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Ron Weasley",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "hermione",
+      "glossaryId": "hermione",
+      "labelEn": "Hermione Granger",
+      "labelHu": "Hermione Granger",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Hermione"
+      ],
+      "description": "The pupil secretly uses a Time-Turner for extra subjects and later joins the rescue of Sirius and Buckbeak.",
+      "searchTerms": [
+        "research",
+        "kutatás",
+        "Time-Turner",
+        "időnyerő",
+        "rescue",
+        "mentés"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Hermione Granger",
+          "huLocator": "Hermione Granger",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Hermione Granger",
+          "huLocator": "Hermione Granger",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "mr-dursley",
+      "glossaryId": "mr-dursley",
+      "labelEn": "Vernon Dursley",
+      "labelHu": "Vernon Dursley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Mr Dursley",
+        "Uncle Vernon",
+        "Vernon bácsi"
+      ],
+      "description": "Harry's uncle bargains over the school permission form and loses control of Marge's visit.",
+      "searchTerms": [
+        "uncle",
+        "nagybácsi",
+        "permission",
+        "engedély",
+        "Marge"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "event",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Vernon Dursley",
+          "huLocator": "Vernon Dursley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Uncle Vernon",
+          "huLocator": "Vernon bácsi",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "petunia-dursley",
+      "glossaryId": "petunia-dursley",
+      "labelEn": "Petunia Dursley",
+      "labelHu": "Petunia Dursley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Mrs Dursley",
+        "Aunt Petunia",
+        "Petunia néni",
+        "Dursleyné"
+      ],
+      "description": "Harry's aunt hosts Marge and avoids discussion of his parents' true lives.",
+      "searchTerms": [
+        "aunt",
+        "nagynéni",
+        "family",
+        "család",
+        "Marge"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "event",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Aunt Petunia",
+          "huLocator": "Petunia néni",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "dudley-dursley",
+      "glossaryId": "dudley-dursley",
+      "labelEn": "Dudley Dursley",
+      "labelHu": "Dudley Dursley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Dudley"
+      ],
+      "description": "Harry's cousin accepts Marge's gifts while Vernon lies about Harry's school.",
+      "searchTerms": [
+        "cousin",
+        "unokatestvér",
+        "television",
+        "tévé",
+        "Marge"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "event",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "aunt-marge",
+      "glossaryId": null,
+      "labelEn": "Marjorie Dursley",
+      "labelHu": "Marjorie Dursley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Aunt Marge",
+        "Marge néni",
+        "Marge",
+        "Aunt Marge",
+        "Marge néni"
+      ],
+      "description": "Vernon's sister insults Harry's parents and is inflated by Harry's uncontrolled magic; officials reverse the accident.",
+      "searchTerms": [
+        "aunt",
+        "nagynéni",
+        "bulldog",
+        "kutya",
+        "inflation",
+        "felpuffadás"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "event",
+          "enLocator": "Aunt Marge",
+          "huLocator": "Marge néni",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA2",
+          "enLocator": "Aunt Marge",
+          "huLocator": "Marge néni",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Marjorie Dursley",
+          "huLocator": "Marjorie Dursley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Aunt Marge",
+          "huLocator": "Marge néni",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "lily-potter",
+      "glossaryId": "lily-potter",
+      "labelEn": "Lily Potter",
+      "labelHu": "Lily Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Lily"
+      ],
+      "description": "Harry's mother is recalled in the betrayal account and heard in Dementor-triggered memories; her killer is not Sirius.",
+      "searchTerms": [
+        "mother",
+        "anya",
+        "memory",
+        "emlék",
+        "betrayal",
+        "árulás"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA10",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Lily",
+          "huLocator": "Lily",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Lily",
+          "huLocator": "Lily",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Lily",
+          "huLocator": "Lily",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Lily",
+          "huLocator": "Lily",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Lily",
+          "huLocator": "Lily",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "james-potter",
+      "glossaryId": "james-potter",
+      "labelEn": "James Potter",
+      "labelHu": "James Potter",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Prongs",
+        "Ágas"
+      ],
+      "description": "Harry's father was an Animagus nicknamed Prongs and a friend of Sirius, Lupin and Peter.",
+      "searchTerms": [
+        "father",
+        "apa",
+        "stag",
+        "szarvas",
+        "Prongs",
+        "Ágas",
+        "friend",
+        "barát"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA10",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "James Potter",
+          "huLocator": "James Potter",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "James Potter",
+          "huLocator": "James Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "James Potter",
+          "huLocator": "James Potter",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "James Potter",
+          "huLocator": "James Potter",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "sirius-black",
+      "glossaryId": "sirius-black",
+      "labelEn": "Sirius Black",
+      "labelHu": "Sirius Black",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Sirius",
+        "Black",
+        "Padfoot",
+        "Tapmancs",
+        "the black dog",
+        "a fekete kutya"
+      ],
+      "description": "The escaped prisoner is Harry's godfather, a dog Animagus and an innocent man framed by Peter Pettigrew.",
+      "searchTerms": [
+        "godfather",
+        "keresztapa",
+        "innocent",
+        "ártatlan",
+        "dog",
+        "kutya",
+        "Padfoot",
+        "Tapmancs"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "testimony",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Sirius Black",
+          "huLocator": "Sirius Black",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "albus-dumbledore",
+      "glossaryId": "albus-dumbledore",
+      "labelEn": "Albus Dumbledore",
+      "labelHu": "Albus Dumbledore",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Dumbledore"
+      ],
+      "description": "The headmaster opposes the Dementors and guides Harry and Hermione toward a rescue without publicly changing their story.",
+      "searchTerms": [
+        "headmaster",
+        "igazgató",
+        "rescue",
+        "mentés",
+        "time",
+        "idő"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Albus Dumbledore",
+          "huLocator": "Albus Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "minerva-mcgonagall",
+      "glossaryId": "minerva-mcgonagall",
+      "labelEn": "Professor McGonagall",
+      "labelHu": "McGalagony professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "McGonagall",
+        "McGalagony"
+      ],
+      "description": "The Transfiguration teacher oversees Hermione's timetable, Hogwarts security and Harry's confiscated broom.",
+      "searchTerms": [
+        "transfiguration",
+        "átváltoztatástan",
+        "teacher",
+        "tanár",
+        "timetable",
+        "órarend"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "ushered Harry and Hermione",
+          "huLocator": "kitessékelte Harryt és Hermionét",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Professor McGonagall",
+          "huLocator": "McGalagony",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "hagrid",
+      "glossaryId": "hagrid",
+      "labelEn": "Rubeus Hagrid",
+      "labelHu": "Rubeus Hagrid",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Hagrid"
+      ],
+      "description": "The new Care of Magical Creatures teacher introduces hippogriffs and fights the case against Buckbeak.",
+      "searchTerms": [
+        "creatures",
+        "lények",
+        "teacher",
+        "tanár",
+        "hippogriff",
+        "hippogriff",
+        "Buckbeak",
+        "Csikócsőr"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Rubeus Hagrid",
+          "huLocator": "Rubeus Hagrid",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Rubeus Hagrid",
+          "huLocator": "Rubeus Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "severus-snape",
+      "glossaryId": "severus-snape",
+      "labelEn": "Snape",
+      "labelHu": "Piton",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Potions teacher makes Lupin's medicine, pursues an old grievance and rejects evidence of Sirius's innocence.",
+      "searchTerms": [
+        "potions",
+        "bájitaltan",
+        "teacher",
+        "tanár",
+        "Wolfsbane",
+        "farkasölő",
+        "grievance",
+        "sérelem"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Snape",
+          "huLocator": "Piton",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "flitwick",
+      "glossaryId": "flitwick",
+      "labelEn": "Professor Flitwick",
+      "labelHu": "Flitwick professzor",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Flitwick"
+      ],
+      "description": "The Charms teacher teaches Cheering Charms and joins the Christmas discussion of the Potters' protection.",
+      "searchTerms": [
+        "charms",
+        "bűbájtan",
+        "teacher",
+        "tanár",
+        "Fidelius",
+        "vidító"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Professor Flitwick",
+          "huLocator": "Flitwick professzor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "sprout",
+      "glossaryId": "sprout",
+      "labelEn": "Professor Sprout",
+      "labelHu": "Bimba tanárnő",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Sprout",
+        "Bimba"
+      ],
+      "description": "The Herbology teacher supervises the class's Puffapod work; no extra spell is inferred.",
+      "searchTerms": [
+        "herbology",
+        "gyógynövénytan",
+        "teacher",
+        "tanár"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Professor Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Sprout",
+          "huLocator": "Bimba",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "binns",
+      "glossaryId": null,
+      "labelEn": "Professor Binns",
+      "labelHu": "Binns professzor",
+      "labelKind": "editorial-label",
+      "entityKind": "ghost",
+      "aliases": [
+        "Binns"
+      ],
+      "description": "The ghost history teacher's essay assignment keeps Harry working on witch-burning during the holidays.",
+      "searchTerms": [
+        "history",
+        "mágiatörténet",
+        "teacher",
+        "tanár",
+        "ghost",
+        "kísértet"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Professor Binns",
+          "huLocator": "Binns",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Professor Binns",
+          "huLocator": "Binns professzor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Professor Binns",
+          "huLocator": "Binns professzor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "madam-pomfrey",
+      "glossaryId": "madam-pomfrey",
+      "labelEn": "Madam Pomfrey",
+      "labelHu": "Madam Pomfrey",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The healer checks Harry after the train attack and tends the injured pupils after the lake incident.",
+      "searchTerms": [
+        "healer",
+        "gyógyító",
+        "hospital",
+        "gyengélkedő",
+        "chocolate",
+        "csokoládé"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Madam Pomfrey",
+          "huLocator": "Madam Pomfrey",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "madam-hooch",
+      "glossaryId": null,
+      "labelEn": "Madam Hooch",
+      "labelHu": "Madam Hooch",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The flying teacher supervises practice and referees the decisive Quidditch match.",
+      "searchTerms": [
+        "flying",
+        "repüléstan",
+        "referee",
+        "játékvezető",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA13",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA13",
+          "kind": "event",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA9",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Madam Hooch",
+          "huLocator": "Madam Hooch",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "filch",
+      "glossaryId": "filch",
+      "labelEn": "Argus Filch",
+      "labelHu": "Argus Frics",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Filch",
+        "Frics"
+      ],
+      "description": "The caretaker monitors departures and helps search the school after the portrait attack.",
+      "searchTerms": [
+        "caretaker",
+        "gondnok",
+        "search",
+        "kutatás",
+        "Map",
+        "térkép"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA7",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "madam-malkin",
+      "glossaryId": null,
+      "labelEn": "Madam Malkin",
+      "labelHu": "Madam Malkin",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The robe-maker's shop supplies Harry with a larger uniform during his stay in Diagon Alley.",
+      "searchTerms": [
+        "robes",
+        "talár",
+        "shop",
+        "bolt"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "testimony",
+          "enLocator": "Madam Malkin",
+          "huLocator": "Madam Malkin",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Madam Malkin",
+          "huLocator": "Madam Malkin",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "tom-leaky-cauldron",
+      "glossaryId": null,
+      "labelEn": "Tom",
+      "labelHu": "Tom",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Leaky Cauldron's toothless landlord welcomes Harry and looks after him during his stay.",
+      "searchTerms": [
+        "landlord",
+        "fogadós",
+        "pub",
+        "kocsma",
+        "room",
+        "szoba"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Tom",
+          "huLocator": "Tom",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Tom",
+          "huLocator": "Tom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Tom",
+          "huLocator": "Tom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Tom",
+          "huLocator": "Tom",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "cornelius-fudge",
+      "glossaryId": null,
+      "labelEn": "Cornelius Fudge",
+      "labelHu": "Cornelius Caramel",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Fudge",
+        "Caramel"
+      ],
+      "description": "The Minister overlooks Harry's accidental magic but accepts Snape's explanation of the escape and rejects the pupils' evidence.",
+      "searchTerms": [
+        "Minister",
+        "miniszter",
+        "Ministry",
+        "minisztérium",
+        "prison",
+        "börtön"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "walked right into Cornelius Fudge",
+          "huLocator": "Caramel karjaiba sétált",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Fudge",
+          "huLocator": "Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Fudge",
+          "huLocator": "Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Fudge",
+          "huLocator": "Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Cornelius Fudge",
+          "huLocator": "Cornelius Caramel",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Fudge",
+          "huLocator": "Caramel",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "arthur-weasley",
+      "glossaryId": null,
+      "labelEn": "Arthur Weasley",
+      "labelHu": "Arthur Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Ron's father wins the Ministry draw, takes the family to Egypt and warns Harry about Sirius.",
+      "searchTerms": [
+        "father",
+        "apa",
+        "warning",
+        "figyelmeztetés",
+        "Ministry",
+        "minisztérium"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Arthur Weasley",
+          "huLocator": "Arthur Weasley",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Arthur Weasley",
+          "huLocator": "Arthur Weasley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "mrs-weasley",
+      "glossaryId": null,
+      "labelEn": "Molly Weasley",
+      "labelHu": "Molly Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Mrs Weasley",
+        "Mrs. Weasley"
+      ],
+      "description": "Molly Weasley travels with her family and worries about Harry's security and her children's schooling.",
+      "searchTerms": [
+        "mother",
+        "anya",
+        "family",
+        "család",
+        "Egypt",
+        "Egyiptom"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs. Weasley",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs. Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs. Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs. Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs. Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs. Weasley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "bill-weasley",
+      "glossaryId": null,
+      "labelEn": "Bill",
+      "labelHu": "Bill",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Weasleys visit the eldest son working as a Gringotts curse-breaker in Egypt.",
+      "searchTerms": [
+        "brother",
+        "báty",
+        "Egypt",
+        "Egyiptom",
+        "curse",
+        "breaker",
+        "átoktörő"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "charlie-weasley",
+      "glossaryId": "charlie-weasley",
+      "labelEn": "Charlie Weasley",
+      "labelHu": "Charlie Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Charlie"
+      ],
+      "description": "Ron's older brother is recalled as Gryffindor's Seeker at its previous Cup win.",
+      "searchTerms": [
+        "brother",
+        "báty",
+        "seeker",
+        "fogó",
+        "Cup",
+        "kupa"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA15",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "testimony",
+          "enLocator": "Charlie Weasley",
+          "huLocator": "Charlie Weasley",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "Charlie Weasley",
+          "huLocator": "Charlie Weasley",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "fred-weasley",
+      "glossaryId": null,
+      "labelEn": "Fred Weasley",
+      "labelHu": "Fred Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Fred"
+      ],
+      "description": "The twin Beater helps protect Harry and gives him the Marauder's Map with George.",
+      "searchTerms": [
+        "twin",
+        "iker",
+        "beater",
+        "terelő",
+        "Map",
+        "térkép"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Fred Weasley",
+          "huLocator": "Fred Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Fred Weasley",
+          "huLocator": "Fred Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "george-weasley",
+      "glossaryId": null,
+      "labelEn": "George Weasley",
+      "labelHu": "George Weasley",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "George"
+      ],
+      "description": "Fred's twin gives Harry the map and plays Beater for Gryffindor.",
+      "searchTerms": [
+        "twin",
+        "iker",
+        "beater",
+        "terelő",
+        "Map",
+        "térkép"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "George",
+          "huLocator": "George",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "George Weasley",
+          "huLocator": "George Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "George Weasley",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "George",
+          "huLocator": "George",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "percy-weasley",
+      "glossaryId": "percy-weasley",
+      "labelEn": "Percy Weasley",
+      "labelHu": "Percy Weasley",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Percy"
+      ],
+      "description": "Ron's brother becomes Head Boy, guards his authority and bets on Quidditch with Penelope.",
+      "searchTerms": [
+        "Head",
+        "Boy",
+        "iskolaelső",
+        "brother",
+        "báty",
+        "Penelope"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy Weasley",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Percy Weasley",
+          "huLocator": "Percy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "ginny-weasley",
+      "glossaryId": null,
+      "labelEn": "Ginny",
+      "labelHu": "Ginny",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Ron's sister meets Harry at the inn and is affected by the train's Dementor.",
+      "searchTerms": [
+        "sister",
+        "húg",
+        "train",
+        "vonat",
+        "Dementor",
+        "dementor"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "penelope-clearwater",
+      "glossaryId": null,
+      "labelEn": "Penelope Clearwater",
+      "labelHu": "Penelope Clearwater",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Percy's girlfriend appears in his photograph and later makes a Quidditch bet with him.",
+      "searchTerms": [
+        "prefect",
+        "prefektus",
+        "girlfriend",
+        "barátnő",
+        "portrait",
+        "fénykép"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "testimony",
+          "enLocator": "Penelope Clearwater",
+          "huLocator": "Penelope Clearwater",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Penelope Clearwater",
+          "huLocator": "Penelope Clearwater",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Penelope Clearwater",
+          "huLocator": "Penelope Clearwater",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "malfoy",
+      "glossaryId": "malfoy",
+      "labelEn": "Draco Malfoy",
+      "labelHu": "Draco Malfoy",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Malfoy",
+        "Draco"
+      ],
+      "description": "The Slytherin Seeker exploits his hippogriff injury and impersonates a Dementor to unsettle Harry.",
+      "searchTerms": [
+        "rival",
+        "vetélytárs",
+        "seeker",
+        "fogó",
+        "fake",
+        "ál",
+        "Dementor",
+        "dementor"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Draco Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Malfoy",
+          "huLocator": "Draco Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "crabbe",
+      "glossaryId": "crabbe",
+      "labelEn": "Vincent Crabbe",
+      "labelHu": "Vincent Crak",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Malfoy's companion joins the mock Dementor attack during the Ravenclaw match.",
+      "searchTerms": [
+        "companion",
+        "társ",
+        "fake",
+        "ál",
+        "Dementor",
+        "dementor"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Vincent Crabbe",
+          "huLocator": "Vincent Crak",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Vincent Crabbe",
+          "huLocator": "Vincent Crak",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "goyle",
+      "glossaryId": "goyle",
+      "labelEn": "Gregory Goyle",
+      "labelHu": "Gregory Monstro",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Malfoy's companion joins the false Dementor stunt and accompanies him at school.",
+      "searchTerms": [
+        "companion",
+        "társ",
+        "fake",
+        "ál",
+        "Dementor",
+        "dementor"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Gregory Goyle",
+          "huLocator": "Gregory Monstro",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Gregory Goyle",
+          "huLocator": "Gregory Monstro",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "parkinson-ps",
+      "glossaryId": null,
+      "labelEn": "Pansy Parkinson",
+      "labelHu": "Pansy Parkinson",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Slytherin pupil fusses over Malfoy after his hippogriff injury.",
+      "searchTerms": [
+        "Slytherin",
+        "Mardekár",
+        "injury",
+        "sérülés"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Pansy Parkinson",
+          "huLocator": "Pansy Parkinson",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Pansy Parkinson",
+          "huLocator": "Pansy Parkinson",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Pansy Parkinson",
+          "huLocator": "Pansy Parkinson",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "neville",
+      "glossaryId": "neville",
+      "labelEn": "Neville Longbottom",
+      "labelHu": "Neville Longbottom",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Neville"
+      ],
+      "description": "The Gryffindor pupil overcomes his Snape Boggart but later exposes the tower passwords.",
+      "searchTerms": [
+        "student",
+        "diák",
+        "fear",
+        "félelem",
+        "passwords",
+        "jelszavak",
+        "Boggart",
+        "mumus"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Neville",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Neville",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Neville Longbottom",
+          "huLocator": "Neville Longbottom",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Neville",
+          "huLocator": "Neville",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "neville-gran",
+      "glossaryId": null,
+      "labelEn": "Neville's grandmother",
+      "labelHu": "Neville nagyanyja",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "grandmother",
+        "nagymamá"
+      ],
+      "description": "Neville's grandmother inspires the comic clothing used against his Boggart and later sends him a Howler.",
+      "searchTerms": [
+        "grandmother",
+        "nagymama",
+        "clothes",
+        "ruha",
+        "Howler",
+        "rivalló"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA7",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "testimony",
+          "enLocator": "grandmother",
+          "huLocator": "nagymamá",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "dean-thomas",
+      "glossaryId": null,
+      "labelEn": "Dean Thomas",
+      "labelHu": "Dean Thomas",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Gryffindor pupil uses Riddikulus against a severed-hand Boggart.",
+      "searchTerms": [
+        "classmate",
+        "osztálytárs",
+        "hand",
+        "kéz",
+        "Boggart",
+        "mumus"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Dean Thomas",
+          "huLocator": "Dean Thomas",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "seamus-finnigan",
+      "glossaryId": "seamus-finnigan",
+      "labelEn": "Seamus Finnigan",
+      "labelHu": "Seamus Finnigan",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Gryffindor pupil silences a banshee-shaped Boggart with Riddikulus.",
+      "searchTerms": [
+        "classmate",
+        "osztálytárs",
+        "banshee",
+        "Boggart",
+        "mumus"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Seamus Finnigan",
+          "huLocator": "Seamus Finnigan",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "parvati-patil",
+      "glossaryId": "parvati-patil",
+      "labelEn": "Parvati Patil",
+      "labelHu": "Parvati Patil",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Gryffindor pupil follows Divination enthusiastically and defeats a mummy-shaped Boggart.",
+      "searchTerms": [
+        "Divination",
+        "jóslástan",
+        "mummy",
+        "múmia",
+        "Boggart",
+        "mumus"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Parvati Patil",
+          "huLocator": "Parvati Patil",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Parvati Patil",
+          "huLocator": "Parvati Patil",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "lavender",
+      "glossaryId": "lavender",
+      "labelEn": "Lavender Brown",
+      "labelHu": "Lavender Brown",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Lavender"
+      ],
+      "description": "The Gryffindor pupil trusts Trelawney's prediction after her rabbit dies.",
+      "searchTerms": [
+        "Divination",
+        "jóslástan",
+        "rabbit",
+        "nyúl",
+        "prediction",
+        "jóslat"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Lavender Brown",
+          "huLocator": "Lavender Brown",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Lavender Brown",
+          "huLocator": "Lavender Brown",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Lavender Brown",
+          "huLocator": "Lavender Brown",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Lavender Brown",
+          "huLocator": "Lavender Brown",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Lavender",
+          "huLocator": "Lavender",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "oliver-wood",
+      "glossaryId": "oliver-wood",
+      "labelEn": "Oliver Wood",
+      "labelHu": "Oliver Wood",
+      "labelKind": "canonical-term",
+      "entityKind": "human",
+      "aliases": [
+        "Wood"
+      ],
+      "description": "Gryffindor's captain pushes the team through a difficult season to win the Quidditch Cup.",
+      "searchTerms": [
+        "captain",
+        "kapitány",
+        "keeper",
+        "őrző",
+        "Cup",
+        "kupa"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Wood",
+          "huLocator": "Wood",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Wood",
+          "huLocator": "Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Wood",
+          "huLocator": "Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Wood",
+          "huLocator": "Wood",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Oliver Wood",
+          "huLocator": "Oliver Wood",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "angelina-johnson",
+      "glossaryId": null,
+      "labelEn": "Angelina Johnson",
+      "labelHu": "Angelina Johnson",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Gryffindor Chaser who scores during the Cup final.",
+      "searchTerms": [
+        "chaser",
+        "hajtó",
+        "Quidditch",
+        "kviddics",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Angelina Johnson",
+          "huLocator": "Angelina Johnson",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA13",
+          "enLocator": "Angelina Johnson",
+          "huLocator": "Angelina Johnson",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Angelina Johnson",
+          "huLocator": "Angelina Johnson",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "alicia-spinnet",
+      "glossaryId": null,
+      "labelEn": "Alicia Spinnet",
+      "labelHu": "Alicia Spinnet",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "A Gryffindor Chaser who competes in the final against Slytherin.",
+      "searchTerms": [
+        "chaser",
+        "hajtó",
+        "Quidditch",
+        "kviddics",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Alicia Spinnet",
+          "huLocator": "Alicia Spinnet",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA13",
+          "enLocator": "Alicia Spinnet",
+          "huLocator": "Alicia Spinnet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Alicia Spinnet",
+          "huLocator": "Alicia Spinnet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "katie-bell",
+      "glossaryId": null,
+      "labelEn": "Katie Bell",
+      "labelHu": "Katie Bell",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Katie"
+      ],
+      "description": "A Gryffindor Chaser who scores and is targeted by the opposing Beaters in the final.",
+      "searchTerms": [
+        "chaser",
+        "hajtó",
+        "Quidditch",
+        "kviddics",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Katie",
+          "huLocator": "Katie",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Katie Bell",
+          "huLocator": "Katie",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Katie",
+          "huLocator": "Katie",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Katie Bell",
+          "huLocator": "Katie Bell",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Katie Bell",
+          "huLocator": "Katie",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "marcus-flint",
+      "glossaryId": null,
+      "labelEn": "Marcus Flint",
+      "labelHu": "Marcus Flint",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Flint"
+      ],
+      "description": "Slytherin's captain delays the first match, joins the fake Dementor stunt and leads the final opponents.",
+      "searchTerms": [
+        "captain",
+        "kapitány",
+        "Slytherin",
+        "Mardekár",
+        "fake",
+        "ál",
+        "Dementor",
+        "dementor"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA9",
+          "kind": "testimony",
+          "enLocator": "Flint",
+          "huLocator": "Flint",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA9",
+          "enLocator": "Flint",
+          "huLocator": "Flint",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Marcus Flint",
+          "huLocator": "Marcus Flint",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Marcus Flint",
+          "huLocator": "Marcus Flint",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "lee-jordan",
+      "glossaryId": null,
+      "labelEn": "Lee Jordan",
+      "labelHu": "Lee Jordan",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Quidditch commentator admires Harry's Firebolt and loses impartiality in the final.",
+      "searchTerms": [
+        "commentator",
+        "kommentátor",
+        "Quidditch",
+        "kviddics",
+        "Firebolt",
+        "Tűzvillám"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA13",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA13",
+          "kind": "event",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordan",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA13",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Lee Jordan",
+          "huLocator": "Lee Jordan",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "hannah-abbott",
+      "glossaryId": null,
+      "labelEn": "Hannah Abbott",
+      "labelHu": "Hannah Abbott",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Hufflepuff pupil spreads a school rumour about Sirius disguising himself as a shrub.",
+      "searchTerms": [
+        "Hufflepuff",
+        "Hugrabug",
+        "rumour",
+        "pletyka"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA9",
+          "kind": "testimony",
+          "enLocator": "Hannah Abbott",
+          "huLocator": "Hannah Abbott",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA9",
+          "enLocator": "Hannah Abbott",
+          "huLocator": "Hannah Abbott",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "colin-creevey",
+      "glossaryId": null,
+      "labelEn": "Colin Creevey",
+      "labelHu": "Colin Creevey",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Gryffindor pupil calls Harry over after a Hogsmeade visit.",
+      "searchTerms": [
+        "Gryffindor",
+        "Griffendél",
+        "classmate",
+        "osztálytárs"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Colin Creevey",
+          "huLocator": "Colin Creevey",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "lucius-malfoy",
+      "glossaryId": null,
+      "labelEn": "Lucius Malfoy",
+      "labelHu": "Lucius Malfoy",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Draco's father pursues the case against Buckbeak and pressures the creature committee.",
+      "searchTerms": [
+        "father",
+        "apa",
+        "committee",
+        "bizottság",
+        "Buckbeak",
+        "Csikócsőr"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA11",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA11",
+          "kind": "testimony",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA11",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Lucius Malfoy",
+          "huLocator": "Lucius Malfoy",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "nearly-headless-nick",
+      "glossaryId": "nearly-headless-nick",
+      "labelEn": "Nearly Headless Nick",
+      "labelHu": "Félig Fej Nélküli Nick",
+      "labelKind": "canonical-term",
+      "entityKind": "ghost",
+      "aliases": [],
+      "description": "The Gryffindor ghost reports the search for the attacked portrait guardian.",
+      "searchTerms": [
+        "ghost",
+        "kísértet",
+        "portrait",
+        "festmény",
+        "search",
+        "kutatás"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "peeves",
+      "glossaryId": "peeves",
+      "labelEn": "Peeves",
+      "labelHu": "Hóborc",
+      "labelKind": "canonical-term",
+      "entityKind": "magical-being",
+      "aliases": [],
+      "description": "The poltergeist blocks a keyhole with gum and is taught a lesson by Lupin.",
+      "searchTerms": [
+        "poltergeist",
+        "kopogószellem",
+        "gum",
+        "rágógumi",
+        "keyhole",
+        "kulcslyuk"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA7",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "fat-lady",
+      "glossaryId": "fat-lady",
+      "labelEn": "Fat Lady",
+      "labelHu": "Kövér Dáma",
+      "labelKind": "canonical-term",
+      "entityKind": "portrait",
+      "aliases": [
+        "rózsaszín ruhás dáma"
+      ],
+      "description": "The portrait guardian is attacked by Sirius and later returns with security conditions.",
+      "searchTerms": [
+        "portrait",
+        "festmény",
+        "guardian",
+        "őr",
+        "password",
+        "jelszó"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "fat lady",
+          "huLocator": "rózsaszín ruhás dáma",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Fat Lady",
+          "huLocator": "Kövér Dáma",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Fat Lady",
+          "huLocator": "Kövér Dáma",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Fat Lady",
+          "huLocator": "Kövér Dáma",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "bathilda-bagshot",
+      "glossaryId": null,
+      "labelEn": "Bathilda Bagshot",
+      "labelHu": "Bathilda Bircsók",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The history textbook author whose account Harry reads while writing his holiday essay.",
+      "searchTerms": [
+        "author",
+        "szerző",
+        "history",
+        "történelem",
+        "book",
+        "könyv"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Bathilda Bagshot",
+          "huLocator": "Bathilda Bircsók",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Bathilda Bagshot",
+          "huLocator": "Bathilda Bircsók",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "hedwig",
+      "glossaryId": null,
+      "labelEn": "Hedwig",
+      "labelHu": "Hedvig",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Harry's owl brings birthday post and later carries messages to Sirius.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "post",
+        "posta"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "errol",
+      "glossaryId": null,
+      "labelEn": "Errol",
+      "labelHu": "Errol",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "The Weasleys' elderly owl collapses after carrying Ron's birthday letter and present.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "post",
+        "posta",
+        "exhaustion",
+        "kimerülés"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Errol",
+          "huLocator": "Errol",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "hermes",
+      "glossaryId": null,
+      "labelEn": "Hermes",
+      "labelHu": "Hermes",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [
+        "Hermész"
+      ],
+      "description": "Percy's owl accompanies the family at the station.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "Percy",
+        "train",
+        "vonat"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Hermes",
+          "huLocator": "Hermész",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Hermes",
+          "huLocator": "Hermész",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "trevor",
+      "glossaryId": null,
+      "labelEn": "Trevor",
+      "labelHu": "Trevor",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Neville's toad is used to test the repaired Shrinking Solution and becomes a tadpole.",
+      "searchTerms": [
+        "toad",
+        "varangy",
+        "tadpole",
+        "ebihal",
+        "potion",
+        "bájital"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "Trevor",
+          "huLocator": "Trevor",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA7",
+          "enLocator": "Trevor",
+          "huLocator": "Trevor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "mrs-norris",
+      "glossaryId": "mrs-norris",
+      "labelEn": "Mrs Norris",
+      "labelHu": "Mrs Norris",
+      "labelKind": "canonical-term",
+      "entityKind": "animal",
+      "aliases": [
+        "Mrs. Norris"
+      ],
+      "description": "Filch's cat appears by name on the Marauder's Map.",
+      "searchTerms": [
+        "cat",
+        "macska",
+        "map",
+        "térkép",
+        "Filch",
+        "Frics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA10",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs. Norris",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Mrs Norris",
+          "huLocator": "Mrs. Norris",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "fang",
+      "glossaryId": "fang",
+      "labelEn": "Fang",
+      "labelHu": "Agyar",
+      "labelKind": "canonical-term",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Hagrid's dog tries to comfort his distressed owner during the case against Buckbeak.",
+      "searchTerms": [
+        "dog",
+        "kutya",
+        "Hagrid",
+        "comfort",
+        "vigasztalás"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA11",
+          "kind": "event",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "voldemort",
+      "glossaryId": null,
+      "labelEn": "Voldemort",
+      "labelHu": "Voldemort",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Voldemort",
+        "You-Know-Who",
+        "Tudodki"
+      ],
+      "description": "The fallen Dark Lord's spy is Peter rather than Sirius; Trelawney predicts a servant's return.",
+      "searchTerms": [
+        "Dark",
+        "Lord",
+        "Sötét",
+        "Nagyúr",
+        "spy",
+        "kém",
+        "betrayal",
+        "árulás"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "testimony",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Voldemort",
+          "huLocator": "Voldemort",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three identity and selected claims. Literal mentions do not prove physical appearance; descriptions can include the book's later reveals."
+    },
+    {
+      "id": "remus-lupin",
+      "glossaryId": null,
+      "labelEn": "Remus Lupin",
+      "labelHu": "Remus Lupin",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Lupin",
+        "Moony",
+        "Holdsáp"
+      ],
+      "description": "The supportive Defence teacher is a werewolf, a former Marauder and Harry's Patronus instructor.",
+      "searchTerms": [
+        "Defence",
+        "sötét",
+        "varázslatok",
+        "teacher",
+        "tanár",
+        "werewolf",
+        "vérfarkas",
+        "Moony",
+        "Holdsáp"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "R. J. Lupin",
+          "huLocator": "R. J. Lupin",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "peter-pettigrew",
+      "glossaryId": null,
+      "labelEn": "Peter Pettigrew / Scabbers",
+      "labelHu": "Peter Pettigrew / Makesz",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Peter Pettigrew",
+        "Pettigrew",
+        "Scabbers",
+        "Makesz",
+        "Wormtail",
+        "Féregfark"
+      ],
+      "description": "Ron's rat is exposed as the Animagus who betrayed the Potters and framed Sirius; his rat form is the same referent.",
+      "searchTerms": [
+        "rat",
+        "patkány",
+        "spy",
+        "kém",
+        "traitor",
+        "áruló",
+        "Wormtail",
+        "Féregfark"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA19",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA19",
+          "kind": "event",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA19",
+          "kind": "event",
+          "enLocator": "where Scabbers had been",
+          "huLocator": "Makesz helyén",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Scabbers",
+          "huLocator": "Makesz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Pettigrew",
+          "huLocator": "Pettigrew",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "sybill-trelawney",
+      "glossaryId": null,
+      "labelEn": "Sybill Trelawney",
+      "labelHu": "Sybill Trelawney",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Divination teacher predicts Harry's death and later makes an involuntary genuine prophecy she cannot remember.",
+      "searchTerms": [
+        "Divination",
+        "jóslástan",
+        "teacher",
+        "tanár",
+        "prophecy",
+        "jóslat"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Sybill Trelawney",
+          "huLocator": "Sybill Trelawney",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Sybill Trelawney",
+          "huLocator": "Sybill Trelawney",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "stan-shunpike",
+      "glossaryId": null,
+      "labelEn": "Stan Shunpike",
+      "labelHu": "Stan Shunpike",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The young Knight Bus conductor sells Harry a ticket and recounts Sirius's alleged crimes.",
+      "searchTerms": [
+        "conductor",
+        "kalauz",
+        "bus",
+        "busz",
+        "fare",
+        "viteldíj"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Stan Shunpike",
+          "huLocator": "Stan Shunpike",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Stan Shunpike",
+          "huLocator": "Stan Shunpike",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "ernie-prang",
+      "glossaryId": null,
+      "labelEn": "Ernie Prang",
+      "labelHu": "Ernie Prang",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Knight Bus driver takes magical passengers around Britain.",
+      "searchTerms": [
+        "driver",
+        "sofőr",
+        "bus",
+        "busz",
+        "transport",
+        "közlekedés"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Ernie Prang",
+          "huLocator": "Ernie Prang",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Ernie Prang",
+          "huLocator": "Ernie Prang",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "madam-marsh",
+      "glossaryId": null,
+      "labelEn": "Madam Marsh",
+      "labelHu": "Madam Marsh",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Knight Bus passenger is awakened for the Abergavenny stop.",
+      "searchTerms": [
+        "passenger",
+        "utas",
+        "bus",
+        "busz"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Madam Marsh",
+          "huLocator": "Madam Marsh",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Madam Marsh",
+          "huLocator": "Madam Marsh",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "florean-fortescue",
+      "glossaryId": null,
+      "labelEn": "Florean Fortescue",
+      "labelHu": "Florean Fortescue",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The ice-cream shopkeeper helps Harry with his witch-burning essay and gives him free sundaes.",
+      "searchTerms": [
+        "ice",
+        "cream",
+        "fagylalt",
+        "shopkeeper",
+        "boltos",
+        "history",
+        "történelem"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Florean Fortescue",
+          "huLocator": "Florean Fortescue",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Florean Fortescue",
+          "huLocator": "Florean Fortescue",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Florean Fortescue",
+          "huLocator": "Florean Fortescue",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "cassandra-vablatsky",
+      "glossaryId": null,
+      "labelEn": "Cassandra Vablatsky",
+      "labelHu": "Cassandra Vablatsky",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Author of the Divination textbook Unfogging the Future.",
+      "searchTerms": [
+        "author",
+        "szerző",
+        "Divination",
+        "jóslástan",
+        "textbook",
+        "tankönyv"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "testimony",
+          "enLocator": "Cassandra Vablatsky",
+          "huLocator": "Cassandra Vablatsky",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "professor-kettleburn",
+      "glossaryId": null,
+      "labelEn": "Professor Kettleburn",
+      "labelHu": "Ebshont professzor",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The previous Care of Magical Creatures teacher has retired; his first name is not supplied here.",
+      "searchTerms": [
+        "retired",
+        "nyugdíjas",
+        "creatures",
+        "lények",
+        "teacher",
+        "tanár"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA5",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "testimony",
+          "enLocator": "Professor Kettleburn",
+          "huLocator": "Ebshont professzor",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Professor Kettleburn",
+          "huLocator": "Ebshont professzor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "sir-cadogan",
+      "glossaryId": null,
+      "labelEn": "Sir Cadogan",
+      "labelHu": "Sir Cadogan",
+      "labelKind": "editorial-label",
+      "entityKind": "portrait",
+      "aliases": [],
+      "description": "The erratic knight portrait replaces the Fat Lady and lets Sirius enter with stolen passwords.",
+      "searchTerms": [
+        "portrait",
+        "festmény",
+        "knight",
+        "lovag",
+        "passwords",
+        "jelszavak"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Sir Cadogan",
+          "huLocator": "Sir Cadogan",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA9",
+          "enLocator": "Sir Cadogan",
+          "huLocator": "Sir Cadogan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Sir Cadogan",
+          "huLocator": "Sir Cadogan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Sir Cadogan",
+          "huLocator": "Sir Cadogan",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Sir Cadogan",
+          "huLocator": "Sir Cadogan",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "madam-rosmerta",
+      "glossaryId": null,
+      "labelEn": "Madam Rosmerta",
+      "labelHu": "Madam Rosmerta",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Three Broomsticks landlady hears the adults' account of the supposed betrayal.",
+      "searchTerms": [
+        "landlady",
+        "fogadós",
+        "pub",
+        "kocsma",
+        "Hogsmeade",
+        "Roxmorts"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Madam Rosmerta",
+          "huLocator": "Madam Rosmerta",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Madam Rosmerta",
+          "huLocator": "Madam Rosmerta",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "cedric-diggory",
+      "glossaryId": null,
+      "labelEn": "Cedric Diggory",
+      "labelHu": "Cedric Diggory",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Hufflepuff's captain and Seeker wins the storm match but offers a rematch after Harry's fall.",
+      "searchTerms": [
+        "Hufflepuff",
+        "Hugrabug",
+        "captain",
+        "kapitány",
+        "seeker",
+        "fogó"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA9",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA9",
+          "kind": "testimony",
+          "enLocator": "Cedric Diggory",
+          "huLocator": "Cedric Diggory",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA9",
+          "enLocator": "Cedric Diggory",
+          "huLocator": "Cedric Diggory",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Cedric Diggory",
+          "huLocator": "Cedric Diggory",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "cho-chang",
+      "glossaryId": null,
+      "labelEn": "Cho Chang",
+      "labelHu": "Cho Chang",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Ravenclaw Seeker competes against Harry on a Comet Two Sixty.",
+      "searchTerms": [
+        "Ravenclaw",
+        "Hollóhát",
+        "seeker",
+        "fogó",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA13",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA13",
+          "kind": "event",
+          "enLocator": "Cho Chang",
+          "huLocator": "Cho Chang",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA13",
+          "enLocator": "Cho Chang",
+          "huLocator": "Cho Chang",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Cho Chang",
+          "huLocator": "Cho Chang",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "walden-macnair",
+      "glossaryId": null,
+      "labelEn": "Walden Macnair",
+      "labelHu": "Walden Macnair",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [
+        "Macnair",
+        "executioner",
+        "hóhér"
+      ],
+      "description": "The committee's executioner is named on the warrant; the rescue prevents him killing Buckbeak.",
+      "searchTerms": [
+        "executioner",
+        "hóhér",
+        "axe",
+        "bárd",
+        "committee",
+        "bizottság"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA21",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "Walden Macnair",
+          "huLocator": "Walden Macnair",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA21",
+          "enLocator": "Walden Macnair",
+          "huLocator": "Walden Macnair",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "colonel-fubster",
+      "glossaryId": null,
+      "labelEn": "Colonel Fubster",
+      "labelHu": "Fubster ezredes",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Marge's retired acquaintance looks after her dogs while she visits the Dursleys.",
+      "searchTerms": [
+        "colonel",
+        "ezredes",
+        "dogs",
+        "kutyák",
+        "retired",
+        "nyugdíjas"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA2",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "testimony",
+          "enLocator": "Colonel Fubster",
+          "huLocator": "Fubster ezredes",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA2",
+          "enLocator": "Colonel Fubster",
+          "huLocator": "Fubster ezredes",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "bilius",
+      "glossaryId": null,
+      "labelEn": "Uncle Bilius",
+      "labelHu": "Bilius bácsi",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Ron's uncle is said to have died after seeing the Grim; causation is disputed in the conversation.",
+      "searchTerms": [
+        "uncle",
+        "nagybácsi",
+        "Grim",
+        "Zordó",
+        "death",
+        "halál",
+        "omen",
+        "ómen"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "testimony",
+          "enLocator": "Uncle Bilius",
+          "huLocator": "Bilius",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "davey-gudgeon",
+      "glossaryId": null,
+      "labelEn": "Davey Gudgeon",
+      "labelHu": "Davey Gudgeon",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "Lupin recalls a schoolboy nearly losing an eye near the Whomping Willow.",
+      "searchTerms": [
+        "pupil",
+        "diák",
+        "willow",
+        "fűz",
+        "injury",
+        "sérülés"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA10",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Davey Gudgeon",
+          "huLocator": "Davey Gudgeon",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Davey Gudgeon",
+          "huLocator": "Davey Gudgeon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "wendelin-weird",
+      "glossaryId": null,
+      "labelEn": "Wendelin the Weird",
+      "labelHu": "Vadóc Wendelin",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The history book describes a witch repeatedly arranging her own harmless burnings.",
+      "searchTerms": [
+        "witch",
+        "boszorkány",
+        "burning",
+        "máglya",
+        "history",
+        "történelem"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Wendelin the Weird",
+          "huLocator": "Vadóc Wendelin",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Wendelin the Weird",
+          "huLocator": "Vadóc Wendelin",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "montague",
+      "glossaryId": null,
+      "labelEn": "Montague",
+      "labelHu": "Montague",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Slytherin Chaser deliberately blocks Katie in the Quidditch final; no later first name is added.",
+      "searchTerms": [
+        "Slytherin",
+        "Mardekár",
+        "chaser",
+        "hajtó",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Montague",
+          "huLocator": "Montague",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "Montague",
+          "huLocator": "Montague",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "warrington",
+      "glossaryId": null,
+      "labelEn": "Warrington",
+      "labelHu": "Warrington",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The Slytherin Chaser intercepts the Quaffle during the final.",
+      "searchTerms": [
+        "Slytherin",
+        "Mardekár",
+        "chaser",
+        "hajtó",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Warrington",
+          "huLocator": "Warrington",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "Warrington",
+          "huLocator": "Warrington",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "bole",
+      "glossaryId": null,
+      "labelEn": "Bole",
+      "labelHu": "Bole",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "One of the Slytherin Beaters targeting Gryffindor during the final.",
+      "searchTerms": [
+        "Slytherin",
+        "Mardekár",
+        "beater",
+        "terelő",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Bole",
+          "huLocator": "Bole",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "Bole",
+          "huLocator": "Bole",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "derrick",
+      "glossaryId": null,
+      "labelEn": "Derrick",
+      "labelHu": "Derrick",
+      "labelKind": "editorial-label",
+      "entityKind": "human",
+      "aliases": [],
+      "description": "The large Slytherin Beater attacks Harry and the other team during the final.",
+      "searchTerms": [
+        "Slytherin",
+        "Mardekár",
+        "beater",
+        "terelő",
+        "Quidditch",
+        "kviddics"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Derrick",
+          "huLocator": "Derrick",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "Derrick",
+          "huLocator": "Derrick",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "crookshanks",
+      "glossaryId": null,
+      "labelEn": "Crookshanks",
+      "labelHu": "Csámpás",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Hermione's ginger cat recognises the rat's deception and helps Sirius reach the Shack.",
+      "searchTerms": [
+        "cat",
+        "macska",
+        "rat",
+        "patkány",
+        "Sirius",
+        "helper",
+        "segítő"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA20",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "buckbeak",
+      "glossaryId": null,
+      "labelEn": "Buckbeak",
+      "labelHu": "Csikócsőr",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Hagrid's grey hippogriff injures Malfoy and is rescued from execution before carrying Sirius away.",
+      "searchTerms": [
+        "hippogriff",
+        "hippogriff",
+        "rescue",
+        "mentés",
+        "flight",
+        "repülés"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "ripper",
+      "glossaryId": null,
+      "labelEn": "Ripper",
+      "labelHu": "Marcang",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Marge's favourite dog previously chased Harry into a tree; it accompanies her visit.",
+      "searchTerms": [
+        "dog",
+        "kutya",
+        "Marge"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA2",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "testimony",
+          "enLocator": "Ripper",
+          "huLocator": "Marcang",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA2",
+          "enLocator": "Ripper",
+          "huLocator": "Marcang",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "binky",
+      "glossaryId": null,
+      "labelEn": "Binky",
+      "labelHu": "Gombóc",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Lavender's rabbit is reported killed by a fox; the death does not prove her interpretation of the prediction.",
+      "searchTerms": [
+        "rabbit",
+        "nyúl",
+        "Lavender",
+        "death",
+        "halál",
+        "prediction",
+        "jóslat"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA8",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "testimony",
+          "enLocator": "Binky",
+          "huLocator": "Gombócot",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA8",
+          "enLocator": "Binky",
+          "huLocator": "Gombóc",
+          "status": "paired-term-checked"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    },
+    {
+      "id": "sirius-gift-owl",
+      "glossaryId": null,
+      "labelEn": "Sirius's small gift owl",
+      "labelHu": "Sirius ajándékba küldött kis baglya",
+      "labelKind": "editorial-label",
+      "entityKind": "animal",
+      "aliases": [],
+      "description": "Sirius sends a small owl and offers it to Ron to replace his lost rat; its later name is not supplied in this book.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "gift",
+        "ajándék",
+        "Ron",
+        "post",
+        "posta"
+      ],
+      "presence": [
+        {
+          "anchor": "PoA22",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA22",
+          "kind": "event",
+          "enLocator": "minute owl",
+          "huLocator": "apró volt",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "factIds": [],
+      "writingNotes": [],
+      "limits": "Book-three referent and selected claims; editorial labels do not supply absent names or prove reported events were independently witnessed."
+    }
+  ]
+}

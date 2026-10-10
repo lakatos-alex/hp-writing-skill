@@ -1,0 +1,2616 @@
+{
+  "schemaVersion": 1,
+  "book": "PoA",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "marauders-map",
+      "labelEn": "Marauder's Map",
+      "labelHu": "Tekergők Térképe",
+      "labelKind": "editorial-label",
+      "objectKind": "map",
+      "magicStatus": "demonstrated",
+      "aliases": [
+        "Marauders Map",
+        "Tekergők térképe"
+      ],
+      "description": "The parchment displays Hogwarts routes and moving named occupants; its spoken activation and erasure are object operations.",
+      "searchTerms": [
+        "map",
+        "térkép",
+        "occupants",
+        "személyek",
+        "secret",
+        "titkos",
+        "passage",
+        "járat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Marauder’s Map",
+          "huLocator": "TEKERGŐK TÉRKÉPE",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Marauder%27s_Map",
+        "basis": "Checked Wiki object catalogue entry for classification only; novel passages govern events and edition labels.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "time-turner",
+      "labelEn": "Time-Turner",
+      "labelHu": "Időnyerő",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "demonstrated",
+      "aliases": [
+        "Time Turner",
+        "Időnyerő"
+      ],
+      "description": "Hermione turns the pendant three times to take herself and Harry back three hours; no casting formula is supplied.",
+      "searchTerms": [
+        "time",
+        "idő",
+        "travel",
+        "utazás",
+        "hours",
+        "órák",
+        "pendant",
+        "medál",
+        "rescue",
+        "mentés",
+        "turn",
+        "turns",
+        "back",
+        "reverse",
+        "vissza",
+        "forgat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "hour-glass",
+          "huLocator": "homokóra",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA22",
+          "kind": "event",
+          "enLocator": "Time-Turner",
+          "huLocator": "időnyerő",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA21",
+          "enLocator": "Time-Turner",
+          "huLocator": "Időnyerő",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Time-Turner",
+        "basis": "Checked Wiki object catalogue entry for classification only; novel passages govern events and edition labels.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "firebolt",
+      "labelEn": "Firebolt",
+      "labelHu": "Tűzvillám",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Harry admires the advertised racing broom and later flies the Christmas gift; Sirius eventually identifies himself as its sender.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "flying",
+        "repülés",
+        "racing",
+        "verseny",
+        "gift",
+        "ajándék"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA13",
+          "kind": "event",
+          "enLocator": "mounted his Firebolt",
+          "huLocator": "Harry a lába közé kapta",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA22",
+          "kind": "testimony",
+          "enLocator": "sent you the Firebolt",
+          "huLocator": "Tőlem kaptad a Tűzvillámot",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA13",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "pocket-sneakoscope",
+      "labelEn": "Pocket Sneakoscope",
+      "labelHu": "Zsebgyanuszkóp",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Ron's birthday gift spins and whistles; its claimed response to untrustworthy people is explained in his letter.",
+      "searchTerms": [
+        "warning",
+        "figyelmeztetés",
+        "untrustworthy",
+        "megbízhatatlan",
+        "spinning",
+        "forgás",
+        "whistle",
+        "sípol"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "testimony",
+          "enLocator": "Pocket Sneakoscope",
+          "huLocator": "zsebgyanuszkóp",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Sneakoscope",
+          "huLocator": "gyanuszkóp",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Sneakoscope",
+        "basis": "Checked Wiki object catalogue entry for classification only; novel passages govern events and edition labels.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "broomstick-servicing-kit",
+      "labelEn": "Broomstick Servicing Kit",
+      "labelHu": "Seprűkarbantartó készlet",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Hermione's birthday gift contains polish, clippers, a compass and a broom-care handbook.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "maintenance",
+        "karbantartás",
+        "gift",
+        "ajándék"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Broomstick Servicing Kit",
+          "huLocator": "Seprűkarbantartó készlet",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Broomstick Servicing Kit",
+          "huLocator": "Seprűkarbantartó készlet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Broomstick_Servicing_Kit",
+        "basis": "Checked Wiki object catalogue entry for classification only; novel passages govern events and edition labels.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "fleetwood-polish",
+      "labelEn": "Fleetwood's High-Finish Handle Polish",
+      "labelHu": "Fleetwood-féle magasfényű seprűnyélápoló",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The polish is included in Hermione's servicing kit; no enchanted property is shown.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "polish",
+        "ápoló",
+        "maintenance",
+        "karbantartás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Fleetwood’s High-Finish Handle Polish",
+          "huLocator": "Fleetwood-féle magasfényű seprűnyélápoló",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Fleetwood%27s_High-Finish_Handle_Polish",
+        "basis": "Checked Wiki object catalogue entry for classification only; novel passages govern events and edition labels.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "tail-twig-clippers",
+      "labelEn": "Tail-Twig Clippers",
+      "labelHu": "Vesszőmetszőolló",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The silver clippers in the servicing kit trim broom twigs; no magical effect is established.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "trim",
+        "metszés",
+        "maintenance",
+        "karbantartás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Tail-Twig Clippers",
+          "huLocator": "vesszőmetszőolló",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "broom-compass",
+      "labelEn": "Clip-on broom compass",
+      "labelHu": "Seprűre rögzíthető iránytű",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The brass compass in the kit is intended for long broom journeys.",
+      "searchTerms": [
+        "compass",
+        "iránytű",
+        "travel",
+        "utazás",
+        "broom",
+        "seprű"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "tiny brass compass",
+          "huLocator": "réz iránytű",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "broomcare-handbook",
+      "labelEn": "Handbook of Do-it-Yourself Broomcare",
+      "labelHu": "A seprűápolás kézikönyve",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Harry reads the handbook from Hermione's gift and uses thoughts of it to endure Marge's insults.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "broom",
+        "seprű",
+        "maintenance",
+        "karbantartás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Handbook of Do-it-Yourself Broomcare",
+          "huLocator": "A seprűápolás kézikönyvé",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA2",
+          "enLocator": "Handbook of Do-it-Yourself Broomcare",
+          "huLocator": "A seprűápolás kézikönyve",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "monster-book-monsters",
+      "labelEn": "The Monster Book of Monsters",
+      "labelHu": "Szörnyek szörnyű könyve",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Hagrid's textbook bites and tries to escape; stroking the spine calms it so it can be opened.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "biting",
+        "harapó",
+        "spine",
+        "gerinc",
+        "creatures",
+        "lények"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Monster Book of Monsters",
+          "huLocator": "Szörnyek szörnyű könyve",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "forefinger down its spine",
+          "huLocator": "végighúzta mutatóujját a gerincén",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "The Monster Book of Monsters",
+          "huLocator": "Szörnyek szörnyű könyve",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "The Monster Book of Monsters",
+          "huLocator": "Szörnyek szörnyű könyve",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "The Monster Book of Monsters",
+          "huLocator": "Szörnyek szörnyű könyve",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "invisible-book-invisibility",
+      "labelEn": "The Invisible Book of Invisibility",
+      "labelHu": "Láthatatlanság láthatatlan könyve",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The bookseller complains that the purchased stock disappeared; this report does not establish its mechanism.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "invisible",
+        "láthatatlan",
+        "missing",
+        "eltűnt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "testimony",
+          "enLocator": "Invisible Book of Invisibility",
+          "huLocator": "Láthatatlanság láthatatlan könyve",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "The Invisible Book of Invisibility",
+          "huLocator": "Láthatatlanság láthatatlan könyve",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "unfogging-future",
+      "labelEn": "Unfogging the Future",
+      "labelHu": "A jövő zenéje",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Cassandra Vablatsky's textbook introduces Divination methods.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Divination",
+        "jóslástan",
+        "future",
+        "jövő"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Unfogging the Future",
+          "huLocator": "A jövő zenéje",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Unfogging the Future",
+          "huLocator": "A jövő zenéje",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Unfogging the Future",
+          "huLocator": "A jövő zenéje",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Unfogging the Future",
+          "huLocator": "A jövő zenéje",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "intermediate-transfiguration",
+      "labelEn": "Intermediate Transfiguration",
+      "labelHu": "Átváltoztatásról haladóknak",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Harry buys this advanced Transfiguration textbook for the new school year.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "textbook",
+        "tankönyv",
+        "transfiguration",
+        "átváltoztatás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Intermediate Transfiguration",
+          "huLocator": "Átváltoztatásról haladóknak",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Intermediate Transfiguration",
+          "huLocator": "Átváltoztatásról haladóknak",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "standard-book-spells-grade-three",
+      "labelEn": "The Standard Book of Spells, Grade Three",
+      "labelHu": "Varázslástan alapfokon",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The third-year spell textbook Harry buys; the Hungarian title here does not print a grade numeral.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "textbook",
+        "tankönyv",
+        "spells",
+        "varázslástan"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Standard Book of Spells, Grade Three",
+          "huLocator": "Varázslástan alapfokon",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "The Standard Book of Spells, Grade Three",
+          "huLocator": "Varázslástan alapfokon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "predicting-unpredictable",
+      "labelEn": "Predicting the Unpredictable: Insulate Yourself against Shocks",
+      "labelHu": "Nézz szembe a jövővel, avagy: felkészülés a káros meglepetésekre",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A Divination title displayed in the bookshop.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Divination",
+        "jóslástan",
+        "future",
+        "jövő"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Predicting the Unpredictable",
+          "huLocator": "Nézz szembe a jövővel",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Predicting the Unpredictable: Insulate Yourself against Shocks",
+          "huLocator": "Nézz szembe a jövővel, avagy: felkészülés a káros meglepetésekre",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "broken-balls",
+      "labelEn": "Broken Balls: When Fortunes Turn Foul",
+      "labelHu": "Kormos kristálygömb",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A displayed Divination book; the title alone establishes no enchanted property.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Divination",
+        "jóslástan",
+        "crystal",
+        "kristály"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Broken Balls",
+          "huLocator": "Kormos kristálygömb",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Broken Balls: When Fortunes Turn Foul",
+          "huLocator": "Kormos kristálygömb",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "death-omens",
+      "labelEn": "Death Omens: What to Do When You Know the Worst Is Coming",
+      "labelHu": "Halálos ómenek avagy: mi a teendő, ha a sorsunk megpecsételődött?",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The cover's black dog unsettles Harry; the bookseller warns him against reading the book.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "omen",
+        "ómen",
+        "dog",
+        "kutya",
+        "fear",
+        "félelem"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Death Omens",
+          "huLocator": "Halálos ómenek avagy",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Death Omens: What to Do When You Know the Worst Is Coming",
+          "huLocator": "Halálos ómenek avagy: mi a teendő, ha a sorsunk megpecsételődött?",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "history-of-magic",
+      "labelEn": "A History of Magic",
+      "labelHu": "A mágia története",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Bathilda's textbook supplies the witch-burning account for Harry's holiday essay.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "history",
+        "történelem",
+        "witch",
+        "burning",
+        "boszorkányégetés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "History of Magic",
+          "huLocator": "A mágia története",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "A History of Magic",
+          "huLocator": "A mágia története",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "which-broomstick",
+      "labelEn": "Which Broomstick",
+      "labelHu": "A seprűk világa",
+      "labelKind": "editorial-label",
+      "objectKind": "publication",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Harry borrows Wood's guide to broom makes after losing his Nimbus.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "broom",
+        "seprű",
+        "replacement",
+        "pótlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Which Broomstick",
+          "huLocator": "A seprűk világa",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Which Broomstick",
+          "huLocator": "A seprűk világa",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Which Broomstick",
+          "huLocator": "A seprűk világa",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "transfiguration-today",
+      "labelEn": "Transfiguration Today",
+      "labelHu": "Transzformációs Szemle",
+      "labelKind": "editorial-label",
+      "objectKind": "publication",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Wizards at the inn discuss the publication's latest article.",
+      "searchTerms": [
+        "journal",
+        "folyóirat",
+        "transfiguration",
+        "átváltoztatás",
+        "article",
+        "cikk"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Transfiguration Today",
+          "huLocator": "Transzformációs Szemle",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Transfiguration Today",
+          "huLocator": "Transzformációs Szemle",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "daily-prophet",
+      "labelEn": "Daily Prophet",
+      "labelHu": "Reggeli Próféta",
+      "labelKind": "editorial-label",
+      "objectKind": "publication",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The newspaper reports Arthur's draw win and carries a moving family photograph.",
+      "searchTerms": [
+        "newspaper",
+        "újság",
+        "news",
+        "hírek",
+        "photograph",
+        "fénykép"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "moving-photographs",
+      "labelEn": "Moving photographs",
+      "labelHu": "Mozgó fényképek",
+      "labelKind": "editorial-label",
+      "objectKind": "image",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The Weasley family waves in its newspaper photograph; Percy also carries a photograph of Penelope.",
+      "searchTerms": [
+        "photograph",
+        "fénykép",
+        "moving",
+        "mozgó",
+        "family",
+        "család"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "waving furiously",
+          "huLocator": "integet",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA5",
+          "kind": "testimony",
+          "enLocator": "hidden her face under the frame",
+          "huLocator": "elbújt a keret mögé",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "hogsmeade-permission-form",
+      "labelEn": "Hogsmeade permission form",
+      "labelHu": "Roxmortsi engedélyező nyilatkozat",
+      "labelKind": "editorial-label",
+      "objectKind": "document",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Harry needs a parent or guardian signature before visiting the village.",
+      "searchTerms": [
+        "permission",
+        "engedély",
+        "signature",
+        "aláírás",
+        "village",
+        "falu"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "permission form",
+          "huLocator": "engedélyező nyilatkozat",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "sirius-permission-letter",
+      "labelEn": "Sirius's Hogsmeade permission letter",
+      "labelHu": "Sirius roxmortsi engedélye",
+      "labelKind": "editorial-label",
+      "objectKind": "document",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Sirius signs permission for his godson to visit Hogsmeade.",
+      "searchTerms": [
+        "permission",
+        "engedély",
+        "godfather",
+        "keresztapa",
+        "signature",
+        "aláírás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA22",
+          "kind": "event",
+          "enLocator": "I, Sirius Black",
+          "huLocator": "Én, Sirius Black",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "buckbeak-execution-warrant",
+      "labelEn": "Buckbeak execution warrant",
+      "labelHu": "Csikócsőr kivégzési parancsa",
+      "labelKind": "editorial-label",
+      "objectKind": "document",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The warrant names the executioner and the committee; the apparent execution later proves to have missed Buckbeak.",
+      "searchTerms": [
+        "execution",
+        "kivégzés",
+        "warrant",
+        "parancs",
+        "committee",
+        "bizottság"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "Walden Macnair",
+          "huLocator": "Walden Macnair",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "macnair-axe",
+      "labelEn": "Macnair's axe",
+      "labelHu": "Macnair bárdja",
+      "labelKind": "editorial-label",
+      "objectKind": "weapon",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "After Buckbeak disappears, Macnair strikes the fence with his axe; no enchantment of the weapon is established.",
+      "searchTerms": [
+        "axe",
+        "bárd",
+        "execution",
+        "kivégzés",
+        "fence",
+        "kerítés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "swung it into the fence",
+          "huLocator": "kerítésbe vágta bárdját",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "invisibility-cloak",
+      "labelEn": "Invisibility Cloak",
+      "labelHu": "Láthatatlanná tévő köpeny",
+      "labelKind": "editorial-label",
+      "objectKind": "garment",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Harry hides under the cloak on his Hogsmeade outing; later Hallow terminology is not imported.",
+      "searchTerms": [
+        "invisible",
+        "láthatatlan",
+        "hide",
+        "elrejt",
+        "cloak",
+        "köpeny"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA14",
+          "kind": "event",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tévő köpeny",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "ron-new-wand",
+      "labelEn": "Ron's new wand",
+      "labelHu": "Ron új varázspálcája",
+      "labelKind": "editorial-label",
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Ron replaces his broken wand with a willow wand containing a unicorn-hair core. He later lights it with Lumos.",
+      "searchTerms": [
+        "wand",
+        "pálca",
+        "willow",
+        "fűz",
+        "unicorn",
+        "egyszarvú",
+        "replacement",
+        "pótlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "unicorn tail-hair",
+          "huLocator": "egyszarvúszőr",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA13",
+          "kind": "event",
+          "enLocator": "Lumos",
+          "huLocator": "Lumos",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three wand use demonstrates the light effect; no extra property is inferred from its material."
+    },
+    {
+      "id": "nimbus-two-thousand",
+      "labelEn": "Nimbus Two Thousand",
+      "labelHu": "Nimbusz Kétezres",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [
+        "Nimbus 2000",
+        "Nimbusz 2000"
+      ],
+      "description": "Harry's racing broom is destroyed by the Whomping Willow after his storm fall.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "flying",
+        "repülés",
+        "destroyed",
+        "megsemmisült"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "PoA9",
+          "kind": "event",
+          "enLocator": "Whomping Willow",
+          "huLocator": "fúriafűz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "nimbus-two-thousand-one",
+      "labelEn": "Nimbus Two Thousand and One",
+      "labelHu": "Nimbusz Kétezeregyes",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [
+        "Nimbus 2001",
+        "Nimbusz 2001"
+      ],
+      "description": "Malfoy's racing broom is outmatched by Harry's Firebolt in the final.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "flying",
+        "repülés",
+        "Malfoy"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Nimbus Two Thousand and One",
+          "huLocator": "Nimbusz Kétezeregyes",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "cleansweep-seven",
+      "labelEn": "Cleansweep Seven",
+      "labelHu": "Jólsep-R 7",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Pupils compare Ravenclaw's Cleansweep Sevens with Harry's faster Firebolt.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "Ravenclaw",
+        "Hollóhát",
+        "flying",
+        "repülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA12",
+          "kind": "event",
+          "enLocator": "Cleansweep Sevens",
+          "huLocator": "Jólsep-R 7",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "comet-two-sixty",
+      "labelEn": "Comet Two Sixty",
+      "labelHu": "Kométa Kettő-Hatvan",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Cho's broom is named in Wood's discussion of the Ravenclaw match.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "Cho",
+        "flying",
+        "repülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA13",
+          "kind": "event",
+          "enLocator": "Comet Two Sixty",
+          "huLocator": "Kométa Kettő-Hatvan",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "shooting-star",
+      "labelEn": "Shooting Star",
+      "labelHu": "Meteor",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Harry borrows this slow, jerky school broom while he lacks his own.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "school",
+        "iskola",
+        "slow",
+        "lassú",
+        "flying",
+        "repülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "ancient Shooting Star",
+          "huLocator": "ősrégi Meteor",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Shooting Star",
+          "huLocator": "Meteor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "silver-arrow",
+      "labelEn": "Silver Arrow",
+      "labelHu": "Ezüst Nyíl",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Hooch recalls learning to fly on this discontinued broom model.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "flying",
+        "repülés",
+        "old",
+        "régi"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA13",
+          "kind": "testimony",
+          "enLocator": "Silver Arrow",
+          "huLocator": "Ezüst Nyíl",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "rat-tonic",
+      "labelEn": "Rat tonic",
+      "labelHu": "Patkányszirup",
+      "labelKind": "editorial-label",
+      "objectKind": "medicine",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Ron seeks medicine for Scabbers at the animal shop; no curative outcome is established.",
+      "searchTerms": [
+        "rat",
+        "patkány",
+        "medicine",
+        "gyógyszer",
+        "shop",
+        "bolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "rat tonic",
+          "huLocator": "patkányszirup",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "wolfsbane-potion",
+      "labelEn": "Wolfsbane Potion",
+      "labelHu": "Farkasölőfű-főzet",
+      "labelKind": "editorial-label",
+      "objectKind": "potion",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Lupin explains that Snape's potion lets him retain his mind as a wolf; it does not cure the condition.",
+      "searchTerms": [
+        "werewolf",
+        "vérfarkas",
+        "mind",
+        "értelem",
+        "potion",
+        "bájital",
+        "Snape",
+        "Piton"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA18",
+          "kind": "testimony",
+          "enLocator": "Wolfsbane Potion",
+          "huLocator": "farkasölőfű-főzet",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "shrinking-solution",
+      "labelEn": "Shrinking Solution",
+      "labelHu": "Zsugorító főzet",
+      "labelKind": "editorial-label",
+      "objectKind": "potion",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Neville's repaired potion turns Trevor into a tadpole during the classroom test.",
+      "searchTerms": [
+        "shrink",
+        "zsugorít",
+        "tadpole",
+        "ebihal",
+        "toad",
+        "varangy",
+        "potion",
+        "bájital"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "Shrinking Solution",
+          "huLocator": "zsugorító főzet",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "shrinking-antidote",
+      "labelEn": "Shrinking Solution antidote",
+      "labelHu": "Zsugorító főzet ellenszere",
+      "labelKind": "editorial-label",
+      "objectKind": "potion",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Snape's unnamed antidote restores Trevor from tadpole to toad; no formula is supplied.",
+      "searchTerms": [
+        "antidote",
+        "ellenszer",
+        "restore",
+        "helyreállít",
+        "toad",
+        "varangy",
+        "potion",
+        "bájital"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "pulled a small bottle",
+          "huLocator": "elővett egy üvegcsét",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "confusing-concoction",
+      "labelEn": "Confusing Concoction",
+      "labelHu": "Észbontó kompót",
+      "labelKind": "editorial-label",
+      "objectKind": "potion",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Harry fails to thicken this exam potion; no successful effect on a drinker is shown.",
+      "searchTerms": [
+        "confusion",
+        "zavar",
+        "exam",
+        "vizsga",
+        "potion",
+        "bájital"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA16",
+          "kind": "event",
+          "enLocator": "Confusing Concoction",
+          "huLocator": "észbontó kompót",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "butterbeer",
+      "labelEn": "Butterbeer",
+      "labelHu": "Vajsör",
+      "labelKind": "editorial-label",
+      "objectKind": "drink",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The warm drink is served at the Three Broomsticks; no enchantment is established here.",
+      "searchTerms": [
+        "drink",
+        "ital",
+        "pub",
+        "kocsma",
+        "warm",
+        "meleg"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Butterbeer",
+          "huLocator": "vajsör",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA12",
+          "enLocator": "Butterbeer",
+          "huLocator": "Vajsör",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "knight-bus",
+      "labelEn": "Knight Bus",
+      "labelHu": "Kóbor Grimbusz",
+      "labelKind": "editorial-label",
+      "objectKind": "vehicle",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The emergency bus carries stranded magical travellers and fits through traffic in extraordinary ways.",
+      "searchTerms": [
+        "bus",
+        "busz",
+        "travel",
+        "utazás",
+        "emergency",
+        "szükség",
+        "London"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Knight Bus",
+          "huLocator": "Kóbor Grimbusz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Knight Bus",
+          "huLocator": "Kóbor Grimbusz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Knight Bus",
+          "huLocator": "Kóbor Grimbusz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Knight Bus",
+          "huLocator": "Kóbor Grimbusz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "hogwarts-express",
+      "labelEn": "Hogwarts Express",
+      "labelHu": "Roxfort Expressz",
+      "labelKind": "editorial-label",
+      "objectKind": "vehicle",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The school train is stopped by a Dementor search; no engine enchantment is established.",
+      "searchTerms": [
+        "train",
+        "vonat",
+        "school",
+        "iskola",
+        "travel",
+        "utazás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort Expressz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort Expressz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort Expressz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort Expressz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "talking-mirror",
+      "labelEn": "Talking inn mirror",
+      "labelHu": "Beszélő fogadói tükör",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The mirror in Harry's inn room offers unsolicited advice about his hair.",
+      "searchTerms": [
+        "mirror",
+        "tükör",
+        "talking",
+        "beszélő",
+        "hair",
+        "haj"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "mirror in a wheezy voice",
+          "huLocator": "felelte rekedten a tükörképe",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "lunascope",
+      "labelEn": "Lunascope",
+      "labelHu": "Lunaszkóp",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "An inn guest says the instrument replaces moon charts; no use or working mechanism is shown.",
+      "searchTerms": [
+        "moon",
+        "hold",
+        "charts",
+        "naptár",
+        "instrument",
+        "eszköz"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "testimony",
+          "enLocator": "lunascope",
+          "huLocator": "lunaszkóp",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "crystal-ball",
+      "labelEn": "Crystal ball",
+      "labelHu": "Kristálygömb",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Trelawney tests Divination with a crystal ball; Harry's invented answers do not establish the ball's powers.",
+      "searchTerms": [
+        "Divination",
+        "jóslástan",
+        "crystal",
+        "kristály",
+        "prediction",
+        "jóslat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA16",
+          "kind": "event",
+          "enLocator": "crystal ball",
+          "huLocator": "kristálygömb",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "divination-teacups",
+      "labelEn": "Divination teacups",
+      "labelHu": "Jóslástani teáscsészék",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Pupils interpret tea-leaf patterns in cups; the interpretation does not enchant the cups.",
+      "searchTerms": [
+        "tea",
+        "tea",
+        "leaves",
+        "teafű",
+        "Divination",
+        "jóslástan",
+        "cups",
+        "csészék"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "tea leaves",
+          "huLocator": "teafű",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "pepper-imps",
+      "labelEn": "Pepper Imps",
+      "labelHu": "Borsbogyó",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Ron describes the sweets as making the eater breathe smoke; the shop also advertises fiery breath.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "smoke",
+        "füst",
+        "breath",
+        "lehelet"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "testimony",
+          "enLocator": "Pepper Imps",
+          "huLocator": "Borsbogyó",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "chocoballs",
+      "labelEn": "Chocoballs",
+      "labelHu": "Csokipocak",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Ron describes the rich filled chocolate sweets sold at Honeydukes; the two editions describe different fruit fillings.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "chocolate",
+        "csokoládé",
+        "cream",
+        "krém"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Chocoballs",
+          "huLocator": "csokipocak",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "sugar-quills",
+      "labelEn": "Sugar Quills",
+      "labelHu": "Cukorpenna",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The quill-shaped sweets can be eaten in class while appearing to be stationery.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "quill",
+        "penna",
+        "disguise",
+        "álca"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "sugar quills",
+          "huLocator": "cukorpenn",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "fizzing-whizzbees",
+      "labelEn": "Fizzing Whizzbees",
+      "labelHu": "Bűvös Bizsere",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The shop describes these sherbet sweets as making the eater levitate.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "levitate",
+        "lebegtet",
+        "sherbet",
+        "pezsgőcukor"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Fizzing Whizzbees",
+          "huLocator": "Bűvös Bizserével",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "every-flavour-beans",
+      "labelEn": "Bertie Bott's Every Flavour Beans",
+      "labelHu": "Bogoly Berti féle Mindenízű Drazsé",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "A barrel of the named assorted-flavour sweets stands in Honeydukes.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "beans",
+        "drazsé",
+        "flavours",
+        "ízek"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Every Flavour Beans",
+          "huLocator": "Bogoly Berti féle Mindenízű Drazsé",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "droobles-gum",
+      "labelEn": "Drooble's Best Blowing Gum",
+      "labelHu": "Drubli Legjobb Fúvógumija",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The gum produces blue bubbles described as lasting for days.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "gum",
+        "rágógumi",
+        "bubbles",
+        "buborék"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Drooble’s Best Blowing Gum",
+          "huLocator": "Drubli Legjobb Fúvógumija",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "toothflossing-stringmints",
+      "labelEn": "Toothflossing Stringmints",
+      "labelHu": "Mentolos fogselyemcukor",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Hermione considers the string-like mints as presents for her dentist parents.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "mint",
+        "menta",
+        "floss",
+        "fogselyem",
+        "dentist",
+        "fogorvos"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Toothflossing Stringmints",
+          "huLocator": "mentolos fogselyemcuk",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "ice-mice",
+      "labelEn": "Ice Mice",
+      "labelHu": "Mirelit Egér",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The shop advertises the sweets as making teeth chatter and squeak.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "teeth",
+        "fog",
+        "squeak",
+        "cincog",
+        "cold",
+        "hideg"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Ice Mice",
+          "huLocator": "Mirelit Egér",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Ice Mice",
+          "huLocator": "Mirelit Egér",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "peppermint-toads",
+      "labelEn": "Peppermint toad creams",
+      "labelHu": "Mentolkrémes varangyminyon",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The toad-shaped creams are advertised as hopping in the eater's stomach.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "toad",
+        "varangy",
+        "hop",
+        "ugrál",
+        "stomach",
+        "gyomor"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "peppermint creams shaped like toads",
+          "huLocator": "varangy alakú mentolkrémes minyon",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "exploding-bonbons",
+      "labelEn": "Exploding bonbons",
+      "labelHu": "Robbanócukorka",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The exploding sweets are listed in the shop; the passage does not show or explain a detonation.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "explode",
+        "robbanás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "exploding bonbons",
+          "huLocator": "robbanócukorkák",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "jelly-slugs",
+      "labelEn": "Jelly Slugs",
+      "labelHu": "Gumicsiga",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The sweet shop stores and sells the slug-shaped confectionery.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "slug",
+        "csiga"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Jelly Slugs",
+          "huLocator": "gumicsig",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "acid-pops",
+      "labelEn": "Acid Pops",
+      "labelHu": "Sav-a-júj cukor",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Ron reports that one burnt a hole in his tongue when Fred gave it to him.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "acid",
+        "sav",
+        "tongue",
+        "nyelv",
+        "burn",
+        "éget"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "testimony",
+          "enLocator": "Acid Pops",
+          "huLocator": "Sav-a-júj cuk",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "cockroach-clusters",
+      "labelEn": "Cockroach Clusters",
+      "labelHu": "Csótánycsokor",
+      "labelKind": "editorial-label",
+      "objectKind": "sweet",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Ron considers disguising the confectionery as peanuts to trick Fred.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "cockroach",
+        "csótány",
+        "peanuts",
+        "földimogyoró",
+        "prank",
+        "tréfa"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Cockroach Cluster",
+          "huLocator": "Csótánycs",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "stink-pellets",
+      "labelEn": "Stink Pellets",
+      "labelHu": "Bűzpatron",
+      "labelKind": "editorial-label",
+      "objectKind": "joke-item",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Fred needs more of the prank-shop item; no manufacture spell is given.",
+      "searchTerms": [
+        "prank",
+        "tréfa",
+        "smell",
+        "szag",
+        "joke",
+        "tréfabolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Stink Pellets",
+          "huLocator": "bűzpatron",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "belch-powder",
+      "labelEn": "Belch Powder",
+      "labelHu": "Böffentőpor",
+      "labelKind": "editorial-label",
+      "objectKind": "joke-item",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Filch names the novelty powder among the pupils' purchases.",
+      "searchTerms": [
+        "prank",
+        "tréfa",
+        "belch",
+        "böfögés",
+        "powder",
+        "por"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Belch Powder",
+          "huLocator": "böffentőpor",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "whizzing-worms",
+      "labelEn": "Whizzing Worms",
+      "labelHu": "Parittyás féreg",
+      "labelKind": "editorial-label",
+      "objectKind": "joke-item",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Filch names the joke-shop item, without demonstrating its operation.",
+      "searchTerms": [
+        "prank",
+        "tréfa",
+        "worms",
+        "féreg",
+        "joke",
+        "tréfabolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Whizzing Worms",
+          "huLocator": "parittyás férg",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "harry-glasses",
+      "labelEn": "Harry's spectacles",
+      "labelHu": "Harry szemüvege",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Hermione makes Harry's glasses repel rain with Impervius during the storm match.",
+      "searchTerms": [
+        "glasses",
+        "szemüveg",
+        "water",
+        "víz",
+        "rain",
+        "eső",
+        "repel",
+        "taszít"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA9",
+          "kind": "event",
+          "enLocator": "Impervius",
+          "huLocator": "Leperex",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "quidditch-cup",
+      "labelEn": "Quidditch Cup",
+      "labelHu": "Kviddicskupa",
+      "labelKind": "editorial-label",
+      "objectKind": "award",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Gryffindor wins the school trophy after the final against Slytherin.",
+      "searchTerms": [
+        "cup",
+        "kupa",
+        "trophy",
+        "trófea",
+        "win",
+        "győzelem",
+        "sport",
+        "sport"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Quidditch Cup",
+          "huLocator": "A miénk a kupa",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No enchanted property is established here. Use by wizards or a magical subject does not make the item enchanted."
+    },
+    {
+      "id": "golden-snitch",
+      "labelEn": "Golden Snitch",
+      "labelHu": "Aranycikesz",
+      "labelKind": "editorial-label",
+      "objectKind": "ball",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The tiny winged ball flies through the final until Harry catches it.",
+      "searchTerms": [
+        "ball",
+        "labda",
+        "flying",
+        "repülő",
+        "catch",
+        "elkap",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Snitch",
+          "huLocator": "cikesz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "bludger",
+      "labelEn": "Bludger",
+      "labelHu": "Gurkó",
+      "labelKind": "editorial-label",
+      "objectKind": "ball",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The flying balls threaten players during the final and are struck by Beaters.",
+      "searchTerms": [
+        "ball",
+        "labda",
+        "attack",
+        "támadás",
+        "Beater",
+        "terelő",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Bludger",
+          "huLocator": "gurkó",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "quaffle",
+      "labelEn": "Quaffle",
+      "labelHu": "Kvaff",
+      "labelKind": "editorial-label",
+      "objectKind": "ball",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Chasers pass and score with the ball in the Cup final; no specific enchantment is established.",
+      "searchTerms": [
+        "ball",
+        "labda",
+        "Chaser",
+        "hajtó",
+        "score",
+        "pont",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA15",
+          "kind": "event",
+          "enLocator": "Quaffle",
+          "huLocator": "kvaff",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "one-eyed-witch-statue",
+      "labelEn": "One-eyed witch statue",
+      "labelHu": "Félszemű boszorkány szobra",
+      "labelKind": "editorial-label",
+      "objectKind": "statue",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The statue's hump opens under Dissendium to reveal a passage; no historical identity is named here.",
+      "searchTerms": [
+        "statue",
+        "szobor",
+        "passage",
+        "járat",
+        "secret",
+        "titkos",
+        "opening",
+        "nyitás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "one-eyed witch",
+          "huLocator": "félszemű boszork",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "howler",
+      "labelEn": "Howler",
+      "labelHu": "Rivalló",
+      "labelKind": "editorial-label",
+      "objectKind": "letter",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Neville's grandmother sends a loud reprimand after he exposes the tower passwords.",
+      "searchTerms": [
+        "letter",
+        "levél",
+        "shout",
+        "kiabál",
+        "password",
+        "jelszó",
+        "reprimand",
+        "feddés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA14",
+          "kind": "event",
+          "enLocator": "Howler",
+          "huLocator": "Rivalló",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA14",
+          "enLocator": "Howler",
+          "huLocator": "Rivalló",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "christmas-crackers",
+      "labelEn": "Wizard Christmas crackers",
+      "labelHu": "Varázslókarácsonyi bonbonok",
+      "labelKind": "editorial-label",
+      "objectKind": "joke-item",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The table crackers produce surprising hats and gifts; no conjuring formula is assigned.",
+      "searchTerms": [
+        "Christmas",
+        "karácsony",
+        "crackers",
+        "bonbon",
+        "gifts",
+        "ajándék",
+        "hats",
+        "kalap"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA11",
+          "kind": "event",
+          "enLocator": "Crackers",
+          "huLocator": "bonbon",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "A book-three event, explicit description or attributed report establishes the stated property. This need not be an independently witnessed test. No manufacturing spell is inferred."
+    },
+    {
+      "id": "galleon",
+      "labelEn": "Galleon",
+      "labelHu": "Galleon",
+      "labelKind": "editorial-label",
+      "objectKind": "currency",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Gold wizarding money pays for purchases; no enchanted coin mechanism is established.",
+      "searchTerms": [
+        "money",
+        "pénz",
+        "gold",
+        "arany",
+        "currency",
+        "pénznem"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Galleon",
+          "huLocator": "Galleon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    },
+    {
+      "id": "sickle",
+      "labelEn": "Sickle",
+      "labelHu": "Sarló",
+      "labelKind": "editorial-label",
+      "objectKind": "currency",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Silver coins pay for the bus fare; no coin enchantment is established.",
+      "searchTerms": [
+        "money",
+        "pénz",
+        "silver",
+        "ezüst",
+        "fare",
+        "viteldíj"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Eleven Sickles",
+          "huLocator": "tizenegy sarló",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "An enchantment or its specific mechanism is not established in this book."
+    }
+  ]
+}

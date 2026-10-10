@@ -74,6 +74,7 @@ export function validateBookKnowledge(base = ROOT, book = 'PS') {
     check(entry.presence.every(presence => entry.evidence.some(item => item.anchor === presence.anchor)), `Character presence lacks evidence: ${entry.id}`);
   }
   const magicIds = new Set(magic.entries.map(entry => entry.id)); check(magicIds.size === magic.entries.length, 'Duplicate magic ID');
+  const eventIds = new Set();
   for (const entry of magic.entries) {
     check(identifier(entry.id), 'Invalid magic ID');
     check(entry.kind === 'spell', `Non-spell in spell index: ${entry.id}`);
@@ -99,6 +100,15 @@ export function validateBookKnowledge(base = ROOT, book = 'PS') {
       check(isNfc(report.limits) && report.limits.trim(), `Class report needs identity limits: ${entry.id}`);
     }
     for (const occurrence of entry.occurrences) {
+      if (occurrence.eventId != null) {
+        check(identifier(occurrence.eventId) && !eventIds.has(occurrence.eventId), `Invalid or duplicate casting event ID: ${entry.id}`);
+        eventIds.add(occurrence.eventId);
+      }
+      if (occurrence.observationEvidence != null) {
+        check(occurrence.eventId != null, `Observation needs casting event ID: ${entry.id}`);
+        evidence(occurrence.observationEvidence, `Casting observation ${entry.id}`, characterIds);
+        check(occurrence.observationEvidence.every(e => e.kind === 'event' && e.anchor !== occurrence.anchor), `Observation needs another viewpoint anchor: ${entry.id}`);
+      }
       check(occurrence.practitionerIds?.length && occurrence.practitionerIds.every(id => characters.entries.some(c => c.id === id && c.entityKind === 'human')), `Spell needs human caster: ${entry.id}`);
       check(['spoken','non-verbal','unreported'].includes(occurrence.vocalisation), `Invalid vocalisation: ${entry.id}`);
       check(['used','not-used','unreported'].includes(occurrence.wand), `Invalid wand status: ${entry.id}`);

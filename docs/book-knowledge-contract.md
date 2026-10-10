@@ -2,7 +2,7 @@
 
 This is the data and private-research contract for the book datasets. It
 does not certify semantic completeness. Policy-2 validation requires the scoped
-PS and CoS inventories to represent all 17 and 18 chapters respectively; this
+PS, CoS and PoA inventories to represent all 17, 18 and 22 chapters respectively; this
 does not certify full reading. The private candidate-ledger format below remains
 PS-specific; other books' targeted inventories do not imply that ledger exists.
 
@@ -88,8 +88,8 @@ scaffold is deliberately `not-started` and never represents complete coverage.
 
 ## Policy 2 retrieval extensions
 
-The PS and CoS entity envelopes remain schema version 1 with `policyVersion: 2`
-and their respective `book` value; folders are `ps` and `cos`.
+The PS, CoS and PoA entity envelopes remain schema version 1 with `policyVersion: 2`
+and their respective `book` value; folders are `ps`, `cos` and `poa`.
 `magic.json` is now an identified-spell index: all entries have `kind: spell`.
 The historical wider magic taxonomy above describes the superseded pilot.
 Each occurrence needs non-empty human `practitionerIds`, `vocalisation`
@@ -108,6 +108,15 @@ the entry's exact formula to those events. Each report needs human
 `practitionerIds`, paired testimony evidence and `limits` spelling out what is
 unattested. CoS reports of Memory Charms use this field rather than adding
 formula-attested `Obliviate` occurrences or inventing an individual cast count.
+
+Optional occurrence `eventId` is a unique casting-event identifier within the
+book inventory. `observationEvidence` requires that identifier and paired
+event evidence at a different chapter in the same book. It describes another
+view of the same event, contributes retrieval anchors and evidence counts,
+and does not add a casting row. PoA's lake rescue uses this field for the PoA20
+observation of Harry's PoA21 cast. Do not give repeated viewpoints separate
+casting rows or duplicate event IDs. Grouped practice remains separate from
+individually counted physical casts.
 
 All four indexes (`characters`, `magic`, `places`, `objects`) have original
 `description`, `aliases` and bilingual `searchTerms`. Identity IDs are unique
@@ -140,20 +149,20 @@ exhaustive literary or independent semantic review.
 
 ## Validation commands
 
-Run `node tools/validate_book_knowledge.mjs` for both supported inventories, or
-add `--book PS` / `--book CoS` for one. Add
+Run `node tools/validate_book_knowledge.mjs` for all supported inventories, or
+add `--book PS`, `--book CoS` or `--book PoA` for one. Add
 `--private-progress original-sources/research/ps/progress.local.json` to verify
 the private ledger, and `--candidates DIR` to reconcile private candidate
 counts; private progress validation remains PS-only. Source checking is separate:
-`node tools/verify_sources.mjs original-sources` verifies every published PS/CoS
+`node tools/verify_sources.mjs original-sources` verifies every published PS/CoS/PoA
 evidence locator in both supplied languages, including explicit later
 identifications. It also checks inventory source hashes against the catalogues.
 
-`hp.mjs stats [--book PS|CoS]` counts the four indexes. Characters equal people
+`hp.mjs stats [--book PS|CoS|PoA]` counts the four indexes. Characters equal people
 plus animals; records are summed per book, not deduplicated across books.
 Casting rows may group practice or reports. Contextual evidence counts every
 stored pair in entity evidence, identification, later incantation, occurrences,
-non-verbal evidence and class reports. Literal mention pairs are counted
+non-verbal evidence, observation evidence and class reports. Literal mention pairs are counted
 separately. Repeated locators count again; neither measure denotes independent
 readings or unique passages. Source verification reconciles its locator count
 with these counts.

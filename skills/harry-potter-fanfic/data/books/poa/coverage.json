@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "book": "PoA",
+  "policyVersion": 2,
+  "sourceManifests": {
+    "en": "data/source-coverage.json",
+    "hu": "data/source-coverage-hu.json"
+  },
+  "chapters": [
+    {
+      "anchor": "PoA1",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA2",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA3",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA4",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA5",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA6",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA7",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA8",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA9",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA10",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA11",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA12",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA13",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA14",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA15",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA16",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA17",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA18",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA19",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA20",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA21",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "PoA22",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    }
+  ],
+  "categoryCounts": {
+    "characters": 89,
+    "magic": 14,
+    "places": 56,
+    "objects": 72,
+    "terms": 0,
+    "facts": 0
+  },
+  "candidateDisposition": {
+    "pending": 0,
+    "accepted": 231,
+    "merged": 0,
+    "excluded": 0,
+    "unresolved": 0
+  },
+  "reviewDate": "2026-10-10",
+  "limitations": [
+    "The scoped inventory represents all 22 chapters through selected paired evidence and literal mentions. Independent whole-book semantic reading and editorial review remain incomplete.",
+    "Peter Pettigrew and Scabbers share one human record. Sirius and his dog form share one record. Whole-book records include later reveals; chapter filters are not scene-knowledge cutoffs.",
+    "The lake rescue Patronus has one casting row and separate observation evidence for its other viewpoint. Grouped practice and reported repeated uses do not count physical casts.",
+    "Unidentified effects, creature abilities, Animagus changes, Time-Turner and Map operations are excluded from spell results. No omitted formula is certified non-verbal.",
+    "Hungarian labels follow the indexed edition, including Exlukhops, Comikulissimus, Kométa Kettő-Hatvan, Észbontó kompót and Bűvös Bizsere."
+  ],
+  "retrievalPass": {
+    "policyVersion": 2,
+    "state": "complete",
+    "scope": "Curated identifiable characters and significant places, notable object types and titles, and identified human spells across PoA1–PoA22.",
+    "chapterAnchors": [
+      "PoA1",
+      "PoA2",
+      "PoA3",
+      "PoA4",
+      "PoA5",
+      "PoA6",
+      "PoA7",
+      "PoA8",
+      "PoA9",
+      "PoA10",
+      "PoA11",
+      "PoA12",
+      "PoA13",
+      "PoA14",
+      "PoA15",
+      "PoA16",
+      "PoA17",
+      "PoA18",
+      "PoA19",
+      "PoA20",
+      "PoA21",
+      "PoA22"
+    ],
+    "reviewMethod": "Targeted paired evidence review and explicit inclusion and exclusion decisions; independent full-book semantic reading not performed.",
+    "sourceHashes": {
+      "en": "77686a0ef2e7304331535f5d907fc008a488dcce33b402d82febae598c7070ab",
+      "hu": "698e57acf3e210ad4da1c5dd8d0729fd6804a85c8484cb17920f4e36d193e611"
+    }
+  }
+}

@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": 1,
+  "book": "PoA",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "flame-freezing-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Flame-Freezing Charm",
+      "labelHu": "Hőhűtő bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The history account describes a charm that makes burning harmless and ticklish, including Wendelin's repeated captures. No incantation is supplied.",
+      "searchTerms": [
+        "fire",
+        "flame",
+        "heat",
+        "freezing",
+        "harmless",
+        "tickle",
+        "tűz",
+        "láng",
+        "hő",
+        "csiklandoz",
+        "máglya"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA1",
+            "kind": "testimony",
+            "enLocator": "Flame-Freezing Charm",
+            "huLocator": "hőhűtő bűbáj",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA1",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "wendelin-weird"
+          ],
+          "targetIds": [
+            "wendelin-weird"
+          ],
+          "summary": "The textbook reports Wendelin repeatedly enduring witch-burning under the named protective charm.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA1",
+              "kind": "testimony",
+              "enLocator": "Flame-Freezing Charm",
+              "huLocator": "hőhűtő bűbáj",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "lumos",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Lumos",
+      "labelHu": "Lumos",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The wand-light spell illuminates dark streets, tunnels and grounds.",
+      "searchTerms": [
+        "light",
+        "illuminate",
+        "wand",
+        "tip",
+        "fény",
+        "világítás",
+        "pálca",
+        "sötét"
+      ],
+      "incantation": {
+        "en": "Lumos",
+        "hu": "Lumos"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA3",
+            "kind": "event",
+            "enLocator": "Lumos",
+            "huLocator": "Lumos",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA3",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights his wand after leaving the Dursleys.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA3",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights the Honeydukes passage.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA10",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA13",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron lights his wand while looking toward Crookshanks in the grounds.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA13",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights his wand during the pursuit beneath the Willow.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA17",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "nox",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Nox",
+      "labelHu": "Nox",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The counter-spell extinguishes the wand-tip lights.",
+      "searchTerms": [
+        "light",
+        "extinguish",
+        "dark",
+        "fény",
+        "kiolt",
+        "sötét"
+      ],
+      "incantation": {
+        "en": "Nox",
+        "hu": "Nox"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA17",
+            "kind": "event",
+            "enLocator": "they whispered together",
+            "huLocator": "suttogták kórusban",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Harry and Hermione extinguish their lights together on the Shack landing.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA17",
+              "kind": "event",
+              "enLocator": "they whispered together",
+              "huLocator": "suttogták kórusban",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "waddiwasi",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Waddiwasi",
+      "labelHu": "Exlukhops",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Lupin propels the obstructing gum from a keyhole into Peeves's nostril.",
+      "searchTerms": [
+        "gum",
+        "keyhole",
+        "propel",
+        "rágógumi",
+        "kulcslyuk",
+        "kilő",
+        "orr"
+      ],
+      "incantation": {
+        "en": "Waddiwasi",
+        "hu": "Exlukhops"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA7",
+            "kind": "event",
+            "enLocator": "Waddiwasi",
+            "huLocator": "Exlukhops",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [
+            "peeves"
+          ],
+          "summary": "Lupin directs the gum at Peeves with the named spell.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "Waddiwasi",
+              "huLocator": "Exlukhops",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "riddikulus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Riddikulus",
+      "labelHu": "Comikulissimus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Boggart counter-spell forces a comic form; laughter completes its defeat.",
+      "searchTerms": [
+        "fear",
+        "funny",
+        "Boggart",
+        "counter",
+        "laughter",
+        "félelem",
+        "nevetséges",
+        "mumus",
+        "nevetés"
+      ],
+      "incantation": {
+        "en": "Riddikulus",
+        "hu": "Comikulissimus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA7",
+            "kind": "event",
+            "enLocator": "long, lace-trimmed dress",
+            "huLocator": "csipkeszegélyes ruhában",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Neville dresses the Snape-shaped Boggart in his grandmother's clothes.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "long, lace-trimmed dress",
+              "huLocator": "csipkeszegélyes ruhában",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "parvati-patil"
+          ],
+          "targetIds": [],
+          "summary": "Parvati makes the mummy Boggart trip and lose its head.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "cried Parvati",
+              "huLocator": "kiáltotta Parvati",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "seamus-finnigan"
+          ],
+          "targetIds": [],
+          "summary": "Seamus makes the banshee Boggart lose its voice.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "shouted Seamus",
+              "huLocator": "ordította Seamus",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "dean-thomas"
+          ],
+          "targetIds": [],
+          "summary": "Dean traps the severed-hand Boggart in a mousetrap.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "yelled Dean",
+              "huLocator": "rikkantotta Dean",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron removes the spider Boggart's legs.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "bellowed Ron",
+              "huLocator": "bődült fel Ron",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [],
+          "summary": "Lupin changes the silvery orb Boggart into a cockroach.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "almost lazily",
+              "huLocator": "hanyagul felemelte a pálcáját",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Neville repeats the comic Snape transformation and laughs, finishing the Boggart.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA7",
+              "kind": "event",
+              "enLocator": "great ‘Ha!’",
+              "huLocator": "nagymamajelmezt",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA12",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [],
+          "summary": "Lupin ends Harry's third Boggart-Dementor practice confrontation.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA12",
+              "kind": "event",
+              "enLocator": "Riddikulus",
+              "huLocator": "Comikulissimus",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "impervius",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Impervius",
+      "labelHu": "Leperex",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The charm makes Harry's spectacles repel rain.",
+      "searchTerms": [
+        "water",
+        "rain",
+        "repel",
+        "glasses",
+        "víz",
+        "eső",
+        "taszít",
+        "szemüveg"
+      ],
+      "incantation": {
+        "en": "Impervius",
+        "hu": "Leperex"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA9",
+            "kind": "event",
+            "enLocator": "Impervius",
+            "huLocator": "Leperex",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione taps Harry's glasses and makes them water-repellent.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA9",
+              "kind": "event",
+              "enLocator": "Impervius",
+              "huLocator": "Leperex",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "dissendium",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Dissendium",
+      "labelHu": "Dissendium",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The spell opens the one-eyed witch statue's hump, admitting Harry to the Honeydukes passage. No general unlocking ability is inferred.",
+      "searchTerms": [
+        "open",
+        "passage",
+        "statue",
+        "hump",
+        "nyit",
+        "járat",
+        "szobor",
+        "púp",
+        "titkos"
+      ],
+      "incantation": {
+        "en": "Dissendium",
+        "hu": "Dissendium"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA10",
+            "kind": "event",
+            "enLocator": "Dissendium",
+            "huLocator": "Dissendium",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry taps the witch statue and opens the concealed passage.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA10",
+              "kind": "event",
+              "enLocator": "Dissendium",
+              "huLocator": "Dissendium",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry opens the statue again and hides his bag in the passage.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA14",
+              "kind": "event",
+              "enLocator": "Dissendium",
+              "huLocator": "Dissendium",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "mobiliarbus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Mobiliarbus",
+      "labelHu": "Mobiliarbus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione moves a Christmas tree to conceal the table in the pub.",
+      "searchTerms": [
+        "move",
+        "tree",
+        "levitate",
+        "hide",
+        "mozgat",
+        "fa",
+        "lebegtet",
+        "elrejt"
+      ],
+      "incantation": {
+        "en": "Mobiliarbus",
+        "hu": "Mobiliarbus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA10",
+            "kind": "event",
+            "enLocator": "Mobiliarbus",
+            "huLocator": "Mobiliarbus",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione shifts the tree in front of their table to hide Harry.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA10",
+              "kind": "event",
+              "enLocator": "Mobiliarbus",
+              "huLocator": "Mobiliarbus",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "expelliarmus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Expelliarmus",
+      "labelHu": "Capitulatus",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Disarming Charm",
+        "Lefegyverző bűbáj"
+      ],
+      "description": "The Disarming Charm removes held wands; the simultaneous cast against Snape also knocks him unconscious.",
+      "searchTerms": [
+        "disarm",
+        "disarming",
+        "remove",
+        "wand",
+        "lefegyverzés",
+        "eltávolít",
+        "pálca"
+      ],
+      "incantation": {
+        "en": "Expelliarmus",
+        "hu": "Capitulatus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA17",
+            "kind": "event",
+            "enLocator": "he croaked",
+            "huLocator": "mordult fel Black",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "sirius-black"
+          ],
+          "targetIds": [
+            "harry-potter",
+            "hermione"
+          ],
+          "summary": "Sirius uses Ron's wand to disarm Harry and Hermione.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA17",
+              "kind": "event",
+              "enLocator": "he croaked",
+              "huLocator": "mordult fel Black",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [
+            "harry-potter",
+            "hermione"
+          ],
+          "summary": "Lupin disarms the pupils of the three wands they hold.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA17",
+              "kind": "event",
+              "enLocator": "Lupin shouted",
+              "huLocator": "kiáltotta Lupin",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "ron",
+            "hermione"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "The three pupils cast simultaneously at Snape, blasting him into the wall.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA19",
+              "kind": "event",
+              "enLocator": "wasn’t the only voice",
+              "huLocator": "két másik hang",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA20",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "peter-pettigrew"
+          ],
+          "summary": "Harry disarms Pettigrew of Lupin's wand, but cannot prevent the escape.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA20",
+              "kind": "event",
+              "enLocator": "pointing his own wand at Pettigrew",
+              "huLocator": "Pettigrew-ra szegezte",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "ferula",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Ferula",
+      "labelHu": "Ferula",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Lupin supplies bandages and a splint for Ron's broken leg; this is temporary support, not bone regrowth.",
+      "searchTerms": [
+        "bandages",
+        "splint",
+        "leg",
+        "support",
+        "kötés",
+        "sín",
+        "láb",
+        "támasz"
+      ],
+      "incantation": {
+        "en": "Ferula",
+        "hu": "Ferula"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA19",
+            "kind": "event",
+            "enLocator": "Ferula",
+            "huLocator": "Ferula",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Lupin taps Ron's leg, producing a tight splint and bandages.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA19",
+              "kind": "event",
+              "enLocator": "Ferula",
+              "huLocator": "Ferula",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "mobilicorpus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Mobilicorpus",
+      "labelHu": "Mobilicorpus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The spell lifts the unconscious Snape so he can be transported.",
+      "searchTerms": [
+        "body",
+        "levitate",
+        "carry",
+        "unconscious",
+        "test",
+        "lebegtet",
+        "szállít",
+        "ájult"
+      ],
+      "incantation": {
+        "en": "Mobilicorpus",
+        "hu": "Mobilicorpus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA19",
+            "kind": "event",
+            "enLocator": "Mobilicorpus",
+            "huLocator": "Mobilicorpus",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "Lupin raises Snape into a suspended standing position.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA19",
+              "kind": "event",
+              "enLocator": "Mobilicorpus",
+              "huLocator": "Mobilicorpus",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "alohomora",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Alohomora",
+      "labelHu": "Alohomora",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione unlocks the tower window to let Sirius escape.",
+      "searchTerms": [
+        "unlock",
+        "opening",
+        "locked",
+        "window",
+        "nyitás",
+        "kinyit",
+        "zár",
+        "ablak"
+      ],
+      "incantation": {
+        "en": "Alohomora",
+        "hu": "Alohomora"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA21",
+            "kind": "event",
+            "enLocator": "Alohomora",
+            "huLocator": "Alohomora",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA21",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione opens Sirius's locked window from Buckbeak's back.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA21",
+              "kind": "event",
+              "enLocator": "Alohomora",
+              "huLocator": "Alohomora",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    },
+    {
+      "id": "cheering-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Cheering Charm",
+      "labelHu": "Vidító varázs",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's over-strong exam charm makes Ron laugh hysterically. The book supplies no formula.",
+      "searchTerms": [
+        "cheer",
+        "happiness",
+        "laughter",
+        "contentment",
+        "vidító",
+        "öröm",
+        "nevetés",
+        "derű"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA16",
+            "kind": "event",
+            "enLocator": "Harry slightly overdid",
+            "huLocator": "Harry izgalmában",
+            "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA16",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Harry overdoes the exam charm; Ron needs an hour to recover.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA16",
+              "kind": "event",
+              "enLocator": "Harry slightly overdid",
+              "huLocator": "Harry izgalmában",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts.",
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "Cheering Charm",
+          "huLocator": "vidító varázs",
+          "status": "paired-term-checked"
+        }
+      ]
+    },
+    {
+      "id": "patronus-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Patronus Charm",
+      "labelHu": "Patrónus-bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Expecto Patronum",
+        "Expecto patronum",
+        "Patronus",
+        "Patrónus"
+      ],
+      "description": "The defensive charm produces a positive guardian against Dementors. Harry's practice includes failed and partial results before the successful stag rescue.",
+      "searchTerms": [
+        "defence",
+        "Dementor",
+        "guardian",
+        "shield",
+        "stag",
+        "happy",
+        "memory",
+        "védelem",
+        "dementor",
+        "védőszellem",
+        "pajzs",
+        "szarvas",
+        "boldog",
+        "emlék",
+        "repel",
+        "repels",
+        "elűz",
+        "protect",
+        "védelem"
+      ],
+      "incantation": {
+        "en": "Expecto Patronum",
+        "hu": "Expecto patronum"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PoA12",
+            "kind": "event",
+            "enLocator": "Patronus Charm",
+            "huLocator": "patrónus-bűbáj",
+            "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PoA12",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Grouped practice includes faint wisps, collapses against the Boggart and a protective cloud; it is not one uniformly successful cast.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA12",
+              "kind": "event",
+              "enLocator": "Expecto patronum",
+              "huLocator": "Expecto patronum",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA13",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "malfoy",
+            "crabbe",
+            "goyle",
+            "marcus-flint"
+          ],
+          "summary": "Harry casts at the disguised Slytherins during the Ravenclaw match; they are not real Dementors.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA13",
+              "kind": "event",
+              "enLocator": "Expecto patronum",
+              "huLocator": "Expecto patronum",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA20",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry repeatedly produces weak mist at the lake but cannot protect the group until the other-bank rescue.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA20",
+              "kind": "event",
+              "enLocator": "thin wisp of silver",
+              "huLocator": "vékony, ezüstszín füstcsík",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA20",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione tries the formula when Harry asks for help but fails to complete a successful cast.",
+          "vocalisation": "spoken",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PoA20",
+              "kind": "event",
+              "enLocator": "Hermione, help me",
+              "huLocator": "Expecto... – suttogta Hermione",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PoA21",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry after travelling back casts a full stag from the opposite shore and drives off the Dementors; PoA20 observes this same rescue.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PoA21",
+              "kind": "event",
+              "enLocator": "EXPECTO PATRONUM",
+              "huLocator": "EXPECTO PATRONUM",
+              "scope": "Specific casting or grouped practice in the surrounding passage; the row is not a count of physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "eventId": "poa-lake-rescue-patronus",
+          "observationEvidence": [
+            {
+              "anchor": "PoA20",
+              "kind": "event",
+              "enLocator": "animal amidst the light",
+              "huLocator": "Egy nagy testű állatot",
+              "scope": "The earlier Harry observes the rescue cast in PoA21; this is another view of that event, not an additional cast.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Unknown words do not establish non-verbal casting. Grouped practice and reports are not counts of individual casts."
+    }
+  ]
+}

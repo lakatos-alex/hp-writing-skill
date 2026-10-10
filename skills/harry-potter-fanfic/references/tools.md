@@ -14,11 +14,11 @@ The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no thir
 | `align` | Read an English/Hungarian chapter pair with independent offsets | None |
 | `facts` | Filter bundled original evidence cards | None |
 | `glossary` | Find English/Hungarian terms, aliases and usage notes | None |
-| `semantic` | Rank PS/CoS people, places, objects and spells by aliases and bilingual concepts | None |
+| `semantic` | Rank PS/CoS/PoA people, places, objects and spells by aliases and bilingual concepts | None |
 | `characters`, `people` | Find characters; `people` excludes animals | None |
 | `spells`, `magic` | Find identified human-cast spells; `magic` is a compatibility alias | None |
-| `places`, `objects` | Find PS/CoS settings and notable objects, with explicit object magic status | None |
-| `coverage` | Report inventory and reading/review states for PS/CoS | None |
+| `places`, `objects` | Find PS/CoS/PoA settings and notable objects, with explicit object magic status | None |
+| `coverage` | Report inventory and reading/review states for PS/CoS/PoA | None |
 | `stats` | Count per-book semantic records, casting rows and stored evidence pairs | None |
 | `lint-hu` | Flag English headwords that may be inconsistent with a Hungarian draft | None |
 | `audit` | Count manuscript words and find long duplicate paragraphs | None |
@@ -28,7 +28,7 @@ The data-only commands `chapters`, `facts` and `glossary` work without books. Th
 
 ## Concept retrieval
 
-The source-free inventories represent PS1–PS17 and CoS1–CoS18. PS contains 117 characters (seven typed as animals), 53 places, 70 objects and six identified spells. CoS contains 97 characters (nine typed as animals), 47 places, 75 objects and eight spells. These are curated inventories of named and significant referents, not every noun. Targeted passage review and literal bilingual mentions are separate from independent full-book semantic reading, which remains incomplete. Query `coverage` for both states and `stats` for counts. Other typed book datasets are planned; unsupported book requests fail visibly.
+The source-free inventories represent PS1–PS17, CoS1–CoS18 and PoA1–PoA22. PS contains 117 characters (seven typed as animals), 53 places, 70 objects and six identified spells. CoS contains 97 characters (nine typed as animals), 47 places, 75 objects and eight spells. PoA contains 89 characters (11 typed as animals), 56 places, 72 objects and 14 spells. These are curated inventories of named and significant referents, not every noun. Targeted passage review and literal bilingual mentions are separate from independent full-book semantic reading, which remains incomplete. Query `coverage` for both states and `stats` for counts. Other typed book datasets are planned; unsupported book requests fail visibly.
 
 ```sh
 node scripts/hp.mjs characters --book PS --id harry-potter
@@ -44,18 +44,22 @@ node scripts/hp.mjs spells --book CoS --query "erase memory"
 node scripts/hp.mjs people --book CoS --query "Tom Denem"
 node scripts/hp.mjs objects --book CoS --query "diary memory possession"
 node scripts/hp.mjs coverage --book CoS
+node scripts/hp.mjs spells --book PoA --query "repel Dementors"
+node scripts/hp.mjs objects --book PoA --query "travel time"
+node scripts/hp.mjs people --book PoA --query "Makesz"
+node scripts/hp.mjs coverage --book PoA
 node scripts/hp.mjs stats
 ```
 
-Entity results use `total`, `offset`, `nextOffset` and `entries`; choose either `--id` or `--query`. Each hit includes its category, ranking score, matched fields and chapter anchors. `--category person|animal|place|object|spell` filters unified retrieval; `--kind` filters entity kinds, and `--anchor PS1` or `--anchor CoS11` selects evidence or literal mentions within the chosen book. Characters include animals; people exclude them. `objects --magic-status demonstrated|ordinary|not-established` separates demonstrated properties from ordinary objects and uncertain enchantment. Object classification alone never establishes magic.
+Entity results use `total`, `offset`, `nextOffset` and `entries`; choose either `--id` or `--query`. Each hit includes its category, ranking score, matched fields and chapter anchors. `--category person|animal|place|object|spell` filters unified retrieval; `--kind` filters entity kinds, and `--anchor PS1`, `--anchor CoS11` or `--anchor PoA21` selects evidence or literal mentions within the chosen book. Characters include animals; people exclude them. `objects --magic-status demonstrated|ordinary|not-established` separates demonstrated properties from ordinary objects and uncertain enchantment. Object classification alone never establishes magic.
 
 Ranking uses curated aliases, concept synonym groups and original descriptions, with exact names first and accent-insensitive English/Hungarian matching. It requires every meaningful query term; it does not embed the novels or call a model. Common request words are ignored; a single explicit category word, or `who`/`where`, can select a category. Unmapped wording can return no results. Use simpler concepts or literal source search when necessary. Scores are ranking weights, not confidence probabilities. Negative results are not canon-absence proof.
 
-Spells require identified deliberate human casting, with or without a wand. Known failed casts qualify. Accidental magic, creature abilities, potions, object behaviour, uncast theory and unidentified effects do not. `vocalisation` is `spoken`, `non-verbal` or `unreported`; missing words do not prove silence. Bluebell Flames and the CoS Freezing Charm have unknown incantations. The Killing Curse's PS4 reports have separate GoF14 identification and incantation evidence. Later identification is explicit metadata, not knowledge available to a PS character. No PS/CoS occurrence currently has proven non-verbal casting. CoS Memory Charm class reports appear under `reportedClassUses`; they do not certify the formula `Obliviate` for those events. Its attested attempt uses Hungarian `Exmemoriam`; `Expelliarmus` uses `Capitulatus`.
+Spells require identified deliberate human casting, with or without a wand. Known failed casts qualify. Accidental magic, creature abilities, potions, object behaviour, uncast theory and unidentified effects do not. `vocalisation` is `spoken`, `non-verbal` or `unreported`; missing words do not prove silence. Bluebell Flames and the CoS Freezing Charm have unknown incantations. The Killing Curse's PS4 reports have separate GoF14 identification and incantation evidence. Later identification is explicit metadata, not knowledge available to a PS character. No PS/CoS/PoA occurrence currently has proven non-verbal casting. CoS Memory Charm class reports appear under `reportedClassUses`; they do not certify the formula `Obliviate` for those events. Its attested attempt uses Hungarian `Exmemoriam`; `Expelliarmus` uses `Capitulatus`. PoA uses `Exlukhops` for Waddiwasi, `Comikulissimus` for Riddikulus and `Leperex` for Impervius.
 
-The chapter filter selects whole records; descriptions may contain later events within the chosen book, and explicitly marked later spell identification. It is not a scene knowledge cutoff. Tom Riddle and Voldemort share one CoS identity, including that book's reveal. Paged facts use the pagination fields and `facts`; legacy unpaged facts return an array, and `--limit`/`--offset` require `--page`. The evidence-card/glossary layer retains its own selective review coverage; its `--book` projection remains PS-only. Unfiltered cards span selected claims across the series. The typed inventories do not certify all older claims.
+The chapter filter selects whole records; descriptions may contain later events within the chosen book, and explicitly marked later spell identification. It is not a scene knowledge cutoff. Tom Riddle and Voldemort share one CoS identity, including that book's reveal. Scabbers/Peter Pettigrew share one human identity in PoA; Sirius and his dog form share a record. The lake rescue Patronus has one PoA21 casting row with PoA20 `observationEvidence` for the other viewpoint. Map and Time-Turner operation are objects, and Animagus transformations are abilities. Paged facts use the pagination fields and `facts`; legacy unpaged facts return an array, and `--limit`/`--offset` require `--page`. The evidence-card/glossary layer retains its own selective review coverage; its `--book` projection remains PS-only. Unfiltered cards span selected claims across the series. The typed inventories do not certify all older claims.
 
-`stats [--book PS|CoS]` returns per-book counts. `people` plus `animals` gives the character count. `castingRecords` includes grouped practice and reports, not individual cast counts; `classReportRecords` counts qualified class-level reports. `contextEvidencePairs` and `literalMentionPairs` count stored bilingual references, which may reuse source passages. These are separate from reading coverage and seven-book chapter metadata.
+`stats [--book PS|CoS|PoA]` returns per-book counts. `people` plus `animals` gives the character count. `castingRecords` includes grouped practice and reports, not individual cast counts; `classReportRecords` counts qualified class-level reports. `contextEvidencePairs` and `literalMentionPairs` count stored bilingual references, including observation evidence, which may reuse source passages. These are separate from reading coverage and seven-book chapter metadata.
 
 ## Import books
 

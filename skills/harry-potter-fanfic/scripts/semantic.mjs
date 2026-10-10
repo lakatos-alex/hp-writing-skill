@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const dataRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data/books');
 const categories = {characters:'person', magic:'spell', places:'place', objects:'object'};
-export const knowledgeBooks = {PS:17, CoS:18};
+export const knowledgeBooks = {PS:17, CoS:18, PoA:22};
 export const fold = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
   .replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const tokens = value => fold(value).split(' ').filter(Boolean);
@@ -34,6 +34,14 @@ const groups = [
   ['tickle','tickling','csiklandoz','csiklandozo'],
   ['dance','dancing','tanc','tancol'], ['snake','serpent','kigyo'],
   ['light','illuminate','illumination','feny','vilagit','vilagitas'],
+  ['repel','repels','repellent','taszit','eluz'],
+  ['protect','protects','protection','defence','defend','ved','vedelem'],
+  ['fear','fearful','afraid','felelem','fel'],
+  ['laugh','laughter','funny','nevet','nevetes','nevetseges'],
+  ['time','ido'], ['travel','travels','utazas'],
+  ['turn','turns','turning','forgat','fordit'],
+  ['map','terkep'], ['show','shows','display','displays','mutat','mutatja'],
+  ['track','tracking','occupants','kovet','kovetes','szemelyek'],
 ];
 const expansions = new Map(groups.flatMap(group => group.map(word => [word, group])));
 function number(value, fallback, minimum = 0) {
@@ -50,7 +58,8 @@ export function loadKnowledge(book = 'PS', directory = dataRoot) {
 }
 function evidenceAnchors(entry) {
   return [...new Set([...(entry.evidence ?? []).map(e => e.anchor),
-    ...(entry.termMentions ?? []).map(e => e.anchor), ...(entry.reportedClassUses ?? []).flatMap(r => r.evidence.map(e => e.anchor)), ...(entry.occurrences ?? []).map(e => e.anchor)])];
+    ...(entry.termMentions ?? []).map(e => e.anchor), ...(entry.reportedClassUses ?? []).flatMap(r => r.evidence.map(e => e.anchor)),
+    ...(entry.occurrences ?? []).flatMap(e => [e.anchor,...(e.observationEvidence ?? []).map(e => e.anchor)])])];
 }
 function rank(entry, query) {
   if (!query) return {score:0, matched:[]};
@@ -114,7 +123,7 @@ export function knowledgeStats(book) {
     const evidencePairs = entries.reduce((n,e) => n + (e.evidence?.length ?? 0)
       + (e.reportedClassUses ?? []).reduce((n,r) => n + r.evidence.length,0)
       + (e.identification?.evidence?.length ?? 0) + (e.laterIncantation?.evidence?.length ?? 0)
-      + (e.occurrences ?? []).reduce((n,o) => n + o.evidence.length + (o.nonVerbalEvidence?.length ?? 0),0),0);
+      + (e.occurrences ?? []).reduce((n,o) => n + o.evidence.length + (o.nonVerbalEvidence?.length ?? 0) + (o.observationEvidence?.length ?? 0),0),0);
     return {book, chapters:knowledgeBooks[book], people:count('person'), animals:count('animal'),
       places:count('place'), objects:count('object'), spells:count('spell'), records:entries.length,
       castingRecords:entries.reduce((n,e) => n + (e.occurrences?.length ?? 0),0),

@@ -1,0 +1,2006 @@
+{
+  "schemaVersion": 1,
+  "book": "PoA",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "privet-drive",
+      "labelEn": "Privet Drive",
+      "labelHu": "Privet Drive",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The Dursleys' street where Harry spends the summer.",
+      "searchTerms": [
+        "Dursley",
+        "home",
+        "otthon",
+        "street",
+        "utca"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA2",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "dursley-house",
+      "labelEn": "Number four Privet Drive",
+      "labelHu": "Privet Drive négy",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "Harry's summer home, later disrupted by Marge's visit.",
+      "searchTerms": [
+        "home",
+        "otthon",
+        "Marge",
+        "family",
+        "család"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "number four",
+          "huLocator": "4. szám",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "harrys-bedroom",
+      "labelEn": "Harry's bedroom at the Dursleys'",
+      "labelHu": "Harry Dursleyéknál levő szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Harry works on homework under the blankets and receives birthday post here.",
+      "searchTerms": [
+        "homework",
+        "házi",
+        "feladat",
+        "bedroom",
+        "hálószoba",
+        "owl",
+        "bagoly"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "bed",
+          "huLocator": "ágyán",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "magnolia-crescent",
+      "labelEn": "Magnolia Crescent",
+      "labelHu": "Magnolia köz",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "Harry rests beside the road and first sees the black dog before summoning the bus.",
+      "searchTerms": [
+        "road",
+        "út",
+        "dog",
+        "kutya",
+        "bus",
+        "busz"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Magnolia Crescent",
+          "huLocator": "Magnolia köz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "st-brutus-school",
+      "labelEn": "St Brutus's Secure Centre",
+      "labelHu": "Szent Brútusz",
+      "labelKind": "editorial-label",
+      "placeKind": "school",
+      "aliases": [],
+      "description": "Vernon claims Harry attends this institution for criminal boys; Harry does not actually study there.",
+      "searchTerms": [
+        "school",
+        "iskola",
+        "lie",
+        "hazugság",
+        "Vernon"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA2",
+          "kind": "testimony",
+          "enLocator": "St Brutus’s Secure Centre",
+          "huLocator": "Szent Brútusz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "leaky-cauldron",
+      "labelEn": "Leaky Cauldron",
+      "labelHu": "Foltozott Üst",
+      "labelKind": "editorial-label",
+      "placeKind": "pub",
+      "aliases": [],
+      "description": "The London inn where Fudge meets Harry and Harry stays before term.",
+      "searchTerms": [
+        "pub",
+        "kocsma",
+        "inn",
+        "fogadó",
+        "London"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "leaky-room-eleven",
+      "labelEn": "Room eleven at the Leaky Cauldron",
+      "labelHu": "Tizenegyes szoba a Foltozott Üstben",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Tom takes Harry to the room with a bed, mirror and view of the street.",
+      "searchTerms": [
+        "bedroom",
+        "hálószoba",
+        "lodging",
+        "szállás",
+        "inn",
+        "fogadó"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "number eleven",
+          "huLocator": "tizenegyes",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "charing-cross-road",
+      "labelEn": "Charing Cross Road",
+      "labelHu": "Charing Cross Road",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The London road outside the inn where the Knight Bus arrives.",
+      "searchTerms": [
+        "London",
+        "London",
+        "street",
+        "utca",
+        "bus",
+        "busz"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Charing Cross Road",
+          "huLocator": "Charing Cross Road",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "london",
+      "labelEn": "London",
+      "labelHu": "London",
+      "labelKind": "editorial-label",
+      "placeKind": "city",
+      "aliases": [],
+      "description": "The destination of Harry's bus trip and Diagon Alley stay.",
+      "searchTerms": [
+        "city",
+        "város",
+        "bus",
+        "busz",
+        "shopping",
+        "bevásárlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "London",
+          "huLocator": "London",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA15",
+          "enLocator": "London",
+          "huLocator": "London",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "abergavenny",
+      "labelEn": "Abergavenny",
+      "labelHu": "Abergavenny",
+      "labelKind": "editorial-label",
+      "placeKind": "town",
+      "aliases": [],
+      "description": "Madam Marsh's stop during the Knight Bus journey.",
+      "searchTerms": [
+        "bus",
+        "busz",
+        "stop",
+        "megálló",
+        "travel",
+        "utazás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Abergavenny",
+          "huLocator": "Abergavenny",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "anglesey",
+      "labelEn": "Anglesey",
+      "labelHu": "Anglesea",
+      "labelKind": "editorial-label",
+      "placeKind": "island",
+      "aliases": [],
+      "description": "A place the Knight Bus passes before abruptly moving to Aberdeen; the Hungarian edition prints Anglesea.",
+      "searchTerms": [
+        "bus",
+        "busz",
+        "journey",
+        "utazás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Anglesey",
+          "huLocator": "Anglesea",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Anglesey",
+          "huLocator": "Anglesea",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "aberdeen",
+      "labelEn": "Aberdeen",
+      "labelHu": "Aberdeen",
+      "labelKind": "editorial-label",
+      "placeKind": "city",
+      "aliases": [],
+      "description": "A stop on the bus journey after Anglesey.",
+      "searchTerms": [
+        "bus",
+        "busz",
+        "journey",
+        "utazás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Aberdeen",
+          "huLocator": "Aberdeen",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "egypt",
+      "labelEn": "Egypt",
+      "labelHu": "Egyiptom",
+      "labelKind": "editorial-label",
+      "placeKind": "country",
+      "aliases": [],
+      "description": "The Weasley family's holiday destination and Bill's workplace; no visit by Harry is narrated.",
+      "searchTerms": [
+        "holiday",
+        "vakáció",
+        "Bill",
+        "tomb",
+        "sír"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA1",
+          "kind": "event",
+          "enLocator": "Egypt",
+          "huLocator": "Egyiptom",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Egypt",
+          "huLocator": "Egyiptom",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "diagon-alley",
+      "labelEn": "Diagon Alley",
+      "labelHu": "Abszol út",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "Harry spends his days shopping and studying in the wizarding street.",
+      "searchTerms": [
+        "shops",
+        "boltok",
+        "shopping",
+        "bevásárlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol út",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol út",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "gringotts",
+      "labelEn": "Gringotts",
+      "labelHu": "Gringotts",
+      "labelKind": "editorial-label",
+      "placeKind": "bank",
+      "aliases": [],
+      "description": "Harry withdraws spending money from his vault.",
+      "searchTerms": [
+        "bank",
+        "bank",
+        "money",
+        "pénz",
+        "vault",
+        "széf"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA3",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "florean-ice-cream-shop",
+      "labelEn": "Florean Fortescue's Ice-Cream Parlour",
+      "labelHu": "Florean Fortescue Fagylaltszalonja",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The shop where Harry studies outdoors and receives free ice cream.",
+      "searchTerms": [
+        "ice",
+        "cream",
+        "fagylalt",
+        "homework",
+        "házi",
+        "feladat",
+        "shop",
+        "bolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Florean Fortescue’s Ice-Cream Parlour",
+          "huLocator": "Florean Fortescue Fagylaltszalonja",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "quality-quidditch-supplies",
+      "labelEn": "Quality Quidditch Supplies",
+      "labelHu": "Kviddics a javából",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The sports shop displays the Firebolt that Harry admires.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "Firebolt",
+        "Tűzvillám",
+        "shop",
+        "bolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Quality Quidditch Supplies",
+          "huLocator": "Kviddics a javából",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Quality Quidditch Supplies",
+          "huLocator": "Kviddics a javából",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Quality Quidditch Supplies",
+          "huLocator": "Kviddics a javából",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "flourish-blotts",
+      "labelEn": "Flourish and Blotts",
+      "labelHu": "Czikornyai és Patza",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The bookshop struggles to contain biting Monster Books.",
+      "searchTerms": [
+        "bookshop",
+        "könyvesbolt",
+        "books",
+        "könyvek",
+        "biting",
+        "harapó"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Flourish and Blotts",
+          "huLocator": "Czikornyai és Patza",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA4",
+          "enLocator": "Flourish and Blotts",
+          "huLocator": "Czikornyai és Patza",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "madam-malkins",
+      "labelEn": "Madam Malkin's robe shop",
+      "labelHu": "Madam Malkin Talárszabászata",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "Harry replaces the uniform he has outgrown.",
+      "searchTerms": [
+        "robes",
+        "talár",
+        "school",
+        "iskola",
+        "shop",
+        "bolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Madam Malkin’s",
+          "huLocator": "Madam Malkin Talárszabászat",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "magical-menagerie",
+      "labelEn": "Magical Menagerie",
+      "labelHu": "Állatkereskedés",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The animal shop where Ron seeks rat tonic and Hermione buys Crookshanks.",
+      "searchTerms": [
+        "animals",
+        "állatok",
+        "pets",
+        "kedvencek",
+        "rat",
+        "patkány",
+        "cat",
+        "macska"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA4",
+          "kind": "event",
+          "enLocator": "Magical Menagerie",
+          "huLocator": "állatkereskedés",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "kings-cross",
+      "labelEn": "King's Cross",
+      "labelHu": "King's Cross",
+      "labelKind": "editorial-label",
+      "placeKind": "station",
+      "aliases": [],
+      "description": "The station from which the Hogwarts train departs.",
+      "searchTerms": [
+        "station",
+        "pályaudvar",
+        "train",
+        "vonat",
+        "London"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "King’s Cross",
+          "huLocator": "King's Cross",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hogwarts",
+      "labelEn": "Hogwarts",
+      "labelHu": "Roxfort",
+      "labelKind": "editorial-label",
+      "placeKind": "school",
+      "aliases": [],
+      "description": "The school is guarded by Dementors and searched after Sirius's intrusion.",
+      "searchTerms": [
+        "school",
+        "iskola",
+        "castle",
+        "kastély",
+        "security",
+        "biztonság"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA4",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA7",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "great-hall",
+      "labelEn": "Great Hall",
+      "labelHu": "Nagyterem",
+      "labelKind": "editorial-label",
+      "placeKind": "hall",
+      "aliases": [],
+      "description": "The dining hall temporarily becomes a sleeping space after the portrait attack.",
+      "searchTerms": [
+        "dining",
+        "étkezés",
+        "sleeping",
+        "hálóterem",
+        "security",
+        "biztonság"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "entrance-hall",
+      "labelEn": "Entrance Hall",
+      "labelHu": "Bejárati csarnok",
+      "labelKind": "editorial-label",
+      "placeKind": "hall",
+      "aliases": [],
+      "description": "The school's main entrance area used on return from journeys and matches.",
+      "searchTerms": [
+        "entrance",
+        "bejárat",
+        "arrival",
+        "érkezés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Entrance Hall",
+          "huLocator": "bejárati csarnok",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "gryffindor-tower",
+      "labelEn": "Gryffindor Tower",
+      "labelHu": "Griffendél-torony",
+      "labelKind": "editorial-label",
+      "placeKind": "tower",
+      "aliases": [],
+      "description": "The house entrance is attacked and later secured after the password breach.",
+      "searchTerms": [
+        "Gryffindor",
+        "Griffendél",
+        "password",
+        "jelszó",
+        "security",
+        "biztonság"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA6",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Gryffindor Tower",
+          "huLocator": "Griffendél-torony",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "gryffindor-common-room",
+      "labelEn": "Gryffindor common room",
+      "labelHu": "Griffendél klubhelyiség",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The shared room holds homework, arguments and team celebrations.",
+      "searchTerms": [
+        "homework",
+        "házi",
+        "feladat",
+        "friends",
+        "barátok",
+        "Gryffindor",
+        "Griffendél"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "gryffindor-dormitory",
+      "labelEn": "Gryffindor boys' dormitory",
+      "labelHu": "Griffendéles fiúk hálóterme",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The boys' sleeping room is entered by Sirius when he seeks Peter.",
+      "searchTerms": [
+        "sleep",
+        "alvás",
+        "beds",
+        "ágyak",
+        "Sirius",
+        "rat",
+        "patkány"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA5",
+          "kind": "event",
+          "enLocator": "dormitory",
+          "huLocator": "hálóterem",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "north-tower",
+      "labelEn": "North Tower",
+      "labelHu": "Északi torony",
+      "labelKind": "editorial-label",
+      "placeKind": "tower",
+      "aliases": [],
+      "description": "The route to the Divination room.",
+      "searchTerms": [
+        "Divination",
+        "jóslástan",
+        "stairs",
+        "lépcső",
+        "tower",
+        "torony"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "North Tower",
+          "huLocator": "Északi Torony",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "divination-room",
+      "labelEn": "Divination classroom",
+      "labelHu": "Jóslástanterem",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Trelawney teaches among small tables, cups and dim light above the trapdoor.",
+      "searchTerms": [
+        "Divination",
+        "jóslástan",
+        "tea",
+        "tea",
+        "teacher",
+        "tanár"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "trap door",
+          "huLocator": "csapóajtó",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "transfiguration-classroom",
+      "labelEn": "Transfiguration classroom",
+      "labelHu": "Átváltoztatástan tanterem",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "McGonagall's class follows the first Divination lesson.",
+      "searchTerms": [
+        "Transfiguration",
+        "átváltoztatás",
+        "teacher",
+        "tanár"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Transfiguration class",
+          "huLocator": "átváltoztatástan órájára",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hagrids-hut",
+      "labelEn": "Hagrid's hut",
+      "labelHu": "Hagrid kunyhója",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "The teacher's home is central to Buckbeak's appeal and the rat's rediscovery.",
+      "searchTerms": [
+        "Hagrid",
+        "home",
+        "otthon",
+        "Buckbeak",
+        "Csikócsőr",
+        "rat",
+        "patkány"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "Hagrid’s hut",
+          "huLocator": "Hagrid kunyhó",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hippogriff-paddock",
+      "labelEn": "Hippogriff lesson enclosure",
+      "labelHu": "Hippogriffóra elkerített területe",
+      "labelKind": "editorial-label",
+      "placeKind": "grounds",
+      "aliases": [],
+      "description": "The fenced teaching area beside the Forest used for Hagrid's first lesson.",
+      "searchTerms": [
+        "creatures",
+        "lények",
+        "hippogriff",
+        "hippogriff",
+        "lesson",
+        "óra"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA6",
+          "kind": "event",
+          "enLocator": "paddock",
+          "huLocator": "kerítés",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "staff-room",
+      "labelEn": "Staffroom",
+      "labelHu": "Tanári szoba",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Lupin brings the class here to confront the wardrobe Boggart.",
+      "searchTerms": [
+        "Boggart",
+        "mumus",
+        "wardrobe",
+        "szekrény",
+        "teachers",
+        "tanárok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "staff room",
+          "huLocator": "tanári szoba",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "defence-classroom",
+      "labelEn": "Defence classroom",
+      "labelHu": "Sötét varázslatok kivédése tanterem",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Lupin's teaching room contains demonstration creatures and practical lessons.",
+      "searchTerms": [
+        "Defence",
+        "sötét",
+        "varázslatok",
+        "lesson",
+        "óra",
+        "creatures",
+        "lények"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA7",
+          "kind": "event",
+          "enLocator": "classroom",
+          "huLocator": "tanterem",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "lupin-office",
+      "labelEn": "Lupin's office",
+      "labelHu": "Lupin szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Harry visits his teacher, sees the Grindylow and later discusses the Map.",
+      "searchTerms": [
+        "teacher",
+        "tanár",
+        "office",
+        "dolgozószoba",
+        "potion",
+        "bájital"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "into his office",
+          "huLocator": "dolgozószobája ajtajában",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hogsmeade",
+      "labelEn": "Hogsmeade",
+      "labelHu": "Roxmorts",
+      "labelKind": "editorial-label",
+      "placeKind": "village",
+      "aliases": [],
+      "description": "The wizarding village Harry initially cannot visit without permission.",
+      "searchTerms": [
+        "village",
+        "falu",
+        "permission",
+        "engedély",
+        "shops",
+        "boltok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA1",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA5",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA8",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA22",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "zonkos",
+      "labelEn": "Zonko's Joke Shop",
+      "labelHu": "Zonko Csodabazárja",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The joke shop sells novelty goods to visiting pupils.",
+      "searchTerms": [
+        "joke",
+        "shop",
+        "tréfabolt",
+        "prank",
+        "tréfa"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Zonko’s Joke Shop",
+          "huLocator": "Zonko",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "honeydukes",
+      "labelEn": "Honeydukes",
+      "labelHu": "Mézesfalás",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The sweet shop stands above a secret route from Hogwarts.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "secret",
+        "titkos",
+        "passage",
+        "járat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Honeydukes",
+          "huLocator": "Mézesfalás",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Honeydukes",
+          "huLocator": "Mézesfalás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Honeydukes",
+          "huLocator": "Mézesfalás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Honeydukes",
+          "huLocator": "Mézesfalás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA12",
+          "enLocator": "Honeydukes",
+          "huLocator": "Mézesfalás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA14",
+          "enLocator": "Honeydukes",
+          "huLocator": "Mézesfalás",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "three-broomsticks",
+      "labelEn": "Three Broomsticks",
+      "labelHu": "Három Seprű",
+      "labelKind": "editorial-label",
+      "placeKind": "pub",
+      "aliases": [],
+      "description": "Rosmerta's pub hosts the conversation Harry overhears under the cloak.",
+      "searchTerms": [
+        "pub",
+        "kocsma",
+        "Butterbeer",
+        "vajsör",
+        "secret",
+        "titok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA10",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "shrieking-shack",
+      "labelEn": "Shrieking Shack",
+      "labelHu": "Szellemszállás",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "The supposedly haunted building hid Lupin's transformations and becomes the place of the betrayal reveal.",
+      "searchTerms": [
+        "werewolf",
+        "vérfarkas",
+        "haunted",
+        "kísértet",
+        "truth",
+        "igazság"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Shrieking Shack",
+          "huLocator": "Szellemszállás",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Shrieking Shack",
+          "huLocator": "Szellemszállás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA17",
+          "enLocator": "Shrieking Shack",
+          "huLocator": "Szellemszállás",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA18",
+          "enLocator": "Shrieking Shack",
+          "huLocator": "Szellemszállás",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hospital-wing",
+      "labelEn": "Hospital wing",
+      "labelHu": "Gyengélkedő",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The ward holds Harry after the fall and the pupils after the lake incident.",
+      "searchTerms": [
+        "healing",
+        "gyógyítás",
+        "injuries",
+        "sérülés",
+        "hospital",
+        "kórház"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA9",
+          "kind": "event",
+          "enLocator": "hospital wing",
+          "huLocator": "gyengélkedő",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "quidditch-pitch",
+      "labelEn": "Quidditch pitch",
+      "labelHu": "Kviddicspálya",
+      "labelKind": "editorial-label",
+      "placeKind": "sports-ground",
+      "aliases": [],
+      "description": "The sports ground sees Harry's storm fall and Gryffindor's Cup win.",
+      "searchTerms": [
+        "Quidditch",
+        "kviddics",
+        "sport",
+        "sport",
+        "Cup",
+        "kupa"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA9",
+          "kind": "event",
+          "enLocator": "pitch",
+          "huLocator": "pálya",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "one-eyed-witch-corridor",
+      "labelEn": "One-eyed witch's corridor",
+      "labelHu": "Félszemű boszorkány folyosója",
+      "labelKind": "editorial-label",
+      "placeKind": "corridor",
+      "aliases": [],
+      "description": "The corridor contains the statue hiding the Honeydukes passage.",
+      "searchTerms": [
+        "statue",
+        "szobor",
+        "passage",
+        "járat",
+        "secret",
+        "titok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "third-floor corridor",
+          "huLocator": "harmadik emelet",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "honeydukes-passage",
+      "labelEn": "Honeydukes secret passage",
+      "labelHu": "Mézesfalásba vezető titkos járat",
+      "labelKind": "editorial-label",
+      "placeKind": "passage",
+      "aliases": [],
+      "description": "The low route from the witch's hump to Honeydukes' cellar.",
+      "searchTerms": [
+        "secret",
+        "titkos",
+        "tunnel",
+        "alagút",
+        "Honeydukes",
+        "Mézesfalás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "very narrow, low, earthy passageway",
+          "huLocator": "szűk, földbe vájt alagútba",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "honeydukes-cellar",
+      "labelEn": "Honeydukes cellar",
+      "labelHu": "Mézesfalás pincéje",
+      "labelKind": "editorial-label",
+      "placeKind": "cellar",
+      "aliases": [],
+      "description": "Harry emerges among the sweet shop's stored goods.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "crates",
+        "ládák",
+        "passage",
+        "járat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "cellar",
+          "huLocator": "pince",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hogsmeade-post-office",
+      "labelEn": "Hogsmeade post office",
+      "labelHu": "Roxmortsi posta",
+      "labelKind": "editorial-label",
+      "placeKind": "post-office",
+      "aliases": [],
+      "description": "The village postal office uses differently paced owls.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "post",
+        "posta",
+        "village",
+        "falu"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA10",
+          "kind": "event",
+          "enLocator": "Post Office",
+          "huLocator": "posta",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "whomping-willow-site",
+      "labelEn": "Whomping Willow grounds",
+      "labelHu": "Fúriafűz környéke",
+      "labelKind": "editorial-label",
+      "placeKind": "grounds",
+      "aliases": [],
+      "description": "The tree guards the tunnel entrance and pulls the pursuit toward the Shack.",
+      "searchTerms": [
+        "tree",
+        "fa",
+        "tunnel",
+        "alagút",
+        "dog",
+        "kutya",
+        "rat",
+        "patkány"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA17",
+          "kind": "event",
+          "enLocator": "Whomping Willow",
+          "huLocator": "fúriafűz",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "shack-tunnel",
+      "labelEn": "Tunnel to the Shrieking Shack",
+      "labelHu": "Szellemszállásba vezető alagút",
+      "labelKind": "editorial-label",
+      "placeKind": "passage",
+      "aliases": [],
+      "description": "The route beneath the Willow leads to the building where Ron is held.",
+      "searchTerms": [
+        "tunnel",
+        "alagút",
+        "tree",
+        "fa",
+        "Shack",
+        "Szellemszállás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA17",
+          "kind": "event",
+          "enLocator": "tunnel",
+          "huLocator": "alagút",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "shack-bedroom",
+      "labelEn": "Bedroom in the Shrieking Shack",
+      "labelHu": "Szellemszállás hálószobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The upstairs room contains the injured Ron and the gathered witnesses.",
+      "searchTerms": [
+        "bed",
+        "ágy",
+        "reveal",
+        "leleplezés",
+        "witnesses",
+        "tanúk"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA17",
+          "kind": "event",
+          "enLocator": "four-poster bed",
+          "huLocator": "baldachinos",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "forbidden-forest",
+      "labelEn": "Forbidden Forest",
+      "labelHu": "Tiltott Rengeteg",
+      "labelKind": "editorial-label",
+      "placeKind": "forest",
+      "aliases": [],
+      "description": "Harry and Hermione hide at its edge with the rescued Buckbeak.",
+      "searchTerms": [
+        "forest",
+        "erdő",
+        "hide",
+        "elrejt",
+        "Buckbeak",
+        "Csikócsőr"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "Forest",
+          "huLocator": "Rengeteg",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA6",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA9",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA15",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA16",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA21",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "hogwarts-lake",
+      "labelEn": "Hogwarts lake shore",
+      "labelHu": "Roxforti tópart",
+      "labelKind": "editorial-label",
+      "placeKind": "shore",
+      "aliases": [],
+      "description": "Dementors surround Sirius, Harry and Hermione here; Harry later casts from the other bank.",
+      "searchTerms": [
+        "lake",
+        "tó",
+        "shore",
+        "part",
+        "Dementor",
+        "dementor",
+        "Patronus",
+        "patrónus"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA20",
+          "kind": "event",
+          "enLocator": "lake’s shore",
+          "huLocator": "tópartra érve",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "west-tower",
+      "labelEn": "West Tower",
+      "labelHu": "Nyugati torony",
+      "labelKind": "editorial-label",
+      "placeKind": "tower",
+      "aliases": [],
+      "description": "Dumbledore uses the tower as a landmark to locate the window of Flitwick's office, where Sirius is confined.",
+      "searchTerms": [
+        "landmark",
+        "tájékozódás",
+        "window",
+        "ablak",
+        "tower",
+        "torony"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "West Tower",
+          "huLocator": "Nyugati Torony",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "flitwick-office",
+      "labelEn": "Flitwick's office",
+      "labelHu": "Flitwick szobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Sirius is confined in this seventh-floor room before Hermione unlocks its window.",
+      "searchTerms": [
+        "Sirius",
+        "prison",
+        "fogság",
+        "window",
+        "ablak",
+        "escape",
+        "szökés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA21",
+          "kind": "event",
+          "enLocator": "Professor Flitwick’s office",
+          "huLocator": "Flitwick professzor szobájában",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "dervish-banges",
+      "labelEn": "Dervish and Banges",
+      "labelHu": "Dervish és Durran",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "Ron and Hermione report visiting the wizarding equipment shop in Hogsmeade.",
+      "searchTerms": [
+        "equipment",
+        "felszerelés",
+        "shop",
+        "bolt",
+        "Hogsmeade",
+        "Roxmorts"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Dervish and Banges",
+          "huLocator": "Dervish és Durran",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA5",
+          "enLocator": "Dervish and Banges",
+          "huLocator": "Dervish és Durran",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "owlery",
+      "labelEn": "Owlery",
+      "labelHu": "Bagolyház",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Harry considers visiting Hedwig here during the Hogsmeade weekend.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "Hedwig",
+        "Hedvig",
+        "post",
+        "posta"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA8",
+          "kind": "event",
+          "enLocator": "Owlery",
+          "huLocator": "bagolyház",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    },
+    {
+      "id": "azkaban",
+      "labelEn": "Azkaban",
+      "labelHu": "Azkaban",
+      "labelKind": "editorial-label",
+      "placeKind": "prison",
+      "aliases": [],
+      "description": "The wizard prison guarded by Dementors, from which Sirius has escaped.",
+      "searchTerms": [
+        "prison",
+        "börtön",
+        "Dementor",
+        "dementor",
+        "escape",
+        "szökés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PoA3",
+          "kind": "event",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PoA3",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA10",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA11",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PoA19",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-three setting or explicitly reported location. Descriptive room labels do not certify a printed canonical headword; testimony can be false."
+    }
+  ]
+}

@@ -76,13 +76,17 @@ try {
       if(record.laterIncantation) checkEvidence(record.laterIncantation,`Later incantation ${record.id}`);
       for(const mention of record.termMentions??[]) {checkEvidence({evidence:[mention]},`Term mention ${record.id}`);semanticLocators+=2;}
       semanticLocators+=2*((record.evidence??[]).length+(record.identification?.evidence??[]).length+(record.laterIncantation?.evidence??[]).length);
-      for(const occurrence of record.occurrences??[]) {if(occurrence.nonVerbalEvidence) checkEvidence({evidence:occurrence.nonVerbalEvidence},`Non-verbal ${record.id}`);semanticLocators+=2*((occurrence.evidence??[]).length+(occurrence.nonVerbalEvidence??[]).length);}
+      for(const occurrence of record.occurrences??[]) {
+        if(occurrence.nonVerbalEvidence) checkEvidence({evidence:occurrence.nonVerbalEvidence},`Non-verbal ${record.id}`);
+        if(occurrence.observationEvidence) checkEvidence({evidence:occurrence.observationEvidence},`Observation ${record.id}`);
+        semanticLocators+=2*((occurrence.evidence??[]).length+(occurrence.nonVerbalEvidence??[]).length+(occurrence.observationEvidence??[]).length);
+      }
     }
     for(const record of bookRecords) for(const occurrence of record.occurrences??[]) for(const item of occurrence.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English occurrence locator: ${record.id}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian occurrence locator: ${record.id}`);}
     const stats=knowledgeStats();
     for(const s of stats) {const coverage=JSON.parse(fs.readFileSync(path.join(root,'data','books',s.book.toLowerCase(),'coverage.json')));for(const l of ['en','hu'])check(coverage.retrievalPass.sourceHashes[l] === (l==='en'?books:hu).find(b=>b.code===s.book).sha256, `Stale semantic source hash: ${s.book}/${l}`);}
     check(semanticLocators===2*stats.reduce((n,s)=>n+s.contextEvidencePairs+s.literalMentionPairs,0),'Semantic locator count and stats differ');
-    console.log(`PASS: ${bookRecords.length} PS/CoS retrieval records; ${semanticLocators} semantic-index locators verified against local EN/HU sources, including later identifications.`);
+    console.log(`PASS: ${bookRecords.length} ${Object.keys(knowledgeBooks).join('/')} retrieval records; ${semanticLocators} semantic-index locators verified against local EN/HU sources, including later identifications and repeated viewpoints.`);
     console.log(`PASS: 199 Hungarian chapters; 162 EPUB chapters compared to XHTML; 37 PDF chapter hashes/Markdown checked; ${glossary.length} bilingual term locators present.`);
     console.log('PDF extraction fidelity is evaluated separately by the edition-specific converter and visual page checks.');
   }
