@@ -1,378 +1,93 @@
 {
   "schemaVersion": 1,
   "book": "PS",
+  "policyVersion": 2,
   "entries": [
     {
-      "id": "mcgonagall-cat-transformation",
-      "kind": "magical-effect",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "McGonagall's cat form",
-      "labelHu": "McGalagony macskaalakja",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS1",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "McGonagall is observed as a tabby cat and returns to human form; mechanism is not explained here.",
-          "evidence": [
-            {
-              "anchor": "PS1",
-              "kind": "event",
-              "enLocator": "Professor McGonagall",
-              "huLocator": "McGalagony professzor",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "put-outer-street-lamps",
-      "kind": "enchanted-object",
-      "nameGlossaryId": "put-outer-term",
-      "incantationGlossaryId": null,
-      "labelEn": "Put-Outer",
-      "labelHu": "önoltó",
+      "id": "alohomora",
+      "kind": "spell",
+      "nameGlossaryId": "alohomora",
+      "incantationGlossaryId": "alohomora",
+      "labelEn": "Alohomora",
+      "labelHu": "Alohomora",
       "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "An unlocking charm; it opens the corridor door but fails on the protected door beneath the trapdoor.",
+      "searchTerms": [
+        "unlock",
+        "open",
+        "locked",
+        "door",
+        "zár",
+        "ajtó",
+        "kinyit",
+        "nyitás"
+      ],
+      "incantation": {
+        "en": "Alohomora",
+        "hu": "Alohomora"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PS9",
+            "kind": "event",
+            "enLocator": "Alohomora",
+            "huLocator": "Alohomora",
+            "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
       "occurrences": [
         {
-          "anchor": "PS1",
+          "anchor": "PS9",
           "mode": "performed",
           "outcome": "success",
-          "practitionerIds": [],
+          "practitionerIds": [
+            "hermione"
+          ],
           "targetIds": [],
-          "summary": "Dumbledore extinguishes twelve street lamps and later restores their lights with the silver device.",
+          "summary": "Hermione uses Harry's wand to unlock the door while the four pupils flee Filch.",
+          "vocalisation": "spoken",
+          "wand": "used",
           "evidence": [
             {
-              "anchor": "PS1",
+              "anchor": "PS9",
               "kind": "event",
-              "enLocator": "Put-Outer",
-              "huLocator": "önoltó",
-              "scope": "chapter context",
+              "enLocator": "Alohomora",
+              "huLocator": "Alohomora",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
               "status": "paired-context-reviewed"
             }
           ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "dumbledore-arrival-disappearance",
-      "kind": "magical-effect",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Dumbledore's sudden arrival and departure",
-      "labelHu": "Dumbledore hirtelen érkezése és távozása",
-      "labelKind": "editorial-label",
-      "occurrences": [
+        },
         {
-          "anchor": "PS1",
-          "mode": "performed",
-          "outcome": "uncertain",
-          "practitionerIds": [],
+          "anchor": "PS16",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "hermione"
+          ],
           "targetIds": [],
-          "summary": "Dumbledore appears silently at the street corner and later vanishes with a swish; method unnamed.",
+          "summary": "Hermione tries Alohomora on the locked door in the winged-key chamber, without success.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
           "evidence": [
             {
-              "anchor": "PS1",
+              "anchor": "PS16",
               "kind": "event",
-              "enLocator": "appeared so suddenly",
-              "huLocator": "hirtelen és csendesen jelent meg",
-              "scope": "chapter context",
+              "enLocator": "Alohomora Charm",
+              "huLocator": "Alohomora bűbája",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
               "status": "paired-context-reviewed"
             }
           ]
         }
       ],
       "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "flying-motorbike",
-      "kind": "enchanted-object",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "flying motorbike",
-      "labelHu": "motorkerékpár",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS1",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "Hagrid arrives by an airborne motorbike and departs into the night sky.",
-          "evidence": [
-            {
-              "anchor": "PS1",
-              "kind": "event",
-              "enLocator": "motorbike fell out of the air",
-              "huLocator": "motorkerékpárt",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "harry-survives-voldemort-attack",
-      "kind": "claimed-magic",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Harry's survival and Voldemort's broken power",
-      "labelHu": "Harry túlélése és Voldemort erejének megtörése",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS1",
-          "mode": "reported",
-          "outcome": "uncertain",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "McGonagall reports that Voldemort failed to kill Harry and lost his power; Dumbledore confirms only the broad report, cause unknown.",
-          "evidence": [
-            {
-              "anchor": "PS1",
-              "kind": "event",
-              "enLocator": "Voldemort’s power somehow broke",
-              "huLocator": "egyszerre elhagyta az ereje",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "lightning-scar",
-      "kind": "magical-effect",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Harry's lightning-shaped scar",
-      "labelHu": "Harry villám alakú sebe",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS1",
-          "mode": "explained",
-          "outcome": "not-demonstrated",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "Harry bears a permanent scar from the attack; whether it has an active magical effect is not demonstrated.",
-          "evidence": [
-            {
-              "anchor": "PS1",
-              "kind": "event",
-              "enLocator": "lightning",
-              "huLocator": "villám alakú seb",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "shooting-stars-reported",
-      "kind": "claimed-magic",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "shooting stars",
-      "labelHu": "hullócsillagok",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS1",
-          "mode": "reported",
-          "outcome": "uncertain",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "Muggle weather report describes shooting stars; McGonagall speculates Dedalus Diggle caused the Kent display.",
-          "evidence": [
-            {
-              "anchor": "PS1",
-              "kind": "event",
-              "enLocator": "downpour of shooting stars",
-              "huLocator": "hullócsillagok záporoztak",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "nimbus-flight",
-      "kind": "enchanted-object",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Nimbus Two Thousand flight",
-      "labelHu": "Nimbusz Kétezres repülése",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS10",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "The paired chapter records Nimbus Two Thousand flight; no additional mechanism is inferred.",
-          "evidence": [
-            {
-              "anchor": "PS10",
-              "kind": "event",
-              "enLocator": "Nimbus Two Thousand turned",
-              "huLocator": "Nimbusz Kétezres szinte",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "bludger-behaviour",
-      "kind": "enchanted-object",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Bludger",
-      "labelHu": "A gurkó viselkedése",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS10",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "The paired chapter records Bludger / gurkó behaviour; no additional mechanism is inferred.",
-          "evidence": [
-            {
-              "anchor": "PS10",
-              "kind": "event",
-              "enLocator": "freed one of the Bludgers",
-              "huLocator": "kiszabadította az egyik gurkót",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "golden-snitch-behaviour",
-      "kind": "enchanted-object",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Golden Snitch",
-      "labelHu": "Az aranycikesz viselkedése",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS10",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "The paired chapter records Golden Snitch / aranycikesz behaviour; no additional mechanism is inferred.",
-          "evidence": [
-            {
-              "anchor": "PS10",
-              "kind": "event",
-              "enLocator": "is the Golden Snitch",
-              "huLocator": "Ez itt az aranycikesz",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "flitwick-toad-flight",
-      "kind": "magical-effect",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Flitwick’s prior toad flight demonstration",
-      "labelHu": "Flitwick korábbi varangyreptetése",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS10",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "The paired chapter records Flitwick’s prior toad flight demonstration; no additional mechanism is inferred.",
-          "evidence": [
-            {
-              "anchor": "PS10",
-              "kind": "event",
-              "enLocator": "make Neville’s toad zoom",
-              "huLocator": "körberöptette a teremben Neville varangyát",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
-    },
-    {
-      "id": "seamus-feather-ignition",
-      "kind": "magical-effect",
-      "nameGlossaryId": null,
-      "incantationGlossaryId": null,
-      "labelEn": "Seamus’s feather ignition",
-      "labelHu": "Seamus tollának meggyulladása",
-      "labelKind": "editorial-label",
-      "occurrences": [
-        {
-          "anchor": "PS10",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
-          "targetIds": [],
-          "summary": "The paired chapter records Seamus’s feather ignition; no additional mechanism is inferred.",
-          "evidence": [
-            {
-              "anchor": "PS10",
-              "kind": "event",
-              "enLocator": "set fire to it",
-              "huLocator": "lángra lobbantotta a tollat",
-              "scope": "chapter context",
-              "status": "paired-context-reviewed"
-            }
-          ]
-        }
-      ],
-      "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+      "limits": "Only the identified spell and supported occurrences are included. Unreported words are not evidence of non-verbal casting."
     },
     {
       "id": "wingardium-leviosa",
@@ -382,59 +97,516 @@
       "labelEn": "Wingardium Leviosa",
       "labelHu": "Vingardium leviosa",
       "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The levitation charm used in class and against the troll.",
+      "searchTerms": [
+        "levitate",
+        "levitation",
+        "float",
+        "feather",
+        "club",
+        "lift",
+        "lebegtetés",
+        "lebegtet",
+        "toll",
+        "bunkó",
+        "emel"
+      ],
+      "incantation": {
+        "en": "Wingardium Leviosa",
+        "hu": "Vingardium leviosa"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PS10",
+            "kind": "event",
+            "enLocator": "Wingardium Leviosa",
+            "huLocator": "Vingardium leviosa",
+            "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
       "occurrences": [
         {
           "anchor": "PS10",
-          "mode": "performed",
-          "outcome": "success",
-          "practitionerIds": [],
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "ron"
+          ],
           "targetIds": [],
-          "summary": "The paired chapter records Wingardium Leviosa / Vingardium leviosa; no additional mechanism is inferred.",
+          "summary": "Ron practises the incantation in class before Hermione corrects his pronunciation.",
+          "vocalisation": "spoken",
+          "wand": "used",
           "evidence": [
             {
               "anchor": "PS10",
               "kind": "event",
-              "enLocator": "Wingardium Leviosa!",
-              "huLocator": "Vingardium leviosa!",
-              "scope": "chapter context",
+              "enLocator": "swish and flick",
+              "huLocator": "Vingardium leviosa",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS10",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter",
+            "seamus-finnigan"
+          ],
+          "targetIds": [],
+          "summary": "Harry and Seamus practise the assigned levitation, but the feather does not rise. Seamus's subsequent ignition is an unintended effect, not a separate identified fire spell.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "Harry and Seamus swished and flicked",
+              "huLocator": "Harry és Seamus",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione raises her feather successfully in the Charms lesson.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "Hermione rolled up",
+              "huLocator": "Hermione felgyűrte",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron levitates the troll's club and lets it fall onto the troll's head.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PS10",
+              "kind": "event",
+              "enLocator": "first spell that came",
+              "huLocator": "Ron előhúzta saját varázspálcáját",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
               "status": "paired-context-reviewed"
             }
           ]
         }
       ],
       "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+      "limits": "Only the identified spell and supported occurrences are included. Unreported words are not evidence of non-verbal casting."
     },
     {
-      "id": "dumbledore-firecrackers",
-      "kind": "magical-effect",
+      "id": "bluebell-flames",
+      "kind": "spell",
       "nameGlossaryId": null,
       "incantationGlossaryId": null,
-      "labelEn": "Dumbledore’s wand firecrackers",
-      "labelHu": "Dumbledore pálcás tűzijátéka",
+      "labelEn": "Bluebell Flames",
+      "labelHu": "Kék lángok",
       "labelKind": "editorial-label",
+      "aliases": [
+        "blue fire",
+        "kék lángocska"
+      ],
+      "description": "Hermione conjures portable blue fire for warmth, burning Snape's robes and repelling Devil's Snare. The spoken words are not given.",
+      "searchTerms": [
+        "blue",
+        "portable",
+        "fire",
+        "flames",
+        "warmth",
+        "burn",
+        "plant",
+        "kék",
+        "láng",
+        "tűz",
+        "meleg",
+        "növény"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "PS16",
+            "kind": "event",
+            "enLocator": "same bluebell flames",
+            "huLocator": "abból a kék lángocskából",
+            "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
       "occurrences": [
         {
-          "anchor": "PS10",
+          "anchor": "PS11",
           "mode": "performed",
           "outcome": "success",
-          "practitionerIds": [],
+          "practitionerIds": [
+            "hermione"
+          ],
           "targetIds": [],
-          "summary": "The paired chapter records Dumbledore’s wand firecrackers; no additional mechanism is inferred.",
+          "summary": "Hermione conjures blue fire that can be carried in a jam jar.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
           "evidence": [
             {
-              "anchor": "PS10",
+              "anchor": "PS11",
               "kind": "event",
-              "enLocator": "purple firecrackers exploding",
-              "huLocator": "piros tűzijátékot kellett pálcájával",
-              "scope": "chapter context",
+              "enLocator": "bright blue fire",
+              "huLocator": "fényes kék lángot",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "Hermione whispers words and sends blue flames onto Snape's robes.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PS11",
+              "kind": "event",
+              "enLocator": "well chosen words",
+              "huLocator": "Elmormolt néhány keresetlen varázsigét",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS16",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione mutters and sends the same blue flames at Devil's Snare.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PS16",
+              "kind": "event",
+              "enLocator": "same bluebell flames",
+              "huLocator": "abból a kék lángocskából",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
               "status": "paired-context-reviewed"
             }
           ]
         }
       ],
       "factIds": [],
-      "limits": "Only the observed or reported chapter occurrence is recorded; the source does not establish further mechanism."
+      "limits": "Only the identified spell and supported occurrences are included. Unreported words are not evidence of non-verbal casting."
+    },
+    {
+      "id": "locomotor-mortis",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Locomotor Mortis",
+      "labelHu": "Locomotor mortis",
+      "labelKind": "editorial-label",
+      "aliases": [
+        "Leg-Locker Curse",
+        "Lábbilincselő"
+      ],
+      "description": "The Leg-Locker Curse binds the victim's legs together.",
+      "searchTerms": [
+        "leg",
+        "locker",
+        "bind",
+        "legs",
+        "lábbilincselő",
+        "láb",
+        "összeragaszt",
+        "átok"
+      ],
+      "incantation": {
+        "en": "Locomotor Mortis",
+        "hu": "Locomotor mortis"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PS13",
+            "kind": "event",
+            "enLocator": "Locomotor Mortis",
+            "huLocator": "locomotor mortis",
+            "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PS13",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "neville"
+          ],
+          "summary": "Neville reports Malfoy used the Leg-Locker Curse on him outside the library.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PS13",
+              "kind": "testimony",
+              "enLocator": "Leg-Locker Curse",
+              "huLocator": "Lábbilincselő",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS13",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "ron",
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Ron and Hermione secretly practise the curse before the match; their target and results are not specified.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PS13",
+              "kind": "event",
+              "enLocator": "secretly practising the Leg-Locker",
+              "huLocator": "locomotor mortis",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the identified spell and supported occurrences are included. Unreported words are not evidence of non-verbal casting."
+    },
+    {
+      "id": "petrificus-totalus",
+      "kind": "spell",
+      "nameGlossaryId": "petrificus-totalus",
+      "incantationGlossaryId": "petrificus-totalus",
+      "labelEn": "Petrificus Totalus",
+      "labelHu": "Petrificus totalus",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Full Body-Bind",
+        "Body-Bind Curse",
+        "sóbálványátok"
+      ],
+      "description": "The Full Body-Bind immobilises Neville when he tries to stop the trio leaving.",
+      "searchTerms": [
+        "body",
+        "bind",
+        "immobilise",
+        "paralysis",
+        "full",
+        "body",
+        "sóbálvány",
+        "test",
+        "bénítás",
+        "mozdulatlan"
+      ],
+      "incantation": {
+        "en": "Petrificus Totalus",
+        "hu": "Petrificus totalus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "PS16",
+            "kind": "event",
+            "enLocator": "Petrificus Totalus",
+            "huLocator": "Petrificus totalus",
+            "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PS16",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "neville"
+          ],
+          "summary": "Hermione points her wand at Neville and speaks the incantation, immobilising him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "PS16",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus totalus",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the identified spell and supported occurrences are included. Unreported words are not evidence of non-verbal casting."
+    },
+    {
+      "id": "avada-kedavra",
+      "kind": "spell",
+      "nameGlossaryId": "avada-kedavra",
+      "incantationGlossaryId": null,
+      "labelEn": "Killing Curse",
+      "labelHu": "Halálos átok",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Voldemort's attack on the Potters is identified as the Killing Curse by explicit later-book evidence; PS does not name its incantation.",
+      "searchTerms": [
+        "kill",
+        "killing",
+        "death",
+        "murder",
+        "halál",
+        "öl",
+        "gyilkos",
+        "green",
+        "zöld",
+        "curse",
+        "átok"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "later-explicit-identification",
+        "availableFrom": "GoF14",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "testimony",
+            "enLocator": "Only one known person has ever survived it",
+            "huLocator": "Egyetlen emberről tudunk, aki túlélte",
+            "scope": "The lesson explicitly links the Killing Curse and Harry as its sole known survivor; PS4 is the earlier occurrence.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "PS4",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "lily-potter",
+            "james-potter"
+          ],
+          "summary": "Hagrid reports Voldemort killed Harry's parents with a powerful curse.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PS4",
+              "kind": "testimony",
+              "enLocator": "powerful, evil curse",
+              "huLocator": "gonosz átok",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "PS4",
+          "mode": "reported",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Hagrid reports the same attack did not kill baby Harry.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "PS4",
+              "kind": "testimony",
+              "enLocator": "it didn’t work on you",
+              "huLocator": "rajtad nem fogott",
+              "scope": "Casting event and its stated outcome in the surrounding passage.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Only the identified spell and supported occurrences are included. Unreported words are not evidence of non-verbal casting.",
+      "laterIncantation": {
+        "en": "Avada Kedavra",
+        "hu": "Adava Kedavra",
+        "availableFrom": "GoF14",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "event",
+            "enLocator": "Avada Kedavra",
+            "huLocator": "Adava Kedavra",
+            "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
     }
   ]
 }

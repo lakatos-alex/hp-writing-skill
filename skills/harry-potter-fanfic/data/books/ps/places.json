@@ -1,0 +1,1742 @@
+{
+  "schemaVersion": 1,
+  "book": "PS",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "privet-drive",
+      "labelEn": "Privet Drive",
+      "labelHu": "Privet Drive",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "Dursley residential street.",
+      "searchTerms": [
+        "Dursley",
+        "street",
+        "utca",
+        "home",
+        "otthon"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS1",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS2",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS3",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS10",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS12",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "number-four",
+      "labelEn": "Number four, Privet Drive",
+      "labelHu": "Privet Drive 4.",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "The Dursleys' house where Harry grows up.",
+      "searchTerms": [
+        "Harry",
+        "home",
+        "ház",
+        "otthon",
+        "Dursley"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "number four",
+          "huLocator": "négyes szám",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "cupboard-under-stairs",
+      "labelEn": "Cupboard under the Stairs",
+      "labelHu": "Lépcső alatti gardrób",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Harry's sleeping space before he is moved to Dudley's second bedroom.",
+      "searchTerms": [
+        "Harry",
+        "bedroom",
+        "hálószoba",
+        "cupboard",
+        "gardrób"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Cupboard under the Stairs",
+          "huLocator": "lépcső alatti gardrób",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "little-whinging",
+      "labelEn": "Little Whinging",
+      "labelHu": "Little Whinging",
+      "labelKind": "editorial-label",
+      "placeKind": "town",
+      "aliases": [],
+      "description": "The town in the address on Harry's Hogwarts letter.",
+      "searchTerms": [
+        "Dursley",
+        "town",
+        "város",
+        "address",
+        "cím"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Little Whinging",
+          "huLocator": "Little Whinging",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS3",
+          "enLocator": "Little Whinging",
+          "huLocator": "Little Whinging",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "surrey",
+      "labelEn": "Surrey",
+      "labelHu": "Surrey",
+      "labelKind": "editorial-label",
+      "placeKind": "region",
+      "aliases": [],
+      "description": "The county in Harry's Hogwarts-letter address.",
+      "searchTerms": [
+        "county",
+        "megye",
+        "address",
+        "cím"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Surrey",
+          "huLocator": "Surrey",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS3",
+          "enLocator": "Surrey",
+          "huLocator": "Surrey",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "godrics-hollow",
+      "labelEn": "Godric's Hollow",
+      "labelHu": "Godric's Hollow",
+      "labelKind": "editorial-label",
+      "placeKind": "village",
+      "aliases": [],
+      "description": "The location from which Hagrid brings baby Harry after the attack.",
+      "searchTerms": [
+        "Potter",
+        "home",
+        "falu",
+        "szülők",
+        "ház"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Godric’s Hollow",
+          "huLocator": "Godric's Hollow",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "grunnings",
+      "labelEn": "Grunnings",
+      "labelHu": "Grunnings",
+      "labelKind": "editorial-label",
+      "placeKind": "workplace",
+      "aliases": [],
+      "description": "The drill company directed by Mr Dursley.",
+      "searchTerms": [
+        "drills",
+        "fúró",
+        "company",
+        "vállalat",
+        "workplace",
+        "munkahely"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Grunnings",
+          "huLocator": "Grunnings",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS1",
+          "enLocator": "Grunnings",
+          "huLocator": "Grunnings",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "zoo",
+      "labelEn": "Zoo",
+      "labelHu": "Állatkert",
+      "labelKind": "editorial-label",
+      "placeKind": "attraction",
+      "aliases": [],
+      "description": "The zoo visited on Dudley's birthday, including the reptile house.",
+      "searchTerms": [
+        "snake",
+        "kígyó",
+        "glass",
+        "üveg",
+        "Dudley",
+        "birthday",
+        "születésnap"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS2",
+          "kind": "event",
+          "enLocator": "zoo",
+          "huLocator": "állatkert",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "smeltings",
+      "labelEn": "Smeltings",
+      "labelHu": "Smeltings",
+      "labelKind": "editorial-label",
+      "placeKind": "school",
+      "aliases": [],
+      "description": "Dudley's future school, also attended by Vernon.",
+      "searchTerms": [
+        "Dudley",
+        "school",
+        "iskola",
+        "uniform",
+        "egyenruha"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Smeltings",
+          "huLocator": "Smeltings",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS3",
+          "enLocator": "Smeltings",
+          "huLocator": "Smeltings",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "stonewall-high",
+      "labelEn": "Stonewall High",
+      "labelHu": "Stonewall High",
+      "labelKind": "editorial-label",
+      "placeKind": "school",
+      "aliases": [],
+      "description": "The local school the Dursleys plan for Harry.",
+      "searchTerms": [
+        "Harry",
+        "school",
+        "iskola",
+        "comprehensive",
+        "gimnázium"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Stonewall High",
+          "huLocator": "Stonewall High",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS3",
+          "enLocator": "Stonewall High",
+          "huLocator": "Stonewall High",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "railview-hotel",
+      "labelEn": "Railview Hotel",
+      "labelHu": "Shintlats Hotel",
+      "labelKind": "editorial-label",
+      "placeKind": "hotel",
+      "aliases": [],
+      "description": "The hotel used during Vernon's attempt to escape the letters.",
+      "searchTerms": [
+        "hotel",
+        "szálloda",
+        "letters",
+        "levelek"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Railview Hotel",
+          "huLocator": "Shintlats Hotel",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS3",
+          "enLocator": "Railview Hotel",
+          "huLocator": "Shintlats Hotel",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "hut-on-rock",
+      "labelEn": "Hut-on-the-Rock",
+      "labelHu": "Sziklaszirti kunyhó",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "The isolated sea hut where Hagrid finds Harry on his birthday.",
+      "searchTerms": [
+        "sea",
+        "tenger",
+        "hut",
+        "kunyhó",
+        "birthday",
+        "születésnap"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS4",
+          "kind": "event",
+          "enLocator": "Hut-on-the-Rock",
+          "huLocator": "viskó",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "london",
+      "labelEn": "London",
+      "labelHu": "London",
+      "labelKind": "editorial-label",
+      "placeKind": "city",
+      "aliases": [],
+      "description": "The city containing the shopping route, wizarding bank and station.",
+      "searchTerms": [
+        "city",
+        "város",
+        "shopping",
+        "vásárlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "London",
+          "huLocator": "London",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "London",
+          "huLocator": "London",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "paddington",
+      "labelEn": "Paddington",
+      "labelHu": "Paddington",
+      "labelKind": "editorial-label",
+      "placeKind": "station",
+      "aliases": [],
+      "description": "The station at the end of Harry's shopping trip.",
+      "searchTerms": [
+        "station",
+        "pályaudvar",
+        "railway",
+        "vasút"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Paddington",
+          "huLocator": "Paddington",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Paddington",
+          "huLocator": "Paddington",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "leaky-cauldron",
+      "labelEn": "Leaky Cauldron",
+      "labelHu": "Foltozott Üst",
+      "labelKind": "editorial-label",
+      "placeKind": "pub",
+      "aliases": [],
+      "description": "The pub whose rear courtyard provides access to Diagon Alley.",
+      "searchTerms": [
+        "pub",
+        "kocsma",
+        "inn",
+        "fogadó",
+        "entrance",
+        "bejárat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Leaky Cauldron",
+          "huLocator": "Foltozott Üst",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "diagon-alley",
+      "labelEn": "Diagon Alley",
+      "labelHu": "Abszol út",
+      "labelKind": "editorial-label",
+      "placeKind": "street",
+      "aliases": [],
+      "description": "The wizarding shopping street reached through the Leaky Cauldron courtyard.",
+      "searchTerms": [
+        "shopping",
+        "street",
+        "bevásárló",
+        "utca",
+        "shops",
+        "boltok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol út",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS6",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol út",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "gringotts",
+      "labelEn": "Gringotts",
+      "labelHu": "Gringotts",
+      "labelKind": "editorial-label",
+      "placeKind": "bank",
+      "aliases": [],
+      "description": "The goblin-run wizarding bank with underground vaults.",
+      "searchTerms": [
+        "bank",
+        "goblin",
+        "kobold",
+        "money",
+        "pénz",
+        "vault",
+        "széf"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS6",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS7",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS8",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS10",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS16",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "vault-713",
+      "labelEn": "Vault 713",
+      "labelHu": "713-as széf",
+      "labelKind": "editorial-label",
+      "placeKind": "vault",
+      "aliases": [],
+      "description": "The high-security vault whose small package Hagrid collects.",
+      "searchTerms": [
+        "Stone",
+        "kő",
+        "bank",
+        "vault",
+        "széf",
+        "secret",
+        "titkos"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "seven hundred and thirteen",
+          "huLocator": "hétszáztizenhármas",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "malkins-shop",
+      "labelEn": "Madam Malkin's Robes for All Occasions",
+      "labelHu": "Madam Malkin Talárszabászata",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The robe shop where Harry first meets the boy later identified as Malfoy.",
+      "searchTerms": [
+        "robe",
+        "talár",
+        "tailor",
+        "szabászat",
+        "school",
+        "uniform",
+        "egyenruha"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Madam Malkin’s Robes",
+          "huLocator": "Madam Malkin Talárszabászata",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "flourish-blotts",
+      "labelEn": "Flourish and Blotts",
+      "labelHu": "Czikornyai és Patza",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The Diagon Alley bookshop.",
+      "searchTerms": [
+        "books",
+        "könyvek",
+        "bookstore",
+        "könyvesbolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Flourish and Blotts",
+          "huLocator": "Czikornyai és Patza",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Flourish and Blotts",
+          "huLocator": "Czikornyai és Patza",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "eeylops",
+      "labelEn": "Eeylops Owl Emporium",
+      "labelHu": "Uklopsz Bagolyszalon",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The owl shop where Hagrid buys Harry's snowy owl.",
+      "searchTerms": [
+        "owl",
+        "bagoly",
+        "shop",
+        "bolt",
+        "Hedwig",
+        "Hedvig"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Eeylops Owl Emporium",
+          "huLocator": "Uklopsz Bagolyszalon",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Eeylops Owl Emporium",
+          "huLocator": "Uklopsz Bagolyszalon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "ollivanders-shop",
+      "labelEn": "Ollivanders",
+      "labelHu": "Ollivander üzlete",
+      "labelKind": "editorial-label",
+      "placeKind": "shop",
+      "aliases": [],
+      "description": "The wand shop where Harry's wand chooses him.",
+      "searchTerms": [
+        "wand",
+        "pálca",
+        "shop",
+        "bolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Ollivanders",
+          "huLocator": "Ollivander – Minőségi",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "kings-cross",
+      "labelEn": "King's Cross",
+      "labelHu": "King's Cross",
+      "labelKind": "editorial-label",
+      "placeKind": "station",
+      "aliases": [],
+      "description": "The London railway station where Harry seeks the Hogwarts platform.",
+      "searchTerms": [
+        "train",
+        "vonat",
+        "station",
+        "pályaudvar",
+        "London"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "King’s Cross",
+          "huLocator": "King's Cross",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "platform-nine-three-quarters",
+      "labelEn": "Platform Nine and Three-Quarters",
+      "labelHu": "Kilenc és háromnegyedik vágány",
+      "labelKind": "editorial-label",
+      "placeKind": "platform",
+      "aliases": [],
+      "description": "The concealed departure platform for the Hogwarts Express.",
+      "searchTerms": [
+        "platform",
+        "peron",
+        "train",
+        "vonat",
+        "barrier",
+        "korlát"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "nine and three-quarters",
+          "huLocator": "kilenc és háromnegyed",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS6",
+          "enLocator": "Platform Nine and Three-Quarters",
+          "huLocator": "Kilenc és háromnegyedik vágány",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "hogwarts",
+      "labelEn": "Hogwarts",
+      "labelHu": "Roxfort",
+      "labelKind": "editorial-label",
+      "placeKind": "school",
+      "aliases": [],
+      "description": "The school of witchcraft and wizardry Harry is invited to attend.",
+      "searchTerms": [
+        "magic",
+        "school",
+        "varázslóiskola",
+        "castle",
+        "kastély"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS4",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS4",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS5",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS6",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS7",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS9",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS11",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS16",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS17",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "hogsmeade-station",
+      "labelEn": "Hogwarts arrival station",
+      "labelHu": "Roxfort érkezési pályaudvara",
+      "labelKind": "editorial-label",
+      "placeKind": "station",
+      "aliases": [],
+      "description": "The small arrival platform before the first-years travel to the castle; no later station name imported.",
+      "searchTerms": [
+        "arrival",
+        "érkezés",
+        "train",
+        "vonat",
+        "station",
+        "pályaudvar"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "tiny, dark platform",
+          "huLocator": "peron",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "lake",
+      "labelEn": "Hogwarts lake",
+      "labelHu": "Roxfort tava",
+      "labelKind": "editorial-label",
+      "placeKind": "landscape",
+      "aliases": [],
+      "description": "The lake crossed in boats by first-years and later visited beside the castle.",
+      "searchTerms": [
+        "lake",
+        "tó",
+        "boats",
+        "csónak",
+        "squid",
+        "tintahal"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "lake",
+          "huLocator": "tó",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "great-hall",
+      "labelEn": "Great Hall",
+      "labelHu": "Nagyterem",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The hall used for Sorting, meals and feasts, with a bewitched ceiling.",
+      "searchTerms": [
+        "sorting",
+        "beosztás",
+        "dining",
+        "étkezés",
+        "feast",
+        "lakoma",
+        "ceiling",
+        "mennyezet"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS7",
+          "kind": "event",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "gryffindor-common-room",
+      "labelEn": "Gryffindor common room",
+      "labelHu": "Griffendél klubhelyisége",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The Gryffindor sitting room reached through the Fat Lady's portrait.",
+      "searchTerms": [
+        "Gryffindor",
+        "Griffendél",
+        "fireplace",
+        "kandalló",
+        "portrait",
+        "portré"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS7",
+          "kind": "event",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "gryffindor-dormitory",
+      "labelEn": "Gryffindor boys' dormitory",
+      "labelHu": "Griffendéles fiúk hálóterme",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "Harry's shared sleeping room, with four-poster beds.",
+      "searchTerms": [
+        "dormitory",
+        "hálóterem",
+        "bedroom",
+        "hálószoba",
+        "sleep",
+        "alvás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS7",
+          "kind": "event",
+          "enLocator": "five four-posters",
+          "huLocator": "baldachinos",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "greenhouses",
+      "labelEn": "Greenhouses",
+      "labelHu": "Növényház",
+      "labelKind": "editorial-label",
+      "placeKind": "classroom",
+      "aliases": [],
+      "description": "Herbology teaching spaces behind the castle.",
+      "searchTerms": [
+        "Herbology",
+        "gyógynövénytan",
+        "plants",
+        "növények",
+        "Sprout",
+        "Bimba"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS8",
+          "kind": "event",
+          "enLocator": "greenhouses",
+          "huLocator": "növényház",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "potions-dungeon",
+      "labelEn": "Potions classroom",
+      "labelHu": "Bájitaltan tanterme",
+      "labelKind": "editorial-label",
+      "placeKind": "classroom",
+      "aliases": [],
+      "description": "The cold underground teaching space used by Snape.",
+      "searchTerms": [
+        "potions",
+        "bájitaltan",
+        "Snape",
+        "Piton",
+        "dungeon",
+        "pince",
+        "classroom",
+        "tanterem"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS8",
+          "kind": "event",
+          "enLocator": "dungeons",
+          "huLocator": "pince",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "hagrids-hut",
+      "labelEn": "Hagrid's hut",
+      "labelHu": "Hagrid kunyhója",
+      "labelKind": "editorial-label",
+      "placeKind": "house",
+      "aliases": [],
+      "description": "Hagrid's small home near the edge of the forest.",
+      "searchTerms": [
+        "Hagrid",
+        "hut",
+        "kunyhó",
+        "Fang",
+        "Agyar",
+        "Norbert"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS8",
+          "kind": "event",
+          "enLocator": "wooden house",
+          "huLocator": "fából épült házikó",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "forbidden-forest",
+      "labelEn": "Forbidden Forest",
+      "labelHu": "Tiltott Rengeteg",
+      "labelKind": "editorial-label",
+      "placeKind": "forest",
+      "aliases": [],
+      "description": "The prohibited forest visited during detention, home to centaurs and unicorns.",
+      "searchTerms": [
+        "forest",
+        "erdő",
+        "detention",
+        "büntetőmunka",
+        "centaur",
+        "kentaur"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS8",
+          "kind": "event",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "tiltott rengeteg",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "trophy-room",
+      "labelEn": "Trophy room",
+      "labelHu": "Trófeaterem",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The planned meeting place for the midnight duel.",
+      "searchTerms": [
+        "duel",
+        "párbaj",
+        "trophy",
+        "trófea",
+        "midnight",
+        "éjfél"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS9",
+          "kind": "event",
+          "enLocator": "trophy room",
+          "huLocator": "trófeaterem",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "third-floor-corridor",
+      "labelEn": "Forbidden third-floor corridor",
+      "labelHu": "Tiltott harmadik emeleti folyosó",
+      "labelKind": "editorial-label",
+      "placeKind": "corridor",
+      "aliases": [],
+      "description": "The forbidden corridor leading to Fluffy and the trapdoor.",
+      "searchTerms": [
+        "Fluffy",
+        "Bolyhoska",
+        "trapdoor",
+        "csapóajtó",
+        "forbidden",
+        "tiltott"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS9",
+          "kind": "event",
+          "enLocator": "third floor",
+          "huLocator": "harmadik emelet",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "charms-classroom",
+      "labelEn": "Charms classroom",
+      "labelHu": "Bűbájtan tanterme",
+      "labelKind": "editorial-label",
+      "placeKind": "classroom",
+      "aliases": [],
+      "description": "Flitwick's room where pupils practise levitating feathers.",
+      "searchTerms": [
+        "Charms",
+        "bűbájtan",
+        "Flitwick",
+        "levitation",
+        "lebegtetés",
+        "feather",
+        "toll"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "classroom",
+          "huLocator": "terem",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "quidditch-pitch",
+      "labelEn": "Quidditch pitch",
+      "labelHu": "Kviddicspálya",
+      "labelKind": "editorial-label",
+      "placeKind": "sports-ground",
+      "aliases": [],
+      "description": "The pitch where Wood trains Harry and school teams play.",
+      "searchTerms": [
+        "Quidditch",
+        "kviddics",
+        "sport",
+        "stadium",
+        "stadion"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Quidditch pitch",
+          "huLocator": "kviddicspály",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "girls-bathroom",
+      "labelEn": "Girls' bathroom",
+      "labelHu": "Lányok mosdója",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The bathroom in which the troll corners Hermione.",
+      "searchTerms": [
+        "troll",
+        "bathroom",
+        "mosdó",
+        "vécé",
+        "Hermione"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "girls’ toilets",
+          "huLocator": "lányvécé",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "courtyard",
+      "labelEn": "Hogwarts courtyard",
+      "labelHu": "Roxfort udvara",
+      "labelKind": "editorial-label",
+      "placeKind": "courtyard",
+      "aliases": [],
+      "description": "The outside space where Hermione makes portable blue fire before the match.",
+      "searchTerms": [
+        "courtyard",
+        "udvar",
+        "fire",
+        "tűz",
+        "winter",
+        "tél"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS11",
+          "kind": "event",
+          "enLocator": "courtyard",
+          "huLocator": "udvar",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "library",
+      "labelEn": "Hogwarts library",
+      "labelHu": "Roxfort könyvtára",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The school library searched for Nicolas Flamel.",
+      "searchTerms": [
+        "library",
+        "könyvtár",
+        "books",
+        "könyvek",
+        "Flamel",
+        "librarian",
+        "könyvtáros"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "library",
+          "huLocator": "könyvtár",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "restricted-section",
+      "labelEn": "Restricted Section",
+      "labelHu": "Zárolt könyvtári részleg",
+      "labelKind": "editorial-label",
+      "placeKind": "library-section",
+      "aliases": [],
+      "description": "The library section requiring a teacher's signed permission.",
+      "searchTerms": [
+        "forbidden",
+        "books",
+        "tiltott",
+        "könyvek",
+        "dark",
+        "magic",
+        "sötét",
+        "mágia"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "Restricted Section",
+          "huLocator": "zárolt részéből",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "mirror-room",
+      "labelEn": "Disused classroom containing the Mirror",
+      "labelHu": "Edevis tükrének üres tanterme",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The unused classroom in which Harry first finds the Mirror.",
+      "searchTerms": [
+        "Mirror",
+        "tükör",
+        "classroom",
+        "tanterem",
+        "desires",
+        "vágyak"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "disused classroom",
+          "huLocator": "használaton kívüli osztályterem",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "romania",
+      "labelEn": "Romania",
+      "labelHu": "Románia",
+      "labelKind": "editorial-label",
+      "placeKind": "country",
+      "aliases": [],
+      "description": "The country where Charlie works with dragons.",
+      "searchTerms": [
+        "dragons",
+        "sárkányok",
+        "Charlie",
+        "country",
+        "ország"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS14",
+          "kind": "event",
+          "enLocator": "Romania",
+          "huLocator": "Románi",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "astronomy-tower",
+      "labelEn": "Tallest tower / dragon handoff",
+      "labelHu": "Legmagasabb torony",
+      "labelKind": "editorial-label",
+      "placeKind": "tower",
+      "aliases": [],
+      "description": "The top of the tallest tower used to hand Norbert to Charlie's friends; no unstated room name assumed.",
+      "searchTerms": [
+        "dragon",
+        "sárkány",
+        "Norbert",
+        "tower",
+        "torony",
+        "handoff",
+        "átadás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS14",
+          "kind": "event",
+          "enLocator": "tallest tower",
+          "huLocator": "legmagasabb torony",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "hogs-head",
+      "labelEn": "Hog's Head",
+      "labelHu": "Szárnyas Vadkan",
+      "labelKind": "editorial-label",
+      "placeKind": "pub",
+      "aliases": [],
+      "description": "The pub Hagrid names when explaining how he acquired the dragon egg.",
+      "searchTerms": [
+        "pub",
+        "kocsma",
+        "dragon",
+        "egg",
+        "sárkánytojás",
+        "Hagrid"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS16",
+          "kind": "event",
+          "enLocator": "Hog’s Head",
+          "huLocator": "Szárnyas Vadkan",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "underground-chambers",
+      "labelEn": "Chambers beneath the trapdoor",
+      "labelHu": "Csapóajtó alatti termek",
+      "labelKind": "editorial-label",
+      "placeKind": "chambers",
+      "aliases": [],
+      "description": "The connected obstacles beneath Fluffy, ending with the room holding the Mirror.",
+      "searchTerms": [
+        "Stone",
+        "kő",
+        "obstacles",
+        "akadályok",
+        "keys",
+        "kulcsok",
+        "chess",
+        "sakk",
+        "potions",
+        "bájitalok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS16",
+          "kind": "event",
+          "enLocator": "trapdoor",
+          "huLocator": "csapóajtó",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "hospital-wing",
+      "labelEn": "Hospital wing",
+      "labelHu": "Gyengélkedő",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The school recovery ward where Harry wakes after the confrontation.",
+      "searchTerms": [
+        "hospital",
+        "gyengélkedő",
+        "nurse",
+        "ápoló",
+        "Pomfrey",
+        "recovery",
+        "lábadozás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS17",
+          "kind": "event",
+          "enLocator": "hospital wing",
+          "huLocator": "gyengélkedő",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "reptile-house",
+      "labelEn": "Reptile house",
+      "labelHu": "Hüllőház",
+      "labelKind": "editorial-label",
+      "placeKind": "attraction",
+      "aliases": [],
+      "description": "The zoo building where the glass vanishes from the snake enclosure.",
+      "searchTerms": [
+        "snake",
+        "kígyó",
+        "reptile",
+        "hüllő",
+        "zoo",
+        "állatkert"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS2",
+          "kind": "event",
+          "enLocator": "reptile house",
+          "huLocator": "hüllő",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "dudleys-second-bedroom",
+      "labelEn": "Dudley's second bedroom",
+      "labelHu": "Dudley második gyerekszobája",
+      "labelKind": "editorial-label",
+      "placeKind": "room",
+      "aliases": [],
+      "description": "The room Harry is moved into after letters arrive addressed to his cupboard.",
+      "searchTerms": [
+        "Harry",
+        "bedroom",
+        "hálószoba",
+        "toys",
+        "játékok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Dudley’s second bedroom",
+          "huLocator": "a negyedikbe pedig",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "blackpool-pier",
+      "labelEn": "Blackpool pier",
+      "labelHu": "Blackpooli móló",
+      "labelKind": "editorial-label",
+      "placeKind": "landmark",
+      "aliases": [],
+      "description": "The pier in Neville's account of his great-uncle trying to provoke magic.",
+      "searchTerms": [
+        "Neville",
+        "childhood",
+        "gyermekkor",
+        "pier",
+        "móló"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS7",
+          "kind": "event",
+          "enLocator": "Blackpool pier",
+          "huLocator": "blackpooli móló",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "isle-of-wight",
+      "labelEn": "Isle of Wight",
+      "labelHu": "Wight szigete",
+      "labelKind": "editorial-label",
+      "placeKind": "island",
+      "aliases": [],
+      "description": "The holiday destination on Marge's postcard.",
+      "searchTerms": [
+        "Marge",
+        "island",
+        "sziget",
+        "holiday",
+        "nyaralás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Isle of Wight",
+          "huLocator": "Wight szigetén",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    },
+    {
+      "id": "devon",
+      "labelEn": "Devon",
+      "labelHu": "Devon",
+      "labelKind": "editorial-label",
+      "placeKind": "region",
+      "aliases": [],
+      "description": "The location of Flamel's home in the alchemy book.",
+      "searchTerms": [
+        "Flamel",
+        "home",
+        "otthon",
+        "county",
+        "megye"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS13",
+          "kind": "event",
+          "enLocator": "Devon",
+          "huLocator": "devoni",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Book-one setting only; descriptive labels identify story spaces rather than claiming a formal canonical room name."
+    }
+  ]
+}

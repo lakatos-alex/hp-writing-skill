@@ -1,0 +1,2390 @@
+{
+  "schemaVersion": 1,
+  "book": "PS",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "put-outer",
+      "labelEn": "Put-Outer",
+      "labelHu": "Önoltó",
+      "labelKind": "editorial-label",
+      "objectKind": "device",
+      "magicStatus": "demonstrated",
+      "aliases": [
+        "light extinguisher"
+      ],
+      "description": "Dumbledore's silver device removes and restores street lights.",
+      "searchTerms": [
+        "light",
+        "extinguisher",
+        "fény",
+        "lámpa",
+        "önoltó",
+        "silver",
+        "ezüst"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "Put-Outer",
+          "huLocator": "önoltó",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Deluminator",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "flying-motorbike",
+      "labelEn": "Flying motorbike",
+      "labelHu": "Repülő motorkerékpár",
+      "labelKind": "editorial-label",
+      "objectKind": "vehicle",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Sirius's borrowed motorbike carries Hagrid and Harry through the air.",
+      "searchTerms": [
+        "transport",
+        "közlekedés",
+        "flying",
+        "repülő",
+        "Sirius",
+        "Hagrid"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS1",
+          "kind": "event",
+          "enLocator": "motorbike",
+          "huLocator": "motorkerékpár",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "hogwarts-letter",
+      "labelEn": "Hogwarts acceptance letter",
+      "labelHu": "Roxforti felvételi levél",
+      "labelKind": "editorial-label",
+      "objectKind": "document",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The addressed letter offering Harry a place at Hogwarts; delivery phenomena do not identify a casting spell.",
+      "searchTerms": [
+        "admission",
+        "felvételi",
+        "school",
+        "iskola",
+        "letter",
+        "levél"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "letter",
+          "huLocator": "levél",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "hogwarts-express",
+      "labelEn": "Hogwarts Express",
+      "labelHu": "Roxfort Expressz",
+      "labelKind": "editorial-label",
+      "objectKind": "vehicle",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The school train leaving the concealed platform.",
+      "searchTerms": [
+        "train",
+        "vonat",
+        "travel",
+        "utazás",
+        "transport",
+        "közlekedés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort Expressz",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS6",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort Expressz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "wand",
+      "labelEn": "Wand",
+      "labelHu": "Varázspálca",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "A magic-channeling instrument; Harry's chosen wand emits red and gold sparks.",
+      "searchTerms": [
+        "wand",
+        "pálca",
+        "magic",
+        "varázslat",
+        "tool",
+        "eszköz"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "wand",
+          "huLocator": "varázspálca",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "harry-wand",
+      "labelEn": "Harry's wand",
+      "labelHu": "Harry varázspálcája",
+      "labelKind": "editorial-label",
+      "objectKind": "individual-wand",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Harry's holly and phoenix-feather wand, eleven inches long; its core has a sibling in Voldemort's wand.",
+      "searchTerms": [
+        "Harry",
+        "wand",
+        "pálca",
+        "holly",
+        "magyal",
+        "phoenix",
+        "főnix",
+        "brother",
+        "testvér"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "holly and phoenix feather",
+          "huLocator": "magyal és főnix",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "pink-umbrella",
+      "labelEn": "Hagrid's pink umbrella",
+      "labelHu": "Hagrid rózsaszín esernyője",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Hagrid uses the umbrella during his magic; the intact wand mechanism is not established in this book.",
+      "searchTerms": [
+        "Hagrid",
+        "umbrella",
+        "esernyő",
+        "pink",
+        "rózsaszín"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS4",
+          "kind": "event",
+          "enLocator": "pink umbrella",
+          "huLocator": "rózsaszín esernyő",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "nimbus-two-thousand",
+      "labelEn": "Nimbus Two Thousand",
+      "labelHu": "Nimbusz Kétezres",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [
+        "Nimbus 2000",
+        "Nimbusz 2000"
+      ],
+      "description": "Harry's racing broom used in Quidditch training and matches.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "flying",
+        "repülő",
+        "racing",
+        "verseny",
+        "Harry"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS9",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS10",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS11",
+          "enLocator": "Nimbus Two Thousand",
+          "huLocator": "Nimbusz Kétezres",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "comet-two-sixty",
+      "labelEn": "Comet Two Sixty",
+      "labelHu": "Kométa Kettő-hatvanas",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "not-established",
+      "aliases": [
+        "Comet 260"
+      ],
+      "description": "The broom Malfoy boasts about; its performance is not demonstrated in this passage.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "Malfoy",
+        "racing",
+        "verseny"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Comet Two Sixty",
+          "huLocator": "Kométa Kettő-hatvanas",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS10",
+          "enLocator": "Comet Two Sixty",
+          "huLocator": "Kométa Kettő-hatvanas",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "school-broom",
+      "labelEn": "School broom",
+      "labelHu": "Iskolai seprű",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The old school brooms used for the flying lesson; no model name is supplied.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "school",
+        "iskola",
+        "flying",
+        "repülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS9",
+          "kind": "event",
+          "enLocator": "broomsticks",
+          "huLocator": "seprű",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "cleansweep-seven",
+      "labelEn": "Cleansweep Seven",
+      "labelHu": "Jólsep-R Hetes",
+      "labelKind": "editorial-label",
+      "objectKind": "broom",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "A broom model Wood suggests for Harry; its performance is not demonstrated in this passage.",
+      "searchTerms": [
+        "broom",
+        "seprű",
+        "Wood",
+        "racing",
+        "verseny"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS9",
+          "kind": "event",
+          "enLocator": "Cleansweep Seven",
+          "huLocator": "Jólsep-R Hetes",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS9",
+          "enLocator": "Cleansweep Seven",
+          "huLocator": "Jólsep-R Hetes",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "quaffle",
+      "labelEn": "Quaffle",
+      "labelHu": "Kvaff",
+      "labelKind": "editorial-label",
+      "objectKind": "sport-ball",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The red Quidditch ball passed by Chasers to score goals; no enchantment is explained in PS.",
+      "searchTerms": [
+        "ball",
+        "labda",
+        "chaser",
+        "hajtó",
+        "goals",
+        "gól",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Quaffle",
+          "huLocator": "kvaff",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Quaffle",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "bludger",
+      "labelEn": "Bludger",
+      "labelHu": "Gurkó",
+      "labelKind": "editorial-label",
+      "objectKind": "sport-ball",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The black Quidditch balls that try to knock players from their brooms.",
+      "searchTerms": [
+        "ball",
+        "labda",
+        "attack",
+        "támadás",
+        "beater",
+        "terelő",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Bludger",
+          "huLocator": "gurkó",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "golden-snitch",
+      "labelEn": "Golden Snitch",
+      "labelHu": "Aranycikesz",
+      "labelKind": "editorial-label",
+      "objectKind": "sport-ball",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The small winged gold ball pursued by Seekers.",
+      "searchTerms": [
+        "ball",
+        "labda",
+        "wings",
+        "szárny",
+        "seeker",
+        "fogó",
+        "Quidditch",
+        "kviddics"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS10",
+          "kind": "event",
+          "enLocator": "Golden Snitch",
+          "huLocator": "aranycikesz",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "remembrall",
+      "labelEn": "Remembrall",
+      "labelHu": "Nefeleddgömb",
+      "labelKind": "editorial-label",
+      "objectKind": "device",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Neville's glass ball turns red when he has forgotten something, without saying what.",
+      "searchTerms": [
+        "memory",
+        "emlékezet",
+        "forgetfulness",
+        "feledékenység",
+        "red",
+        "piros",
+        "Neville"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS9",
+          "kind": "event",
+          "enLocator": "Remembrall",
+          "huLocator": "nefeleddgömb",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Remembrall",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "sorting-hat",
+      "labelEn": "Sorting Hat",
+      "labelHu": "Teszlek Süveg",
+      "labelKind": "editorial-label",
+      "objectKind": "artefact",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The talking hat that assigns pupils to school houses.",
+      "searchTerms": [
+        "sorting",
+        "beosztás",
+        "house",
+        "ház",
+        "hat",
+        "süveg",
+        "talking",
+        "beszélő"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS7",
+          "kind": "event",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS7",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS13",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Sorting_Hat",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "invisibility-cloak",
+      "labelEn": "Invisibility Cloak",
+      "labelHu": "Láthatatlanná tevő köpönyeg",
+      "labelKind": "editorial-label",
+      "objectKind": "garment",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Harry's Christmas gift hides the wearer from sight; its later Hallow identity is not imported.",
+      "searchTerms": [
+        "invisible",
+        "láthatatlan",
+        "cloak",
+        "köpeny",
+        "hide",
+        "elrejt",
+        "Harry"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tevő köpönyeg",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "mirror-of-erised",
+      "labelEn": "Mirror of Erised",
+      "labelHu": "Edevis tükre",
+      "labelKind": "editorial-label",
+      "objectKind": "artefact",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "A mirror showing the viewer's deepest desire; it does not establish a prediction of the future.",
+      "searchTerms": [
+        "mirror",
+        "tükör",
+        "wishes",
+        "vágyak",
+        "desire",
+        "kívánság",
+        "family",
+        "család"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "Mirror of Erised",
+          "huLocator": "Edevis tükre",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS12",
+          "enLocator": "Mirror of Erised",
+          "huLocator": "Edevis tükre",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS17",
+          "enLocator": "Mirror of Erised",
+          "huLocator": "Edevis tükre",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Mirror_of_Erised",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "philosophers-stone",
+      "labelEn": "Philosopher's Stone",
+      "labelHu": "Bölcsek köve",
+      "labelKind": "editorial-label",
+      "objectKind": "artefact",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Flamel's Stone is said to make gold and the Elixir of Life; Harry retrieves it from the Mirror.",
+      "searchTerms": [
+        "alchemy",
+        "alkímia",
+        "immortality",
+        "halhatatlanság",
+        "gold",
+        "arany",
+        "Flamel"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS13",
+          "kind": "event",
+          "enLocator": "Philosopher’s Stone",
+          "huLocator": "bölcsek köve",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Philosopher%27s_Stone",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "winged-keys",
+      "labelEn": "Winged keys",
+      "labelHu": "Szárnyas kulcsok",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-tools",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Flying keys guard a locked door; Harry catches the damaged silver key.",
+      "searchTerms": [
+        "flying",
+        "repülő",
+        "wing",
+        "szárny",
+        "key",
+        "kulcs",
+        "door",
+        "ajtó"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS16",
+          "kind": "event",
+          "enLocator": "Winged keys",
+          "huLocator": "kulcs",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS16",
+          "enLocator": "Winged keys",
+          "huLocator": "Szárnyas kulcsok",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Winged_Keys",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "wizards-chess",
+      "labelEn": "Wizard's Chess set",
+      "labelHu": "Varázslósakk",
+      "labelKind": "editorial-label",
+      "objectKind": "game",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Chess pieces move and fight on command; Harry borrows Seamus's set and receives a set at Christmas.",
+      "searchTerms": [
+        "chess",
+        "sakk",
+        "game",
+        "játék",
+        "moving",
+        "mozgó"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "wizard chess",
+          "huLocator": "varázslósakk",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Ronald_Weasley%27s_Wizard%27s_Chess_set",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "giant-chess-set",
+      "labelEn": "Giant chess set",
+      "labelHu": "Óriássakk",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-game",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The living chess obstacle requires Ron to sacrifice his piece so his friends can advance.",
+      "searchTerms": [
+        "chess",
+        "sakk",
+        "sacrifice",
+        "áldozat",
+        "Ron",
+        "Stone",
+        "kő",
+        "obstacle",
+        "akadály"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS16",
+          "kind": "event",
+          "enLocator": "chessboard",
+          "huLocator": "sakktábla",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "hagrids-flute",
+      "labelEn": "Hagrid's wooden flute",
+      "labelHu": "Hagrid furulyája",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Hagrid's handmade gift; Harry and Hermione play music to put Fluffy to sleep, without casting a spell.",
+      "searchTerms": [
+        "flute",
+        "furulya",
+        "music",
+        "zene",
+        "wooden",
+        "fa",
+        "Fluffy",
+        "Bolyhoska"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "wooden flute",
+          "huLocator": "furulya",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Flute",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "chocolate-frog-cards",
+      "labelEn": "Chocolate Frog cards",
+      "labelHu": "Csokibéka-kártyák",
+      "labelKind": "editorial-label",
+      "objectKind": "collectible",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Collectible cards portray famous witches and wizards; Dumbledore leaves and returns to his image.",
+      "searchTerms": [
+        "cards",
+        "kártyák",
+        "pictures",
+        "képek",
+        "collectible",
+        "gyűjtés",
+        "Flamel"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "cards",
+          "huLocator": "kártyák",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "chocolate-frogs",
+      "labelEn": "Chocolate Frogs",
+      "labelHu": "Csokibékák",
+      "labelKind": "editorial-label",
+      "objectKind": "confectionery",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Wizarding sweets packaged with collectible cards; the novel does not show the chocolate hopping.",
+      "searchTerms": [
+        "sweet",
+        "édesség",
+        "chocolate",
+        "csokoládé",
+        "card",
+        "kártya"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Chocolate Frogs",
+          "huLocator": "csokibék",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "bertie-botts-beans",
+      "labelEn": "Bertie Bott's Every-Flavour Beans",
+      "labelHu": "Bogoly Berti-féle Mindenízű Drazsé",
+      "labelKind": "editorial-label",
+      "objectKind": "confectionery",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Beans with pleasant and unpleasant flavours; do not infer their manufacturing spell.",
+      "searchTerms": [
+        "sweets",
+        "édesség",
+        "beans",
+        "drazsé",
+        "flavours",
+        "ízek"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Bertie Bott’s Every-Flavour Beans",
+          "huLocator": "Mindenízű Drazsé",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "galleon",
+      "labelEn": "Galleon",
+      "labelHu": "Galleon",
+      "labelKind": "editorial-label",
+      "objectKind": "currency",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Gold wizarding currency; one Galleon equals seventeen Sickles.",
+      "searchTerms": [
+        "money",
+        "pénz",
+        "gold",
+        "arany",
+        "currency",
+        "pénznem"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "sickle",
+      "labelEn": "Sickle",
+      "labelHu": "Sarló",
+      "labelKind": "editorial-label",
+      "objectKind": "currency",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Silver wizarding currency; one Sickle equals twenty-nine Knuts.",
+      "searchTerms": [
+        "money",
+        "pénz",
+        "silver",
+        "ezüst",
+        "currency",
+        "pénznem"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Sickles",
+          "huLocator": "sarló",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Sickle",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "knut",
+      "labelEn": "Knut",
+      "labelHu": "Knút",
+      "labelKind": "editorial-label",
+      "objectKind": "currency",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Bronze wizarding currency.",
+      "searchTerms": [
+        "money",
+        "pénz",
+        "bronze",
+        "bronz",
+        "currency",
+        "pénznem"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Knuts",
+          "huLocator": "knút",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "daily-prophet",
+      "labelEn": "Daily Prophet",
+      "labelHu": "Reggeli Próféta",
+      "labelKind": "editorial-label",
+      "objectKind": "publication",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The wizarding newspaper reporting the Gringotts break-in.",
+      "searchTerms": [
+        "newspaper",
+        "újság",
+        "news",
+        "hírek"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS6",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS8",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "anti-cheating-quills",
+      "labelEn": "Anti-Cheating quills",
+      "labelHu": "Puskázásgátló lúdtollak",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-tools",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The special examination quills are bewitched to prevent cheating; no human casting event is described.",
+      "searchTerms": [
+        "quill",
+        "penna",
+        "exams",
+        "vizsga",
+        "cheating",
+        "csalás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS16",
+          "kind": "event",
+          "enLocator": "Anti-Cheating spell",
+          "huLocator": "puskázásgátló átokkal",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "screaming-book",
+      "labelEn": "Screaming library book",
+      "labelHu": "Sikító könyvtári könyv",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-book",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "An unnamed Restricted Section book screams when Harry opens it.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "scream",
+        "sikítás",
+        "restricted",
+        "zárolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "book was screaming",
+          "huLocator": "A könyv sikoltozott",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "standard-book-spells",
+      "labelEn": "The Standard Book of Spells, Grade 1",
+      "labelHu": "Varázslástan alapfokon",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Miranda Goshawk's required first-year spell textbook; a book about magic is not itself demonstrated to be enchanted.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "spells",
+        "varázslástan",
+        "Miranda"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "The Standard Book of Spells",
+          "huLocator": "Varázslástan alapfokon",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "history-magic-book",
+      "labelEn": "A History of Magic",
+      "labelHu": "A mágia története",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Bathilda Bagshot's required history textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "history",
+        "mágiatörténet",
+        "Bathilda"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "A History of Magic",
+          "huLocator": "A mágia története",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "A History of Magic",
+          "huLocator": "A mágia története",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "magical-theory-book",
+      "labelEn": "Magical Theory",
+      "labelHu": "Modern varázsláselmélet",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Adalbert Waffling's required theory textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "theory",
+        "elmélet",
+        "Adalbert"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Magical Theory",
+          "huLocator": "Modern varázsláselmélet",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Magical Theory",
+          "huLocator": "Modern varázsláselmélet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "transfiguration-book",
+      "labelEn": "A Beginner's Guide to Transfiguration",
+      "labelHu": "Az átváltoztatásról kezdőknek",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Emeric Switch's introductory textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "transfiguration",
+        "átváltoztatás",
+        "Emeric"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "A Beginner’s Guide to Transfiguration",
+          "huLocator": "Az átváltoztatásról kezdőknek",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "herbs-fungi-book",
+      "labelEn": "One Thousand Magical Herbs and Fungi",
+      "labelHu": "Ezer bűvös fű és gomba",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Phyllida Spore's required Herbology textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "herbology",
+        "gyógynövénytan",
+        "Phyllida"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "One Thousand Magical Herbs and Fungi",
+          "huLocator": "Ezer bűvös fű és gomba",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "One Thousand Magical Herbs and Fungi",
+          "huLocator": "Ezer bűvös fű és gomba",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "PS14",
+          "enLocator": "One Thousand Magical Herbs and Fungi",
+          "huLocator": "Ezer bűvös fű és gomba",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "potions-book",
+      "labelEn": "Magical Drafts and Potions",
+      "labelHu": "Ismerkedés a varázsitalokkal",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Arsenius Jigger's required potions textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "potions",
+        "bájitalok",
+        "Arsenius"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Magical Drafts and Potions",
+          "huLocator": "Ismerkedés a varázsitalokkal",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Magical Drafts and Potions",
+          "huLocator": "Ismerkedés a varázsitalokkal",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "fantastic-beasts-book",
+      "labelEn": "Fantastic Beasts and Where to Find Them",
+      "labelHu": "Legendás állatok és megfigyelésük",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Newt Scamander's required magical-beasts textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "beasts",
+        "állatok",
+        "Göthe"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Fantastic Beasts and Where to Find Them",
+          "huLocator": "Legendás állatok és megfigyelésük",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Fantastic Beasts and Where to Find Them",
+          "huLocator": "Legendás állatok és megfigyelésük",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "dark-forces-book",
+      "labelEn": "The Dark Forces: A Guide to Self-Protection",
+      "labelHu": "A sötét erők. Önvédelmi kalauz",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Quentin Trimble's required self-protection textbook.",
+      "searchTerms": [
+        "textbook",
+        "tankönyv",
+        "defence",
+        "önvédelem",
+        "Quentin"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "The Dark Forces",
+          "huLocator": "A sötét erők",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "The Dark Forces: A Guide to Self-Protection",
+          "huLocator": "A sötét erők. Önvédelmi kalauz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "curses-counter-curses-book",
+      "labelEn": "Curses and Counter-Curses",
+      "labelHu": "Átkok és ellenátkok",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Vindictus Viridian's book attracts Harry's interest in cursing Dudley.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "curses",
+        "átkok",
+        "counter",
+        "curses",
+        "ellenátkok"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Curses and Counter-Curses",
+          "huLocator": "Átkok és ellenátkok",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Curses and Counter-Curses",
+          "huLocator": "Átkok és ellenátkok",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "hogwarts-history-book",
+      "labelEn": "Hogwarts: A History",
+      "labelHu": "Roxfort története",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "The book Hermione cites when explaining the enchanted ceiling.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "history",
+        "történet",
+        "Hogwarts",
+        "Roxfort"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS7",
+          "kind": "event",
+          "enLocator": "Hogwarts: A History",
+          "huLocator": "Roxfort történetében",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "dragon-egg",
+      "labelEn": "Dragon egg",
+      "labelHu": "Sárkánytojás",
+      "labelKind": "editorial-label",
+      "objectKind": "biological-object",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "The egg Hagrid wins and hatches into Norbert; it is not a spell or an enchanted device.",
+      "searchTerms": [
+        "egg",
+        "tojás",
+        "dragon",
+        "sárkány",
+        "Norbert"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS14",
+          "kind": "event",
+          "enLocator": "huge, black egg",
+          "huLocator": "jókora fekete tojás",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "cauldron",
+      "labelEn": "Cauldron",
+      "labelHu": "Üst",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A vessel required for potion-making; self-stirring cauldrons are a separately enchanted type.",
+      "searchTerms": [
+        "cauldron",
+        "üst",
+        "potions",
+        "bájital",
+        "brewing",
+        "főzés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "1 cauldron",
+          "huLocator": "1 db üst",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS5",
+          "enLocator": "Cauldron",
+          "huLocator": "Üst",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "self-stirring-cauldron",
+      "labelEn": "Self-stirring cauldron",
+      "labelHu": "Önkeverő üst",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-equipment",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "An advertised cauldron type that stirs its contents itself.",
+      "searchTerms": [
+        "cauldron",
+        "üst",
+        "stirring",
+        "keverés",
+        "shop",
+        "bolt"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "Self-Stirring",
+          "huLocator": "Önkeverő",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "brass-scales",
+      "labelEn": "Brass scales",
+      "labelHu": "Rézmérleg",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A required piece of school equipment used to weigh ingredients.",
+      "searchTerms": [
+        "scales",
+        "mérleg",
+        "equipment",
+        "felszerelés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "brass scales",
+          "huLocator": "rézmérleg",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "telescope",
+      "labelEn": "Telescope",
+      "labelHu": "Teleszkóp",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A required school instrument for observing the sky.",
+      "searchTerms": [
+        "astronomy",
+        "csillagászat",
+        "telescope",
+        "távcső"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "telescope",
+          "huLocator": "teleszkóp",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "quill",
+      "labelEn": "Quill",
+      "labelHu": "Lúdtoll",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A writing implement sold with school supplies; ordinary quills are distinct from the enchanted exam quills.",
+      "searchTerms": [
+        "writing",
+        "írás",
+        "quill",
+        "penna"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "quills",
+          "huLocator": "lúdtoll",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "smeltings-stick",
+      "labelEn": "Smeltings stick",
+      "labelHu": "Smeltings-bot",
+      "labelKind": "editorial-label",
+      "objectKind": "equipment",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Dudley's knobbly school stick, used for hitting people.",
+      "searchTerms": [
+        "Dudley",
+        "school",
+        "iskola",
+        "stick",
+        "bot"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS3",
+          "kind": "event",
+          "enLocator": "Smeltings stick",
+          "huLocator": "bot",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "ollivander-tape",
+      "labelEn": "Ollivander's tape measure",
+      "labelHu": "Ollivander mérőszalagja",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-tools",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "The tape measures Harry independently while Ollivander fetches wand boxes.",
+      "searchTerms": [
+        "measure",
+        "mérés",
+        "tape",
+        "szalag",
+        "Ollivander"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "tape measure",
+          "huLocator": "mérőszalag",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "colour-changing-ink",
+      "labelEn": "Colour-changing ink",
+      "labelHu": "Színváltó tinta",
+      "labelKind": "editorial-label",
+      "objectKind": "enchanted-equipment",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Ink Harry finds that changes colour while writing.",
+      "searchTerms": [
+        "ink",
+        "tinta",
+        "colour",
+        "szín",
+        "writing",
+        "írás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS5",
+          "kind": "event",
+          "enLocator": "changed colour",
+          "huLocator": "tintát, ami írás közben",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "modern-magical-history",
+      "labelEn": "Modern Magical History",
+      "labelHu": "Modern mágiatörténet",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "One of Hermione's background books containing information about Harry.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "history",
+        "történet",
+        "Hermione",
+        "Harry"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Modern Magical History",
+          "huLocator": "Modern mágiatörténet",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS6",
+          "enLocator": "Modern Magical History",
+          "huLocator": "Modern mágiatörténet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "rise-fall-dark-arts",
+      "labelEn": "The Rise and Fall of the Dark Arts",
+      "labelHu": "Feketemágia felvirágzása és bukása",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A background book Hermione has read about Harry.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "dark",
+        "arts",
+        "feketemágia",
+        "Hermione",
+        "Harry"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "The Rise and Fall of the Dark Arts",
+          "huLocator": "Feketemágia felvirágzása",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "great-wizarding-events",
+      "labelEn": "Great Wizarding Events of the Twentieth Century",
+      "labelHu": "Huszadik századi mágiatörténet címszavakban",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "A background book Hermione has read about Harry.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "history",
+        "történet",
+        "Hermione",
+        "Harry"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Great Wizarding Events",
+          "huLocator": "Huszadik századi mágiatörténet",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS6",
+          "enLocator": "Great Wizarding Events of the Twentieth Century",
+          "huLocator": "Huszadik századi mágiatörténet címszavakban",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "great-wizards-twentieth",
+      "labelEn": "Great Wizards of the Twentieth Century",
+      "labelHu": "Huszadik század legnagyobb mágusai",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "One of the books searched unsuccessfully for Flamel.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Flamel",
+        "search",
+        "kutatás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "Great Wizards of the Twentieth Century",
+          "huLocator": "Huszadik század legnagyobb mágusai",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS12",
+          "enLocator": "Great Wizards of the Twentieth Century",
+          "huLocator": "Huszadik század legnagyobb mágusai",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "notable-magical-names",
+      "labelEn": "Notable Magical Names of Our Time",
+      "labelHu": "Kortárs varázslók nagy könyve",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "One of the books searched unsuccessfully for Flamel.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Flamel",
+        "search",
+        "kutatás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "Notable Magical Names",
+          "huLocator": "Kortárs varázslók nagy könyvé",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "important-discoveries",
+      "labelEn": "Important Modern Magical Discoveries",
+      "labelHu": "Korunk nagy mágiai vívmányai",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "One of the books searched unsuccessfully for Flamel.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Flamel",
+        "discoveries",
+        "felfedezések"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "Important Modern Magical Discoveries",
+          "huLocator": "Korunk nagy mágiai vívmányai",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS12",
+          "enLocator": "Important Modern Magical Discoveries",
+          "huLocator": "Korunk nagy mágiai vívmányai",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "recent-developments",
+      "labelEn": "A Study of Recent Developments in Wizardry",
+      "labelHu": "A varázslás modernkori fejlődése",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "One of the books searched unsuccessfully for Flamel.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Flamel",
+        "developments",
+        "fejlődés"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "A Study of Recent Developments in Wizardry",
+          "huLocator": "A varázslás modernkori fejlődésé",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "dragon-species-book",
+      "labelEn": "Dragon Species of Great Britain and Ireland",
+      "labelHu": "Nagy-Britannia és Írország őshonos sárkányfajai",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "One of the dragon books Hagrid researches before hatching Norbert.",
+      "searchTerms": [
+        "dragon",
+        "sárkány",
+        "book",
+        "könyv",
+        "Norbert"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS14",
+          "kind": "event",
+          "enLocator": "Dragon Species of Great Britain and Ireland",
+          "huLocator": "Nagy-Britannia és Írország őshonos sárkányfajai",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS14",
+          "enLocator": "Dragon Species of Great Britain and Ireland",
+          "huLocator": "Nagy-Britannia és Írország őshonos sárkányfajai",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "egg-inferno-book",
+      "labelEn": "From Egg to Inferno, A Dragon Keeper's Guide",
+      "labelHu": "A tojástól a pokol tüzéig / Sárkánybarátok kézikönyve",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Dragon-rearing reading used by Hagrid; the Hungarian list presents the title and handbook separately.",
+      "searchTerms": [
+        "dragon",
+        "sárkány",
+        "book",
+        "könyv",
+        "egg",
+        "tojás",
+        "Norbert"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS14",
+          "kind": "event",
+          "enLocator": "From Egg to Inferno",
+          "huLocator": "A tojástól a pokol tüzéig",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "droobles-gum",
+      "labelEn": "Drooble's Best Blowing Gum",
+      "labelHu": "Drubli legjobb fúvógumija",
+      "labelKind": "editorial-label",
+      "objectKind": "confectionery",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "Named chewing gum sold on the train; its properties are not demonstrated here.",
+      "searchTerms": [
+        "sweet",
+        "édesség",
+        "gum",
+        "rágógumi",
+        "blowing",
+        "fúvógumi",
+        "train",
+        "vonat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Drooble’s Best Blowing Gum",
+          "huLocator": "Drubli legjobb fúvógumiját",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "pumpkin-pasties",
+      "labelEn": "Pumpkin Pasties",
+      "labelHu": "Tökös derelye",
+      "labelKind": "editorial-label",
+      "objectKind": "confectionery",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Pumpkin pastries sold on the train; Harry shares the food with Ron.",
+      "searchTerms": [
+        "food",
+        "étel",
+        "pumpkin",
+        "tök",
+        "pastry",
+        "derelye",
+        "train",
+        "vonat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Pumpkin Pasties",
+          "huLocator": "tökös derelyét",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "cauldron-cakes",
+      "labelEn": "Cauldron Cakes",
+      "labelHu": "Kondéros keksz",
+      "labelKind": "editorial-label",
+      "objectKind": "confectionery",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Named cakes sold on the train; the cauldron name does not establish enchantment.",
+      "searchTerms": [
+        "food",
+        "étel",
+        "cake",
+        "sütemény",
+        "keksz",
+        "train",
+        "vonat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Cauldron Cakes",
+          "huLocator": "kondéros kekszet",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "liquorice-wands",
+      "labelEn": "Liquorice Wands",
+      "labelHu": "Varázspálca nyalóka",
+      "labelKind": "editorial-label",
+      "objectKind": "confectionery",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Wand-named sweets sold on the train; they are not spell-casting instruments.",
+      "searchTerms": [
+        "sweet",
+        "édesség",
+        "liquorice",
+        "édesgyökér",
+        "nyalóka",
+        "train",
+        "vonat"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS6",
+          "kind": "event",
+          "enLocator": "Liquorice Wands",
+          "huLocator": "varázspálca nyalókát",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "quidditch-ages-book",
+      "labelEn": "Quidditch through the Ages",
+      "labelHu": "A Kviddics évszázadai",
+      "labelKind": "editorial-label",
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "aliases": [],
+      "description": "Hermione lends Harry a book about Quidditch history; its later attributed author is not supplied here.",
+      "searchTerms": [
+        "book",
+        "könyv",
+        "Quidditch",
+        "kviddics",
+        "history",
+        "történet",
+        "Hermione"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS11",
+          "kind": "event",
+          "enLocator": "Quidditch through the Ages",
+          "huLocator": "a Kviddics évszázadai",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "PS11",
+          "enLocator": "Quidditch through the Ages",
+          "huLocator": "A Kviddics évszázadai",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "No object-specific magic is described in PS; interaction with magical people or creatures does not make it enchanted."
+    },
+    {
+      "id": "wizard-crackers",
+      "labelEn": "Wizard crackers",
+      "labelHu": "Máguspukkantók",
+      "labelKind": "editorial-label",
+      "objectKind": "novelty",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Christmas crackers release loud blasts, blue smoke and unusual gifts; no manufacturing spell is identified.",
+      "searchTerms": [
+        "Christmas",
+        "karácsony",
+        "cracker",
+        "pukkantó",
+        "gifts",
+        "ajándék",
+        "smoke",
+        "füst"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "wizard crackers",
+          "huLocator": "máguspukkantók",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Wizard_Cracker",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "wart-growing-kit",
+      "labelEn": "Grow-your-own-warts kit",
+      "labelHu": "Bibircsóknövesztő készlet",
+      "labelKind": "editorial-label",
+      "objectKind": "kit",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "One of Harry's cracker gifts; the book does not show him using the kit.",
+      "searchTerms": [
+        "kit",
+        "készlet",
+        "wart",
+        "bibircsók",
+        "Christmas",
+        "karácsony",
+        "gift",
+        "ajándék"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "grow-your-own-warts kit",
+          "huLocator": "bibircsóknövesztő készletet",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported.",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Grow-Your-Own-Warts_kit",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "luminous-balloons",
+      "labelEn": "Non-explodable luminous balloons",
+      "labelHu": "Kiszúrhatatlan világító léggömbök",
+      "labelKind": "editorial-label",
+      "objectKind": "novelty",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "Harry receives balloons described as luminous and non-explodable among his cracker gifts.",
+      "searchTerms": [
+        "balloon",
+        "léggömb",
+        "luminous",
+        "világító",
+        "Christmas",
+        "karácsony",
+        "gift",
+        "ajándék"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS12",
+          "kind": "event",
+          "enLocator": "non-explodable, luminous balloons",
+          "huLocator": "kiszúrhatatlan, világító léggömböt",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    },
+    {
+      "id": "fluffy-harp",
+      "labelEn": "Harp beside Fluffy",
+      "labelHu": "Bolyhoska melletti hárfa",
+      "labelKind": "editorial-label",
+      "objectKind": "instrument",
+      "magicStatus": "not-established",
+      "aliases": [],
+      "description": "A harp lies beside Fluffy. The novel does not show it playing by itself; do not import the film's self-playing mechanism.",
+      "searchTerms": [
+        "harp",
+        "hárfa",
+        "music",
+        "zene",
+        "Fluffy",
+        "Bolyhoska",
+        "sleep",
+        "alvás"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS16",
+          "kind": "event",
+          "enLocator": "Looks like a harp",
+          "huLocator": "Hárfának tűnik",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Object classification does not establish enchantment in PS. Later-book properties are not imported."
+    },
+    {
+      "id": "elixir-of-life",
+      "labelEn": "Elixir of Life",
+      "labelHu": "Életelixír",
+      "labelKind": "editorial-label",
+      "objectKind": "potion",
+      "magicStatus": "demonstrated",
+      "aliases": [],
+      "description": "A book explains that the Stone produces a life-extending drink; Flamel's dependence is later discussed by Dumbledore.",
+      "searchTerms": [
+        "potion",
+        "bájital",
+        "life",
+        "élet",
+        "immortality",
+        "halhatatlanság",
+        "Flamel",
+        "Stone",
+        "kő"
+      ],
+      "evidence": [
+        {
+          "anchor": "PS13",
+          "kind": "event",
+          "enLocator": "Elixir of Life",
+          "huLocator": "életelixír",
+          "scope": "Selected chapter passage; identity and the record description, not every event in the chapter.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "The described object property is supported in PS, including explicit descriptions or reports; no manufacturing incantation is inferred."
+    }
+  ]
+}

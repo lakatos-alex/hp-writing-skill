@@ -5,6 +5,17 @@ All notable changes to the **Harry Potter Writing Skill** (`harry-potter-fanfic`
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- Ranked PS retrieval through `semantic`, `people`, `places`, `objects` and `spells`, with bilingual concepts, aliases, explicit categories, chapter filters and object magic status.
+- A curated PS1–PS17 inventory: 117 characters, 53 places, 70 notable objects and six identified spells; inventory completion and independent reading/review coverage are reported separately.
+- Contributor roadmap for all seven books and a first-book taxonomy review with excluded observations.
+
+### Fixed
+- `magic` now returns identified human-cast spells. Object behaviour, accidental magic, speculative identities and unexplained effects are excluded. Unknown speech is separate from proven non-verbal casting; later spell identifications carry separate evidence.
+- Corrected glossary categories for the Put-Outer, Privet Drive, Godric's Hollow, Grunnings and broom models. Corrected Baruffio and Charlie's primary presence to mentions, and preserved first-book Hungarian edition names.
+
 ## [0.3.1] - 2026-09-17
 
 ### Added

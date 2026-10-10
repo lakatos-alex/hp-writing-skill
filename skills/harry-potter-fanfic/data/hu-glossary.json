@@ -3251,7 +3251,7 @@
   },
   {
     "id": "put-outer-term",
-    "category": "creature",
+    "category": "object",
     "en": "Put-Outer",
     "hu": "önoltó",
     "aliases": [],
@@ -3344,7 +3344,7 @@
   },
   {
     "id": "godrics-hollow",
-    "category": "concept",
+    "category": "place",
     "en": "Godric's Hollow",
     "hu": "Godric's Hollow",
     "aliases": [],
@@ -3375,7 +3375,7 @@
   },
   {
     "id": "privet-drive",
-    "category": "concept",
+    "category": "place",
     "en": "Privet Drive",
     "hu": "Privet Drive",
     "aliases": [],
@@ -3406,7 +3406,7 @@
   },
   {
     "id": "grunnings",
-    "category": "concept",
+    "category": "institution",
     "en": "Grunnings",
     "hu": "Grunnings",
     "aliases": [],
@@ -3933,7 +3933,7 @@
   },
   {
     "id": "nimbus-two-thousand",
-    "category": "concept",
+    "category": "object",
     "en": "Nimbus Two Thousand",
     "hu": "Nimbusz Kétezres",
     "aliases": [],
@@ -3964,7 +3964,7 @@
   },
   {
     "id": "comet-two-sixty",
-    "category": "concept",
+    "category": "object",
     "en": "Comet Two Sixty",
     "hu": "Kométa Kettő-hatvanas",
     "aliases": [],

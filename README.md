@@ -69,7 +69,7 @@ For manual installation, copy the self-contained [skill folder](skills/harry-pot
 - **Primary Seven-Book Canon:** The seven original novels outrank films, companion books, wiki summaries, and model recollection. Exact claims still need passage verification.
 - **Grounded British Boarding School Realism:** Student actions are constrained by class schedules, physical exhaustion, school rules, caretaker patrols, and genuine social friction.
 - **Progressive Disclosure (11 Subskills):** Agents load only the specific reference modules required for their task rather than polluting context with unnecessary lore.
-- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text searches, bilingual passage alignment, knowledge/custody state validation, and Hungarian terminology linting.
+- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text search, bilingual passage alignment, knowledge/custody checks, and Hungarian terminology linting. Source-free PS concept retrieval ranks distinct people, places, notable objects and identified human-cast spells. Its inventory spans 17 chapters; independent full-book semantic review remains incomplete. See the [tool guide](skills/harry-potter-fanfic/references/tools.md) for scope and filters.
 - **Bilingual References:** Indexed English and Hungarian chapter pairs, topical indices, evidence cards, and terminology locators support targeted lookup in both languages.
 
 ---
@@ -160,6 +160,8 @@ node skills/harry-potter-fanfic/scripts/hp.mjs import --sources /path/to/books -
 # Search chapters, facts, and glossary entries
 node skills/harry-potter-fanfic/scripts/hp.mjs chapters --book PoA --topic food --limit 5
 node skills/harry-potter-fanfic/scripts/hp.mjs glossary --query Accio
+node skills/harry-potter-fanfic/scripts/hp.mjs semantic --book PS --query "object that tells you something is forgotten"
+node skills/harry-potter-fanfic/scripts/hp.mjs spells --book PS --query "float feather"
 node skills/harry-potter-fanfic/scripts/hp.mjs facts --query Fidelius
 node skills/harry-potter-fanfic/scripts/hp.mjs search --sources /path/to/books --lang en --query "Restricted Section"
 

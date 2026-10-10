@@ -62,10 +62,11 @@ test('CLI provides help for --help, -h, help, or subcommand --help',()=>{
     assert.match(r.stdout, /hp\.mjs import\|inventory/);
   }
 });
-test('book knowledge pilot is structurally valid and retrieval is explicitly incomplete',()=>{
-  assert.deepEqual(validateBookKnowledge(),{characters:42,magic:14,coverage:17});
+test('book knowledge inventory validates and independent reading remains incomplete',()=>{
+  assert.deepEqual(validateBookKnowledge(),{characters:117,magic:6,places:53,objects:70,coverage:17});
   const coverage=cli('coverage','--book','PS');assert.equal(coverage.status,0);assert.equal(JSON.parse(coverage.stdout).coverageState,'incomplete');
-  const characters=cli('characters','--book','PS','--limit','1');assert.equal(characters.status,0);assert.equal(JSON.parse(characters.stdout).total,42);
+  assert.equal(JSON.parse(coverage.stdout).retrievalPass.state,'complete');
+  const characters=cli('characters','--book','PS','--limit','1');assert.equal(characters.status,0);assert.equal(JSON.parse(characters.stdout).total,117);
   const paged=cli('facts','--book','PS','--page','--limit','1');assert.equal(paged.status,0);assert.deepEqual(Object.keys(JSON.parse(paged.stdout)).sort(),['facts','nextOffset','offset','total']);
   assert.notEqual(cli('facts','--limit','1').status,0);assert.notEqual(cli('magic','--book','PS','--id','x','--query','x').status,0);
 });

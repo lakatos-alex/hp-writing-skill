@@ -34,7 +34,7 @@ try {
   check(count===199,'Incomplete narrative corpus');
   const facts=JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8'));
   for(const f of facts)check(search(books,{anchor:f.anchors[0],query:f.verification.locator,limit:1,context:0}).total>0,`Missing fact locator: ${f.id}`);
-  const psBookRecords=['characters','magic'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data','books','ps',`${name}.json`),'utf8')).entries);
+  const psBookRecords=['characters','magic','places','objects'].flatMap(name=>JSON.parse(fs.readFileSync(path.join(root,'data','books','ps',`${name}.json`),'utf8')).entries);
   const psEvidencePresent=[...JSON.parse(fs.readFileSync(path.join(root,'data/hu-glossary.json'),'utf8')),...JSON.parse(fs.readFileSync(path.join(root,'data/facts.json'),'utf8')),...psBookRecords].some(record=>(record.evidence??[]).some(item=>item.anchor.startsWith('PS')) || (record.bookUsage?.PS?.evidence?.length) || (record.occurrences??[]).some(occurrence=>(occurrence.evidence??[]).length));
   const huDir=path.join(dir,'hu'); let hu=[];
   check(!psEvidencePresent || fs.existsSync(path.join(huDir,'catalogue.local.json')),'PS evidence requires a Hungarian source catalogue');
@@ -67,7 +67,17 @@ try {
     const evidenceRecords=[...glossary,...facts,...bookRecords];
     const checkEvidence=(record,label)=>{for(const item of record.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English evidence locator: ${label}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian evidence locator: ${label}`);}}
     for(const record of evidenceRecords) checkEvidence(record,record.id);
+    for(const record of evidenceRecords) if(record.bookUsage?.PS) checkEvidence(record.bookUsage.PS,`PS usage ${record.id}`);
+    let semanticLocators=0;
+    for(const record of bookRecords) {
+      if(record.identification) checkEvidence(record.identification,`Identification ${record.id}`);
+      if(record.laterIncantation) checkEvidence(record.laterIncantation,`Later incantation ${record.id}`);
+      for(const mention of record.termMentions??[]) {checkEvidence({evidence:[mention]},`Term mention ${record.id}`);semanticLocators+=2;}
+      semanticLocators+=2*((record.evidence??[]).length+(record.identification?.evidence??[]).length+(record.laterIncantation?.evidence??[]).length);
+      for(const occurrence of record.occurrences??[]) {if(occurrence.nonVerbalEvidence) checkEvidence({evidence:occurrence.nonVerbalEvidence},`Non-verbal ${record.id}`);semanticLocators+=2*(occurrence.evidence??[]).length;}
+    }
     for(const record of bookRecords) for(const occurrence of record.occurrences??[]) for(const item of occurrence.evidence??[]) {check(search(books,{anchor:item.anchor,query:item.enLocator,limit:1,context:0}).total>0,`Missing English occurrence locator: ${record.id}`);check(search(hu,{anchor:item.anchor,query:item.huLocator,limit:1,context:0}).total>0,`Missing Hungarian occurrence locator: ${record.id}`);}
+    console.log(`PASS: ${bookRecords.length} PS retrieval records; ${semanticLocators} semantic-index locators verified against local EN/HU sources, including later identifications.`);
     console.log(`PASS: 199 Hungarian chapters; 162 EPUB chapters compared to XHTML; 37 PDF chapter hashes/Markdown checked; ${glossary.length} bilingual term locators present.`);
     console.log('PDF extraction fidelity is evaluated separately by the edition-specific converter and visual page checks.');
   }

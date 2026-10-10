@@ -1,8 +1,8 @@
 # Book knowledge contract v1
 
-This is the frozen data and private-research contract for the book datasets. It
-does not certify semantic completeness: an empty dataset is valid but remains
-unreviewed.
+This is the data and private-research contract for the book datasets. It
+does not certify semantic completeness. Policy-2 validation requires the scoped
+PS inventory to represent all 17 chapters; this does not certify full reading.
 
 ## Private PS candidates
 
@@ -51,7 +51,7 @@ schema-checked but no aggregate disposition reconciliation is required; when
 the counters are present, they must reconcile with the supplied candidate
 files.
 
-## Published datasets
+## Published pilot schema (superseded by policy 2 below)
 
 `data/books/ps/characters.json` and `magic.json` have
 `{ "schemaVersion": 1, "book": "PS", "entries": [] }`.
@@ -83,6 +83,49 @@ null.
 `coverage.json` lists all PS1--PS17 in both languages. Review states are
 `not-started`, `partial`, `reviewed`, and `independently-reviewed`; the empty
 scaffold is deliberately `not-started` and never represents complete coverage.
+
+## Policy 2 retrieval extensions
+
+The PS entity envelopes remain schema version 1 with `policyVersion: 2`.
+`magic.json` is now an identified-spell index: all entries have `kind: spell`.
+The historical wider magic taxonomy above describes the superseded pilot.
+Each occurrence needs non-empty human `practitionerIds`, `vocalisation`
+(`spoken`, `non-verbal`, `unreported`) and `wand` (`used`, `not-used`,
+`unreported`). Proven non-verbal events additionally need `nonVerbalEvidence`.
+Missing dialogue is not that evidence. Spell `identification` has a basis
+(`named-in-book`, `named-effect-in-book`, `later-explicit-identification`) and
+paired evidence. Later identifications require `availableFrom` and evidence at
+that later anchor. Optional `laterIncantation` keeps its own provenance.
+Occurrence anchors remain PS-only. Do not infer an incantation from an effect.
+
+All four indexes (`characters`, `magic`, `places`, `objects`) have original
+`description`, `aliases` and bilingual `searchTerms`. Identity IDs are unique
+across the indexes. `termMentions` contain short paired locators, an anchor and
+`status: paired-term-checked`; they indicate literal mentions, not appearances.
+Presence and contextual evidence remain separate. Character animals are typed
+as `animal` and omitted from the `people` category.
+
+Place entries have `placeKind`, labels, evidence and limits. Object entries have
+`objectKind` and `magicStatus` (`demonstrated`, `ordinary`, `not-established`).
+`demonstrated` means the property is established by an event or explicit book
+description/testimony; it does not mean every advertised property was tested on
+the page. Evidence kinds retain that distinction. `ordinary` records have no
+object-specific magical property described; `not-established` leaves the
+question open for that book.
+Optional `classificationSource` links to a checked Wiki object classification;
+it cannot establish book events, translations or enchantment. Notable ordinary
+objects are eligible; unspecified furniture does not automatically merit rows.
+
+Coverage policy version 2 counts `places` and `objects` as well as the older
+categories. `retrievalPass` records the scoped inventory, chapter anchors,
+review method and source hashes. Reading states remain partial unless actual
+full-chapter reading supports a stronger claim. `legacyPilot` preserves the
+earlier counters as history; it is not the active candidate ledger. Current
+accepted counts refer to the finalized four-index records, not legacy glossary
+or fact cards. `terms` and `facts` count cards with explicit `bookUsage.PS`,
+not every headword with a lexical PS reference. Excluded observations are documented in the contributor review,
+not counted as finalized index entries. The scoped inventory is not a claim of
+exhaustive literary or independent semantic review.
 
 ## Validation commands
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "book": "PS",
-  "policyVersion": 1,
+  "policyVersion": 2,
   "sourceManifests": {
     "en": "data/source-coverage.json",
     "hu": "data/source-coverage-hu.json"
@@ -9,107 +9,174 @@
   "chapters": [
     {
       "anchor": "PS1",
-      "en": "independently-reviewed",
-      "hu": "independently-reviewed"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS2",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS3",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS4",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS5",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS6",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS7",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS8",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS9",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS10",
-      "en": "independently-reviewed",
-      "hu": "independently-reviewed"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS11",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS12",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS13",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS14",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS15",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS16",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     },
     {
       "anchor": "PS17",
-      "en": "not-started",
-      "hu": "not-started"
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
     }
   ],
   "categoryCounts": {
-    "characters": 42,
-    "magic": 14,
-    "terms": 27,
-    "facts": 12
+    "characters": 117,
+    "magic": 6,
+    "terms": 62,
+    "facts": 12,
+    "places": 53,
+    "objects": 70
   },
   "candidateDisposition": {
-    "pending": 43,
-    "accepted": 74,
-    "merged": 24,
-    "excluded": 5,
-    "unresolved": 4
+    "pending": 0,
+    "accepted": 246,
+    "merged": 0,
+    "excluded": 0,
+    "unresolved": 0
   },
-  "reviewDate": "2026-09-17",
+  "reviewDate": "2026-10-10",
   "limitations": [
-    "Partial PS pilot: only PS1 and PS10 received independent paired review and consolidation.",
-    "PS2–PS9 and PS11–PS17 are not started.",
-    "Published entries record only paired chapter context and do not establish unstated mechanisms or later-book details."
-  ]
+    "The scoped retrieval inventory spans all 17 chapters. Independent full-book semantic/editorial review is incomplete; chapter reading states remain partial.",
+    "Term mentions are literal bilingual matches, not claims that a person physically appears in that chapter.",
+    "The Killing Curse identity is supported by GoF14, separately from its PS4 reported occurrences. No PS occurrence is labelled non-verbal merely because speech is unreported.",
+    "The Hungarian edition has distinct names and occasional missing/changed details. Cokeworth is excluded from the paired inventory because its hotel-address counterpart is not verified.",
+    "Object categories do not imply enchantment. Specific Fandom classification pointers are separate from the novels' event evidence."
+  ],
+  "legacyPilot": {
+    "date": "2026-09-17",
+    "categoryCounts": {
+      "characters": 42,
+      "magic": 14,
+      "terms": 27,
+      "facts": 12
+    },
+    "candidateDisposition": {
+      "pending": 43,
+      "accepted": 74,
+      "merged": 24,
+      "excluded": 5,
+      "unresolved": 4
+    },
+    "scope": "Historical PS1/PS10 research ledger; superseded for retrieval taxonomy, retained for audit."
+  },
+  "retrievalPass": {
+    "policyVersion": 2,
+    "state": "complete",
+    "scope": "Curated named characters and significant places, catalogued object types and titles, and identified human-cast spells across all 17 chapters. Not every ordinary noun or every unnamed person.",
+    "chapterAnchors": [
+      "PS1",
+      "PS2",
+      "PS3",
+      "PS4",
+      "PS5",
+      "PS6",
+      "PS7",
+      "PS8",
+      "PS9",
+      "PS10",
+      "PS11",
+      "PS12",
+      "PS13",
+      "PS14",
+      "PS15",
+      "PS16",
+      "PS17"
+    ],
+    "reviewMethod": "Targeted paired evidence passages and explicit classification decisions; whole-book independent semantic reading not performed.",
+    "sourceHashes": {
+      "en": "66c8af2707a3da8f2e3edcba281c4cf69299675589988e1e56b3d01f0341b47d",
+      "hu": "93585ba050a2ad6dac0bc2747bc1f18fca3f90ed824c7a206414c4437225c94f"
+    }
+  }
 }

@@ -60,7 +60,7 @@ Optional [local tools](references/tools.md) provide import, inventory, passage s
 - [Hungarian chapter catalogue](data/chapters-hu.json): corresponding Hungarian titles and counts; topic ranking is inherited from aligned English chapters.
 - [English–Hungarian glossary](data/hu-glossary.json): names, places, spells and concepts with paired locators and usage notes; query it instead of loading the whole file.
 - [Evidence cards](data/facts.json): compact paraphrases with claim type, source anchors and limits.
-- [Book-one characters](data/books/ps/characters.json) and [magic](data/books/ps/magic.json): reviewed PS1/PS10 pilot records. Query `characters --book PS` or `magic --book PS` with a name or ID instead of loading the tables. [Book-one coverage](data/books/ps/coverage.json) is partial; absence is not evidence that a character or effect does not occur elsewhere in the book.
+- Book-one [characters](data/books/ps/characters.json), [spells](data/books/ps/magic.json), [places](data/books/ps/places.json) and [objects](data/books/ps/objects.json): a curated inventory spanning PS1–PS17. Query `semantic --book PS --query TEXT` or a category command instead of loading the tables. Spells require identified human casting; object magic status is explicit. [Coverage](data/books/ps/coverage.json) separates the completed inventory from incomplete independent full-book review. Later spell identifications carry their own anchors; missing results do not prove canon absence.
 - [Topic lexicon](data/topics.json): editable search vocabulary; matches are retrieval hints.
 - [Source coverage](references/coverage.md): what was imported, structurally checked and selectively read.
 

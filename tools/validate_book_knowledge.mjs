@@ -13,10 +13,10 @@ const check = (value, message) => { if (!value) fail(message); };
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const isNfc = value => typeof value === 'string' && value === value.normalize('NFC');
 function strings(value, label) { check(Array.isArray(value) && value.every(isNfc), `${label} must be NFC strings`); }
-function evidence(items, label, characterIds) {
+function evidence(items, label, characterIds, allowedAnchors = psAnchors) {
   check(Array.isArray(items) && items.length, `${label} evidence must be a non-empty array`);
   for (const item of items) {
-    check(item && psAnchors.includes(item.anchor), `${label} evidence has invalid PS anchor`);
+    check(item && allowedAnchors.includes(item.anchor), `${label} evidence has invalid anchor`);
     check(evidenceKinds.has(item.kind), `${label} evidence has invalid kind`);
     for (const field of ['enLocator', 'huLocator', 'scope', 'status']) check(isNfc(item[field]) && item[field].trim(), `${label} evidence needs NFC ${field}`);
     check(item.status === 'paired-context-reviewed', `${label} evidence is not paired-context-reviewed`);
@@ -32,7 +32,20 @@ export function validateBookKnowledge(base = ROOT) {
   const characters = read(path.join(booksDir, 'characters.json'));
   const magic = read(path.join(booksDir, 'magic.json'));
   const coverage = read(path.join(booksDir, 'coverage.json'));
+  const places = read(path.join(booksDir, 'places.json'));
+  const objects = read(path.join(booksDir, 'objects.json'));
+  const anchors = read(path.join(dataDir, 'chapters.json')).map(c => c.anchor);
   envelope(characters, 'characters'); envelope(magic, 'magic');
+  envelope(places, 'places'); envelope(objects, 'objects');
+  const all = [...characters.entries,...magic.entries,...places.entries,...objects.entries];
+  check(new Set(all.map(e => e.id)).size === all.length, 'Cross-category duplicate identity');
+  for (const entry of all) {
+    check(identifier(entry.id), 'Invalid entity ID');
+    check(isNfc(entry.description) && entry.description.trim(), `Entity needs description: ${entry.id}`);
+    strings(entry.aliases, `${entry.id} aliases`); strings(entry.searchTerms, `${entry.id} concepts`);
+    check(entry.searchTerms.length && entry.searchTerms.every(s => s.trim()), `Empty concepts: ${entry.id}`);
+    for (const mention of entry.termMentions ?? []) check(psAnchors.includes(mention.anchor) && mention.status === 'paired-term-checked' && isNfc(mention.enLocator) && mention.enLocator.trim() && isNfc(mention.huLocator) && mention.huLocator.trim(), `Invalid term mention: ${entry.id}`);
+  }
   const glossaryIds = new Set(glossary.map(entry => entry.id)), factIds = new Set(facts.map(entry => entry.id));
   for (const entry of [...glossary, ...facts]) if (entry.evidence != null) evidence(entry.evidence, `Legacy ${entry.id}`, new Set());
   for (const entry of glossary) if (entry.bookUsage?.PS != null) { const usage = entry.bookUsage.PS; check(isNfc(usage.notes) && usage.notes.trim(), `Invalid PS glossary usage: ${entry.id}`); evidence(usage.evidence, `PS glossary usage ${entry.id}`, new Set()); }
@@ -57,23 +70,58 @@ export function validateBookKnowledge(base = ROOT) {
   const magicIds = new Set(magic.entries.map(entry => entry.id)); check(magicIds.size === magic.entries.length, 'Duplicate magic ID');
   for (const entry of magic.entries) {
     check(identifier(entry.id), 'Invalid magic ID');
-    check(['spell','accidental','potion','enchanted-object','magical-effect','claimed-magic'].includes(entry.kind), `Invalid magic kind: ${entry.id}`);
+    check(entry.kind === 'spell', `Non-spell in spell index: ${entry.id}`);
     for (const field of ['nameGlossaryId','incantationGlossaryId']) check(entry[field] == null || glossaryIds.has(entry[field]), `Unknown magic glossary ID: ${entry.id}`);
     check(['canonical-term','editorial-label'].includes(entry.labelKind), `Invalid magic label kind: ${entry.id}`);
     check(entry.labelKind !== 'editorial-label' || (entry.nameGlossaryId == null && entry.incantationGlossaryId == null), `Editorial magic has glossary ID: ${entry.id}`);
     check(isNfc(entry.labelEn) && isNfc(entry.labelHu) && isNfc(entry.limits), `Magic requires NFC labels and limits: ${entry.id}`);
     strings(entry.factIds, `Magic ${entry.id} factIds`); check(entry.factIds.every(id => factIds.has(id)), `Unknown magic fact ID: ${entry.id}`);
     check(Array.isArray(entry.occurrences) && entry.occurrences.length, `Magic needs occurrences: ${entry.id}`);
+    check(['named-in-book','named-effect-in-book','later-explicit-identification'].includes(entry.identification?.basis), `Unidentified spell: ${entry.id}`);
+    const later = entry.identification.basis === 'later-explicit-identification';
+    check(!later || anchors.includes(entry.identification.availableFrom) && !psAnchors.includes(entry.identification.availableFrom), `Later identification needs later anchor: ${entry.id}`);
+    evidence(entry.identification.evidence, `Spell identification ${entry.id}`, characterIds, later ? anchors : psAnchors);
+    check(!later || entry.identification.evidence.some(e => e.anchor === entry.identification.availableFrom), `Identification cutoff lacks evidence: ${entry.id}`);
+    if (entry.laterIncantation) {
+      check(later && entry.laterIncantation.availableFrom === entry.identification.availableFrom && isNfc(entry.laterIncantation.en) && isNfc(entry.laterIncantation.hu), `Invalid later incantation: ${entry.id}`);
+      evidence(entry.laterIncantation.evidence, `Later incantation ${entry.id}`, characterIds, anchors);
+    }
+    for (const occurrence of entry.occurrences) {
+      check(occurrence.practitionerIds?.length && occurrence.practitionerIds.every(id => characters.entries.some(c => c.id === id && c.entityKind === 'human')), `Spell needs human caster: ${entry.id}`);
+      check(['spoken','non-verbal','unreported'].includes(occurrence.vocalisation), `Invalid vocalisation: ${entry.id}`);
+      check(['used','not-used','unreported'].includes(occurrence.wand), `Invalid wand status: ${entry.id}`);
+      if (occurrence.vocalisation === 'non-verbal') {
+        evidence(occurrence.nonVerbalEvidence, `Non-verbal identification ${entry.id}`, characterIds, anchors);
+        check(occurrence.nonVerbalEvidence.some(e => e.kind === 'event'), `Non-verbal claim needs event evidence: ${entry.id}`);
+      }
+    }
     for (const occurrence of entry.occurrences) { check(psAnchors.includes(occurrence.anchor), `Invalid magic anchor: ${entry.id}`); check(['performed','practised','reported','explained','attempted'].includes(occurrence.mode), `Invalid magic mode: ${entry.id}`); check(['success','failure','uncertain','not-demonstrated'].includes(occurrence.outcome), `Invalid magic outcome: ${entry.id}`); strings(occurrence.practitionerIds, `Magic ${entry.id} practitionerIds`); strings(occurrence.targetIds, `Magic ${entry.id} targetIds`); check(occurrence.practitionerIds.every(id => characterIds.has(id)) && occurrence.targetIds.every(id => characterIds.has(id)), `Unknown magic actor ID: ${entry.id}`); check(isNfc(occurrence.summary) && occurrence.summary.trim(), `Magic summary must be NFC: ${entry.id}`); evidence(occurrence.evidence, `Magic ${entry.id}`, characterIds); check(occurrence.evidence.every(item => item.anchor === occurrence.anchor), `Magic occurrence evidence anchor mismatch: ${entry.id}`); }
   }
-  check(coverage?.schemaVersion === 1 && coverage.book === 'PS' && coverage.policyVersion === 1, 'Invalid PS coverage envelope');
+  for (const entry of [...places.entries,...objects.entries]) {
+    check(isNfc(entry.labelEn) && entry.labelEn.trim() && isNfc(entry.labelHu) && entry.labelHu.trim() && isNfc(entry.limits), `Invalid entity labels: ${entry.id}`);
+    check(['canonical-term','editorial-label'].includes(entry.labelKind), `Invalid entity label kind: ${entry.id}`);
+    evidence(entry.evidence, `Entity ${entry.id}`, characterIds);
+    if (entry.classificationSource) check(entry.classificationSource.url.startsWith('https://harrypotter.fandom.com/wiki/') && entry.classificationSource.basis && entry.classificationSource.checked, `Invalid classification source: ${entry.id}`);
+  }
+  for (const entry of places.entries) check(isNfc(entry.placeKind) && entry.placeKind.trim(), `Invalid place kind: ${entry.id}`);
+  for (const entry of objects.entries) {
+    check(isNfc(entry.objectKind) && entry.objectKind.trim(), `Invalid object kind: ${entry.id}`);
+    check(['demonstrated','ordinary','not-established'].includes(entry.magicStatus), `Invalid object magic status: ${entry.id}`);
+  }
+  check(coverage?.schemaVersion === 1 && coverage.book === 'PS' && coverage.policyVersion === 2, 'Invalid PS coverage envelope');
   check(Array.isArray(coverage.chapters) && coverage.chapters.length === 17 && new Set(coverage.chapters.map(c => c.anchor)).size === 17, 'Coverage needs 17 unique PS chapters');
   for (const chapter of coverage.chapters) check(psAnchors.includes(chapter.anchor) && states.has(chapter.en) && states.has(chapter.hu), `Invalid coverage state: ${chapter.anchor}`);
   for (const category of ['characters','magic','terms','facts']) check(Number.isInteger(coverage.categoryCounts?.[category]) && coverage.categoryCounts[category] >= 0, `Invalid coverage count: ${category}`);
   check(coverage.categoryCounts.characters === characters.entries.length && coverage.categoryCounts.magic === magic.entries.length, 'Coverage counts do not match accepted records');
+  check(coverage.categoryCounts.places === places.entries.length && coverage.categoryCounts.objects === objects.entries.length, 'Coverage place/object counts do not match');
+  check(coverage.categoryCounts.terms === glossary.filter(e => e.bookUsage?.PS).length && coverage.categoryCounts.facts === facts.filter(e => e.bookUsage?.PS).length, 'Coverage glossary/fact usage counts do not match');
+  check(coverage.retrievalPass?.policyVersion === 2 && coverage.retrievalPass.chapterAnchors?.length === 17 && psAnchors.every(a => coverage.retrievalPass.chapterAnchors.includes(a)), 'Retrieval pass needs all PS chapters');
+  const represented = new Set(all.flatMap(e => [...(e.evidence ?? []).map(x => x.anchor),...(e.occurrences ?? []).map(x => x.anchor),...(e.termMentions ?? []).map(x => x.anchor)]));
+  check(psAnchors.every(a => represented.has(a)), 'Unrepresented chapter in PS inventory');
   for (const disposition of ['pending','accepted','merged','excluded','unresolved']) check(Number.isInteger(coverage.candidateDisposition?.[disposition]) && coverage.candidateDisposition[disposition] >= 0, `Invalid candidate disposition: ${disposition}`);
+  check(coverage.candidateDisposition.accepted === all.length, 'Accepted count does not match finalized index records');
   check(Array.isArray(coverage.limitations) && coverage.limitations.every(isNfc), 'Coverage limitations must be NFC strings');
-  return {characters: characters.entries.length, magic: magic.entries.length, coverage: coverage.chapters.length};
+  return {characters: characters.entries.length, magic: magic.entries.length, places:places.entries.length, objects:objects.entries.length, coverage: coverage.chapters.length};
 }
 export function validatePrivateProgress(file, candidatesDir) {
   const progress = read(file); check(progress?.schemaVersion === 1 && progress.book === 'PS', 'Invalid private progress envelope');
