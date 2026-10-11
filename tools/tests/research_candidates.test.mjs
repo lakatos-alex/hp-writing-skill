@@ -51,8 +51,10 @@ test('reports filename and envelope anchor mismatch', () => {
 test('CLI rejects a candidate directory with no matching files', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'hp-candidates-'));
   try {
-    const result = spawnSync(process.execPath, [path.resolve('tools/check_research_candidates.mjs'), '--sources', 'original-sources', '--candidates', dir], { encoding: 'utf8' });
+    // Keep the CLI fixture source-free even in a checkout with private books.
+    const result = spawnSync(process.execPath, [path.resolve('tools/check_research_candidates.mjs'), '--sources', path.join(dir, 'unavailable-sources'), '--candidates', dir], { encoding: 'utf8' });
     assert.notEqual(result.status, 0);
-    assert.match(result.stdout, /no matching candidate files|failures=1/i);
-  } finally { fs.rmSync(dir, { recursive: true, force: true }); }
+    assert.match(result.stdout, /FAIL: files=0 candidates=0/);
+    assert.match(result.stdout, /FAILED: \(candidates\)\/\-/);
+  } finally { fs.rmdirSync(dir); }
 });

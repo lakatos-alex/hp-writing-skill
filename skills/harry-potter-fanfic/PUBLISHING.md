@@ -38,10 +38,10 @@ Stage the intended package files, commit the reviewed result and tag the verifie
 Create the archive in a release-output directory outside the repository:
 
 ```sh
-git archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/harry-potter-fanfic-0.4.1.zip v0.4.1:skills/harry-potter-fanfic
+git -c core.autocrlf=false archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/harry-potter-fanfic-0.4.1.zip v0.4.1:skills/harry-potter-fanfic
 ```
 
-Inspect actual ZIP entries. The archive should contain SKILL.md, references, data, scripts, metadata, evaluation records and notices. EPUBs, local catalogues, generated book Markdown and private story files must be absent. Whole-repository Git archives exclude `original-sources/` through .gitattributes.
+Inspect actual ZIP entries and compare their bytes with the tagged Git blobs. The command disables newline conversion so the archive is reproducible across hosts. It should contain SKILL.md, references, data, scripts, metadata, evaluation records and notices. EPUBs, local catalogues, generated book Markdown and private story files must be absent. Whole-repository Git archives exclude `original-sources/` through .gitattributes.
 
 ## Verify installation
 
