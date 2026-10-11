@@ -7,6 +7,7 @@
 *.json text eol=lf
 *.mjs text eol=lf
 *.ps1 text eol=lf
+LICENSE text eol=lf
 original-sources/ export-ignore
 .github/ export-ignore
 assets/README.md export-ignore
