@@ -32,11 +32,12 @@ enchantment: use `demonstrated`, `not-established` or `ordinary` magic status.
 
 ## Implementation order
 
-Phases 1–4 have completed scoped retrieval inventories; see the
+Phases 1–5 have completed scoped retrieval inventories; see the
 [PS review](ps-semantic-review.md), [CoS review](cos-semantic-review.md),
-[PoA review](poa-semantic-review.md) and [GoF review](gof-semantic-review.md).
+[PoA review](poa-semantic-review.md), [GoF review](gof-semantic-review.md) and
+[five-book checkpoint](ootp-semantic-review.md).
 Their independent full-book reading/review gates remain incomplete. Phases
-5–8 remain planned. This status does not imply publication of a release.
+6–8 remain planned. This status does not imply publication of a release.
 
 | Phase | Book / chapters | Main work | Completion gate |
 |---|---|---|---|

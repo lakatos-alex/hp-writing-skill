@@ -86,7 +86,7 @@ test('GoF source-free commands and scope retain honest reading and knowledge lim
     assert.equal(cli(command,'--query','electricity').status,0);
   }
   assert.match(cli('people').stderr,/choose PS, CoS, PoA, GoF/);
-  assert.notEqual(cli('stats','--book','OotP').status,0);
+  assert.notEqual(cli('stats','--book','HBP').status,0);
   assert.deepEqual(JSON.parse(cli('stats','--book','GoF').stdout).books,knowledgeStats('GoF'));
   assert.equal(validateBookKnowledge(undefined,'GoF').coverage,37);
 });

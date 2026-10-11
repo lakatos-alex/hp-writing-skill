@@ -90,7 +90,7 @@ Your accepted story decisions govern an alternate universe.
 
 The package includes a **199-chapter English–Hungarian catalogue** for all seven
 books, **192 selective series glossary entries** and **62 evidence cards**.
-The typed semantic inventories cover the first four books:
+The typed semantic inventories cover the first five books:
 
 | Book | Chapters | Characters | Places | Objects | Spells | Records |
 |---|---:|---:|---:|---:|---:|---:|
@@ -98,10 +98,11 @@ The typed semantic inventories cover the first four books:
 | Chamber of Secrets (CoS) | 18 | 97 | 47 | 75 | 8 | 227 |
 | Prisoner of Azkaban (PoA) | 22 | 89 | 56 | 72 | 14 | 231 |
 | Goblet of Fire (GoF) | 37 | 129 | 61 | 66 | 37 | 293 |
-| Total | 94 | 432 | 217 | 283 | 65 | 997 |
+| Order of the Phoenix (OotP) | 38 | 143 | 50 | 61 | 45 | 299 |
+| Total | 132 | 575 | 267 | 344 | 110 | 1296 |
 
 These are per-book records: a person or object can appear in more than one
-inventory. Characters include 39 separately typed animals. Objects include
+inventory. Characters include 49 separately typed animals. Objects include
 notable ordinary items and book titles; their inclusion does not establish that
 they are magical.
 
@@ -109,10 +110,10 @@ Spell records require identified human casting, including known failed attempts.
 Object behaviour, accidental magic and unidentified effects are separate.
 Missing spoken words do not establish a non-verbal cast; silent casting needs
 evidence of both the spell and its use. Later identification is labelled.
-The records contain 132 casting, practice or reported-event rows and seven
+The records contain 245 casting, practice or reported-event rows and 14
 separate spell-class reports. Grouped practice is not a count of individual casts.
 
-The inventories store 1155 contextual evidence pairs and 2323 literal-mention pairs
+The inventories store 1585 contextual evidence pairs and 3586 literal-mention pairs
 across English and Hungarian. These can reuse passages. They measure stored references,
 not independent readings. Inventory completion is reported separately from
 full-book semantic reading and editorial review, which remain incomplete.
@@ -128,7 +129,7 @@ node scripts/hp.mjs stats
 node scripts/hp.mjs coverage --book GoF
 ```
 
-Book-scoped glossary lookup works for **PS, CoS, PoA and GoF**. It returns compact
+Book-scoped glossary lookup works for **PS, CoS, PoA, GoF and OotP**. It returns compact
 terms and evidence in the selected language, plus a command for the full record.
 Use `--lang both` to compare the English and Hungarian forms. A spell
 class name is distinguished from its spoken formula. Unfiltered glossary
@@ -167,7 +168,7 @@ A `config --lang hu --project /path/to/story` paranccsal mentheted a magyar
 beállítást; összehasonlításhoz használd a `--lang both` kapcsolót.
 A magyarázó összefoglalók továbbra is angolul szerepelnek.
 A magyar terminológia Tóth Tamás Boldizsár fordításának ellenőrzött
-szóhasználatára támaszkodik; az adott kötet és szöveghely számít. Az első négy
+szóhasználatára támaszkodik; az adott kötet és szöveghely számít. Az első öt
 könyvhöz használj könyvre szűkített keresést. A saját történetedben elfogadott
 névváltozatokat is add meg az agentnek.
 
@@ -187,10 +188,13 @@ Automated checks cover the tools, record structure, links and package boundaries
 Small writing comparisons have produced mixed results. They do not establish
 general writing superiority or replace human editing. The
 [sample index](samples/README.md) links the preserved evaluations, including
-the [GoF retrieval pilot](docs/gof-writing-pilot.md). The latest lookup and routing
-changes have mechanical coverage; their effect on new writing remains untested.
+the [GoF retrieval pilot](docs/gof-writing-pilot.md). An
+[eight-story comparison](docs/ootp-writing-review.md) used four resource conditions
+with the five-book inventory. Both model judges preferred the book-access
+version over the bare model on the two briefs; intermediate conditions had
+mixed preferences, and the bare drafts also passed the factual checks.
 
-Next comes typed retrieval for *Order of the Phoenix*, *Half-Blood Prince* and
+Next comes typed retrieval for *Half-Blood Prince* and
 *Deathly Hallows*, followed by further reading and review. See the
 [seven-book roadmap](docs/semantic-search-roadmap.md),
 [release notes](docs/releases/v0.4.2.md) and [changelog](CHANGELOG.md).

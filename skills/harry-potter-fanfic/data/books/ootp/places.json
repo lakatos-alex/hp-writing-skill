@@ -1,0 +1,2505 @@
+{
+  "schemaVersion": 1,
+  "book": "OotP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "privet-drive",
+      "labelEn": "Privet Drive",
+      "labelHu": "Privet Drive",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry's summer confinement and the Dementor attack occur near the Dursleys' home.",
+      "searchTerms": [
+        "summer",
+        "Dursley",
+        "Dementor",
+        "nyár",
+        "dementor"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP1",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP2",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP3",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP4",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP6",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP8",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP23",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "street"
+    },
+    {
+      "id": "dursley-house",
+      "labelEn": "Number four Privet Drive",
+      "labelHu": "Privet Drive 4.",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Dursley home becomes the site of magical letters, threats of expulsion and Petunia's decision to keep Harry.",
+      "searchTerms": [
+        "Dursley",
+        "Howler",
+        "protection",
+        "rivalló",
+        "védelem"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP2",
+          "kind": "event",
+          "enLocator": "number four",
+          "huLocator": "négyes szám",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "number four",
+          "huLocator": "Privet Drive 4.",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP8",
+          "enLocator": "number four",
+          "huLocator": "négyes szám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "number four",
+          "huLocator": "négyes szám",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "house"
+    },
+    {
+      "id": "little-whinging",
+      "labelEn": "Little Whinging",
+      "labelHu": "Little Whinging",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Surrey town contains the playground and alley associated with the Dementor attack.",
+      "searchTerms": [
+        "town",
+        "Surrey",
+        "Dementor",
+        "playground",
+        "város",
+        "játszótér"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP1",
+          "kind": "event",
+          "enLocator": "Little Whinging",
+          "huLocator": "Little Whinging",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "Little Whinging",
+          "huLocator": "Little Whinging",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP8",
+          "enLocator": "Little Whinging",
+          "huLocator": "Little Whinging",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "town"
+    },
+    {
+      "id": "magnolia-crescent",
+      "labelEn": "Magnolia Crescent",
+      "labelHu": "Magnolia köz",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry follows Dudley toward home before the alley attack.",
+      "searchTerms": [
+        "street",
+        "Dudley",
+        "Dementor",
+        "utca"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP1",
+          "kind": "event",
+          "enLocator": "Magnolia Crescent",
+          "huLocator": "Magnolia köz",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "Magnolia Crescent",
+          "huLocator": "Magnolia köz",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP2",
+          "enLocator": "Magnolia Crescent",
+          "huLocator": "Magnolia köz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "street"
+    },
+    {
+      "id": "magnolia-road",
+      "labelEn": "Magnolia Road",
+      "labelHu": "Magnolia út",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The route near the playground forms part of Harry's summer wandering.",
+      "searchTerms": [
+        "street",
+        "playground",
+        "summer",
+        "utca",
+        "játszótér"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP1",
+          "kind": "event",
+          "enLocator": "Magnolia Road",
+          "huLocator": "Magnolia út",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "Magnolia Road",
+          "huLocator": "Magnolia út",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "street"
+    },
+    {
+      "id": "dementor-alley",
+      "labelEn": "The Dementor-attack alley",
+      "labelHu": "A dementortámadás sikátora",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The narrow passage traps Harry and Dudley during the attack; the place itself is not enchanted by inference.",
+      "searchTerms": [
+        "Dementor",
+        "darkness",
+        "Dudley",
+        "alley",
+        "dementor",
+        "sötétség",
+        "sikátor"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP1",
+          "kind": "event",
+          "enLocator": "alleyway",
+          "huLocator": "sikátor",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "alleyway",
+          "huLocator": "sikátor",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP8",
+          "enLocator": "alleyway",
+          "huLocator": "sikátor",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "alley"
+    },
+    {
+      "id": "grimmauld-place",
+      "labelEn": "Number twelve, Grimmauld Place",
+      "labelHu": "Grimmauld tér 12.",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The concealed Black family house is the Order's headquarters and Sirius's restricted home.",
+      "searchTerms": [
+        "headquarters",
+        "Black",
+        "Sirius",
+        "Order",
+        "Fidelius",
+        "főhadiszállás",
+        "Rend"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP3",
+          "kind": "event",
+          "enLocator": "Grimmauld Place",
+          "huLocator": "Grimmauld tér",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP3",
+          "enLocator": "number twelve, Grimmauld Place",
+          "huLocator": "Grimmauld tér 12.",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP9",
+          "enLocator": "number twelve, Grimmauld Place",
+          "huLocator": "Grimmauld tér",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP23",
+          "enLocator": "Grimmauld Place",
+          "huLocator": "Grimmauld tér",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "Grimmauld Place",
+          "huLocator": "Grimmauld tér 12.",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Number twelve, Grimmauld Place",
+          "huLocator": "Grimmauld tér",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP32",
+          "enLocator": "Number twelve, Grimmauld Place",
+          "huLocator": "Grimmauld tér",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP37",
+          "enLocator": "Grimmauld Place",
+          "huLocator": "Grimmauld tér",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "house"
+    },
+    {
+      "id": "grimmauld-kitchen",
+      "labelEn": "Grimmauld Place kitchen",
+      "labelHu": "A Grimmauld téri konyha",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Order members argue over how much to tell Harry around the basement kitchen table.",
+      "searchTerms": [
+        "Order",
+        "meeting",
+        "information",
+        "kitchen",
+        "Rend",
+        "ülés",
+        "konyha"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP5",
+          "kind": "event",
+          "enLocator": "kitchen",
+          "huLocator": "konyhá",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP3",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP4",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP7",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP22",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP32",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "room"
+    },
+    {
+      "id": "grimmauld-drawing-room",
+      "labelEn": "Grimmauld Place drawing room",
+      "labelHu": "A Grimmauld téri szalon",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The family tapestry and dangerous accumulated household objects are encountered while cleaning this room.",
+      "searchTerms": [
+        "tapestry",
+        "Black",
+        "cleaning",
+        "falikárpit",
+        "takarítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "drawing room",
+          "huLocator": "szalon",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP4",
+          "enLocator": "drawing room",
+          "huLocator": "szalon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP6",
+          "enLocator": "drawing room",
+          "huLocator": "szalon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP9",
+          "enLocator": "drawing room",
+          "huLocator": "Szalon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "room"
+    },
+    {
+      "id": "ministry-of-magic",
+      "labelEn": "Ministry of Magic",
+      "labelHu": "Mágiaügyi Minisztérium",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The bureaucracy handles Harry's hearing, denies the return and houses the prophecy Voldemort seeks.",
+      "searchTerms": [
+        "Ministry",
+        "hearing",
+        "bureaucracy",
+        "prophecy",
+        "minisztérium",
+        "tárgyalás",
+        "jóslat"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP7",
+          "kind": "event",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP3",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP5",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP7",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP8",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP9",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP10",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP11",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP12",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP18",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP21",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "MINISTRY OF MAGIC",
+          "huLocator": "MÁGIAÜGYI MINISZTÉRIUM",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP33",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "institution-building"
+    },
+    {
+      "id": "ministry-visitor-entrance",
+      "labelEn": "Ministry visitor telephone box",
+      "labelHu": "A minisztériumi vendégbejárat telefonfülkéje",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Arthur and Harry use the telephone-box lift to enter the Ministry as visitors.",
+      "searchTerms": [
+        "telephone",
+        "visitor",
+        "lift",
+        "entrance",
+        "telefon",
+        "vendég",
+        "lift"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP7",
+          "kind": "event",
+          "enLocator": "telephone box",
+          "huLocator": "telefonfülke",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP7",
+          "enLocator": "telephone box",
+          "huLocator": "telefonfülke",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "telephone box",
+          "huLocator": "telefonfülke",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "entrance"
+    },
+    {
+      "id": "ministry-atrium",
+      "labelEn": "Ministry Atrium",
+      "labelHu": "Minisztériumi Átrium",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The fountain stands here and the Dumbledore-Voldemort duel exposes the return to the Minister.",
+      "searchTerms": [
+        "fountain",
+        "duel",
+        "Minister",
+        "szökőkút",
+        "párbaj",
+        "miniszter"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP36",
+          "kind": "event",
+          "enLocator": "Atrium",
+          "huLocator": "Átrium",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP36",
+          "enLocator": "Atrium",
+          "huLocator": "Átrium",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "hall"
+    },
+    {
+      "id": "courtroom-ten",
+      "labelEn": "Courtroom Ten",
+      "labelHu": "Tízes tárgyalóterem",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry faces the full Wizengamot rather than the expected minor disciplinary procedure.",
+      "searchTerms": [
+        "hearing",
+        "Wizengamot",
+        "Dementor",
+        "Patronus",
+        "tárgyalás",
+        "patrónus"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP7",
+          "kind": "event",
+          "enLocator": "Courtroom Ten",
+          "huLocator": "tízes tárgyalóterem",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "courtroom"
+    },
+    {
+      "id": "department-of-mysteries",
+      "labelEn": "Department of Mysteries",
+      "labelHu": "Rejtély- és Misztériumügyi Főosztály",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The secured Ministry department contains experimental rooms, prophecy shelves and the death chamber.",
+      "searchTerms": [
+        "Unspeakable",
+        "prophecy",
+        "time",
+        "death",
+        "kimondhatatlan",
+        "jóslat",
+        "idő",
+        "halál"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "Department of Mysteries",
+          "huLocator": "Misztériumügyi Főosztály",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP7",
+          "enLocator": "Department of Mysteries",
+          "huLocator": "Rejtély- és Misztériumügyi Főosztály",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Department of Mysteries",
+          "huLocator": "Rejtély- és Misztériumügyi Főosztály",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "Department of Mysteries",
+          "huLocator": "Rejtély- és Misztériumügyi Főosztály",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "department"
+    },
+    {
+      "id": "mysteries-circular-room",
+      "labelEn": "Department circular entrance room",
+      "labelHu": "A Rejtélyügyi Főosztály körterme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The doors rotate and obscure which experimental chamber lies behind each entrance.",
+      "searchTerms": [
+        "doors",
+        "rotation",
+        "navigation",
+        "ajtó",
+        "forgás",
+        "tájékozódás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "circular room",
+          "huLocator": "kerek terem",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP35",
+          "enLocator": "circular room",
+          "huLocator": "kerek terem",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "room"
+    },
+    {
+      "id": "brain-room",
+      "labelEn": "Brain Room",
+      "labelHu": "Az agyak terme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Brains in a tank attack Ron with damaging thought-like tendrils; they are not human spellcasters.",
+      "searchTerms": [
+        "brains",
+        "thoughts",
+        "Ron",
+        "tank",
+        "agy",
+        "gondolat",
+        "tartály"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP35",
+          "kind": "event",
+          "enLocator": "brains",
+          "huLocator": "agyak",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP34",
+          "enLocator": "brain room",
+          "huLocator": "agyak",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP35",
+          "enLocator": "Brain Room",
+          "huLocator": "agyak",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP36",
+          "enLocator": "brains",
+          "huLocator": "agyak",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "experimental-room"
+    },
+    {
+      "id": "death-chamber",
+      "labelEn": "Death Chamber and veil dais",
+      "labelHu": "A halál terme és a fátyol emelvénye",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The sunken chamber contains the archway and veil beyond which Sirius falls.",
+      "searchTerms": [
+        "death",
+        "veil",
+        "Sirius",
+        "dais",
+        "halál",
+        "fátyol",
+        "emelvény"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP35",
+          "kind": "event",
+          "enLocator": "veil",
+          "huLocator": "függöny",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP16",
+          "enLocator": "veil",
+          "huLocator": "fátyol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "veil",
+          "huLocator": "fátyol",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "experimental-room"
+    },
+    {
+      "id": "time-room",
+      "labelEn": "Time Room",
+      "labelHu": "Az idő terme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The room holds clocks and a bell jar whose contents cycle through stages of age.",
+      "searchTerms": [
+        "time",
+        "clocks",
+        "bell",
+        "jar",
+        "age",
+        "idő",
+        "órák",
+        "üvegbura",
+        "kor"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "bell jar",
+          "huLocator": "kristályedény",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "experimental-room"
+    },
+    {
+      "id": "hall-of-prophecy",
+      "labelEn": "Hall of Prophecy",
+      "labelHu": "A jóslatok terme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Rows of labelled glass spheres store prophecies; Harry's record becomes the Death Eaters' target.",
+      "searchTerms": [
+        "prophecy",
+        "shelves",
+        "sphere",
+        "record",
+        "jóslat",
+        "polc",
+        "gömb"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "spheres",
+          "huLocator": "üveggömböcské",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP35",
+          "enLocator": "Hall of Prophecy",
+          "huLocator": "Jóslatok",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP37",
+          "enLocator": "Hall of Prophecy",
+          "huLocator": "Jóslatok",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "prophecies",
+          "huLocator": "jóslatok",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "archive-room"
+    },
+    {
+      "id": "locked-mysteries-room",
+      "labelEn": "The locked Department room",
+      "labelHu": "A lezárt rejtélyügyi terem",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Dumbledore describes a force studied behind the door that defeated Harry's attempts to open it; this is not an available training room.",
+      "searchTerms": [
+        "locked",
+        "love",
+        "force",
+        "door",
+        "zárt",
+        "szeretet",
+        "erő",
+        "ajtó"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP37",
+          "kind": "event",
+          "enLocator": "There is a room in the Department of Mysteries",
+          "huLocator": "soha nem nyitják",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "locked",
+          "huLocator": "zárt",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP6",
+          "enLocator": "locked",
+          "huLocator": "zárt",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP10",
+          "enLocator": "locked",
+          "huLocator": "zárt",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP15",
+          "enLocator": "locked",
+          "huLocator": "zárt",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP23",
+          "enLocator": "locked",
+          "huLocator": "zárt",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "locked",
+          "huLocator": "zárt",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "restricted-room"
+    },
+    {
+      "id": "st-mungos",
+      "labelEn": "St Mungo's Hospital",
+      "labelHu": "Szent Mungó Ispotály",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The hospital treats Arthur's snake injuries and houses the permanently injured Longbottoms and Lockhart.",
+      "searchTerms": [
+        "hospital",
+        "healer",
+        "injuries",
+        "snake",
+        "kórház",
+        "gyógyító",
+        "sérülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP22",
+          "kind": "event",
+          "enLocator": "St Mungo",
+          "huLocator": "Szent Mungó",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP25",
+          "enLocator": "St Mungo",
+          "huLocator": "Szent Mungó",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "hospital"
+    },
+    {
+      "id": "purge-and-dowse",
+      "labelEn": "Purge and Dowse Ltd.",
+      "labelHu": "Purgall Metell Ltd.",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The apparently closed department store conceals the hospital's visitor entrance.",
+      "searchTerms": [
+        "hospital",
+        "shop",
+        "mannequin",
+        "entrance",
+        "kórház",
+        "üzlet",
+        "próbababa"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP22",
+          "kind": "event",
+          "enLocator": "Purge & Dowse",
+          "huLocator": "Purgall Metell",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "shop-front"
+    },
+    {
+      "id": "closed-ward",
+      "labelEn": "St Mungo's closed ward",
+      "labelHu": "Szent Mungó zárt osztálya",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Neville visits his parents here; Lockhart and Bode are fellow long-term patients.",
+      "searchTerms": [
+        "hospital",
+        "parents",
+        "memory",
+        "ward",
+        "kórház",
+        "szülők",
+        "emlékezet"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP23",
+          "kind": "event",
+          "enLocator": "closed ward",
+          "huLocator": "zárt részleg",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "ward"
+    },
+    {
+      "id": "kings-cross",
+      "labelEn": "King's Cross station",
+      "labelHu": "King's Cross pályaudvar",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The pupils board the school train here with Order protection and farewell exchanges.",
+      "searchTerms": [
+        "station",
+        "train",
+        "school",
+        "platform",
+        "pályaudvar",
+        "vonat",
+        "peron"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP10",
+          "kind": "event",
+          "enLocator": "King’s Cross",
+          "huLocator": "King's Cross",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "station"
+    },
+    {
+      "id": "platform-nine-three-quarters",
+      "labelEn": "Platform nine and three-quarters",
+      "labelHu": "Kilenc és háromnegyedik vágány",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The concealed platform is the school train's departure point.",
+      "searchTerms": [
+        "platform",
+        "train",
+        "departure",
+        "peron",
+        "vonat",
+        "indulás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP10",
+          "kind": "event",
+          "enLocator": "platform nine",
+          "huLocator": "kilenc és háromnegyed",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "platform"
+    },
+    {
+      "id": "hogwarts-express",
+      "labelEn": "Hogwarts Express",
+      "labelHu": "Roxfort Expressz",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The train carries pupils including the newly introduced Luna and returns them after the Ministry battle.",
+      "searchTerms": [
+        "train",
+        "school",
+        "Luna",
+        "journey",
+        "vonat",
+        "iskola",
+        "utazás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP10",
+          "kind": "event",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort expressz",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP10",
+          "enLocator": "Hogwarts Express",
+          "huLocator": "Roxfort expressz",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "transport"
+    },
+    {
+      "id": "hogwarts",
+      "labelEn": "Hogwarts",
+      "labelHu": "Roxfort",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The school experiences Ministry control, a banned Defence group and expanding student resistance.",
+      "searchTerms": [
+        "school",
+        "Ministry",
+        "D.A.",
+        "resistance",
+        "iskola",
+        "minisztérium"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP11",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP3",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP8",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP10",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP11",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP12",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP15",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP17",
+          "enLocator": "HOGWARTS",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP18",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP19",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP22",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP23",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP32",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP33",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP37",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "school"
+    },
+    {
+      "id": "great-hall",
+      "labelEn": "Great Hall",
+      "labelHu": "Nagyterem",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Sorting Hat warns against division and Umbridge interrupts the start-of-term announcements.",
+      "searchTerms": [
+        "Sorting",
+        "Hat",
+        "feast",
+        "announcement",
+        "Teszlek",
+        "Süveg",
+        "lakoma"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP11",
+          "kind": "event",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP11",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP12",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP13",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP19",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP32",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP33",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "hall"
+    },
+    {
+      "id": "gryffindor-common-room",
+      "labelEn": "Gryffindor common room",
+      "labelHu": "Griffendél klubhelyisége",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The pupils negotiate press-driven distrust, prefect roles and ordinary school life here.",
+      "searchTerms": [
+        "Gryffindor",
+        "friendship",
+        "study",
+        "Griffendél",
+        "barátság",
+        "tanulás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP11",
+          "kind": "event",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP11",
+          "enLocator": "Gryffindor common room",
+          "huLocator": "Griffendél klubhelyisége",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "Gryffindor common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP17",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP21",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Gryffindor common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Gryffindor common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "Gryffindor common room",
+          "huLocator": "klubhelyiség",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "room"
+    },
+    {
+      "id": "defence-classroom",
+      "labelEn": "Defence classroom",
+      "labelHu": "Sötét varázslatok tanterme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Umbridge's theory-only lessons exclude the practical Defence Harry later teaches privately.",
+      "searchTerms": [
+        "Defence",
+        "theory",
+        "textbook",
+        "Umbridge",
+        "védelem",
+        "elmélet",
+        "tankönyv"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP12",
+          "kind": "event",
+          "enLocator": "Defence Against the Dark Arts classroom",
+          "huLocator": "sötét varázslatok kivédése terembe",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP17",
+          "enLocator": "classroom",
+          "huLocator": "tanterem",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "classroom"
+    },
+    {
+      "id": "umbridge-office",
+      "labelEn": "Umbridge's office",
+      "labelHu": "Umbridge szobája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry endures the blood-quill detention here; the office fireplace later becomes a risky communication route.",
+      "searchTerms": [
+        "detention",
+        "blood",
+        "quill",
+        "fireplace",
+        "kittens",
+        "büntetés",
+        "toll",
+        "kandalló"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP13",
+          "kind": "event",
+          "enLocator": "office",
+          "huLocator": "szobá",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "office"
+    },
+    {
+      "id": "dumbledore-office",
+      "labelEn": "Dumbledore's office",
+      "labelHu": "Dumbledore szobája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The headmaster explains the prophecy and Harry's protection after the Ministry battle.",
+      "searchTerms": [
+        "prophecy",
+        "explanation",
+        "portraits",
+        "Pensieve",
+        "jóslat",
+        "festmények"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP37",
+          "kind": "event",
+          "enLocator": "office",
+          "huLocator": "szobá",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "office"
+    },
+    {
+      "id": "snape-office",
+      "labelEn": "Snape's office",
+      "labelHu": "Piton szobája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Occlumency lessons take place here; Snape stores selected private memories in Dumbledore's borrowed Pensieve.",
+      "searchTerms": [
+        "Occlumency",
+        "Pensieve",
+        "memory",
+        "lesson",
+        "okklumencia",
+        "merengő",
+        "emlék"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP24",
+          "kind": "event",
+          "enLocator": "office",
+          "huLocator": "Piton dolgozószobája",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "office"
+    },
+    {
+      "id": "library",
+      "labelEn": "Hogwarts library",
+      "labelHu": "Roxfort könyvtára",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry and Ginny discuss contacting Sirius here and attract Pince's anger over chocolate.",
+      "searchTerms": [
+        "research",
+        "Sirius",
+        "chocolate",
+        "books",
+        "kutatás",
+        "csokoládé",
+        "könyvek"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP29",
+          "kind": "event",
+          "enLocator": "library",
+          "huLocator": "könyvtár",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP16",
+          "enLocator": "library",
+          "huLocator": "könyvtár",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "library",
+          "huLocator": "könyvtár",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "library"
+    },
+    {
+      "id": "room-of-requirement",
+      "labelEn": "Room of Requirement",
+      "labelHu": "Szükség Szobája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The room supplies a private practice environment when sought with the Defence group's needs; its contents answer the requested purpose.",
+      "searchTerms": [
+        "D.A.",
+        "practice",
+        "room",
+        "need",
+        "secrecy",
+        "gyakorlás",
+        "szükség",
+        "szoba",
+        "titok"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Room of Requirement",
+          "huLocator": "Szükség Szobája",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Room of Requirement",
+          "huLocator": "Szükség Szobája",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP27",
+          "enLocator": "Room of Requirement",
+          "huLocator": "Szükség Szobája",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "adaptive-room"
+    },
+    {
+      "id": "hogwarts-owlery",
+      "labelEn": "Hogwarts Owlery",
+      "labelHu": "Roxfort bagolyháza",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Pupils send private letters while suspecting that Umbridge watches their correspondence.",
+      "searchTerms": [
+        "owl",
+        "post",
+        "surveillance",
+        "bagoly",
+        "posta",
+        "megfigyelés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP14",
+          "kind": "event",
+          "enLocator": "Owlery",
+          "huLocator": "bagolyház",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP14",
+          "enLocator": "Owlery",
+          "huLocator": "bagolyház",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "tower"
+    },
+    {
+      "id": "hospital-wing",
+      "labelEn": "Hogwarts hospital wing",
+      "labelHu": "Roxfort gyengélkedője",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The injured Ministry party recovers here after the confrontation.",
+      "searchTerms": [
+        "recovery",
+        "Ministry",
+        "injuries",
+        "gyógyulás",
+        "minisztérium",
+        "sérülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP38",
+          "kind": "event",
+          "enLocator": "hospital wing",
+          "huLocator": "gyengélkedő",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP14",
+          "enLocator": "hospital wing",
+          "huLocator": "Gyengélkedő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP32",
+          "enLocator": "hospital wing",
+          "huLocator": "gyengélkedő",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "ward"
+    },
+    {
+      "id": "quidditch-pitch",
+      "labelEn": "Quidditch pitch",
+      "labelHu": "Kviddicspálya",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Gryffindor plays Slytherin before the confrontation that results in Harry's and the twins' bans.",
+      "searchTerms": [
+        "Quidditch",
+        "match",
+        "ban",
+        "Keeper",
+        "kviddics",
+        "mérkőzés",
+        "eltiltás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP19",
+          "kind": "event",
+          "enLocator": "pitch",
+          "huLocator": "pálya",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP14",
+          "enLocator": "Quidditch pitch",
+          "huLocator": "kviddicspálya",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP18",
+          "enLocator": "Quidditch pitch",
+          "huLocator": "kviddicspálya",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP19",
+          "enLocator": "Quidditch pitch",
+          "huLocator": "pálya",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "Quidditch pitch",
+          "huLocator": "kviddicspálya",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "sports-ground"
+    },
+    {
+      "id": "forbidden-forest",
+      "labelEn": "Forbidden Forest",
+      "labelHu": "Tiltott Rengeteg",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione leads Umbridge here, provoking a centaur confrontation; Grawp unexpectedly changes the encounter.",
+      "searchTerms": [
+        "centaur",
+        "Umbridge",
+        "Grawp",
+        "forest",
+        "kentaur",
+        "Gróp",
+        "erdő"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP33",
+          "kind": "event",
+          "enLocator": "Forest",
+          "huLocator": "erdő",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP11",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP13",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP15",
+          "enLocator": "Forest",
+          "huLocator": "rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP21",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP27",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "erdő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP30",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP33",
+          "enLocator": "Forbidden Forest",
+          "huLocator": "Tiltott Rengeteg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP37",
+          "enLocator": "Forest",
+          "huLocator": "rengeteg",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "forest"
+    },
+    {
+      "id": "hagrid-hut",
+      "labelEn": "Hagrid's hut",
+      "labelHu": "Hagrid kunyhója",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hagrid recounts his giant mission here after returning injured.",
+      "searchTerms": [
+        "Hagrid",
+        "giant",
+        "mission",
+        "Fang",
+        "óriás",
+        "küldetés",
+        "Agyar"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP20",
+          "kind": "event",
+          "enLocator": "cabin",
+          "huLocator": "kunyhó",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "house"
+    },
+    {
+      "id": "hogsmeade",
+      "labelEn": "Hogsmeade",
+      "labelHu": "Roxmorts",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The pupils use village outings to found the D.A., date and arrange the Quibbler interview.",
+      "searchTerms": [
+        "village",
+        "D.A.",
+        "outing",
+        "interview",
+        "falu",
+        "találkozó",
+        "interjú"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP16",
+          "kind": "event",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP16",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "Hogsmeade",
+          "huLocator": "Roxmorts",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "village"
+    },
+    {
+      "id": "hogs-head",
+      "labelEn": "Hog's Head",
+      "labelHu": "Szárnyas Vadkan",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Defence group's founding meeting occurs in the dirty pub; the witnesses compromise the hoped-for privacy.",
+      "searchTerms": [
+        "pub",
+        "meeting",
+        "secrecy",
+        "D.A.",
+        "kocsma",
+        "találkozó",
+        "titok"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP16",
+          "kind": "event",
+          "enLocator": "Hog’s Head",
+          "huLocator": "Szárnyas Vadkanban",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "pub"
+    },
+    {
+      "id": "three-broomsticks",
+      "labelEn": "Three Broomsticks",
+      "labelHu": "Három Seprű",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione arranges Harry's interview with Rita and Luna in the busy pub.",
+      "searchTerms": [
+        "pub",
+        "interview",
+        "Rita",
+        "Quibbler",
+        "kocsma",
+        "interjú"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP25",
+          "kind": "event",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP17",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP37",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "pub"
+    },
+    {
+      "id": "madam-puddifoots",
+      "labelEn": "Madam Puddifoot's tea shop",
+      "labelHu": "Madam Puddifoot teázója",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry's uncomfortable Valentine date with Cho takes place in the decorated tea shop.",
+      "searchTerms": [
+        "Cho",
+        "date",
+        "Valentine",
+        "tea",
+        "shop",
+        "randevú",
+        "Valentin",
+        "teázó"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP25",
+          "kind": "event",
+          "enLocator": "Puddifoot",
+          "huLocator": "Puddifoot",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP25",
+          "enLocator": "Puddifoot",
+          "huLocator": "Puddifoot",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Puddifoot",
+          "huLocator": "Puddifoot",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "tea-shop"
+    },
+    {
+      "id": "azkaban",
+      "labelEn": "Azkaban",
+      "labelHu": "Azkaban",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The mass breakout releases Death Eaters and undermines the Ministry's public account.",
+      "searchTerms": [
+        "prison",
+        "breakout",
+        "Death",
+        "Eater",
+        "Dementor",
+        "börtön",
+        "szökés",
+        "halálfaló"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP25",
+          "kind": "event",
+          "enLocator": "Azkaban",
+          "huLocator": "AZKABAN",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP35",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "prison"
+    },
+    {
+      "id": "astronomy-tower",
+      "labelEn": "Astronomy Tower",
+      "labelHu": "Asztronómiatorony",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Pupils taking the night Astronomy examination witness the attack on Hagrid and McGonagall below.",
+      "searchTerms": [
+        "Astronomy",
+        "examination",
+        "night",
+        "attack",
+        "asztronómia",
+        "vizsga",
+        "éjszaka",
+        "támadás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP31",
+          "kind": "event",
+          "enLocator": "Astronomy Tower",
+          "huLocator": "csillagvizsgáló toronyba",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP11",
+          "enLocator": "tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP13",
+          "enLocator": "Tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP21",
+          "enLocator": "Tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP27",
+          "enLocator": "Tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "Astronomy Tower",
+          "huLocator": "torony",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "tower"
+    },
+    {
+      "id": "divination-classroom",
+      "labelEn": "Divination classroom in the North Tower",
+      "labelHu": "Az Északi Torony jóslástanterme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Trelawney assigns dream interpretation in the crowded tower classroom before Umbridge's later inspection.",
+      "searchTerms": [
+        "Divination",
+        "dreams",
+        "Trelawney",
+        "tower",
+        "jóslástan",
+        "álmok",
+        "torony"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP12",
+          "kind": "event",
+          "enLocator": "trapdoor",
+          "huLocator": "csapóajtó",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP12",
+          "enLocator": "trapdoor",
+          "huLocator": "csapóajtó",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP15",
+          "enLocator": "trapdoor",
+          "huLocator": "csapóajtó",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "classroom"
+    },
+    {
+      "id": "potions-dungeon",
+      "labelEn": "Potions dungeon",
+      "labelHu": "Bájitaltan pince",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Snape supervises the Draught of Peace lesson and singles out Harry's unsuccessful potion.",
+      "searchTerms": [
+        "Potions",
+        "Peace",
+        "examination",
+        "Snape",
+        "bájital",
+        "béke",
+        "vizsga",
+        "Piton"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP12",
+          "kind": "event",
+          "enLocator": "dungeon",
+          "huLocator": "pince",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "classroom"
+    },
+    {
+      "id": "greenhouses",
+      "labelEn": "Hogwarts greenhouses",
+      "labelHu": "Roxfort üvegházai",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Sprout calls the revision-stressed pupils into greenhouse three for Herbology.",
+      "searchTerms": [
+        "Herbology",
+        "greenhouse",
+        "examination",
+        "gyógynövénytan",
+        "üvegház",
+        "vizsga"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP31",
+          "kind": "event",
+          "enLocator": "greenhouse",
+          "huLocator": "üvegház",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "greenhouse",
+          "huLocator": "üvegház",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "classroom"
+    },
+    {
+      "id": "hogwarts-lake",
+      "labelEn": "Hogwarts lake",
+      "labelHu": "A roxforti tó",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry, Ron and Hermione revise beside the lake during the examination period.",
+      "searchTerms": [
+        "lake",
+        "revision",
+        "exams",
+        "rest",
+        "tó",
+        "ismétlés",
+        "vizsga",
+        "pihenés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP31",
+          "kind": "event",
+          "enLocator": "lake",
+          "huLocator": "tó",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Selected whole-book evidence; a literal mention is not proof the scene occurs here. No additional geography or mechanism is inferred.",
+      "placeKind": "lake"
+    }
+  ]
+}

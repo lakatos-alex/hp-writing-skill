@@ -1,0 +1,4667 @@
+{
+  "schemaVersion": 1,
+  "book": "OotP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "lumos",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Lumos",
+      "labelHu": "Lumos",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Wand light illuminates the alley, the Advance Guard arrival and the forest. Harry lights his fallen wand before retrieving it.",
+      "searchTerms": [
+        "light",
+        "dark",
+        "wand",
+        "fény",
+        "sötét",
+        "pálca"
+      ],
+      "incantation": {
+        "en": "Lumos",
+        "hu": "Lumos"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP1",
+            "kind": "event",
+            "enLocator": "wand-tip had ignited",
+            "huLocator": "Lumos",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP3",
+            "kind": "event",
+            "enLocator": "Lumos",
+            "huLocator": "Lumos",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights his dropped wand while searching the alley floor. The wand performs the magic but is not being held.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP1",
+              "kind": "event",
+              "enLocator": "wand-tip had ignited",
+              "huLocator": "Lumos",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP3",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "unidentified-advance-guard-witch"
+          ],
+          "targetIds": [],
+          "summary": "An unidentified witch in the Advance Guard lights a wand; the narration does not specify which of the three women she is.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP3",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP30",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Harry and Hermione illuminate their way with wand light in the forest.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP30",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "lumost",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "expecto-patronum",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Expecto Patronum",
+      "labelHu": "Expecto patronum",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "A Patronus depends on concentration and happy emotion. Classroom production does not establish performance under Dementor attack.",
+      "searchTerms": [
+        "patronus",
+        "dementor",
+        "protection",
+        "stag",
+        "swan",
+        "otter",
+        "patrónus",
+        "dementor",
+        "védelem",
+        "szarvas",
+        "hattyú",
+        "vidra"
+      ],
+      "incantation": {
+        "en": "Expecto Patronum",
+        "hu": "Expecto patronum"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP1",
+            "kind": "event",
+            "enLocator": "Expecto patronum",
+            "huLocator": "Expecto patronum",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry first produces inadequate wisps, then a corporeal stag that drives both Dementors away. The repeated attempts remain one grouped encounter.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP1",
+              "kind": "event",
+              "enLocator": "Expecto patronum",
+              "huLocator": "Expecto patronum",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP27",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "cho-chang",
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Cho produces a swan and Hermione an otter during DA practice. This is a safe classroom setting.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP27",
+              "kind": "event",
+              "enLocator": "swan-shaped Patronus",
+              "huLocator": "hattyú alakú patrónus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP27",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "lavender"
+          ],
+          "targetIds": [],
+          "summary": "Lavender produces silver vapour and says she still cannot complete the Patronus.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP27",
+              "kind": "event",
+              "enLocator": "puffs of silver vapour",
+              "huLocator": "ezüstös felhőcskéken kívül",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP27",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "seamus-finnigan"
+          ],
+          "targetIds": [],
+          "summary": "Seamus reports a fleeting hairy form; its species and full corporeal success are not established.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP27",
+              "kind": "event",
+              "enLocator": "something hairy",
+              "huLocator": "valami szőrös volt",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry produces a corporeal stag for bonus marks in his Defence O.W.L.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "event",
+              "enLocator": "Expecto patronum",
+              "huLocator": "Expecto patronum",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "scourgify",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Scourgify",
+      "labelHu": "Suvickus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Cleaning magic clears feathers and droppings, removes Stinksap, and is misused by James to fill Snape's mouth with soap.",
+      "searchTerms": [
+        "clean",
+        "soap",
+        "stinksap",
+        "mouth",
+        "takarít",
+        "szappan",
+        "butykornyál",
+        "száj"
+      ],
+      "incantation": {
+        "en": "Scourgify",
+        "hu": "Suvickus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP3",
+            "kind": "event",
+            "enLocator": "Scourgify",
+            "huLocator": "Suvickus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP3",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "nymphadora-tonks"
+          ],
+          "targetIds": [],
+          "summary": "Tonks removes some feathers and droppings from Hedwig's cage, while admitting her household magic is imperfect.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP3",
+              "kind": "event",
+              "enLocator": "Scourgify",
+              "huLocator": "Suvickus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ginny-weasley"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Ginny removes the Stinksap covering Harry in the train compartment.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP10",
+              "kind": "event",
+              "enLocator": "Scourgify",
+              "huLocator": "Suvickus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "james-potter"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "In Snape's school memory James fills Snape's mouth with soapsuds as part of the humiliation.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Scourgify",
+              "huLocator": "Suvickus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "locomotor",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Locomotor",
+      "labelHu": "Locomotor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "A Locomotion Charm moves luggage and supports school practice with pencil-cases; objects moved are specified separately from the formula.",
+      "searchTerms": [
+        "luggage",
+        "trunk",
+        "move",
+        "levitate",
+        "pencil case",
+        "láda",
+        "poggyász",
+        "mozgat",
+        "tolltartó"
+      ],
+      "incantation": {
+        "en": "Locomotor",
+        "hu": "Locomotor"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP3",
+            "kind": "event",
+            "enLocator": "Locomotor trunk",
+            "huLocator": "Locomotor láda",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP3",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "nymphadora-tonks"
+          ],
+          "targetIds": [],
+          "summary": "Tonks levitates Harry's packed trunk and guides it down the stairs.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP3",
+              "kind": "event",
+              "enLocator": "Locomotor trunk",
+              "huLocator": "Locomotor láda",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "flitwick"
+          ],
+          "targetIds": [],
+          "summary": "Flitwick moves Trelawney's luggage upstairs after her dismissal.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP26",
+              "kind": "event",
+              "enLocator": "Locomotor trunks",
+              "huLocator": "Locomotor ládák",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "parvati-patil",
+            "lavender"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "testimony",
+              "enLocator": "basic Locomotion Charms",
+              "huLocator": "mozgatóbűbáj",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Parvati and Lavender race pencil-cases while practising the named class. No formula or physical cast count is reported."
+        }
+      ]
+    },
+    {
+      "id": "disillusionment-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Disillusionment Charm",
+      "labelHu": "Kiábrándító bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Moody disguises Harry by making his appearance blend into the background, then removes that disguise. It is not literal invisibility.",
+      "searchTerms": [
+        "camouflage",
+        "blend",
+        "disguise",
+        "flight",
+        "álca",
+        "kaméleon",
+        "kiábrándító",
+        "repülés"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP3",
+            "kind": "event",
+            "enLocator": "Disillusionment Charm",
+            "huLocator": "Kiábrándító bűbáj",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP3",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "alastor-moody"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Moody applies the disguise before the broom flight.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP3",
+              "kind": "event",
+              "enLocator": "Disillusionment Charm",
+              "huLocator": "Kiábrándító bűbáj",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP4",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "alastor-moody"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Moody taps Harry's head again and lifts the Disillusionment Charm. The removal formula is unreported.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP4",
+              "kind": "event",
+              "enLocator": "Disillusionment Charm must have lifted",
+              "huLocator": "kiábrándító bűbáj hatása",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "imperturbable-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Imperturbable Charm",
+      "labelHu": "Páncélozó bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Molly protects the kitchen door against contact and eavesdropping with Extendable Ears. Ginny reports the application and tests the barrier.",
+      "searchTerms": [
+        "door",
+        "eavesdrop",
+        "extendable ears",
+        "barrier",
+        "ajtó",
+        "hallgatózik",
+        "telefül",
+        "páncélozó"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP4",
+            "kind": "testimony",
+            "enLocator": "Imperturbable Charm",
+            "huLocator": "páncélozó bűbáj",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP4",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "mrs-weasley"
+          ],
+          "targetIds": [],
+          "summary": "Ginny identifies Molly's protection on the kitchen door; the original casting is reported rather than witnessed.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP4",
+              "kind": "testimony",
+              "enLocator": "Imperturbable Charm",
+              "huLocator": "páncélozó bűbáj",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "evanesco",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Evanesco",
+      "labelHu": "Evapores",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Vanishing magic clears scrolls and failed potions. The book explicitly connects Lee's clearing spell to Snape's potion Vanishing, while classroom animal Vanishing remains a named class report.",
+      "searchTerms": [
+        "vanish",
+        "clear",
+        "potion",
+        "scroll",
+        "vomit",
+        "eltüntet",
+        "főzet",
+        "tekercs",
+        "hányás"
+      ],
+      "incantation": {
+        "en": "Evanesco",
+        "hu": "Evapores"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP5",
+            "kind": "event",
+            "enLocator": "Evanesco",
+            "huLocator": "Evapores",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP5",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "bill-weasley"
+          ],
+          "targetIds": [],
+          "summary": "Bill Vanishes the scrolls from the kitchen table.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP5",
+              "kind": "event",
+              "enLocator": "Evanesco",
+              "huLocator": "Evapores",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP12",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [],
+          "summary": "Snape Vanishes Harry's failed potion.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP12",
+              "kind": "event",
+              "enLocator": "Evanesco",
+              "huLocator": "Evapores",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "lee-jordan"
+          ],
+          "targetIds": [],
+          "summary": "Lee repeatedly Vanishes vomit during the twins' demonstration; narration explicitly identifies the same spell Snape uses on potions.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP17",
+              "kind": "event",
+              "enLocator": "same Vanishing Spell Snape",
+              "huLocator": "ugyanazt a bűbájt használva",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "harry-potter",
+            "ron",
+            "hermione"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP13",
+              "kind": "testimony",
+              "enLocator": "Vanishing Spells",
+              "huLocator": "eltüntető bűbájokat",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Harry and Ron fail to Vanish their snails; Hermione succeeds on her third attempt. A named Vanishing class is attested, but this passage does not print Evanesco as the classroom formula."
+        },
+        {
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "testimony",
+              "enLocator": "Vanish the whole of his iguana",
+              "huLocator": "eltüntetnie a leguánját",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Harry successfully Vanishes an iguana in his Transfiguration O.W.L. The narrated class-level identification does not print the formula."
+        }
+      ]
+    },
+    {
+      "id": "riddikulus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Riddikulus",
+      "labelHu": "Comikulissimus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "A Boggart-banishing spell fails repeatedly for distressed Molly; Lupin resolves the encounter. Harry later demonstrates Boggart banishing at his examination.",
+      "searchTerms": [
+        "boggart",
+        "fear",
+        "banish",
+        "mumus",
+        "félelem",
+        "űz"
+      ],
+      "incantation": {
+        "en": "Riddikulus",
+        "hu": "Comikulissimus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP9",
+            "kind": "event",
+            "enLocator": "riddikulus",
+            "huLocator": "Comikulissimus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP9",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "mrs-weasley"
+          ],
+          "targetIds": [],
+          "summary": "Molly repeatedly attempts the spell while the Boggart shows dead relatives; the attempts do not dispel her fear.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP9",
+              "kind": "event",
+              "enLocator": "riddikulus",
+              "huLocator": "Comikulissimus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [],
+          "summary": "Lupin changes the dead-Harry Boggart into a silvery orb. Its subsequent dismissal uses another wand movement whose formula is not printed.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP9",
+              "kind": "event",
+              "enLocator": "Riddikulus",
+              "huLocator": "Comikulissimus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "testimony",
+              "enLocator": "Boggart banishing spell",
+              "huLocator": "mumusűző varázst",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Harry demonstrates perfect Boggart banishing at his Defence O.W.L.; this passage does not print its incantation."
+        }
+      ]
+    },
+    {
+      "id": "reparo",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Reparo",
+      "labelHu": "Reparo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Repair magic reassembles broken china and glass; it does not restore spilled contents.",
+      "searchTerms": [
+        "repair",
+        "broken",
+        "bowl",
+        "jar",
+        "cup",
+        "javít",
+        "törött",
+        "tál",
+        "üveg",
+        "csésze"
+      ],
+      "incantation": {
+        "en": "Reparo",
+        "hu": "Reparo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP15",
+            "kind": "event",
+            "enLocator": "Reparo",
+            "huLocator": "Reparo",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP15",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry repairs his broken Murtlap bowl, but the spilled essence cannot be recovered.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP15",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [],
+          "summary": "Snape reseals the jar broken during Harry's Shield Charm.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP26",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP30",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione repairs Ron's broken walking teacup.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP30",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "da-parchment-jinx",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "DA parchment betrayal jinx",
+      "labelHu": "DS névsorának árulójelző rontása",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione jinxes the signed membership parchment to mark betrayal. Marietta's later facial pustules reveal the triggered effect; the trigger is not a new human cast.",
+      "searchTerms": [
+        "betray",
+        "sneak",
+        "parchment",
+        "list",
+        "pustules",
+        "áruló",
+        "névsor",
+        "pergamen",
+        "pattanás",
+        "kelés"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP17",
+            "kind": "testimony",
+            "enLocator": "put a jinx on that piece of parchment",
+            "huLocator": "Rontást tettem a pergamenre",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP27",
+            "kind": "event",
+            "enLocator": "purple pustules",
+            "huLocator": "ÁRULÓ",
+            "scope": "Marietta's subsequent betrayal and the disfiguring facial mark identify the previously reported parchment jinx; this is evidence of the effect, not a separate casting.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP17",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione says she placed a jinx on the signed parchment. Her description predicts a severe facial mark for an informer.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP17",
+              "kind": "testimony",
+              "enLocator": "put a jinx on that piece of parchment",
+              "huLocator": "Rontást tettem a pergamenre",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "accio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Accio",
+      "labelHu": "Invito",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Summoning Charm retrieves objects and living targets. A blocked or interrupted attempt and an absent object do not establish a successful retrieval.",
+      "searchTerms": [
+        "summon",
+        "retrieve",
+        "wand",
+        "broom",
+        "brain",
+        "prophecy",
+        "begyűjt",
+        "magához",
+        "pálca",
+        "seprű",
+        "agy",
+        "jóslat"
+      ],
+      "incantation": {
+        "en": "Accio",
+        "hu": "Invito"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP18",
+            "kind": "event",
+            "enLocator": "Accio",
+            "huLocator": "Invito",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry summons his escaping bullfrog in Charms.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "Accio",
+              "huLocator": "Invito",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry retrieves Neville's disarmed wand from a bookshelf using a named Summoning Charm; its spoken words are unreported.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "retrieved it with a Summoning Charm",
+              "huLocator": "begyűjtő",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP22",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "sirius-black"
+          ],
+          "targetIds": [],
+          "summary": "Sirius summons Butterbeer while they wait for news of Arthur.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP22",
+              "kind": "event",
+              "enLocator": "Accio Butterbeer",
+              "huLocator": "Invito vajsör",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "flitwick"
+          ],
+          "targetIds": [],
+          "summary": "In the Pensieve memory Flitwick summons the completed examination parchments.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Accio",
+              "huLocator": "Invito",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP29",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "fred-weasley",
+            "george-weasley"
+          ],
+          "targetIds": [],
+          "summary": "The twins simultaneously summon their chained brooms before leaving Hogwarts.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP29",
+              "kind": "event",
+              "enLocator": "Accio brooms",
+              "huLocator": "Invito seprű",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [],
+          "summary": "Bellatrix starts summoning the prophecy; Harry's Shield Charm prevents her retrieving it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Accio proph",
+              "huLocator": "Invito jós",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione summons Harry's wand and throws it back to him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Accio wand",
+              "huLocator": "Invito pálca",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron summons a brain, which reaches him and binds him with dangerous thought tendrils.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Accio brain",
+              "huLocator": "Invito agy",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "antonin-dolohov"
+          ],
+          "targetIds": [],
+          "summary": "Dolohov starts summoning the prophecy but Sirius interrupts; Harry retains the sphere.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Accio proph",
+              "huLocator": "Invito jósl",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [],
+          "summary": "Bellatrix repeatedly tries to summon the prophecy from Harry, but the sphere has already smashed.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Accio prophecy",
+              "huLocator": "Invito jóslat",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "silencio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Silencio",
+      "labelHu": "Silencio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Silencing Charm mutes animal calls and a Death Eater's speech. Hermione's spell does not prevent the silenced opponent from attempting other magic.",
+      "searchTerms": [
+        "silence",
+        "voice",
+        "frog",
+        "raven",
+        "speech",
+        "némít",
+        "béka",
+        "holló",
+        "hang",
+        "beszéd"
+      ],
+      "incantation": {
+        "en": "Silencio",
+        "hu": "Silencio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP18",
+            "kind": "event",
+            "enLocator": "Silencio",
+            "huLocator": "Silencio",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP18",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione successfully silences frogs and Ron's raven during repeated classroom practice.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "Silencio",
+              "huLocator": "Silencio",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP18",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron repeatedly fails to silence his raven and then frightens Hermione's frog instead of completing the charm.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "Silencio. SILENCIO",
+              "huLocator": "Silencio! Silencio",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP18",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry attempts to silence his frog; it swells and gives an enormous croak instead.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "his bullfrog swelled",
+              "huLocator": "A békája felfúvódott",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "antonin-dolohov"
+          ],
+          "summary": "Hermione silences Dolohov as he tries to call their location to other Death Eaters.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Silencio",
+              "huLocator": "Silencio",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "impervius",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Impervius",
+      "labelHu": "Leperex",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The rain-repelling charm keeps Harry's glasses clearer and is attempted by his team on their faces; heavy rain still limits visibility.",
+      "searchTerms": [
+        "rain",
+        "glasses",
+        "repel",
+        "visibility",
+        "eső",
+        "szemüveg",
+        "víztaszít",
+        "látás"
+      ],
+      "incantation": {
+        "en": "Impervius",
+        "hu": "Leperex"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP18",
+            "kind": "event",
+            "enLocator": "Impervius",
+            "huLocator": "Leperex",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry applies the charm to his glasses before Quidditch practice.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "Impervius",
+              "huLocator": "Leperex",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP18",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "angelina-johnson",
+            "alicia-spinnet",
+            "katie-bell",
+            "fred-weasley",
+            "george-weasley",
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Angelina leads the rest of the Gryffindor team in a grouped attempt to keep rain off their faces; visibility remains poor.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "all together, come on",
+              "huLocator": "Leperex",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "expelliarmus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Expelliarmus",
+      "labelHu": "Capitulatus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Disarming Charm is the DA's first lesson. Neville accidentally disarms Harry as well as a Death Eater during the Ministry battle.",
+      "searchTerms": [
+        "disarm",
+        "wand",
+        "practice",
+        "lefegyverez",
+        "pálca",
+        "gyakorlás"
+      ],
+      "incantation": {
+        "en": "Expelliarmus",
+        "hu": "Capitulatus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP18",
+            "kind": "event",
+            "enLocator": "Expelliarmus",
+            "huLocator": "Capitulatus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP18",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter",
+            "neville",
+            "ginny-weasley",
+            "luna-lovegood",
+            "colin-creevey",
+            "dennis-creevey",
+            "ernie-macmillan",
+            "michael-corner"
+          ],
+          "targetIds": [],
+          "summary": "Named DA members practise disarming in pairs with mixed success; Harry and Neville each disarm the other. The group is not an exhaustive cast count.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP18",
+              "kind": "event",
+              "enLocator": "Expelliarmus",
+              "huLocator": "Capitulatus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP19",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [
+            "hermione"
+          ],
+          "summary": "Harry recalls Neville successfully disarming Hermione in a recent DA meeting.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP19",
+              "kind": "testimony",
+              "enLocator": "Neville had successfully disarmed Hermione",
+              "huLocator": "hogyan fegyverezte le Neville Hermionét",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "james-potter"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "In Snape's memory James disarms Snape before humiliating him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Expelliarmus",
+              "huLocator": "Capitulatus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Neville disarms both the attacking Death Eater and Harry, an unintended friendly effect while trying to rescue them.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "EXPELLIARMUS",
+              "huLocator": "Capitulatus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "impedimenta",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Impedimenta",
+      "labelHu": "Obstructo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Impediment Jinx delays or knocks back opponents and is practised in the DA. Its casting attribution must be retained separately for each encounter.",
+      "searchTerms": [
+        "impediment",
+        "delay",
+        "knock back",
+        "freeze",
+        "hátráltat",
+        "megállít",
+        "hanyatt",
+        "dermeszt"
+      ],
+      "incantation": {
+        "en": "Impedimenta",
+        "hu": "Obstructo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP19",
+            "kind": "testimony",
+            "enLocator": "Impediment Jinx after three",
+            "huLocator": "hátráltató rontás mestere",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP19",
+            "kind": "event",
+            "enLocator": "Impedimenta",
+            "huLocator": "Obstructo",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP19",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "colin-creevey"
+          ],
+          "targetIds": [],
+          "summary": "Harry recalls Colin mastering the Impediment Jinx after three meetings.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP19",
+              "kind": "testimony",
+              "enLocator": "Impediment Jinx after three",
+              "huLocator": "hátráltató rontás mestere",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "madam-hooch"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "A nearby caster knocks Harry back with the named jinx; the narrator says it seems to have been Madam Hooch. The attribution remains qualified.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP19",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP21",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Harry and Neville practise the jinx; Neville freezes Harry repeatedly before being sent to Ron's group.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP21",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "sirius-black"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "In Snape's memory Sirius stops him reaching his dropped wand.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP33",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Ron specifically credits Neville with an effective Impediment Jinx during their escape from Umbridge's office.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP33",
+              "kind": "testimony",
+              "enLocator": "Neville brought off",
+              "huLocator": "Neville-nek is összejött",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "lucius-malfoy"
+          ],
+          "summary": "Harry knocks Lucius Malfoy off his back, sending him into the dais.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "antonin-dolohov",
+            "dolohov-office-companion"
+          ],
+          "targetIds": [
+            "harry-potter",
+            "hermione",
+            "neville"
+          ],
+          "summary": "Dolohov and his unnamed companion simultaneously knock Harry, Hermione and Neville off their feet in the office.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "IMPEDIMENTA",
+              "huLocator": "Obstructo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "reducto",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Reducto",
+      "labelHu": "Reducto",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Reductor Curse",
+        "Poroló átok",
+        "Taroló átok"
+      ],
+      "description": "The Reductor Curse destroys physical obstacles, including a DA practice table, prophecy shelves and a model planet.",
+      "searchTerms": [
+        "blast",
+        "destroy",
+        "shelves",
+        "table",
+        "pluto",
+        "poroló",
+        "taroló",
+        "robban",
+        "rombol",
+        "polc",
+        "asztal",
+        "Plútó"
+      ],
+      "incantation": {
+        "en": "Reducto",
+        "hu": "Reducto"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP19",
+            "kind": "testimony",
+            "enLocator": "Reductor Curse",
+            "huLocator": "poroló átok",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP35",
+            "kind": "event",
+            "enLocator": "REDUCTO",
+            "huLocator": "Reducto",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP19",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "parvati-patil"
+          ],
+          "targetIds": [],
+          "summary": "Harry recalls Parvati reducing the Sneakoscope table to dust during DA practice.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP19",
+              "kind": "testimony",
+              "enLocator": "Reductor Curse",
+              "huLocator": "poroló átok",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron",
+            "hermione",
+            "neville",
+            "ginny-weasley",
+            "luna-lovegood"
+          ],
+          "targetIds": [],
+          "summary": "Harry's five companions simultaneously blast separate prophecy shelves as his escape signal.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "REDUCTO",
+              "huLocator": "Reducto",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "luna-lovegood"
+          ],
+          "targetIds": [],
+          "summary": "Luna reports destroying the Pluto model in a Death Eater's face while trying to help Ginny in the planet room.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "testimony",
+              "enLocator": "blew up Pluto",
+              "huLocator": "képébe robbantottam a Plútót",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "protean-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Protean Charm",
+      "labelHu": "Próteusz-bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione connects the false DA Galleons so their numbers and heat mirror changes to Harry's coin. The object response is not a new cast.",
+      "searchTerms": [
+        "coin",
+        "galleon",
+        "meeting",
+        "message",
+        "date",
+        "heat",
+        "érme",
+        "galleon",
+        "találkozó",
+        "üzenet",
+        "dátum",
+        "forró"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP19",
+            "kind": "testimony",
+            "enLocator": "put a Protean Charm",
+            "huLocator": "Próteusz-bűbájjal kezeltem",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP19",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione reports applying the charm to the fake coins, enabling later synchronized meeting signals.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP19",
+              "kind": "testimony",
+              "enLocator": "put a Protean Charm",
+              "huLocator": "Próteusz-bűbájjal kezeltem",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "conjunctivitis-curse",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Conjunctivitis Curse",
+      "labelHu": "Kötőhártyagyújtó átok",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Conjunctivitus Curses"
+      ],
+      "description": "Maxime targets the eyes of two giants holding Hagrid, enabling their escape; Hagrid supplies the account.",
+      "searchTerms": [
+        "eyes",
+        "giant",
+        "escape",
+        "szem",
+        "óriás",
+        "kötőhártya",
+        "menekül"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP20",
+            "kind": "testimony",
+            "enLocator": "Conjunctivitus Curses",
+            "huLocator": "kötőhártyagyújtó átokkal",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP20",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "olympe-maxime"
+          ],
+          "targetIds": [],
+          "summary": "Hagrid reports Maxime cursing the eyes of the two giants holding him.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP20",
+              "kind": "testimony",
+              "enLocator": "Conjunctivitus Curses",
+              "huLocator": "kötőhártyagyújtó átokkal",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "obliteration-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Obliteration Charm",
+      "labelHu": "Eltörlő bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione removes the trio's footprints in snow after leaving Hagrid.",
+      "searchTerms": [
+        "footprints",
+        "snow",
+        "erase",
+        "hide",
+        "lábnyom",
+        "hó",
+        "eltöröl",
+        "nyom"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP20",
+            "kind": "event",
+            "enLocator": "Obliteration Charm",
+            "huLocator": "eltörlő bűbájának",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP20",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione erases their returning footprints. No spoken formula is given.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP20",
+              "kind": "event",
+              "enLocator": "Obliteration Charm",
+              "huLocator": "eltörlő bűbájának",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "hot-air-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Hot-air charm",
+      "labelHu": "Forró levegőt készítő bűbáj",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione produces hot air first to dry her clothes and later to melt a path through snow. No formula is supplied.",
+      "searchTerms": [
+        "heat",
+        "warm",
+        "dry",
+        "snow",
+        "melt",
+        "forró",
+        "szárít",
+        "meleg",
+        "hó",
+        "olvaszt"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP21",
+            "kind": "event",
+            "enLocator": "charm to produce hot air again",
+            "huLocator": "forró levegőt készítő bűbájt",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP21",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione dries her wet robes with hot air from her wand.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP21",
+              "kind": "event",
+              "enLocator": "hot air",
+              "huLocator": "forró levegő",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP21",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione uses the same hot-air charm to melt a path toward the greenhouses.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP21",
+              "kind": "event",
+              "enLocator": "charm to produce hot air again",
+              "huLocator": "forró levegőt készítő bűbájt",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "stupefy",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Stupefy",
+      "labelHu": "Stupor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Stunning is practised in the DA and used in confrontations. Missing, redirected, blocked and unknown results remain separate from confirmed hits.",
+      "searchTerms": [
+        "stun",
+        "unconscious",
+        "red light",
+        "practice",
+        "kábít",
+        "eszméletlen",
+        "piros fény",
+        "gyakorlás"
+      ],
+      "incantation": {
+        "en": "Stupefy",
+        "hu": "Stupor"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP21",
+            "kind": "event",
+            "enLocator": "Stun Padma Patil",
+            "huLocator": "Padma Patilt kábította",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP28",
+            "kind": "event",
+            "enLocator": "Stupefy",
+            "huLocator": "Stupor",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP21",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [
+            "padma-patil"
+          ],
+          "summary": "Neville aims at Dean but Stuns Padma during DA practice; the hit succeeds on the unintended target.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP21",
+              "kind": "event",
+              "enLocator": "Stun Padma Patil",
+              "huLocator": "Padma Patilt kábította",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP21",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "cho-chang"
+          ],
+          "targetIds": [],
+          "summary": "Cho says this DA session is the first time she has managed to Stun someone.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP21",
+              "kind": "event",
+              "enLocator": "never been able to Stun anything before",
+              "huLocator": "Eddig soha senkit",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "dolores-umbridge"
+          ],
+          "targetIds": [],
+          "summary": "Umbridge fires a Stunner at the twins' dragon firework, causing it to explode instead of containing it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Stupefy",
+              "huLocator": "Stupor",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP31",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "dolores-umbridge"
+          ],
+          "targetIds": [
+            "hagrid"
+          ],
+          "summary": "Umbridge sends a final Stunner after the escaping Hagrid and misses.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "event",
+              "enLocator": "one last Stunning Spell",
+              "huLocator": "utolsó kábító",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [],
+          "summary": "Bellatrix starts a Stunning attack; Lucius redirects it into a prophecy shelf. The intended target is not hit.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "A jet of red light had shot",
+              "huLocator": "Stup",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione Stuns the Death Eater grabbing Harry while they flee the prophecy shelves.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "he heard Hermione shout",
+              "huLocator": "Hermione kiáltását",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry Stuns the nearer of two Death Eaters in the Time Room; the other dodges his fire.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "nearest Death Eater",
+              "huLocator": "közelebbi halálfalót",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Neville's Stunner misses the Death Eater and hits a time-distorting cabinet instead.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "flew right over the Death Eater",
+              "huLocator": "elröppent a halálfaló válla",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "time-room-second-death-eater"
+          ],
+          "targetIds": [],
+          "summary": "The pursuing Death Eater starts a Stunner but is interrupted by Hermione. His individual identity is not named.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "STUP––",
+              "huLocator": "Stup",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione Stuns the pursuing Death Eater, whose head falls into the time bell jar.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "middle of his chest",
+              "huLocator": "mellkason találta",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "nymphadora-tonks"
+          ],
+          "targetIds": [
+            "lucius-malfoy"
+          ],
+          "summary": "Tonks fires a Stunner at Lucius as the Order arrives; Harry does not see whether it hits.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Tonks had already sent a Stunning Spell",
+              "huLocator": "Tonks addigra már ráküldött egy kábító átkot",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "walden-macnair"
+          ],
+          "summary": "Harry Stuns Macnair after Neville frees him from the Death Eater's grip.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "STUPEFY",
+              "huLocator": "Stupor",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "bellatrix-lestrange"
+          ],
+          "summary": "Harry tries to Stun Bellatrix in the Atrium, but she reflects his spell with Protego.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Stupefy",
+              "huLocator": "Stupor",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "portus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Portus",
+      "labelHu": "Transportus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore turns a kettle and then a fallen statue head into Portkeys. Creation is distinct from later use of the enchanted objects.",
+      "searchTerms": [
+        "portkey",
+        "transport",
+        "kettle",
+        "statue",
+        "zsupszkulcs",
+        "utazás",
+        "üst",
+        "szobor"
+      ],
+      "incantation": {
+        "en": "Portus",
+        "hu": "Transportus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP22",
+            "kind": "event",
+            "enLocator": "Portus",
+            "huLocator": "Transportus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP22",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [],
+          "summary": "Dumbledore enchants a blackened kettle for travel to Grimmauld Place.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP22",
+              "kind": "event",
+              "enLocator": "Portus",
+              "huLocator": "Transportus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [],
+          "summary": "Dumbledore enchants the fallen golden wizard's head to send Harry back to Hogwarts.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Portus",
+              "huLocator": "Transportus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "alohomora",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Alohomora",
+      "labelHu": "Alohomora",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Unlocking succeeds on the hospital ward and a sealed Ministry door, but fails at the special locked Department door.",
+      "searchTerms": [
+        "unlock",
+        "door",
+        "hospital",
+        "sealed",
+        "kinyit",
+        "ajtó",
+        "zár",
+        "ispotály"
+      ],
+      "incantation": {
+        "en": "Alohomora",
+        "hu": "Alohomora"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP23",
+            "kind": "event",
+            "enLocator": "Alohomora",
+            "huLocator": "Alohomora",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP23",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "miriam-strout"
+          ],
+          "targetIds": [],
+          "summary": "The ward Healer opens the Janus Thickey Ward door while escorting Lockhart.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP23",
+              "kind": "event",
+              "enLocator": "Alohomora",
+              "huLocator": "Alohomora",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP34",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione unsuccessfully tries to open the special locked Department door.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP34",
+              "kind": "event",
+              "enLocator": "Alohomora",
+              "huLocator": "Alohomora",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "crucio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Crucio",
+      "labelHu": "Crucio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Cruciatus Curse tortures Neville. Harry's anger knocks Bellatrix down briefly but does not reproduce her sustained torment; the staged vision is not a real casting on Sirius.",
+      "searchTerms": [
+        "torture",
+        "pain",
+        "anger",
+        "unforgivable",
+        "kínoz",
+        "fájdalom",
+        "harag",
+        "megbocsáthatatlan"
+      ],
+      "incantation": {
+        "en": "Crucio",
+        "hu": "Crucio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP35",
+            "kind": "event",
+            "enLocator": "Crucio",
+            "huLocator": "Crucio",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [
+            "neville"
+          ],
+          "summary": "Bellatrix tortures Neville while demanding the prophecy.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "bellatrix-lestrange"
+          ],
+          "summary": "Harry attempts the curse on Bellatrix, briefly knocking her down but failing to cause sustained torture.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Bellatrix fires Crucio at Harry but hits the fountain when he ducks.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP23",
+              "kind": "testimony",
+              "enLocator": "using the Cruciatus Curse on Neville’s parents",
+              "huLocator": "Cruciatus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Harry reports why Bellatrix was imprisoned. The historical torture is identified by curse class, not an attested spoken formula or individual cast count."
+        }
+      ]
+    },
+    {
+      "id": "legilimens",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Legilimens",
+      "labelHu": "Legilimens",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape attempts to enter Harry's memories during Occlumency lessons. Legilimency does not make every incidental mental connection a deliberate cast.",
+      "searchTerms": [
+        "mind",
+        "memories",
+        "occlumency",
+        "legilimency",
+        "elme",
+        "emlék",
+        "okklumencia",
+        "legilimencia"
+      ],
+      "incantation": {
+        "en": "Legilimens",
+        "hu": "Legilimens"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP24",
+            "kind": "event",
+            "enLocator": "Legilimens",
+            "huLocator": "Legilimens",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP24",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Snape repeatedly enters Harry's memories while testing his resistance; the attempts are grouped within the lesson.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP24",
+              "kind": "event",
+              "enLocator": "Legilimens",
+              "huLocator": "Legilimens",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Snape repeats the intrusion exercise; Harry's Shield Charm lets him briefly see Snape's memories, before the next intrusion succeeds.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP26",
+              "kind": "event",
+              "enLocator": "Legilimens",
+              "huLocator": "Legilimens",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "stinging-hex",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Stinging Hex",
+      "labelHu": "Csalánártás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape identifies the hex Harry produced while trying to resist his intrusion. Harry denies deliberately choosing that result.",
+      "searchTerms": [
+        "sting",
+        "wrist",
+        "resistance",
+        "csíp",
+        "csalán",
+        "csukló",
+        "ellenáll"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP24",
+            "kind": "event",
+            "enLocator": "Stinging Hex",
+            "huLocator": "csalánártást",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP24",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "Harry's defensive response leaves a weal on Snape's wrist; Snape names the Stinging Hex and Harry denies intending that particular spell.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP24",
+              "kind": "event",
+              "enLocator": "Stinging Hex",
+              "huLocator": "csalánártást",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "protego",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Protego",
+      "labelHu": "Protego",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Shield Charm deflects minor jinxes, stops a Summoning attempt and partly limits Dolohov's attack. The narration does not name that attack's incantation.",
+      "searchTerms": [
+        "shield",
+        "deflect",
+        "block",
+        "summoning",
+        "partial",
+        "pajzs",
+        "hárít",
+        "véd",
+        "begyűjtés",
+        "részleges"
+      ],
+      "incantation": {
+        "en": "Protego",
+        "hu": "Protego"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP25",
+            "kind": "event",
+            "enLocator": "Shield Charm",
+            "huLocator": "pajzsbűbáj",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP26",
+            "kind": "event",
+            "enLocator": "Protego",
+            "huLocator": "Protego",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP25",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione",
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Hermione and then Neville master the Shield Charm during DA training.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP25",
+              "kind": "event",
+              "enLocator": "Shield Charm",
+              "huLocator": "pajzsbűbáj",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry blocks Snape's intrusion and briefly experiences Snape's memories instead.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP26",
+              "kind": "event",
+              "enLocator": "Protego",
+              "huLocator": "Protego",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry protects his grip on the prophecy against Bellatrix's Summoning attempt.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Protego",
+              "huLocator": "Protego",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry's shield stops the worst of Dolohov's slashing attack but he still feels an impact across his face.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Shield Charm had stopped the worst",
+              "huLocator": "Protego",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [],
+          "summary": "Bellatrix reflects Harry's Stunner back toward him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Protego",
+              "huLocator": "Protego",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "enlargement-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Enlargement Charm",
+      "labelHu": "Nagyító bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Fred and George enlarge The Quibbler's front cover into a common-room poster. The separate talking enchantment is not identified here.",
+      "searchTerms": [
+        "enlarge",
+        "poster",
+        "quibbler",
+        "cover",
+        "nagyít",
+        "plakát",
+        "Hírverő",
+        "címlap"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP26",
+            "kind": "testimony",
+            "enLocator": "Enlargement Charm",
+            "huLocator": "nagyító bűbáj",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP26",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "fred-weasley",
+            "george-weasley"
+          ],
+          "targetIds": [],
+          "summary": "The twins enlarge Harry's interview cover for display. No enlargement incantation is supplied.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP26",
+              "kind": "testimony",
+              "enLocator": "Enlargement Charm",
+              "huLocator": "nagyító bűbáj",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "imperius-curse",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Imperius Curse",
+      "labelHu": "Imperius-átok",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Rookwood's report identifies Lucius coercing Bode to retrieve the prophecy. Hermione's suggestion that Podmore was similarly cursed remains conjecture.",
+      "searchTerms": [
+        "control",
+        "coerce",
+        "bode",
+        "prophecy",
+        "imperius",
+        "irányít",
+        "kényszer",
+        "O'Men",
+        "jóslat"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP26",
+            "kind": "testimony",
+            "enLocator": "Malfoy’s Imperius Curse",
+            "huLocator": "Malfoy Imperius-átka",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP26",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "lucius-malfoy"
+          ],
+          "targetIds": [
+            "broderick-bode"
+          ],
+          "summary": "Rookwood tells Voldemort that Bode fought Malfoy's Imperius Curse; this reported specific coercion is not a spoken Imperio formula.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP26",
+              "kind": "testimony",
+              "enLocator": "Malfoy’s Imperius Curse",
+              "huLocator": "Malfoy Imperius-átka",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "trip-jinx",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Trip Jinx",
+      "labelHu": "Gáncsrontás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco catches Harry's ankles with a named tripping jinx during the DA escape. No incantation is printed.",
+      "searchTerms": [
+        "trip",
+        "ankles",
+        "fall",
+        "catch",
+        "gáncs",
+        "boka",
+        "elesik",
+        "elfog"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP27",
+            "kind": "event",
+            "enLocator": "Trip Jinx",
+            "huLocator": "Gáncsrontás",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP27",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Draco trips Harry and calls Umbridge to capture him.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP27",
+              "kind": "event",
+              "enLocator": "Trip Jinx",
+              "huLocator": "Gáncsrontás",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "memory-modification-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Memory modification",
+      "labelHu": "Emlékezetmódosítás",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Kingsley alters Marietta's memory during the confrontation in Dumbledore's office. The spell is identified by its operation; Obliviate is not given or assumed.",
+      "searchTerms": [
+        "memory",
+        "modify",
+        "marietta",
+        "sneak",
+        "emlékezet",
+        "módosít",
+        "Marietta",
+        "áruló"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP27",
+            "kind": "testimony",
+            "enLocator": "modifying Miss Edgecombe’s memory",
+            "huLocator": "módosította Edgecombe kisasszony emlékezetét",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP27",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "kingsley-shacklebolt"
+          ],
+          "targetIds": [
+            "marietta-edgecombe"
+          ],
+          "summary": "Dumbledore identifies Kingsley's quick modification of Marietta's memory while attention was elsewhere. Harry thinks he hears whispering, but neither the formula nor definite vocalisation is reported.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP27",
+              "kind": "testimony",
+              "enLocator": "modifying Miss Edgecombe’s memory",
+              "huLocator": "módosította Edgecombe kisasszony emlékezetét",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "petrificus-totalus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Petrificus Totalus",
+      "labelHu": "Petrificus totalus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Body-Bind Curse makes the target rigid. James's later unprinted counter-curse is kept separate from identification of the binding formula.",
+      "searchTerms": [
+        "body bind",
+        "rigid",
+        "paralysis",
+        "sóbálvány",
+        "merev",
+        "dermeszt"
+      ],
+      "incantation": {
+        "en": "Petrificus Totalus",
+        "hu": "Petrificus totalus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP28",
+            "kind": "event",
+            "enLocator": "Petrificus Totalus",
+            "huLocator": "Petrificus totalus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "sirius-black"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "In Snape's memory Sirius binds Snape after James lowers him to the ground.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus totalus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry binds Dolohov's companion in the office and then Dolohov himself; these are separate targets in one grouped skirmish.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus totalus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "antonin-dolohov"
+          ],
+          "summary": "Harry later binds Dolohov again during his duel with Sirius in the Death Chamber.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus totalus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "colour-change-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Colour Change Charm",
+      "labelHu": "Színváltó bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry mixes up Colour Change and Growth formulas on his O.W.L. rat, then corrects his mistake. The formulas are not printed.",
+      "searchTerms": [
+        "colour",
+        "orange",
+        "rat",
+        "exam",
+        "szín",
+        "narancs",
+        "patkány",
+        "vizsga"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP31",
+            "kind": "event",
+            "enLocator": "Colour Change",
+            "huLocator": "színváltó",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP31",
+          "mode": "attempted",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry initially fails the requested orange colour change by using the Growth formula, then rectifies his mistake.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "event",
+              "enLocator": "Colour Change",
+              "huLocator": "színváltó",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "growth-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Growth Charm",
+      "labelHu": "Növesztő bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's incorrect O.W.L. formula enlarges a rat instead of changing its colour. This named class is not assigned Engorgio without textual identification.",
+      "searchTerms": [
+        "grow",
+        "enlarge",
+        "rat",
+        "badger",
+        "növeszt",
+        "nagyít",
+        "patkány",
+        "borz"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP31",
+            "kind": "event",
+            "enLocator": "Growth Charms",
+            "huLocator": "növesztő bűbáj",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry accidentally uses the Growth formula during an intended colour change, swelling his rat to badger size.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "event",
+              "enLocator": "Growth Charms",
+              "huLocator": "növesztő bűbáj",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "incarcerous",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Incarcerous",
+      "labelHu": "Incarcerandus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Umbridge conjures ropes around Magorian; their binding is forcibly defeated by the centaurs.",
+      "searchTerms": [
+        "ropes",
+        "bind",
+        "centaur",
+        "kötél",
+        "kötöz",
+        "kentaur"
+      ],
+      "incantation": {
+        "en": "Incarcerous",
+        "hu": "Incarcerandus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP33",
+            "kind": "event",
+            "enLocator": "Incarcerous",
+            "huLocator": "Incarcerandus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP33",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "dolores-umbridge"
+          ],
+          "targetIds": [
+            "magorian"
+          ],
+          "summary": "Umbridge binds Magorian with ropes while threatening the centaurs. The centaurs break the ropes.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP33",
+              "kind": "event",
+              "enLocator": "Incarcerous",
+              "huLocator": "Incarcerandus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "bat-bogey-hex",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Bat-Bogey Hex",
+      "labelHu": "Rémdenevér-rontás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ginny covers Draco's face with flapping bat-like bogeys during the escape from Umbridge's office. No formula is supplied.",
+      "searchTerms": [
+        "bat",
+        "bogey",
+        "face",
+        "escape",
+        "denevér",
+        "takony",
+        "arc",
+        "menekül"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP33",
+            "kind": "testimony",
+            "enLocator": "Bat-Bogey Hex",
+            "huLocator": "rémdenevér-rontásával",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP33",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "ginny-weasley"
+          ],
+          "targetIds": [
+            "malfoy"
+          ],
+          "summary": "Ron reports, and Ginny later claims, her successful attack on Draco during the students' escape.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP33",
+              "kind": "testimony",
+              "enLocator": "Bat-Bogey Hex",
+              "huLocator": "rémdenevér-rontásával",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "ginny-weasley"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP6",
+              "kind": "testimony",
+              "enLocator": "Bat-Bogey Hexes",
+              "huLocator": "rémdenevér rontásait",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "The twins refer to Ginny's established ability in general. This identifies a spell family rather than a separate located cast."
+        }
+      ]
+    },
+    {
+      "id": "flagrate",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Flagrate",
+      "labelHu": "Pirocus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione draws fiery crosses on Department doors to track rooms they have tried while the circular entrance chamber rotates.",
+      "searchTerms": [
+        "mark",
+        "door",
+        "cross",
+        "fire",
+        "rotate",
+        "jelöl",
+        "ajtó",
+        "kereszt",
+        "tűz",
+        "forog"
+      ],
+      "incantation": {
+        "en": "Flagrate",
+        "hu": "Pirocus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP34",
+            "kind": "event",
+            "enLocator": "Flagrate",
+            "huLocator": "Pirocus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP34",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione marks several explored doors with fiery crosses; the repeated marking is one grouped exploration.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP34",
+              "kind": "event",
+              "enLocator": "Flagrate",
+              "huLocator": "Pirocus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "colloportus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Colloportus",
+      "labelHu": "Colloportus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "A sealing charm slows pursuing Death Eaters. Alohomora reopens one sealed door; interrupted sealing leaves openings.",
+      "searchTerms": [
+        "seal",
+        "door",
+        "lock",
+        "escape",
+        "lezár",
+        "ajtó",
+        "zár",
+        "menekül"
+      ],
+      "incantation": {
+        "en": "Colloportus",
+        "hu": "Colloportus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP35",
+            "kind": "event",
+            "enLocator": "Colloportus",
+            "huLocator": "Colloportus",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione seals the Time Room door after they escape the prophecy hall; a Death Eater later reopens it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Colloportus",
+              "huLocator": "Colloportus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione starts sealing the small office but is interrupted before completing the spell.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Collo—",
+              "huLocator": "Collop…",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry seals successive Brain Room doors against the pursuit.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Colloportus",
+              "huLocator": "Colloportus",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "luna-lovegood"
+          ],
+          "targetIds": [],
+          "summary": "Luna begins sealing another Brain Room door but the attackers burst through first. Neville also helps seal doors, without an independently printed formula.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Collo— aaaaa",
+              "huLocator": "Collop… ááá",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "avada-kedavra",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Avada Kedavra",
+      "labelHu": "Avada kedavra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Killing Curse is attempted in the Time Room and used repeatedly by Voldemort in the Atrium. Sirius's fatal falling blow is not identified as this curse in the printed text.",
+      "searchTerms": [
+        "kill",
+        "death",
+        "green light",
+        "killing curse",
+        "öl",
+        "halál",
+        "zöld fény",
+        "gyilkos átok"
+      ],
+      "incantation": {
+        "en": "Avada Kedavra",
+        "hu": "Avada kedavra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP35",
+            "kind": "event",
+            "enLocator": "Avada –",
+            "huLocator": "Avada…",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "OotP36",
+            "kind": "event",
+            "enLocator": "AVADA KEDAVRA",
+            "huLocator": "Avada kedavra",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "time-room-second-death-eater"
+          ],
+          "targetIds": [
+            "hermione"
+          ],
+          "summary": "The second Time Room attacker begins the Killing Curse at Hermione; Harry tackles him and the aim goes awry.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Avada –",
+              "huLocator": "Avada…",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort tries to kill Harry but Dumbledore's animated wizard statue intercepts the curse.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "AVADA KEDAVRA",
+              "huLocator": "Avada kedavra",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "OotP36",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "albus-dumbledore"
+          ],
+          "summary": "Voldemort's repeated Killing Curses at Dumbledore are evaded or intercepted by statues and Fawkes. Several rays are described without separately printed words.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "another killing curse",
+              "huLocator": "gyilkos",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "diffindo",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Diffindo",
+      "labelHu": "Diffindo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry tries to sever the thought tendrils binding Ron; the spell fails to break them.",
+      "searchTerms": [
+        "cut",
+        "sever",
+        "brain",
+        "tendrils",
+        "vág",
+        "hasít",
+        "agy",
+        "gondolatszalag"
+      ],
+      "incantation": {
+        "en": "Diffindo",
+        "hu": "Diffindo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP35",
+            "kind": "event",
+            "enLocator": "Diffindo",
+            "huLocator": "Diffindo",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP35",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Harry unsuccessfully tries to cut the brain's feelers off Ron.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Diffindo",
+              "huLocator": "Diffindo",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "tarantallegra",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Tarantallegra",
+      "labelHu": "Tarantallegra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dolohov forces Neville's legs into frantic dancing during the Death Chamber fight.",
+      "searchTerms": [
+        "dance",
+        "legs",
+        "jerk",
+        "tap",
+        "tánc",
+        "láb",
+        "rángás"
+      ],
+      "incantation": {
+        "en": "Tarantallegra",
+        "hu": "Tarantallegra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP35",
+            "kind": "event",
+            "enLocator": "Tarantallegra",
+            "huLocator": "Tarantallegra",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "antonin-dolohov"
+          ],
+          "targetIds": [
+            "neville"
+          ],
+          "summary": "Dolohov makes Neville's legs dance uncontrollably, repeatedly unbalancing him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP35",
+              "kind": "event",
+              "enLocator": "Tarantallegra",
+              "huLocator": "Tarantallegra",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "finite",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Finite",
+      "labelHu": "Finite",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Lupin ends the leg-dancing curse on Neville after the battle. The printed formula is Finite, not an expanded form.",
+      "searchTerms": [
+        "end",
+        "stop",
+        "counter",
+        "dance",
+        "megszüntet",
+        "ellen",
+        "tánc"
+      ],
+      "incantation": {
+        "en": "Finite",
+        "hu": "Finite"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP36",
+            "kind": "event",
+            "enLocator": "Finite",
+            "huLocator": "Finite",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP36",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "remus-lupin"
+          ],
+          "targetIds": [
+            "neville"
+          ],
+          "summary": "Lupin stops Neville's involuntary leg movements.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Finite",
+              "huLocator": "Finite",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "wingardium-leviosa",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Wingardium Leviosa",
+      "labelHu": "Vingardium leviosa",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Levitation moves objects into the air. Harry uses it to throw the attacking brains off him and demonstrates the named Levitation class at his O.W.L.",
+      "searchTerms": [
+        "levitate",
+        "float",
+        "brains",
+        "exam",
+        "levitáció",
+        "röptet",
+        "lebeg",
+        "agy",
+        "vizsga"
+      ],
+      "incantation": {
+        "en": "Wingardium Leviosa",
+        "hu": "Vingardium leviosa"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP36",
+            "kind": "event",
+            "enLocator": "Wingardium Leviosa",
+            "huLocator": "Vingardium leviosa",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP36",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lifts the brains away after Bellatrix overturns their tank onto him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP36",
+              "kind": "event",
+              "enLocator": "Wingardium Leviosa",
+              "huLocator": "Vingardium leviosa",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "harry-potter",
+            "malfoy"
+          ],
+          "evidence": [
+            {
+              "anchor": "OotP31",
+              "kind": "testimony",
+              "enLocator": "Levitation Charm",
+              "huLocator": "röptetőbűbájt",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Harry compares his successful Levitation with Draco's failed demonstration. The exam passage names the class, not the incantation; Draco drops and breaks his wineglass."
+        }
+      ]
+    },
+    {
+      "id": "bond-of-blood-protection",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Dumbledore's blood-bond protection",
+      "labelHu": "Dumbledore vérkötelék-védelme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Dumbledore builds a deliberate protective charm on Lily's sacrifice and Petunia's acceptance of Harry. Lily's spontaneous sacrificial protection is not itself counted as a deliberate cast.",
+      "searchTerms": [
+        "blood",
+        "home",
+        "petunia",
+        "lily",
+        "protection",
+        "vér",
+        "otthon",
+        "Petunia",
+        "Lily",
+        "védelem"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "OotP37",
+            "kind": "testimony",
+            "enLocator": "charm I placed upon you",
+            "huLocator": "rád mondott bűbájomat",
+            "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP37",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Dumbledore explains the charm he placed on Harry and how Petunia sealed it by accepting him into her home.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "OotP37",
+              "kind": "testimony",
+              "enLocator": "charm I placed upon you",
+              "huLocator": "rád mondott bűbájomat",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting."
+    },
+    {
+      "id": "levicorpus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Levicorpus",
+      "labelHu": "Levicorpus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "James twice suspends Snape upside-down in a school memory. The formula and identification are supplied by a later explicit cross-reference, not by the OotP scene.",
+      "searchTerms": [
+        "hang",
+        "ankle",
+        "upside down",
+        "memory",
+        "James",
+        "fellógat",
+        "boka",
+        "fejjel lefelé",
+        "emlék",
+        "James"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "later-explicit-identification",
+        "availableFrom": "HBP16",
+        "evidence": [
+          {
+            "anchor": "HBP16",
+            "kind": "testimony",
+            "enLocator": "Levicorpus",
+            "huLocator": "Levicorpus",
+            "scope": "The named spell is followed by Harry's explicit identification of James using it on Snape in the Pensieve.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "HBP16",
+            "kind": "testimony",
+            "enLocator": "I saw him in the Pensieve, he used it on Snape",
+            "huLocator": "egyszer fellógatta Pitont",
+            "scope": "Harry explicitly links the named spell to James's remembered attack on Snape.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "OotP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "james-potter"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "James twice hoists Snape upside-down during the humiliation. HBP16 explicitly identifies this remembered spell as Levicorpus; original vocalisation remains unreported.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "OotP28",
+              "kind": "event",
+              "enLocator": "Snape was hanging upside-down",
+              "huLocator": "Piton már fejjel lefelé",
+              "scope": "The identified human casting, its attribution and the stated outcome in the surrounding context; grouped rows do not count individual casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human spell families only. Unreported words do not establish non-verbal casting; an omitted formula is not reconstructed. Grouped practice and reports are not individual physical cast counts. A chapter anchor records where evidence is printed, not the historical date of casting.",
+      "laterIncantation": {
+        "en": "Levicorpus",
+        "hu": "Levicorpus",
+        "availableFrom": "HBP16",
+        "evidence": [
+          {
+            "anchor": "HBP16",
+            "kind": "testimony",
+            "enLocator": "Levicorpus",
+            "huLocator": "Levicorpus",
+            "scope": "The named spell is followed by Harry's explicit identification of James using it on Snape in the Pensieve.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -2,9 +2,23 @@
 
 This is the data and private-research contract for the book datasets. It
 does not certify semantic completeness. Policy-2 validation requires the scoped
-PS, CoS, PoA and GoF inventories to represent all 17, 18, 22 and 37 chapters respectively; this
+PS, CoS, PoA, GoF and OotP inventories to represent all 17, 18, 22, 37 and 38 chapters respectively; this
 does not certify full reading. The private candidate-ledger format below remains
 PS-specific; other books' targeted inventories do not imply that ledger exists.
+
+## Development sequence
+
+Finish and validate the four typed categories for every processed book before
+starting the next book or a writing comparison. PS through OotP use the same
+policy-2 contracts. HBP, DH and subsequently selected additional books must follow
+that method. A chapter catalogue or selective glossary does not replace an
+inventory. Record supplementary editions and their canon status separately.
+
+The eventual writing database needs consistent referent identities, per-book
+evidence and knowledge limits. Preserve existing IDs where they identify the same
+referent, but review collisions and edition variants before cross-book merges.
+Current counts are per-book records, not a globally deduplicated database. Keep
+inventory completion, extraction checks and independent reading distinct.
 
 ## Private PS candidates
 

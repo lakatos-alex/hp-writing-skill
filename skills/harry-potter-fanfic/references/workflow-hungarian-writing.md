@@ -65,7 +65,7 @@ When expanding, add a choice, resistance, a new information route or aftermath. 
 
 1. **Story:** Who wants what? What causes the next action? Does a speaker know this? Did a translated detail change a fact? Are injuries, possessions and commitments still present at the end?
 2. **Hungarian prose:** Read dialogue aloud. Inspect emphasis, unnecessary personal pronouns, tense handling, referents, speech tags and shifts between narrator judgment and character thought. Keep deliberate repetitions that carry pressure or comedy.
-3. **Terminology and typography:** Check book-scoped terms and project overrides, suffixes, name order, address relationships, accents, speech dashes and quoted incantations. The optional `lint-hu --file DRAFT --book BOOK` flags English forms against PS/CoS/PoA/GoF wording; review hits in context, including chapter variants and deliberate quotations.
+3. **Terminology and typography:** Check book-scoped terms and project overrides, suffixes, name order, address relationships, accents, speech dashes and quoted incantations. The optional `lint-hu --file DRAFT --book BOOK` flags English forms against PS/CoS/PoA/GoF/OotP wording; review hits in context, including chapter variants and deliberate quotations.
 
 Mechanical counts, duplicate detection and glossary matches cannot certify natural Hungarian, canon correctness or literary quality. If length matters, measure the saved draft using the host project's method and revise meaningful content toward the requested length.
 

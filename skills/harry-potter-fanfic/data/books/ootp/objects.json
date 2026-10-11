@@ -1,0 +1,2721 @@
+{
+  "schemaVersion": 1,
+  "book": "OotP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "blood-quill",
+      "labelEn": "Blood-writing detention quill",
+      "labelHu": "Vérrel író büntetőtoll",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Umbridge's inkless quill writes Harry's lines in his own blood while cutting the same words into his hand.",
+      "searchTerms": [
+        "blood",
+        "quill",
+        "detention",
+        "hand",
+        "scars",
+        "torture",
+        "vér",
+        "toll",
+        "büntetés",
+        "kéz",
+        "seb"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP13",
+          "kind": "event",
+          "enLocator": "special one of mine",
+          "huLocator": "penna",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP13",
+          "enLocator": "quill",
+          "huLocator": "penna",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "quill",
+          "huLocator": "penna",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP16",
+          "enLocator": "quill",
+          "huLocator": "penna",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "quill",
+          "huLocator": "penna",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "writing-tool",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Black_Quill",
+        "basis": "Wiki Object information checked for classification only; novel evidence governs this book's properties and edition wording.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "extendable-ears",
+      "labelEn": "Extendable Ears",
+      "labelHu": "Telefül",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The twins' flesh-coloured strings carry distant speech but fail to penetrate the protected meeting-room door.",
+      "searchTerms": [
+        "eavesdrop",
+        "ears",
+        "string",
+        "sound",
+        "Imperturbable",
+        "lehallgat",
+        "fül",
+        "zsineg",
+        "hang"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP4",
+          "kind": "event",
+          "enLocator": "Extendable Ears",
+          "huLocator": "telefül",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP4",
+          "enLocator": "Extendable Ears",
+          "huLocator": "Telefül",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP5",
+          "enLocator": "Extendable Ears",
+          "huLocator": "telefül",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "eavesdropping-tool",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Extendable_Ears",
+        "basis": "Wiki Object information checked for classification only; novel evidence governs this book's properties and edition wording.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "da-galleons",
+      "labelEn": "D.A. enchanted Galleons",
+      "labelHu": "A D.S. elvarázsolt galleonjai",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione's fake coins copy meeting dates from Harry's master coin and heat to alert their holders; they are not spendable wages.",
+      "searchTerms": [
+        "D.A.",
+        "communication",
+        "Protean",
+        "Charm",
+        "coins",
+        "date",
+        "heat",
+        "D.S.",
+        "kapcsolat",
+        "proteusz",
+        "bűbáj",
+        "érme",
+        "dátum",
+        "meleg"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP19",
+          "kind": "event",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP4",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP9",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP12",
+          "enLocator": "GALLEONS",
+          "huLocator": "GALLEON",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP19",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Galleons",
+          "huLocator": "galleon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "communication-token",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Enchanted_coin",
+        "basis": "Wiki Object information checked for classification only; novel evidence governs this book's properties and edition wording.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "da-membership-parchment",
+      "labelEn": "D.A. membership parchment",
+      "labelHu": "A D.S. névsorpergamenje",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione's signed membership list carries the undisclosed betrayal jinx that marks Marietta's face.",
+      "searchTerms": [
+        "D.A.",
+        "contract",
+        "betrayal",
+        "signature",
+        "jinx",
+        "D.S.",
+        "szerződés",
+        "árulás",
+        "aláírás",
+        "ártás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP27",
+          "kind": "event",
+          "enLocator": "Dumbledore’s Army",
+          "huLocator": "Dumbledore Serege",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP13",
+          "enLocator": "parchment",
+          "huLocator": "pergamen",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "parchment",
+          "huLocator": "pergamen",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "parchment",
+          "huLocator": "pergamen",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "parchment",
+          "huLocator": "pergamen",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "membership-record",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Dumbledore%27s_Army_parchment",
+        "basis": "Wiki Object information checked for classification only; novel evidence governs this book's properties and edition wording.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "two-way-mirror",
+      "labelEn": "Sirius's two-way mirror",
+      "labelHu": "Oda-vissza ikertükör",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Sirius's note identifies the paired communication mirror; Harry discovers its purpose only after Sirius's death and receives no answer.",
+      "searchTerms": [
+        "mirror",
+        "Sirius",
+        "gift",
+        "communication",
+        "missed",
+        "opportunity",
+        "tükör",
+        "ajándék",
+        "kapcsolat"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP38",
+          "kind": "event",
+          "enLocator": "two-way mirror",
+          "huLocator": "oda-vissza ikertükör",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP38",
+          "enLocator": "two-way mirror",
+          "huLocator": "oda-vissza ikertükör",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "communication-tool",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Two-way_mirror",
+        "basis": "Wiki Object information checked for classification only; novel evidence governs this book's properties and edition wording.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "prophecy-sphere",
+      "labelEn": "Harry and Voldemort's prophecy sphere",
+      "labelHu": "Harry és Voldemort jóslatgömbje",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The labelled glass record is the target of the ambush; its destruction does not reveal the prophecy to the pursuing Death Eaters.",
+      "searchTerms": [
+        "prophecy",
+        "record",
+        "sphere",
+        "glass",
+        "label",
+        "Voldemort",
+        "jóslat",
+        "gömb",
+        "üveg",
+        "felirat"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "S.P.T.",
+          "huLocator": "S.P.T.",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP34",
+          "enLocator": "S.P.T.",
+          "huLocator": "S.P.T.",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "prophecy-record",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "veil-archway",
+      "labelEn": "Veiled archway",
+      "labelHu": "Fátyolos boltív",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The hanging veil surrounds an archway beyond which Sirius disappears; hearing voices is not evidence of a safe return route.",
+      "searchTerms": [
+        "veil",
+        "arch",
+        "death",
+        "voices",
+        "Sirius",
+        "fátyol",
+        "boltív",
+        "halál",
+        "hangok"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP35",
+          "kind": "event",
+          "enLocator": "veil",
+          "huLocator": "függöny",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP16",
+          "enLocator": "veil",
+          "huLocator": "fátyol",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "veil",
+          "huLocator": "fátyol",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "mysterious-structure",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "time-bell-jar",
+      "labelEn": "Time-room bell jar",
+      "labelHu": "Az időterem kristályedénye",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "A bird cycles through growth within the jar; later a Death Eater's head is altered after contact.",
+      "searchTerms": [
+        "time",
+        "age",
+        "bird",
+        "head",
+        "jar",
+        "idő",
+        "kor",
+        "madár",
+        "fej",
+        "bura"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "bell jar",
+          "huLocator": "kristályedény",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "experimental-device",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "time-turner",
+      "labelEn": "Time-Turners",
+      "labelHu": "Időnyerők",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry suspects the repeatedly falling, shattering and repairing Ministry cabinet contained Time-Turners. This book does not establish the later fate or availability of the entire stock.",
+      "searchTerms": [
+        "time",
+        "devices",
+        "stock",
+        "destroyed",
+        "idő",
+        "eszköz",
+        "készlet",
+        "elpusztult"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP35",
+          "kind": "event",
+          "enLocator": "Time-Turners",
+          "huLocator": "időnyerő",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "time-device",
+      "magicStatus": "not-established",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Time-Turner",
+        "basis": "Checked Wiki object catalogue entry for classification only; novel passages govern events and edition labels.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "fountain-magical-brethren",
+      "labelEn": "Fountain of Magical Brethren",
+      "labelHu": "Mágikus Testvériség Kútja",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The decorative group idealizes wizard and creature relations; Dumbledore animates its statues during the duel, which does not certify their original message.",
+      "searchTerms": [
+        "fountain",
+        "statues",
+        "centaur",
+        "elf",
+        "goblin",
+        "duel",
+        "szökőkút",
+        "szobrok",
+        "kentaur",
+        "manó",
+        "kobold"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP7",
+          "kind": "event",
+          "enLocator": "FOUNTAIN OF MAGICAL BRETHREN",
+          "huLocator": "MÁGIKUS TESTVÉRISÉG KÚT",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP36",
+          "enLocator": "Fountain of Magical Brethren",
+          "huLocator": "Mágikus Testvériség Kútja",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "fountain",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "black-family-tapestry",
+      "labelEn": "Black family tapestry",
+      "labelHu": "A Black család falikárpitja",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Black family tree preserves approved relatives and scorched gaps for repudiated members. Sirius suspects a Permanent Sticking Charm holds it to the wall; self-updating magic is not established here.",
+      "searchTerms": [
+        "Black",
+        "family",
+        "tree",
+        "ancestry",
+        "burned",
+        "names",
+        "tapestry",
+        "családfa",
+        "származás",
+        "kiégetett",
+        "falikárpit"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "tapestry",
+          "huLocator": "falikárpit",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "OotP6",
+          "kind": "testimony",
+          "enLocator": "Permanent Sticking Charm",
+          "huLocator": "ragasztóbűbájjal",
+          "scope": "Sirius suspects a sticking charm; this does not establish self-updating family-tree magic.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "tapestry",
+          "huLocator": "falikárpit",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "tapestry",
+          "huLocator": "falikárpit",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "family-record",
+      "magicStatus": "not-established"
+    },
+    {
+      "id": "black-house-locket",
+      "labelEn": "The heavy drawing-room locket",
+      "labelHu": "A szalon nehéz lakatja",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The cleaners cannot open the heavy locket. This book does not identify it as a Horcrux or name its earlier owner.",
+      "searchTerms": [
+        "locket",
+        "unopened",
+        "Black",
+        "cleaning",
+        "jewellery",
+        "medalion",
+        "kinyithatatlan",
+        "takarítás",
+        "ékszer"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "locket",
+          "huLocator": "lakat",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred. The supplied English edition calls it a locket; the Hungarian edition renders the same cleaning-list item as a heavy lock (lakat). No later identity is inferred.",
+      "objectKind": "jewellery",
+      "magicStatus": "not-established"
+    },
+    {
+      "id": "black-silver-snuffbox",
+      "labelEn": "Biting silver snuffbox",
+      "labelHu": "Harapó ezüst dohányosdobozka",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The household object bites Sirius while the family possessions are cleared.",
+      "searchTerms": [
+        "snuffbox",
+        "bite",
+        "Black",
+        "cleaning",
+        "ezüst",
+        "szelence",
+        "harap",
+        "takarítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "snuffbox",
+          "huLocator": "dohányosdobozka",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "container",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "black-musical-box",
+      "labelEn": "Sleep-inducing musical box",
+      "labelHu": "Álmosító zenélődoboz",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The box produces a tune that weakens the cleaners' alertness until Ginny stops it.",
+      "searchTerms": [
+        "music",
+        "sleep",
+        "drowsy",
+        "cleaning",
+        "zene",
+        "álom",
+        "álmos",
+        "takarítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "musical box",
+          "huLocator": "zenélő doboz",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "music-box",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "black-grandfather-clock",
+      "labelEn": "Bolt-shooting grandfather clock",
+      "labelHu": "Csavarokat lövő állóóra",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The clock shoots heavy bolts at people who pass it during the house cleaning.",
+      "searchTerms": [
+        "clock",
+        "bolts",
+        "cleaning",
+        "danger",
+        "óra",
+        "csavar",
+        "takarítás",
+        "veszély"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "grandfather clock",
+          "huLocator": "állóór",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "clock",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "black-house-elf-heads",
+      "labelEn": "Mounted house-elf heads",
+      "labelHu": "Falra erősített házimanófejek",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The mounted elf heads express the Black family's treatment of servants; being a grim magical household trophy does not establish enchantment.",
+      "searchTerms": [
+        "elf",
+        "heads",
+        "trophy",
+        "Black",
+        "servitude",
+        "manó",
+        "fejek",
+        "trófea",
+        "szolgaság"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP4",
+          "kind": "event",
+          "enLocator": "heads",
+          "huLocator": "zsugorított fejek",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "display",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "sorting-hat",
+      "labelEn": "Sorting Hat",
+      "labelHu": "Teszlek Süveg",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The singing hat warns the houses against division as well as sorting the new pupils.",
+      "searchTerms": [
+        "Sorting",
+        "Hat",
+        "song",
+        "houses",
+        "unity",
+        "süveg",
+        "dal",
+        "házak",
+        "egység"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP11",
+          "kind": "event",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP11",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP12",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP19",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP24",
+          "enLocator": "Sorting Hat",
+          "huLocator": "Teszlek Süveg",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "sorting-tool",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "pensieve",
+      "labelEn": "Pensieve",
+      "labelHu": "Merengő",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry enters Snape's stored memory without permission; the visible past does not provide unrestricted access to every person's private thoughts.",
+      "searchTerms": [
+        "Pensieve",
+        "memory",
+        "intrusion",
+        "Snape",
+        "James",
+        "Lily",
+        "merengő",
+        "emlék",
+        "behatolás",
+        "Piton"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP28",
+          "kind": "event",
+          "enLocator": "Pensieve",
+          "huLocator": "merengő",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP24",
+          "enLocator": "Pensieve",
+          "huLocator": "merengő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Pensieve",
+          "huLocator": "merengő",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "memory-tool",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "marauders-map",
+      "labelEn": "Marauder's Map",
+      "labelHu": "Tekergők Térképe",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry uses the map to support secret meetings by watching movements; its coverage is not a promise to expose all hidden spaces.",
+      "searchTerms": [
+        "map",
+        "surveillance",
+        "D.A.",
+        "corridor",
+        "térkép",
+        "megfigyelés",
+        "folyosó"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Marauder",
+          "huLocator": "Tekergők",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Marauder",
+          "huLocator": "Tekergők",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP20",
+          "enLocator": "Marauder",
+          "huLocator": "Tekergők",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "map",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "invisibility-cloak",
+      "labelEn": "Invisibility Cloak",
+      "labelHu": "Láthatatlanná tévő köpeny",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry brings the concealment garment into dangerous plans; its invisibility does not prevent physical contact or guarantee safety.",
+      "searchTerms": [
+        "cloak",
+        "invisible",
+        "concealment",
+        "köpeny",
+        "láthatatlan",
+        "rejtőzés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP3",
+          "kind": "event",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tévő köpeny",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tévő köpeny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP17",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tévő köpeny",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tévő köpeny",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "cloak",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "firebolt",
+      "labelEn": "Firebolt",
+      "labelHu": "Tűzvillám",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry's flying broom is confiscated after Umbridge bans him from Quidditch.",
+      "searchTerms": [
+        "broom",
+        "Quidditch",
+        "confiscated",
+        "flight",
+        "seprű",
+        "kviddics",
+        "elkobzott",
+        "repülés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP14",
+          "kind": "event",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP3",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP23",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "cleansweep-eleven",
+      "labelEn": "Cleansweep Eleven",
+      "labelHu": "Jólsep-R 11",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Ron chooses a new broom as the reward for becoming prefect and later plays Keeper on it.",
+      "searchTerms": [
+        "broom",
+        "Ron",
+        "prefect",
+        "Keeper",
+        "seprű",
+        "prefektus",
+        "őrző"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP9",
+          "kind": "event",
+          "enLocator": "Cleansweep",
+          "huLocator": "Jólsep",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "broom",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "weasley-fireworks",
+      "labelEn": "Weasleys' Wildfire Whiz-bangs",
+      "labelHu": "Weasley-féle Wildfire tűzijáték",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The twins' fireworks multiply or worsen under attempted counterspells and disrupt Umbridge's control.",
+      "searchTerms": [
+        "fireworks",
+        "dragon",
+        "explosion",
+        "rebellion",
+        "tűzijáték",
+        "sárkány",
+        "robbanás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP28",
+          "kind": "event",
+          "enLocator": "fireworks",
+          "huLocator": "tűzijáték",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP28",
+          "enLocator": "fireworks",
+          "huLocator": "tűzijáték",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "joke-product",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "portable-swamp",
+      "labelEn": "Portable swamp",
+      "labelHu": "Hordozható mocsár",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The twins create a corridor swamp before their departure; Flitwick removes most of it but preserves a small patch.",
+      "searchTerms": [
+        "swamp",
+        "corridor",
+        "rebellion",
+        "Flitwick",
+        "mocsár",
+        "folyosó",
+        "ellenállás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP29",
+          "kind": "event",
+          "enLocator": "swamp",
+          "huLocator": "mocsarat",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "joke-product",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "skiving-snackboxes",
+      "labelEn": "Skiving Snackboxes",
+      "labelHu": "Maximuláns termékcsoport",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The twins develop paired sweets that cause symptoms and then undo them to help pupils leave lessons.",
+      "searchTerms": [
+        "snack",
+        "illness",
+        "cure",
+        "escape",
+        "sweets",
+        "édesség",
+        "betegség",
+        "gyógyít",
+        "lógás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Skiving Snackboxes",
+          "huLocator": "Maximuláns",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "Skiving Snackboxes",
+          "huLocator": "Maximuláns termékcsoport",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "joke-product",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Skiving_Snackbox",
+        "basis": "Wiki Object information checked for classification only; novel evidence governs this book's properties and edition wording.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "nosebleed-nougat",
+      "labelEn": "Nosebleed Nougat",
+      "labelHu": "Orrvérzés Ostya",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The two-ended experimental sweet induces and reverses nosebleeding; development problems are not a universal safety guarantee.",
+      "searchTerms": [
+        "nosebleed",
+        "sweet",
+        "antidote",
+        "testing",
+        "orrvérzés",
+        "édesség",
+        "ellenszer",
+        "kísérlet"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Nosebleed Nougat",
+          "huLocator": "Orrvérzés",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "Nosebleed Nougat",
+          "huLocator": "Orrvérzés",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP13",
+          "enLocator": "Nosebleed Nougat",
+          "huLocator": "Orrvérzés Ostya",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "fever-fudge",
+      "labelEn": "Fever Fudge",
+      "labelHu": "Lázralobbantó",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The twins report that their fever-inducing sweet still produces painful boils they have not yet learned to remove; it is an unfinished product, not a safe established cure.",
+      "searchTerms": [
+        "fever",
+        "sweet",
+        "snack",
+        "illness",
+        "cure",
+        "láz",
+        "édesség",
+        "betegség"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Fever Fudge",
+          "huLocator": "Lázralobbantó",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "fainting-fancies",
+      "labelEn": "Fainting Fancies",
+      "labelHu": "Tetszhalott Tabletta",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The snackbox sweet produces an apparent faint and includes a reversing portion.",
+      "searchTerms": [
+        "faint",
+        "sweet",
+        "snack",
+        "illness",
+        "cure",
+        "ájul",
+        "édesség",
+        "betegség"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Fainting Fancies",
+          "huLocator": "Tetszhalott",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP13",
+          "enLocator": "Fainting Fancies",
+          "huLocator": "Tetszhalott Tabletta",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "puking-pastilles",
+      "labelEn": "Puking Pastilles",
+      "labelHu": "Rókázó Rágcsa",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The experimental pastilles cause vomiting; the twins test a means to end the effect.",
+      "searchTerms": [
+        "vomit",
+        "sweet",
+        "snack",
+        "illness",
+        "cure",
+        "hány",
+        "édesség",
+        "betegség"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Puking Pastilles",
+          "huLocator": "Rókázó Rágcsa",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "Puking Pastilles",
+          "huLocator": "Rókázó Rágcsa",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP13",
+          "enLocator": "Puking Pastilles",
+          "huLocator": "Rókázó Rágcsa",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "sweet",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "murtlap-essence",
+      "labelEn": "Murtlap essence",
+      "labelHu": "Pácolt futkárloboncoldat",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione provides the yellow solution to soothe Harry's damaged hand after the blood-quill detention.",
+      "searchTerms": [
+        "Murtlap",
+        "essence",
+        "hand",
+        "healing",
+        "scars",
+        "murtlap",
+        "esszencia",
+        "kéz",
+        "gyógyítás",
+        "seb"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP15",
+          "kind": "event",
+          "enLocator": "Murtlap",
+          "huLocator": "futkárloboncoldat",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP15",
+          "enLocator": "Murtlap essence",
+          "huLocator": "Pácolt futkárloboncoldat",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "healing-substance",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "veritaserum",
+      "labelEn": "Veritaserum",
+      "labelHu": "Veritaserum",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Umbridge requests more truth potion, while Snape describes its lengthy preparation. Dumbledore later says Snape supplied fake Veritaserum; the supplied bottle is not demonstrated to compel truth.",
+      "searchTerms": [
+        "truth",
+        "potion",
+        "stock",
+        "interrogation",
+        "igazság",
+        "bájital",
+        "készlet",
+        "kihallgatás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP32",
+          "kind": "event",
+          "enLocator": "Veritaserum",
+          "huLocator": "Veritaserum",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        },
+        {
+          "anchor": "OotP37",
+          "kind": "testimony",
+          "enLocator": "fake Veritaserum",
+          "huLocator": "hamis Veritaserum",
+          "scope": "Dumbledore identifies the supplied bottle as fake; this is reported, not a successful truth-potion demonstration.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP3",
+          "enLocator": "Veritaserum",
+          "huLocator": "Veritaserum",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "potion",
+      "magicStatus": "not-established"
+    },
+    {
+      "id": "doxycide",
+      "labelEn": "Doxycide",
+      "labelHu": "Doxicid",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The household cleaners spray this substance to immobilize Doxies in the drawing-room curtains.",
+      "searchTerms": [
+        "Doxy",
+        "spray",
+        "curtains",
+        "cleaning",
+        "doxy",
+        "permet",
+        "függöny",
+        "takarítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Doxycide",
+          "huLocator": "Doxicid",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "Doxycide",
+          "huLocator": "Doxicid",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "pest-control",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "howler",
+      "labelEn": "Dumbledore's Howler to Petunia",
+      "labelHu": "Dumbledore rivallója Petuniának",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The loud letter tells Petunia to remember Dumbledore's earlier message and affects her decision to keep Harry.",
+      "searchTerms": [
+        "Howler",
+        "Petunia",
+        "warning",
+        "protection",
+        "rivalló",
+        "figyelmeztetés",
+        "védelem"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP2",
+          "kind": "event",
+          "enLocator": "Howler",
+          "huLocator": "rivalló",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP2",
+          "enLocator": "Howler",
+          "huLocator": "rivalló",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP3",
+          "enLocator": "Howler",
+          "huLocator": "rivalló",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP30",
+          "enLocator": "Howler",
+          "huLocator": "rivalló",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP37",
+          "enLocator": "Howler",
+          "huLocator": "rivalló",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "letter",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "the-quibbler",
+      "labelEn": "The Quibbler",
+      "labelHu": "Hírverő",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Luna's father's magazine publishes Rita's interview with Harry; unusual claims printed in it are not thereby confirmed canon facts.",
+      "searchTerms": [
+        "magazine",
+        "interview",
+        "press",
+        "testimony",
+        "Hírverő",
+        "újság",
+        "interjú",
+        "sajtó"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP25",
+          "kind": "event",
+          "enLocator": "Quibbler",
+          "huLocator": "Hírverő",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP7",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP10",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP11",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP13",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP27",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "The Quibbler",
+          "huLocator": "Hírverő",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "periodical",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "daily-prophet",
+      "labelEn": "Daily Prophet",
+      "labelHu": "Reggeli Próféta",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The newspaper reinforces the Ministry's attacks on Harry and Dumbledore before reversing course after the Ministry sees Voldemort.",
+      "searchTerms": [
+        "newspaper",
+        "press",
+        "propaganda",
+        "denial",
+        "újság",
+        "sajtó",
+        "propaganda",
+        "tagadás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP14",
+          "kind": "event",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP1",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP4",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP5",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP9",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP10",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP11",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP14",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP18",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "newspaper",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "defensive-magical-theory",
+      "labelEn": "Defensive Magical Theory",
+      "labelHu": "A defenzív mágia elmélete",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Slinkhard's assigned textbook provides the theory-only curriculum Umbridge enforces.",
+      "searchTerms": [
+        "textbook",
+        "theory",
+        "Defence",
+        "Slinkhard",
+        "tankönyv",
+        "elmélet",
+        "védelem"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP12",
+          "kind": "event",
+          "enLocator": "Defensive Magical Theory",
+          "huLocator": "A defenzív mágia elmélete",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP9",
+          "enLocator": "Defensive Magical Theory",
+          "huLocator": "A defenzív mágia elmélete",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP12",
+          "enLocator": "Defensive Magical Theory",
+          "huLocator": "A defenzív mágia elmélete",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP17",
+          "enLocator": "Defensive Magical Theory",
+          "huLocator": "A defenzív mágia elmélete",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "educational-decrees",
+      "labelEn": "Educational Decree notices",
+      "labelHu": "Oktatásügyi rendeletek hirdetményei",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Ministry notices legalize Umbridge's growing control and prohibit unauthorized student organizations; the paper is not a spell.",
+      "searchTerms": [
+        "decree",
+        "rules",
+        "Ministry",
+        "ban",
+        "D.A.",
+        "rendelet",
+        "szabály",
+        "minisztérium",
+        "tilalom"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP17",
+          "kind": "event",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP15",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP17",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP19",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP25",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP26",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP27",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP28",
+          "enLocator": "Educational Decree",
+          "huLocator": "oktatásügyi rendelet",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "notice",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "prefect-badges",
+      "labelEn": "Prefect badges",
+      "labelHu": "Prefektusi jelvények",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Ron and Hermione receive badges marking their school appointments; no enchantment is established by the rank.",
+      "searchTerms": [
+        "prefect",
+        "Ron",
+        "Hermione",
+        "badge",
+        "status",
+        "prefektus",
+        "jelvény",
+        "rang"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP9",
+          "kind": "event",
+          "enLocator": "badge",
+          "huLocator": "jelvény",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP9",
+          "enLocator": "badge",
+          "huLocator": "jelvény",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP11",
+          "enLocator": "badge",
+          "huLocator": "jelvény",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "badge",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "inquisitorial-squad-badges",
+      "labelEn": "Inquisitorial Squad badges",
+      "labelHu": "Főinspektori különítmény jelvényei",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The squad's insignia marks Umbridge's favoured pupils, who receive disciplinary power; that power is institutional.",
+      "searchTerms": [
+        "squad",
+        "badge",
+        "authority",
+        "Umbridge",
+        "különítmény",
+        "jelvény",
+        "hatalom"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP28",
+          "kind": "event",
+          "enLocator": "Inquisitorial Squad",
+          "huLocator": "Főinspektori",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP28",
+          "enLocator": "Inquisitorial Squad",
+          "huLocator": "Főinspektori",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP29",
+          "enLocator": "Inquisitorial Squad",
+          "huLocator": "Főinspektori",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP30",
+          "enLocator": "Inquisitorial Squad",
+          "huLocator": "főinspektori",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP32",
+          "enLocator": "Inquisitorial Squad",
+          "huLocator": "főinspektori",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP38",
+          "enLocator": "Inquisitorial Squad",
+          "huLocator": "főinspektori",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "badge",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "visitor-badges",
+      "labelEn": "Ministry visitor badges",
+      "labelHu": "Minisztériumi vendégjelvények",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The telephone entrance produces identifying visitor badges as part of the Ministry admission procedure.",
+      "searchTerms": [
+        "visitor",
+        "Ministry",
+        "badge",
+        "entrance",
+        "vendég",
+        "minisztérium",
+        "jelvény"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP7",
+          "kind": "event",
+          "enLocator": "badge",
+          "huLocator": "jelvény",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP9",
+          "enLocator": "badges",
+          "huLocator": "jelvény",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP34",
+          "enLocator": "badges",
+          "huLocator": "jelvény",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "badge",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "arthur-stitches",
+      "labelEn": "Arthur's Muggle stitches",
+      "labelHu": "Arthur mugli varratai",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Arthur's experimental Muggle stitches fail around the snakebite wounds; ordinary sutures are not magical simply because a healer uses them.",
+      "searchTerms": [
+        "stitches",
+        "wound",
+        "snake",
+        "healing",
+        "Muggle",
+        "varrat",
+        "seb",
+        "kígyó",
+        "gyógyítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP23",
+          "kind": "event",
+          "enLocator": "stitches",
+          "huLocator": "sebvarrás",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "medical-material",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "alice-sweet-wrapper",
+      "labelEn": "Alice's empty sweet wrapper",
+      "labelHu": "Alice üres édességcsomagolása",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Alice gives Neville an empty wrapper, which he keeps despite his grandmother's dismissal; no coded message or enchantment is established.",
+      "searchTerms": [
+        "wrapper",
+        "mother",
+        "Neville",
+        "keepsake",
+        "sweet",
+        "csomagolás",
+        "anya",
+        "emlék",
+        "édesség"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP23",
+          "kind": "event",
+          "enLocator": "wrapper",
+          "huLocator": "csomagolópapírt",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "keepsake",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "lockhart-photographs",
+      "labelEn": "Lockhart's signed photographs",
+      "labelHu": "Lockhart dedikált fényképei",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Lockhart continues signing the moving photographs in the closed ward despite his severe memory loss.",
+      "searchTerms": [
+        "photographs",
+        "autograph",
+        "memory",
+        "Lockhart",
+        "fénykép",
+        "autogram",
+        "emlékezet"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP23",
+          "kind": "event",
+          "enLocator": "a fresh stack of photographs",
+          "huLocator": "fénykép",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "photograph",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "order-photograph",
+      "labelEn": "The original Order photograph",
+      "labelHu": "A régi Főnix Rendje csoportképe",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Moody identifies people in the moving group photograph and reports who died or vanished; the image does not make them present alive.",
+      "searchTerms": [
+        "Order",
+        "photograph",
+        "memory",
+        "dead",
+        "Moody",
+        "Rend",
+        "fénykép",
+        "emlék",
+        "halott",
+        "Mordon"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP9",
+          "kind": "event",
+          "enLocator": "photograph",
+          "huLocator": "fénykép",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "photograph",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "put-outer",
+      "labelEn": "Put-Outer",
+      "labelHu": "Önoltó",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Moody borrows Dumbledore's device to remove nearby street lights before the escort enters headquarters; this book's name is Put-Outer.",
+      "searchTerms": [
+        "light",
+        "device",
+        "darkness",
+        "street",
+        "Moody",
+        "önoltó",
+        "fény",
+        "sötétség",
+        "utca",
+        "Mordon"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP3",
+          "kind": "event",
+          "enLocator": "Put-Outer",
+          "huLocator": "önoltó",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "light-device",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Deluminator",
+        "basis": "Object information / object category; classification pointer only, not authority for novel events.",
+        "checked": "2026-10-10"
+      }
+    },
+    {
+      "id": "harry-penknife",
+      "labelEn": "Harry's enchanted penknife",
+      "labelHu": "Harry bűvös zsebkése",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Sirius's earlier gift fails to open the locked Ministry door and its blade melts; it is distinct from the knife Sirius carried during the previous school intrusion.",
+      "searchTerms": [
+        "knife",
+        "door",
+        "lock",
+        "melted",
+        "Sirius",
+        "gift",
+        "kés",
+        "ajtó",
+        "zár",
+        "olvadt",
+        "ajándék"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP34",
+          "kind": "event",
+          "enLocator": "knife",
+          "huLocator": "Sirius kése",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "knife",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "sneakoscope",
+      "labelEn": "Sneakoscopes",
+      "labelHu": "Gyanúszkópok",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The practice room supplies detectors, but Harry warns that Dark Detectors can be fooled and must not substitute for judgement.",
+      "searchTerms": [
+        "detector",
+        "warning",
+        "unreliable",
+        "enemy",
+        "detection",
+        "műszer",
+        "figyelmeztetés",
+        "ellenség"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Sneakoscopes",
+          "huLocator": "gyanúszkóp",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Sneakoscopes",
+          "huLocator": "gyanúszkópok",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "dark-detector",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "secrecy-sensor",
+      "labelEn": "Secrecy Sensors",
+      "labelHu": "Subrosaszenzorok",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The room supplies these Dark Detectors for the Defence group's needs; their presence does not identify who is secretly hostile.",
+      "searchTerms": [
+        "detector",
+        "secrecy",
+        "enemy",
+        "warning",
+        "műszer",
+        "titok",
+        "ellenség"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Secrecy Sensors",
+          "huLocator": "Subrosaszenzor",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Secrecy Sensors",
+          "huLocator": "Subrosaszenzorok",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "dark-detector",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "foe-glass",
+      "labelEn": "Foe-Glass",
+      "labelHu": "Malíciamutató",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "A cracked enemy-detecting glass appears in the practice room; Harry recognizes the kind from the false Moody's office and warns about manipulation.",
+      "searchTerms": [
+        "detector",
+        "mirror",
+        "enemy",
+        "unreliable",
+        "Moody",
+        "műszer",
+        "tükör",
+        "ellenség",
+        "Mordon"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Foe-Glass",
+          "huLocator": "malíciamutató",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Foe-Glass",
+          "huLocator": "malíciamutató",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "dark-detector",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "compendium-common-curses",
+      "labelEn": "A Compendium of Common Curses and their Counter-Actions",
+      "labelHu": "Az alap átkok és ellenvarázsaik kompendiuma",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione identifies the reference book among the room's supplied Defence resources; the book is not itself a cast spell.",
+      "searchTerms": [
+        "book",
+        "Defence",
+        "curse",
+        "counter-curse",
+        "reference",
+        "könyv",
+        "védelem",
+        "átok",
+        "ellenátok"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Compendium of Common Curses",
+          "huLocator": "Az alap átkok",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "A Compendium of Common Curses and their Counter-Actions",
+          "huLocator": "Az alap átkok és ellenvarázsaik kompendiuma",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "dark-arts-outsmarted",
+      "labelEn": "The Dark Arts Outsmarted",
+      "labelHu": "A feketemágia megszelídítése",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The Defence title is on the practice room's shelves; its subject does not establish that the volume is enchanted.",
+      "searchTerms": [
+        "book",
+        "Defence",
+        "practice",
+        "reference",
+        "könyv",
+        "védelem",
+        "gyakorlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Dark Arts Outsmarted",
+          "huLocator": "A feketemágia megszelídítése",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "The Dark Arts Outsmarted",
+          "huLocator": "A feketemágia megszelídítése",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "self-defensive-spellwork",
+      "labelEn": "Self-Defensive Spellwork",
+      "labelHu": "A varázsló önvédelme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The practice room supplies this reference title as part of the students' practical Defence environment.",
+      "searchTerms": [
+        "book",
+        "Defence",
+        "practice",
+        "reference",
+        "könyv",
+        "védelem",
+        "gyakorlás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Self-Defensive Spellwork",
+          "huLocator": "A varázsló önvédelme",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Self-Defensive Spellwork",
+          "huLocator": "A varázsló önvédelme",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "jinxes-for-jinxed",
+      "labelEn": "Jinxes for the Jinxed",
+      "labelHu": "Az ártásokról ártatlanoknak",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione takes this book from the practice room's shelves and begins reading it; no enchantment of the volume is established.",
+      "searchTerms": [
+        "book",
+        "jinx",
+        "counter-curse",
+        "Hermione",
+        "reading",
+        "könyv",
+        "rontás",
+        "ellenátok",
+        "olvasás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "Jinxes for the Jinxed",
+          "huLocator": "Az ártásokról ártatlanoknak",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP18",
+          "enLocator": "Jinxes for the Jinxed",
+          "huLocator": "Az ártásokról ártatlanoknak",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "black-crested-ring",
+      "labelEn": "The Black-crested gold ring",
+      "labelHu": "A Black-címeres aranygyűrű",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Kreacher tries to save Sirius's father's ring from disposal; its family crest does not establish a magical property or connect it to a later Horcrux ring.",
+      "searchTerms": [
+        "ring",
+        "gold",
+        "Black",
+        "father",
+        "Kreacher",
+        "jewellery",
+        "gyűrű",
+        "arany",
+        "apa",
+        "Sipor",
+        "ékszer"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "golden ring",
+          "huLocator": "aranygyűrű",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "jewellery",
+      "magicStatus": "not-established"
+    },
+    {
+      "id": "black-merlin-medal",
+      "labelEn": "The Black grandfather's Order of Merlin medal",
+      "labelHu": "Sirius nagyapjának Merlin-rendje",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The cleaning party discards the medal while Sirius derides the Ministry services commemorated by its inscription.",
+      "searchTerms": [
+        "medal",
+        "grandfather",
+        "Ministry",
+        "decoration",
+        "kitüntetés",
+        "nagyapa",
+        "minisztérium"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Order of Merlin",
+          "huLocator": "Merlin-rend",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "Order of Merlin",
+          "huLocator": "Merlin-rend",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "decoration",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "nature-nobility",
+      "labelEn": "Nature's Nobility: A Wizarding Genealogy",
+      "labelHu": "Természetes nemesség – a varázslók származástana",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Sirius uses the heavy genealogy volume to smash a crawling instrument during cleaning; family subject matter does not establish enchantment.",
+      "searchTerms": [
+        "genealogy",
+        "book",
+        "family",
+        "Black",
+        "weight",
+        "családfa",
+        "könyv",
+        "család",
+        "súly"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "Nature’s Nobility",
+          "huLocator": "Természetes nemesség",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP6",
+          "enLocator": "Nature’s Nobility",
+          "huLocator": "Természetes nemesség – a varázslók származástana",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "black-crawling-instrument",
+      "labelEn": "The crawling silver instrument",
+      "labelHu": "A mászó ezüst pókcsipesz",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The many-legged instrument climbs Harry's arm and threatens his neck before Sirius crushes it; its purpose is not identified.",
+      "searchTerms": [
+        "silver",
+        "crawling",
+        "instrument",
+        "danger",
+        "cleaning",
+        "ezüst",
+        "mászik",
+        "eszköz",
+        "veszély",
+        "takarítás"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP6",
+          "kind": "event",
+          "enLocator": "tweezers",
+          "huLocator": "csipesz",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "instrument",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "standard-book-spells-five",
+      "labelEn": "Standard Book of Spells, Grade Five",
+      "labelHu": "Varázslástan alapfokon, ötödik kötet",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The new school list names Miranda Goshawk's fifth-year spells textbook, later checked by Dean while Seamus revises a charm.",
+      "searchTerms": [
+        "book",
+        "textbook",
+        "grade",
+        "five",
+        "Miranda",
+        "Goshawk",
+        "spells",
+        "könyv",
+        "tankönyv",
+        "ötödik",
+        "varázslástan"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP9",
+          "kind": "event",
+          "enLocator": "Standard Book of Spells",
+          "huLocator": "Varázslástan alapfokon",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP9",
+          "enLocator": "Standard Book of Spells",
+          "huLocator": "Varázslástan alapfokon",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP31",
+          "enLocator": "Standard Book of Spells",
+          "huLocator": "Varázslástan alapfokon",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "dream-oracle",
+      "labelEn": "The Dream Oracle",
+      "labelHu": "Álom a jóslásban",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Trelawney assigns Inigo Imago's dream-interpretation book; Harry's invented dream diary is separate from genuine prophetic testimony.",
+      "searchTerms": [
+        "book",
+        "dreams",
+        "Divination",
+        "interpretation",
+        "Inigo",
+        "Imago",
+        "könyv",
+        "álmok",
+        "jóslástan",
+        "értelmezés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP12",
+          "kind": "event",
+          "enLocator": "Dream Oracle",
+          "huLocator": "Álom a jóslásban",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP12",
+          "enLocator": "The Dream Oracle",
+          "huLocator": "Álom a jóslásban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP15",
+          "enLocator": "The Dream Oracle",
+          "huLocator": "Álom a jóslásban",
+          "status": "paired-term-checked"
+        },
+        {
+          "anchor": "OotP17",
+          "enLocator": "The Dream Oracle",
+          "huLocator": "Álom a jóslásban",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "hermione-elf-hats",
+      "labelEn": "Hermione's knitted elf hats",
+      "labelHu": "Hermione kötött manósapkái",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione hides knitted hats to try to free the cleaners, but Dobby collects them and other elves refuse to clean the tower; these clothes are not themselves spells.",
+      "searchTerms": [
+        "hats",
+        "elf",
+        "freedom",
+        "knitting",
+        "Dobby",
+        "Hermione",
+        "sapka",
+        "manó",
+        "szabadság",
+        "kötés"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP18",
+          "kind": "event",
+          "enLocator": "knitted elf hats",
+          "huLocator": "manósapk",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "clothing",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "moody-magical-eye",
+      "labelEn": "Moody's magical eye",
+      "labelHu": "Mordon varázsszeme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Moody's eye sees the hidden Boggart through the writing desk, allowing him to identify it without opening the cabinet.",
+      "searchTerms": [
+        "eye",
+        "see",
+        "through",
+        "Boggart",
+        "desk",
+        "Moody",
+        "szem",
+        "átlát",
+        "mumus",
+        "íróasztal",
+        "Mordon"
+      ],
+      "evidence": [
+        {
+          "anchor": "OotP9",
+          "kind": "event",
+          "enLocator": "magical eye",
+          "huLocator": "varázsszem",
+          "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes selected whole-book developments.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "termMentions": [
+        {
+          "anchor": "OotP9",
+          "enLocator": "magical eye",
+          "huLocator": "Mordon varázsszeme",
+          "status": "paired-term-checked"
+        }
+      ],
+      "limits": "Properties follow selected novel evidence, including explicit description or attributed reports. A magical subject or owner does not establish enchantment, and no manufacturing spell is inferred.",
+      "objectKind": "prosthetic",
+      "magicStatus": "demonstrated"
+    }
+  ]
+}
