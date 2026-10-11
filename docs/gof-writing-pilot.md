@@ -112,8 +112,9 @@ The GoF spell data already supplies the edition-specific spelling.
 
 There were three failed GoF-filtered glossary calls in the HU baseline,
 two failed GoF-filtered facts calls in the EN baseline and one in the EN
-candidate. Both legacy layers still have PS-only book projections. Their
-errors now explain that scope and direct callers to `semantic --book GoF`.
+candidate. In the frozen writing snapshot, both legacy layers had PS-only book
+projections. The subsequent error-message changes explained that scope and
+directed callers to `semantic --book GoF`.
 These error-message changes were made after the writing snapshot froze and
 were checked mechanically; this pilot does not measure their effect on writers.
 The installed router and GoF JSON line endings were also normalised to LF after

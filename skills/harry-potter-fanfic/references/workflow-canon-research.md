@@ -36,6 +36,6 @@ For disagreement, report the smallest defensible conclusion. Avoid inventing a s
 
 ## Useful tool route
 
-Use `hp.mjs facts --query ...` for existing evidence cards; `search --query ... --book ...` for passages; `read --anchor ...` for context. Read output includes continuation offsets. `--full` reads the complete selected chapter. Paths and exact options are in [tools](tools.md).
+Start with `hp.mjs semantic --book BOOK --query ...` for a PS/CoS/PoA/GoF referent or magical mechanism, and `glossary --book BOOK --query ...` for terminology. Use `facts --query ...` for selective series evidence cards; their book projection is PS-only and is a different layer from typed retrieval. For primary verification, locate the chapter with `chapters`, then use `search --anchor ...` and `read --anchor ...` for the relevant context. Read output includes continuation offsets; `--full` reads the complete selected chapter when needed. Paths and exact options are in [tools](tools.md).
 
 The answer should remain usable without the local corpus: cite stable chapter anchors and paraphrase the relevant result. Do not embed local private source paths or long excerpts in the public skill.

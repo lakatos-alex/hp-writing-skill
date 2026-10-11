@@ -27,7 +27,7 @@ English and Hungarian editions answer overlapping but different questions:
 | Question | Evidence to inspect | What to carry into the draft |
 |---|---|---|
 | What happened, who witnessed it, what did someone know? | The relevant event in English, with surrounding context; compare the Hungarian passage if it introduces uncertainty | An event or knowledge constraint, with testimony distinguished from fact |
-| What is this person, place or spell called in Hungarian? | The glossary record and its Hungarian source anchor | The verified term and its scope, subject to project override |
+| What is this person, place or spell called in Hungarian? | The book-scoped terminology record and its Hungarian source anchor; primary context for unsupported books or variants | The verified term and its scope, subject to project override |
 | How can this scene work in Hungarian? | Selected paired passages, read for function rather than wording | Broad choices about information order, register, rhythm and viewpoint |
 | Does an unusual Hungarian detail establish new canon? | Both editions and, where needed, the actual source entry | A recorded discrepancy or unresolved question; not an invented reconciliation |
 
@@ -65,7 +65,7 @@ When expanding, add a choice, resistance, a new information route or aftermath. 
 
 1. **Story:** Who wants what? What causes the next action? Does a speaker know this? Did a translated detail change a fact? Are injuries, possessions and commitments still present at the end?
 2. **Hungarian prose:** Read dialogue aloud. Inspect emphasis, unnecessary personal pronouns, tense handling, referents, speech tags and shifts between narrator judgment and character thought. Keep deliberate repetitions that carry pressure or comedy.
-3. **Terminology and typography:** Check the glossary and project overrides, suffixes, name order, address relationships, accents, speech dashes and quoted incantations. Search foreign and Hungarian forms together, then review each hit in context.
+3. **Terminology and typography:** Check book-scoped terms and project overrides, suffixes, name order, address relationships, accents, speech dashes and quoted incantations. The optional `lint-hu --file DRAFT --book BOOK` flags English forms against PS/CoS/PoA/GoF wording; review hits in context, including chapter variants and deliberate quotations.
 
 Mechanical counts, duplicate detection and glossary matches cannot certify natural Hungarian, canon correctness or literary quality. If length matters, measure the saved draft using the host project's method and revise meaningful content toward the requested length.
 

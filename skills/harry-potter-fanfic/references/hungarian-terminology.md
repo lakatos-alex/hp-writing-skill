@@ -4,16 +4,17 @@ Load when Hungarian writing needs name consistency, suffix handling, forms of ad
 
 ## Resolve a term in context
 
-Use `data/hu-glossary.json` relative to the installed skill root, or query the installed `scripts/hp.mjs` glossary command:
+Apply the project's chosen terminology first. For a scene in PS, CoS, PoA or GoF,
+query the installed tool with its book code so edition wording has a defined scope:
 
 ```sh
-node scripts/hp.mjs glossary --query "Hogwarts"
-node scripts/hp.mjs glossary --query "Stupefy"
+node scripts/hp.mjs glossary --book CoS --query "Hogwarts" --limit 3
+node scripts/hp.mjs glossary --book GoF --query "Killing Curse" --category spell --limit 3
 ```
 
-Run these examples from the installed skill directory, or substitute the actual path to the script. The command also accepts `--category`; use a category value present in the data rather than inventing one. These lookups do not require local books. Primary passage verification does require the user's source files and the retrieval commands documented in [tools](tools.md).
+Run these examples from the installed skill directory, or substitute the actual path to the script. These lookups do not require local books. CoS/PoA/GoF use the typed inventories; PS retains its selected terminology projection. Unfiltered `glossary --query "TERM"` searches the selective series glossary and can return wording from a different book. Do not silently substitute it for a failed book-specific lookup. For books without a typed inventory, use its anchors to locate and inspect the chosen edition's passage, or keep the exact form unresolved when sources are unavailable.
 
-Read the returned `en`, `hu`, `category`, `aliases`, `anchors`, `notes` and `verification` together. A matching alias is a way to find an entry, not necessarily the preferred manuscript form. An anchor locates evidence; it does not by itself say that the spelling, referent or every inferred property was verified. Respect the record's stated verification scope.
+Read the returned `en`, `hu`, `category`, `aliases`, `anchors`, `notes` and `verification` together. Typed terms also distinguish `termKind`, class/name labels and an on-demand `detailsCommand`; an editorial label is not a printed headword. A matching alias is a way to find an entry, not necessarily the preferred manuscript form. An anchor locates evidence; it does not by itself say that the spelling, referent or every inferred property was verified. Respect the record's stated verification scope. When editions or chapters differ, use the relevant passage rather than turning one result into a series-wide correction.
 
 For each consequential term:
 

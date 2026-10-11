@@ -398,20 +398,41 @@ export function projectBookFact(fact, book) {
 export function glossary(query, category, book) {
   const entries = JSON.parse(fs.readFileSync(path.join(root, 'data/hu-glossary.json'), 'utf8'));
   if (category && !entries.some(e => e.category === category)) throw Error(`Unknown glossary category: ${category}`);
-  if (book && book !== 'PS') throw Error(`glossary --book supports PS only, not ${book}. Omit --book for selective series-wide terms, or use semantic --book ${book} for typed entities.`);
+  if (book && !Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book terminology: ${book}. Book-scoped lookup supports ${Object.keys(knowledgeBooks).join(', ')}. The unfiltered glossary contains selective series-wide terms, not an edition-specific substitute.`);
+  if (book && book !== 'PS') {
+    const categoryMap = {person:'person',creature:'animal',place:'place',object:'object',spell:'spell'};
+    if (category && !Object.hasOwn(categoryMap,category)) throw Error(`Book-scoped glossary categories: ${Object.keys(categoryMap).join(', ')}. Use the unfiltered glossary for selective ${category} terms; its wording is series-wide.`);
+    const typed = loadKnowledge(book);
+    return semanticSearch({book,query,category:categoryMap[category],limit:typed.length},typed).entries.map(e => ({
+      id:e.id,
+      category:e.category === 'animal' ? 'creature' : e.category,
+      en:e.incantation?.en ?? e.labelEn,
+      hu:e.incantation?.hu ?? e.labelHu,
+      labelEn:e.labelEn,labelHu:e.labelHu,labelKind:e.labelKind,
+      termKind:e.incantation ? 'incantation' : e.labelKind === 'editorial-label' ? 'editorial-label' : 'referent-name',
+      aliases:e.aliases,
+      anchors:e.retrieval.anchors,
+      notes:`${e.description} ${e.limits}`,
+      evidence:e.identification?.evidence ?? e.evidence,
+      verification:{status:'typed-book-inventory',book,scope:'Use the paired evidence for the particular event or spelling; a whole-book record can expose later revelations.'},
+      detailsCommand:`semantic --book ${book} --id ${e.id}`
+    }));
+  }
   const needle = query?.normalize('NFKC').toLocaleLowerCase('hu');
   return entries.filter(e => (!category || e.category === category) && (!book || e.anchors?.some(anchor => anchor.startsWith(`${book}`))) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle))).map(e => book ? projectBookGlossary(e, book) : e);
 }
-export function lintHungarian(text) {
+export function lintHungarian(text, book) {
   const warnings = [];
-  for (const e of glossary()) {
+  for (const e of glossary(undefined,undefined,book)) {
     if (e.en.toLocaleLowerCase('hu') === e.hu.toLocaleLowerCase('hu')) continue;
     const escaped = e.en.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     for (const m of text.matchAll(new RegExp(`(?<![\\p{L}\\p{N}])${escaped}(?![\\p{L}\\p{N}])`, 'giu'))) {
-      warnings.push({ id: e.id, offset: m.index, found: m[0], suggested: e.hu, reason: 'English term in Hungarian draft; check quotation, character voice and project overrides before changing.' });
+      warnings.push({ id: e.id, offset: m.index, found: m[0], suggested: e.hu,
+        ...(book ? {book,anchors:e.anchors,labelKind:e.labelKind ?? 'canonical-term'} : {}),
+        reason:book ? 'English form differs from selected book wording; inspect edition/chapter variants, quotations and project overrides before changing.' : 'English term in Hungarian draft; check quotation, character voice and project overrides before changing.' });
     }
   }
-  return { warnings, note: 'Advisory term scan, not a grammar checker. Does not detect every inflected form or apply edits.' };
+  return { warnings, ...(book ? {book} : {}), note: 'Advisory term scan, not a grammar checker. Does not detect every inflected form or apply edits.' };
 }
 export function search(books, o) {
   if (!o.query?.trim()) throw Error('--query is required');
@@ -469,11 +490,17 @@ export function checkState(s) {
   return { ok: errors.length === 0, errors, note: 'Checks supplied events, not manuscript semantics.' };
 }
 export function main(args = process.argv.slice(2)) {
-  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA|GoF [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA|GoF. Stats: [--book PS|CoS|PoA|GoF]. Typed inventories cover PS, CoS, PoA and GoF; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.';
-  if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') return console.log(helpText);
+  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS|CoS|PoA|GoF] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] (book projection PS-only) [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA|GoF [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA|GoF. Stats: [--book PS|CoS|PoA|GoF]. Typed inventories cover PS, CoS, PoA and GoF; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH; lint-hu also accepts --book PS|CoS|PoA|GoF. Output is JSON except read; --json makes read JSON. See references/tools.md.';
+  if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') {
+    const topicHelp = {
+      glossary:'hp.mjs glossary [--book PS|CoS|PoA|GoF] --query "TERM" [--category spell|person|place|object|creature] [--limit 3] [--offset 0]\nBook-scoped default: edition terminology. PS uses selected terminology; CoS/PoA/GoF use compact typed terms with a detailsCommand for full evidence. Without --book: selective series-wide glossary, not an edition-specific fallback. Typed records may include later revelations; apply the scene knowledge cutoff yourself.',
+      facts:'hp.mjs facts [--query "CLAIM"] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0] [--book PS]\nSelective evidence cards, not the typed book inventory. --book supports PS only. For CoS/PoA/GoF referents or mechanisms use semantic --book BOOK --query "CONCEPT"; for edition terms use glossary --book BOOK --query "TERM". A missing card is not proof of canon absence.'
+    };
+    return console.log(topicHelp[args[0]] ?? helpText);
+  }
   const [command, ...rest] = args, o = options(rest);
   const entityOptions = ['book','query','id','anchor','kind','limit','offset','json'];
-  const allowed = { help: [], import: ['sources', 'lang', 'strict', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','book','limit','offset','json'], 'lint-hu': ['file','json'], facts: ['query', 'kind', 'book', 'page', 'limit', 'offset', 'json'], characters: entityOptions, people: entityOptions, magic: entityOptions, spells: entityOptions, places: entityOptions, objects: [...entityOptions,'magic-status'], semantic: [...entityOptions,'category','magic-status'], coverage: ['book','json'], stats: ['book','json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
+  const allowed = { help: [], import: ['sources', 'lang', 'strict', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','book','limit','offset','json'], 'lint-hu': ['file','book','json'], facts: ['query', 'kind', 'book', 'page', 'limit', 'offset', 'json'], characters: entityOptions, people: entityOptions, magic: entityOptions, spells: entityOptions, places: entityOptions, objects: [...entityOptions,'magic-status'], semantic: [...entityOptions,'category','magic-status'], coverage: ['book','json'], stats: ['book','json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
   if (!allowed[command]) throw Error(`Unknown command: ${command}`);
   for (const k of Object.keys(o)) if (!allowed[command].includes(k)) throw Error(`Unknown option --${k} for ${command}`);
   const base = path.resolve(o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
@@ -498,7 +525,9 @@ export function main(args = process.argv.slice(2)) {
     else result = found;
   } else if (command === 'glossary') {
     const found = glossary(o.query, o.category, o.book), offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
-    result = { total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, entries: found.slice(offset, offset + limit) };
+    result = { book:o.book ?? null,
+      scope:o.book ? (o.book === 'PS' ? 'Selected PS terminology projection; inspect usage evidence.' : 'Book-specific typed terminology; whole-book identities and edition wording, not a scene knowledge cutoff.') : 'Selective series-wide terminology. For edition-specific wording, pass --book PS|CoS|PoA|GoF; project overrides take precedence.',
+      total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, entries: found.slice(offset, offset + limit) };
   } else if (['characters','people','magic','spells','places','objects','semantic'].includes(command)) {
     if (!Object.hasOwn(knowledgeBooks,o.book)) throw Error(`Unsupported book knowledge: ${o.book ?? `(choose ${Object.keys(knowledgeBooks).join(', ')})`}`);
     const category = {people:'person',magic:'spell',spells:'spell',places:'place',objects:'object'}[command];
@@ -524,7 +553,7 @@ export function main(args = process.argv.slice(2)) {
     }) };
   } else if (command === 'audit' || command === 'check-state' || command === 'lint-hu') {
     if (!o.file) throw Error('--file is required');
-    const text = fs.readFileSync(o.file, 'utf8'); result = command === 'audit' ? audit(text) : command === 'lint-hu' ? lintHungarian(text) : checkState(JSON.parse(text));
+    const text = fs.readFileSync(o.file, 'utf8'); result = command === 'audit' ? audit(text) : command === 'lint-hu' ? lintHungarian(text, o.book) : checkState(JSON.parse(text));
     if (result.ok === false) process.exitCode = 1;
   } else {
     const { books } = loadCatalogue(dir);

@@ -111,6 +111,7 @@ export function semanticSearch(options = {}, entries = loadKnowledge(options.boo
     .map(entry => ({entry,match:rank(entry,options.query)})).filter(item => item.match)
     .sort((a,b) => b.match.score-a.match.score || a.entry.id.localeCompare(b.entry.id,'en'));
   return {book, method:'curated aliases and bilingual concepts; deterministic ranking, no embeddings',
+    scope:'Whole-book records may include later revelations. An anchor filters evidence matches, not viewpoint knowledge. Missing results indicate inventory/query limits, not canon absence.',
     total:ranked.length,offset,nextOffset:offset+limit<ranked.length?offset+limit:null,
     entries:ranked.slice(offset,offset+limit).map(({entry,match}) => ({...entry,retrieval:{...match,anchors:evidenceAnchors(entry)}}))};
 }

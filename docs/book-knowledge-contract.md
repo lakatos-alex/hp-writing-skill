@@ -142,7 +142,9 @@ review method and source hashes. Reading states remain partial unless actual
 full-chapter reading supports a stronger claim. `legacyPilot` preserves the
 earlier counters as history; it is not the active candidate ledger. Current
 accepted counts refer to the finalized four-index records, not legacy glossary
-or fact cards. `terms` and `facts` count cards with explicit `bookUsage[book]`,
+or fact cards. The CoS/PoA/GoF `glossary --book` view reuses typed records;
+it does not add entries to the legacy glossary or its coverage counters.
+`terms` and `facts` count cards with explicit `bookUsage[book]`,
 not every headword with a lexical PS reference. Excluded observations are documented in the contributor review,
 not counted as finalized index entries. The scoped inventory is not a claim of
 exhaustive literary or independent semantic review.

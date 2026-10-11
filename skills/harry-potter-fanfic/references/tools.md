@@ -13,7 +13,7 @@ The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no thir
 | `read` | Read a selected chapter with continuation metadata | None |
 | `align` | Read an English/Hungarian chapter pair with independent offsets | None |
 | `facts` | Filter bundled original evidence cards | None |
-| `glossary` | Find English/Hungarian terms, aliases and usage notes | None |
+| `glossary` | Find book-scoped English/Hungarian terms or selective series terminology | None |
 | `semantic` | Rank PS/CoS/PoA/GoF people, places, objects and spells by aliases and bilingual concepts | None |
 | `characters`, `people` | Find characters; `people` excludes animals | None |
 | `spells`, `magic` | Find identified human-cast spells; `magic` is a compatibility alias | None |
@@ -25,6 +25,10 @@ The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no thir
 | `check-state` | Check explicit knowledge routes and object transfers | None |
 
 The data-only commands `chapters`, `facts` and `glossary` work without books. The manuscript commands need only the selected input file. The advisory `lint-hu` scan never changes text and does not replace grammatical or editorial review.
+
+For a scene's names or formulas, start with `glossary --book BOOK --query "TERM" --limit 3`.
+For mechanisms and attribution, use `semantic --book BOOK --query "CONCEPT"` or the returned
+`detailsCommand`. `glossary --help` and `facts --help` describe their different scopes.
 
 ## Concept retrieval
 
@@ -38,6 +42,7 @@ node scripts/hp.mjs places --book PS --query "where can I buy a wand"
 node scripts/hp.mjs spells --book PS --query "float feather" --anchor PS10
 node scripts/hp.mjs objects --book PS --magic-status ordinary --limit 10
 node scripts/hp.mjs glossary --book PS --query Harry
+node scripts/hp.mjs glossary --book GoF --category spell --query "Killing Curse" --limit 3
 node scripts/hp.mjs facts --book PS --page --limit 10 --offset 0
 node scripts/hp.mjs coverage --book PS
 node scripts/hp.mjs spells --book CoS --query "erase memory"
@@ -60,7 +65,7 @@ Ranking uses curated aliases, concept synonym groups and original descriptions, 
 
 Spells require identified deliberate human casting, with or without a wand. Known failed casts qualify. Accidental magic, creature abilities, potions, object behaviour, uncast theory and unidentified effects do not. `vocalisation` is `spoken`, `non-verbal` or `unreported`; missing words do not prove silence. Bluebell Flames and the CoS Freezing Charm have unknown incantations. The Killing Curse's PS4 reports have separate GoF14 identification and incantation evidence. Later identification is explicit metadata, not knowledge available to a PS character. No PS/CoS/PoA/GoF occurrence currently has proven non-verbal casting. CoS Memory Charm class reports appear under `reportedClassUses`; they do not certify the formula `Obliviate` for those events. Its attested attempt uses Hungarian `Exmemoriam`; `Expelliarmus` uses `Capitulatus`. PoA uses `Exlukhops` for Waddiwasi, `Comikulissimus` for Riddikulus and `Leperex` for Impervius.
 
-The chapter filter selects whole records; descriptions may contain later events within the chosen book, and explicitly marked later spell identification. It is not a scene knowledge cutoff. Tom Riddle and Voldemort share one CoS identity, including that book's reveal. Scabbers/Peter Pettigrew share one human identity in PoA; Sirius and his dog form share a record. The lake rescue Patronus has one PoA21 casting row with PoA20 `observationEvidence` for the other viewpoint. Map and Time-Turner operation are objects, and Animagus transformations are abilities. Paged facts use the pagination fields and `facts`; legacy unpaged facts return an array, and `--limit`/`--offset` require `--page`. The evidence-card/glossary layer retains its own selective review coverage; its `--book` projection remains PS-only. Unfiltered cards span selected claims across the series. The typed inventories do not certify all older claims.
+The chapter filter selects whole records; descriptions may contain later events within the chosen book, and explicitly marked later spell identification. It is not a scene knowledge cutoff. Tom Riddle and Voldemort share one CoS identity, including that book's reveal. Scabbers/Peter Pettigrew share one human identity in PoA; Sirius and his dog form share a record. The lake rescue Patronus has one PoA21 casting row with PoA20 `observationEvidence` for the other viewpoint. Map and Time-Turner operation are objects, and Animagus transformations are abilities. Paged facts use the pagination fields and `facts`; legacy unpaged facts return an array, and `--limit`/`--offset` require `--page`. Evidence-card book projections remain PS-only. Book-scoped glossary queries retain the selected PS projection and use typed terms for CoS/PoA/GoF. Unfiltered cards and glossary terms have selective series coverage; the typed inventories do not certify all older claims.
 
 `stats [--book PS|CoS|PoA|GoF]` returns per-book counts. `people` plus `animals` gives the character count. `castingRecords` includes grouped practice and reports, not individual cast counts; `classReportRecords` counts qualified class-level reports. `contextEvidencePairs` and `literalMentionPairs` count stored bilingual references, including observation evidence, which may reuse source passages. These are separate from reading coverage and seven-book chapter metadata.
 
@@ -95,6 +100,7 @@ node scripts/hp.mjs chapters --topic food --limit 5
 node scripts/hp.mjs chapters --query "Wandmaker"
 node scripts/hp.mjs chapters --lang hu --query "Titok"
 node scripts/hp.mjs glossary --query "Accio"
+node scripts/hp.mjs glossary --book GoF --query "Accio" --limit 3
 node scripts/hp.mjs glossary --category person --limit 10 --offset 0
 node scripts/hp.mjs facts --query "Fidelius"
 node scripts/hp.mjs facts --kind testimony --query "food"
@@ -102,7 +108,12 @@ node scripts/hp.mjs facts --kind testimony --query "food"
 
 Topics are keys from [topics.json](../data/topics.json). Topic ranking is lexical frequency, not semantic relevance or proof. A chapter with many references to telephones may outrank the chapter that explains Hogwarts' electrical interference. Use evidence cards and specific searches to resolve the claim.
 
-Hungarian chapter topic ranks use the aligned English chapter's counts, labelled `topicBasis`. They are not Hungarian word frequencies. Glossary queries search headwords, aliases and IDs, case-insensitively with Unicode normalization; accents remain significant. The default glossary page size is 20. Read usage notes before adopting a term, especially an incantation or an ambiguous name.
+Hungarian chapter topic ranks use the aligned English chapter's counts, labelled `topicBasis`. They are not Hungarian word frequencies. Unfiltered and PS glossary queries search headwords, aliases and IDs, case-insensitively with Unicode normalization; accents remain significant. CoS/PoA/GoF glossary queries use typed bilingual concept ranking with accent folding and return compact terms: `en`, `hu`, class/name labels, `termKind`, paired evidence and `detailsCommand`. Supported typed categories are `person`, `place`, `object`, `spell` and `creature` (individually indexed animals). Other series glossary categories remain available without a book filter. An editorial label is not a printed headword; an unknown incantation stays a class/name rather than gaining a guessed formula. The default glossary page size is 20; use a smaller explicit limit for a narrow question. Read scope and usage evidence before adopting a term, especially an incantation or an ambiguous name.
+
+`lint-hu --file DRAFT --book PS|CoS|PoA|GoF` uses the chosen book's terminology.
+Without `--book`, it retains the selective series glossary scan. Warnings are
+review leads: an English quotation, chapter variant or accepted project override
+can be correct. Neither mode changes the file or verifies natural prose.
 
 ## Search and read
 
