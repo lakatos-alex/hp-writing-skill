@@ -62,7 +62,7 @@ test('book-term pagination preserves ordering and unavailable scopes fail visibl
   assert.equal(page.total,all.length);assert.equal(page.nextOffset,5);
   assert.deepEqual(page.entries.map(e=>e.id),all.slice(2,5).map(e=>e.id));
   assert.equal(result('glossary','--book','GoF','--query','no-such-factual-term').total,0);
-  assert.throws(()=>glossary('x',undefined,'HBP'),/Unsupported book terminology/);
+  assert.throws(()=>glossary('x',undefined,'Unknown'),/Unsupported book terminology/);
   assert.throws(()=>glossary('x','institution','GoF'),/Book-scoped glossary categories/);
   assert.throws(()=>glossary('','spell','GoF'),/must not be empty/);
   for(const args of [['glossary','--book','GoF','--limit','0'],['glossary','--book','GoF','--offset','-1']])assert.notEqual(cli(...args).status,0);
@@ -86,7 +86,7 @@ test('book-aware Hungarian advisory scan catches the missed edition form without
   assert.equal(curse[0].suggested,'Adava Kedavra');assert.equal(curse[0].offset,0);
   assert.ok(curse[0].anchors.includes('GoF14'));
   assert.ok(!lintHungarian(text).warnings.some(e=>e.id==='killing-curse'));
-  assert.throws(()=>lintHungarian(text,'HBP'),/Unsupported book terminology/);
+  assert.throws(()=>lintHungarian(text,'Unknown'),/Unsupported book terminology/);
   const temp=fs.mkdtempSync(path.join(os.tmpdir(),'hp-book-term-'));
   const file=path.join(temp,'scene.md');
   try {

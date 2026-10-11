@@ -1,0 +1,3998 @@
+{
+  "schemaVersion": 1,
+  "book": "HBP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "albus-dumbledore",
+      "labelEn": "Albus Dumbledore",
+      "labelHu": "Albus Dumbledore",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore takes Harry into the cave and drinks the basin potion so Harry can retrieve the apparent Horcrux.",
+      "searchTerms": [
+        "cave",
+        "Horcrux",
+        "potion",
+        "cost"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP26",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP26",
+          "kind": "event",
+          "enLocator": "Dumbledore",
+          "huLocator": "Dumbledore",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "alecto-carrow",
+      "labelEn": "Alecto Carrow",
+      "labelHu": "Alecto Carrow",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The female Death Eater is present with the attackers on the tower.",
+      "searchTerms": [
+        "Death Eater",
+        "tower"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP27",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Alecto",
+          "huLocator": "Alectó",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "amelia-bones",
+      "labelEn": "Amelia Bones",
+      "labelHu": "Amelia Bones",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Ministry official's murder is reported rather than witnessed in this chapter.",
+      "searchTerms": [
+        "murder",
+        "Ministry",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "testimony",
+          "enLocator": "Amelia Bones",
+          "huLocator": "Amelia Bones",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "amy-benson",
+      "labelEn": "Amy Benson",
+      "labelHu": "Amy Benson",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "An orphanage child's distress after the cave excursion is reported to Dumbledore.",
+      "searchTerms": [
+        "cave",
+        "orphanage",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "testimony",
+          "enLocator": "Amy Benson",
+          "huLocator": "Amy Benson",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "amycus-carrow",
+      "labelEn": "Amycus Carrow",
+      "labelHu": "Amycus Carrow",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The male Death Eater pressures Draco on the tower.",
+      "searchTerms": [
+        "Death Eater",
+        "tower"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP27",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Amycus",
+          "huLocator": "Amycus",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "aragog",
+      "labelEn": "Aragog",
+      "labelHu": "Aragog",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Aragog's death leads to a burial; his surviving colony's attitude toward people is not his personal guarantee.",
+      "searchTerms": [
+        "spider",
+        "burial"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP22",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP22",
+          "kind": "event",
+          "enLocator": "Aragog",
+          "huLocator": "Aragog",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "arthur-weasley",
+      "labelEn": "Arthur Weasley",
+      "labelHu": "Arthur Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Arthur works against dangerous magical objects during the Ministry's wartime changes.",
+      "searchTerms": [
+        "Ministry",
+        "objects",
+        "work"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP5",
+          "kind": "event",
+          "enLocator": "Mr Weasley",
+          "huLocator": "Mr Weasley",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "bellatrix-lestrange",
+      "labelEn": "Bellatrix Lestrange",
+      "labelHu": "Bellatrix Lestrange",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bellatrix challenges Snape's loyalty and acts as Bonder for his Unbreakable Vow to Narcissa.",
+      "searchTerms": [
+        "vow",
+        "Bonder",
+        "loyalty"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP2",
+          "kind": "event",
+          "enLocator": "Bellatrix",
+          "huLocator": "Bellatrix",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "bill-weasley",
+      "labelEn": "Bill",
+      "labelHu": "Bill",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bill is scarred in Greyback's attack; the attack's circumstances do not establish ordinary full-moon werewolf transformation.",
+      "searchTerms": [
+        "Greyback",
+        "injury",
+        "Fleur"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP29",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "Bill",
+          "huLocator": "Bill",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "billy-stubbs",
+      "labelEn": "Billy Stubbs",
+      "labelHu": "Billy Stubbs",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The orphanage child lost his rabbit; the account implicates Tom without showing the event directly.",
+      "searchTerms": [
+        "orphanage",
+        "rabbit",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "testimony",
+          "enLocator": "Billy Stubbs",
+          "huLocator": "Billy Stubbs",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "bob-ogden",
+      "labelEn": "Bob Ogden",
+      "labelHu": "Bob Ogden",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Ministry official visits the Gaunts; his memory supplies evidence about the family.",
+      "searchTerms": [
+        "memory",
+        "Ministry",
+        "witness"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Ogden",
+          "huLocator": "Ogden",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "borgin",
+      "labelEn": "Mr Borgin",
+      "labelHu": "Mr Borgin",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The shopkeeper is questioned and threatened by Draco about repairing a cabinet.",
+      "searchTerms": [
+        "cabinet",
+        "shop",
+        "threat"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Borgin",
+          "huLocator": "Borgin",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "buckbeak",
+      "labelEn": "Buckbeak",
+      "labelHu": "Csikócsőr",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Sirius's hippogriff passes into Harry's inheritance and remains with Hagrid under a protective name.",
+      "searchTerms": [
+        "hippogriff",
+        "inheritance"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "animal",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Buckbeak",
+          "huLocator": "Csikócsőr",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "caractacus-burke",
+      "labelEn": "Caractacus Burke",
+      "labelHu": "Caractacus Burke",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Burke's account concerns buying the Slytherin locket cheaply from Merope.",
+      "searchTerms": [
+        "locket",
+        "purchase",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "testimony",
+          "enLocator": "Burke",
+          "huLocator": "Burke",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "cecilia",
+      "labelEn": "Cecilia",
+      "labelHu": "Cecilia",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The young Muggle woman accompanies Tom Riddle Senior near the Gaunt house.",
+      "searchTerms": [
+        "Muggle",
+        "companion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Cecilia",
+          "huLocator": "Cecília",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "charlie-weasley",
+      "labelEn": "Charlie Weasley",
+      "labelHu": "Charlie Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Charlie does not come home for the Christmas gathering; Molly assigns the remaining sleeping places.",
+      "searchTerms": [
+        "brother",
+        "wedding"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP16",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP16",
+          "kind": "testimony",
+          "enLocator": "Charlie",
+          "huLocator": "Charlie",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "ciceron-harkiss",
+      "labelEn": "Ciceron Harkiss",
+      "labelHu": "Ciceron Harkiss",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn recalls introducing Ambrosius Flume to the man who gave him his first job.",
+      "searchTerms": [
+        "Ciceron Harkiss"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP4",
+          "kind": "testimony",
+          "enLocator": "Ciceron Harkiss",
+          "huLocator": "Ciceron Harkiss",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "cormac-mclaggen",
+      "labelEn": "McLaggen",
+      "labelHu": "McLaggen",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The well-connected pupil competes for Keeper and proves difficult during the match.",
+      "searchTerms": [
+        "Keeper",
+        "Slug Club",
+        "Quidditch"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "McLaggen",
+          "huLocator": "McLaggen",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "cornelius-fudge",
+      "labelEn": "Cornelius Fudge",
+      "labelHu": "Cornelius Caramel",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The former Minister reports his dismissal and introduces his successor to the Muggle Prime Minister.",
+      "searchTerms": [
+        "Minister",
+        "dismissal"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "event",
+          "enLocator": "Fudge",
+          "huLocator": "Caramel",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "crabbe",
+      "labelEn": "Vincent Crabbe",
+      "labelHu": "Vincent Crak",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Crabbe travels with Draco; later disguises do not create separate people.",
+      "searchTerms": [
+        "Slytherin",
+        "Polyjuice"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Crabbe",
+          "huLocator": "Crak",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "crookshanks",
+      "labelEn": "Crookshanks",
+      "labelHu": "Csámpás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione's cat is present during the Burrow visit.",
+      "searchTerms": [
+        "cat",
+        "pet"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "animal",
+      "presence": [
+        {
+          "anchor": "HBP5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP5",
+          "kind": "event",
+          "enLocator": "Crookshanks",
+          "huLocator": "Csámpás",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "damocles-belby",
+      "labelEn": "Damocles",
+      "labelHu": "Damocles",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Marcus's uncle is praised for inventing Wolfsbane; invention is not an observed cast.",
+      "searchTerms": [
+        "Damocles"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "testimony",
+          "enLocator": "Damocles",
+          "huLocator": "Damocles",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "dean-thomas",
+      "labelEn": "Dean Thomas",
+      "labelHu": "Dean Thomas",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dean dates Ginny and plays Quidditch; the relationship is not controlled by Harry.",
+      "searchTerms": [
+        "relationship",
+        "Quidditch"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP14",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP14",
+          "kind": "event",
+          "enLocator": "Dean",
+          "huLocator": "Dean",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "demelza-robins",
+      "labelEn": "Demelza",
+      "labelHu": "Demelza",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Demelza becomes a Gryffindor Chaser.",
+      "searchTerms": [
+        "Quidditch",
+        "Chaser"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "event",
+          "enLocator": "Demelza",
+          "huLocator": "Demelza",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "dennis-bishop",
+      "labelEn": "Dennis Bishop",
+      "labelHu": "Dennis Bishop",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The child accompanies Tom and Amy on the troubling cave excursion.",
+      "searchTerms": [
+        "cave",
+        "orphanage",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "testimony",
+          "enLocator": "Dennis Bishop",
+          "huLocator": "Dennis Bishop",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "dirk-cresswell",
+      "labelEn": "Dirk Cresswell",
+      "labelHu": "Dirk Cresswell",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn names the successful former pupil as evidence of his network.",
+      "searchTerms": [
+        "Dirk Cresswell"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP4",
+          "kind": "testimony",
+          "enLocator": "Dirk Cresswell",
+          "huLocator": "Dirk Cresswell",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "dobby",
+      "labelEn": "Dobby",
+      "labelHu": "Dobby",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dobby joins Kreacher in following Draco and reports information Harry could not directly observe.",
+      "searchTerms": [
+        "elf",
+        "surveillance",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP19",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP19",
+          "kind": "event",
+          "enLocator": "Dobby",
+          "huLocator": "Dobby",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "dolores-umbridge",
+      "labelEn": "Dolores Umbridge",
+      "labelHu": "Dolores Umbridge",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Umbridge attends Dumbledore's funeral; her outward grief does not erase her earlier conduct.",
+      "searchTerms": [
+        "Umbridge"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "Umbridge",
+          "huLocator": "Umbridge",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "dudley-dursley",
+      "labelEn": "Dudley Dursley",
+      "labelHu": "Dudley Dursley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dudley is present when Dumbledore criticizes the Dursleys' treatment of both boys.",
+      "searchTerms": [
+        "cousin",
+        "upbringing"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Dudley",
+          "huLocator": "Dudley",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "eileen-prince",
+      "labelEn": "Eileen Prince",
+      "labelHu": "Eileen Prince",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione identifies Snape's mother as Eileen Prince, explaining the surname component of his private title.",
+      "searchTerms": [
+        "Prince",
+        "mother",
+        "identity"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "testimony",
+          "enLocator": "Eileen",
+          "huLocator": "Eileen",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "eldred-worple",
+      "labelEn": "Worple",
+      "labelHu": "Worple",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The writer at Slughorn's party wants Harry's cooperation with a biography.",
+      "searchTerms": [
+        "writer",
+        "biography",
+        "Slug Club"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP15",
+          "kind": "event",
+          "enLocator": "Worple",
+          "huLocator": "Worple",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "emmeline-vance",
+      "labelEn": "Emmeline Vance",
+      "labelHu": "Emmeline Vance",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Order member's death is reported to the Muggle Prime Minister.",
+      "searchTerms": [
+        "death",
+        "Order",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP1",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "testimony",
+          "enLocator": "Emmeline Vance",
+          "huLocator": "Emmeline Vance",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "ernie-macmillan",
+      "labelEn": "Ernie Macmillan",
+      "labelHu": "Ernie Macmillan",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ernie attends the sixth-year Defence lesson and comments on Snape's teaching.",
+      "searchTerms": [
+        "Defence",
+        "student"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Ernie",
+          "huLocator": "Ernie",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "fang",
+      "labelEn": "Fang",
+      "labelHu": "Agyar",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hagrid's dog is trapped in the burning hut and rescued during the flight.",
+      "searchTerms": [
+        "dog",
+        "fire",
+        "rescue"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "animal",
+      "presence": [
+        {
+          "anchor": "HBP28",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP28",
+          "kind": "event",
+          "enLocator": "Fang",
+          "huLocator": "Agyar",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "fat-lady",
+      "labelEn": "Fat Lady",
+      "labelHu": "Kövér Dáma",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The portrait controls entry to Gryffindor Tower.",
+      "searchTerms": [
+        "portrait",
+        "password"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "portrait",
+      "presence": [
+        {
+          "anchor": "HBP24",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP24",
+          "kind": "event",
+          "enLocator": "Fat Lady",
+          "huLocator": "Kövér Dámá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "fenrir-greyback",
+      "labelEn": "Fenrir Greyback",
+      "labelHu": "Fenrir Greyback",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Greyback joins the attack on Hogwarts and threatens children; Bill's injury occurs outside a full-moon transformation.",
+      "searchTerms": [
+        "werewolf",
+        "attack",
+        "children"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP27",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Greyback",
+          "huLocator": "Greyback",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "filch",
+      "labelEn": "Argus Filch",
+      "labelHu": "Argus Frics",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Filch performs security checks as pupils arrive at the school.",
+      "searchTerms": [
+        "security",
+        "caretaker"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP8",
+          "kind": "event",
+          "enLocator": "Filch",
+          "huLocator": "Frics",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "fleur-delacour",
+      "labelEn": "Fleur Delacour",
+      "labelHu": "Fleur Delacour",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Fleur insists she will still marry Bill after his injuries, challenging the family's assumptions about her.",
+      "searchTerms": [
+        "marriage",
+        "injury",
+        "loyalty"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP29",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "Fleur",
+          "huLocator": "Fleur",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "flitwick",
+      "labelEn": "Professor Flitwick",
+      "labelHu": "Flitwick professzor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Flitwick goes to seek Snape during the incursion into Hogwarts.",
+      "searchTerms": [
+        "teacher",
+        "battle"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP29",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "Flitwick",
+          "huLocator": "Flitwick",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "florean-fortescue",
+      "labelEn": "Florean Fortescue",
+      "labelHu": "Florean Fortescue",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The ice-cream shop owner's disappearance contributes to the signs of danger in Diagon Alley.",
+      "searchTerms": [
+        "shop",
+        "missing"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "testimony",
+          "enLocator": "Fortescue",
+          "huLocator": "Fortescue",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "fred-weasley",
+      "labelEn": "Fred Weasley",
+      "labelHu": "Fred Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Fred and George develop their joke shop and defensive products.",
+      "searchTerms": [
+        "shop",
+        "Shield Hats",
+        "business"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Fred",
+          "huLocator": "Fred",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "george-weasley",
+      "labelEn": "George Weasley",
+      "labelHu": "George Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "George helps run the twins' shop and explains products sold for defensive use.",
+      "searchTerms": [
+        "shop",
+        "defence",
+        "products"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "George",
+          "huLocator": "George",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "gibbon",
+      "labelEn": "Gibbon",
+      "labelHu": "Gibbon",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Death Eater's fate is reported during the tower assault.",
+      "searchTerms": [
+        "Death Eater",
+        "battle"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP29",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "testimony",
+          "enLocator": "Gibbon",
+          "huLocator": "Gibbon",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "ginny-weasley",
+      "labelEn": "Ginny",
+      "labelHu": "Ginny",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ginny plays Quidditch and dates Dean; her choices are distinct from Harry's wishes.",
+      "searchTerms": [
+        "Quidditch",
+        "relationship"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP14",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP14",
+          "kind": "event",
+          "enLocator": "Ginny",
+          "huLocator": "Ginny",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "godric-gryffindor",
+      "labelEn": "Godric Gryffindor",
+      "labelHu": "Griffendél Godrik",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore discusses the surviving Gryffindor relics when explaining Voldemort's collection.",
+      "searchTerms": [
+        "Gryffindor"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP23",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP23",
+          "kind": "testimony",
+          "enLocator": "Gryffindor",
+          "huLocator": "Griffendél",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "goyle",
+      "labelEn": "Gregory Goyle",
+      "labelHu": "Gregory Monstro",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Goyle travels with Draco and assists his secret activities.",
+      "searchTerms": [
+        "Slytherin",
+        "Polyjuice"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Goyle",
+          "huLocator": "Monstro",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "grawp",
+      "labelEn": "Grawp",
+      "labelHu": "Gróp",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hagrid's half-brother attends the funeral beside him.",
+      "searchTerms": [
+        "Grawp"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "Grawp",
+          "huLocator": "Gróp",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "gwenog-jones",
+      "labelEn": "Gwenog",
+      "labelHu": "Gwenog",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn displays his connection to the Quidditch captain through his photographs.",
+      "searchTerms": [
+        "Gwenog"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP4",
+          "kind": "testimony",
+          "enLocator": "Gwenog",
+          "huLocator": "Gwenog",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "hagrid",
+      "labelEn": "Rubeus Hagrid",
+      "labelHu": "Rubeus Hagrid",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hagrid mourns Aragog and accepts help with the burial; Slughorn seeks valuable venom.",
+      "searchTerms": [
+        "grief",
+        "burial",
+        "venom"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP22",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP22",
+          "kind": "event",
+          "enLocator": "Hagrid",
+          "huLocator": "Hagrid",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "harry-potter",
+      "labelEn": "Harry Potter",
+      "labelHu": "Harry Potter",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry learns from an anonymous annotated Potions book while investigating Draco and studying Voldemort's past with Dumbledore.",
+      "searchTerms": [
+        "Prince",
+        "Potions",
+        "knowledge",
+        "investigation"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Harry",
+          "huLocator": "Harry",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "hedwig",
+      "labelEn": "Hedwig",
+      "labelHu": "Hedvig",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's owl remains with him during the summer preparations.",
+      "searchTerms": [
+        "owl",
+        "companion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "animal",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Hedwig",
+          "huLocator": "Hedvig",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "helga-hufflepuff",
+      "labelEn": "Helga Hufflepuff",
+      "labelHu": "Hugrabug Helga",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hepzibah identifies the historical founder as the original owner of her cup.",
+      "searchTerms": [
+        "Helga Hufflepuff"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP20",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP20",
+          "kind": "testimony",
+          "enLocator": "Helga Hufflepuff",
+          "huLocator": "Hugrabug Helgá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "hepzibah-smith",
+      "labelEn": "Hepzibah Smith",
+      "labelHu": "Hepzibah Smith",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hepzibah shows Tom the cup and locket before her death; memory evidence and later interpretation must remain distinct.",
+      "searchTerms": [
+        "cup",
+        "locket",
+        "memory"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP20",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP20",
+          "kind": "event",
+          "enLocator": "Hepzibah",
+          "huLocator": "Hepzibah",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "hermione",
+      "labelEn": "Hermione Granger",
+      "labelHu": "Hermione Granger",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione distrusts the provenance of the Prince's instructions and distinguishes legitimate learning from uncredited notes.",
+      "searchTerms": [
+        "Prince",
+        "provenance",
+        "Potions"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Hermione",
+          "huLocator": "Hermione",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "hokey",
+      "labelEn": "Hokey",
+      "labelHu": "Hepzi",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hepzibah's elf provides a memory; the accusation against her is later treated as manipulated.",
+      "searchTerms": [
+        "elf",
+        "memory",
+        "blame"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP20",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP20",
+          "kind": "event",
+          "enLocator": "Hokey",
+          "huLocator": "Hepzi",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "horace-slughorn",
+      "labelEn": "Horace Slughorn",
+      "labelHu": "Horatius Lumpsluck",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The retired Potions teacher values influential contacts; his concealed Horcrux conversation becomes evidence Harry must obtain.",
+      "searchTerms": [
+        "memory",
+        "Horcrux",
+        "Slug Club",
+        "Potions"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP4",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP4",
+          "kind": "event",
+          "enLocator": "Slughorn",
+          "huLocator": "Lumpsluck",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "igor-karkaroff",
+      "labelEn": "Igor Karkaroff",
+      "labelHu": "Igor Karkarov",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The former headmaster's death is reported during discussion of the war.",
+      "searchTerms": [
+        "death",
+        "report"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "testimony",
+          "enLocator": "Karkaroff",
+          "huLocator": "Karkarov",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "james-potter",
+      "labelEn": "James Potter",
+      "labelHu": "James Potter",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Lupin recalls James's joking name for his werewolf condition.",
+      "searchTerms": [
+        "James"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP16",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP16",
+          "kind": "testimony",
+          "enLocator": "James",
+          "huLocator": "James",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "jimmy-peakes",
+      "labelEn": "Peakes",
+      "labelHu": "Peakes",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Jimmy joins the Gryffindor team as a Beater.",
+      "searchTerms": [
+        "Quidditch",
+        "Beater"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "event",
+          "enLocator": "Peakes",
+          "huLocator": "Peakes",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "katie-bell",
+      "labelEn": "Katie Bell",
+      "labelHu": "Katie Bell",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Katie touches the cursed necklace and suffers severe injury while delivering it under coercion.",
+      "searchTerms": [
+        "necklace",
+        "Imperius",
+        "injury"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP12",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP12",
+          "kind": "event",
+          "enLocator": "Katie",
+          "huLocator": "Katie",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "kingsley-shacklebolt",
+      "labelEn": "Kingsley Shacklebolt",
+      "labelHu": "Kingsley Shacklebolt",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Auror has been protecting the Muggle Prime Minister under cover.",
+      "searchTerms": [
+        "Auror",
+        "protection",
+        "cover"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "event",
+          "enLocator": "Kingsley",
+          "huLocator": "Kingsley",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "kreacher",
+      "labelEn": "Kreacher",
+      "labelHu": "Sipor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The elf obeys Harry's direct command, establishing that Sirius's inheritance has passed to Harry.",
+      "searchTerms": [
+        "inheritance",
+        "elf",
+        "ownership"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Kreacher",
+          "huLocator": "Sipor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "lavender",
+      "labelEn": "Lavender Brown",
+      "labelHu": "Lavender Brown",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Lavender begins a relationship with Ron during the school year.",
+      "searchTerms": [
+        "relationship",
+        "Ron"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP14",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP14",
+          "kind": "event",
+          "enLocator": "Lavender",
+          "huLocator": "Lavender",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "leanne",
+      "labelEn": "Leanne",
+      "labelHu": "Leanne",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Katie's friend witnesses the necklace attack and supplies information about the package.",
+      "searchTerms": [
+        "witness",
+        "necklace"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP12",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP12",
+          "kind": "event",
+          "enLocator": "Leanne",
+          "huLocator": "Leanne",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "lily-potter",
+      "labelEn": "Lily Potter",
+      "labelHu": "Lily Potter",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn remembers Lily as a gifted Muggle-born Potions pupil.",
+      "searchTerms": [
+        "Lily"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP4",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP4",
+          "kind": "testimony",
+          "enLocator": "Lily",
+          "huLocator": "Lily",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "luna-lovegood",
+      "labelEn": "Luna Lovegood",
+      "labelHu": "Luna Lovegood",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Luna accompanies Harry and later attends Slughorn's party as his guest.",
+      "searchTerms": [
+        "friend",
+        "Slug Club"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Luna",
+          "huLocator": "Luna",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "madam-pince",
+      "labelEn": "Madam Pince",
+      "labelHu": "Madam Cvikker",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The librarian attends the funeral.",
+      "searchTerms": [
+        "librarian",
+        "funeral"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "Pince",
+          "huLocator": "Cvikker",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "madam-pomfrey",
+      "labelEn": "Madam Pomfrey",
+      "labelHu": "Madam Pomfrey",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The healer treats Bill's injuries and discusses the limits of healing cursed wounds.",
+      "searchTerms": [
+        "healer",
+        "injury",
+        "limits"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP29",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "Pomfrey",
+          "huLocator": "Pomfrey",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "madam-rosmerta",
+      "labelEn": "Madam Rosmerta",
+      "labelHu": "Madam Rosmerta",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco reveals that Rosmerta has been under the Imperius Curse and used to convey his attacks.",
+      "searchTerms": [
+        "Imperius",
+        "coercion",
+        "delivery"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP27",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Rosmerta",
+          "huLocator": "Rosmertá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "malfoy",
+      "labelEn": "Draco Malfoy",
+      "labelHu": "Draco Malfoy",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco disarms Dumbledore and explains the repaired Vanishing Cabinets; he hesitates to kill him.",
+      "searchTerms": [
+        "cabinet",
+        "repair",
+        "disarm",
+        "coercion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP27",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "marcus-belby",
+      "labelEn": "Marcus Belby",
+      "labelHu": "Marcus Belby",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn questions Marcus about his potion-inventor uncle; he begins choking and receives help.",
+      "searchTerms": [
+        "Slug Club",
+        "airway"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Belby",
+          "huLocator": "Belby",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "marvolo-gaunt",
+      "labelEn": "Marvolo Gaunt",
+      "labelHu": "Rowle Gomold",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Marvolo boasts about Slytherin ancestry and his family objects while abusing his daughter.",
+      "searchTerms": [
+        "Gaunt",
+        "ring",
+        "locket",
+        "ancestry"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Marvolo",
+          "huLocator": "Rowle",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "melinda-bobbin",
+      "labelEn": "Melinda Bobbin",
+      "labelHu": "Melinda Bobbin",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn describes the girl's family apothecary connections while proposing his gathering.",
+      "searchTerms": [
+        "Melinda Bobbin"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP11",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "testimony",
+          "enLocator": "Melinda Bobbin",
+          "huLocator": "Melinda Bobbin",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "merope-gaunt",
+      "labelEn": "Merope Gaunt",
+      "labelHu": "Merope Gomold",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Merope's treatment by her family and relationship with Tom Riddle Senior are reconstructed through memories and Dumbledore's explanation.",
+      "searchTerms": [
+        "Gaunt",
+        "mother",
+        "coercion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Merope",
+          "huLocator": "Merope",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "minerva-mcgonagall",
+      "labelEn": "Professor McGonagall",
+      "labelHu": "McGalagony professzor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "McGonagall takes responsibility for the school after Dumbledore's death.",
+      "searchTerms": [
+        "school",
+        "leadership",
+        "death"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP29",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "McGonagall",
+          "huLocator": "McGalagony",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "moaning-myrtle",
+      "labelEn": "Moaning Myrtle",
+      "labelHu": "Hisztis Myrtle",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Myrtle witnesses the bathroom confrontation and cries for help after Draco is wounded.",
+      "searchTerms": [
+        "ghost",
+        "bathroom",
+        "witness"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "ghost",
+      "presence": [
+        {
+          "anchor": "HBP24",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP24",
+          "kind": "event",
+          "enLocator": "Myrtle",
+          "huLocator": "Myrtle",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "morfin-gaunt",
+      "labelEn": "Morfin Gaunt",
+      "labelHu": "Morfin Gomold",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Morfin attacks the Ministry official and is later implicated in the Riddle murders through altered memories.",
+      "searchTerms": [
+        "Gaunt",
+        "memory",
+        "blame"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Morfin",
+          "huLocator": "Morfin",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "mr-dursley",
+      "labelEn": "Vernon Dursley",
+      "labelHu": "Vernon Dursley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Vernon receives Dumbledore's unexpected visit and fails to engage with the offered hospitality.",
+      "searchTerms": [
+        "guardian",
+        "visit"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Vernon",
+          "huLocator": "Vernon",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "mrs-cole",
+      "labelEn": "Mrs Cole",
+      "labelHu": "Mrs. Cole",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The orphanage matron tells Dumbledore about Tom's behaviour before he meets the boy.",
+      "searchTerms": [
+        "orphanage",
+        "witness"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "event",
+          "enLocator": "Mrs Cole",
+          "huLocator": "Mrs Cole",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "mrs-weasley",
+      "labelEn": "Molly Weasley",
+      "labelHu": "Molly Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Molly hosts Harry and reacts to family tensions surrounding Fleur and the war.",
+      "searchTerms": [
+        "family",
+        "hospitality"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP5",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP5",
+          "kind": "event",
+          "enLocator": "Mrs Weasley",
+          "huLocator": "Mrs Weasley",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "muggle-prime-minister",
+      "labelEn": "The Muggle Prime Minister",
+      "labelHu": "A mugli miniszterelnök",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Muggle Prime Minister receives reports of magical events through his counterpart rather than possessing a wizard's knowledge.",
+      "searchTerms": [
+        "Muggle",
+        "politics",
+        "information"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "event",
+          "enLocator": "Prime Minister",
+          "huLocator": "miniszterelnök",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "narcissa-malfoy",
+      "labelEn": "Narcissa Malfoy",
+      "labelHu": "Narcissa Malfoy",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Narcissa asks Snape to protect Draco and finish his task if necessary; her fear is personal and immediate.",
+      "searchTerms": [
+        "mother",
+        "vow",
+        "Draco"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP2",
+          "kind": "event",
+          "enLocator": "Narcissa",
+          "huLocator": "Narcissa",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "nearly-headless-nick",
+      "labelEn": "Nearly Headless Nick",
+      "labelHu": "Félig Fej Nélküli Nick",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The ghost is present at the school's opening feast.",
+      "searchTerms": [
+        "ghost",
+        "feast"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "ghost",
+      "presence": [
+        {
+          "anchor": "HBP8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP8",
+          "kind": "event",
+          "enLocator": "Nearly Headless Nick",
+          "huLocator": "Félig Fej Nélküli Nick",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "neville",
+      "labelEn": "Neville Longbottom",
+      "labelHu": "Neville Longbottom",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Neville travels with Harry and attends Slughorn's compartment gathering.",
+      "searchTerms": [
+        "student",
+        "Slug Club"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Neville",
+          "huLocator": "Neville",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "nymphadora-tonks",
+      "labelEn": "Nymphadora Tonks",
+      "labelHu": "Nymphadora Tonks",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Tonks finds Harry on the train and repairs his nose; her altered Patronus prompts questions about her unhappiness.",
+      "searchTerms": [
+        "Patronus",
+        "healing",
+        "train"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP8",
+          "kind": "event",
+          "enLocator": "Tonks",
+          "huLocator": "Tonks",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "ollivander",
+      "labelEn": "Mr Ollivander",
+      "labelHu": "Ollivander úr",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The wandmaker's disappearance is discussed during the Diagon Alley visit.",
+      "searchTerms": [
+        "wandmaker",
+        "missing"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "testimony",
+          "enLocator": "Ollivander",
+          "huLocator": "Ollivander",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "olympe-maxime",
+      "labelEn": "Madame Maxime",
+      "labelHu": "Madame Maxime",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Madame Maxime is among the visitors at Dumbledore's funeral.",
+      "searchTerms": [
+        "Maxime"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "Maxime",
+          "huLocator": "Maxime",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "parkinson-ps",
+      "labelEn": "Pansy Parkinson",
+      "labelHu": "Pansy Parkinson",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Pansy shares Draco's compartment and listens to his account.",
+      "searchTerms": [
+        "Slytherin",
+        "compartment"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Pansy",
+          "huLocator": "Pansy",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "parvati-patil",
+      "labelEn": "Parvati Patil",
+      "labelHu": "Parvati Patil",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Parvati asks whether Inferi have been seen during the Defence lesson.",
+      "searchTerms": [
+        "Defence",
+        "Inferi",
+        "question"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP9",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Parvati",
+          "huLocator": "Parvati",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "peeves",
+      "labelEn": "Peeves",
+      "labelHu": "Hóborc",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Peeves irritates Trelawney while she moves through the school.",
+      "searchTerms": [
+        "poltergeist",
+        "school"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP25",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP25",
+          "kind": "event",
+          "enLocator": "Peeves",
+          "huLocator": "Hóborc",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "percy-weasley",
+      "labelEn": "Percy Weasley",
+      "labelHu": "Percy Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Percy accompanies Scrimgeour to the Burrow during Christmas; the visit is strained.",
+      "searchTerms": [
+        "Ministry",
+        "estrangement"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP16",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP16",
+          "kind": "event",
+          "enLocator": "Percy",
+          "huLocator": "Percy",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "peter-pettigrew",
+      "labelEn": "Peter Pettigrew / Scabbers",
+      "labelHu": "Peter Pettigrew / Makesz",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Wormtail serves at Snape's house and is caught listening to the visitors.",
+      "searchTerms": [
+        "servant",
+        "eavesdrop"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP2",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP2",
+          "kind": "event",
+          "enLocator": "Wormtail",
+          "huLocator": "Féregfark",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "petunia-dursley",
+      "labelEn": "Petunia Dursley",
+      "labelHu": "Petunia Dursley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Petunia participates in the uncomfortable meeting about Harry's protection and inheritance.",
+      "searchTerms": [
+        "guardian",
+        "protection"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Petunia",
+          "huLocator": "Petúniá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "phineas-nigellus",
+      "labelEn": "Phineas Nigellus",
+      "labelHu": "Phineas Nigellus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Phineas's portrait is part of the headmaster's office and its historical connections.",
+      "searchTerms": [
+        "portrait",
+        "headmaster"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "portrait",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "event",
+          "enLocator": "Phineas",
+          "huLocator": "Phineas",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "pigwidgeon",
+      "labelEn": "Pigwidgeon",
+      "labelHu": "Pulipinty",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron buys owl food for Pigwidgeon during the Diagon Alley shopping visit.",
+      "searchTerms": [
+        "owl",
+        "pet"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "animal",
+      "presence": [
+        {
+          "anchor": "HBP6",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Pigwidgeon",
+          "huLocator": "Pulipinty",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "remus-lupin",
+      "labelEn": "Remus Lupin",
+      "labelHu": "Remus Lupin",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Lupin recalls Levicorpus's school popularity but does not identify the anonymous Prince for Harry.",
+      "searchTerms": [
+        "Levicorpus",
+        "Prince",
+        "knowledge",
+        "werewolf"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP16",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP16",
+          "kind": "event",
+          "enLocator": "Lupin",
+          "huLocator": "Lupin",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "rita-skeeter",
+      "labelEn": "Rita Skeeter / the beetle",
+      "labelHu": "Rita Vitrol / a bogár",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Rita attends Dumbledore's funeral carrying her notebook.",
+      "searchTerms": [
+        "reporter",
+        "information"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "Rita",
+          "huLocator": "Rita",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "ritchie-coote",
+      "labelEn": "Coote",
+      "labelHu": "Coote",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ritchie joins the Gryffindor team as a Beater.",
+      "searchTerms": [
+        "Quidditch",
+        "Beater"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP11",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "event",
+          "enLocator": "Coote",
+          "huLocator": "Coote",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "romilda-vane",
+      "labelEn": "Romilda Vane",
+      "labelHu": "Romilda Vane",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Romilda shows interest in Harry; sweets later carrying a love potion reach Ron instead.",
+      "searchTerms": [
+        "love potion",
+        "coercion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Romilda Vane",
+          "huLocator": "Romilda Vane",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "ron",
+      "labelEn": "Ron Weasley",
+      "labelHu": "Ron Weasley",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron is accidentally poisoned after consuming a love-potion antidote; Harry supplies a bezoar.",
+      "searchTerms": [
+        "poison",
+        "bezoar",
+        "friendship"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP18",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP18",
+          "kind": "event",
+          "enLocator": "Ron",
+          "huLocator": "Ron",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "rowena-ravenclaw",
+      "labelEn": "Rowena Ravenclaw",
+      "labelHu": "Hollóháti Hedvig",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore considers Ravenclaw relics as possible targets without identifying a specific object here.",
+      "searchTerms": [
+        "Ravenclaw"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP23",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP23",
+          "kind": "testimony",
+          "enLocator": "Ravenclaw",
+          "huLocator": "Hollóhát",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "rufus-scrimgeour",
+      "labelEn": "Rufus Scrimgeour",
+      "labelHu": "Rufus Scrimgeour",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The new Minister replaces Fudge during the escalating war.",
+      "searchTerms": [
+        "Minister",
+        "politics"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP1",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "event",
+          "enLocator": "Scrimgeour",
+          "huLocator": "Scrimgeour",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "salazar-slytherin",
+      "labelEn": "Salazar Slytherin",
+      "labelHu": "Mardekár Malazár",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Marvolo invokes the founder's ancestry to justify his family pride.",
+      "searchTerms": [
+        "Salazar Slytherin"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "testimony",
+          "enLocator": "Salazar Slytherin",
+          "huLocator": "Mardekár Malazár",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "sanguini",
+      "labelEn": "Sanguini",
+      "labelHu": "Sanguini",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The vampire attends Slughorn's party with Worple.",
+      "searchTerms": [
+        "vampire",
+        "Slug Club"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "magical-being",
+      "presence": [
+        {
+          "anchor": "HBP15",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP15",
+          "kind": "event",
+          "enLocator": "Sanguini",
+          "huLocator": "Sanguini",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "seamus-finnigan",
+      "labelEn": "Seamus Finnigan",
+      "labelHu": "Seamus Finnigan",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Seamus is among the returning Gryffindor pupils.",
+      "searchTerms": [
+        "student",
+        "Gryffindor"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP8",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP8",
+          "kind": "event",
+          "enLocator": "Seamus",
+          "huLocator": "Seamus",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "severus-snape",
+      "labelEn": "Snape",
+      "labelHu": "Piton",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Half-Blood Prince",
+        "Félvér Herceg"
+      ],
+      "description": "Snape identifies himself as the Half-Blood Prince and claims authorship of the spells Harry has been using.",
+      "searchTerms": [
+        "Prince",
+        "author",
+        "nonverbal",
+        "inventor"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. The Prince identity is disclosed at HBP28; Harry cannot know it from the HBP9 ownership note.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP28",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP28",
+          "kind": "testimony",
+          "enLocator": "Half-Blood Prince",
+          "huLocator": "Félvér Herceg",
+          "scope": "Snape explicitly identifies himself and claims authorship; disclosed at HBP28.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "identityAvailableFrom": "HBP28"
+    },
+    {
+      "id": "sirius-black",
+      "labelEn": "Sirius Black",
+      "labelHu": "Sirius Black",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Sirius's will leaves Harry property and Kreacher; this is inheritance after his death.",
+      "searchTerms": [
+        "inheritance",
+        "death"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP3",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "testimony",
+          "enLocator": "Sirius",
+          "huLocator": "Sirius",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "sprout",
+      "labelEn": "Professor Sprout",
+      "labelHu": "Bimba tanárnő",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The teacher attends Dumbledore's funeral.",
+      "searchTerms": [
+        "teacher",
+        "funeral"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "Sprout",
+          "huLocator": "Bimba",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "stan-shunpike",
+      "labelEn": "Stan Shunpike",
+      "labelHu": "Stan Shunpike",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Stan's imprisonment is discussed; an arrest does not itself establish guilt.",
+      "searchTerms": [
+        "arrest",
+        "evidence",
+        "Ministry"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP11",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "testimony",
+          "enLocator": "Stan Shunpike",
+          "huLocator": "Stan Shunpike",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "sybill-trelawney",
+      "labelEn": "Sybill Trelawney",
+      "labelHu": "Sybill Trelawney",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Trelawney describes the night of the prophecy and identifies Snape as the listener outside the interview.",
+      "searchTerms": [
+        "prophecy",
+        "witness",
+        "information"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP25",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP25",
+          "kind": "event",
+          "enLocator": "Trelawney",
+          "huLocator": "Trelawney",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "thorfinn-rowle",
+      "labelEn": "The blond tower Death Eater",
+      "labelHu": "A torony szőke halálfalója",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The blond Death Eater sets Hagrid's hut on fire; his personal name is not supplied in this scene.",
+      "searchTerms": [
+        "Death Eater",
+        "fire"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Personal identity is supplied in DH9, not in the HBP28 encounter.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP28",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP28",
+          "kind": "event",
+          "enLocator": "blond",
+          "huLocator": "szőke",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": [],
+      "identityAvailableFrom": "DH9"
+    },
+    {
+      "id": "tobias-snape",
+      "labelEn": "Tobias Snape",
+      "labelHu": "Tobias Piton",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape's Muggle father is identified in Hermione's account of the Prince family.",
+      "searchTerms": [
+        "father",
+        "Muggle",
+        "Prince"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP30",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "testimony",
+          "enLocator": "Tobias",
+          "huLocator": "Tobias",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "tom-riddle-senior",
+      "labelEn": "Tom Riddle, Voldemort's father",
+      "labelHu": "Tom Denem, Voldemort apja",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Muggle father is distinguished from his son through the family history.",
+      "searchTerms": [
+        "father",
+        "Muggle",
+        "identity"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP10",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "testimony",
+          "enLocator": "Tom Riddle",
+          "huLocator": "Tom Denem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "voldemort",
+      "labelEn": "Voldemort",
+      "labelHu": "Voldemort",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The orphan Tom Riddle shows coercive abilities before entering Hogwarts; the adult becomes Voldemort.",
+      "searchTerms": [
+        "identity",
+        "orphan",
+        "Horcrux"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP13",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "event",
+          "enLocator": "Riddle",
+          "huLocator": "Denem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "zabini",
+      "labelEn": "Blaise Zabini",
+      "labelHu": "Blaise Zambini",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Blaise attends Slughorn's train gathering and discusses his well-connected mother.",
+      "searchTerms": [
+        "Slug Club",
+        "Slytherin"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "appears"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Zabini",
+          "huLocator": "Zambini",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    },
+    {
+      "id": "zacharias-smith",
+      "labelEn": "Zacharias Smith",
+      "labelHu": "Zacharias Smith",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ginny reports hexing Zacharias after his intrusive questions about the Ministry encounter.",
+      "searchTerms": [
+        "Zacharias Smith"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "glossaryId": null,
+      "entityKind": "human",
+      "presence": [
+        {
+          "anchor": "HBP7",
+          "mode": "mentioned"
+        }
+      ],
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "testimony",
+          "enLocator": "Zacharias Smith",
+          "huLocator": "Zacharias Smith",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "factIds": [],
+      "writingNotes": []
+    }
+  ]
+}

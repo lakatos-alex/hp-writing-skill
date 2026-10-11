@@ -1,0 +1,1287 @@
+{
+  "schemaVersion": 1,
+  "book": "DH",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "number-four",
+      "labelEn": "Number four, Privet Drive",
+      "labelHu": "Privet Drive 4.",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Dursleys leave the protected home before Harry's seventeenth birthday.",
+      "searchTerms": [
+        "Privet Drive",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH3",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "house",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "the-burrow",
+      "labelEn": "The Burrow",
+      "labelHu": "Az Odú",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The family prepares the wedding while the trio make departure plans.",
+      "searchTerms": [
+        "Burrow",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH6",
+          "kind": "event",
+          "enLocator": "Burrow",
+          "huLocator": "Odu",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "house",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "burrow-garden",
+      "labelEn": "Burrow garden",
+      "labelHu": "Az Odú kertje",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The wedding takes place in the family garden before the Ministry-fall warning.",
+      "searchTerms": [
+        "garden",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH8",
+          "kind": "event",
+          "enLocator": "garden",
+          "huLocator": "kert",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "garden",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "malfoy-manor",
+      "labelEn": "Malfoy Manor",
+      "labelHu": "Malfoy-kúria",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The house hosts Voldemort's meeting and later the captured fugitives.",
+      "searchTerms": [
+        "Malfoy",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH1",
+          "kind": "event",
+          "enLocator": "Malfoy",
+          "huLocator": "Malfoy",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "malfoy-cellar",
+      "labelEn": "Malfoy Manor cellar",
+      "labelHu": "A Malfoy-kúria pincéje",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Prisoners wait below the room where Hermione is being tortured.",
+      "searchTerms": [
+        "cellar",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH23",
+          "kind": "event",
+          "enLocator": "cellar",
+          "huLocator": "pince",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "grimmauld-place",
+      "labelEn": "Number twelve, Grimmauld Place",
+      "labelHu": "Grimmauld tér 12.",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The fugitives use the former headquarters until Yaxley compromises its protection.",
+      "searchTerms": [
+        "Grimmauld Place",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH10",
+          "kind": "event",
+          "enLocator": "Grimmauld Place",
+          "huLocator": "Grimmauld",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "house",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "grimmauld-kitchen",
+      "labelEn": "Grimmauld Place kitchen",
+      "labelHu": "A Grimmauld téri konyha",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Kreacher's changed domestic service follows the account of Regulus and the locket.",
+      "searchTerms": [
+        "kitchen",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH10",
+          "kind": "event",
+          "enLocator": "kitchen",
+          "huLocator": "konyha",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "room",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "regulus-bedroom",
+      "labelEn": "Regulus's bedroom",
+      "labelHu": "Regulus szobája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The bedroom's sign helps Harry connect Regulus's initials to R.A.B.",
+      "searchTerms": [
+        "Regulus",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH10",
+          "kind": "event",
+          "enLocator": "Regulus",
+          "huLocator": "Regulus",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "tottenham-court-road",
+      "labelEn": "Tottenham Court Road",
+      "labelHu": "Tottenham Court Road",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The trio arrive in London after the wedding attack.",
+      "searchTerms": [
+        "Tottenham Court Road",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH9",
+          "kind": "event",
+          "enLocator": "Tottenham Court Road",
+          "huLocator": "Tottenham Court Road",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "cafe-ambush-site",
+      "labelEn": "The café ambush site",
+      "labelHu": "A kávézóbeli rajtaütés helyszíne",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The café becomes the site of the Death Eater ambush.",
+      "searchTerms": [
+        "café",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH9",
+          "kind": "event",
+          "enLocator": "café",
+          "huLocator": "kavezo",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "ministry-of-magic",
+      "labelEn": "Ministry of Magic",
+      "labelHu": "Mágiaügyi Minisztérium",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The captured Ministry persecutes Muggle-borns and monitors its workers.",
+      "searchTerms": [
+        "Ministry",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH12",
+          "kind": "event",
+          "enLocator": "Ministry",
+          "huLocator": "miniszterium",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "institution-building",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "ministry-atrium",
+      "labelEn": "Ministry Atrium",
+      "labelHu": "Minisztériumi Átrium",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The new statue proclaims domination rather than the previous brotherhood.",
+      "searchTerms": [
+        "Atrium",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH12",
+          "kind": "event",
+          "enLocator": "Atrium",
+          "huLocator": "előcsarnok",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "hall",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "umbridge-office",
+      "labelEn": "Umbridge's office",
+      "labelHu": "Umbridge szobája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry retrieves Moody's eye while Hermione and Ron follow the registration hearing.",
+      "searchTerms": [
+        "Umbridge",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH13",
+          "kind": "event",
+          "enLocator": "Umbridge",
+          "huLocator": "Umbridge",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "office",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "registration-courtroom",
+      "labelEn": "The Muggle-born registration hearing room",
+      "labelHu": "A mugli születésűek kihallgatásának terme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The commission interrogates people about their magical ancestry.",
+      "searchTerms": [
+        "courtroom",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH13",
+          "kind": "event",
+          "enLocator": "courtroom",
+          "huLocator": "targyalo",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "forest-of-dean",
+      "labelEn": "Forest of Dean",
+      "labelHu": "Dean-erdő",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The silver doe leads Harry to the icy pond containing the sword.",
+      "searchTerms": [
+        "Forest of Dean",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH19",
+          "kind": "event",
+          "enLocator": "Forest of Dean",
+          "huLocator": "Dean",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "sword-pond",
+      "labelEn": "The frozen sword pond",
+      "labelHu": "A kardot rejtő befagyott tó",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry enters the freezing water and is endangered by the locket chain.",
+      "searchTerms": [
+        "pool",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH19",
+          "kind": "event",
+          "enLocator": "pool",
+          "huLocator": "to",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "godrics-hollow",
+      "labelEn": "Godric's Hollow",
+      "labelHu": "Godric's Hollow",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry visits the village where his parents died, without certainty about whom he can trust.",
+      "searchTerms": [
+        "Godric",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH16",
+          "kind": "event",
+          "enLocator": "Godric",
+          "huLocator": "Godric",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "village",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "godrics-graveyard",
+      "labelEn": "The graveyard in Godric's Hollow",
+      "labelHu": "A Godric’s Hollow-i temető",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry and Hermione find the Potter and Dumbledore family graves.",
+      "searchTerms": [
+        "graveyard",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH16",
+          "kind": "event",
+          "enLocator": "graveyard",
+          "huLocator": "temető",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "potter-house-ruin",
+      "labelEn": "The ruins of the Potters' home",
+      "labelHu": "Potterék házának romjai",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The damaged Potter house bears public memorial writing.",
+      "searchTerms": [
+        "house",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH17",
+          "kind": "event",
+          "enLocator": "house",
+          "huLocator": "haz",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "bathilda-house",
+      "labelEn": "Bathilda Bagshot's house",
+      "labelHu": "Bathilda Bircsók háza",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The apparent historian lures Harry inside before Nagini attacks.",
+      "searchTerms": [
+        "Bathilda",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH17",
+          "kind": "event",
+          "enLocator": "Bathilda",
+          "huLocator": "Bathilda",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "lovegood-house",
+      "labelEn": "The Lovegood home",
+      "labelHu": "Lovegoodék háza",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Xenophilius explains the Hallows and betrays the visitors under pressure over Luna.",
+      "searchTerms": [
+        "house",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH20",
+          "kind": "event",
+          "enLocator": "house",
+          "huLocator": "Haz",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "shell-cottage",
+      "labelEn": "Shell Cottage",
+      "labelHu": "Kagylólak",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bill and Fleur's home shelters the rescued prisoners beside the sea.",
+      "searchTerms": [
+        "Shell Cottage",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH25",
+          "kind": "event",
+          "enLocator": "Shell Cottage",
+          "huLocator": "Shell Cottage",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "dobbys-grave",
+      "labelEn": "Dobby's grave",
+      "labelHu": "Dobby sírja",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry buries Dobby by hand; physical burial is distinct from magic or a resurrection.",
+      "searchTerms": [
+        "grave",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH24",
+          "kind": "event",
+          "enLocator": "grave",
+          "huLocator": "sir",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "gringotts",
+      "labelEn": "Gringotts",
+      "labelHu": "Gringotts",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The trio enter the bank under disguise and coercion to recover the cup.",
+      "searchTerms": [
+        "Gringotts",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH26",
+          "kind": "event",
+          "enLocator": "Gringotts",
+          "huLocator": "Gringotts",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "bank",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "lestrange-vault",
+      "labelEn": "The Lestrange vault",
+      "labelHu": "Lestrange-széf",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The vault's multiplying and burning treasure threatens the intruders.",
+      "searchTerms": [
+        "vault",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH26",
+          "kind": "event",
+          "enLocator": "vault",
+          "huLocator": "pancelkamra",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "gringotts-waterfall",
+      "labelEn": "Thief's Downfall",
+      "labelHu": "Tolvajok Veszte",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The waterfall strips disguises and enchantments during the intrusion.",
+      "searchTerms": [
+        "Thief",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH26",
+          "kind": "event",
+          "enLocator": "Thief",
+          "huLocator": "tolvaj",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "hogwarts",
+      "labelEn": "Hogwarts",
+      "labelHu": "Roxfort",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The school houses organised resistance and becomes the final battle site.",
+      "searchTerms": [
+        "Hogwarts",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH29",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        },
+        {
+          "anchor": "DH27",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "Roxfort",
+          "scope": "Voldemort identifies Hogwarts as the remaining hiding site.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "school",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "hogs-head",
+      "labelEn": "Hog's Head",
+      "labelHu": "Szárnyas Vadkan",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Aberforth shelters the trio and reveals the hidden entrance into Hogwarts.",
+      "searchTerms": [
+        "Hog",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH28",
+          "kind": "event",
+          "enLocator": "Hog",
+          "huLocator": "Vadkan",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "pub",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "room-of-requirement",
+      "labelEn": "Room of Requirement",
+      "labelHu": "Szükség Szobája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The room shelters the resistance and opens a route to Aberforth's inn.",
+      "searchTerms": [
+        "Room of Requirement",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH29",
+          "kind": "event",
+          "enLocator": "Room of Requirement",
+          "huLocator": "Szukseg",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "adaptive-room",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "room-hidden-things",
+      "labelEn": "Room of Hidden Things",
+      "labelHu": "A rejtett tárgyak terme",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The stored objects configuration contains the diadem and is destroyed by Crabbe's fire.",
+      "searchTerms": [
+        "Room of Requirement",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH31",
+          "kind": "event",
+          "enLocator": "Room of Requirement",
+          "huLocator": "Szukseg",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "ravenclaw-common-room",
+      "labelEn": "Ravenclaw common room",
+      "labelHu": "A Hollóhát klubhelyisége",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Luna guides Harry to the diadem's likeness and the Carrows' trap.",
+      "searchTerms": [
+        "Ravenclaw",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH29",
+          "kind": "event",
+          "enLocator": "Ravenclaw",
+          "huLocator": "Hollohat",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "great-hall",
+      "labelEn": "Great Hall",
+      "labelHu": "Nagyterem",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The hall is used for preparations, casualties and the final confrontation.",
+      "searchTerms": [
+        "Great Hall",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH31",
+          "kind": "event",
+          "enLocator": "Great Hall",
+          "huLocator": "Nagyterem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "hall",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "chamber-of-secrets",
+      "labelEn": "Chamber of Secrets",
+      "labelHu": "Titkok Kamrája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron and Hermione recover basilisk fangs and destroy the cup below the school.",
+      "searchTerms": [
+        "Chamber of Secrets",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH31",
+          "kind": "event",
+          "enLocator": "Chamber of Secrets",
+          "huLocator": "Titkok Kamraja",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "chamber",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "forbidden-forest",
+      "labelEn": "Forbidden Forest",
+      "labelHu": "Tiltott Rengeteg",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry walks to Voldemort after learning what the soul fragment requires.",
+      "searchTerms": [
+        "Forest",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH34",
+          "kind": "event",
+          "enLocator": "Forest",
+          "huLocator": "Rengeteg",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "forest",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "shrieking-shack",
+      "labelEn": "Shrieking Shack",
+      "labelHu": "Szellemszállás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Voldemort wrongly treats Snape's death as a route to wand mastery.",
+      "searchTerms": [
+        "Shrieking Shack",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH32",
+          "kind": "event",
+          "enLocator": "Shrieking Shack",
+          "huLocator": "Szellemszallas",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "house",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "hogwarts-white-tomb",
+      "labelEn": "Hogwarts White Tomb",
+      "labelHu": "Fehér Márvány",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Voldemort takes the Elder Wand from Dumbledore's tomb.",
+      "searchTerms": [
+        "tomb",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH24",
+          "kind": "event",
+          "enLocator": "tomb",
+          "huLocator": "sir",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "headmaster-office",
+      "labelEn": "Dumbledore's office",
+      "labelHu": "Dumbledore irodája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry enters the Pensieve to view Snape's final memories.",
+      "searchTerms": [
+        "office",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH33",
+          "kind": "event",
+          "enLocator": "office",
+          "huLocator": "iroda",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "office",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "kings-cross",
+      "labelEn": "King's Cross station",
+      "labelHu": "King's Cross pályaudvar",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The station-like liminal experience provides Harry a choice to return; it is not ordinary railway travel.",
+      "searchTerms": [
+        "King",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH35",
+          "kind": "event",
+          "enLocator": "King",
+          "huLocator": "King",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "station",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "platform-nine-three-quarters",
+      "labelEn": "Platform nine and three-quarters",
+      "labelHu": "Kilenc és háromnegyedik vágány",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The next generation boards the Hogwarts train nineteen years later.",
+      "searchTerms": [
+        "platform",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH-epilogue",
+          "kind": "event",
+          "enLocator": "platform",
+          "huLocator": "vagany",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "platform",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "nurmengard",
+      "labelEn": "Nurmengard",
+      "labelHu": "Nurmengard",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The friends discuss Grindelwald's prison; the later interrogation is separate.",
+      "searchTerms": [
+        "Nurmengard",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH18",
+          "kind": "event",
+          "enLocator": "Nurmengard",
+          "huLocator": "Nurmengard",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "location",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "albania",
+      "labelEn": "Albania",
+      "labelHu": "Albánia",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Helena identifies the hiding place from which Riddle recovered the diadem.",
+      "searchTerms": [
+        "Albania",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH31",
+          "kind": "event",
+          "enLocator": "Albania",
+          "huLocator": "Albania",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "placeKind": "country",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    }
+  ]
+}

@@ -2,15 +2,16 @@
 
 This is the data and private-research contract for the book datasets. It
 does not certify semantic completeness. Policy-2 validation requires the scoped
-PS, CoS, PoA, GoF and OotP inventories to represent all 17, 18, 22, 37 and 38 chapters respectively; this
+PS, CoS, PoA, GoF, OotP, HBP and DH inventories to represent all 17, 18, 22, 37,
+38, 30 and 37 chapter anchors respectively, including `DH-epilogue`; this
 does not certify full reading. The private candidate-ledger format below remains
 PS-specific; other books' targeted inventories do not imply that ledger exists.
 
 ## Development sequence
 
 Finish and validate the four typed categories for every processed book before
-starting the next book or a writing comparison. PS through OotP use the same
-policy-2 contracts. HBP, DH and subsequently selected additional books must follow
+starting the next book or a writing comparison. All seven novels use the same
+policy-2 contracts. Subsequently selected additional books must follow
 that method. A chapter catalogue or selective glossary does not replace an
 inventory. Record supplementary editions and their canon status separately.
 
@@ -102,8 +103,8 @@ scaffold is deliberately `not-started` and never represents complete coverage.
 
 ## Policy 2 retrieval extensions
 
-The PS, CoS, PoA and GoF entity envelopes remain schema version 1 with `policyVersion: 2`
-and their respective `book` value; folders are `ps`, `cos`, `poa` and `gof`.
+The seven book entity envelopes remain schema version 1 with `policyVersion: 2`
+and their respective `book` value; folders are lower-case book codes.
 `magic.json` is now an identified-spell index: all entries have `kind: spell`.
 The historical wider magic taxonomy above describes the superseded pilot.
 Each occurrence needs non-empty human `practitionerIds`, `vocalisation`
@@ -116,6 +117,23 @@ that later anchor. Optional `laterIncantation` keeps its own provenance.
 Occurrence, presence, term-mention and ordinary evidence anchors stay within
 the indexed book. Later identification evidence is the explicit exception.
 Do not infer an incantation from an effect.
+
+Optional `vocalisationByLanguage` preserves differing EN/HU evidence; both
+statuses use the same enum, and a silent claim still requires evidence.
+The CLI chooses the selected edition's status, while paired output retains both.
+`sourceQuality`, `labelVerification` and `incantationVariants` record degraded
+transcriptions and chapter wording differences. A paired retrieval key is not
+necessarily an authoritative spelling. Editorial labels and DH's degraded
+Hungarian transcription do not supply lint replacement suggestions.
+
+`data/referents.json` connects selected local IDs using a category-qualified
+shared ID, book members and optional `availableFrom` reveal anchor. Default
+shared IDs use the category and stable local ID. Retrieval adds `book`,
+`referentId` and optional `identityAvailableFrom`, without merging properties,
+events or evidence. `semantic --book all` returns separately paginated book
+records; `--id` accepts either a local or shared ID. These are author-reference
+links, not a strict earlier-scene spoiler filter. A portrait, a counterfeit,
+a broken part or a disguised person is not automatically the same referent.
 
 Optional `reportedClassUses` holds reports of the spell class without attaching
 the entry's exact formula to those events. Each report needs human
@@ -156,7 +174,7 @@ review method and source hashes. Reading states remain partial unless actual
 full-chapter reading supports a stronger claim. `legacyPilot` preserves the
 earlier counters as history; it is not the active candidate ledger. Current
 accepted counts refer to the finalized four-index records, not legacy glossary
-or fact cards. The PS/CoS/PoA/GoF `glossary --book` view reuses typed records;
+or fact cards. The seven-book `glossary --book` view reuses typed records;
 it does not add entries to the legacy glossary or its coverage counters.
 `terms` and `facts` count cards with explicit `bookUsage[book]`,
 not every headword with a lexical PS reference. Excluded observations are documented in the contributor review,
@@ -166,15 +184,15 @@ exhaustive literary or independent semantic review.
 ## Validation commands
 
 Run `node tools/validate_book_knowledge.mjs` for all supported inventories, or
-add `--book PS`, `--book CoS`, `--book PoA` or `--book GoF` for one. Add
+add `--book BOOK` with any of the seven codes for one. Add
 `--private-progress original-sources/research/ps/progress.local.json` to verify
 the private ledger, and `--candidates DIR` to reconcile private candidate
 counts; private progress validation remains PS-only. Source checking is separate:
-`node tools/verify_sources.mjs original-sources` verifies every published PS/CoS/PoA/GoF
+`node tools/verify_sources.mjs original-sources` verifies every published seven-book
 evidence locator in both supplied languages, including explicit later
 identifications. It also checks inventory source hashes against the catalogues.
 
-`hp.mjs stats [--book PS|CoS|PoA|GoF]` counts the four indexes. Characters equal people
+`hp.mjs stats [--book PS|CoS|PoA|GoF|OotP|HBP|DH]` counts the four indexes. Characters equal people
 plus animals; records are summed per book, not deduplicated across books.
 Casting rows may group practice or reports. Contextual evidence counts every
 stored pair in entity evidence, identification, later incantation, occurrences,

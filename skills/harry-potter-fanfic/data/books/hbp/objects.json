@@ -1,0 +1,1017 @@
+{
+  "schemaVersion": 1,
+  "book": "HBP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "prince-potions-book",
+      "labelEn": "The Prince's annotated Potions textbook",
+      "labelHu": "A Herceg jegyzetelt bájitaltankönyve",
+      "labelKind": "editorial-label",
+      "aliases": [
+        "Advanced Potion-Making",
+        "Bájitaltan haladóknak",
+        "Half-Blood Prince textbook"
+      ],
+      "description": "Harry borrows an annotated textbook; its handwritten ownership note does not identify Snape until HBP28.",
+      "searchTerms": [
+        "Prince",
+        "annotation",
+        "provenance",
+        "Potions"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Advanced Potion-Making",
+          "huLocator": "Bájitaltan haladóknak",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Severus_Snape%27s_copy_of_Advanced_Potion-Making",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "felix-felicis",
+      "labelEn": "Felix Felicis",
+      "labelHu": "Felix Felicis",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn offers a luck potion as the class prize; its use later helps Harry obtain a memory, not effortless guaranteed omnipotence.",
+      "searchTerms": [
+        "luck",
+        "potion",
+        "memory"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Felix Felicis",
+          "huLocator": "Felix Felicis",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "potion",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Felix_Felicis",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "bezoar",
+      "labelEn": "Bezoar",
+      "labelHu": "Bezoár",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry gives Ron a bezoar after the poisoned mead; this antidote ingredient is not a cast spell.",
+      "searchTerms": [
+        "poison",
+        "antidote",
+        "stone"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP18",
+          "kind": "event",
+          "enLocator": "bezoar",
+          "huLocator": "bezoár",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "ingredient",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "amortentia",
+      "labelEn": "Amortentia",
+      "labelHu": "Amortentia",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The powerful love potion creates obsession rather than genuine love.",
+      "searchTerms": [
+        "love",
+        "obsession",
+        "consent"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Amortentia",
+          "huLocator": "Amortentia",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "potion",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "draught-living-death",
+      "labelEn": "Draught of Living Death",
+      "labelHu": "Élő Halál",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The advanced class brews a powerful sleeping potion; the Prince's annotations improve Harry's preparation.",
+      "searchTerms": [
+        "sleep",
+        "Potions",
+        "recipe"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Draught of Living Death",
+          "huLocator": "élő halál",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "potion",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "marvolo-gaunt-ring",
+      "labelEn": "Marvolo Gaunt's ring",
+      "labelHu": "Rowle Gomold gyűrűje",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Gaunt heirloom appears in memories; later evidence identifies a destroyed Horcrux and its damaging curse.",
+      "searchTerms": [
+        "Gaunt",
+        "Horcrux",
+        "curse"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "ring",
+          "huLocator": "gyűrű",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Marvolo_Gaunt%27s_Ring",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "slytherin-locket",
+      "labelEn": "Slytherin's locket",
+      "labelHu": "Mardekár medálja",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Merope wears the Slytherin heirloom in Ogden's memory; Dumbledore later suspects it became a Horcrux.",
+      "searchTerms": [
+        "Slytherin",
+        "Horcrux",
+        "inheritance"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "locket",
+          "huLocator": "aranylánc",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "not-established",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Slytherin%27s_Locket",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "hufflepuff-cup",
+      "labelEn": "Hufflepuff's cup",
+      "labelHu": "Hugrabug pohara",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hepzibah displays Hufflepuff's cup; Dumbledore's Horcrux conclusion is an inference about its subsequent fate.",
+      "searchTerms": [
+        "Hufflepuff",
+        "Horcrux",
+        "memory"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP20",
+          "kind": "event",
+          "enLocator": "golden cup",
+          "huLocator": "aranypohár",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "vessel",
+      "magicStatus": "not-established"
+    },
+    {
+      "id": "rab-locket",
+      "labelEn": "The R.A.B. substitute locket",
+      "labelHu": "A R.A.B. feljegyzését rejtő medál",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The cave locket contains an anonymous R.A.B. note and is not the genuine Slytherin Horcrux.",
+      "searchTerms": [
+        "RAB",
+        "substitute",
+        "Horcrux",
+        "note"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP28",
+          "kind": "event",
+          "enLocator": "locket",
+          "huLocator": "medál",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "ordinary",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Regulus_Black%27s_locket",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "hogwarts-vanishing-cabinet",
+      "labelEn": "Hogwarts Vanishing Cabinet",
+      "labelHu": "Roxforti volt-nincs szekrény",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco repairs the Hogwarts member of the pair and uses it to bring attackers into the school.",
+      "searchTerms": [
+        "cabinet",
+        "repair",
+        "infiltration"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Vanishing Cabinet",
+          "huLocator": "volt-nincs szekrény",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "transport",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "borgin-shop-cabinet",
+      "labelEn": "Cabinet in Borgin's shop",
+      "labelHu": "Borgin boltjának szekrénye",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The shop cabinet is the other end of the repaired transport connection.",
+      "searchTerms": [
+        "cabinet",
+        "pair",
+        "transport"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Borgin",
+          "huLocator": "Borgin",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "transport",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "cursed-opal-necklace",
+      "labelEn": "Cursed opal necklace",
+      "labelHu": "Elátkozott opálnyakék",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Contact with the cursed necklace gravely injures Katie; handling with a glove limits but does not remove the danger.",
+      "searchTerms": [
+        "curse",
+        "contact",
+        "injury"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP12",
+          "kind": "event",
+          "enLocator": "necklace",
+          "huLocator": "nyaklánc",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "hand-of-glory",
+      "labelEn": "Hand of Glory",
+      "labelHu": "Dicsőség Keze",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ginny and Ron identify Draco's hand-light during their account of the corridor darkness.",
+      "searchTerms": [
+        "darkness",
+        "light",
+        "Draco"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "Hand of Glory",
+          "huLocator": "Dicsőség Keze",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "light-source",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "peruvian-darkness-powder",
+      "labelEn": "Peruvian Instant Darkness Powder",
+      "labelHu": "Instant sötétségpor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The imported powder creates an escape cover; the later Hogwarts use blocks ordinary light attempts.",
+      "searchTerms": [
+        "darkness",
+        "escape",
+        "Peru"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Darkness Powder",
+          "huLocator": "sötétségpor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "powder",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "decoy-detonator",
+      "labelEn": "Decoy Detonator",
+      "labelHu": "Csalizajgép",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The small running devices make noise elsewhere to divert attention.",
+      "searchTerms": [
+        "noise",
+        "diversion",
+        "shop"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Decoy Detonators",
+          "huLocator": "csalizajgép",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "diversion",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Decoy_Detonator",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "shield-hat",
+      "labelEn": "Shield Hat",
+      "labelHu": "Páncélsüveg",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The twins sell hats that repel minor to moderate attacks; they do not protect against Unforgivable Curses.",
+      "searchTerms": [
+        "shield",
+        "defence",
+        "limits"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Shield Hats",
+          "huLocator": "Páncélsüveg",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "demonstrated",
+      "classificationSource": {
+        "url": "https://harrypotter.fandom.com/wiki/Shield_Hat",
+        "basis": "Object classification only; properties and scene knowledge follow novel evidence.",
+        "checked": "2026-10-11"
+      }
+    },
+    {
+      "id": "shield-cloak",
+      "labelEn": "Shield Cloak",
+      "labelHu": "Páncélköpeny",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The expanded protective product range includes cloaks with the stated limits of the shield products.",
+      "searchTerms": [
+        "shield",
+        "defence",
+        "clothing"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Shield Cloaks",
+          "huLocator": "Páncélköpeny",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "shield-gloves",
+      "labelEn": "Shield Gloves",
+      "labelHu": "Páncélkesztyű",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The twins include gloves in their protective range; do not extend the claim to blocking Killing Curses.",
+      "searchTerms": [
+        "shield",
+        "defence",
+        "gloves"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Shield Gloves",
+          "huLocator": "Páncélkesztyű",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "pensieve",
+      "labelEn": "Pensieve",
+      "labelHu": "Merengő",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry enters selected memories to investigate Voldemort's past; the interpretation is distinct from the memory itself.",
+      "searchTerms": [
+        "memory",
+        "evidence",
+        "history"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Pensieve",
+          "huLocator": "merengő",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "memory-tool",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "slughorn-memory",
+      "labelEn": "Slughorn's unaltered memory",
+      "labelHu": "Lumpsluck eredeti emléke",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The recovered memory reveals Tom's question about splitting his soul into multiple Horcruxes.",
+      "searchTerms": [
+        "Horcrux",
+        "testimony",
+        "provenance"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP23",
+          "kind": "event",
+          "enLocator": "memory",
+          "huLocator": "emlék",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "stored-memory",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "invisibility-cloak",
+      "labelEn": "Invisibility Cloak",
+      "labelHu": "Láthatatlanná tévő köpeny",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry conceals himself during investigation; concealment does not prevent Draco finding and immobilising him.",
+      "searchTerms": [
+        "invisibility",
+        "limits",
+        "investigation"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP7",
+          "kind": "event",
+          "enLocator": "Invisibility Cloak",
+          "huLocator": "láthatatlanná tévő köpeny",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "marauders-map",
+      "labelEn": "Marauder's Map",
+      "labelHu": "Tekergők Térképe",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry looks for Draco on the map; a missing mark does not itself prove absence from Hogwarts.",
+      "searchTerms": [
+        "tracking",
+        "Draco",
+        "absence"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP18",
+          "kind": "event",
+          "enLocator": "Map",
+          "huLocator": "Térkép",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "map",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "draco-message-coins",
+      "labelEn": "Draco's message coins",
+      "labelHu": "Draco üzenetküldő érméi",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Draco reports adapting the DA communication technique; his copies are distinct from the DA's original coins and ordinary money.",
+      "searchTerms": [
+        "coins",
+        "communication",
+        "DA"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "coins",
+          "huLocator": "pénzérmé",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "communication",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "daily-prophet",
+      "labelEn": "Daily Prophet",
+      "labelHu": "Reggeli Próféta",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The newspaper reports arrests and deaths; its report is not a scene witnessed by Harry.",
+      "searchTerms": [
+        "news",
+        "report",
+        "arrest"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "event",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli Próféta",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "publication",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "weasley-clock",
+      "labelEn": "Weasley family clock",
+      "labelHu": "Weasleyék családi órája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The family's location clock now points its hands toward mortal peril.",
+      "searchTerms": [
+        "danger",
+        "family",
+        "monitor"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP5",
+          "kind": "event",
+          "enLocator": "clock",
+          "huLocator": "órá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "clock",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "harry-wand",
+      "labelEn": "Harry's holly wand",
+      "labelHu": "Harry magyalpálcája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry uses his wand in the bathroom duel; the weapon's presence does not identify every unnamed attack.",
+      "searchTerms": [
+        "wand",
+        "duel"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP24",
+          "kind": "event",
+          "enLocator": "wand",
+          "huLocator": "pálcá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "ron-new-wand",
+      "labelEn": "Ron's new wand",
+      "labelHu": "Ron új varázspálcája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron struggles to produce a silent attack during paired Defence practice.",
+      "searchTerms": [
+        "wand",
+        "nonverbal",
+        "practice"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "wand",
+          "huLocator": "pálcá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "pink-umbrella",
+      "labelEn": "Hagrid's pink umbrella",
+      "labelHu": "Hagrid rózsaszín esernyője",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hagrid produces water from the umbrella tip to help extinguish his hut.",
+      "searchTerms": [
+        "water",
+        "Aguamenti",
+        "fire"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP28",
+          "kind": "event",
+          "enLocator": "umbrella",
+          "huLocator": "esernyő",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "concealed-wand",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "firebolt",
+      "labelEn": "Firebolt",
+      "labelHu": "Tűzvillám",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry takes his broom with him as he leaves the hospital wing.",
+      "searchTerms": [
+        "flight",
+        "Quidditch"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP19",
+          "kind": "event",
+          "enLocator": "Firebolt",
+          "huLocator": "Tűzvillám",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "broom",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "standard-book-spells-six",
+      "labelEn": "The Standard Book of Spells, Grade 6",
+      "labelHu": "Varázslástan alapfokon VI",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The sixth-year textbook describes the tactical advantage of non-verbal casting; reading it is not proof of skill.",
+      "searchTerms": [
+        "nonverbal",
+        "Defence",
+        "study"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "Standard Book of Spells",
+          "huLocator": "Varázslástan alapfokon",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "spellmans-syllabary",
+      "labelEn": "Spellman's Syllabary",
+      "labelHu": "Spellman szótagképtár",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione works on the runic text while Harry continues investigating Draco.",
+      "searchTerms": [
+        "runes",
+        "study"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP24",
+          "kind": "event",
+          "enLocator": "Spellman",
+          "huLocator": "Spellman",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "poisoned-mead",
+      "labelEn": "The poisoned mead",
+      "labelHu": "A mérgezett mézbor",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The bottle intended for Dumbledore poisons Ron during his visit to Slughorn.",
+      "searchTerms": [
+        "poison",
+        "delivery",
+        "Ron"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP18",
+          "kind": "event",
+          "enLocator": "mead",
+          "huLocator": "mézbor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "drink",
+      "magicStatus": "ordinary"
+    },
+    {
+      "id": "love-potion-chocolates",
+      "labelEn": "Chocolate Cauldrons",
+      "labelHu": "Csokikondér",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron eats chocolates intended for Harry and develops potion-induced obsession.",
+      "searchTerms": [
+        "love potion",
+        "consent",
+        "Ron"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP18",
+          "kind": "event",
+          "enLocator": "Chocolate Cauldrons",
+          "huLocator": "Csokikondért",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "food",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "cave-potion",
+      "labelEn": "The cave basin potion",
+      "labelHu": "A barlang kőtáljának bájitala",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The basin's potion weakens and torments Dumbledore; the chapter does not disclose its recipe or a manufacturing spell.",
+      "searchTerms": [
+        "cave",
+        "basin",
+        "suffering"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP26",
+          "kind": "event",
+          "enLocator": "potion",
+          "huLocator": "bájital",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "potion",
+      "magicStatus": "demonstrated"
+    },
+    {
+      "id": "cave-goblet",
+      "labelEn": "The goblet in the cave",
+      "labelHu": "A barlang kelyhe",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Dumbledore conjures a drinking vessel to remove the basin potion; the vessel is distinct from the potion's effects.",
+      "searchTerms": [
+        "cave",
+        "drinking",
+        "potion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP26",
+          "kind": "event",
+          "enLocator": "goblet",
+          "huLocator": "kehely",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "vessel",
+      "magicStatus": "not-established"
+    },
+    {
+      "id": "elf-wine",
+      "labelEn": "The elf-made wine",
+      "labelHu": "A manókészítette bor",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Wine accompanies the post-burial conversation; no special enchantment is established for the drink.",
+      "searchTerms": [
+        "burial",
+        "hospitality",
+        "wine"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP22",
+          "kind": "event",
+          "enLocator": "wine",
+          "huLocator": "bor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "objectKind": "drink",
+      "magicStatus": "ordinary"
+    }
+  ]
+}

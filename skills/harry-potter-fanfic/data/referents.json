@@ -1,0 +1,420 @@
+[
+  {
+    "id": "person:arabella-figg",
+    "category": "person",
+    "members": [
+      {
+        "book": "PS",
+        "id": "mrs-figg",
+        "category": "person"
+      },
+      {
+        "book": "GoF",
+        "id": "arabella-figg",
+        "category": "person"
+      },
+      {
+        "book": "OotP",
+        "id": "arabella-figg",
+        "category": "person"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "person:peter-pettigrew",
+    "category": "person",
+    "members": [
+      {
+        "book": "PS",
+        "id": "scabbers",
+        "category": "animal"
+      },
+      {
+        "book": "CoS",
+        "id": "scabbers",
+        "category": "animal"
+      },
+      {
+        "book": "PoA",
+        "id": "peter-pettigrew",
+        "category": "person"
+      },
+      {
+        "book": "GoF",
+        "id": "peter-pettigrew",
+        "category": "person"
+      },
+      {
+        "book": "OotP",
+        "id": "peter-pettigrew",
+        "category": "person"
+      },
+      {
+        "book": "HBP",
+        "id": "peter-pettigrew",
+        "category": "person"
+      },
+      {
+        "book": "DH",
+        "id": "peter-pettigrew",
+        "category": "person"
+      }
+    ],
+    "availableFrom": "PoA19",
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "person:aberforth-dumbledore",
+    "category": "person",
+    "members": [
+      {
+        "book": "OotP",
+        "id": "hogs-head-barman",
+        "category": "person"
+      },
+      {
+        "book": "DH",
+        "id": "aberforth-dumbledore",
+        "category": "person"
+      }
+    ],
+    "availableFrom": "DH28",
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "place:number-four",
+    "category": "place",
+    "members": [
+      {
+        "book": "PS",
+        "id": "number-four",
+        "category": "place"
+      },
+      {
+        "book": "CoS",
+        "id": "dursley-house",
+        "category": "place"
+      },
+      {
+        "book": "PoA",
+        "id": "dursley-house",
+        "category": "place"
+      },
+      {
+        "book": "GoF",
+        "id": "dursley-house",
+        "category": "place"
+      },
+      {
+        "book": "OotP",
+        "id": "dursley-house",
+        "category": "place"
+      },
+      {
+        "book": "HBP",
+        "id": "number-four",
+        "category": "place"
+      },
+      {
+        "book": "DH",
+        "id": "number-four",
+        "category": "place"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "place:kings-cross",
+    "category": "place",
+    "members": [
+      {
+        "book": "PS",
+        "id": "kings-cross",
+        "category": "place"
+      },
+      {
+        "book": "CoS",
+        "id": "kings-cross",
+        "category": "place"
+      },
+      {
+        "book": "PoA",
+        "id": "kings-cross",
+        "category": "place"
+      },
+      {
+        "book": "GoF",
+        "id": "king-cross",
+        "category": "place"
+      },
+      {
+        "book": "OotP",
+        "id": "kings-cross",
+        "category": "place"
+      },
+      {
+        "book": "DH",
+        "id": "kings-cross",
+        "category": "place"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "place:hagrids-hut",
+    "category": "place",
+    "members": [
+      {
+        "book": "PS",
+        "id": "hagrids-hut",
+        "category": "place"
+      },
+      {
+        "book": "CoS",
+        "id": "hagrids-hut",
+        "category": "place"
+      },
+      {
+        "book": "PoA",
+        "id": "hagrids-hut",
+        "category": "place"
+      },
+      {
+        "book": "GoF",
+        "id": "hagrid-hut",
+        "category": "place"
+      },
+      {
+        "book": "OotP",
+        "id": "hagrid-hut",
+        "category": "place"
+      },
+      {
+        "book": "HBP",
+        "id": "hagrids-hut",
+        "category": "place"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "place:headmaster-office",
+    "category": "place",
+    "members": [
+      {
+        "book": "CoS",
+        "id": "dumbledore-office",
+        "category": "place"
+      },
+      {
+        "book": "GoF",
+        "id": "headmaster-office",
+        "category": "place"
+      },
+      {
+        "book": "OotP",
+        "id": "dumbledore-office",
+        "category": "place"
+      },
+      {
+        "book": "HBP",
+        "id": "dumbledore-office",
+        "category": "place"
+      },
+      {
+        "book": "DH",
+        "id": "headmaster-office",
+        "category": "place"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "place:hogwarts-lake",
+    "category": "place",
+    "members": [
+      {
+        "book": "PS",
+        "id": "lake",
+        "category": "place"
+      },
+      {
+        "book": "PoA",
+        "id": "hogwarts-lake",
+        "category": "place"
+      },
+      {
+        "book": "GoF",
+        "id": "lake",
+        "category": "place"
+      },
+      {
+        "book": "OotP",
+        "id": "hogwarts-lake",
+        "category": "place"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "spell:expecto-patronum",
+    "category": "spell",
+    "members": [
+      {
+        "book": "PoA",
+        "id": "patronus-charm",
+        "category": "spell"
+      },
+      {
+        "book": "GoF",
+        "id": "patronus-charm",
+        "category": "spell"
+      },
+      {
+        "book": "OotP",
+        "id": "expecto-patronum",
+        "category": "spell"
+      },
+      {
+        "book": "DH",
+        "id": "expecto-patronum",
+        "category": "spell"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "spell:avada-kedavra",
+    "category": "spell",
+    "members": [
+      {
+        "book": "PS",
+        "id": "avada-kedavra",
+        "category": "spell"
+      },
+      {
+        "book": "GoF",
+        "id": "killing-curse",
+        "category": "spell"
+      },
+      {
+        "book": "OotP",
+        "id": "avada-kedavra",
+        "category": "spell"
+      },
+      {
+        "book": "HBP",
+        "id": "avada-kedavra",
+        "category": "spell"
+      },
+      {
+        "book": "DH",
+        "id": "avada-kedavra",
+        "category": "spell"
+      }
+    ],
+    "availableFrom": "GoF14",
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "spell:crucio",
+    "category": "spell",
+    "members": [
+      {
+        "book": "GoF",
+        "id": "cruciatus-curse",
+        "category": "spell"
+      },
+      {
+        "book": "OotP",
+        "id": "crucio",
+        "category": "spell"
+      },
+      {
+        "book": "HBP",
+        "id": "crucio",
+        "category": "spell"
+      },
+      {
+        "book": "DH",
+        "id": "crucio",
+        "category": "spell"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "spell:protego",
+    "category": "spell",
+    "members": [
+      {
+        "book": "GoF",
+        "id": "shield-charm",
+        "category": "spell"
+      },
+      {
+        "book": "OotP",
+        "id": "protego",
+        "category": "spell"
+      },
+      {
+        "book": "HBP",
+        "id": "protego",
+        "category": "spell"
+      },
+      {
+        "book": "DH",
+        "id": "protego",
+        "category": "spell"
+      }
+    ],
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "object:deluminator",
+    "category": "object",
+    "members": [
+      {
+        "book": "PS",
+        "id": "put-outer",
+        "category": "object"
+      },
+      {
+        "book": "OotP",
+        "id": "put-outer",
+        "category": "object"
+      },
+      {
+        "book": "DH",
+        "id": "deluminator",
+        "category": "object"
+      }
+    ],
+    "availableFrom": "DH7",
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  },
+  {
+    "id": "object:slytherin-locket",
+    "category": "object",
+    "members": [
+      {
+        "book": "OotP",
+        "id": "black-house-locket",
+        "category": "object"
+      },
+      {
+        "book": "HBP",
+        "id": "slytherin-locket",
+        "category": "object"
+      },
+      {
+        "book": "DH",
+        "id": "slytherin-locket",
+        "category": "object"
+      }
+    ],
+    "availableFrom": "DH10",
+    "scope": "Author identity link; retain each book record, evidence, properties and scene knowledge limits. A later name is not earlier character knowledge."
+  }
+]

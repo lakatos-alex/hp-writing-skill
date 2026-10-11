@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "book": "DH",
+  "policyVersion": 2,
+  "sourceManifests": {
+    "en": "data/source-coverage.json",
+    "hu": "data/source-coverage-hu.json"
+  },
+  "chapters": [
+    {
+      "anchor": "DH1",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH2",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH3",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH4",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH5",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH6",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH7",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH8",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH9",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH10",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH11",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH12",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH13",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH14",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH15",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH16",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH17",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH18",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH19",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH20",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH21",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH22",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH23",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH24",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH25",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH26",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH27",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH28",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH29",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH30",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH31",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH32",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH33",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH34",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH35",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH36",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "DH-epilogue",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    }
+  ],
+  "categoryCounts": {
+    "characters": 118,
+    "magic": 39,
+    "places": 41,
+    "objects": 42,
+    "terms": 0,
+    "facts": 0
+  },
+  "candidateDisposition": {
+    "pending": 0,
+    "accepted": 240,
+    "merged": 0,
+    "excluded": 0,
+    "unresolved": 0
+  },
+  "reviewDate": "2026-10-11",
+  "limitations": [
+    "Curated identities, significant places, notable objects and identified human spell families; not an exhaustive list of every noun or physical cast.",
+    "All chapters represented by contextual evidence. Independent full-book semantic and editorial reading remains incomplete.",
+    "Descriptions can include later revelations; chapter filters locate whole records and do not impose viewpoint knowledge cutoffs.",
+    "Missing spoken words do not prove non-verbal casting. Unidentified attacks, object operation, Apparition, innate abilities and potion effects are outside spell results.",
+    "Ordinary objects remain explicitly ordinary; inclusion does not establish enchantment.",
+    "Hungarian primary transcription has degraded diacritics. Literal Hungarian locators do not certify orthography; verify uncertain wording against the original PDF edition."
+  ],
+  "retrievalPass": {
+    "policyVersion": 2,
+    "state": "complete",
+    "scope": "Scoped typed inventory across all primary chapter anchors.",
+    "chapterAnchors": [
+      "DH1",
+      "DH2",
+      "DH3",
+      "DH4",
+      "DH5",
+      "DH6",
+      "DH7",
+      "DH8",
+      "DH9",
+      "DH10",
+      "DH11",
+      "DH12",
+      "DH13",
+      "DH14",
+      "DH15",
+      "DH16",
+      "DH17",
+      "DH18",
+      "DH19",
+      "DH20",
+      "DH21",
+      "DH22",
+      "DH23",
+      "DH24",
+      "DH25",
+      "DH26",
+      "DH27",
+      "DH28",
+      "DH29",
+      "DH30",
+      "DH31",
+      "DH32",
+      "DH33",
+      "DH34",
+      "DH35",
+      "DH36",
+      "DH-epilogue"
+    ],
+    "reviewMethod": "Selected paired passages and explicit inclusion decisions; no independent full-book review claimed.",
+    "sourceHashes": {
+      "en": "3ef9ec776f8e31f08f52dfd582abc532f832fe52e2ece8da026ba4e651238481",
+      "hu": "63cbbd57b94335909bd8310b17455484ac6a913c43861bd69e7dbf92e2feb119"
+    }
+  }
+}

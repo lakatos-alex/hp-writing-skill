@@ -111,6 +111,10 @@ export function validateBookKnowledge(base = ROOT, book = 'PS') {
       }
       check(occurrence.practitionerIds?.length && occurrence.practitionerIds.every(id => characters.entries.some(c => c.id === id && c.entityKind === 'human')), `Spell needs human caster: ${entry.id}`);
       check(['spoken','non-verbal','unreported'].includes(occurrence.vocalisation), `Invalid vocalisation: ${entry.id}`);
+      if (occurrence.vocalisationByLanguage) {
+        check(Object.keys(occurrence.vocalisationByLanguage).length === 2 && ['en','hu'].every(lang => ['spoken','non-verbal','unreported'].includes(occurrence.vocalisationByLanguage[lang])), `Invalid edition vocalisation: ${entry.id}`);
+        check(!Object.values(occurrence.vocalisationByLanguage).includes('non-verbal') || occurrence.nonVerbalEvidence?.length, `Silent edition claim needs evidence: ${entry.id}`);
+      }
       check(['used','not-used','unreported'].includes(occurrence.wand), `Invalid wand status: ${entry.id}`);
       if (occurrence.vocalisation === 'non-verbal') {
         evidence(occurrence.nonVerbalEvidence, `Non-verbal identification ${entry.id}`, characterIds, anchors);

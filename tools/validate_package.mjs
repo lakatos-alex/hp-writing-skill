@@ -57,6 +57,23 @@ try {
     check(f.verification.status==='passage-checked' && f.verification.locator,`Missing evidence status: ${f.id}`);
   }
   execFileSync(process.execPath,[path.join(ROOT,'tools','validate_book_knowledge.mjs')],{cwd:ROOT,stdio:'pipe'});
+  const referents=JSON.parse(fs.readFileSync(path.join(SKILL,'data/referents.json'),'utf8'));
+  check(new Set(referents.map(r=>r.id)).size===referents.length,'Duplicate shared referent');
+  const memberships=new Set();
+  for(const r of referents) {
+    check(r.id===`${r.category}:${r.id.split(':')[1]}` && ['person','place','object','spell'].includes(r.category) && r.members?.length && r.scope,'Invalid shared referent');
+    check(!r.availableFrom || anchors.has(r.availableFrom),'Invalid identity knowledge anchor');
+    for(const m of r.members) {
+      const category=m.category ?? r.category;
+      const file={person:'characters',animal:'characters',place:'places',object:'objects',spell:'magic'}[category];
+      check(file && chapters.some(c=>c.book===m.book),'Invalid identity member category/book');
+      const entries=JSON.parse(fs.readFileSync(path.join(SKILL,`data/books/${m.book.toLowerCase()}/${file}.json`),'utf8')).entries;
+      const e=entries.find(e=>e.id===m.id);
+      check(e && (category!=='animal' || e.entityKind==='animal'),'Missing identity member');
+      const key=`${m.book}:${category}:${m.id}`;
+      check(!memberships.has(key),'Identity member mapped twice'); memberships.add(key);
+    }
+  }
   for(const file of files) {
     const rel=path.relative(ROOT,file);
     check(!/\.(epub|pdf|mobi|azw3?|zip|tgz)$/i.test(file)&&!file.endsWith('.local.json'),`Private or generated payload: ${rel}`);

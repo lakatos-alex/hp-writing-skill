@@ -3,6 +3,25 @@
 Release history for `harry-potter-fanfic`. Counts describe the data included in
 each release; they do not measure literary quality or independent reading.
 
+## 1.0.0 — 2026-10-11
+
+All seven core novels now have typed character, spell, place and object
+inventories: 1756 per-book records across 199 chapter anchors. Book-scoped
+glossary lookup supports every core book, and `semantic --book all` connects
+shared referents while preserving book evidence and knowledge limits.
+
+HBP includes positive silent-casting evidence and edition-specific vocalisation.
+DH adds wand allegiance, Hallows, Horcrux and battle references, including the
+epilogue. Its degraded Hungarian transcription is labelled and excluded from
+spelling replacement suggestions. Editorial labels are also excluded from lint.
+Two focused fact cards address gaps observed in the earlier blind comparison;
+the concise router now describes one common seven-book interface.
+
+Independent full-book reading remains incomplete. New tests were explicitly
+deferred; the earlier writing comparison does not evaluate these additions.
+See the [release notes](docs/releases/v1.0.0.md) and
+[milestone review](docs/core-books-milestone.md).
+
 ## 0.4.2 — 2026-10-11
 
 Reference CLI output now defaults to English. A project-local `.hp-writing.json`

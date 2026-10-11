@@ -1354,5 +1354,77 @@
       }
     },
     "claim": "The chapter records Hermione becomes Harry and Ron’s friend."
+  },
+  {
+    "id": "prince-spell-authorship",
+    "topics": [
+      "Prince",
+      "Half-Blood Prince",
+      "Snape",
+      "authorship",
+      "inventor",
+      "spells"
+    ],
+    "kind": "testimony",
+    "claim": "Snape identifies himself as the Half-Blood Prince and claims authorship of the spells Harry has used from the annotated textbook.",
+    "anchors": [
+      "HBP28"
+    ],
+    "limits": "This identity is revealed at HBP28. An earlier ownership note or successful spell does not give Harry that knowledge. Authorship does not make every annotation safe.",
+    "evidence": [
+      {
+        "anchor": "HBP28",
+        "kind": "testimony",
+        "enLocator": "Half-Blood Prince",
+        "huLocator": "Félvér Herceg",
+        "scope": "Snape explicitly identifies himself and claims authorship; disclosed at HBP28.",
+        "status": "paired-context-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-11",
+      "locator": "Half-Blood Prince"
+    }
+  },
+  {
+    "id": "non-verbal-casting-evidence",
+    "topics": [
+      "non-verbal",
+      "nonverbal",
+      "silent",
+      "spoken",
+      "Defence",
+      "practice"
+    ],
+    "kind": "event",
+    "claim": "In the sixth-year Defence exercise, Hermione repels Neville's jinx silently. Harry shouts his successful Shield Charm and fails the instruction to cast without speaking.",
+    "anchors": [
+      "HBP9"
+    ],
+    "limits": "Silence requires positive evidence and an identified spell. A whispered formula is spoken; omitted words alone do not establish non-verbal casting. Classroom success is not universal battle competence.",
+    "evidence": [
+      {
+        "anchor": "HBP9",
+        "kind": "event",
+        "enLocator": "Protego",
+        "huLocator": "Protego",
+        "scope": "Harry shouts the Shield Charm when Snape attacks; this successful defence fails the silent-casting instruction.",
+        "status": "paired-context-reviewed"
+      },
+      {
+        "anchor": "HBP9",
+        "kind": "event",
+        "enLocator": "without uttering a single word",
+        "huLocator": "teljesen némán",
+        "scope": "Hermione silently repels Neville's muttered Jelly-Legs Jinx during the identified Shield Charm exercise.",
+        "status": "paired-context-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-11",
+      "locator": "Protego"
+    }
   }
 ]

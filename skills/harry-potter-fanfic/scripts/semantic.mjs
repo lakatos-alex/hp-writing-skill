@@ -5,7 +5,13 @@ import { fileURLToPath } from 'node:url';
 
 const dataRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data/books');
 const categories = {characters:'person', magic:'spell', places:'place', objects:'object'};
-export const knowledgeBooks = {PS:17, CoS:18, PoA:22, GoF:37, OotP:38};
+export const knowledgeBooks = {PS:17, CoS:18, PoA:22, GoF:37, OotP:38, HBP:30, DH:37};
+const referents = JSON.parse(fs.readFileSync(path.join(dataRoot, '../referents.json'), 'utf8'));
+function identity(entry, book) {
+  const link = referents.find(r => r.members.some(m => (m.category ?? r.category) === entry.category && m.book === book && m.id === entry.id));
+  return {...entry,book,referentId:link?.id ?? `${entry.category}:${entry.id}`,
+    ...(link?.availableFrom ? {identityAvailableFrom:link.availableFrom} : {})};
+}
 export const fold = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
   .replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const tokens = value => fold(value).split(' ').filter(Boolean);
@@ -50,10 +56,11 @@ function number(value, fallback, minimum = 0) {
   return n;
 }
 export function loadKnowledge(book = 'PS', directory = dataRoot) {
+  if (book === 'all') return Object.keys(knowledgeBooks).flatMap(code => loadKnowledge(code,directory));
   if (!Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book knowledge: ${book}`);
   return Object.entries(categories).flatMap(([file,category]) => {
     const data = JSON.parse(fs.readFileSync(path.join(directory, book.toLowerCase(), `${file}.json`), 'utf8'));
-    return data.entries.map(entry => ({...entry, category:entry.entityKind === 'animal' ? 'animal' : category}));
+    return data.entries.map(entry => identity({...entry, category:entry.entityKind === 'animal' ? 'animal' : category},book));
   });
 }
 function evidenceAnchors(entry) {
@@ -87,7 +94,7 @@ function rank(entry, query) {
 }
 export function semanticSearch(options = {}, entries = loadKnowledge(options.book ?? 'PS')) {
   const book = options.book ?? 'PS';
-  if (!Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book knowledge: ${book}`);
+  if (book !== 'all' && !Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book knowledge: ${book}`);
   if (options.id && options.query != null) throw Error('--id and --query cannot be combined');
   if (options.query != null && !options.query.trim()) throw Error('--query must not be empty');
   const intentWords = {object:['object','objects','targy','targyak'],spell:['spell','spells','varazslat','varazslatok'],person:['person','people','ember','emberek'],place:['place','places','hely','helyek']};
@@ -97,21 +104,23 @@ export function semanticSearch(options = {}, entries = loadKnowledge(options.boo
   if (!options.category && intents.length === 0 && queryWords.includes('who')) options = {...options,category:'person'};
   if (!options.category && intents.length === 0 && queryWords.includes('where')) options = {...options,category:'place'};
   if (options.category && !['person','animal','place','object','spell'].includes(options.category)) throw Error(`Unknown semantic category: ${options.category}`);
-  const anchorNumber = options.anchor?.startsWith(book) ? options.anchor.slice(book.length) : '';
-  if (options.anchor && (!/^[1-9]\d*$/.test(anchorNumber) || Number(anchorNumber) > knowledgeBooks[book])) throw Error(`Invalid ${book} anchor: ${options.anchor}`);
+  const anchorBook = book === 'all' ? Object.keys(knowledgeBooks).find(code => options.anchor?.startsWith(code)) : book;
+  const anchorNumber = options.anchor?.startsWith(anchorBook) ? options.anchor.slice(anchorBook.length) : '';
+  const epilogue = anchorBook === 'DH' && options.anchor === 'DH-epilogue';
+  if (options.anchor && !epilogue && (!/^[1-9]\d*$/.test(anchorNumber) || Number(anchorNumber) > (anchorBook === 'DH' ? 36 : knowledgeBooks[anchorBook]))) throw Error(`Invalid ${book} anchor: ${options.anchor}`);
   if (options['magic-status'] && !['demonstrated','ordinary','not-established'].includes(options['magic-status'])) throw Error('Invalid --magic-status');
   if (options['magic-status'] && options.category !== 'object') throw Error('--magic-status requires object category');
   if (options.kind && !entries.some(entry => (entry.entityKind ?? entry.placeKind ?? entry.objectKind ?? entry.kind) === options.kind)) throw Error(`Unknown entity kind: ${options.kind}`);
   const offset = number(options.offset,0), limit = number(options.limit,10,1);
-  const ranked = entries.filter(entry => (!options.id || entry.id === options.id)
+  const ranked = entries.filter(entry => (!options.id || entry.id === options.id || entry.referentId === options.id)
     && (!options.category || entry.category === options.category)
     && (!options.anchor || evidenceAnchors(entry).includes(options.anchor))
     && (!options.kind || (entry.entityKind ?? entry.placeKind ?? entry.objectKind ?? entry.kind) === options.kind)
     && (!options['magic-status'] || entry.magicStatus === options['magic-status']))
     .map(entry => ({entry,match:rank(entry,options.query)})).filter(item => item.match)
-    .sort((a,b) => b.match.score-a.match.score || a.entry.id.localeCompare(b.entry.id,'en'));
+    .sort((a,b) => b.match.score-a.match.score || a.entry.id.localeCompare(b.entry.id,'en') || Object.keys(knowledgeBooks).indexOf(a.entry.book)-Object.keys(knowledgeBooks).indexOf(b.entry.book));
   return {book, method:'curated aliases and bilingual concepts; deterministic ranking, no embeddings',
-    scope:'Whole-book records may include later revelations. An anchor filters evidence matches, not viewpoint knowledge. Missing results indicate inventory/query limits, not canon absence.',
+    scope:'Whole-book records may include later revelations. An anchor filters evidence matches, not viewpoint knowledge. Shared referent IDs connect records without merging their book evidence or properties. Missing results indicate inventory/query limits, not canon absence.',
     total:ranked.length,offset,nextOffset:offset+limit<ranked.length?offset+limit:null,
     entries:ranked.slice(offset,offset+limit).map(({entry,match}) => ({...entry,retrieval:{...match,anchors:evidenceAnchors(entry)}}))};
 }

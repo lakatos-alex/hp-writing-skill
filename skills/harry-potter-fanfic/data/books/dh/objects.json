@@ -1,0 +1,1393 @@
+{
+  "schemaVersion": 1,
+  "book": "DH",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "elder-wand",
+      "labelEn": "Elder Wand",
+      "labelHu": "Bodzapálca",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ollivander and Harry distinguish the Elder Wand's physical possession from its allegiance.",
+      "searchTerms": [
+        "Hallows",
+        "allegiance",
+        "wand"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH24",
+          "kind": "event",
+          "enLocator": "Elder Wand",
+          "huLocator": "Tekintelyes palca",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "resurrection-stone",
+      "labelEn": "Resurrection Stone",
+      "labelHu": "Feltámadás Köve",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry turns the Stone to receive company from the dead; it does not restore them to ordinary life.",
+      "searchTerms": [
+        "Hallows",
+        "death",
+        "return"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH34",
+          "kind": "event",
+          "enLocator": "Resurrection Stone",
+          "huLocator": "Feltamasztas",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "stone",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "invisibility-cloak",
+      "labelEn": "Invisibility Cloak",
+      "labelHu": "Láthatatlanná tévő köpeny",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Hallows tale includes a cloak; Harry's inherited cloak is subsequently assessed against that story.",
+      "searchTerms": [
+        "Hallows",
+        "concealment",
+        "inheritance"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH21",
+          "kind": "event",
+          "enLocator": "Cloak",
+          "huLocator": "kopeny",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "gryffindor-sword",
+      "labelEn": "Gryffindor's sword",
+      "labelHu": "Griffendél Godrik kardja",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The sword retrieved from the pond destroys the locket because it has absorbed basilisk venom.",
+      "searchTerms": [
+        "Horcrux",
+        "venom",
+        "goblin",
+        "ownership"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH19",
+          "kind": "event",
+          "enLocator": "sword",
+          "huLocator": "kard",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "weapon",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "slytherin-locket",
+      "labelEn": "Slytherin's locket",
+      "labelHu": "Mardekár medálja",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The opened locket manifests fears and is destroyed by Ron; wearing it earlier burdens the fugitives.",
+      "searchTerms": [
+        "Horcrux",
+        "burden",
+        "fear"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH19",
+          "kind": "event",
+          "enLocator": "locket",
+          "huLocator": "medal",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "rab-locket",
+      "labelEn": "The R.A.B. substitute locket",
+      "labelHu": "A R.A.B. feljegyzését rejtő medál",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry gives the substitute locket to Kreacher as a keepsake of Regulus; it is not a Horcrux.",
+      "searchTerms": [
+        "Regulus",
+        "gift",
+        "RAB"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH10",
+          "kind": "event",
+          "enLocator": "locket",
+          "huLocator": "medal",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "hufflepuff-cup",
+      "labelEn": "Hufflepuff's cup",
+      "labelHu": "Hugrabug pohara",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The cup is recovered from the Lestrange vault and later destroyed with a basilisk fang.",
+      "searchTerms": [
+        "Horcrux",
+        "Gringotts",
+        "basilisk"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH26",
+          "kind": "event",
+          "enLocator": "cup",
+          "huLocator": "pohar",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "vessel",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "ravenclaw-diadem",
+      "labelEn": "Ravenclaw's diadem",
+      "labelHu": "Hollóhát diadémja",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The hidden diadem is found among stored objects and destroyed in Crabbe's Fiendfyre.",
+      "searchTerms": [
+        "Horcrux",
+        "Ravenclaw",
+        "fire"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH31",
+          "kind": "event",
+          "enLocator": "diadem",
+          "huLocator": "diadem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "marvolo-gaunt-ring",
+      "labelEn": "Marvolo Gaunt's ring",
+      "labelHu": "Rowle Gomold gyűrűje",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape's memory shows Dumbledore's cursed hand and the ring; the Stone's later role is a separate revelation.",
+      "searchTerms": [
+        "Horcrux",
+        "curse",
+        "Stone"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH33",
+          "kind": "event",
+          "enLocator": "ring",
+          "huLocator": "gyűrű",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "jewellery",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "riddles-diary",
+      "labelEn": "Tom Riddle's diary",
+      "labelHu": "Tom Denem naplója",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The friends discuss the diary as a previously destroyed Horcrux; it is not a fresh physical object in their camp.",
+      "searchTerms": [
+        "Horcrux",
+        "history",
+        "destruction"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH6",
+          "kind": "event",
+          "enLocator": "diary",
+          "huLocator": "naplo",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "basilisk-fang",
+      "labelEn": "Basilisk fang",
+      "labelHu": "Baziliskus méregfoga",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron and Hermione recover the fangs as Horcrux-destroying tools, rather than casting a destruction spell.",
+      "searchTerms": [
+        "venom",
+        "Horcrux",
+        "destruction"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH31",
+          "kind": "event",
+          "enLocator": "fangs",
+          "huLocator": "Baziliszkus fogak",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "weapon",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "sorting-hat",
+      "labelEn": "Sorting Hat",
+      "labelHu": "Teszlek Süveg",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Voldemort sets the Hat on Neville; Neville later draws the sword from it.",
+      "searchTerms": [
+        "Sorting",
+        "sword",
+        "Neville"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH36",
+          "kind": "event",
+          "enLocator": "Sorting Hat",
+          "huLocator": "tes",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "snitch-bequest",
+      "labelEn": "Dumbledore's Snitch bequest",
+      "labelHu": "Dumbledore cikeszhagyatéka",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The bequeathed Snitch recognizes first touch and later opens for Harry before the forest walk.",
+      "searchTerms": [
+        "bequest",
+        "Stone",
+        "first touch"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH7",
+          "kind": "event",
+          "enLocator": "Snitch",
+          "huLocator": "cikesz",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "ball",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "deluminator",
+      "labelEn": "Deluminator",
+      "labelHu": "Önoltó",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore leaves Ron the light-taking device; its later guiding function brings Ron back.",
+      "searchTerms": [
+        "bequest",
+        "return",
+        "light"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH7",
+          "kind": "event",
+          "enLocator": "Deluminator",
+          "huLocator": "kiolt",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "device",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "beedle-book",
+      "labelEn": "The Tales of Beedle the Bard",
+      "labelHu": "Bogar bárd meséi",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The bequeathed tale book carries the Hallows symbol; reading the story does not prove every detail literally happened.",
+      "searchTerms": [
+        "bequest",
+        "Hallows",
+        "tale"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH7",
+          "kind": "event",
+          "enLocator": "Beedle",
+          "huLocator": "Beedle",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "hermione-beaded-bag",
+      "labelEn": "Hermione's beaded bag",
+      "labelHu": "Hermione gyöngyös táskája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione's small bag contains expanded storage for clothes, books and camping supplies.",
+      "searchTerms": [
+        "extension",
+        "storage",
+        "planning"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH9",
+          "kind": "event",
+          "enLocator": "beaded handbag",
+          "huLocator": "gyongyberakasos",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "bag",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "perkins-tent",
+      "labelEn": "Perkins's tent",
+      "labelHu": "Perkins sátra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The borrowed tent provides shelter; it does not remove the need for food and concealment.",
+      "searchTerms": [
+        "camp",
+        "supplies",
+        "borrowed"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH14",
+          "kind": "event",
+          "enLocator": "tent",
+          "huLocator": "sator",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "shelter",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "two-way-mirror",
+      "labelEn": "Sirius's two-way mirror",
+      "labelHu": "Oda-vissza ikertükör",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Aberforth explains the matching mirror and the route by which he observed Harry's peril.",
+      "searchTerms": [
+        "mirror",
+        "knowledge",
+        "rescue"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH28",
+          "kind": "event",
+          "enLocator": "mirror",
+          "huLocator": "tukor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "communication",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "mirror-shard",
+      "labelEn": "Harry's broken mirror shard",
+      "labelHu": "Harry törött tükrének szilánkja",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry preserves the broken fragment; the blue eye is not proof of Dumbledore's living return.",
+      "searchTerms": [
+        "mirror",
+        "fragment",
+        "identity"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH2",
+          "kind": "event",
+          "enLocator": "mirror",
+          "huLocator": "tukor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "communication",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "moody-magical-eye",
+      "labelEn": "Moody's magical eye",
+      "labelHu": "Mordon varázsszeme",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Umbridge uses Moody's eye for surveillance; Harry takes it and later buries it.",
+      "searchTerms": [
+        "surveillance",
+        "Moody",
+        "burial"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH13",
+          "kind": "event",
+          "enLocator": "eye",
+          "huLocator": "szem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "prosthesis",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "harry-wand",
+      "labelEn": "Harry's holly wand",
+      "labelHu": "Harry magyalpálcája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's holly wand breaks during the escape from Bathilda's house; he later repairs it with the Elder Wand.",
+      "searchTerms": [
+        "break",
+        "repair",
+        "allegiance"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH17",
+          "kind": "event",
+          "enLocator": "wand",
+          "huLocator": "palca",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "draco-wand",
+      "labelEn": "Draco's hawthorn wand",
+      "labelHu": "Draco galagonyapálcája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry has taken Draco's hawthorn wand; Ollivander discusses its possible changed allegiance.",
+      "searchTerms": [
+        "allegiance",
+        "Draco",
+        "disarm"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH24",
+          "kind": "event",
+          "enLocator": "Hawthorn",
+          "huLocator": "Galagonya",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "bellatrix-wand",
+      "labelEn": "Bellatrix's walnut wand",
+      "labelHu": "Bellatrix diópálcája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione uses the captured walnut wand uneasily; possession does not guarantee willing service.",
+      "searchTerms": [
+        "allegiance",
+        "Hermione",
+        "unease"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH24",
+          "kind": "event",
+          "enLocator": "Walnut",
+          "huLocator": "dio",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "lucius-wand",
+      "labelEn": "Lucius's wand",
+      "labelHu": "Lucius pálcája",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Voldemort takes Lucius's wand to avoid the shared-core problem, but his assumption does not solve every resistance.",
+      "searchTerms": [
+        "borrow",
+        "core",
+        "coercion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH1",
+          "kind": "event",
+          "enLocator": "wand",
+          "huLocator": "palca",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "voldemort-wand",
+      "labelEn": "Voldemort's yew wand",
+      "labelHu": "Voldemort tiszafapálcája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Voldemort's original yew wand is distinct from the borrowed weapon in the escape.",
+      "searchTerms": [
+        "core",
+        "wand",
+        "identity"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH4",
+          "kind": "event",
+          "enLocator": "wand",
+          "huLocator": "palca",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "wand",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "polyjuice-potion",
+      "labelEn": "Polyjuice Potion",
+      "labelHu": "Százfűlé-főzet",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The decoys change appearance before the flight; taking the potion is not a human spell cast.",
+      "searchTerms": [
+        "disguise",
+        "identity",
+        "decoy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH4",
+          "kind": "event",
+          "enLocator": "Polyjuice",
+          "huLocator": "Szazfű",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "potion",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "flying-motorbike",
+      "labelEn": "Flying motorbike",
+      "labelHu": "Repülő motorkerékpár",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hagrid uses the modified motorbike for Harry's escape; its operation is an object effect.",
+      "searchTerms": [
+        "flight",
+        "escape",
+        "transport"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH4",
+          "kind": "event",
+          "enLocator": "motorbike",
+          "huLocator": "motor",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "vehicle",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "decoy-detonator",
+      "labelEn": "Decoy Detonator",
+      "labelHu": "Csalizajgép",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry uses diversion devices during the Ministry intrusion.",
+      "searchTerms": [
+        "noise",
+        "Ministry",
+        "escape"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH13",
+          "kind": "event",
+          "enLocator": "Decoy Detonators",
+          "huLocator": "csalizaj",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "diversion",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "da-galleons",
+      "labelEn": "D.A. enchanted Galleons",
+      "labelHu": "A D.S. elvarázsolt galleonjai",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The coins summon DA supporters; ordinary money is a separate referent.",
+      "searchTerms": [
+        "DA",
+        "message",
+        "coin"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH29",
+          "kind": "event",
+          "enLocator": "Galleon",
+          "huLocator": "Galleon",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "communication",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "snape-memories",
+      "labelEn": "Snape's final memories",
+      "labelHu": "Piton utolsó emlékei",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry views the memories Snape supplied at his death; knowledge arises from that viewing rather than earlier suspicion.",
+      "searchTerms": [
+        "Snape",
+        "provenance",
+        "knowledge"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH33",
+          "kind": "event",
+          "enLocator": "memories",
+          "huLocator": "emlek",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "stored-memory",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "pensieve",
+      "labelEn": "Pensieve",
+      "labelHu": "Merengő",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry uses the Pensieve to enter the provided memories.",
+      "searchTerms": [
+        "memory",
+        "evidence"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH33",
+          "kind": "event",
+          "enLocator": "Pensieve",
+          "huLocator": "merengő",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "memory-tool",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "life-lies-dumbledore",
+      "labelEn": "The Life and Lies of Albus Dumbledore",
+      "labelHu": "Albus Dumbledore élete és hazugságai",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Rita's biography includes documentary evidence and hostile claims, which must be distinguished.",
+      "searchTerms": [
+        "biography",
+        "claims",
+        "source criticism"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH18",
+          "kind": "event",
+          "enLocator": "Life and Lies",
+          "huLocator": "Élete",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "daily-prophet",
+      "labelEn": "Daily Prophet",
+      "labelHu": "Reggeli Próféta",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Published obituaries and allegations shape Harry's uncertainty about Dumbledore.",
+      "searchTerms": [
+        "news",
+        "claim",
+        "history"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH2",
+          "kind": "event",
+          "enLocator": "Daily Prophet",
+          "huLocator": "Reggeli",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "publication",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "the-quibbler",
+      "labelEn": "The Quibbler",
+      "labelHu": "Hírverő",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Xenophilius's resistance publication is compromised when Luna is taken hostage.",
+      "searchTerms": [
+        "news",
+        "hostage",
+        "coercion"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH20",
+          "kind": "event",
+          "enLocator": "Quibbler",
+          "huLocator": "Hírverő",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "publication",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "potterwatch-radio",
+      "labelEn": "Potterwatch radio",
+      "labelHu": "Potterfigyelő rádió",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The underground radio offers news and warnings using passwords; its speakers have limited evidence.",
+      "searchTerms": [
+        "news",
+        "radio",
+        "password"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH22",
+          "kind": "event",
+          "enLocator": "Potterwatch",
+          "huLocator": "Potterfigyeles",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "communication",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "wormtail-silver-hand",
+      "labelEn": "Wormtail's silver hand",
+      "labelHu": "Féregfark ezüstkeze",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The bestowed hand kills Wormtail after his hesitation; it is not an independent human casting.",
+      "searchTerms": [
+        "Wormtail",
+        "debt",
+        "death"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH23",
+          "kind": "event",
+          "enLocator": "silver hand",
+          "huLocator": "ezust",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "prosthesis",
+      "magicStatus": "demonstrated",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "bellatrix-knife",
+      "labelEn": "Bellatrix's knife",
+      "labelHu": "Bellatrix kése",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Bellatrix throws a knife during the escape and fatally wounds Dobby; the knife's enchantment is not established.",
+      "searchTerms": [
+        "Dobby",
+        "injury",
+        "escape"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH23",
+          "kind": "event",
+          "enLocator": "knife",
+          "huLocator": "kes",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "weapon",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "bank-clankers",
+      "labelEn": "Bank Clankers",
+      "labelHu": "A bank sárkányt terelő csörömpölői",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The bank equipment controls the dragon through conditioned fear of painful punishment.",
+      "searchTerms": [
+        "dragon",
+        "conditioning",
+        "bank"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH26",
+          "kind": "event",
+          "enLocator": "Clankers",
+          "huLocator": "csorompolő",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "device",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "magic-might-statue",
+      "labelEn": "Magic Is Might statue",
+      "labelHu": "A Mágia a hatalom szobra",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The new Ministry sculpture depicts Muggles crushed beneath a ruling structure.",
+      "searchTerms": [
+        "Ministry",
+        "propaganda",
+        "domination"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH12",
+          "kind": "event",
+          "enLocator": "MAGIC IS MIGHT",
+          "huLocator": "Magia",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "sculpture",
+      "magicStatus": "not-established",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "spattergroit-disguise",
+      "labelEn": "Ron's illness-cover clothing for the ghoul",
+      "labelHu": "Ron betegségét leplező öltözet a szellemen",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The family dresses the ghoul to support Ron's illness cover story; clothes are not themselves enchanted by that fact.",
+      "searchTerms": [
+        "cover",
+        "illness",
+        "Ron"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH6",
+          "kind": "event",
+          "enLocator": "ghoul",
+          "huLocator": "szellem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "clothing",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "luna-painted-ceiling",
+      "labelEn": "Luna's painted ceiling",
+      "labelHu": "Luna festett mennyezete",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Luna's painted portraits and linking words express friendship; no moving enchantment is established here.",
+      "searchTerms": [
+        "friendship",
+        "portrait",
+        "home"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH21",
+          "kind": "event",
+          "enLocator": "friends",
+          "huLocator": "barat",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "artwork",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "hermione-history-book",
+      "labelEn": "Secrets of the Darkest Art",
+      "labelHu": "A legsötétebb mágia titkai",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione retrieves a restricted book explaining Horcrux creation and destruction; access is not an enacted creation spell.",
+      "searchTerms": [
+        "Horcrux",
+        "destruction",
+        "research"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "DH6",
+          "kind": "event",
+          "enLocator": "Secrets of the Darkest Art",
+          "huLocator": "Legsötétebb",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed",
+          "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+        }
+      ],
+      "objectKind": "book",
+      "magicStatus": "ordinary",
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    }
+  ]
+}

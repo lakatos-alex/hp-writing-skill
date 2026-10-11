@@ -1,0 +1,3363 @@
+{
+  "schemaVersion": 1,
+  "book": "DH",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "confringo",
+      "labelEn": "Confringo",
+      "labelHu": "Confringo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry blasts the detached sidecar during the aerial attack; Hedwig is already dead inside it.",
+      "searchTerms": [
+        "blast",
+        "explosion",
+        "sidecar"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Confringo",
+        "hu": "Confringo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH4",
+            "kind": "event",
+            "enLocator": "Confringo",
+            "huLocator": "Confringo",
+            "scope": "Harry blasts the detached sidecar during the aerial attack; Hedwig is already dead inside it.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH4",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry blasts the detached sidecar during the aerial attack; Hedwig is already dead inside it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH4",
+              "kind": "event",
+              "enLocator": "Confringo",
+              "huLocator": "Confringo",
+              "scope": "Harry blasts the detached sidecar during the aerial attack; Hedwig is already dead inside it.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione blasts the room while escaping Nagini; the ricochet contributes to the damage and danger.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH17",
+              "kind": "event",
+              "enLocator": "Confringo",
+              "huLocator": "Confringo",
+              "scope": "Hermione blasts the room while escaping Nagini; the ricochet contributes to the damage and danger.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "expulso",
+      "labelEn": "Expulso",
+      "labelHu": "Expulso",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The twisted-faced attacker explodes the café table after the blond Rowle has been Stunned.",
+      "searchTerms": [
+        "blast",
+        "café",
+        "table"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Expulso",
+        "hu": "Expulso"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Expulso",
+            "huLocator": "Expulso",
+            "scope": "The twisted-faced attacker explodes the café table after the blond Rowle has been Stunned.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "antonin-dolohov"
+          ],
+          "targetIds": [],
+          "summary": "The twisted-faced attacker explodes the café table after the blond Rowle has been Stunned.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Expulso",
+              "huLocator": "Expulso",
+              "scope": "The twisted-faced attacker explodes the café table after the blond Rowle has been Stunned.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "stupefy",
+      "labelEn": "Stupefy",
+      "labelHu": "Stupor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry Stuns Rowle; his next Stunning attempt misses Dolohov and hits the fleeing waitress.",
+      "searchTerms": [
+        "stun",
+        "ambush",
+        "friendly injury"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Stupefy",
+        "hu": "Stupor"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Stupefy",
+            "huLocator": "Stupor",
+            "scope": "Harry Stuns Rowle; his next Stunning attempt misses Dolohov and hits the fleeing waitress.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry Stuns Rowle; his next Stunning attempt misses Dolohov and hits the fleeing waitress.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Stupefy",
+              "huLocator": "Stupor",
+              "scope": "Harry Stuns Rowle; his next Stunning attempt misses Dolohov and hits the fleeing waitress.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "petrificus-totalus",
+      "labelEn": "Petrificus Totalus",
+      "labelHu": "Petrificus Totalus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione immobilises Dolohov during the café fight.",
+      "searchTerms": [
+        "Petrificus Totalus",
+        "Petrificus Totalus"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Petrificus Totalus",
+        "hu": "Petrificus Totalus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Petrificus Totalus",
+            "huLocator": "Petrificus Totalus",
+            "scope": "Hermione immobilises Dolohov during the café fight.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "antonin-dolohov"
+          ],
+          "summary": "Hermione immobilises Dolohov during the café fight.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus Totalus",
+              "scope": "Hermione immobilises Dolohov during the café fight.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "obliviate",
+      "labelEn": "Obliviate",
+      "labelHu": "Exmemoriam",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione erases the café attackers' knowledge of the encounter; this is distinct from her parents' earlier identity alteration.",
+      "searchTerms": [
+        "memory",
+        "erase",
+        "privacy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Obliviate",
+        "hu": "Exmemoriam"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Obliviate",
+            "huLocator": "Exmemoriam",
+            "scope": "Hermione erases the café attackers' knowledge of the encounter; this is distinct from her parents' earlier identity alteration.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "antonin-dolohov",
+            "thorfinn-rowle"
+          ],
+          "summary": "Hermione erases the café attackers' knowledge of the encounter; this is distinct from her parents' earlier identity alteration.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Obliviate",
+              "huLocator": "Exmemoriam",
+              "scope": "Hermione erases the café attackers' knowledge of the encounter; this is distinct from her parents' earlier identity alteration.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH21",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "xenophilius-lovegood"
+          ],
+          "summary": "Hermione alters Xenophilius's memory as part of the escape while ensuring the captors can see Harry.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH21",
+              "kind": "event",
+              "enLocator": "Obliviate",
+              "huLocator": "Obliviate",
+              "scope": "Hermione alters Xenophilius's memory as part of the escape while ensuring the captors can see Harry.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition.",
+      "incantationVariants": [
+        {
+          "anchor": "DH9",
+          "en": "Obliviate",
+          "hu": "Exmemoriam",
+          "sourceQuality": "Literal degraded transcription; verify Hungarian edition spelling."
+        },
+        {
+          "anchor": "DH21",
+          "en": "Obliviate",
+          "hu": "Obliviate",
+          "sourceQuality": "Literal degraded transcription; verify Hungarian edition spelling."
+        }
+      ]
+    },
+    {
+      "id": "memory-modification-charm",
+      "labelEn": "Memory modification",
+      "labelHu": "Emlékmódosítás",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Hermione reports changing her parents' memories and identities so they leave for Australia; no incantation is printed.",
+      "searchTerms": [
+        "parents",
+        "memory",
+        "identity",
+        "Australia"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "DH6",
+            "kind": "testimony",
+            "enLocator": "modified my parents",
+            "huLocator": "szuleim emlekeit",
+            "scope": "Hermione reports changing her parents' memories and identities so they leave for Australia; no incantation is printed.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH6",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione reports changing her parents' memories and identities so they leave for Australia; no incantation is printed.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "DH6",
+              "kind": "testimony",
+              "enLocator": "modified my parents",
+              "huLocator": "szuleim emlekeit",
+              "scope": "Hermione reports changing her parents' memories and identities so they leave for Australia; no incantation is printed.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "undetectable-extension-charm",
+      "labelEn": "Undetectable Extension Charm",
+      "labelHu": "Észrevétlen tágító bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione identifies the charm she placed on her small bag; retrieval of stored items is not a new extension cast.",
+      "searchTerms": [
+        "bag",
+        "storage",
+        "extension",
+        "capacity"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "testimony",
+            "enLocator": "Undetectable Extension Charm",
+            "huLocator": "Tertagito",
+            "scope": "Hermione identifies the charm she placed on her small bag; retrieval of stored items is not a new extension cast.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione identifies the charm she placed on her small bag; retrieval of stored items is not a new extension cast.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "testimony",
+              "enLocator": "Undetectable Extension Charm",
+              "huLocator": "Tertagito",
+              "scope": "Hermione identifies the charm she placed on her small bag; retrieval of stored items is not a new extension cast.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "protego",
+      "labelEn": "Protego",
+      "labelHu": "Protego",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry places a Shield Charm between the attackers and his friends during the café aftermath.",
+      "searchTerms": [
+        "shield",
+        "barrier",
+        "protection"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Protego",
+        "hu": "Protego"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Protego",
+            "huLocator": "Protego",
+            "scope": "Harry places a Shield Charm between the attackers and his friends during the café aftermath.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry places a Shield Charm between the attackers and his friends during the café aftermath.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Protego",
+              "huLocator": "Protego",
+              "scope": "Harry places a Shield Charm between the attackers and his friends during the café aftermath.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry places a barrier between Ron and Hermione during their tense reunion.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH19",
+              "kind": "event",
+              "enLocator": "Protego",
+              "huLocator": "Protego",
+              "scope": "Harry places a barrier between Ron and Hermione during their tense reunion.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "homenum-revelio",
+      "labelEn": "Homenum revelio",
+      "labelHu": "Homenum Revelio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione checks Grimmauld Place for other people; no visible reaction is a negative detection result, not proof the spell failed.",
+      "searchTerms": [
+        "detect",
+        "human",
+        "presence",
+        "empty"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Homenum revelio",
+        "hu": "Homenum Revelio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Homenum revelio",
+            "huLocator": "Homenum Revelio",
+            "scope": "Hermione checks Grimmauld Place for other people; no visible reaction is a negative detection result, not proof the spell failed.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione checks Grimmauld Place for other people; no visible reaction is a negative detection result, not proof the spell failed.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Homenum revelio",
+              "huLocator": "Homenum Revelio",
+              "scope": "Hermione checks Grimmauld Place for other people; no visible reaction is a negative detection result, not proof the spell failed.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "erecto",
+      "labelEn": "Erecto",
+      "labelHu": "Erecto",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione erects the borrowed tent in one movement.",
+      "searchTerms": [
+        "tent",
+        "erect",
+        "camp"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Erecto",
+        "hu": "Erecto"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH14",
+            "kind": "event",
+            "enLocator": "Erecto",
+            "huLocator": "Erecto",
+            "scope": "Hermione erects the borrowed tent in one movement.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione erects the borrowed tent in one movement.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH14",
+              "kind": "event",
+              "enLocator": "Erecto",
+              "huLocator": "Erecto",
+              "scope": "Hermione erects the borrowed tent in one movement.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "salvio-hexia",
+      "labelEn": "Salvio hexia",
+      "labelHu": "Salvio hexia",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+      "searchTerms": [
+        "camp",
+        "protection",
+        "concealment",
+        "privacy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Salvio hexia",
+        "hu": "Salvio hexia"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH14",
+            "kind": "event",
+            "enLocator": "Salvio hexia",
+            "huLocator": "Salvio Hexia",
+            "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH14",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH14",
+              "kind": "event",
+              "enLocator": "Salvio hexia",
+              "huLocator": "Salvio Hexia",
+              "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH22",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione renews the named protection after the escape from Xenophilius's house.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH22",
+              "kind": "event",
+              "enLocator": "Salvio hexia",
+              "huLocator": "Salvio Hexia",
+              "scope": "Hermione renews the named protection after the escape from Xenophilius's house.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "protego-totalum",
+      "labelEn": "Protego totalum",
+      "labelHu": "Protego totalum",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+      "searchTerms": [
+        "camp",
+        "protection",
+        "concealment",
+        "privacy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Protego totalum",
+        "hu": "Protego totalum"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH14",
+            "kind": "event",
+            "enLocator": "Protego totalum",
+            "huLocator": "Protego Totalum",
+            "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH14",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH14",
+              "kind": "event",
+              "enLocator": "Protego totalum",
+              "huLocator": "Protego Totalum",
+              "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH22",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione renews the named protection after the escape from Xenophilius's house.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH22",
+              "kind": "event",
+              "enLocator": "Protego totalum",
+              "huLocator": "Protego Totalum",
+              "scope": "Hermione renews the named protection after the escape from Xenophilius's house.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "repello-muggletum",
+      "labelEn": "Repello Muggletum",
+      "labelHu": "Repello Muggletum",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+      "searchTerms": [
+        "camp",
+        "protection",
+        "concealment",
+        "privacy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Repello Muggletum",
+        "hu": "Repello Muggletum"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH14",
+            "kind": "event",
+            "enLocator": "Repello Muggletum",
+            "huLocator": "Repello Muggletum",
+            "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH14",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH14",
+              "kind": "event",
+              "enLocator": "Repello Muggletum",
+              "huLocator": "Repello Muggletum",
+              "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "muffliato",
+      "labelEn": "Muffliato",
+      "labelHu": "Muffliato",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+      "searchTerms": [
+        "camp",
+        "protection",
+        "concealment",
+        "privacy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Muffliato",
+        "hu": "Muffliato"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH14",
+            "kind": "event",
+            "enLocator": "Muffliato",
+            "huLocator": "Muffliato",
+            "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH14",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH14",
+              "kind": "event",
+              "enLocator": "Muffliato",
+              "huLocator": "Muffliato",
+              "scope": "Hermione speaks this named formula among the campsite protections; the combined passage does not isolate every individual spell's effect.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "deprimo",
+      "labelEn": "Deprimo",
+      "labelHu": "Deprimo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione blasts a hole through the floor and takes the others down through it.",
+      "searchTerms": [
+        "floor",
+        "escape",
+        "blast"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Deprimo",
+        "hu": "Deprimo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH21",
+            "kind": "event",
+            "enLocator": "Deprimo",
+            "huLocator": "Deprimo",
+            "scope": "Hermione blasts a hole through the floor and takes the others down through it.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH21",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione blasts a hole through the floor and takes the others down through it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH21",
+              "kind": "event",
+              "enLocator": "Deprimo",
+              "huLocator": "Deprimo",
+              "scope": "Hermione blasts a hole through the floor and takes the others down through it.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "diffindo",
+      "labelEn": "Diffindo",
+      "labelHu": "Diffindo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione cuts Ron free but also cuts his leg while shaking after the ambush.",
+      "searchTerms": [
+        "sever",
+        "cut",
+        "injury"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Diffindo",
+        "hu": "Diffindo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH9",
+            "kind": "event",
+            "enLocator": "Diffindo",
+            "huLocator": "diffindo",
+            "scope": "Hermione cuts Ron free but also cuts his leg while shaking after the ambush.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH9",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Hermione cuts Ron free but also cuts his leg while shaking after the ambush.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH9",
+              "kind": "event",
+              "enLocator": "Diffindo",
+              "huLocator": "diffindo",
+              "scope": "Hermione cuts Ron free but also cuts his leg while shaking after the ambush.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH13",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "mary-cattermole"
+          ],
+          "summary": "Harry tries to sever Mary Cattermole's chains without success.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH13",
+              "kind": "event",
+              "enLocator": "Diffindo",
+              "huLocator": "Diffindo",
+              "scope": "Harry tries to sever Mary Cattermole's chains without success.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry cuts through the ice above the sword.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH19",
+              "kind": "event",
+              "enLocator": "Diffindo",
+              "huLocator": "Diffindo",
+              "scope": "Harry cuts through the ice above the sword.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "relashio",
+      "labelEn": "Relashio",
+      "labelHu": "Relashio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione releases Mary Cattermole's chains.",
+      "searchTerms": [
+        "release",
+        "chain",
+        "restraint"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Relashio",
+        "hu": "Relashio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH13",
+            "kind": "event",
+            "enLocator": "Relashio",
+            "huLocator": "Relashio",
+            "scope": "Hermione releases Mary Cattermole's chains.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH13",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "mary-cattermole"
+          ],
+          "summary": "Hermione releases Mary Cattermole's chains.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH13",
+              "kind": "event",
+              "enLocator": "Relashio",
+              "huLocator": "Relashio",
+              "scope": "Hermione releases Mary Cattermole's chains.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH23",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [
+            "peter-pettigrew"
+          ],
+          "summary": "Ron fails to release Wormtail from the killing silver hand.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH23",
+              "kind": "event",
+              "enLocator": "Relashio",
+              "huLocator": "Relashio",
+              "scope": "Ron fails to release Wormtail from the killing silver hand.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry breaks the dragon's restraining cuffs.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH26",
+              "kind": "event",
+              "enLocator": "Relashio",
+              "huLocator": "Relashio",
+              "scope": "Harry breaks the dragon's restraining cuffs.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "accio",
+      "labelEn": "Accio",
+      "labelHu": "Invito",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry summons his glasses on his seventeenth birthday.",
+      "searchTerms": [
+        "summon",
+        "retrieve",
+        "glasses"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Accio",
+        "hu": "Invito"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH7",
+            "kind": "event",
+            "enLocator": "Accio",
+            "huLocator": "Invito",
+            "scope": "Harry summons his glasses on his seventeenth birthday.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry summons his glasses on his seventeenth birthday.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH7",
+              "kind": "event",
+              "enLocator": "Accio",
+              "huLocator": "Invito",
+              "scope": "Harry summons his glasses on his seventeenth birthday.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH6",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione reports summoning restricted books from Dumbledore's office after his funeral.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "DH6",
+              "kind": "testimony",
+              "enLocator": "Summoning Charm",
+              "huLocator": "Begyűjtő",
+              "scope": "Hermione reports summoning restricted books from Dumbledore's office after his funeral.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH10",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione fails to summon the missing locket from Regulus's room.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH10",
+              "kind": "event",
+              "enLocator": "Accio locket",
+              "huLocator": "Invito",
+              "scope": "Hermione fails to summon the missing locket from Regulus's room.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry retrieves dittany from Hermione's expanded bag to treat Ron's Splinching injury.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH14",
+              "kind": "event",
+              "enLocator": "Accio dittany",
+              "huLocator": "Invito",
+              "scope": "Harry retrieves dittany from Hermione's expanded bag to treat Ron's Splinching injury.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH15",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ted-tonks"
+          ],
+          "targetIds": [],
+          "summary": "Ted summons salmon from the river; this retrieves existing food rather than creating it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH15",
+              "kind": "event",
+              "enLocator": "Accio salmon",
+              "huLocator": "Invito",
+              "scope": "Ted summons salmon from the river; this retrieves existing food rather than creating it.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH17",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry unsuccessfully attempts to retrieve his fallen wand during the snake attack.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH17",
+              "kind": "event",
+              "enLocator": "Accio wand",
+              "huLocator": "Invito",
+              "scope": "Harry unsuccessfully attempts to retrieve his fallen wand during the snake attack.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "wingardium-leviosa",
+      "labelEn": "Wingardium Leviosa",
+      "labelHu": "Wingardium Leviosa",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry keeps the detached sidecar aloft without gaining steering control.",
+      "searchTerms": [
+        "levitate",
+        "flight",
+        "limits"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Wingardium Leviosa",
+        "hu": "Wingardium Leviosa"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH4",
+            "kind": "event",
+            "enLocator": "Wingardium Leviosa",
+            "huLocator": "Wingardium Leviosa",
+            "scope": "Harry keeps the detached sidecar aloft without gaining steering control.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH4",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry keeps the detached sidecar aloft without gaining steering control.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH4",
+              "kind": "event",
+              "enLocator": "Wingardium Leviosa",
+              "huLocator": "Wingardium Leviosa",
+              "scope": "Harry keeps the detached sidecar aloft without gaining steering control.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH32",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron moves a twig to the Whomping Willow's knot, enabling the group to pass.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH32",
+              "kind": "event",
+              "enLocator": "Wingardium Leviosa",
+              "huLocator": "Leviosa",
+              "scope": "Ron moves a twig to the Whomping Willow's knot, enabling the group to pass.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "impedimenta",
+      "labelEn": "Impedimenta",
+      "labelHu": "Impedimenta",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry delays an airborne pursuer.",
+      "searchTerms": [
+        "Impedimenta",
+        "Impedimenta"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Impedimenta",
+        "hu": "Impedimenta"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH4",
+            "kind": "event",
+            "enLocator": "Impedimenta",
+            "huLocator": "Impedimenta",
+            "scope": "Harry delays an airborne pursuer.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH4",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry delays an airborne pursuer.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH4",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Impedimenta",
+              "scope": "Harry delays an airborne pursuer.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "reparo",
+      "labelEn": "Reparo",
+      "labelHu": "Reparo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's repair attempt causes the damaged sidecar to detach completely.",
+      "searchTerms": [
+        "Reparo",
+        "Reparo"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Reparo",
+        "hu": "Reparo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH4",
+            "kind": "event",
+            "enLocator": "REPARO",
+            "huLocator": "REPARO",
+            "scope": "Harry's repair attempt causes the damaged sidecar to detach completely.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH4",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry's repair attempt causes the damaged sidecar to detach completely.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH4",
+              "kind": "event",
+              "enLocator": "REPARO",
+              "huLocator": "REPARO",
+              "scope": "Harry's repair attempt causes the damaged sidecar to detach completely.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH17",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione reconnects the snapped wand physically, but it does not resume reliable magic.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH17",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Hermione reconnects the snapped wand physically, but it does not resume reliable magic.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH36",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry uses the Elder Wand to repair his original holly wand successfully.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH36",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Harry uses the Elder Wand to repair his original holly wand successfully.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "lumos",
+      "labelEn": "Lumos",
+      "labelHu": "Lumos",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry tests the rejoined wand; its light sparks weakly and dies.",
+      "searchTerms": [
+        "light",
+        "broken wand"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Lumos",
+        "hu": "Lumos"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH17",
+            "kind": "event",
+            "enLocator": "Lumos",
+            "huLocator": "Lumos",
+            "scope": "Harry tests the rejoined wand; its light sparks weakly and dies.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH17",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry tests the rejoined wand; its light sparks weakly and dies.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH17",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Harry tests the rejoined wand; its light sparks weakly and dies.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights the wand after following the doe to the pond.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH19",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Harry lights the wand after following the doe to the pond.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "descendo",
+      "labelEn": "Descendo",
+      "labelHu": "Descendo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ron lowers the hatch and ladder to the family ghoul.",
+      "searchTerms": [
+        "lower",
+        "hatch",
+        "ladder"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Descendo",
+        "hu": "Descendo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH6",
+            "kind": "event",
+            "enLocator": "Descendo",
+            "huLocator": "Descendo",
+            "scope": "Ron lowers the hatch and ladder to the family ghoul.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH6",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Ron lowers the hatch and ladder to the family ghoul.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH6",
+              "kind": "event",
+              "enLocator": "Descendo",
+              "huLocator": "Descendo",
+              "scope": "Ron lowers the hatch and ladder to the family ghoul.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "crabbe"
+          ],
+          "targetIds": [],
+          "summary": "Crabbe brings down the pile of stored objects toward Ron.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH31",
+              "kind": "event",
+              "enLocator": "Descendo",
+              "huLocator": "Descendo",
+              "scope": "Crabbe brings down the pile of stored objects toward Ron.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "finite",
+      "labelEn": "Finite",
+      "labelHu": "Finite",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry stops the collapsing pile of stored objects.",
+      "searchTerms": [
+        "Finite",
+        "Finite"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Finite",
+        "hu": "Finite"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH31",
+            "kind": "event",
+            "enLocator": "Finite",
+            "huLocator": "Finite",
+            "scope": "Harry stops the collapsing pile of stored objects.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry stops the collapsing pile of stored objects.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH31",
+              "kind": "event",
+              "enLocator": "Finite",
+              "huLocator": "Finite",
+              "scope": "Harry stops the collapsing pile of stored objects.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "defodio",
+      "labelEn": "Defodio",
+      "labelHu": "Defodio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione helps enlarge the dragon's escape passage.",
+      "searchTerms": [
+        "gouge",
+        "tunnel",
+        "escape"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Defodio",
+        "hu": "Defodio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH26",
+            "kind": "event",
+            "enLocator": "Defodio",
+            "huLocator": "Defodio",
+            "scope": "Hermione helps enlarge the dragon's escape passage.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione helps enlarge the dragon's escape passage.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH26",
+              "kind": "event",
+              "enLocator": "Defodio",
+              "huLocator": "Defodio",
+              "scope": "Hermione helps enlarge the dragon's escape passage.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "confundus-charm",
+      "labelEn": "Confundo",
+      "labelHu": "Confundo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry quietly confuses the two guards at the bank; a murmur is spoken magic, not non-verbal casting.",
+      "searchTerms": [
+        "confuse",
+        "guard",
+        "disguise"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Confundo",
+        "hu": "Confundo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH26",
+            "kind": "event",
+            "enLocator": "Confundo",
+            "huLocator": "Confundo",
+            "scope": "Harry quietly confuses the two guards at the bank; a murmur is spoken magic, not non-verbal casting.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry quietly confuses the two guards at the bank; a murmur is spoken magic, not non-verbal casting.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH26",
+              "kind": "event",
+              "enLocator": "Confundo",
+              "huLocator": "Confundo",
+              "scope": "Harry quietly confuses the two guards at the bank; a murmur is spoken magic, not non-verbal casting.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "imperius-curse",
+      "labelEn": "Imperio",
+      "labelHu": "Imperio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry controls Bogrod and Travers during the bank intrusion; this coerced assistance is not consent.",
+      "searchTerms": [
+        "control",
+        "coercion",
+        "Imperius"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Imperio",
+        "hu": "Imperio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH26",
+            "kind": "event",
+            "enLocator": "Imperio",
+            "huLocator": "Imperio",
+            "scope": "Harry controls Bogrod and Travers during the bank intrusion; this coerced assistance is not consent.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "bogrod",
+            "travers"
+          ],
+          "summary": "Harry controls Bogrod and Travers during the bank intrusion; this coerced assistance is not consent.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH26",
+              "kind": "event",
+              "enLocator": "Imperio",
+              "huLocator": "Imperio",
+              "scope": "Harry controls Bogrod and Travers during the bank intrusion; this coerced assistance is not consent.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH30",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "minerva-mcgonagall"
+          ],
+          "targetIds": [
+            "amycus-carrow"
+          ],
+          "summary": "McGonagall compels Amycus to surrender his and Alecto's wands.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH30",
+              "kind": "event",
+              "enLocator": "Imperio",
+              "huLocator": "Imperio",
+              "scope": "McGonagall compels Amycus to surrender his and Alecto's wands.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH1",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "yaxley"
+          ],
+          "targetIds": [
+            "pius-thicknesse"
+          ],
+          "summary": "Yaxley reports placing Pius Thicknesse under the Imperius Curse.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "DH1",
+              "kind": "testimony",
+              "enLocator": "Imperius Curse",
+              "huLocator": "Imperius",
+              "scope": "Yaxley reports placing Pius Thicknesse under the Imperius Curse.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "levicorpus",
+      "labelEn": "Levicorpus",
+      "labelHu": "Levicorpus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione whispers Levicorpus to hoist Harry toward the cup; this is explicitly spoken, even though the HBP notebook marks silent use.",
+      "searchTerms": [
+        "hoist",
+        "ankle",
+        "spoken",
+        "Prince"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Levicorpus",
+        "hu": "Levicorpus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH26",
+            "kind": "event",
+            "enLocator": "Levicorpus",
+            "huLocator": "Levicorpus",
+            "scope": "Hermione whispers Levicorpus to hoist Harry toward the cup; this is explicitly spoken, even though the HBP notebook marks silent use.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Hermione whispers Levicorpus to hoist Harry toward the cup; this is explicitly spoken, even though the HBP notebook marks silent use.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH26",
+              "kind": "event",
+              "enLocator": "Levicorpus",
+              "huLocator": "Levicorpus",
+              "scope": "Hermione whispers Levicorpus to hoist Harry toward the cup; this is explicitly spoken, even though the HBP notebook marks silent use.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "liberacorpus",
+      "labelEn": "Liberacorpus",
+      "labelHu": "Liberacorpus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry speaks the counter-jinx and drops with Griphook onto the growing treasure.",
+      "searchTerms": [
+        "Liberacorpus",
+        "Liberacorpus"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Liberacorpus",
+        "hu": "Liberacorpus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH26",
+            "kind": "event",
+            "enLocator": "Liberacorpus",
+            "huLocator": "Liberacorpus",
+            "scope": "Harry speaks the counter-jinx and drops with Griphook onto the growing treasure.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry speaks the counter-jinx and drops with Griphook onto the growing treasure.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH26",
+              "kind": "event",
+              "enLocator": "Liberacorpus",
+              "huLocator": "Liberacorpus",
+              "scope": "Harry speaks the counter-jinx and drops with Griphook onto the growing treasure.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "expecto-patronum",
+      "labelEn": "Expecto Patronum",
+      "labelHu": "Expecto Patronum",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry drives away the hearing's Dementors with his stag Patronus.",
+      "searchTerms": [
+        "Patronus",
+        "Dementor",
+        "protection"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Expecto Patronum",
+        "hu": "Expecto Patronum"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH13",
+            "kind": "event",
+            "enLocator": "EXPECTO PATRONUM",
+            "huLocator": "EXPECTO PATRONUM",
+            "scope": "Harry drives away the hearing's Dementors with his stag Patronus.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH13",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry drives away the hearing's Dementors with his stag Patronus.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH13",
+              "kind": "event",
+              "enLocator": "EXPECTO PATRONUM",
+              "huLocator": "EXPECTO PATRONUM",
+              "scope": "Harry drives away the hearing's Dementors with his stag Patronus.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry drives off Dementors in Hogsmeade while thinking of Ron and Hermione.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH28",
+              "kind": "event",
+              "enLocator": "Expecto patronum",
+              "huLocator": "Expecto Patronum",
+              "scope": "Harry drives off Dementors in Hogsmeade while thinking of Ron and Hermione.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH33",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [],
+          "summary": "Snape produces the doe for Dumbledore in the viewed memory; Harry learns this only through the final memories.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH33",
+              "kind": "event",
+              "enLocator": "Expecto patronum",
+              "huLocator": "Expecto Patronum",
+              "scope": "Snape produces the doe for Dumbledore in the viewed memory; Harry learns this only through the final memories.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "crucio",
+      "labelEn": "Crucio",
+      "labelHu": "Crucio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bellatrix tortures Hermione while asking about the sword.",
+      "searchTerms": [
+        "torture",
+        "pain",
+        "curse"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Crucio",
+        "hu": "Crucio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH23",
+            "kind": "event",
+            "enLocator": "CRUCIO",
+            "huLocator": "CRUCIO",
+            "scope": "Bellatrix tortures Hermione while asking about the sword.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH23",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [
+            "hermione"
+          ],
+          "summary": "Bellatrix tortures Hermione while asking about the sword.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH23",
+              "kind": "event",
+              "enLocator": "CRUCIO",
+              "huLocator": "CRUCIO",
+              "scope": "Bellatrix tortures Hermione while asking about the sword.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH30",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "amycus-carrow"
+          ],
+          "summary": "Harry successfully tortures Amycus after his insult to McGonagall.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH30",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Harry successfully tortures Amycus after his insult to McGonagall.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH31",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "crabbe"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Crabbe attempts to hit Harry but strikes the bust instead.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH31",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Crabbe attempts to hit Harry but strikes the bust instead.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH36",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort casts at Harry's apparently dead body; Harry feels no expected torture pain.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH36",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Voldemort casts at Harry's apparently dead body; Harry feels no expected torture pain.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "avada-kedavra",
+      "labelEn": "Avada Kedavra",
+      "labelHu": "Avada Kedavra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Voldemort kills the captive Charity Burbage.",
+      "searchTerms": [
+        "kill",
+        "death",
+        "curse"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Avada Kedavra",
+        "hu": "Avada Kedavra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH1",
+            "kind": "event",
+            "enLocator": "Avada Kedavra",
+            "huLocator": "Avada Kedavra",
+            "scope": "Voldemort kills the captive Charity Burbage.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "charity-burbage"
+          ],
+          "summary": "Voldemort kills the captive Charity Burbage.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH1",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Avada Kedavra",
+              "scope": "Voldemort kills the captive Charity Burbage.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH17",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "lily-potter"
+          ],
+          "summary": "Harry experiences Voldemort's memory of killing Lily; this is the historical attack, not a new living Lily encounter.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH17",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Avada Kedavra",
+              "scope": "Harry experiences Voldemort's memory of killing Lily; this is the historical attack, not a new living Lily encounter.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH31",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "crabbe"
+          ],
+          "targetIds": [
+            "hermione"
+          ],
+          "summary": "Crabbe tries to kill Hermione, who dives aside.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH31",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Avada Kedavra",
+              "scope": "Crabbe tries to kill Hermione, who dives aside.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH34",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort attacks the unresisting Harry in the forest; the soul fragment is destroyed, while Harry can return.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH34",
+              "kind": "event",
+              "enLocator": "green light",
+              "huLocator": "zold feny",
+              "scope": "Voldemort attacks the unresisting Harry in the forest; the soul fragment is destroyed, while Harry can return.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        },
+        {
+          "anchor": "DH36",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort's final curse rebounds when opposed by Harry's Disarming Charm and the wand's allegiance.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH36",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Avada Kedavra",
+              "scope": "Voldemort's final curse rebounds when opposed by Harry's Disarming Charm and the wand's allegiance.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "expelliarmus",
+      "labelEn": "Expelliarmus",
+      "labelHu": "Expelliarmus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry opposes Voldemort's Killing Curse with the spoken Disarming Charm and takes the Elder Wand.",
+      "searchTerms": [
+        "disarm",
+        "allegiance",
+        "wand"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Expelliarmus",
+        "hu": "Expelliarmus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH36",
+            "kind": "event",
+            "enLocator": "Expelliarmus",
+            "huLocator": "Expelliarmus",
+            "scope": "Harry opposes Voldemort's Killing Curse with the spoken Disarming Charm and takes the Elder Wand.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH36",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "voldemort"
+          ],
+          "summary": "Harry opposes Voldemort's Killing Curse with the spoken Disarming Charm and takes the Elder Wand.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH36",
+              "kind": "event",
+              "enLocator": "Expelliarmus",
+              "huLocator": "Expelliarmus",
+              "scope": "Harry opposes Voldemort's Killing Curse with the spoken Disarming Charm and takes the Elder Wand.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "piertotum-locomotor",
+      "labelEn": "Piertotum Locomotor",
+      "labelHu": "Piertotum Locomotor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "McGonagall animates statues and suits of armour to defend Hogwarts.",
+      "searchTerms": [
+        "statues",
+        "armour",
+        "defence"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Piertotum Locomotor",
+        "hu": "Piertotum Locomotor"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH30",
+            "kind": "event",
+            "enLocator": "piertotum locomotor",
+            "huLocator": "piertotum locomotor",
+            "scope": "McGonagall animates statues and suits of armour to defend Hogwarts.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH30",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "minerva-mcgonagall"
+          ],
+          "targetIds": [],
+          "summary": "McGonagall animates statues and suits of armour to defend Hogwarts.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH30",
+              "kind": "event",
+              "enLocator": "piertotum locomotor",
+              "huLocator": "piertotum locomotor",
+              "scope": "McGonagall animates statues and suits of armour to defend Hogwarts.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "protego-horribilis",
+      "labelEn": "Protego horribilis",
+      "labelHu": "Protego horribilis",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Flitwick speaks the protective formula while preparing the castle defences.",
+      "searchTerms": [
+        "shield",
+        "castle",
+        "defence"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Protego horribilis",
+        "hu": "Protego horribilis"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH30",
+            "kind": "event",
+            "enLocator": "Protego horribilis",
+            "huLocator": "Protego horribilis",
+            "scope": "Flitwick speaks the protective formula while preparing the castle defences.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH30",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "flitwick"
+          ],
+          "targetIds": [],
+          "summary": "Flitwick speaks the protective formula while preparing the castle defences.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH30",
+              "kind": "event",
+              "enLocator": "Protego horribilis",
+              "huLocator": "Protego horribilis",
+              "scope": "Flitwick speaks the protective formula while preparing the castle defences.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "glisseo",
+      "labelEn": "Glisseo",
+      "labelHu": "Glisseo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione turns the stairs into a slide for their escape.",
+      "searchTerms": [
+        "stairs",
+        "slide",
+        "escape"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Glisseo",
+        "hu": "Glisseo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH32",
+            "kind": "event",
+            "enLocator": "Glisseo",
+            "huLocator": "Glisseo",
+            "scope": "Hermione turns the stairs into a slide for their escape.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH32",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione turns the stairs into a slide for their escape.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH32",
+              "kind": "event",
+              "enLocator": "Glisseo",
+              "huLocator": "Glisseo",
+              "scope": "Hermione turns the stairs into a slide for their escape.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "duro",
+      "labelEn": "Duro",
+      "labelHu": "Duro",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione turns the hanging tapestry to stone in the pursuers' path.",
+      "searchTerms": [
+        "stone",
+        "tapestry",
+        "barrier"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Duro",
+        "hu": "Duro"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH32",
+            "kind": "event",
+            "enLocator": "Duro",
+            "huLocator": "Duro",
+            "scope": "Hermione turns the hanging tapestry to stone in the pursuers' path.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH32",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione turns the hanging tapestry to stone in the pursuers' path.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH32",
+              "kind": "event",
+              "enLocator": "Duro",
+              "huLocator": "Duro",
+              "scope": "Hermione turns the hanging tapestry to stone in the pursuers' path.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "fiendfyre",
+      "labelEn": "Fiendfyre",
+      "labelHu": "Ördögtűz",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Crabbe unleashes cursed fire he cannot control; Hermione subsequently identifies the substance that destroys the diadem.",
+      "searchTerms": [
+        "cursed fire",
+        "Horcrux",
+        "diadem",
+        "uncontrolled"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast. Only identified human casting is indexed. Whispered incantations remain spoken. Hungarian DH formulas require edition verification.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "DH31",
+            "kind": "event",
+            "enLocator": "cursed fire",
+            "huLocator": "Ordogtűz",
+            "scope": "Crabbe unleashes cursed fire he cannot control; Hermione subsequently identifies the substance that destroys the diadem.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH31",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "crabbe"
+          ],
+          "targetIds": [],
+          "summary": "Crabbe unleashes cursed fire he cannot control; Hermione subsequently identifies the substance that destroys the diadem.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH31",
+              "kind": "event",
+              "enLocator": "cursed fire",
+              "huLocator": "Ordogtűz",
+              "scope": "Crabbe unleashes cursed fire he cannot control; Hermione subsequently identifies the substance that destroys the diadem.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Primary referent identified",
+        "hu": "Earlier reliable labels or editorial forms; not certified against degraded DH orthography."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    },
+    {
+      "id": "geminio",
+      "labelEn": "Geminio",
+      "labelHu": "Geminio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione duplicates the locket before taking the original from Umbridge. This is her named copying spell, separate from bank security enchantments.",
+      "searchTerms": [
+        "duplicate",
+        "copy",
+        "locket",
+        "decoy"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Geminio",
+        "hu": "Geminio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "DH13",
+            "kind": "event",
+            "enLocator": "Geminio",
+            "huLocator": "Geminio",
+            "scope": "Hermione makes a locket copy to conceal the removal of the Horcrux.",
+            "status": "paired-context-reviewed",
+            "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "DH13",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione makes a locket copy to conceal the removal of the Horcrux.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "DH13",
+              "kind": "event",
+              "enLocator": "Geminio",
+              "huLocator": "Geminio",
+              "scope": "Hermione makes a locket copy to conceal the removal of the Horcrux.",
+              "status": "paired-context-reviewed",
+              "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "labelVerification": {
+        "en": "Printed formula",
+        "hu": "Printed in degraded transcription; confirm orthography in a reliable edition."
+      },
+      "sourceQuality": "English primary context with degraded Hungarian transcription; verify Hungarian spelling in a reliable edition."
+    }
+  ]
+}

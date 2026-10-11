@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "book": "HBP",
+  "policyVersion": 2,
+  "sourceManifests": {
+    "en": "data/source-coverage.json",
+    "hu": "data/source-coverage-hu.json"
+  },
+  "chapters": [
+    {
+      "anchor": "HBP1",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP2",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP3",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP4",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP5",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP6",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP7",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP8",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP9",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP10",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP11",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP12",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP13",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP14",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP15",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP16",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP17",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP18",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP19",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP20",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP21",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP22",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP23",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP24",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP25",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP26",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP27",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP28",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP29",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "HBP30",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    }
+  ],
+  "categoryCounts": {
+    "characters": 116,
+    "magic": 32,
+    "places": 36,
+    "objects": 36,
+    "terms": 0,
+    "facts": 0
+  },
+  "candidateDisposition": {
+    "pending": 0,
+    "accepted": 220,
+    "merged": 0,
+    "excluded": 0,
+    "unresolved": 0
+  },
+  "reviewDate": "2026-10-11",
+  "limitations": [
+    "Curated identities, significant places, notable objects and identified human spell families; not an exhaustive list of every noun or physical cast.",
+    "All chapters represented by contextual evidence. Independent full-book semantic and editorial reading remains incomplete.",
+    "Descriptions can include later revelations; chapter filters locate whole records and do not impose viewpoint knowledge cutoffs.",
+    "Missing spoken words do not prove non-verbal casting. Unidentified attacks, object operation, Apparition, innate abilities and potion effects are outside spell results.",
+    "Ordinary objects remain explicitly ordinary; inclusion does not establish enchantment."
+  ],
+  "retrievalPass": {
+    "policyVersion": 2,
+    "state": "complete",
+    "scope": "Scoped typed inventory across all primary chapter anchors.",
+    "chapterAnchors": [
+      "HBP1",
+      "HBP2",
+      "HBP3",
+      "HBP4",
+      "HBP5",
+      "HBP6",
+      "HBP7",
+      "HBP8",
+      "HBP9",
+      "HBP10",
+      "HBP11",
+      "HBP12",
+      "HBP13",
+      "HBP14",
+      "HBP15",
+      "HBP16",
+      "HBP17",
+      "HBP18",
+      "HBP19",
+      "HBP20",
+      "HBP21",
+      "HBP22",
+      "HBP23",
+      "HBP24",
+      "HBP25",
+      "HBP26",
+      "HBP27",
+      "HBP28",
+      "HBP29",
+      "HBP30"
+    ],
+    "reviewMethod": "Selected paired passages and explicit inclusion decisions; no independent full-book review claimed.",
+    "sourceHashes": {
+      "en": "a4604a6fec8d6006f7bdd744665ca8fabcf747026677ad0de25c63d9c71dd454",
+      "hu": "ced5d2492709ccf9d111c8c68c7a2a26fd01759c8c41f8892c440de2b5080ac6"
+    }
+  }
+}

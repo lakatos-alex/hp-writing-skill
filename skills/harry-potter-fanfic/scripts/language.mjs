@@ -60,6 +60,7 @@ export function projectLanguage(value, language, field = '') {
   }
   if (typeof value !== 'object') return value;
   if (Array.isArray(value)) return value.map(item=>projectLanguage(item,language,field));
+  if (value.vocalisationByLanguage?.[language]) value={...value,vocalisation:value.vocalisationByLanguage[language]};
   const opposite=language==='en' ? 'hu' : 'en';
   const keys=new Set([opposite,`label${opposite==='en'?'En':'Hu'}`,`${opposite}Locator`,`${opposite}Title`,`${opposite}Words`]);
   const legacyTerm=Object.hasOwn(value,'en') && Object.hasOwn(value,'hu') && Object.hasOwn(value,'notes') && !Object.hasOwn(value,'labelEn');

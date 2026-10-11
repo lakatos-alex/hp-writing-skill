@@ -2,7 +2,7 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-**Version 0.4.2.** An agent skill for researching, planning, writing and revising
+**Version 1.0.0.** An agent skill for researching, planning, writing and revising
 original Harry Potter fanfiction. It combines writing guidance, continuity checks
 and searchable book references, with support for English and Hungarian.
 
@@ -35,7 +35,7 @@ npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 To stay on this release:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.4.2 --skill harry-potter-fanfic
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v1.0.0 --skill harry-potter-fanfic
 ```
 
 You can also copy the [skill folder](skills/harry-potter-fanfic/SKILL.md) into
@@ -89,8 +89,8 @@ Your accepted story decisions govern an alternate universe.
 ## Searchable references
 
 The package includes a **199-chapter English–Hungarian catalogue** for all seven
-books, **192 selective series glossary entries** and **62 evidence cards**.
-The typed semantic inventories cover the first five books:
+books, **192 selective series glossary entries** and **64 evidence cards**.
+Typed semantic inventories now cover all seven core novels:
 
 | Book | Chapters | Characters | Places | Objects | Spells | Records |
 |---|---:|---:|---:|---:|---:|---:|
@@ -99,10 +99,12 @@ The typed semantic inventories cover the first five books:
 | Prisoner of Azkaban (PoA) | 22 | 89 | 56 | 72 | 14 | 231 |
 | Goblet of Fire (GoF) | 37 | 129 | 61 | 66 | 37 | 293 |
 | Order of the Phoenix (OotP) | 38 | 143 | 50 | 61 | 45 | 299 |
-| Total | 132 | 575 | 267 | 344 | 110 | 1296 |
+| Half-Blood Prince (HBP) | 30 | 116 | 36 | 36 | 32 | 220 |
+| Deathly Hallows (DH) | 37 | 118 | 41 | 42 | 39 | 240 |
+| Total | 199 | 809 | 344 | 422 | 181 | 1756 |
 
 These are per-book records: a person or object can appear in more than one
-inventory. Characters include 49 separately typed animals. Objects include
+inventory. Characters include 59 separately typed animals. Objects include
 notable ordinary items and book titles; their inclusion does not establish that
 they are magical.
 
@@ -110,10 +112,10 @@ Spell records require identified human casting, including known failed attempts.
 Object behaviour, accidental magic and unidentified effects are separate.
 Missing spoken words do not establish a non-verbal cast; silent casting needs
 evidence of both the spell and its use. Later identification is labelled.
-The records contain 245 casting, practice or reported-event rows and 14
+The records contain 365 casting, practice or reported-event rows and 14
 separate spell-class reports. Grouped practice is not a count of individual casts.
 
-The inventories store 1585 contextual evidence pairs and 3586 literal-mention pairs
+The inventories store 2173 contextual evidence pairs and 3586 literal-mention pairs
 across English and Hungarian. These can reuse passages. They measure stored references,
 not independent readings. Inventory completion is reported separately from
 full-book semantic reading and editorial review, which remain incomplete.
@@ -125,12 +127,15 @@ node scripts/hp.mjs glossary --book PS --query "float feather" --limit 3
 node scripts/hp.mjs glossary --book GoF --category spell --query "Killing Curse" --limit 3
 node scripts/hp.mjs semantic --book PoA --query "travel time"
 node scripts/hp.mjs objects --book PS --magic-status ordinary --limit 5
+node scripts/hp.mjs semantic --book all --id object:deluminator
+node scripts/hp.mjs glossary --book HBP --query "Prince" --limit 3
 node scripts/hp.mjs stats
 node scripts/hp.mjs coverage --book GoF
 ```
 
-Book-scoped glossary lookup works for **PS, CoS, PoA, GoF and OotP**. It returns compact
+Book-scoped glossary lookup works for **PS, CoS, PoA, GoF, OotP, HBP and DH**. It returns compact
 terms and evidence in the selected language, plus a command for the full record.
+Hungarian DH labels carry a transcription warning and need edition verification.
 Use `--lang both` to compare the English and Hungarian forms. A spell
 class name is distinguished from its spoken formula. Unfiltered glossary
 lookup uses the separate, selective series glossary. Evidence-card book filters
@@ -139,6 +144,8 @@ currently support PS only.
 Whole-book records can contain later revelations. A chapter filter is useful
 for finding evidence, but does not enforce a character's knowledge at that point.
 A missing result may reflect a gap in the inventory or query.
+Use `semantic --book all` to search across books. Shared referent IDs connect
+known identities while preserving separate evidence, properties and reveal anchors.
 
 ## Using your own book files
 
@@ -168,8 +175,11 @@ A `config --lang hu --project /path/to/story` paranccsal mentheted a magyar
 beállítást; összehasonlításhoz használd a `--lang both` kapcsolót.
 A magyarázó összefoglalók továbbra is angolul szerepelnek.
 A magyar terminológia Tóth Tamás Boldizsár fordításának ellenőrzött
-szóhasználatára támaszkodik; az adott kötet és szöveghely számít. Az első öt
-könyvhöz használj könyvre szűkített keresést. A saját történetedben elfogadott
+szóhasználatára támaszkodik; az adott kötet és szöveghely számít. Mind a hét
+könyvhöz van könyvre szűkített keresés. A hetedik kötet magyar átírása azonban
+hibás ékezeteket és szóalakokat tartalmaz: a keresési kulcsokat és a megadott
+neveket ellenőrizd megbízható kiadásban. A `lint-hu --book DH` ezért nem ajánl
+névcseréket. A saját történetedben elfogadott
 névváltozatokat is add meg az agentnek.
 
 ```text
@@ -194,10 +204,13 @@ with the five-book inventory. Both model judges preferred the book-access
 version over the bare model on the two briefs; intermediate conditions had
 mixed preferences, and the bare drafts also passed the factual checks.
 
-Next comes typed retrieval for *Half-Blood Prince* and
-*Deathly Hallows*, followed by further reading and review. See the
+Version 1.0 marks the first milestone: all seven core novels are incorporated
+into the same typed reference system. Further reading, editorial review and a
+fresh writing comparison remain ahead. New tests were deferred for this release;
+the existing comparison does not evaluate the new HBP/DH inventories. See the
+[milestone review](docs/core-books-milestone.md), the
 [seven-book roadmap](docs/semantic-search-roadmap.md),
-[release notes](docs/releases/v0.4.2.md) and [changelog](CHANGELOG.md).
+[release notes](docs/releases/v1.0.0.md) and [changelog](CHANGELOG.md).
 For development and release checks, see [contributing](CONTRIBUTING.md) and the
 [release procedure](skills/harry-potter-fanfic/PUBLISHING.md).
 

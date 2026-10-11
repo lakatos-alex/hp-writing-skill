@@ -68,7 +68,7 @@ test('book and chapter routes keep inventories isolated and preserve class-repor
   assert.equal(semanticSearch({book:'PS',category:'spell',id:'expelliarmus'}).total,0);
   assert.equal(lookup('Alohomora',{category:'spell'}).total,0);
   for(const anchor of ['PS11','CoS0','CoS19','CoS01','GoF14']) assert.throws(()=>lookup('Lumos',{anchor}),/Invalid CoS anchor/);
-  assert.throws(()=>loadKnowledge('HBP'),/Unsupported/);
+  assert.throws(()=>loadKnowledge('Unknown'),/Unsupported/);
   const all=semanticSearch({book:'CoS',category:'object',limit:100});
   assert.deepEqual(semanticSearch({book:'CoS',category:'object',offset:5,limit:5}).entries.map(e=>e.id),all.entries.slice(5,10).map(e=>e.id));
 });
@@ -90,7 +90,7 @@ test('source-free CoS CLI, coverage and stats report the actual packaged invento
   assert.equal(stats.classReportRecords,2);
   assert.deepEqual(JSON.parse(cli('stats').stdout).books,knowledgeStats());
   assert.deepEqual(JSON.parse(cli('stats','--book','CoS').stdout).books,[stats]);
-  assert.notEqual(cli('stats','--book','HBP').status,0);
+  assert.notEqual(cli('stats','--book','Unknown').status,0);
 });
 test('CoS validator rejects foreign anchors and non-human reports',()=>{
   for(const [file,mutate,pattern] of [

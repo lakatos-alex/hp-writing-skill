@@ -85,7 +85,7 @@ test('ranking and pagination are stable, and invalid requests fail visibly', () 
   assert.deepEqual(second.entries.map(e => e.id),all.entries.slice(5,10).map(e => e.id));
   assert.equal(second.nextOffset,10);
   assert.equal(semanticSearch({offset:999,limit:2},entries).nextOffset,null);
-  for (const bad of [{query:''},{limit:0},{offset:-1},{id:'x',query:'x'},{category:'creature'},{anchor:'PS18'},{book:'HBP'},{'magic-status':'ordinary'}]) assert.throws(() => semanticSearch(bad,entries));
+  for (const bad of [{query:''},{limit:0},{offset:-1},{id:'x',query:'x'},{category:'creature'},{anchor:'PS18'},{book:'Unknown'},{'magic-status':'ordinary'}]) assert.throws(() => semanticSearch(bad,entries));
 });
 test('source-free CLI exposes unified and category routes, rejects conflicting flags', () => {
   const cli = (...args) => spawnSync(process.execPath,[path.join(root,'scripts/hp.mjs'),...args],{encoding:'utf8'});

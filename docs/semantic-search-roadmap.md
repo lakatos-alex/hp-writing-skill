@@ -32,12 +32,14 @@ enchantment: use `demonstrated`, `not-established` or `ordinary` magic status.
 
 ## Implementation order
 
-Phases 1–5 have completed scoped retrieval inventories; see the
+Phases 1–7 have completed scoped retrieval inventories; see the
 [PS review](ps-semantic-review.md), [CoS review](cos-semantic-review.md),
 [PoA review](poa-semantic-review.md), [GoF review](gof-semantic-review.md) and
 [five-book checkpoint](ootp-semantic-review.md).
 Their independent full-book reading/review gates remain incomplete. Phases
-6–8 remain planned. This status does not imply publication of a release.
+6–7 are recorded in the [1.0 milestone review](core-books-milestone.md).
+Phase 8 has shared identity links and cross-book retrieval; fresh evaluation,
+installation testing and independent reading remain pending.
 
 | Phase | Book / chapters | Main work | Completion gate |
 |---|---|---|---|
@@ -47,8 +49,8 @@ Their independent full-book reading/review gates remain incomplete. Phases
 | 4 | Goblet of Fire / GoF1–GoF37 | Unforgivable Curses, Summoning and tournament spells; caster identity versus disguise; Portkey and Cup | Link justified earlier spell identifications without rewriting earlier scene knowledge |
 | 5 | Order of the Phoenix / OotP1–OotP38 | DA practice and Ministry battle; distinguish performed, attempted and reported spells; Ministry rooms and Order members | Dense battle events preserve caster, target and outcome; no event multiplication from repeated narration |
 | 6 | Half-Blood Prince / HBP1–HBP30 | Explicit non-verbal instruction; invented spells and counter-spells; potion effects and cursed artefacts | Unknown versus proven non-verbal casting remains distinct; provenance of invented names retained |
-| 7 | Deathly Hallows / DH1–DH36 and epilogue | Wand ownership, protective enchantments, Horcrux/Hallow objects and final identities | Degraded Hungarian PDF checked against pages for any new authoritative spelling; all seven datasets pass |
-| 8 | Cross-book consolidation | Stable global IDs, per-book projections, retroactive identification ledger, alias collisions, quality benchmark and installation smoke test | No future plot information leaks into strict earlier-book descriptions; source-free distribution validates |
+| 7 | Deathly Hallows / DH1–DH36 and epilogue | Wand ownership, protective enchantments, Horcrux/Hallow objects and final identities | Scoped inventory complete; degraded Hungarian wording is not certified spelling authority |
+| 8 | Cross-book consolidation | Shared identity links, separate book projections, explicit reveal anchors, alias review; later quality benchmark and installation check | Retrieval implemented; whole-book results are not a strict scene knowledge filter; new tests deferred for 1.0 |
 
 Each book has a separate inventory completion state and reading/review state.
 Targeted evidence review, lexical source verification and independent full-book
@@ -56,6 +58,11 @@ semantic reading are different gates. Report them separately. Mechanical passes
 do not certify an exhaustive literary reading or independent editorial review.
 
 ## Validation and release
+
+The user explicitly deferred new tests for the 1.0 milestone. Record the local
+suite, writing evaluation and installation check as pending; historical checks
+do not certify the new inventories. The normal procedure below resumes when
+testing is requested. Preserve source privacy and inspect the release archive.
 
 Run the automated suite, package validation and source verification after data
 changes. Regression cases cover natural-language concepts, bilingual aliases,

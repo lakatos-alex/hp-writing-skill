@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "book": "HBP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "number-four",
+      "labelEn": "Number four, Privet Drive",
+      "labelHu": "Privet Drive 4.",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore visits the Dursleys' home and discusses Harry's return before he turns seventeen.",
+      "searchTerms": [
+        "Privet Drive",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP3",
+          "kind": "event",
+          "enLocator": "Privet Drive",
+          "huLocator": "Privet Drive",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "house"
+    },
+    {
+      "id": "the-burrow",
+      "labelEn": "The Burrow",
+      "labelHu": "Az Odú",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Weasley home shelters Harry during the summer and hosts Christmas visitors.",
+      "searchTerms": [
+        "Burrow",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP5",
+          "kind": "event",
+          "enLocator": "Burrow",
+          "huLocator": "Odú",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "house"
+    },
+    {
+      "id": "diagon-alley",
+      "labelEn": "Diagon Alley",
+      "labelHu": "Abszol út",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry shops amid closures and visible wartime anxiety.",
+      "searchTerms": [
+        "Diagon Alley",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Diagon Alley",
+          "huLocator": "Abszol út",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "street"
+    },
+    {
+      "id": "knockturn-alley",
+      "labelEn": "Knockturn Alley",
+      "labelHu": "Zsebpiszok köz",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco diverts toward the darker shopping street.",
+      "searchTerms": [
+        "Knockturn Alley",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Knockturn Alley",
+          "huLocator": "Zsebpiszok köz",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "street"
+    },
+    {
+      "id": "borgin-burkes",
+      "labelEn": "Borgin's shop",
+      "labelHu": "Borgin boltja",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco discusses the cabinet repair with the shopkeeper.",
+      "searchTerms": [
+        "Borgin",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Borgin",
+          "huLocator": "Borgin",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "shop"
+    },
+    {
+      "id": "weasleys-wizard-wheezes",
+      "labelEn": "Weasleys' Wizard Wheezes",
+      "labelHu": "Weasley Varázsvicc Vállalat",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The twins' shop sells jokes and practical defensive products.",
+      "searchTerms": [
+        "Weasleys",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Weasleys",
+          "huLocator": "Weasley",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "ollivanders-shop",
+      "labelEn": "Ollivanders",
+      "labelHu": "Ollivander üzlete",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The shop is affected by the wandmaker's disappearance.",
+      "searchTerms": [
+        "Ollivander",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP6",
+          "kind": "event",
+          "enLocator": "Ollivander",
+          "huLocator": "Ollivander",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "shop"
+    },
+    {
+      "id": "hogwarts",
+      "labelEn": "Hogwarts",
+      "labelHu": "Roxfort",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The school operates under increased security during Harry's sixth year.",
+      "searchTerms": [
+        "Hogwarts",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP8",
+          "kind": "event",
+          "enLocator": "Hogwarts",
+          "huLocator": "roxfort",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "school"
+    },
+    {
+      "id": "great-hall",
+      "labelEn": "Great Hall",
+      "labelHu": "Nagyterem",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The opening feast introduces the year's staff arrangements.",
+      "searchTerms": [
+        "Great Hall",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP8",
+          "kind": "event",
+          "enLocator": "Great Hall",
+          "huLocator": "nagyterem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "hall"
+    },
+    {
+      "id": "gryffindor-common-room",
+      "labelEn": "Gryffindor common room",
+      "labelHu": "Griffendél klubhelyisége",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry and his friends discuss the anonymous book in their shared room.",
+      "searchTerms": [
+        "common room",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "common room",
+          "huLocator": "klubhelyiség",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "room"
+    },
+    {
+      "id": "gryffindor-dormitory",
+      "labelEn": "Gryffindor boys' dormitory",
+      "labelHu": "Griffendél fiúk hálóterme",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's private experiment hoists the sleeping Ron and wakes his roommates.",
+      "searchTerms": [
+        "bed",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP12",
+          "kind": "event",
+          "enLocator": "bed",
+          "huLocator": "ágy",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "room"
+    },
+    {
+      "id": "defence-classroom",
+      "labelEn": "Defence classroom",
+      "labelHu": "Sötét varázslatok tanterme",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape teaches non-verbal defence practice; the classroom setting is not battle competence.",
+      "searchTerms": [
+        "classroom",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "classroom",
+          "huLocator": "terem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "classroom"
+    },
+    {
+      "id": "potions-dungeon",
+      "labelEn": "Potions dungeon",
+      "labelHu": "Bájitaltan pince",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn lends textbooks and teaches the advanced Potions class.",
+      "searchTerms": [
+        "dungeon",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP9",
+          "kind": "event",
+          "enLocator": "dungeon",
+          "huLocator": "pinceterem",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "classroom"
+    },
+    {
+      "id": "dumbledore-office",
+      "labelEn": "Dumbledore's office",
+      "labelHu": "Dumbledore szobája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry receives selected memories and Dumbledore's interpretation of them.",
+      "searchTerms": [
+        "office",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "office",
+          "huLocator": "dolgozószobá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "office"
+    },
+    {
+      "id": "quidditch-pitch",
+      "labelEn": "Quidditch pitch",
+      "labelHu": "Kviddicspálya",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Tryouts and matches determine the Gryffindor team.",
+      "searchTerms": [
+        "pitch",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP11",
+          "kind": "event",
+          "enLocator": "pitch",
+          "huLocator": "pálya",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "sports-ground"
+    },
+    {
+      "id": "library",
+      "labelEn": "Hogwarts library",
+      "labelHu": "Roxfort könyvtára",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Research and conversations take place under the librarian's supervision.",
+      "searchTerms": [
+        "library",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP15",
+          "kind": "event",
+          "enLocator": "library",
+          "huLocator": "könyvtár",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "library"
+    },
+    {
+      "id": "room-of-requirement",
+      "labelEn": "Room of Requirement",
+      "labelHu": "Szükség Szobája",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco uses a configuration Harry cannot reach by asking for the ordinary DA room.",
+      "searchTerms": [
+        "Room of Requirement",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP21",
+          "kind": "event",
+          "enLocator": "Room of Requirement",
+          "huLocator": "Szükség Szobájá",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "adaptive-room"
+    },
+    {
+      "id": "myrtles-bathroom",
+      "labelEn": "Moaning Myrtle's bathroom",
+      "labelHu": "Hisztis Myrtle mosdója",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry confronts Draco and wounds him with an unfamiliar spell.",
+      "searchTerms": [
+        "bathroom",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP24",
+          "kind": "event",
+          "enLocator": "bathroom",
+          "huLocator": "mosdó",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "room"
+    },
+    {
+      "id": "hospital-wing",
+      "labelEn": "Hogwarts hospital wing",
+      "labelHu": "Roxfort gyengélkedője",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The wounded survivors receive treatment after the tower assault.",
+      "searchTerms": [
+        "hospital wing",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP29",
+          "kind": "event",
+          "enLocator": "hospital wing",
+          "huLocator": "gyengélkedő",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "ward"
+    },
+    {
+      "id": "hagrids-hut",
+      "labelEn": "Hagrid's hut",
+      "labelHu": "Hagrid kunyhója",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hagrid mourns Aragog; the hut is later set on fire.",
+      "searchTerms": [
+        "cabin",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP22",
+          "kind": "event",
+          "enLocator": "cabin",
+          "huLocator": "kunyhó",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "house"
+    },
+    {
+      "id": "forbidden-forest",
+      "labelEn": "Forbidden Forest",
+      "labelHu": "Tiltott Rengeteg",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Aragog's colony inhabits the forest and does not inherit his personal friendship with Hagrid.",
+      "searchTerms": [
+        "Forest",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP22",
+          "kind": "event",
+          "enLocator": "Forest",
+          "huLocator": "Rengeteg",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "forest"
+    },
+    {
+      "id": "astronomy-tower",
+      "labelEn": "Astronomy Tower",
+      "labelHu": "Asztronómiatorony",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco disarms the weakened Dumbledore before the other attackers arrive.",
+      "searchTerms": [
+        "Tower",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP27",
+          "kind": "event",
+          "enLocator": "Tower",
+          "huLocator": "torony",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "tower"
+    },
+    {
+      "id": "hogsmeade",
+      "labelEn": "Hogsmeade",
+      "labelHu": "Roxmorts",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "A student visit ends in Katie's cursed-necklace injury.",
+      "searchTerms": [
+        "Hogsmeade",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP12",
+          "kind": "event",
+          "enLocator": "Hogsmeade",
+          "huLocator": "roxmorts",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "village"
+    },
+    {
+      "id": "three-broomsticks",
+      "labelEn": "Three Broomsticks",
+      "labelHu": "Három Seprű",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The inn is part of Katie's route before the necklace attack.",
+      "searchTerms": [
+        "Three Broomsticks",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP12",
+          "kind": "event",
+          "enLocator": "Three Broomsticks",
+          "huLocator": "Három Seprű",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "pub"
+    },
+    {
+      "id": "spinners-end",
+      "labelEn": "Spinner's End",
+      "labelHu": "Fonó sor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape receives Narcissa and Bellatrix at his house.",
+      "searchTerms": [
+        "Spinner",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP2",
+          "kind": "event",
+          "enLocator": "Spinner",
+          "huLocator": "Fonó",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "budleigh-babberton",
+      "labelEn": "Budleigh Babberton",
+      "labelHu": "Budleigh Babberton",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore and Harry visit Slughorn's temporary hiding place.",
+      "searchTerms": [
+        "Budleigh Babberton",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP4",
+          "kind": "event",
+          "enLocator": "Budleigh Babberton",
+          "huLocator": "Budleigh Babberton",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "gaunt-shack",
+      "labelEn": "The Gaunt family's shack",
+      "labelHu": "A Gomold család kunyhója",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Ogden's memory shows the impoverished Gaunt family household.",
+      "searchTerms": [
+        "house",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "house",
+          "huLocator": "ház",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "little-hangleton",
+      "labelEn": "Little Hangleton",
+      "labelHu": "Little Hangleton",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Gaunt and Riddle family history is tied to this village.",
+      "searchTerms": [
+        "Little Hangleton",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP10",
+          "kind": "event",
+          "enLocator": "Little Hangleton",
+          "huLocator": "Little Hangleton",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "village"
+    },
+    {
+      "id": "tom-riddle-orphanage",
+      "labelEn": "Riddle's childhood orphanage",
+      "labelHu": "Denem gyermekkori árvaháza",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Dumbledore meets the eleven-year-old Riddle before Hogwarts.",
+      "searchTerms": [
+        "orphanage",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP13",
+          "kind": "event",
+          "enLocator": "orphanage",
+          "huLocator": "árvaház",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "hepzibah-house",
+      "labelEn": "Hepzibah Smith's house",
+      "labelHu": "Hepzibah Smith háza",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "A domestic visit in Hokey's memory shows the cup and locket before their theft.",
+      "searchTerms": [
+        "Hepzibah",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP20",
+          "kind": "event",
+          "enLocator": "Hepzibah",
+          "huLocator": "Hepzibah",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "horcrux-cave",
+      "labelEn": "The seaside Horcrux cave",
+      "labelHu": "A tengerparti horcruxbarlang",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The seaside cave hides a trapped basin and Inferi, rather than the genuine locket.",
+      "searchTerms": [
+        "cave",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP26",
+          "kind": "event",
+          "enLocator": "cave",
+          "huLocator": "barlang",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "cave-island",
+      "labelEn": "The island in the cave lake",
+      "labelHu": "A barlangi tó szigete",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "The island's basin requires drinking the potion before the locket can be reached.",
+      "searchTerms": [
+        "island",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP26",
+          "kind": "event",
+          "enLocator": "island",
+          "huLocator": "sziget",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    },
+    {
+      "id": "ministry-of-magic",
+      "labelEn": "Ministry of Magic",
+      "labelHu": "Mágiaügyi Minisztérium",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Wartime political and security decisions are reported to the Muggle Prime Minister.",
+      "searchTerms": [
+        "Ministry of Magic",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP1",
+          "kind": "event",
+          "enLocator": "Ministry of Magic",
+          "huLocator": "Mágiaügyi Minisztérium",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "institution-building"
+    },
+    {
+      "id": "azkaban",
+      "labelEn": "Azkaban",
+      "labelHu": "Azkaban",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The account of Morfin's imprisonment depends on altered memory and later reconstruction.",
+      "searchTerms": [
+        "Azkaban",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP17",
+          "kind": "event",
+          "enLocator": "Azkaban",
+          "huLocator": "Azkaban",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "prison"
+    },
+    {
+      "id": "st-mungos",
+      "labelEn": "St Mungo's Hospital",
+      "labelHu": "Szent Mungó Ispotály",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Katie requires treatment away from Hogwarts after the necklace attack.",
+      "searchTerms": [
+        "St Mungo",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP14",
+          "kind": "event",
+          "enLocator": "St Mungo",
+          "huLocator": "Szent Mungó",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "hospital"
+    },
+    {
+      "id": "hogwarts-white-tomb",
+      "labelEn": "Dumbledore's white tomb",
+      "labelHu": "Dumbledore fehér sírja",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Dumbledore's funeral creates his tomb at Hogwarts.",
+      "searchTerms": [
+        "white marble",
+        "location"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "evidence": [
+        {
+          "anchor": "HBP30",
+          "kind": "event",
+          "enLocator": "white marble",
+          "huLocator": "fehér márvány",
+          "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+          "status": "paired-context-reviewed"
+        }
+      ],
+      "placeKind": "location"
+    }
+  ]
+}

@@ -24,6 +24,13 @@ Future model support should preserve portable files and stable anchor/schema con
 
 ## Tests and evidence
 
+The seven-book [1.0 milestone](docs/core-books-milestone.md) used the existing
+blind comparison to address supported lookup gaps. The user explicitly deferred
+new tests for that release; local automated testing, writing evaluation and
+installation smoke testing remain pending. Record the exception rather than
+substituting historical passes. Future selected books still follow the same
+typed inventory before evaluation sequence and declare edition/canon status.
+
 Run `node tools/validate_package.mjs`, `node --test tools/tests/*.test.mjs` and `git diff --check`. When local books are available, run `node tools/verify_sources.mjs /path/to/books`.
 
 For changed behaviour, run realistic prompts and record the actual agent response, model when known, date, resources used and limitations. Keep expected results distinct from observed results. A test case is not a pass merely because it is written down.

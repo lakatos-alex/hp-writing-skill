@@ -1,0 +1,2441 @@
+{
+  "schemaVersion": 1,
+  "book": "HBP",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "lumos",
+      "labelEn": "Lumos",
+      "labelHu": "Lumos",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore lights his wand while entering Slughorn's hiding place.",
+      "searchTerms": [
+        "Lumos",
+        "Lumos"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Lumos",
+        "hu": "Lumos"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP4",
+            "kind": "event",
+            "enLocator": "Lumos",
+            "huLocator": "Lumos",
+            "scope": "Dumbledore lights his wand while entering Slughorn's hiding place.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP4",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [],
+          "summary": "Dumbledore lights his wand while entering Slughorn's hiding place.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP4",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Dumbledore lights his wand while entering Slughorn's hiding place.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "albus-dumbledore"
+          ],
+          "targetIds": [],
+          "summary": "Harry and Dumbledore illuminate their way into the cave.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Harry and Dumbledore illuminate their way into the cave.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "accio",
+      "labelEn": "Accio",
+      "labelHu": "Invito",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry tries to summon his confiscated wand on the train; no wand reaches him.",
+      "searchTerms": [
+        "Accio",
+        "Invito"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Accio",
+        "hu": "Invito"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP8",
+            "kind": "event",
+            "enLocator": "Accio wand",
+            "huLocator": "Invito pálca",
+            "scope": "Harry tries to summon his confiscated wand on the train; no wand reaches him.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP8",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry tries to summon his confiscated wand on the train; no wand reaches him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP8",
+              "kind": "event",
+              "enLocator": "Accio wand",
+              "huLocator": "Invito pálca",
+              "scope": "Harry tries to summon his confiscated wand on the train; no wand reaches him.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP26",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry's attempted Summoning of the Horcrux disturbs the cave defence but retrieves no locket.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Accio Horcrux",
+              "huLocator": "Invito horcrux",
+              "scope": "Harry's attempted Summoning of the Horcrux disturbs the cave defence but retrieves no locket.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP27",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry summons Rosmerta's brooms for the flight back to Hogwarts.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "event",
+              "enLocator": "Accio Rosmerta",
+              "huLocator": "Invito Rosmerta",
+              "scope": "Harry summons Rosmerta's brooms for the flight back to Hogwarts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "episkey",
+      "labelEn": "Episkey",
+      "labelHu": "Hippokrax",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Tonks repairs Harry's broken nose.",
+      "searchTerms": [
+        "Episkey",
+        "Hippokrax"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Episkey",
+        "hu": "Hippokrax"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP8",
+            "kind": "event",
+            "enLocator": "Episkey",
+            "huLocator": "Hippokrax",
+            "scope": "Tonks repairs Harry's broken nose.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP8",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "nymphadora-tonks"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Tonks repairs Harry's broken nose.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP8",
+              "kind": "event",
+              "enLocator": "Episkey",
+              "huLocator": "Hippokrax",
+              "scope": "Tonks repairs Harry's broken nose.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "demelza-robins"
+          ],
+          "summary": "Harry repairs Demelza's injured lip during Quidditch practice.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP14",
+              "kind": "event",
+              "enLocator": "Episkey",
+              "huLocator": "Hippokrax",
+              "scope": "Harry repairs Demelza's injured lip during Quidditch practice.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "alohomora",
+      "labelEn": "Alohomora",
+      "labelHu": "Alohomora",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry fails to unlock the school gate; the added protection prevents this opening attempt.",
+      "searchTerms": [
+        "Alohomora",
+        "Alohomora"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Alohomora",
+        "hu": "Alohomora"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP8",
+            "kind": "event",
+            "enLocator": "Alohomora",
+            "huLocator": "Alohomora",
+            "scope": "Harry fails to unlock the school gate; the added protection prevents this opening attempt.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP8",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry fails to unlock the school gate; the added protection prevents this opening attempt.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP8",
+              "kind": "event",
+              "enLocator": "Alohomora",
+              "huLocator": "Alohomora",
+              "scope": "Harry fails to unlock the school gate; the added protection prevents this opening attempt.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "tergeo",
+      "labelEn": "Tergeo",
+      "labelHu": "Tergeo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione siphons dried blood from Harry's face; this is cleaning, not wound healing.",
+      "searchTerms": [
+        "Tergeo",
+        "Tergeo"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Tergeo",
+        "hu": "Tergeo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP8",
+            "kind": "event",
+            "enLocator": "Tergeo",
+            "huLocator": "Tergeo",
+            "scope": "Hermione siphons dried blood from Harry's face; this is cleaning, not wound healing.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP8",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Hermione siphons dried blood from Harry's face; this is cleaning, not wound healing.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP8",
+              "kind": "event",
+              "enLocator": "Tergeo",
+              "huLocator": "Tergeo",
+              "scope": "Hermione siphons dried blood from Harry's face; this is cleaning, not wound healing.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "anapneo",
+      "labelEn": "Anapneo",
+      "labelHu": "Anapneo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn clears Marcus Belby's obstructed airway.",
+      "searchTerms": [
+        "Anapneo",
+        "Anapneo"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Anapneo",
+        "hu": "Anapneo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP7",
+            "kind": "event",
+            "enLocator": "Anapneo",
+            "huLocator": "Anapneo",
+            "scope": "Slughorn clears Marcus Belby's obstructed airway.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "horace-slughorn"
+          ],
+          "targetIds": [],
+          "summary": "Slughorn clears Marcus Belby's obstructed airway.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP7",
+              "kind": "event",
+              "enLocator": "Anapneo",
+              "huLocator": "Anapneo",
+              "scope": "Slughorn clears Marcus Belby's obstructed airway.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "reparo",
+      "labelEn": "Reparo",
+      "labelHu": "Reparo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ogden repairs the broken pot in the Gaunt memory.",
+      "searchTerms": [
+        "Reparo",
+        "Reparo"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Reparo",
+        "hu": "Reparo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP10",
+            "kind": "event",
+            "enLocator": "Reparo",
+            "huLocator": "Reparo",
+            "scope": "Ogden repairs the broken pot in the Gaunt memory.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP10",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "bob-ogden"
+          ],
+          "targetIds": [],
+          "summary": "Ogden repairs the broken pot in the Gaunt memory.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP10",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Ogden repairs the broken pot in the Gaunt memory.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry reattaches swapped textbook covers to disguise his borrowed annotated copy.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP11",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Harry reattaches swapped textbook covers to disguise his borrowed annotated copy.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry repairs the bowl he accidentally breaks.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP14",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Harry repairs the bowl he accidentally breaks.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP20",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione repairs the dropped scales carried by Draco's disguised helper.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP20",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Hermione repairs the dropped scales carried by Draco's disguised helper.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "diffindo",
+      "labelEn": "Diffindo",
+      "labelHu": "Diffindo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry removes the covers from the two Potions books before swapping them.",
+      "searchTerms": [
+        "Diffindo",
+        "Diffindo"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Diffindo",
+        "hu": "Diffindo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP11",
+            "kind": "event",
+            "enLocator": "Diffindo",
+            "huLocator": "Diffindo",
+            "scope": "Harry removes the covers from the two Potions books before swapping them.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry removes the covers from the two Potions books before swapping them.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP11",
+              "kind": "event",
+              "enLocator": "Diffindo",
+              "huLocator": "Diffindo",
+              "scope": "Harry removes the covers from the two Potions books before swapping them.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "protego",
+      "labelEn": "Protego",
+      "labelHu": "Protego",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry shouts the Shield Charm when Snape attacks; this successful defence fails the silent-casting instruction.",
+      "searchTerms": [
+        "shield",
+        "nonverbal",
+        "non-verbal",
+        "spoken",
+        "practice",
+        "pajzs"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Protego",
+        "hu": "Protego"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP9",
+            "kind": "event",
+            "enLocator": "Protego",
+            "huLocator": "Protego",
+            "scope": "Harry shouts the Shield Charm when Snape attacks; this successful defence fails the silent-casting instruction.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry shouts the Shield Charm when Snape attacks; this successful defence fails the silent-casting instruction.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP9",
+              "kind": "event",
+              "enLocator": "Protego",
+              "huLocator": "Protego",
+              "scope": "Harry shouts the Shield Charm when Snape attacks; this successful defence fails the silent-casting instruction.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP9",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione silently repels Neville's muttered Jelly-Legs Jinx during the identified Shield Charm exercise.",
+          "vocalisation": "non-verbal",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP9",
+              "kind": "event",
+              "enLocator": "without uttering a single word",
+              "huLocator": "teljesen némán",
+              "scope": "Hermione silently repels Neville's muttered Jelly-Legs Jinx during the identified Shield Charm exercise.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "nonVerbalEvidence": [
+            {
+              "anchor": "HBP9",
+              "kind": "event",
+              "enLocator": "without uttering a single word",
+              "huLocator": "teljesen némán",
+              "scope": "Hermione silently repels Neville's muttered Jelly-Legs Jinx during the identified Shield Charm exercise.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "jelly-legs-jinx",
+      "labelEn": "Jelly-Legs Jinx",
+      "labelHu": "Gumiláb-rontás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Neville mutters the identified Jelly-Legs Jinx, which Hermione silently blocks.",
+      "searchTerms": [
+        "Jelly-Legs Jinx",
+        "Gumiláb-rontás"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP9",
+            "kind": "event",
+            "enLocator": "Jelly-Legs Jinx",
+            "huLocator": "gumiláb-rontását",
+            "scope": "Neville mutters the identified Jelly-Legs Jinx, which Hermione silently blocks.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP9",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [],
+          "summary": "Neville mutters the identified Jelly-Legs Jinx, which Hermione silently blocks.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP9",
+              "kind": "event",
+              "enLocator": "Jelly-Legs Jinx",
+              "huLocator": "gumiláb-rontását",
+              "scope": "Neville mutters the identified Jelly-Legs Jinx, which Hermione silently blocks.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "muffliato",
+      "labelEn": "Muffliato",
+      "labelHu": "Disaudio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry uses the named buzzing-ear spell to conceal conversations; the report does not give the cast's vocalisation.",
+      "searchTerms": [
+        "privacy",
+        "eavesdrop",
+        "buzzing",
+        "Prince",
+        "fül"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Muffliato",
+        "hu": "Disaudio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP12",
+            "kind": "testimony",
+            "enLocator": "Muffliato",
+            "huLocator": "disaudiót",
+            "scope": "Harry uses the named buzzing-ear spell to conceal conversations; the report does not give the cast's vocalisation.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP12",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry uses the named buzzing-ear spell to conceal conversations; the report does not give the cast's vocalisation.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "testimony",
+              "enLocator": "Muffliato",
+              "huLocator": "disaudiót",
+              "scope": "Harry uses the named buzzing-ear spell to conceal conversations; the report does not give the cast's vocalisation.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry muffles the conversation around Ron's sickbed.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP19",
+              "kind": "event",
+              "enLocator": "Muffliato",
+              "huLocator": "disaudió",
+              "scope": "Harry muffles the conversation around Ron's sickbed.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "langlock",
+      "labelEn": "Langlock",
+      "labelHu": "Pofix",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry sticks Peeves's tongue to the roof of his mouth.",
+      "searchTerms": [
+        "Langlock",
+        "Pofix"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Langlock",
+        "hu": "Pofix"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP19",
+            "kind": "event",
+            "enLocator": "Langlock",
+            "huLocator": "Pofix",
+            "scope": "Harry sticks Peeves's tongue to the roof of his mouth.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP19",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "peeves"
+          ],
+          "summary": "Harry sticks Peeves's tongue to the roof of his mouth.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP19",
+              "kind": "event",
+              "enLocator": "Langlock",
+              "huLocator": "Pofix",
+              "scope": "Harry sticks Peeves's tongue to the roof of his mouth.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP12",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "filch"
+          ],
+          "summary": "The earlier tongue-sticking jinx used on Filch is later explicitly identified by the matching described effect at HBP19.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "testimony",
+              "enLocator": "glued the tongue",
+              "huLocator": "nyelvét a szájpadlásához",
+              "scope": "The earlier tongue-sticking jinx used on Filch is later explicitly identified by the matching described effect at HBP19.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "toenail-growth-hex",
+      "labelEn": "Toenail-growing hex",
+      "labelHu": "Lábkörömnövesztő ártás",
+      "labelKind": "editorial-label",
+      "aliases": [],
+      "description": "Harry reports using the identified toenail-growing effect on Crabbe; no incantation is printed.",
+      "searchTerms": [
+        "Toenail-growing hex",
+        "Lábkörömnövesztő ártás"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP12",
+            "kind": "testimony",
+            "enLocator": "toenails",
+            "huLocator": "lábkörmök",
+            "scope": "Harry reports using the identified toenail-growing effect on Crabbe; no incantation is printed.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP12",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "crabbe"
+          ],
+          "summary": "Harry reports using the identified toenail-growing effect on Crabbe; no incantation is printed.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "testimony",
+              "enLocator": "toenails",
+              "huLocator": "lábkörmök",
+              "scope": "Harry reports using the identified toenail-growing effect on Crabbe; no incantation is printed.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "levicorpus",
+      "labelEn": "Levicorpus",
+      "labelHu": "Levicorpus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry thinks the incantation and inadvertently hoists Ron by the ankle.",
+      "searchTerms": [
+        "Prince",
+        "suspend",
+        "ankle",
+        "nonverbal",
+        "non-verbal",
+        "hoist"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Levicorpus",
+        "hu": "Levicorpus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP12",
+            "kind": "event",
+            "enLocator": "Levicorpus",
+            "huLocator": "kimondta magában",
+            "scope": "Harry thinks the incantation and inadvertently hoists Ron by the ankle.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP12",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Harry thinks the incantation and inadvertently hoists Ron by the ankle.",
+          "vocalisation": "non-verbal",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "event",
+              "enLocator": "Levicorpus",
+              "huLocator": "kimondta magában",
+              "scope": "Harry thinks the incantation and inadvertently hoists Ron by the ankle.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "nonVerbalEvidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "event",
+              "enLocator": "Levicorpus",
+              "huLocator": "kimondta magában",
+              "scope": "Harry thinks the incantation and inadvertently hoists Ron by the ankle.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Harry hoists the potion-affected Ron. English narration gives an incantation springing to mind; Hungarian narration explicitly has Harry shout it.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP18",
+              "kind": "event",
+              "enLocator": "Levicorpus",
+              "huLocator": "Levicorpus",
+              "scope": "Harry hoists the potion-affected Ron. English narration gives an incantation springing to mind; Hungarian narration explicitly has Harry shout it.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "vocalisationByLanguage": {
+            "en": "unreported",
+            "hu": "spoken"
+          }
+        },
+        {
+          "anchor": "HBP24",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "malfoy"
+          ],
+          "summary": "Harry thinks the spell at Draco, who blocks or evades it; the editions describe the defence differently.",
+          "vocalisation": "non-verbal",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP24",
+              "kind": "event",
+              "enLocator": "Levicorpus",
+              "huLocator": "Levicorpus",
+              "scope": "Harry thinks the spell at Draco, who blocks or evades it; the editions describe the defence differently.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "nonVerbalEvidence": [
+            {
+              "anchor": "HBP24",
+              "kind": "event",
+              "enLocator": "Levicorpus",
+              "huLocator": "Levicorpus",
+              "scope": "Harry thinks the spell at Draco, who blocks or evades it; the editions describe the defence differently.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "liberacorpus",
+      "labelEn": "Liberacorpus",
+      "labelHu": "Liberacorpus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry mentally uses the printed counter-jinx and drops Ron back on his mattress.",
+      "searchTerms": [
+        "counter-jinx",
+        "release",
+        "Levicorpus",
+        "nonverbal",
+        "non-verbal"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Liberacorpus",
+        "hu": "Liberacorpus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP12",
+            "kind": "event",
+            "enLocator": "Liberacorpus",
+            "huLocator": "Liberacorpus",
+            "scope": "Harry mentally uses the printed counter-jinx and drops Ron back on his mattress.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP12",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Harry mentally uses the printed counter-jinx and drops Ron back on his mattress.",
+          "vocalisation": "non-verbal",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "event",
+              "enLocator": "Liberacorpus",
+              "huLocator": "Liberacorpus",
+              "scope": "Harry mentally uses the printed counter-jinx and drops Ron back on his mattress.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "nonVerbalEvidence": [
+            {
+              "anchor": "HBP12",
+              "kind": "event",
+              "enLocator": "Liberacorpus",
+              "huLocator": "Liberacorpus",
+              "scope": "Harry mentally uses the printed counter-jinx and drops Ron back on his mattress.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "oppugno",
+      "labelEn": "Oppugno",
+      "labelHu": "Oppugno",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione sends her conjured birds to attack Ron.",
+      "searchTerms": [
+        "birds",
+        "attack",
+        "anger",
+        "consent"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Oppugno",
+        "hu": "Oppugno"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP14",
+            "kind": "event",
+            "enLocator": "Oppugno",
+            "huLocator": "Oppugno",
+            "scope": "Hermione sends her conjured birds to attack Ron.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "ron"
+          ],
+          "summary": "Hermione sends her conjured birds to attack Ron.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP14",
+              "kind": "event",
+              "enLocator": "Oppugno",
+              "huLocator": "Oppugno",
+              "scope": "Hermione sends her conjured birds to attack Ron.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "aguamenti",
+      "labelEn": "Aguamenti",
+      "labelHu": "Aguamenti",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry fills the goblet with water but the cave prevents it reaching Dumbledore's mouth; he then tries to use lake water.",
+      "searchTerms": [
+        "water",
+        "drinking",
+        "fire",
+        "cave"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Aguamenti",
+        "hu": "Aguamenti"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP26",
+            "kind": "event",
+            "enLocator": "Aguamenti",
+            "huLocator": "Aguamenti",
+            "scope": "Harry fills the goblet with water but the cave prevents it reaching Dumbledore's mouth; he then tries to use lake water.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry successfully fills the goblet with water, but the cave protection removes it before Dumbledore can drink. Spell success and the failed drinking goal are separate.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Aguamenti",
+              "huLocator": "Aguamenti",
+              "scope": "Harry fills the goblet with water but the cave prevents it reaching Dumbledore's mouth; he then tries to use lake water.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "hagrid"
+          ],
+          "targetIds": [],
+          "summary": "Harry and Hagrid direct water at the burning hut; Hagrid casts through his umbrella.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Aguamenti",
+              "huLocator": "Aguamenti",
+              "scope": "Harry and Hagrid direct water at the burning hut; Hagrid casts through his umbrella.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "rennervate",
+      "labelEn": "Rennervate",
+      "labelHu": "Renervate",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry attempts to rouse Dumbledore after the basin potion without a successful full revival.",
+      "searchTerms": [
+        "Rennervate",
+        "Renervate"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Rennervate",
+        "hu": "Renervate"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP26",
+            "kind": "event",
+            "enLocator": "Rennervate",
+            "huLocator": "Renervate",
+            "scope": "Harry attempts to rouse Dumbledore after the basin potion without a successful full revival.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP26",
+          "mode": "attempted",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "The first revival attempt has no visible effect; after Harry repeats it, Dumbledore opens his eyes and requests water, remaining severely weakened.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Rennervate",
+              "huLocator": "Renervate",
+              "scope": "Harry attempts to rouse Dumbledore after the basin potion without a successful full revival.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "petrificus-totalus",
+      "labelEn": "Petrificus Totalus",
+      "labelHu": "Petrificus totalus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry stiffens an Inferius, but the wider army continues advancing.",
+      "searchTerms": [
+        "body bind",
+        "immobilise",
+        "Inferi"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Petrificus Totalus",
+        "hu": "Petrificus totalus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP26",
+            "kind": "event",
+            "enLocator": "Petrificus Totalus",
+            "huLocator": "Petrificus totalus",
+            "scope": "Harry stiffens an Inferius, but the wider army continues advancing.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "HBP28",
+            "kind": "event",
+            "enLocator": "Body-Bind Curse",
+            "huLocator": "sóbálvány-átkot",
+            "scope": "The narrator explicitly identifies the restraint placed by Dumbledore; no spoken incantation is reconstructed.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry stiffens an Inferius, but the wider army continues advancing.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus totalus",
+              "scope": "Harry stiffens an Inferius, but the wider army continues advancing.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP27",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Dumbledore silently immobilises Harry under the Cloak; HBP28 explicitly identifies the Body-Bind Curse after the restraint lifts.",
+          "vocalisation": "non-verbal",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "event",
+              "enLocator": "wordlessly immobilised Harry",
+              "huLocator": "néma varázslattal megbénította",
+              "scope": "Dumbledore silently immobilises Harry under the Cloak; HBP28 explicitly identifies the Body-Bind Curse after the restraint lifts.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "nonVerbalEvidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "event",
+              "enLocator": "wordlessly immobilised Harry",
+              "huLocator": "néma varázslattal megbénította",
+              "scope": "Dumbledore silently immobilises Harry under the Cloak; HBP28 explicitly identifies the Body-Bind Curse after the restraint lifts.",
+              "status": "paired-context-reviewed"
+            },
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Body-Bind Curse",
+              "huLocator": "sóbálvány-átkot",
+              "scope": "The narrator explicitly identifies the restraint placed by Dumbledore; no spoken incantation is reconstructed.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry immobilises the last tower attacker and later another opponent while pursuing Snape.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Petrificus Totalus",
+              "huLocator": "Petrificus totalus",
+              "scope": "Harry immobilises the last tower attacker and later another opponent while pursuing Snape.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "impedimenta",
+      "labelEn": "Impedimenta",
+      "labelHu": "Obstructo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry delays some Inferi, but others step over them; this does not defeat the army.",
+      "searchTerms": [
+        "Impedimenta",
+        "Obstructo"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Impedimenta",
+        "hu": "Obstructo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP26",
+            "kind": "event",
+            "enLocator": "Impedimenta",
+            "huLocator": "Obstructo",
+            "scope": "Harry delays some Inferi, but others step over them; this does not defeat the army.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry delays some Inferi, but others step over them; this does not defeat the army.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "Harry delays some Inferi, but others step over them; this does not defeat the army.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry intervenes against the Death Eaters during their retreat.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "Harry intervenes against the Death Eaters during their retreat.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "incarcerous",
+      "labelEn": "Incarcerous",
+      "labelHu": "Incarcerandus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry binds some Inferi with ropes, but the others continue advancing.",
+      "searchTerms": [
+        "Incarcerous",
+        "Incarcerandus"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Incarcerous",
+        "hu": "Incarcerandus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP26",
+            "kind": "event",
+            "enLocator": "Incarcerous",
+            "huLocator": "Incarcerandus",
+            "scope": "Harry binds some Inferi with ropes, but the others continue advancing.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry binds some Inferi with ropes, but the others continue advancing.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Incarcerous",
+              "huLocator": "Incarcerandus",
+              "scope": "Harry binds some Inferi with ropes, but the others continue advancing.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "sectumsempra",
+      "labelEn": "Sectumsempra",
+      "labelHu": "Sectumsempra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry uses the unfamiliar Prince curse on Draco and causes deep bleeding wounds.",
+      "searchTerms": [
+        "Prince",
+        "cut",
+        "wound",
+        "blood",
+        "unknown instructions"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Sectumsempra",
+        "hu": "Sectumsempra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP24",
+            "kind": "event",
+            "enLocator": "Sectumsempra",
+            "huLocator": "sectumsempra",
+            "scope": "Harry uses the unfamiliar Prince curse on Draco and causes deep bleeding wounds.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP24",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "malfoy"
+          ],
+          "summary": "Harry uses the unfamiliar Prince curse on Draco and causes deep bleeding wounds.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP24",
+              "kind": "event",
+              "enLocator": "Sectumsempra",
+              "huLocator": "sectumsempra",
+              "scope": "Harry uses the unfamiliar Prince curse on Draco and causes deep bleeding wounds.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "The curse cuts Inferi, but their bloodless bodies keep advancing.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP26",
+              "kind": "event",
+              "enLocator": "Sectumsempra",
+              "huLocator": "Sectumsempra",
+              "scope": "The curse cuts Inferi, but their bloodless bodies keep advancing.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "expelliarmus",
+      "labelEn": "Expelliarmus",
+      "labelHu": "Capitulatus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco disarms Dumbledore on the tower; this is distinct from Dumbledore's simultaneous silent restraint of Harry.",
+      "searchTerms": [
+        "Expelliarmus",
+        "Capitulatus"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Expelliarmus",
+        "hu": "Capitulatus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP27",
+            "kind": "event",
+            "enLocator": "Expelliarmus",
+            "huLocator": "Capitulatus",
+            "scope": "Draco disarms Dumbledore on the tower; this is distinct from Dumbledore's simultaneous silent restraint of Harry.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP27",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "albus-dumbledore"
+          ],
+          "summary": "Draco disarms Dumbledore on the tower; this is distinct from Dumbledore's simultaneous silent restraint of Harry.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "event",
+              "enLocator": "Expelliarmus",
+              "huLocator": "Capitulatus",
+              "scope": "Draco disarms Dumbledore on the tower; this is distinct from Dumbledore's simultaneous silent restraint of Harry.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "avada-kedavra",
+      "labelEn": "Avada Kedavra",
+      "labelHu": "Avada Kedavra",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Snape kills Dumbledore with the spoken Killing Curse.",
+      "searchTerms": [
+        "Avada Kedavra",
+        "Avada Kedavra"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Avada Kedavra",
+        "hu": "Avada Kedavra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP27",
+            "kind": "event",
+            "enLocator": "Avada Kedavra",
+            "huLocator": "Avada Kedavra",
+            "scope": "Snape kills Dumbledore with the spoken Killing Curse.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP27",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "severus-snape"
+          ],
+          "targetIds": [
+            "albus-dumbledore"
+          ],
+          "summary": "Snape kills Dumbledore with the spoken Killing Curse.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Avada Kedavra",
+              "scope": "Snape kills Dumbledore with the spoken Killing Curse.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP17",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "tom-riddle-senior"
+          ],
+          "summary": "Dumbledore reconstructs the murder of the Riddles with Morfin's wand; this is historical reported casting.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP17",
+              "kind": "testimony",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Avada Kedavra",
+              "scope": "Dumbledore reconstructs the murder of the Riddles with Morfin's wand; this is historical reported casting.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "crucio",
+      "labelEn": "Crucio",
+      "labelHu": "Crucio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry tries to torture Snape during the pursuit; Snape blocks the attempts.",
+      "searchTerms": [
+        "Crucio",
+        "Crucio"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Crucio",
+        "hu": "Crucio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP28",
+            "kind": "event",
+            "enLocator": "Crucio",
+            "huLocator": "Crucio",
+            "scope": "Harry tries to torture Snape during the pursuit; Snape blocks the attempts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP28",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "severus-snape"
+          ],
+          "summary": "Harry tries to torture Snape during the pursuit; Snape blocks the attempts.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Harry tries to torture Snape during the pursuit; Snape blocks the attempts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "HBP24",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Draco starts a Cruciatus incantation in the bathroom but Harry interrupts with Sectumsempra.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP24",
+              "kind": "event",
+              "enLocator": "cruci",
+              "huLocator": "Cruci",
+              "scope": "Draco starts a Cruciatus incantation in the bathroom but Harry interrupts with Sectumsempra.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "stupefy",
+      "labelEn": "Stupefy",
+      "labelHu": "Stupor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry attempts Stunning during the attackers' retreat.",
+      "searchTerms": [
+        "Stupefy",
+        "Stupor"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Stupefy",
+        "hu": "Stupor"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP28",
+            "kind": "event",
+            "enLocator": "Stupefy",
+            "huLocator": "Stupor",
+            "scope": "Harry attempts Stunning during the attackers' retreat.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry attempts Stunning during the attackers' retreat.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Stupefy",
+              "huLocator": "Stupor",
+              "scope": "Harry attempts Stunning during the attackers' retreat.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "incendio",
+      "labelEn": "Incendio",
+      "labelHu": "Piroinitio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The blond Death Eater ignites Hagrid's hut.",
+      "searchTerms": [
+        "fire",
+        "arson",
+        "hut"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Incendio",
+        "hu": "Piroinitio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP28",
+            "kind": "event",
+            "enLocator": "Incendio",
+            "huLocator": "Piroinitio",
+            "scope": "The blond Death Eater ignites Hagrid's hut.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "thorfinn-rowle"
+          ],
+          "targetIds": [],
+          "summary": "The blond Death Eater ignites Hagrid's hut.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP28",
+              "kind": "event",
+              "enLocator": "Incendio",
+              "huLocator": "Piroinitio",
+              "scope": "The blond Death Eater ignites Hagrid's hut.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "reducto",
+      "labelEn": "Reducto",
+      "labelHu": "Reducto",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Amycus attempts to break through the blocked tower stairs.",
+      "searchTerms": [
+        "barrier",
+        "break",
+        "stairs"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": {
+        "en": "Reducto",
+        "hu": "Reducto"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP27",
+            "kind": "event",
+            "enLocator": "Reducto",
+            "huLocator": "Reducto",
+            "scope": "Amycus attempts to break through the blocked tower stairs.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP27",
+          "mode": "attempted",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "amycus-carrow"
+          ],
+          "targetIds": [],
+          "summary": "Amycus attempts to break through the blocked tower stairs.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "event",
+              "enLocator": "Reducto",
+              "huLocator": "Reducto",
+              "scope": "Amycus attempts to break through the blocked tower stairs.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "unbreakable-vow",
+      "labelEn": "Unbreakable Vow",
+      "labelHu": "Megszeghetetlen Eskü",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bellatrix uses her wand as Bonder while Snape agrees to Narcissa's three conditions.",
+      "searchTerms": [
+        "vow",
+        "binding",
+        "Bonder",
+        "death",
+        "commitment"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP2",
+            "kind": "event",
+            "enLocator": "Unbreakable Vow",
+            "huLocator": "Megszeghetetlen Eskü",
+            "scope": "Bellatrix uses her wand as Bonder while Snape agrees to Narcissa's three conditions.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP2",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "bellatrix-lestrange"
+          ],
+          "targetIds": [
+            "severus-snape",
+            "narcissa-malfoy"
+          ],
+          "summary": "Bellatrix uses her wand as Bonder while Snape agrees to Narcissa's three conditions.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "HBP2",
+              "kind": "event",
+              "enLocator": "Unbreakable Vow",
+              "huLocator": "Megszeghetetlen Eskü",
+              "scope": "Bellatrix uses her wand as Bonder while Snape agrees to Narcissa's three conditions.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "imperius-curse",
+      "labelEn": "Imperius Curse",
+      "labelHu": "Imperius-átok",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Draco reports controlling Rosmerta to convey his necklace and poisoned-drink attacks.",
+      "searchTerms": [
+        "control",
+        "coercion",
+        "delivery",
+        "curse"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP27",
+            "kind": "testimony",
+            "enLocator": "Imperius Curse",
+            "huLocator": "Imperius",
+            "scope": "Draco reports controlling Rosmerta to convey his necklace and poisoned-drink attacks.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP27",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "madam-rosmerta"
+          ],
+          "summary": "Draco reports controlling Rosmerta to convey his necklace and poisoned-drink attacks.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "HBP27",
+              "kind": "testimony",
+              "enLocator": "Imperius Curse",
+              "huLocator": "Imperius",
+              "scope": "Draco reports controlling Rosmerta to convey his necklace and poisoned-drink attacks.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "confundus-charm",
+      "labelEn": "Confundus Charm",
+      "labelHu": "Konfúziós bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione confuses McLaggen during the Keeper trials; Harry confronts her about it.",
+      "searchTerms": [
+        "confuse",
+        "Quidditch",
+        "cheating"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP11",
+            "kind": "testimony",
+            "enLocator": "Confunded",
+            "huLocator": "konfúziós bűbájt",
+            "scope": "Hermione confuses McLaggen during the Keeper trials; Harry confronts her about it.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP11",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "cormac-mclaggen"
+          ],
+          "summary": "Hermione confuses McLaggen during the Keeper trials; Harry confronts her about it.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "HBP11",
+              "kind": "testimony",
+              "enLocator": "Confunded",
+              "huLocator": "konfúziós bűbájt",
+              "scope": "Hermione confuses McLaggen during the Keeper trials; Harry confronts her about it.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    },
+    {
+      "id": "bat-bogey-hex",
+      "labelEn": "Bat-Bogey Hex",
+      "labelHu": "Rémdenevér-rontás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Slughorn reports seeing Ginny hex Zacharias, prompting her invitation to his gathering.",
+      "searchTerms": [
+        "Ginny",
+        "hex",
+        "Slug Club"
+      ],
+      "termMentions": [],
+      "limits": "Author reference across this book, not automatic viewpoint knowledge. Literal mentions do not establish scene presence or a performed cast.",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "HBP7",
+            "kind": "testimony",
+            "enLocator": "Bat-Bogey",
+            "huLocator": "rémdenevér-rontást",
+            "scope": "Slughorn reports seeing Ginny hex Zacharias, prompting her invitation to his gathering.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "HBP7",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "ginny-weasley"
+          ],
+          "targetIds": [],
+          "summary": "Slughorn reports seeing Ginny hex Zacharias, prompting her invitation to his gathering.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "HBP7",
+              "kind": "testimony",
+              "enLocator": "Bat-Bogey",
+              "huLocator": "rémdenevér-rontást",
+              "scope": "Slughorn reports seeing Ginny hex Zacharias, prompting her invitation to his gathering.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": []
+    }
+  ]
+}
