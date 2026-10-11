@@ -27,6 +27,8 @@ test('previously failed GoF term queries resolve edition wording without a serie
 
 test('typed book terms preserve referents, animals and unnamed spell classes across inventories',()=>{
   for(const [book,q,category,id,hu] of [
+    ['PS','float feather','spell','wingardium-leviosa','Vingardium leviosa'],
+    ['PS','potions teacher','person','severus-snape','Piton'],
     ['CoS','disarm','spell','expelliarmus','Capitulatus'],
     ['PoA','Leperex','spell','impervius','Leperex'],
     ['PoA','Hedwig','creature','hedwig','Hedvig'],
@@ -39,6 +41,19 @@ test('typed book terms preserve referents, animals and unnamed spell classes acr
   assert.equal(glossary('Protego','spell','GoF').length,0);
   assert.ok(glossary('Harry',undefined,'PS')[0].anchors.every(a=>a.startsWith('PS')));
   assert.ok(glossary('Avada').some(e=>e.hu==='Avada Kedavra'),'legacy series glossary remains separate');
+});
+
+test('first-book terminology uses the full typed inventory without importing a later formula',()=>{
+  const all=result('glossary','--book','PS','--limit','300');
+  assert.equal(all.total,246);
+  assert.ok(all.entries.every(e=>e.verification.book==='PS'&&e.detailsCommand.startsWith('semantic --book PS --id ')));
+  assert.equal(glossary('deepest desire','object','PS')[0].id,'mirror-of-erised');
+  const curse=glossary('Killing Curse','spell','PS').find(e=>e.id==='avada-kedavra');
+  assert.equal(curse.termKind,'referent-name');
+  assert.ok(!curse.hu.includes('Adava'));
+  assert.equal(result(...curse.detailsCommand.split(' ')).entries[0].identification.availableFrom,'GoF14');
+  assert.throws(()=>glossary('x','institution','PS'),/Book-scoped glossary categories/);
+  assert.throws(()=>glossary('','spell','PS'),/must not be empty/);
 });
 
 test('book-term pagination preserves ordering and unavailable scopes fail visibly',()=>{

@@ -399,7 +399,7 @@ export function glossary(query, category, book) {
   const entries = JSON.parse(fs.readFileSync(path.join(root, 'data/hu-glossary.json'), 'utf8'));
   if (category && !entries.some(e => e.category === category)) throw Error(`Unknown glossary category: ${category}`);
   if (book && !Object.hasOwn(knowledgeBooks,book)) throw Error(`Unsupported book terminology: ${book}. Book-scoped lookup supports ${Object.keys(knowledgeBooks).join(', ')}. The unfiltered glossary contains selective series-wide terms, not an edition-specific substitute.`);
-  if (book && book !== 'PS') {
+  if (book) {
     const categoryMap = {person:'person',creature:'animal',place:'place',object:'object',spell:'spell'};
     if (category && !Object.hasOwn(categoryMap,category)) throw Error(`Book-scoped glossary categories: ${Object.keys(categoryMap).join(', ')}. Use the unfiltered glossary for selective ${category} terms; its wording is series-wide.`);
     const typed = loadKnowledge(book);
@@ -419,7 +419,7 @@ export function glossary(query, category, book) {
     }));
   }
   const needle = query?.normalize('NFKC').toLocaleLowerCase('hu');
-  return entries.filter(e => (!category || e.category === category) && (!book || e.anchors?.some(anchor => anchor.startsWith(`${book}`))) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle))).map(e => book ? projectBookGlossary(e, book) : e);
+  return entries.filter(e => (!category || e.category === category) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle)));
 }
 export function lintHungarian(text, book) {
   const warnings = [];
@@ -493,7 +493,7 @@ export function main(args = process.argv.slice(2)) {
   const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS|CoS|PoA|GoF] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] (book projection PS-only) [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA|GoF [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA|GoF. Stats: [--book PS|CoS|PoA|GoF]. Typed inventories cover PS, CoS, PoA and GoF; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH; lint-hu also accepts --book PS|CoS|PoA|GoF. Output is JSON except read; --json makes read JSON. See references/tools.md.';
   if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') {
     const topicHelp = {
-      glossary:'hp.mjs glossary [--book PS|CoS|PoA|GoF] --query "TERM" [--category spell|person|place|object|creature] [--limit 3] [--offset 0]\nBook-scoped default: edition terminology. PS uses selected terminology; CoS/PoA/GoF use compact typed terms with a detailsCommand for full evidence. Without --book: selective series-wide glossary, not an edition-specific fallback. Typed records may include later revelations; apply the scene knowledge cutoff yourself.',
+      glossary:'hp.mjs glossary [--book PS|CoS|PoA|GoF] --query "TERM" [--category spell|person|place|object|creature] [--limit 3] [--offset 0]\nBook-scoped default: edition terminology. All four books use compact typed terms with a detailsCommand for full evidence. Without --book: selective series-wide glossary, not an edition-specific fallback. Typed records may include later revelations; apply the scene knowledge cutoff yourself.',
       facts:'hp.mjs facts [--query "CLAIM"] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0] [--book PS]\nSelective evidence cards, not the typed book inventory. --book supports PS only. For CoS/PoA/GoF referents or mechanisms use semantic --book BOOK --query "CONCEPT"; for edition terms use glossary --book BOOK --query "TERM". A missing card is not proof of canon absence.'
     };
     return console.log(topicHelp[args[0]] ?? helpText);
@@ -526,7 +526,7 @@ export function main(args = process.argv.slice(2)) {
   } else if (command === 'glossary') {
     const found = glossary(o.query, o.category, o.book), offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
     result = { book:o.book ?? null,
-      scope:o.book ? (o.book === 'PS' ? 'Selected PS terminology projection; inspect usage evidence.' : 'Book-specific typed terminology; whole-book identities and edition wording, not a scene knowledge cutoff.') : 'Selective series-wide terminology. For edition-specific wording, pass --book PS|CoS|PoA|GoF; project overrides take precedence.',
+      scope:o.book ? 'Book-specific typed terminology; whole-book identities and edition wording, not a scene knowledge cutoff.' : 'Selective series-wide terminology. For edition-specific wording, pass --book PS|CoS|PoA|GoF; project overrides take precedence.',
       total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, entries: found.slice(offset, offset + limit) };
   } else if (['characters','people','magic','spells','places','objects','semantic'].includes(command)) {
     if (!Object.hasOwn(knowledgeBooks,o.book)) throw Error(`Unsupported book knowledge: ${o.book ?? `(choose ${Object.keys(knowledgeBooks).join(', ')})`}`);

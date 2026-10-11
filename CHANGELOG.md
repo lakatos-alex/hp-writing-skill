@@ -1,63 +1,68 @@
 # Changelog
 
-All notable changes to the **Harry Potter Writing Skill** (`harry-potter-fanfic`) will be documented in this file.
+Release history for `harry-potter-fanfic`. Counts describe the data included in
+each release; they do not measure literary quality or independent reading.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## 0.4.1 — 2026-10-11
 
-## [Unreleased]
+The reference tools now provide typed retrieval for the first four books and
+a common book-scoped terminology lookup. See the [release notes](docs/releases/v0.4.1.md)
+for examples, compatibility details and limits.
 
-### Added
-- Ranked PS retrieval through `semantic`, `people`, `places`, `objects` and `spells`, with bilingual concepts, aliases, explicit categories, chapter filters and object magic status.
-- A curated PS1–PS17 inventory: 117 characters, 53 places, 70 notable objects and six identified spells; inventory completion and independent reading/review coverage are reported separately.
-- Contributor roadmap for all seven books and a first-book taxonomy review with excluded observations.
-- CoS1–CoS18 typed retrieval: 97 characters, 47 places, 75 objects and eight identified spells, with book-specific filters and a contributor review of exclusions and edition differences.
-- Source-free `stats` command for per-book record counts, casting rows and stored bilingual evidence pairs; README reports counts and review limits separately.
-- PoA1–PoA22 typed retrieval: 89 characters, 56 places, 72 objects and 14 identified spells. Scabbers/Peter share an identity; the lake rescue uses one casting event with evidence for both viewpoints. README counts include these inventories.
-- GoF1–GoF37 typed retrieval: 129 characters, 61 places, 66 objects and 37 identified spells; explicit real/impostor Moody separation, grouped failures and edition-specific formula evidence. README counts cover four books.
-- A seven-draft GoF retrieval diagnostic with two blind model judges, preserved original narratives and modest findings. Mixed primary preferences did not demonstrate a benefit from further Markdown expansion.
+### Reference data and tools
 
-### Fixed
-- Unsupported book filters on legacy facts/glossary now explain their PS-only projection and give the typed semantic route.
-- `magic` now returns identified human-cast spells. Object behaviour, accidental magic, speculative identities and unexplained effects are excluded. Unknown speech is separate from proven non-verbal casting; later spell identifications carry separate evidence.
-- Corrected glossary categories for the Put-Outer, Privet Drive, Godric's Hollow, Grunnings and broom models. Corrected Baruffio and Charlie's primary presence to mentions, and preserved first-book Hungarian edition names.
+- Added PS, CoS, PoA and GoF inventories: 997 per-book records across characters,
+  places, notable objects and identified human-cast spells, covering 94 chapters.
+- Added bilingual concept ranking, category routes, chapter evidence filters,
+  object magic status, record statistics and separate coverage reporting.
+- Made `glossary --book PS|CoS|PoA|GoF` use compact typed terminology results,
+  with paired evidence, formula/class distinctions and full-record commands.
+- Added book-aware advisory Hungarian lint, explicit retrieval scope and
+  focused glossary/facts help. Unfiltered glossary lookup retains series coverage;
+  evidence-card book projections remain PS-only.
+- Expanded the selective series glossary and evidence cards to 192 and 62 entries.
 
-## [0.3.1] - 2026-09-17
+### Corrections and guidance
 
-### Added
-- **Faculty & Peer Canon Expansion**: Deepened canon profiles and relationship dynamics for Hogwarts staff (Filius Flitwick, Pomona Sprout, Poppy Pomfrey, Argus Filch) and underrepresented student peers (Percy Weasley, Blaise Zabini / Zambini, Theodore Nott) in `canon-character-map.md` and `character-arcs-and-relationships.md`.
-- **Canon Evidence Cards**: 6 verified facts added to `facts.json` (now 50 cards), covering duelling champion backgrounds, greenhouse herbology operations, hospital wing protocol, Kwikspell/VillámVarázs secrets, and House peer interactions.
-- **Bilingual Terminology Expansion**: 6 canonical entries added to `hu-glossary.json` (now 151 entries), including `restricted-section` (*zárolt szekció*), `kwikspell` (*VillámVarázs*), `mandrake` (*mandragóra*), `percy-weasley`, `zabini` (*Blaise Zambini* with canonical 'm' notation), and `theodore-nott`.
-- **Versioned Test Bench Archive**: Restructured `samples/` into a permanent versioned archive (`samples/v0.3.0/`) containing all 9 benchmark sample runs with an updated root test harness hub (`samples/README.md`) for continuous comparative evaluation.
+- Restricted spell retrieval to identified human casting. Kept unknown speech,
+  later identification, spell-class reports and object behaviour distinct.
+- Corrected first-book categories and presence records, including the Put-Outer,
+  locations, broom models, Baruffio and Charlie. Retained book-specific Hungarian forms.
+- Recorded PoA identity reveals and the lake rescue's two viewpoints without
+  duplicating the cast. Separated real Moody from Crouch Junior in GoF, and
+  distinguished wand inspection, the linked-wand effect and Portkey operation.
+- Simplified Hungarian workflow selection and added a book-scoped lookup default.
+  Added a seven-book retrieval roadmap and preserved a small blind GoF diagnostic.
+- Rewrote the README and release notes around installation, everyday use,
+  data coverage and known limits.
 
-### Fixed
-- **CLI Help Option Handling**: Corrected `hp.mjs` command-line argument parsing so `--help` displays help guidance directly rather than reporting an unrecognized command error.
+## 0.3.1 — 2026-09-17
 
-## [0.3.0] - 2026-09-17
+- Expanded staff and student reference notes, including Flitwick, Sprout,
+  Pomfrey, Filch, Percy, Zabini and Theodore Nott.
+- Added six evidence cards and six bilingual terms, bringing the release totals
+  to 50 cards and 151 glossary entries.
+- Preserved the v0.3.0 writing samples in a versioned archive and updated the sample index.
+- Fixed CLI help handling.
 
-### Added
-- **Hungarian Language & Localization**: Craft guidance for Hungarian narration, free indirect discourse, information order, dialogue mechanics, and register (`hungarian-prose.md`, `hungarian-terminology.md`, `workflow-hungarian-writing.md`).
-- **Bilingual Terminology Glossary**: 145-entry searchable English–Hungarian dictionary covering characters, places, spells, and concepts with paired chapter locators and usage notes (`hu-glossary.json`).
-- **Hungarian Chapter Catalogue**: Aligned 199-chapter Hungarian corpus index (`chapters-hu.json`) with bilingual topic mapping.
-- **Permissive Importer**: Support for arbitrary EPUB layouts (EPUB 3 Navigation, fragment links, heuristic spine fallback) and direct plain text / Markdown novel files (`.txt`, `.md`).
-- **Advisory Hungarian Linter**: `hp.mjs lint-hu` command to scan drafts for unintended English headwords.
-- **Evaluation & Quality Harness**: A/B/C protocol with automated blind testing and scoring harness (`abc-0.3.0-protocol.md`, `writing-quality-protocol.md`).
-- **`--strict` Mode Flag**: Preserves exact benchmark validation against official editions while keeping permissive mode as default for user files.
+## 0.3.0 — 2026-09-17
 
-## [0.2.2] - 2026-09-16
+- Added Hungarian prose, terminology and writing workflows, with a 145-entry
+  bilingual glossary and a paired 199-chapter catalogue.
+- Expanded import to permissive EPUB layouts and plain text/Markdown books,
+  retaining strict validation as an option.
+- Added advisory Hungarian terminology lint and writing-evaluation protocols.
 
-### Changed
-- Refined public documentation boundaries and cleanly decoupled private source references from public guides.
+## 0.2.2 — 2026-09-16
 
-## [0.2.1] - 2026-09-16
+- Clarified public documentation and separated private source handling from user guides.
 
-### Added
-- Integration prompt for complementary general writing skills (`better-writing`).
+## 0.2.1 — 2026-09-16
 
-## [0.2.0] - 2026-09-16
+- Added integration guidance for the complementary `better-writing` skill.
 
-### Added
-- **Canon Dossiers & Guides**: Seven comprehensive book dossiers and specialist reference guides for magic constraints, institutions, worldbuilding, and character arcs.
-- **Offline Deterministic Tools (`hp.mjs`)**: Node.js CLI for chapter search, text retrieval, paired reading, continuity checking, and manuscript auditing with zero third-party dependencies.
-- **Evidence System**: 44 verified canon evidence cards (`facts.json`) and 33 lexical topic categories (`topics.json`).
-- **Multi-task Routing**: 11 on-demand subskills for story architecture, character workshop, magic engineering, and continuity tracking.
+## 0.2.0 — 2026-09-16
+
+- Introduced seven-book dossiers, craft references and 11 task workflows.
+- Added local tools for search, chapter reading, paired access, continuity and manuscript checks.
+- Included 44 evidence cards and 33 lexical topic categories.
