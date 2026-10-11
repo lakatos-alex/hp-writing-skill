@@ -69,7 +69,7 @@ For manual installation, copy the self-contained [skill folder](skills/harry-pot
 - **Primary Seven-Book Canon:** The seven original novels outrank films, companion books, wiki summaries, and model recollection. Exact claims still need passage verification.
 - **Grounded British Boarding School Realism:** Student actions are constrained by class schedules, physical exhaustion, school rules, caretaker patrols, and genuine social friction.
 - **Progressive Disclosure (11 Subskills):** Agents load only the specific reference modules required for their task rather than polluting context with unnecessary lore.
-- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text search, bilingual passage alignment, knowledge/custody checks, and Hungarian terminology linting. Source-free concept retrieval covers the first two books, ranking people, places, notable objects and identified human-cast spells. Independent full-book semantic review remains incomplete. See the [tool guide](skills/harry-potter-fanfic/references/tools.md) for scope and filters.
+- **Deterministic Local Engine (`hp.mjs`):** A zero-dependency Node.js CLI providing literal text search, bilingual passage alignment, knowledge/custody checks, and Hungarian terminology linting. Source-free concept retrieval covers the first four books, ranking people, places, notable objects and identified human-cast spells. Independent full-book semantic review remains incomplete. See the [tool guide](skills/harry-potter-fanfic/references/tools.md) for scope and filters.
 - **Bilingual References:** Indexed English and Hungarian chapter pairs, topical indices, evidence cards, and terminology locators support targeted lookup in both languages.
 
 ---
@@ -97,6 +97,8 @@ Load only the workflow and reference matching your active task:
 ## 🧪 Evaluation Record
 
 The repository preserves an immutable v0.3.0 archive of exploratory scenes and historical coordinator summaries. Those archived summaries contain conflicting Hungarian totals and word counts and are not presented here as a verified ranking. The traceable release evaluation used two scenarios and six preserved judge records; after shared factual calibration, its means were A 18.25, B 17.75, and C 18.00 out of 20. It did not establish an overall advantage for the skill. See the [evaluation note](samples/EVALUATION-NOTE.md), the [release record](skills/harry-potter-fanfic/evals/release-0.3.0.md), and the [current sample index](samples/README.md).
+
+A separate [GoF retrieval pilot](docs/gof-writing-pilot.md) used seven fresh writing contexts and two blind model judges. Comparisons of CLI/data with the existing optional Markdown were mixed, so no substantial guidance expansion was made. Source-reading drafts recovered an edition-specific Hungarian term missed by the source-free drafts; one unaided draft missed the word minimum. This small pilot does not establish general writing superiority or replace human editorial review.
 
 ---
 
@@ -166,6 +168,8 @@ node skills/harry-potter-fanfic/scripts/hp.mjs spells --book CoS --query "erase 
 node skills/harry-potter-fanfic/scripts/hp.mjs objects --book CoS --query "diary memory possession"
 node skills/harry-potter-fanfic/scripts/hp.mjs spells --book PoA --query "repel Dementors"
 node skills/harry-potter-fanfic/scripts/hp.mjs objects --book PoA --query "travel time"
+node skills/harry-potter-fanfic/scripts/hp.mjs spells --book GoF --query "Invito"
+node skills/harry-potter-fanfic/scripts/hp.mjs objects --book GoF --query "seven-lock trunk"
 node skills/harry-potter-fanfic/scripts/hp.mjs stats
 node skills/harry-potter-fanfic/scripts/hp.mjs facts --query Fidelius
 node skills/harry-potter-fanfic/scripts/hp.mjs search --sources /path/to/books --lang en --query "Restricted Section"
@@ -183,48 +187,52 @@ node skills/harry-potter-fanfic/scripts/hp.mjs lint-hu --file /path/to/draft.md
 
 The typed semantic reference contains source-free records with English/Hungarian
 labels, aliases, original descriptions, concept terms and short chapter locators.
-It covers *Philosopher's Stone*, *Chamber of Secrets* and *Prisoner of Azkaban*.
+It covers *Philosopher's Stone*, *Chamber of Secrets*, *Prisoner of Azkaban* and *Goblet of Fire*.
 
 | Book | Chapters represented | Characters | Places | Objects | Spell records | Total records |
 |---|---:|---:|---:|---:|---:|---:|
 | Philosopher's Stone (PS) | 17 | 117 | 53 | 70 | 6 | 246 |
 | Chamber of Secrets (CoS) | 18 | 97 | 47 | 75 | 8 | 227 |
 | Prisoner of Azkaban (PoA) | 22 | 89 | 56 | 72 | 14 | 231 |
-| Total across these books | 57 | 303 | 156 | 217 | 28 | 704 |
+| Goblet of Fire (GoF) | 37 | 129 | 61 | 66 | 37 | 293 |
+| Total across these books | 94 | 432 | 217 | 283 | 65 | 997 |
 
 Counts are per-book records; a character or object can recur across books.
-Characters include humans, speaking beings, ghosts, portraits and 27 separately
+Characters include humans, speaking beings, ghosts, portraits and 39 separately
 typed animals. Objects include notable ordinary items and reading titles;
 classification does not establish enchantment. Spell records require identified
 human casting and keep unknown speech distinct from proven non-verbal casting.
 
-The spell records contain 57 casting, practice or reported-event rows, plus two
-separate reports of Memory Charm use whose exact formula is not attested.
+The spell records contain 132 casting, practice or reported-event rows, plus seven
+separate spell-class reports whose exact formula is not attested.
 Grouped practice and reports are not counts of individual casts. The reference
-stores 774 contextual evidence pairs and 1380 literal-mention pairs. These count
+stores 1155 contextual evidence pairs and 2323 literal-mention pairs. These count
 stored English/Hungarian references, which can reuse a passage; they are not
 unique passages or independent readings.
 
 Run `node skills/harry-potter-fanfic/scripts/hp.mjs stats` to reproduce the counts,
-or add `--book PoA` for one book. `coverage --book PS`, `coverage --book CoS`
-and `coverage --book PoA`
+or add `--book GoF` for one book. `coverage --book PS`, `coverage --book CoS`,
+`coverage --book PoA` and `coverage --book GoF`
 separate scoped inventory completion from reading and review status. Targeted
 passage checks do not certify exhaustive or independent full-book review.
 The seven-book chapter catalogue and selective glossary/evidence cards are
-separate layers; typed retrieval for the remaining four books follows the
+separate layers; typed retrieval for the remaining three books follows the
 [roadmap](docs/semantic-search-roadmap.md). Pinned releases retain their own
 data and command set.
 
 PoA keeps Scabbers/Peter Pettigrew as one identity and the lake rescue Patronus
 as one casting row with evidence for its other viewpoint. Map and Time-Turner
 operation remain object behaviour. Chapter filters select whole-book records
-and do not hide later identity reveals.
+and do not hide later identity reveals. GoF distinguishes Crouch Junior’s
+classroom casting from the captive real Moody, the wand-history inspection
+from the linked-wand effect, and the Goblet from the Portkey Cup. Hungarian
+forms retain the indexed edition’s wording.
 
 ---
 
 ## 🔮 The Restricted Section: Roadmap
 
-No overengineered fluff—just practical, book-grounded craft improvements planned for upcoming revisions:
+Planned work includes:
 
 - **Granular Book-by-Book Deep Dive:** Systematically working through the core seven novels volume by volume to extract finer-grained evidence cards, castle geography, classroom logistics, faculty routines, and subtle period details.
 - **The Restricted Section (Extra Canonical Texts):** Expanding the corpus beyond the main septology to include the Hogwarts library companion volumes (*Fantastic Beasts and Where to Find Them*, *Quidditch Through the Ages*, *The Tales of Beedle the Bard*) with full bilingual indexing and lore integration.

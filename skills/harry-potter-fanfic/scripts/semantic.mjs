@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 const dataRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../data/books');
 const categories = {characters:'person', magic:'spell', places:'place', objects:'object'};
-export const knowledgeBooks = {PS:17, CoS:18, PoA:22};
+export const knowledgeBooks = {PS:17, CoS:18, PoA:22, GoF:37};
 export const fold = value => value.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase()
   .replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const tokens = value => fold(value).split(' ').filter(Boolean);

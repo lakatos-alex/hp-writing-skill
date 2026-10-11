@@ -13,9 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributor roadmap for all seven books and a first-book taxonomy review with excluded observations.
 - CoS1–CoS18 typed retrieval: 97 characters, 47 places, 75 objects and eight identified spells, with book-specific filters and a contributor review of exclusions and edition differences.
 - Source-free `stats` command for per-book record counts, casting rows and stored bilingual evidence pairs; README reports counts and review limits separately.
-- PoA1–PoA22 typed retrieval: 89 characters, 56 places, 72 objects and 14 identified spells. Scabbers/Peter share an identity; the lake rescue uses one casting event with evidence for both viewpoints. README counts include all three inventories.
+- PoA1–PoA22 typed retrieval: 89 characters, 56 places, 72 objects and 14 identified spells. Scabbers/Peter share an identity; the lake rescue uses one casting event with evidence for both viewpoints. README counts include these inventories.
+- GoF1–GoF37 typed retrieval: 129 characters, 61 places, 66 objects and 37 identified spells; explicit real/impostor Moody separation, grouped failures and edition-specific formula evidence. README counts cover four books.
+- A seven-draft GoF retrieval diagnostic with two blind model judges, preserved original narratives and modest findings. Mixed primary preferences did not demonstrate a benefit from further Markdown expansion.
 
 ### Fixed
+- Unsupported book filters on legacy facts/glossary now explain their PS-only projection and give the typed semantic route.
 - `magic` now returns identified human-cast spells. Object behaviour, accidental magic, speculative identities and unexplained effects are excluded. Unknown speech is separate from proven non-verbal casting; later spell identifications carry separate evidence.
 - Corrected glossary categories for the Put-Outer, Privet Drive, Godric's Hollow, Grunnings and broom models. Corrected Baruffio and Charlie's primary presence to mentions, and preserved first-book Hungarian edition names.
 

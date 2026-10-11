@@ -8,7 +8,7 @@ This workspace develops the skill; its consumer writing workflows are testable p
 
 Use the seven novels as primary authority. Add a concise paraphrase, chapter anchor, evidence type and meaningful limitation for each maintained claim. Distinguish events from testimony and interpretation. Record exact source coverage; a keyword match is not semantic verification.
 
-For typed retrieval data, follow the [seven-book roadmap](docs/semantic-search-roadmap.md), [data contract](docs/book-knowledge-contract.md), [PS taxonomy review](docs/ps-semantic-review.md), [CoS review](docs/cos-semantic-review.md) and [PoA review](docs/poa-semantic-review.md). Maintain distinct referents, bilingual search concepts, explicit casting identities and object magic status. Do not relabel missing incantations as non-verbal casting or silently guess an unnamed spell.
+For typed retrieval data, follow the [seven-book roadmap](docs/semantic-search-roadmap.md), [data contract](docs/book-knowledge-contract.md), [PS taxonomy review](docs/ps-semantic-review.md), [CoS review](docs/cos-semantic-review.md), [PoA review](docs/poa-semantic-review.md) and [GoF review](docs/gof-semantic-review.md). Maintain distinct referents, bilingual search concepts, explicit casting identities and object magic status. Do not relabel missing incantations as non-verbal casting or silently guess an unnamed spell.
 
 For new evidence cards, follow [facts.json](skills/harry-potter-fanfic/data/facts.json). For lexical topics, edit [topics.json](skills/harry-potter-fanfic/data/topics.json) and regenerate with `node tools/build_catalogue.mjs /path/to/books`. This writes public metadata without copying passages. Read the [development workflow](skills/harry-potter-fanfic/references/workflow-knowledge-development.md) for the full process.
 
@@ -27,6 +27,8 @@ Future model support should preserve portable files and stable anchor/schema con
 Run `node tools/validate_package.mjs`, `node --test tools/tests/*.test.mjs` and `git diff --check`. When local books are available, run `node tools/verify_sources.mjs /path/to/books`.
 
 For changed behaviour, run realistic prompts and record the actual agent response, model when known, date, resources used and limitations. Keep expected results distinct from observed results. A test case is not a pass merely because it is written down.
+
+The [GoF writing pilot](docs/gof-writing-pilot.md) compares CLI/data with existing optional Markdown and bounded source access. Its [scenario suite](tools/quality-suite-gof.json) is separate from the default quality suite. Copy it as a new run's `suite.json`, create independent resource snapshots, then use `tools/evaluate_quality.mjs`; do not reuse old outputs or tune on the preserved pilot scenes.
 
 Use independent forward evaluation for substantial changes when available. Give the evaluator the skill and realistic task, without the intended answer. Keep private source passages out of published transcripts.
 

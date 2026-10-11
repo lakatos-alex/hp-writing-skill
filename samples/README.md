@@ -6,9 +6,9 @@ This directory preserves versioned writing samples and evaluation records for se
 
 ## Test Bench Harness & Methodology
 
-All evaluations follow the standardized empirical testing protocol defined in [`skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md`](../skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md).
+The historical A/B/C evaluations use [`skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md`](../skills/harry-potter-fanfic/evals/abc-0.3.0-protocol.md). The separate GoF retrieval pilot uses its own frozen resource comparison, described below.
 
-For each versioned test, independent agent contexts execute identical briefs under three isolated resource conditions:
+For each A/B/C test, fresh agent contexts execute identical briefs under three resource conditions. Record whether restrictions were enforced or followed as instructions; context freshness alone does not establish filesystem isolation.
 
 | Condition | Description | Available Resources |
 |---|---|---|
@@ -39,6 +39,13 @@ The preserved [v0.3.0 release record](../skills/harry-potter-fanfic/evals/releas
 ---
 
 ## Procedure for Testing Future Updates
+
+The [GoF retrieval diagnostic](../docs/gof-writing-pilot.md) preserves seven
+first drafts and two blind model judgments in a [source-free review bundle](gof-retrieval-pilot/results.json).
+It compares CLI/data with five existing Markdown references, with exploratory
+unaided and bounded-source conditions. Mixed primary preferences did not
+demonstrate a benefit from expanding guidance. This is a contributor pilot,
+not a versioned release comparison or human editorial approval.
 
 When validating subsequent skill releases (e.g. `v0.3.1`, `v0.4.0`):
 1. **Spawn Independent Contexts**: Execute the standardized scenario under Conditions A, B, and C in isolated sessions.

@@ -1,0 +1,3318 @@
+{
+  "schemaVersion": 1,
+  "book": "GoF",
+  "policyVersion": 2,
+  "entries": [
+    {
+      "id": "incendio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Incendio",
+      "labelHu": "Piroinitio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Arthur lights the Dursley fireplace to prepare Floo travel.",
+      "searchTerms": [
+        "fire",
+        "flame",
+        "ignite",
+        "tűz",
+        "láng",
+        "gyújt"
+      ],
+      "incantation": {
+        "en": "Incendio",
+        "hu": "Piroinitio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF4",
+            "kind": "event",
+            "enLocator": "Incendio",
+            "huLocator": "Piroinitio",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF4",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "arthur-weasley"
+          ],
+          "targetIds": [],
+          "summary": "Arthur ignites the fireplace.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF4",
+              "kind": "event",
+              "enLocator": "Incendio",
+              "huLocator": "Piroinitio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "accio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Accio",
+      "labelHu": "Invito",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Summoning Charm brings a selected object toward the caster; Harry learns it through repeated effort.",
+      "searchTerms": [
+        "summon",
+        "summoning",
+        "bring",
+        "retrieve",
+        "object",
+        "begyűjtő",
+        "begyűjtés",
+        "magához",
+        "tárgy"
+      ],
+      "incantation": {
+        "en": "Accio",
+        "hu": "Invito"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF6",
+            "kind": "testimony",
+            "enLocator": "Accio",
+            "huLocator": "Invito",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF6",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "mrs-weasley"
+          ],
+          "targetIds": [],
+          "summary": "Molly repeatedly summons the twins' hidden sweets while checking their pockets.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF6",
+              "kind": "event",
+              "enLocator": "Accio",
+              "huLocator": "Invito",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF18",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry performs poorly in the Summoning lesson and receives extra work.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF18",
+              "kind": "event",
+              "enLocator": "Summoning Charms",
+              "huLocator": "begyűjtőbűbáj",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF20",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry finally summons Hermione's dictionary during practice.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF20",
+              "kind": "event",
+              "enLocator": "Accio Dictionary",
+              "huLocator": "Invito – szótár",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF20",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry summons the Firebolt during the dragon task.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF20",
+              "kind": "event",
+              "enLocator": "Accio Firebolt",
+              "huLocator": "Invito – Tűzvillám",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF25",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The impostor summons the fallen Map before Snape can take it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF25",
+              "kind": "event",
+              "enLocator": "Accio",
+              "huLocator": "Invito pergamen",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF34",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry summons the Cup while holding Cedric, enabling their escape.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF34",
+              "kind": "event",
+              "enLocator": "Accio!",
+              "huLocator": "Invito!",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "obliviate",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Obliviate",
+      "labelHu": "Exmemoriam",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The individually described campsite wizard alters Roberts's memory. Other Memory Charm reports do not establish the exact formula.",
+      "searchTerms": [
+        "memory",
+        "forget",
+        "erase",
+        "emlék",
+        "emlékezet",
+        "felejt",
+        "töröl"
+      ],
+      "incantation": {
+        "en": "Obliviate",
+        "hu": "Exmemoriam"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF7",
+            "kind": "event",
+            "enLocator": "Obliviate",
+            "huLocator": "Exmemoriam",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF7",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "campsite-obliviator"
+          ],
+          "targetIds": [
+            "mr-roberts"
+          ],
+          "summary": "The Ministry wizard wipes the manager's immediate suspicions.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF7",
+              "kind": "event",
+              "enLocator": "Obliviate",
+              "huLocator": "Exmemoriam",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "barty-crouch-senior"
+          ],
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "testimony",
+              "enLocator": "Memory Charm",
+              "huLocator": "emléktörlő bűbáj",
+              "scope": "The son attributes Bertha's damaged recollection to his father's excessive Memory Charm; the formula is not supplied.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Identified Memory Charm class, not proof that he uttered Obliviate or cast non-verbally."
+        }
+      ]
+    },
+    {
+      "id": "sonorus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Sonorus",
+      "labelHu": "Sonorus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bagman amplifies his voice for the match and the tournament tasks.",
+      "searchTerms": [
+        "voice",
+        "amplify",
+        "loud",
+        "announcement",
+        "hang",
+        "erősít",
+        "kiabál",
+        "közvetítés"
+      ],
+      "incantation": {
+        "en": "Sonorus",
+        "hu": "Sonorus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF8",
+            "kind": "event",
+            "enLocator": "Sonorus",
+            "huLocator": "Sonorus",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF8",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ludo-bagman"
+          ],
+          "targetIds": [],
+          "summary": "Bagman amplifies the event announcement.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF8",
+              "kind": "event",
+              "enLocator": "Sonorus",
+              "huLocator": "Sonorus",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ludo-bagman"
+          ],
+          "targetIds": [],
+          "summary": "Bagman amplifies the event announcement.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Sonorus",
+              "huLocator": "Sonorus",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ludo-bagman"
+          ],
+          "targetIds": [],
+          "summary": "Bagman amplifies the event announcement.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Sonorus",
+              "huLocator": "Sonorus",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "quietus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Quietus",
+      "labelHu": "Silentium",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Bagman restores his voice after the final.",
+      "searchTerms": [
+        "voice",
+        "quiet",
+        "restore",
+        "hang",
+        "halk",
+        "vissza"
+      ],
+      "incantation": {
+        "en": "Quietus",
+        "hu": "Silentium"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF8",
+            "kind": "event",
+            "enLocator": "Quietus",
+            "huLocator": "Silentium",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF8",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ludo-bagman"
+          ],
+          "targetIds": [],
+          "summary": "Bagman ends the voice amplification.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF8",
+              "kind": "event",
+              "enLocator": "Quietus",
+              "huLocator": "Silentium",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "morsmordre",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Morsmordre",
+      "labelHu": "Morsmordre",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Crouch Junior casts the sky Dark Mark with Harry's stolen wand. The initial accusation against Winky is false.",
+      "searchTerms": [
+        "Dark",
+        "Mark",
+        "sky",
+        "signal",
+        "skull",
+        "Sötét",
+        "Jegy",
+        "ég",
+        "koponya",
+        "jel"
+      ],
+      "incantation": {
+        "en": "Morsmordre",
+        "hu": "Morsmordre"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF9",
+            "kind": "event",
+            "enLocator": "MORSMORDRE",
+            "huLocator": "MORSMORDRE",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          },
+          {
+            "anchor": "GoF35",
+            "kind": "testimony",
+            "enLocator": "Dark Mark",
+            "huLocator": "Sötét Jegy",
+            "scope": "The son confesses casting the Mark using Harry's stolen wand.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The unseen human caster projects the Mark; the confession later identifies him.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF9",
+              "kind": "event",
+              "enLocator": "MORSMORDRE",
+              "huLocator": "MORSMORDRE",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "rennervate",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Rennervate",
+      "labelHu": "Stimula",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Ennervate"
+      ],
+      "description": "The revival spell wakes the stunned Winky and later the stunned impostor, not the dead Cedric.",
+      "searchTerms": [
+        "revive",
+        "wake",
+        "stunned",
+        "ébreszt",
+        "feléleszt",
+        "kábult"
+      ],
+      "incantation": {
+        "en": "Rennervate",
+        "hu": "Stimula"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF9",
+            "kind": "event",
+            "enLocator": "Rennervate",
+            "huLocator": "Stimula",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "amos-diggory"
+          ],
+          "targetIds": [
+            "winky"
+          ],
+          "summary": "Amos revives the elf.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF9",
+              "kind": "event",
+              "enLocator": "Rennervate",
+              "huLocator": "Stimula",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [
+            "barty-crouch-junior"
+          ],
+          "summary": "Dumbledore revives the son for questioning.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "event",
+              "enLocator": "Rennervate",
+              "huLocator": "Stimula",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [
+            "viktor-krum"
+          ],
+          "summary": "Dumbledore wakes the stunned Krum.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF28",
+              "kind": "event",
+              "enLocator": "Rennervate",
+              "huLocator": "Stimula",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "prior-incantato",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Prior Incantato",
+      "labelHu": "Priori incantatem",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Amos inspects the last spell from Harry's wand. The HU formula resembles the later name of the twin-core effect, but these are separate events.",
+      "searchTerms": [
+        "last",
+        "spell",
+        "wand",
+        "inspect",
+        "evidence",
+        "utolsó",
+        "varázslat",
+        "pálca",
+        "vizsgál",
+        "bizonyíték"
+      ],
+      "incantation": {
+        "en": "Prior Incantato",
+        "hu": "Priori incantatem"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF9",
+            "kind": "event",
+            "enLocator": "Prior Incantato",
+            "huLocator": "Priori incantatem",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "amos-diggory"
+          ],
+          "targetIds": [],
+          "summary": "Amos makes the wand reproduce a ghost of its last spell.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF9",
+              "kind": "event",
+              "enLocator": "Prior Incantato",
+              "huLocator": "Priori incantatem",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "deletrius",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Deletrius",
+      "labelHu": "Annullate",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Amos removes the smoky wand-produced echo of the Dark Mark.",
+      "searchTerms": [
+        "remove",
+        "echo",
+        "smoke",
+        "eltüntet",
+        "árny",
+        "füst"
+      ],
+      "incantation": {
+        "en": "Deletrius",
+        "hu": "Annullate"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF9",
+            "kind": "event",
+            "enLocator": "Deletrius",
+            "huLocator": "Annullate",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "amos-diggory"
+          ],
+          "targetIds": [],
+          "summary": "Amos clears the inspected spell echo.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF9",
+              "kind": "event",
+              "enLocator": "Deletrius",
+              "huLocator": "Annullate",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "reparo",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Reparo",
+      "labelHu": "Reparo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione repairs a broken train-compartment window.",
+      "searchTerms": [
+        "repair",
+        "broken",
+        "window",
+        "javít",
+        "törött",
+        "ablak"
+      ],
+      "incantation": {
+        "en": "Reparo",
+        "hu": "Reparo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF11",
+            "kind": "event",
+            "enLocator": "Reparo",
+            "huLocator": "Reparo",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF11",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione restores the broken glass.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF11",
+              "kind": "event",
+              "enLocator": "Reparo",
+              "huLocator": "Reparo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "engorgio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Engorgio",
+      "labelHu": "Baziteo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The impostor enlarges a spider for the torture demonstration.",
+      "searchTerms": [
+        "enlarge",
+        "swell",
+        "bigger",
+        "nagyít",
+        "duzzaszt",
+        "nagyobb"
+      ],
+      "incantation": {
+        "en": "Engorgio",
+        "hu": "Baziteo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "event",
+            "enLocator": "Engorgio",
+            "huLocator": "Baziteo",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The false teacher enlarges the spider.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF14",
+              "kind": "event",
+              "enLocator": "Engorgio",
+              "huLocator": "Baziteo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "reducio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Reducio",
+      "labelHu": "Reducio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The impostor returns the enlarged spider to its former size.",
+      "searchTerms": [
+        "shrink",
+        "reduce",
+        "zsugor",
+        "kicsinyít"
+      ],
+      "incantation": {
+        "en": "Reducio",
+        "hu": "Reducio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "event",
+            "enLocator": "Reducio",
+            "huLocator": "Reducio",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The false teacher shrinks the demonstration spider.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF14",
+              "kind": "event",
+              "enLocator": "Reducio",
+              "huLocator": "Reducio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "imperius-curse",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Imperio",
+      "labelHu": "Imperio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The control curse forces behaviour, but Harry learns to resist. Reports of control do not prove an uttered formula.",
+      "searchTerms": [
+        "Imperius",
+        "control",
+        "command",
+        "coercion",
+        "resist",
+        "irányít",
+        "parancs",
+        "kényszer",
+        "ellenáll"
+      ],
+      "incantation": {
+        "en": "Imperio",
+        "hu": "Imperio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "event",
+            "enLocator": "Imperio",
+            "huLocator": "Imperio",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The false teacher controls the spider.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF14",
+              "kind": "event",
+              "enLocator": "Imperio",
+              "huLocator": "Imperio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF15",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Repeated classroom casts toward Harry produce control he gradually learns to resist.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF15",
+              "kind": "event",
+              "enLocator": "Imperio",
+              "huLocator": "Imperio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF34",
+          "mode": "attempted",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort attempts to force Harry's answer; Harry resists.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF34",
+              "kind": "event",
+              "enLocator": "Imperio",
+              "huLocator": "Imperio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF15",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [
+            "neville",
+            "dean-thomas"
+          ],
+          "summary": "The classroom curse makes Neville perform gymnastics and Dean hop; words for these individual casts are not reported.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF15",
+              "kind": "event",
+              "enLocator": "Imperius Curse",
+              "huLocator": "Imperius",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "barty-crouch-senior"
+          ],
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "testimony",
+              "enLocator": "Imperius Curse",
+              "huLocator": "Imperius",
+              "scope": "The son describes his father's control of him.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Named control-curse report; no uttered formula or non-verbal mode established."
+        },
+        {
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "testimony",
+              "enLocator": "Imperius Curse",
+              "huLocator": "Imperius",
+              "scope": "The son describes Voldemort taking control of his father.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Named control-curse report; no uttered formula or non-verbal mode established."
+        },
+        {
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "testimony",
+              "enLocator": "Imperius Curse",
+              "huLocator": "Imperius",
+              "scope": "The son describes controlling Krum in the maze and keeping the captive real Moody subdued.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Named control-curse report; no uttered formula or non-verbal mode established."
+        }
+      ]
+    },
+    {
+      "id": "cruciatus-curse",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Crucio",
+      "labelHu": "Crucio",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The torture curse is cast by the impostor, Voldemort and the coerced Krum.",
+      "searchTerms": [
+        "Cruciatus",
+        "torture",
+        "pain",
+        "kínzás",
+        "fájdalom"
+      ],
+      "incantation": {
+        "en": "Crucio",
+        "hu": "Crucio"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "event",
+            "enLocator": "Crucio",
+            "huLocator": "Crucio",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The false teacher tortures a spider.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF14",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF29",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "peter-pettigrew"
+          ],
+          "summary": "Harry's dream vision shows Voldemort punishing Wormtail.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF29",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "viktor-krum"
+          ],
+          "targetIds": [
+            "cedric-diggory"
+          ],
+          "summary": "Krum tortures Cedric while controlled by the impostor.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF33",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "avery"
+          ],
+          "summary": "Voldemort punishes the kneeling Avery.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF33",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF33",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort tortures the tied Harry.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF33",
+              "kind": "event",
+              "enLocator": "Crucio",
+              "huLocator": "Crucio",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF34",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort tortures Harry again before ordering him to answer.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF34",
+              "kind": "event",
+              "enLocator": "hit again by the Cruciatus Curse",
+              "huLocator": "újra eltalálta a Cruciatus-átok",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "killing-curse",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Killing Curse",
+      "labelHu": "Halálos átok",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Avada Kedavra",
+        "Adava Kedavra"
+      ],
+      "description": "The named curse kills Frank, a demonstration spider and Cedric, then meets Harry's Disarming Charm in the twin-core duel.",
+      "searchTerms": [
+        "kill",
+        "death",
+        "murder",
+        "green",
+        "unblockable",
+        "halál",
+        "öl",
+        "gyilkol",
+        "zöld",
+        "kivédhetetlen"
+      ],
+      "incantation": {
+        "en": "Avada Kedavra",
+        "hu": "Adava Kedavra"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF14",
+            "kind": "event",
+            "enLocator": "Avada Kedavra",
+            "huLocator": "Adava Kedavra",
+            "scope": "Harry explicitly links the green-light death of Frank to this named curse.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF1",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "frank-bryce"
+          ],
+          "summary": "Voldemort kills the gardener; GoF14 explicitly names the same death curse.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF1",
+              "kind": "event",
+              "enLocator": "green light",
+              "huLocator": "zöld fény",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF14",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The false teacher kills a spider.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF14",
+              "kind": "event",
+              "enLocator": "Moody roared",
+              "huLocator": "Mordon",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF32",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "peter-pettigrew"
+          ],
+          "targetIds": [
+            "cedric-diggory"
+          ],
+          "summary": "Wormtail kills Cedric on command.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF32",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Adava Kedavra",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF34",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "voldemort"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Voldemort casts the killing curse during the duel; Harry escapes through the exceptional linked-wand event.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF34",
+              "kind": "event",
+              "enLocator": "Avada Kedavra",
+              "huLocator": "Adava Kedavra",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count. The indexed original Hungarian EPUB spells the formula Adava Kedavra; this is preserved as edition wording, not claimed universal terminology."
+    },
+    {
+      "id": "furnunculus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Furnunculus",
+      "labelHu": "Carbunculus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's curse produces boils, including a rebounded strike and a later interaction with Jelly-Legs.",
+      "searchTerms": [
+        "boils",
+        "skin",
+        "pustules",
+        "kelés",
+        "bőr",
+        "pattanás"
+      ],
+      "incantation": {
+        "en": "Furnunculus",
+        "hu": "Carbunculus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF18",
+            "kind": "event",
+            "enLocator": "Furnunculus",
+            "huLocator": "Carbunculus",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "goyle"
+          ],
+          "summary": "Harry aims at Malfoy but the rebounding curse hits Goyle.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF18",
+              "kind": "event",
+              "enLocator": "Furnunculus",
+              "huLocator": "Carbunculus",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF37",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "crabbe"
+          ],
+          "summary": "Harry identifies his boil curse in the combined train attack.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF37",
+              "kind": "event",
+              "enLocator": "me,",
+              "huLocator": "én",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "densaugeo",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Densaugeo",
+      "labelHu": "Densaugeo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Malfoy's tooth-growth hex ricochets onto Hermione.",
+      "searchTerms": [
+        "teeth",
+        "grow",
+        "enlarge",
+        "fog",
+        "nő",
+        "nagyít"
+      ],
+      "incantation": {
+        "en": "Densaugeo",
+        "hu": "Densaugeo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF18",
+            "kind": "event",
+            "enLocator": "Densaugeo",
+            "huLocator": "Densaugeo",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "malfoy"
+          ],
+          "targetIds": [
+            "hermione"
+          ],
+          "summary": "Malfoy aims at Harry but the rebounding hex hits Hermione.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF18",
+              "kind": "event",
+              "enLocator": "Densaugeo",
+              "huLocator": "Densaugeo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "orchideous",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Orchideous",
+      "labelHu": "Orchidessis",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ollivander conjures flowers while testing Fleur's wand.",
+      "searchTerms": [
+        "flowers",
+        "conjure",
+        "virág",
+        "teremt"
+      ],
+      "incantation": {
+        "en": "Orchideous",
+        "hu": "Orchidessis"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF18",
+            "kind": "event",
+            "enLocator": "Orchideous",
+            "huLocator": "orchidessis",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ollivander"
+          ],
+          "targetIds": [],
+          "summary": "Ollivander tests Fleur's wand with flowers.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF18",
+              "kind": "event",
+              "enLocator": "Orchideous",
+              "huLocator": "orchidessis",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "avis",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Avis",
+      "labelHu": "Avis",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Ollivander conjures birds while testing Krum's wand.",
+      "searchTerms": [
+        "birds",
+        "conjure",
+        "madár",
+        "teremt"
+      ],
+      "incantation": {
+        "en": "Avis",
+        "hu": "Avis"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF18",
+            "kind": "event",
+            "enLocator": "Avis",
+            "huLocator": "Avis",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF18",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "ollivander"
+          ],
+          "targetIds": [],
+          "summary": "Ollivander tests Krum's wand with birds.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF18",
+              "kind": "event",
+              "enLocator": "Avis",
+              "huLocator": "Avis",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "lumos",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Lumos",
+      "labelHu": "Lumos",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The wand-light spell illuminates the woods, library and maze.",
+      "searchTerms": [
+        "light",
+        "wand",
+        "illuminate",
+        "fény",
+        "pálca",
+        "világít"
+      ],
+      "incantation": {
+        "en": "Lumos",
+        "hu": "Lumos"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF9",
+            "kind": "event",
+            "enLocator": "Lumos",
+            "huLocator": "Lumos",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF9",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione lights the path and finds the fallen Ron.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF9",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry lights his late library search.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF28",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [],
+          "summary": "Dumbledore lights the search near the forest.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF28",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "cedric-diggory"
+          ],
+          "targetIds": [],
+          "summary": "Both champions light their wands on entering the maze.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Lumos",
+              "huLocator": "Lumos",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "relashio",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Relashio",
+      "labelHu": "Relaxo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry releases the Grindylows' grip with hot water from his wand underwater. Attempted words are not certified silent casting.",
+      "searchTerms": [
+        "release",
+        "grip",
+        "hot",
+        "water",
+        "elenged",
+        "fogás",
+        "forró",
+        "víz"
+      ],
+      "incantation": {
+        "en": "Relashio",
+        "hu": "Relaxo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF26",
+            "kind": "event",
+            "enLocator": "Relashio",
+            "huLocator": "Relaxo",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry mouths the formula underwater; a bubble comes out and the spell scalds the attackers.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Relashio",
+              "huLocator": "Relaxo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count. Harry attempts speech underwater; the lack of audible sound is not evidence of a deliberately non-verbal method."
+    },
+    {
+      "id": "four-point-spell",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Four-Point Spell",
+      "labelHu": "Tájolóbűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Point me",
+        "Tájolj"
+      ],
+      "description": "The spell makes the wand point north; it does not give a shortest route or automatically find the Cup.",
+      "searchTerms": [
+        "north",
+        "direction",
+        "navigation",
+        "compass",
+        "észak",
+        "irány",
+        "tájolás",
+        "iránytű"
+      ],
+      "incantation": {
+        "en": "Point me",
+        "hu": "Tájolj"
+      },
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Four-Point Spell",
+            "huLocator": "tájolóbűbáj",
+            "scope": "Selected identity or contextual claim in the surrounding passage; the description summarizes the whole book.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Grouped maze uses establish north at successive forks.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Point me",
+              "huLocator": "Tájolj",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "patronus-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Patronus Charm",
+      "labelHu": "Patrónus-bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Expecto Patronum",
+        "Patronus",
+        "Patrónus"
+      ],
+      "description": "Harry produces a stag toward what proves to be a Dementor-shaped Boggart; he then correctly identifies it and follows with Riddikulus.",
+      "searchTerms": [
+        "Patronus",
+        "guardian",
+        "stag",
+        "Dementor",
+        "Boggart",
+        "patrónus",
+        "szarvas",
+        "dementor",
+        "mumus"
+      ],
+      "incantation": {
+        "en": "Expecto Patronum",
+        "hu": "Expecto patronum"
+      },
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Expecto Patronum",
+            "huLocator": "Expecto patronum",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry drives the apparent Dementor back with a stag guardian.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Expecto Patronum",
+              "huLocator": "Expecto patronum",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "reducto",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Reducto",
+      "labelHu": "Reducto",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Reductor curse targets solid obstructions; it fails against the maze mist and only weakly opens a hedge.",
+      "searchTerms": [
+        "Reductor",
+        "blast",
+        "solid",
+        "obstacle",
+        "taroló",
+        "szilárd",
+        "akadály",
+        "robbant"
+      ],
+      "incantation": {
+        "en": "Reducto",
+        "hu": "Reducto"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Reductor curse",
+            "huLocator": "taroló átkot",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry masters the curse during grouped preparation.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Reductor curse",
+              "huLocator": "taroló átkot",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "The curse passes through the mist without removing it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Reducto",
+              "huLocator": "Reducto",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry burns a small opening in the hedge to reach Cedric.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Reductor curse again",
+              "huLocator": "ismét használta a taroló",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "stupefy",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Stupefy",
+      "labelHu": "Stupor",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Stunning Spell can fail against armour or a giant spider; combining two well-aimed casts succeeds.",
+      "searchTerms": [
+        "stun",
+        "unconscious",
+        "knock",
+        "out",
+        "kábít",
+        "ájul",
+        "eszméletlen"
+      ],
+      "incantation": {
+        "en": "Stupefy",
+        "hu": "Stupor"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Stupefy",
+            "huLocator": "Stupor",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry's spell rebounds from the Skrewt armour.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Stupefy",
+              "huLocator": "Stupor",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "viktor-krum"
+          ],
+          "summary": "Harry stuns Krum to stop Cedric's torture.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Krum in the back",
+              "huLocator": "háta közepén",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter",
+            "cedric-diggory"
+          ],
+          "targetIds": [],
+          "summary": "Separate initial attacks against the spider fail; grouped row, not an exact cast count.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Cedric yelling",
+              "huLocator": "Cedric is",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter",
+            "cedric-diggory"
+          ],
+          "targetIds": [],
+          "summary": "The combined underbelly attacks stun the spider.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "two spells combined",
+              "huLocator": "kettő együtt",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF35",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [
+            "barty-crouch-junior"
+          ],
+          "summary": "Dumbledore stuns the impostor before he can kill Harry.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "event",
+              "enLocator": "Stupefy",
+              "huLocator": "Stupor",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count.",
+      "reportedClassUses": [
+        {
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "testimony",
+              "enLocator": "Stunned Fleur",
+              "huLocator": "Fleur Delacourt elkábítottam",
+              "scope": "The impostor admits stunning Fleur in the maze.",
+              "status": "paired-context-reviewed"
+            }
+          ],
+          "limits": "Named Stunning class; formula and deliberate silent method not reported."
+        }
+      ]
+    },
+    {
+      "id": "impedimenta",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Impedimenta",
+      "labelHu": "Obstructo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The Impediment Jinx slows or stops attackers; armour and large creatures can resist it.",
+      "searchTerms": [
+        "Impediment",
+        "slow",
+        "stop",
+        "hinder",
+        "hátráltató",
+        "lassít",
+        "akadályoz",
+        "megállít"
+      ],
+      "incantation": {
+        "en": "Impedimenta",
+        "hu": "Obstructo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Impediment Jinx",
+            "huLocator": "hátráltató ártás",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry masters the jinx during preparation.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Impediment Jinx",
+              "huLocator": "hátráltató ártás",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Initial Skrewt-armour strike rebounds; a later underside strike freezes it.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry's spider attack fails.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF34",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry casts behind himself while escaping the pursuing Death Eaters.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF34",
+              "kind": "event",
+              "enLocator": "Impedimenta",
+              "huLocator": "Obstructo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "expelliarmus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Expelliarmus",
+      "labelHu": "Capitulatus",
+      "labelKind": "canonical-term",
+      "aliases": [
+        "Disarming Charm",
+        "Lefegyverző bűbáj",
+        "Expelliarmus"
+      ],
+      "description": "Disarming can make the spider release Harry; the duel has exceptional twin-core consequences and is not proof of a general shield against killing curses.",
+      "searchTerms": [
+        "disarm",
+        "release",
+        "wand",
+        "lefegyverzés",
+        "elenged",
+        "pálca"
+      ],
+      "incantation": {
+        "en": "Expelliarmus",
+        "hu": "Capitulatus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Expelliarmus",
+            "huLocator": "Expelliarmus",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry makes the spider drop him, worsening his injured leg in the fall.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Expelliarmus",
+              "huLocator": "Expelliarmus",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF34",
+          "mode": "performed",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "voldemort"
+          ],
+          "summary": "Harry's Disarming Charm meets the killing curse and the linked wands produce echoes.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF34",
+              "kind": "event",
+              "enLocator": "Expelliarmus!",
+              "huLocator": "Capitulatus!",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count. The HU maze passage uses Expelliarmus, while the graveyard uses Capitulatus; both edition spellings are retained as aliases/locators."
+    },
+    {
+      "id": "jelly-legs-jinx",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Jelly-Legs Jinx",
+      "labelHu": "Gumilábrontás",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione breaks Harry's weak shield during practice; George later identifies his own contribution to the mixed train hex. No formula is supplied.",
+      "searchTerms": [
+        "legs",
+        "wobble",
+        "jelly",
+        "láb",
+        "remeg",
+        "kocsonya"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Jelly-Legs Jinx",
+            "huLocator": "gumilábrontás",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Hermione's jinx breaks the practice shield and leaves Harry unsteady.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Jelly-Legs Jinx",
+              "huLocator": "gumilábrontás",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF37",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "george-weasley"
+          ],
+          "targetIds": [
+            "crabbe"
+          ],
+          "summary": "George identifies his jinx in the mixed train attack.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF37",
+              "kind": "event",
+              "enLocator": "I used Jelly-Legs",
+              "huLocator": "gumilábrontás",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "shield-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Shield Charm",
+      "labelHu": "Pajzsbűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry's temporary defensive barrier breaks under Hermione's jinx in practice.",
+      "searchTerms": [
+        "shield",
+        "barrier",
+        "deflect",
+        "minor",
+        "curses",
+        "pajzs",
+        "fal",
+        "hárít",
+        "gyenge",
+        "átok"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Shield Charm",
+            "huLocator": "pajzsbűbáj",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "practised",
+          "outcome": "failure",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [
+            "harry-potter"
+          ],
+          "summary": "Harry's practice shield fails against Hermione's well-placed jinx.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Shield Charm",
+              "huLocator": "pajzsbűbáj",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count. The formula Protego is not supplied by this book and is not a search alias."
+    },
+    {
+      "id": "banishing-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Banishing Charm",
+      "labelHu": "Távtaszító bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The class sends cushions away; Neville's mis-aimed use sends heavier things, including Flitwick.",
+      "searchTerms": [
+        "banish",
+        "push",
+        "away",
+        "cushions",
+        "távtaszít",
+        "eltol",
+        "párnák"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF26",
+            "kind": "event",
+            "enLocator": "Banishing",
+            "huLocator": "távtaszított",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF26",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "ron"
+          ],
+          "targetIds": [],
+          "summary": "Grouped Ron practice sends cushions with poor aim.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Banishing",
+              "huLocator": "távtaszított",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF26",
+          "mode": "practised",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione sends cushions to the intended box.",
+          "vocalisation": "unreported",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Banished",
+              "huLocator": "távtaszított",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF26",
+          "mode": "practised",
+          "outcome": "uncertain",
+          "practitionerIds": [
+            "neville"
+          ],
+          "targetIds": [
+            "flitwick"
+          ],
+          "summary": "Neville repeatedly sends unintended heavy targets, including the teacher.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Neville’s aim",
+              "huLocator": "Neville",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count. The formula Depulso is not supplied by this book and is not a search alias."
+    },
+    {
+      "id": "bubble-head-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Bubble-Head Charm",
+      "labelHu": "Buborékfej-bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Fleur and Cedric use the breathing charm during the lake task; Fleur's breathing solution does not secure her hostage. No formula is supplied.",
+      "searchTerms": [
+        "breathing",
+        "air",
+        "bubble",
+        "underwater",
+        "légzés",
+        "levegő",
+        "buborék",
+        "víz"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF26",
+            "kind": "testimony",
+            "enLocator": "Bubble-Head Charm",
+            "huLocator": "buborékfej-bűbáj",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF26",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "fleur-delacour"
+          ],
+          "targetIds": [
+            "fleur-delacour"
+          ],
+          "summary": "Bagman reports Fleur's excellent breathing charm and the subsequent Grindylow failure.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "testimony",
+              "enLocator": "Bubble-Head Charm",
+              "huLocator": "buborékfej-bűbáj",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        },
+        {
+          "anchor": "GoF26",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "cedric-diggory"
+          ],
+          "targetIds": [
+            "cedric-diggory"
+          ],
+          "summary": "Cedric uses the head bubble and retrieves Cho.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF26",
+              "kind": "event",
+              "enLocator": "Bubble-Head Charm",
+              "huLocator": "buborékfej-bűbáj",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "conjunctivitis-curse",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Conjunctivitis Curse",
+      "labelHu": "Kötőhártyagyújtó átok",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Krum attacks the dragon's vulnerable eyes during the first task; damage to its eggs complicates his result. No formula is supplied.",
+      "searchTerms": [
+        "eyes",
+        "dragon",
+        "vulnerable",
+        "szem",
+        "sárkány",
+        "sebezhető"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF23",
+            "kind": "testimony",
+            "enLocator": "Conjunctivitis curse",
+            "huLocator": "kötőhártya",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF23",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "viktor-krum"
+          ],
+          "targetIds": [],
+          "summary": "Hermione identifies Krum's eye curse while Sirius's letter explains the vulnerable dragon eyes.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF23",
+              "kind": "testimony",
+              "enLocator": "Conjunctivitis curse",
+              "huLocator": "kötőhártya",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "unbreakable-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Unbreakable Charm",
+      "labelHu": "Törésgátló bűbáj",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Hermione reports protecting the beetle jar, which prevents Rita from changing to full size while enclosed. No formula is supplied.",
+      "searchTerms": [
+        "unbreakable",
+        "breaking",
+        "jar",
+        "trap",
+        "törésgátló",
+        "törhetetlen",
+        "üveg",
+        "fogság"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF37",
+            "kind": "testimony",
+            "enLocator": "Unbreakable Charm",
+            "huLocator": "törésgátló bűbáj",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF37",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "hermione"
+          ],
+          "targetIds": [],
+          "summary": "Hermione states that she put the charm on the jar.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF37",
+              "kind": "testimony",
+              "enLocator": "Unbreakable Charm",
+              "huLocator": "törésgátló bűbáj",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "confundus-charm",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Confundus Charm",
+      "labelHu": "Zagyváló átok",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "The impostor says he confounded the Goblet so it would treat Harry as the sole entrant for an invented fourth school.",
+      "searchTerms": [
+        "confuse",
+        "selection",
+        "fourth",
+        "school",
+        "összezavar",
+        "választás",
+        "negyedik",
+        "iskola"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF17",
+            "kind": "testimony",
+            "enLocator": "Confundus Charm",
+            "huLocator": "zagyváló átok",
+            "scope": "The apparent teacher describes how a powerful named charm could deceive the Goblet; GoF35 admits his intervention.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF35",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "barty-crouch-junior"
+          ],
+          "targetIds": [],
+          "summary": "The impostor acknowledges manipulating the Goblet's school selection.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF35",
+              "kind": "testimony",
+              "enLocator": "under the name of a different school",
+              "huLocator": "negyedik iskola",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count. The formula Confundo is not supplied by this book and is not a search alias."
+    },
+    {
+      "id": "riddikulus",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Riddikulus",
+      "labelHu": "Comikulissimus",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry destroys the Dementor-shaped Boggart after recognizing its stumble.",
+      "searchTerms": [
+        "Boggart",
+        "fear",
+        "comic",
+        "mumus",
+        "félelem",
+        "nevetséges"
+      ],
+      "incantation": {
+        "en": "Riddikulus",
+        "hu": "Comikulissimus"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF31",
+            "kind": "event",
+            "enLocator": "Riddikulus",
+            "huLocator": "Comikulissimus",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF31",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry follows his Patronus with the Boggart counter-spell.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF31",
+              "kind": "event",
+              "enLocator": "Riddikulus",
+              "huLocator": "Comikulissimus",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "diffindo",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Diffindo",
+      "labelHu": "Diffindo",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Harry splits Cedric's bag to create a private opportunity to warn him about dragons.",
+      "searchTerms": [
+        "cut",
+        "split",
+        "bag",
+        "vág",
+        "széthasít",
+        "táska"
+      ],
+      "incantation": {
+        "en": "Diffindo",
+        "hu": "Diffindo"
+      },
+      "identification": {
+        "basis": "named-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF20",
+            "kind": "event",
+            "enLocator": "Diffindo",
+            "huLocator": "Diffindo",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF20",
+          "mode": "performed",
+          "outcome": "success",
+          "practitionerIds": [
+            "harry-potter"
+          ],
+          "targetIds": [],
+          "summary": "Harry cuts Cedric's bag, spilling its contents.",
+          "vocalisation": "spoken",
+          "wand": "used",
+          "evidence": [
+            {
+              "anchor": "GoF20",
+              "kind": "event",
+              "enLocator": "Diffindo",
+              "huLocator": "Diffindo",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    },
+    {
+      "id": "age-line",
+      "kind": "spell",
+      "nameGlossaryId": null,
+      "incantationGlossaryId": null,
+      "labelEn": "Age Line",
+      "labelHu": "Korhatárvonal",
+      "labelKind": "canonical-term",
+      "aliases": [],
+      "description": "Dumbledore adds an age restriction around the Goblet; Ageing Potion fails to defeat it. No casting formula is supplied.",
+      "searchTerms": [
+        "age",
+        "restriction",
+        "seventeen",
+        "kor",
+        "korhatár",
+        "tizenhét"
+      ],
+      "incantation": null,
+      "identification": {
+        "basis": "named-effect-in-book",
+        "evidence": [
+          {
+            "anchor": "GoF16",
+            "kind": "testimony",
+            "enLocator": "Age Line",
+            "huLocator": "korhatárvonal",
+            "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+            "status": "paired-context-reviewed"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "anchor": "GoF16",
+          "mode": "reported",
+          "outcome": "success",
+          "practitionerIds": [
+            "albus-dumbledore"
+          ],
+          "targetIds": [],
+          "summary": "The established line repels and beards underage entrants, as the announced protection specifies.",
+          "vocalisation": "unreported",
+          "wand": "unreported",
+          "evidence": [
+            {
+              "anchor": "GoF16",
+              "kind": "testimony",
+              "enLocator": "Age Line",
+              "huLocator": "korhatárvonal",
+              "scope": "Specific human casting or grouped practice in the surrounding passage; a row does not count individual physical casts.",
+              "status": "paired-context-reviewed"
+            }
+          ]
+        }
+      ],
+      "factIds": [],
+      "limits": "Identified human casting only. Missing words do not prove non-verbal casting. Whole-book attribution can depend on the later confession; chapter filters are not knowledge cutoffs. Grouped practice is not a physical cast count."
+    }
+  ]
+}

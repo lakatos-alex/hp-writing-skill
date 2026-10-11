@@ -20,7 +20,7 @@ That PDF already contains missing accents, displaced initials, inconsistent head
 | Topic retrieval | 33 English vocabularies | Lexical counts; Hungarian ranks inherit aligned English counts |
 | Evidence cards | 62 original cards | Selected passage readings with claim type and limitations |
 | Bilingual terminology | Searchable paired entries | Short term locators in EN/HU chapters, referents checked in context |
-| Typed semantic retrieval | 704 per-book records across PS1–PS17, CoS1–CoS18 and PoA1–PoA22 | Curated identities, concepts, objects and identified human spells with selected paired evidence |
+| Typed semantic retrieval | 997 per-book records across PS1–PS17, CoS1–CoS18, PoA1–PoA22 and GoF1–GoF37 | Curated identities, concepts, objects and identified human spells with selected paired evidence |
 | Hungarian craft analysis | 12 paired chapter samples across the first six books | Selected windows actually examined, listed in the prose guide |
 | Behavioural evaluation | Fixed A/B/C protocol and preserved outputs | Observed writing behaviour under stated resource conditions |
 
@@ -28,7 +28,7 @@ The [Hungarian prose sampling table](hungarian-prose.md#paired-evidence-sampling
 
 ## Limits
 
-The [PS coverage record](../data/books/ps/coverage.json), [CoS coverage record](../data/books/cos/coverage.json) and [PoA coverage record](../data/books/poa/coverage.json) distinguish completed scoped inventories from incomplete independent full-book semantic reading. The earlier PS1/PS10 pilot is superseded for retrieval; its counters are historical. PS has 117 characters, 53 places, 70 objects and six identified spells; CoS has 97 characters, 47 places, 75 objects and eight spells; PoA has 89 characters, 56 places, 72 objects and 14 spells. All 57 chapters are represented through selected evidence or literal mentions. Chapter reading states remain `partial`. The shared glossary contains 192 paired entries and retains separate selective coverage. These counts do not establish exhaustive semantic coverage or improved writing quality.
+The [PS coverage record](../data/books/ps/coverage.json), [CoS coverage record](../data/books/cos/coverage.json) [PoA coverage record](../data/books/poa/coverage.json) and [GoF coverage record](../data/books/gof/coverage.json) distinguish completed scoped inventories from incomplete independent full-book semantic reading. The earlier PS1/PS10 pilot is superseded for retrieval; its counters are historical. PS has 117 characters, 53 places, 70 objects and six identified spells; CoS has 97 characters, 47 places, 75 objects and eight spells; PoA has 89 characters, 56 places, 72 objects and 14 spells; GoF has 129 characters, 61 places, 66 objects and 37 spells. All 94 chapters are represented through selected evidence or literal mentions. Chapter reading states remain `partial`. The shared glossary contains 192 paired entries and retains separate selective coverage. These counts do not establish exhaustive semantic coverage or improved writing quality.
 
 An indexed chapter is not a chapter semantically read by an agent. A locator match is not independent proof of a claim. The source check re-finds evidence-card and glossary locators; interpretive accuracy still needs contextual judgment. The no-long-match publication scan catches exact 30-word source sequences, not every possible copyright or editorial issue.
 

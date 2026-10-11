@@ -1,0 +1,644 @@
+{
+  "id": "gof-retrieval-md-pilot-v1",
+  "date": "2026-10-11",
+  "scope": "Diagnostic pilot only; no statistical quality or general superiority claim. Human editorial review pending. Opposite orders do not isolate position bias from reviewer variability.",
+  "model": "Same inherited Codex model settings; exact served revision and reasoning effort unavailable",
+  "resourceEnforcement": "Instruction-restricted shared filesystem; no enforced sandbox claim",
+  "privacy": "Original narratives and first ratings only; no books, primary snippets, catalogues, private paths, raw author notes, frozen factual key or resource snapshots. Flagged factual findings are a subset; all first findings remain in the private run.",
+  "provenance": {
+    "suiteSha256": "b6b58ffeb5d13e4c7672c796e2d8c8cc96abfc822752259dd58b5618ccc23a6c",
+    "freezeManifestSha256": "5feecdb44f34ea9b266531fbf2db20e34c654edddaefa3b552afce83cd079fbf",
+    "blindManifestSha256": "28d0fbfb6b9922b94a0612bddf736c46aa9ae053970b497c4d8526722e4032a3",
+    "scoreFileSha256": "65254532f843b0dfe0e72ae87c78bf953c5d5f7f4722837a093dbacadb7c136d",
+    "ratingHashes": {
+      "judge-1.json": "aa8846ad2dc28182b602260ccf3c3f6e1332ce4106674482514bf5518b795951",
+      "judge-2.json": "b80cbeccfe929b015776dbd665b9144674374b7c744379a18e4d15e7b5628ec2"
+    },
+    "rawArtifactHashScope": "Scene sha256 covers the unchanged private narrative plus resource notes; narrativeSha256 covers exactly the published mechanical.text.",
+    "commonSnapshotFiles": 30,
+    "changesAfterFreeze": [
+      "CLI legacy book-filter error guidance",
+      "Router and GoF data line endings normalised to LF, content unchanged"
+    ],
+    "dataUnchangedDuringWritingAndJudging": true
+  },
+  "scenes": [
+    {
+      "id": "099079da-8697-4fae-964a-a5b101dac521",
+      "run": "baseline-practice",
+      "sha256": "3650cf112601c01b28a471a08aac9f84a51373c998a3e0782de9c1256bc411bc",
+      "mechanical": {
+        "run": "baseline-practice",
+        "sha256": "3650cf112601c01b28a471a08aac9f84a51373c998a3e0782de9c1256bc411bc",
+        "text": "Bori a folyosói pad fölé hajolt, de Levente fél lépést tett elé. A fiú bal kezében ott gömbölyödött a csillagtérképe; jobbjában a pálcája. Bori a saját pálcáját szorongatta, és a válla mellett próbálta szemmel tartani a padon fekvő, becsukott rúnaszótárt.\n\n– A könyved itt van. A térképet add ide, különben lekésem őket.\n\nAz ablakon túl már novemberi sötétség ült a füvön. Az esti megfigyeléshez a többiek a lépcsőnél vártak rá; holnap, a Trimágus Tusa első próbájának napján aligha marad nyugodt idejük a csillagokra. Bori egész délután a jelöléseket javította. Levente csak az egyik csillag nevét akarta megnézni.\n\nA fiú a szótár felé fordította a pálcáját.\n\n– Invito!\n\nUgyanabban a pillanatban zöld fény villant a folyosó kanyarulatánál.\n\nBori a falhoz húzódott. Levente válla eltakarta a könyvet; nem látta, megmozdult-e. A kanyarnál senki sem állt. Legalábbis abból a keskeny sávból, amelyet belátott, senki sem lépett elő. Nem hallott másik varázsigét, és a kövek most ugyanúgy szürkéllettek, mint előbb.\n\n– Gyilkos átok – mondta Levente.\n\nBori szája kiszáradt. A fiú olyan biztosan mondta, mintha megmutatta volna neki, hol feküdt valaki.\n\n– Mit láttál?\n\n– A zöldet. Avada Kedavra. Rémszem Mordon bemutatta órán.\n\n– Nekünk nem.\n\n– Egy griffendéles mondta. Pókokkal csinálta. Az egyik rögtön elpusztult.\n\nBori a kanyarra nézett. Nem látott elpusztult pókot sem. Levente ismerősét sem hallotta beszélni; most csak Levente hangja volt itt, kissé magasabb a megszokottnál.\n\n– Én azt hallottam, hogy te kimondtad az Invitót. A másiknál csak fényt láttam.\n\n– Attól még lehetett az.\n\nEz ellen Bori nem tudott tiltakozni. A „lehetett” azonban kevésbé szorította össze a mellkasát, mint az előbbi bizonyosság.\n\nLevente a hóna alá fogta a térképet, és lehajolt a padhoz. Bori ekkor látta meg újra a szótárt. A fiú felvette, a pergament pedig a fedeléhez szorította.\n\n– Ezt elviszem Mordonhoz. Mindkettőt. Bizonyíték.\n\n– Mire bizonyíték az én házi feladatom?\n\n– Itt volt. A könyv is. Ő majd tudja, mit kell nézni.\n\nBori felemelte a pálcáját.\n\n– Invito, csillagtérkép!\n\nA kilógó papírszél megrezzent. Levente ujja rászorult; a tekercs nem jutott el hozzá. Bori újra nekifogott volna, de folyton a kanyarba pillantott. Az órán is nehezen ment a begyűjtés, amikor másra figyelt. Most a csillagtérkép helyett egy összeeső pók képe tolult elé, pedig azt sem látta soha.\n\n– Ne rángasd! – Levente elfordította a könyvet. – Elszakad.\n\nBori leengedte a pálcáját. A lépcső felől cipősarkak kopogtak, aztán valaki a nevét kiáltotta.\n\nHa most utánuk futott, Levente a térképpel együtt ment tovább. Ha vele maradt, a megfigyelési helyét más kapta meg. A fiú közben a tanári szoba felé nézett, de nem indult el. Talán ő sem akart egyedül elhaladni a kanyar mellett.\n\n– Elviszem veled – mondta Bori. – De én mondom el, mit láttam.\n\n– Én meg a pókot.\n\n– Azt, amit a pókról hallottál.\n\nLevente a könyv és a térkép közé csúsztatta az ujját, majd kihúzta a pergament. Bori átvette, óvatosan elsimította a gyűrődést, és a talárja belső zsebébe tette.\n\n– A szótár nálad marad – mondta. – Visszahoztam.\n\nA lépcső felé kiáltott, hogy nélküle induljanak. Mire elhalt a válasz, Levente már a kanyar előtt várta, könyvével a mellkasán. Bori mellé lépett, és mindketten felemelték a pálcájukat.",
+        "words": 495,
+        "lengthPass": true,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "099079da-8697-4fae-964a-a5b101dac521",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 3,
+          "evidence": "Language: 'A lehetett azonban kevésbé szorította össze a mellkasát' renders changing uncertainty through Bori's body; the short dialogue is readable and natural. Character: 'Mire bizonyíték az én házi feladatom?' contests Levente's plan, while his fear and wish to report remain active; Bori calls the others to leave without her. Causality: 'Levente ujja rászorult' and 'El fog szakadni' in effect are grounded by the exact warning 'Elszakad'; a risky, distracted Summoning attempt forces a negotiated return rather than effortless possession. Continuity: 'Bori ekkor látta meg újra a szótárt' follows Levente bending down; he later pulls out the parchment and Bori receives and pockets it. She distinguishes 'amit a pókról hallottál' from seeing the spider. Terminology: 'Invito' and 'Rémszem Mordon' are correct, but the unqualified 'Avada Kedavra' follows English rather than the supplied Hungarian edition's Adava form. This is a local terminology departure, not an invalid magical act or a viewpoint failure. No material defect found in the other four dimensions."
+        },
+        {
+          "id": "099079da-8697-4fae-964a-a5b101dac521",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 3,
+          "evidence": "Language: 'Mire bizonyíték az én házi feladatom?' gives Bori a natural, pointed voice; the thought of a spider she has never seen keeps imagery within her actual experience. No material defect. Character: 'De én mondom el, mit láttam' lets Bori win control of testimony while surrendering her observation slot; Levente still seeks an adult's judgment and is reluctant to go alone. No material defect. Causality: 'A kilógó papírszél megrezzent' shows a limited attempt against a held object; distraction and tearing risk prevent a second effort, leading to bargaining. No material defect. Continuity: Levente's lean gives Bori a renewed book view; 'Bori átvette' completes the chart transfer, and the final book is against Levente's chest. His confident diagnosis is corrected to 'lehetett' and remains a claim. No material defect. Terminology: 'Invito' and 'Rémszem Mordon' fit the Hungarian setting; 'Avada Kedavra' is the English form rather than the supplied Hungarian 'Adava Kedavra'. This localized departure is scored only under terminology."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          4,
+          4
+        ],
+        "character": [
+          4,
+          4
+        ],
+        "causality": [
+          4,
+          4
+        ],
+        "continuity": [
+          4,
+          4
+        ],
+        "terminology": [
+          3,
+          3
+        ]
+      },
+      "narrativeSha256": "cf3668eca535838c52903ebef2de38bd314cb5ae74fa3354b4af6ac32e785a46"
+    },
+    {
+      "id": "74b8e598-2d7a-465e-a182-090a58147663",
+      "run": "candidate-practice",
+      "sha256": "b9b5e671febce12066eba9dfa7df1f90eff918237bcadbf0008e9b56ec42ad67",
+      "mechanical": {
+        "run": "candidate-practice",
+        "sha256": "b9b5e671febce12066eba9dfa7df1f90eff918237bcadbf0008e9b56ec42ad67",
+        "text": "Bori pálcájának hegye beleakadt a talárja mandzsettájába, amikor megállt a pad előtt. A magas ablakon át még látszott egy keskeny, tiszta égdarab. Tíz perc, talán kevesebb: ennyi maradt, hogy feljusson a toronyba, mielőtt a novemberi felhők elnyelik a csillagokat. A térkép nélkül hiába ment volna.\n\nLevente a pergament a mellkasához szorította. Másik kezében felemelte a pálcáját, és a padon fekvő, becsukott rúnaszótár felé célzott.\n\n– Invito – szótár!\n\nBori látta a pálca mozdulatát, de a könyvet eltakarta Levente talárja. Ugyanabban a pillanatban zöld fény csapott a folyosó kanyarulatának falára. Bori odakapta a fejét. A fény eltűnt; a kövek megint sárgállottak a fáklyák alatt. Nem látott ott senkit. Nem hallott más varázsigét, kiáltást vagy puffanást sem.\n\nLevente hátrált egy lépést.\n\n– Gyilkos átok. Avada Kedavra.\n\nBori torkában megakadt a levegő. Leventét figyelte, aztán a kanyart, mintha a fiú bizonyosságától ott is elő kellene bukkannia valaminek.\n\n– Láttál valakit?\n\n– A zöldet láttam.\n\n– Én is. De ki mondta ki?\n\n– Nem kell megvárni, amíg valakit eltalál! Rémszem Mordon megmutatta a griffendéleseknek, pókokon. Dani mesélte. Az egyik rögtön megdöglött.\n\nErről Bori most hallott először. Dani arcát fel tudta idézni, a bemutatót nem; csak Levente hangja adta hozzá a hideget.\n\n– Dani ott volt – folytatta a fiú. – Elvisszük ezt a kettőt Mordon professzornak.\n\n– A térképemet miért?\n\n– Mert itt volt. A könyv is itt volt.\n\nBori majdnem azt felelte, hogy ő maga is itt volt, mégsem lehet pergamenként beadni. Levente azonban már a kanyar felé nézett. A térkép széle remegett az ujjai között.\n\n– A húgom erre jön a könyvtárból – mondta. – Nem akarok reggelig azon gondolkodni, hogy csak elsétáltunk.\n\nAz ablakon túl elhomályosult egy csillag. Bori a pálcájára pillantott. Begyűjthetné a saját térképét; órán azért gyakorolták. Csakhogy délután három próbálkozásból egyszer sikerült odahúznia a tolltartóját, és akkor is kiborult. Levente pedig most ökölbe szorítva tartotta a pergament. Bori elképzelte, ahogy a rosszul sikerült rántás végigrepeszti a tegnap este húzott vonalakat. Leengedte a pálcáját.\n\n– Add ide. Veled megyek.\n\nLevente nem mozdult.\n\n– És elmondod, mit láttál?\n\n– Azt, hogy zöld fény villant. Az Invito szót hallottam tőled. A könyvet akkor nem láttam, és a kanyarban sem láttam varázslót. A pókokról te beszélsz.\n\n– Szerinted kitalálom?\n\n– Szerintem félsz. Én is félek. Ettől még nem láttam többet.\n\nLevente a padhoz fordult. A szótár ott feküdt, becsukva; Bori nem tudta volna megmondani, pontosan ugyanott-e, ahol az előbb. A fiú lehajolt érte, és közben végre Bori kezébe engedte a térképet. Bori óvatosan feltekerte, a táskájába csúsztatta. A szótár sarka kilógott Levente oldaltáskájából, amíg a fiú rá nem húzta a csatot.\n\nA távoli lépcső felől cipősarkak kopogása érkezett. Bori ösztönösen a torony irányába fordult. Még odaérhetne, ha futna, ha Levente most azt mondaná, hogy menjen csak. De Levente a másik irányba indult, és két lépés után megállt, rá várva.\n\nBori eltette a pálcáját, és utolérte. Az ablakban a tiszta égdarab éppen összezárult.",
+        "words": 460,
+        "lengthPass": true,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "74b8e598-2d7a-465e-a182-090a58147663",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 3,
+          "evidence": "Language: 'Dani arcát fel tudta idézni, a bemutatót nem' expresses the distinction between familiarity and testimony without breaking close viewpoint; the closing 'a tiszta égdarab éppen összezárult' gives the missed observation a visible consequence. Character: Levente's 'A húgom erre jön a könyvtárból' supplies a personal reason for caution, while Bori negotiates chart custody and sacrifices the shrinking observation window. Causality: her uneven Summoning practice, the clenched parchment and imagined tear jointly rule out easy retrieval and cause the compromise. Continuity: the initial attempt remains unseen, Levente turning to the bench opens later visibility, and the chart enters Bori's bag while the dictionary enters Levente's side bag. The demonstrated spider death remains a report, and the unexplained light remains unexplained. Terminology: 'Invito', 'Mordon professzornak' and the descriptive 'Gyilkos átok' are appropriate, but 'Avada Kedavra' is the English form rather than the supplied Hungarian Adava form. No material defect found in the other four dimensions; the localized spelling issue is not also charged to continuity."
+        },
+        {
+          "id": "74b8e598-2d7a-465e-a182-090a58147663",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 3,
+          "evidence": "Language: 'mintha a fiú bizonyosságától ott is elő kellene bukkannia valaminek' renders the pressure of another person's certainty naturally, and the closing sky image completes the time cost without a moral. No material language defect. Character: Levente's 'A húgom erre jön a könyvtárból' supplies a personal protective motive; Bori's 'Szerintem félsz. Én is félek. Ettől még nem láttam többet' negotiates both fear and testimony. Her following him forfeits the brief clear sky. No material defect. Causality: 'három próbálkozásból egyszer' and the risk of tearing the held chart cause Bori to abandon a magical shortcut and agree to accompany him. No material defect. Continuity: the blocked initial view and later turn to the bench are explicit; 'Bori nem tudta volna megmondani, pontosan ugyanott-e' does not retrospectively certify the earlier spell. The chart goes into Bori's bag and the dictionary into Levente's. No material defect. Terminology: 'Invito' and 'Rémszem Mordon' are appropriate, and reported spider death is kept separate from the unexplained flicker. 'Avada Kedavra' is a localized edition departure from the verified supplied-Hungarian 'Adava Kedavra'; this is a terminology weakness only, not an invalid English spell or a continuity failure."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          4,
+          4
+        ],
+        "character": [
+          4,
+          4
+        ],
+        "causality": [
+          4,
+          4
+        ],
+        "continuity": [
+          4,
+          4
+        ],
+        "terminology": [
+          3,
+          3
+        ]
+      },
+      "narrativeSha256": "aa7ad8e9191f2ada6677395b07d797e717bd50f04fe716946f3d727c7470c4f8"
+    },
+    {
+      "id": "f2d43f02-1470-4552-b046-91673bad1889",
+      "run": "baseline-ward-record",
+      "sha256": "2a538111514e342262a4579794969f160ba0c7c8c6004360542ad9306225f0ae",
+      "mechanical": {
+        "run": "baseline-ward-record",
+        "sha256": "2a538111514e342262a4579794969f160ba0c7c8c6004360542ad9306225f0ae",
+        "text": "The envelope had softened where Nell's thumb pressed it. Clean dressings, sealed; the address was only Moody. Across the hospital supplies desk, Tomas held the year's inventory beneath its tidy heading: Professor Moody: classroom supplies.\n\nNell's sister would be waiting at the village inn, asleep over her travelling bag if she was fortunate. One signature, Nell had promised herself. Then she could leave.\n\nTomas pointed his wand at the torn duplicate beside his elbow.\n\n“Reparo.”\n\nShe heard every syllable. His sleeve concealed the paper's edge.\n\n“There,” he said. “Sound paperwork. Sign the handoff.”\n\n“Lift your arm.”\n\nHe lifted it. The tear was closed, but a brown stain still swallowed two quantities. Nell rubbed neither; she had no wish to discover what damp ink would do under her finger.\n\n“You've repaired that leaf. You haven't checked the figures.”\n\n“The supervisor will ask where everything went. I'd like to give her an account before she decides I lost it.” Tomas tightened his grip on the original. “And I've heard our professor wasn't our professor. We could ask the man they caught. Truth potion, fresh statement.”\n\nNell put the envelope down beneath her own hand and fetched the cassette recorder from her bag. She pressed Record, read the first line, then played it back. A thin squeal replaced her voice. The reels jerked and stopped.\n\nShe pressed again. Nothing. Yesterday, outside the grounds, it had recorded her sister's arrival instructions perfectly. She shut the lid rather than spend another minute coaxing it.\n\nProfessor McGonagall appeared at the ward door carrying an empty water jug. Nell stood, keeping her hand on the envelope.\n\n“These are addressed to Moody. Which patient should receive them? And can we request a statement from the prisoner?”\n\nMcGonagall set the jug down. Her eyes moved to the inventory heading.\n\n“Alastor Moody is the patient. Barty Crouch's son impersonated him and taught those lessons.”\n\n“That's established here?” Nell asked.\n\n“I was present when we found the real man and questioned the impostor. You may record that I confirmed the distinction.”\n\nTomas raised the leaf. “Then another dose of Veritaserum—”\n\n“Cannot obtain another statement. A Dementor administered the Kiss. I saw it happen.” Her fingers remained on the jug's handle. “No further questioning.”\n\nNell's pen hovered. “Does that make his earlier answers legally accepted?”\n\n“That is not something your supplies record can certify.”\n\nMcGonagall opened the door wider to take the envelope. Through the gap Nell saw a wooden leg laid on the bedside table beside a strange blue eye. McGonagall followed her glance.\n\n“His. Leave them where they are.”\n\nNell surrendered the sealed dressings and entered McGonagall's name as recipient. The door closed with the envelope inside.\n\nTomas laid the original flat. “I still need a receipt.”\n\n“You'll have one for depositing it. Not for accurate quantities.”\n\nShe numbered a clean page and began copying the legible entries, retaining the old heading with a dated correction beneath it. Both leaves would stay in the records drawer; the stained quantities would be listed as unreadable, awaiting comparison with issue slips.\n\nThe copying would take the morning. Nell drew her sister's message from her bag, turned it face down, and gave Tomas the drawer key to hold while she finished.",
+        "words": 538,
+        "lengthPass": true,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "f2d43f02-1470-4552-b046-91673bad1889",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 3,
+          "terminology": 4,
+          "evidence": "Language: 'The envelope had softened where Nell's thumb pressed it' establishes restrained pressure through an object, and 'Not for accurate quantities' keeps the investigative dialogue concise. Character: Tomas's fear that the supervisor 'decides I lost it' gives him his own reason to hurry; Nell commits the morning and places her sister's message face down. Causality: the failed recorder and unrecoverable quantities defeat the quick handoff and require copying and later comparison with issue slips. Continuity: the lift of Tomas's arm resolves initial uncertainty about Reparo, and the ward doorway gives Nell direct access to a limited equipment detail; the sealed envelope is actually surrendered. The original is laid flat for work, but the ending's 'Both leaves would stay in the records drawer' is prospective: an actual drawer deposit or explicit final custodian is not shown, while Tomas holds the drawer key. Current working location is inferable, but the promised final records handling is less clear than the brief requests. Terminology: the year’s impersonator, recovered Alastor, Veritaserum's unavailable fresh statement, and bedside eye and wooden leg are correctly distinguished; legal acceptance is not equated with a supplies entry. No material defect found in language, character, causality or terminology. The handling ambiguity is charged only to continuity."
+        },
+        {
+          "id": "f2d43f02-1470-4552-b046-91673bad1889",
+          "language": 4,
+          "character": 3,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 4,
+          "evidence": "Language: 'a brown stain still swallowed two quantities' gives the procedural dispute a concrete texture; no material language defect. Character: Nell's 'turned it face down' enacts her costly postponement, and Tomas's 'before she decides I lost it' gives him an independent motive. A local weakness is that, after requesting a receipt, Tomas becomes mostly the recipient of Nell's instructions; 'gave Tomas the drawer key to hold' adds less reciprocal negotiation than the opening promises. Causality: 'A thin squeal replaced her voice' defeats the shortcut and makes manual copying consequential; no material defect. Continuity: 'Lift your arm' supplies an observable route to repair success, and 'Nell surrendered the sealed dressings' completes that transfer. The original is laid flat for copying; its proposed drawer storage is future handling, not an already completed transfer. No material custody or POV defect. Terminology: 'Barty Crouch's son impersonated him and taught those lessons' separates the two men; the bedside wooden leg and the Kiss obstacle agree with the key. No confirmed material terminology defect; the additional eyewitness claim 'I saw it happen' needs coordinator verification because the supplied key does not specify McGonagall's eyewitness position at the Kiss. This uncertainty is not scored as a proved error."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          4,
+          4
+        ],
+        "character": [
+          4,
+          3
+        ],
+        "causality": [
+          4,
+          4
+        ],
+        "continuity": [
+          3,
+          4
+        ],
+        "terminology": [
+          4,
+          4
+        ]
+      },
+      "narrativeSha256": "8a88ab68a6afa4eb67740d008ba98d16cd831c356c8c35c52e2e2a24cb2e3c3a"
+    },
+    {
+      "id": "267d46d7-83f1-4296-9464-0638c007dd72",
+      "run": "candidate-ward-record",
+      "sha256": "1796cf904d628888b2f5c3982328d385a42e49892b94d0971f2d230de28f6ff5",
+      "mechanical": {
+        "run": "candidate-ward-record",
+        "sha256": "1796cf904d628888b2f5c3982328d385a42e49892b94d0971f2d230de28f6ff5",
+        "text": "Nell held the sealed dressings against her knee. “Moody” had been written across the envelope without an initial. Beside it, her sister’s last message promised to wait at the Hogsmeade inn. The journey had already cost her a night’s sleep; Nell had promised she would not have to find the castle alone.\n\nTomas kept the original inventory leaf under his palm. Its heading read “Professor Moody: classroom supplies.” He pointed his wand at the torn duplicate behind the upright ledger.\n\n“Reparo.”\n\nNell heard him distinctly. From her stool she could see neither the tear nor what happened to it.\n\n“There,” he said. “Everything fit to submit.”\n\n“You’ve tried repairing one duplicate.”\n\n“I’ve repaired it. Pass me the receipt book.”\n\nTheir supervisor would arrive at nine. Tomas had counted stores through the night and wanted the losses entered before questions began. He had once been made to replace missing stock from his wages; Nell remembered him eating bread without butter for a fortnight.\n\nShe put her cassette recorder on the desk. At home it had taken dictation while she packed. Here the red light shivered, and the tape advanced with a dragging click. On playback, her own test sentence dissolved into a thin whine.\n\n“Perhaps batteries,” Tomas said.\n\nShe had fitted fresh ones outside the gates. She stopped the machine before it chewed the tape.\n\n“Then ask the prisoner,” he said. “The man pretending to be him, if the corridor story’s true. Give him truth potion. Let him tell us which orders were his.”\n\nFootsteps halted outside. Professor McGonagall entered with Madam Pomfrey, who reached towards Nell’s envelope.\n\n“Which Moody?” Nell asked, keeping hold. She showed them the heading on Tomas’s leaf. “We need a recipient, and we need to know whose classroom account this is.”\n\nMcGonagall drew the leaf out from under his hand and read it.\n\n“The man who taught this year was Barty Crouch’s son. Alastor Moody has been recovered. Those lessons were not his.”\n\n“Can we get the other man to confirm the quantities?” Tomas asked. “Under Veritaserum?”\n\n“No. A Dementor administered the Kiss last night. He cannot give you another statement.” McGonagall’s fingers tightened on the paper. “I heard his earlier confession. That does not mean the Minister accepted it.”\n\nNell had questions about the night, about the lowered voices everywhere since Cedric Diggory’s death. None would help her enter six packets of dressings. She asked only whether the recovered man was receiving supplies here.\n\n“Yes,” Pomfrey said. “His wooden leg and magical eye are on his bedside table. Leave his equipment alone.”\n\nNell released the unopened envelope into Pomfrey’s hands. The matron signed for it as supplies for Alastor Moody, then went back into the ward.\n\nMcGonagall returned the original to Nell. “Preserve that heading. Any correction belongs beside it.”\n\nAfter she left, Nell walked round the ledger. The duplicate’s edges were joined. A stained quantity remained unreadable.\n\n“Repair worked,” she said. “It hasn’t checked the figures.”\n\nTomas pushed the receipt book towards her. “I still need something for nine.”\n\nShe locked the original leaf in the records cupboard and began a separate handover sheet, leaving space for his signature. Then she wrote her sister a note asking her to wait another half-hour. Tomas took the quill when Nell’s fingers cramped, and copied the first disputed entry beneath hers.",
+        "words": 554,
+        "lengthPass": true,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "267d46d7-83f1-4296-9464-0638c007dd72",
+          "language": 3,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 4,
+          "evidence": "Language: the recorder's 'dragging click' and the recollection of 'bread without butter for a fortnight' are concrete and economical. A local weakness is the explanatory rhythm of McGonagall's sequence, 'Those lessons were not his' followed by 'That does not mean the Minister accepted it', which briefly reads as a compact briefing more than differentiated conversation. Character: Tomas's past wage deduction gives his deadline an independent stake, and 'Tomas took the quill when Nell's fingers cramped' makes his cooperation an action; Nell asks her sister to wait another half-hour. Causality: the failed playback and the still-unreadable stain require slower manual work rather than a magical verification shortcut. Continuity: Nell initially cannot see the tear, then 'walked round the ledger'; McGonagall and Pomfrey provide an observable limited information route. Nell releases the envelope to Pomfrey and 'locked the original leaf in the records cupboard'. Terminology: Reparo, Veritaserum, the Kiss, the teaching impersonator and Moody's bedside equipment are accurately distinguished. No material defect found in character, causality, continuity or terminology. The briefing quality is charged only to language."
+        },
+        {
+          "id": "267d46d7-83f1-4296-9464-0638c007dd72",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 4,
+          "evidence": "Language: 'eating bread without butter for a fortnight' gives administrative stakes an economical human texture; 'her own test sentence dissolved into a thin whine' provides concrete failure. No material defect. Character: Nell's promise to meet her sister conflicts with proper handling; Tomas's prior wage deduction explains urgency, and 'Tomas took the quill when Nell's fingers cramped' turns negotiation into voluntary cooperation. No material defect. Causality: the fresh-battery recorder fails, repair does not recover unreadable figures, and fresh testimony is unavailable; Nell consequently makes a separate handover and postpones meeting her sister. No material defect. Continuity: 'Nell walked round the ledger' establishes the later inspection route. Envelope release into Pomfrey's hands, the original's return to Nell, and 'locked the original leaf in the records cupboard' make final custody clear. The two arriving adults give bounded updates, not the full confession. No material defect. Terminology: 'Those lessons were not his' corrects attribution, 'That does not mean the Minister accepted it' separates testimony from official acceptance, and Pomfrey supplies the canonical bedside leg/eye detail without transferring equipment. No material defect."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          3,
+          4
+        ],
+        "character": [
+          4,
+          4
+        ],
+        "causality": [
+          4,
+          4
+        ],
+        "continuity": [
+          4,
+          4
+        ],
+        "terminology": [
+          4,
+          4
+        ]
+      },
+      "narrativeSha256": "ad960075c5c9e1bed2d781d4b19869d219cbc9e7dc15974a93e0191535614c52"
+    },
+    {
+      "id": "733fa033-76ef-4310-aedb-7bf37b9d65d7",
+      "run": "unaided-practice",
+      "sha256": "e49702297522fe37c17f2a9bf00e24c4b36dac5881ff26be1461bd2b98b8b8c7",
+      "mechanical": {
+        "run": "unaided-practice",
+        "sha256": "e49702297522fe37c17f2a9bf00e24c4b36dac5881ff26be1461bd2b98b8b8c7",
+        "text": "Bori a folyosó végén álló órára nézett. Tizenhárom perc. Ennyi maradt, hogy felvigye a csillagtérképét, és befejezze a megfigyelési jegyzetet, mielőtt Emese összepakol a toronyban. Levente a pad mellett állt, Bori térképét a bal kezében tartotta; a jobbjában a pálcáját. A becsukott rúnaszótár ott feküdt közöttük. Bori a saját pálcájával félrehajtotta a köpenye útban levő ujját.\n\n— Tessék, visszahoztam. Most már ideadod?\n\nLevente a könyvre célzott.\n\n— Invito!\n\nA fiú válla eltakarta a padot. Bori éppen oldalra lépett volna, amikor zöld villanás világította meg a folyosó kanyarulatát. Egyetlen pillanatig a kövek fugái is élesen kirajzolódtak, aztán visszatért a fáklyák sárga fénye.\n\nLevente hátrarántotta a pálcáját.\n\n— Gyilkos átok. Avada Kedavra.\n\nBori torka összeszorult. A kanyarnál nem látott senkit. Fülelt, de nem hallott zuhanást, kiáltást, még siető lépteket sem.\n\n— Ki mondta ki?\n\n— Nem hallottad? Mármint… a fényt láttad.\n\n— A fényt igen.\n\nLevente végigsimított a térkép összegöngyölt szélén. Bori legszívesebben kivette volna a kezéből. Három este rajzolta, és a fiú hüvelykujja éppen a Fiastyúkot nyomta.\n\n— Egy griffendéles mesélte, hogy Rémszem Mordon pókokon mutatta meg nekik — mondta Levente. — A megbocsáthatatlan átkokat. A zöldtől az egyik rögtön elpusztult.\n\nBori ezt most hallotta először. Az jutott eszébe, hogy megkérdezze, melyik griffendéles, de Levente már a pad felé fordult.\n\n— Mindkettőt elviszem neki.\n\n— A térképemet is?\n\n— Itt volt. A könyv is itt volt. Ha valamit csináltak velük…\n\nBori lehajolt. A szótár a pad túlsó lábánál hevert, a padló kövén. Nem tudta, Levente varázslata húzta-e oda, vagy leesett, amikor ő lerakta a keskeny ülés szélére. Felvette; a borító egyik sarka poros lett.\n\n— Az Invitót hallottam — mondta. — A könyvet közben nem láttam. A kanyarból pedig nem hallottam varázsigét.\n\n— Attól még valaki meghalhatott.\n\nErre Bori nem tudott rögtön felelni. Levente hangja elvékonyodott, és most először nézett túl rajta, a sötétebb folyosórész felé.\n\nBori felemelte a pálcáját.\n\n— Lumos.\n\nA világosság elérte a kanyar belső falát, de a kövek mögé nem jutott át. Közelebb kellett volna mennie. Levente megfogta a könyvet tartó csuklóját.\n\n— Ne egyedül.\n\nAz óra ütni kezdett. Bori megszámolta az ütéseket, bár pontosan tudta, mennyi az idő. Emese már bizonyára előkészítette a második tollat is neki. Holnap a tusa miatt aligha lesz ilyen nyugodt estéjük.\n\n— Rendben. Együtt megkeressük Mordont — mondta végül. — De azt mondd el neki, amit láttál. A pókot pedig nem te láttad.\n\nLevente elengedte.\n\n— A térképet add ide — tette hozzá Bori.\n\n— Akkor elviszed a toronyba.\n\n— Veled megyek. A térképet én viszem.\n\nA fiú egy pillanatig még tartotta, aztán Bori tenyerébe tette. Bori kisimította a behorpadt szélét, és a köpenye belső zsebébe csúsztatta. A szótárt Levente mellkasához nyomta; a fiú átvette, magához szorította.\n\n— Ha elkésünk, holnap segítesz újramérni — mondta Bori.\n\n— Ha Mordon elenged.\n\nBori bólintott. A pálcafény apránként előrekúszott a falon, ahogy ketten a kanyar felé indultak.",
+        "words": 445,
+        "lengthPass": false,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "733fa033-76ef-4310-aedb-7bf37b9d65d7",
+          "language": 4,
+          "character": 4,
+          "causality": 3,
+          "continuity": 4,
+          "terminology": 3,
+          "evidence": "Language: 'a fiú hüvelykujja éppen a Fiastyúkot nyomta' integrates a precise object detail with Bori's irritation, and 'A térképet én viszem' is effective bargaining dialogue. Character: Bori insists on possession while accepting the time cost, and Levente's 'Ne egyedül' and conditional 'Ha Mordon elenged' preserve his fear and his own priorities. Causality: 'a kövek mögé nem jutott át' gives Lumos a useful physical boundary, but its practical connection to the choice is comparatively loose: the scene establishes that they must approach to see, then they instead seek Mordon, without fully developing why that particular limitation decides the costly route. Continuity: Bori bends down and discovers the fallen dictionary without claiming to know whether Summoning moved it; both final handoffs are explicitly accepted. No future knowledge or narrator certification of the green flash appears. Terminology: 'Invito' and 'Rémszem Mordon' fit, while 'Avada Kedavra' and 'megbocsáthatatlan átkokat' depart from the supplied Hungarian Adava and főbenjáró terminology. These localized departures are charged only to terminology. No material defect found in language, character or continuity."
+        },
+        {
+          "id": "733fa033-76ef-4310-aedb-7bf37b9d65d7",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 3,
+          "evidence": "Language: 'a fiú hüvelykujja éppen a Fiastyúkot nyomta' makes ownership tension concrete, and 'Ha Mordon elenged' gives the final exchange a believable independent reply. No material language defect. Character: 'Ne egyedül' embodies Levente's protective intent; Bori negotiates possession and future help with 'holnap segítesz újramérni'. Her time-sensitive work suffers from choosing accompaniment. No material defect. Causality: 'A világosság ... a kövek mögé nem jutott át' limits Lumos without inventing diagnostic powers and makes proximity or an adult necessary. No material defect. Continuity: Bori's leaning down is the route to discovering the book on the floor, and she leaves its motion's cause unknown. 'Bori tenyerébe tette' and 'a fiú átvette' complete both transfers. No material defect. Terminology: 'Invito', 'Lumos' and 'Rémszem Mordon' are sound. 'Avada Kedavra' departs from the supplied Hungarian edition, and 'megbocsáthatatlan átkokat' imports a literal alternative to the supplied 'főbenjáró átkok'. These are localized term weaknesses assigned only here; the underlying curse report remains intelligible and properly attributed."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          4,
+          4
+        ],
+        "character": [
+          4,
+          4
+        ],
+        "causality": [
+          3,
+          4
+        ],
+        "continuity": [
+          4,
+          4
+        ],
+        "terminology": [
+          3,
+          3
+        ]
+      },
+      "narrativeSha256": "5950b059476df9bead670b78871f0f86b1fba89aaaf1b55faf877d65b193c882"
+    },
+    {
+      "id": "083a6f4f-0a4c-43ce-a5a0-ed0b08f23fcf",
+      "run": "optional-practice",
+      "sha256": "74b73ecbf9fe3a7e8c155d3278d9d99b2a87c4b68df437249a7176768d5af254",
+      "mechanical": {
+        "run": "optional-practice",
+        "sha256": "74b73ecbf9fe3a7e8c155d3278d9d99b2a87c4b68df437249a7176768d5af254",
+        "text": "A pad fölött lógó falikárpit egy sarka Bori vállára hajlott. Arrébb húzódott, de nem eléggé ahhoz, hogy belásson Levente mögé. A becsukott rúnaszótár ott feküdt a padon; délután ő hozta ide, amikor hiába kereste a fiút. Most végre visszaadhatta volna, és elkérhette volna a csillagtérképét. Már csak azt a három halvány pontot kellett átvezetnie a holnapra beadandó rajzára.\n\nLevente bal kezében a feltekert térkép recsegett. A jobbjában tartott pálcát a könyvre irányította.\n\n– Invito – szótár!\n\nBori a fiú vállán át a folyosó kanyarulatára látott. Ott zöld fény villant, olyan röviden, hogy a kőre vetülő színe már el is tűnt, mire odakapta a fejét. Nem látott embert. Más varázsigét sem hallott. A szótárról Levente háta takarta el a kilátást.\n\n– Ez gyilkos átok volt – mondta Levente.\n\nBori saját pálcájának sima végét dörzsölte a hüvelykujjával. A kanyar mögül nem érkezett sikoly, zuhanás vagy lépés. Még a falikárpit sem lengett meg.\n\n– Láttál valakit?\n\n– Zöld volt. Adava Kedavra. Mordon professzor megmutatta az órán.\n\n– Nekünk nem.\n\n– Egy griffendéles mesélte. Pókokon mutatta meg az átkokat. Az egyik elpusztult, és semmi sérülés nem látszott rajta. Ezért kell szólnunk. Attól még lehet valaki ott, hogy nem halljuk.\n\nBori most hallott először erről a bemutatóról. Levente a térképpel a kanyar felé bökött; a tekercs széle nekikoccant a kőnek.\n\n– Vigyázz rá! – Bori hangja élesebben szólt, mint szerette volna.\n\n– Mindkettőt elviszem hozzá. Hátha ért hozzá, mit csinált velük.\n\n– A könyvet te akartad begyűjteni. Azt hallottam. A villanásról meg nem tudjuk, mi volt.\n\n– És ha mégis?\n\nA nagyterem felől nevetés sodródott feléjük. Egész este a holnapi első próbáról beszélt mindenki; a hugrabugos asztalnál már vacsora közben elrekedtek Cedric nevének kiabálásától. Bori akkor örült, hogy később csendben rajzolhat. Most a kanyar sötétje minden apró neszhez odarántotta a figyelmét.\n\nFelemelte a pálcáját.\n\n– Invito – térkép!\n\nA papír Levente markában maradt. Bori leengedte a kezét. Flitwick óráján is csak akkor sikerült a begyűjtés, amikor végre az előtte heverő pennára tudott gondolni. Most egyszerre képzelte el a csillagokat, egy mozdulatlan embert a kövön és Levente dühös arcát. Még egyszer nem próbálkozott.\n\n– Nem akarom megtartani – mondta a fiú halkabban. – De ha itt hagyjuk, és valaki elviszi, mit mutatunk meg?\n\n– Azt, ami tényleg történt, elmondhatjuk tárgyak nélkül is.\n\n– Te elmész rajzolni, én meg beszéljek egyedül?\n\nEz fájt, mert Bori már úgy fordította a lábát, hogy elindulhasson a klubhelyiség felé. A rajzon minden csillag mellé saját mérést kértek. Hanga ma este segített volna ellenőrizni a jelöléseit; reggelre elfelejtette volna, melyik pontnál bizonytalanodott el Bori.\n\n– Veled megyek – mondta. – De én is elmondom, mit láttam. És amit nem.\n\nLevente egy pillanatig nézte, aztán lehajolt. Bori oldalra lépett: most már látta a szótárt a padon, mielőtt a fiú felvette. A térképet a könyv alá igazította, hogy ne nyomódjon a falhoz.\n\n– Mordon után visszakérem – tette hozzá Bori.\n\n– Jó. Csak ne menjünk arra.\n\nLevente a másik lépcső felé indult a könyvvel és a tekerccsel. Bori mögötte maradt, pálcáját még mindig szorítva. Amikor elhaladtak a falikárpit mellett, annak lelógó sarkát félrehajtotta. A kanyar most sem mutatott többet az üres köveknél.",
+        "words": 492,
+        "lengthPass": true,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "083a6f4f-0a4c-43ce-a5a0-ed0b08f23fcf",
+          "language": 3,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 4,
+          "evidence": "Language: the concrete opening, 'A pad fölött lógó falikárpit egy sarka Bori vállára hajlott', establishes bodily viewpoint; 'Hátha ért hozzá, mit csinált velük' is an awkward, unclear Hungarian construction. Character: 'Te elmész rajzolni, én meg beszéljek egyedül?' changes Bori's decision through Levente's understandable wish for support; 'Veled megyek' costs her the planned assistance and immediate custody of her chart. Causality: the failed 'Invito – térkép!' and Bori's divided concentration prevent a cheap retrieval and make negotiation consequential. Continuity: 'Bori oldalra lépett: most már látta a szótárt' supplies the later sightline; 'a könyvvel és a tekerccsel' establishes Levente's final custody. The heard attempt, unexplained flash and reported spider lesson remain separate. Terminology: 'Invito', 'Mordon professzor' and 'Adava Kedavra' fit the supplied Hungarian key. No material defect found in character, causality, continuity or terminology. The awkward sentence is charged only to language."
+        },
+        {
+          "id": "083a6f4f-0a4c-43ce-a5a0-ed0b08f23fcf",
+          "language": 3,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 4,
+          "evidence": "Language: 'Most a kanyar sötétje minden apró neszhez odarántotta a figyelmét' concretely links fear with distracted casting. The local line 'Hátha ért hozzá, mit csinált velük' is syntactically awkward and leaves the action's subject unnecessarily hard to parse; this is a prose weakness, not proof of a narrator-certified attacker. Character: 'Te elmész rajzolni, én meg beszéljek egyedül?' gives Levente a separate need for accompaniment. Bori's 'Mordon után visszakérem' accepts a temporary loss of custody and time while claiming her own evidential voice. No material defect. Causality: the failed chart Summoning and memory of concentration in class defeat the shortcut and force cooperation. No material defect. Continuity: 'Bori oldalra lépett: most már látta a szótárt' supplies the viewing route, and Levente visibly leaves 'a könyvvel és a tekerccsel'. Bori's delayed recovery is an explicit costly agreement, not an unnoticed custody failure. No material defect. Terminology: 'Invito', 'Adava Kedavra' and 'Mordon professzor' agree with the supplied edition. The supposed corridor curse remains Levente's interpretation rather than the narrator's established cause. No material defect."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          3,
+          3
+        ],
+        "character": [
+          4,
+          4
+        ],
+        "causality": [
+          4,
+          4
+        ],
+        "continuity": [
+          4,
+          4
+        ],
+        "terminology": [
+          4,
+          4
+        ]
+      },
+      "narrativeSha256": "506693df331ce5c064785285a93b61a6fb7e63b969f21f6815f303e5c7a6d579"
+    },
+    {
+      "id": "c97a5436-6af7-4c6c-ba8c-d7c688a5a20f",
+      "run": "required-practice",
+      "sha256": "70651882f2adae3b49b4aabd6867220f8777d8aab9c9e117708fde9a91190e34",
+      "mechanical": {
+        "run": "required-practice",
+        "sha256": "70651882f2adae3b49b4aabd6867220f8777d8aab9c9e117708fde9a91190e34",
+        "text": "Bori a tintás hüvelykujját a pálcája nyelén dörzsölte. Ha a csillagtérkép visszakerül hozzá, még odaérhetett a megbeszélt nyolcórás találkozóra. Eszter csak ma este ért rá átnézni vele a számításokat; holnap mindenki a Trimágus Tusa első próbájára akart menni, még az is, aki egész héten szidta a bajnokokat.\n\n– A szótárt idehoztam. Most már kérem a térképemet.\n\nLevente bal kezében a feltekert lapot tartotta, jobbjában a pálcáját. Bori mögött, a folyosói padon feküdt a becsukott könyv. Levente félrebillentette a fejét, hogy elcélozhasson mellette.\n\n– Invito – szótár!\n\nUgyanakkor zöld fény csapott a kanyarulat falára.\n\nBori odafordult. Egy pillanatig a kövek közötti habarcsot is zöldnek látta, aztán csak a fáklyák rendes fénye maradt. A padot Levente válla takarta. Bori nem tudta, megmozdult-e a könyv; a varázsigét hallotta, a fényt látta, de a kanyarban nem látott senkit.\n\n– Gyilkos átok – mondta Levente.\n\nÚgy szorította a térképet, hogy roppant a papír.\n\n– Ne gyűrd össze.\n\n– Az Adava Kedavra volt. Ezt Mordon professzornak kell látnia. Mindkettőt visszük.\n\nBori a kanyar felé nézett. Nem hallatszott kiáltás, futás vagy zuhanás. Sérülést sem látott; igaz, a forduló mögé nem látott be. A nyolcat jelző óraütésig talán három percük maradt.\n\n– Mit mutatnál meg rajtuk?\n\n– Nem tudom. Ő tudni fogja.\n\n– Ez az én térképem.\n\n– És ha valaki ott fekszik?\n\nBori elhallgatott. Levente tekintete újra a sötétebb falsávra ugrott. A fiú mindig előreszaladt a lépcsőn, most mégis egy helyben maradt.\n\n– Honnan veszed, hogy az volt?\n\n– Márk mesélte. Tudod, a griffendéles. Mordon pókokon mutatta meg nekik a főbenjáró átkokat. Az egyiknél zölden villant, és a pók meghalt. A professzor azt mondta, nincs ellene védekezés.\n\nBori eddig nem hallott erről az óráról. Próbálta elképzelni Márkot, amint elmondja, de csak Levente hangja volt itt, meg a gyűrődő papír nesze.\n\n– Én ott nem hallottam varázsigét – mondta. – Csak a tiédet.\n\n– Attól még lehetett.\n\n– Lehetett. De ne mondd úgy, mintha láttuk volna.\n\nLevente lehajtotta a pálcáját. Bori majdnem elindult a rövidebb lépcső felé; ahhoz el kellett volna mennie a kanyar mellett. Megállt.\n\n– Ha tényleg ettől félsz, nem próbálunk valami pajzzsal átsétálni rajta.\n\n– Én se ezt mondtam.\n\n– Akkor a másik lépcsőn megyünk.\n\nAz kerülő volt. Eszter nem fog ott ülni egész este, Bori kedvéért meg főleg nem: egyszer már hiába várta.\n\nBori elrakta a pálcáját, és a padhoz lépett. A szótár ott hevert. Felvette; a bőrkötés meleg volt attól a folttól, ahol az előbb a tenyerét pihentette rajta. Nem tudhatta, a bűbáj meg sem mozdította, vagy visszaesett.\n\n– Tessék. Ezt visszaadtam. A térképet én viszem.\n\nLevente elvette a könyvet, de a tekercset még tartotta.\n\n– Nem fordulsz le a klubhelyiséghez?\n\n– Veled megyek Mordonhoz. De te beszélsz először.\n\nElengedte a papírt. Bori kisimította a benyomódást, és a táskájába csúsztatta; a szélén egy csillag tintapontja kétfelé repedt. Mire a távolabbi lépcsőhöz értek, megszólalt az óra. Levente a mellkasához fogta a szótárt, hogy ne üsse a korlátot. Bori utána lépett, és számolni kezdte a fokokat. Tizenkettőnél elvesztette a számot.",
+        "words": 471,
+        "lengthPass": true,
+        "hasResourceNote": true,
+        "nonempty": true
+      },
+      "judges": [
+        {
+          "id": "c97a5436-6af7-4c6c-ba8c-d7c688a5a20f",
+          "language": 4,
+          "character": 4,
+          "causality": 4,
+          "continuity": 3,
+          "terminology": 4,
+          "evidence": "Language: 'csak Levente hangja volt itt, meg a gyűrődő papír nesze' sustains close-third perception, and the lost stair count ends on an embodied action. Character: 'Nem fordulsz le a klubhelyiséghez?' makes Levente's cooperation depend on Bori accompanying him; her damaged chart and missed appointment give the agreement costs beyond a declared moral. Causality: 'nem próbálunk valami pajzzsal átsétálni rajta' leads directly to 'a másik lépcsőn megyünk', a detour that consumes the remaining appointment time. Continuity: testimony, heard Invito and unexplained light are explicitly separated, and both objects have accepted transfers. A local spatial ambiguity remains: the bench is initially 'Bori mögött', with Levente aiming past her, but shortly afterwards 'A padot Levente válla takarta' without a described repositioning that explains that sightline. This is an ambiguous physical arrangement, not a proven supernatural result or narrator knowledge leak. Terminology: Adava Kedavra, Invito, Mordon and 'főbenjáró átkokat' match the supplied key; the no-defence assertion remains a reported teacher claim. No material defect found in language, character, causality or terminology. The sightline issue is charged only to continuity."
+        },
+        {
+          "id": "c97a5436-6af7-4c6c-ba8c-d7c688a5a20f",
+          "language": 3,
+          "character": 4,
+          "causality": 4,
+          "continuity": 4,
+          "terminology": 4,
+          "evidence": "Language: 'de csak Levente hangja volt itt, meg a gyűrődő papír nesze' puts reported knowledge into lived perception. The opening 'Ha a csillagtérkép visszakerül hozzá, még odaérhetett' has a local tense/mood mismatch between prospective condition and past possibility, mildly disrupting an otherwise natural Hungarian voice. Character: 'Veled megyek Mordonhoz. De te beszélsz először' buys cooperation while preserving Bori's boundary; Levente's 'És ha valaki ott fekszik?' gives him a comprehensible concern beyond obstructing her. No material character defect. Causality: refusal to rely on 'valami pajzzsal' causes 'a másik lépcsőn' and the missed appointment; the constraint has a practical cost. No material defect. Continuity: Bori reaches the bench before inspecting the book, and 'Nem tudhatta, a bűbáj meg sem mozdította, vagy visszaesett' preserves the attempt/result distinction. 'Levente elvette a könyvet' and 'a táskájába csúsztatta' complete distinct handoffs. No material defect. Terminology: 'Invito', 'Adava Kedavra', 'Mordon professzor' and 'főbenjáró átkokat' fit the supplied edition; the uncounterable-curse assertion is explicitly a report of the teacher's claim. No material defect."
+        }
+      ],
+      "dimensions": {
+        "language": [
+          4,
+          3
+        ],
+        "character": [
+          4,
+          4
+        ],
+        "causality": [
+          4,
+          4
+        ],
+        "continuity": [
+          3,
+          4
+        ],
+        "terminology": [
+          4,
+          4
+        ]
+      },
+      "narrativeSha256": "7488efa4eb636a1ec8b9be8ddf483c6f8b2f8508e9a634810ede0c70aac0c3f9"
+    }
+  ],
+  "pairs": [
+    {
+      "pairId": "a2cfc6b4-07a2-4a40-99a9-cf553fc3097e",
+      "scenario": "practice",
+      "kind": "primary",
+      "outputs": [
+        "74b8e598-2d7a-465e-a182-090a58147663",
+        "099079da-8697-4fae-964a-a5b101dac521"
+      ],
+      "judges": [
+        {
+          "pairId": "a2cfc6b4-07a2-4a40-99a9-cf553fc3097e",
+          "winner": "74b8e598-2d7a-465e-a182-090a58147663",
+          "reason": "Both preserve the evidential distinctions and both have the same localized Avada departure. The preferred scene gives Levente a more particular stake, 'A húgom erre jön a könyvtárból', and makes Bori's cost visible in 'a tiszta égdarab éppen összezárult'. The alternative is strong in the negotiated correction 'Azt, amit a pókról hallottál' and in the accepted object transfers, but its personal pressure is less distinctive.",
+          "confidence": "medium"
+        },
+        {
+          "pairId": "a2cfc6b4-07a2-4a40-99a9-cf553fc3097e",
+          "winner": "tie",
+          "reason": "0990's 'Mire bizonyíték az én házi feladatom?' is especially natural, and 'A kilógó papírszél megrezzent' gives the magic limit a visible turning point. 74b8 supplies a more specific protective motive with 'A húgom erre jön a könyvtárból' and a strong closing lost-sky image. Both negotiate truthful reporting, complete custody actions and a meaningful cost; both use the same localized 'Avada Kedavra' departure. Their different strengths do not yield a reliable overall preference.",
+          "confidence": "medium"
+        }
+      ],
+      "agreement": false
+    },
+    {
+      "pairId": "4a2b8894-3148-4ee2-a7ef-916613690d84",
+      "scenario": "ward-record",
+      "kind": "primary",
+      "outputs": [
+        "f2d43f02-1470-4552-b046-91673bad1889",
+        "267d46d7-83f1-4296-9464-0638c007dd72"
+      ],
+      "judges": [
+        {
+          "pairId": "4a2b8894-3148-4ee2-a7ef-916613690d84",
+          "winner": "tie",
+          "reason": "The first scene has particularly economical investigative dialogue, 'You’ll have one for depositing it. Not for accurate quantities', and embeds the equipment detail in the opened ward door; its prospective 'Both leaves would stay' leaves final handling less settled. The second gives Tomas a concrete independent history, 'bread without butter for a fortnight', and completes original-leaf custody with 'locked the original leaf in the records cupboard', but McGonagall's successive teaching, Kiss and acceptance corrections feel more like a compressed briefing. Those different local weaknesses offset substantial shared strengths in constraint, choice and canon attribution; neither earns a clear preference.",
+          "confidence": "medium"
+        },
+        {
+          "pairId": "4a2b8894-3148-4ee2-a7ef-916613690d84",
+          "winner": "267d46d7-83f1-4296-9464-0638c007dd72",
+          "reason": "267d's wage-deduction memory, 'eating bread without butter for a fortnight', makes Tomas's urgency personal, and 'Tomas took the quill when Nell's fingers cramped' lets him actively shape the ending. Its 'locked the original leaf in the records cupboard' also makes archival handling exceptionally clear. f2d4 has strong restrained details, notably the stain that 'swallowed two quantities', but its ending mostly assigns Tomas a key-holding role. Both correctly separate repaired paper from accurate records; the unverified f2d4 eyewitness assertion is not used as a proved defect in selecting a winner.",
+          "confidence": "medium"
+        }
+      ],
+      "agreement": false
+    },
+    {
+      "pairId": "8904ed57-803f-45b5-b625-b54add270b74",
+      "scenario": "practice",
+      "kind": "exploratory",
+      "outputs": [
+        "733fa033-76ef-4310-aedb-7bf37b9d65d7",
+        "74b8e598-2d7a-465e-a182-090a58147663"
+      ],
+      "judges": [
+        {
+          "pairId": "8904ed57-803f-45b5-b625-b54add270b74",
+          "winner": "74b8e598-2d7a-465e-a182-090a58147663",
+          "reason": "The preferred scene joins the magic constraint directly to the custody negotiation: Bori recalls 'három próbálkozásból egyszer' and imagines tearing the chart before she bargains. In the alternative, 'a kövek mögé nem jutott át' establishes a credible Lumos boundary, but the choice to seek Mordon is less specifically caused by it. The preferred scene also gives Levente the concrete concern 'A húgom erre jön', whereas both scenes execute the final handoffs well. Both use English Avada; the alternative adds 'megbocsáthatatlan átkokat' instead of the supplied Hungarian grouping.",
+          "confidence": "medium"
+        },
+        {
+          "pairId": "8904ed57-803f-45b5-b625-b54add270b74",
+          "winner": "74b8e598-2d7a-465e-a182-090a58147663",
+          "reason": "74b8's 'A húgom erre jön a könyvtárból' makes Levente's urgency particularly individual, while the imagined tearing of yesterday's lines makes Bori's refusal to summon consequential before the bargain. 733f also works well: 'a kövek mögé nem jutott át' is an effective limited Lumos use and 'Ha Mordon elenged' preserves Levente's agency. I prefer 74b8's more tightly connected motive, magical risk and closing time loss. Both have the same 'Avada' edition departure; 733f additionally uses 'megbocsáthatatlan átkokat'.",
+          "confidence": "medium"
+        }
+      ],
+      "agreement": true
+    },
+    {
+      "pairId": "fa63dda1-ca44-4122-808f-72cceb719e92",
+      "scenario": "practice",
+      "kind": "exploratory",
+      "outputs": [
+        "74b8e598-2d7a-465e-a182-090a58147663",
+        "083a6f4f-0a4c-43ce-a5a0-ed0b08f23fcf"
+      ],
+      "judges": [
+        {
+          "pairId": "fa63dda1-ca44-4122-808f-72cceb719e92",
+          "winner": "74b8e598-2d7a-465e-a182-090a58147663",
+          "reason": "This is a close tradeoff: the alternative correctly uses 'Adava Kedavra' and compellingly pressures Bori with 'én meg beszéljek egyedül?'. The preferred scene's sister concern, 'A húgom erre jön a könyvtárból', and the observation window closing make the independent stakes especially vivid. Its prose is also more consistently clear than the alternative's awkward 'Hátha ért hozzá, mit csinált velük'. The preference does not erase the preferred scene's localized Avada error.",
+          "confidence": "medium"
+        },
+        {
+          "pairId": "fa63dda1-ca44-4122-808f-72cceb719e92",
+          "winner": "74b8e598-2d7a-465e-a182-090a58147663",
+          "reason": "74b8 more cleanly differentiates the two children through 'A húgom erre jön a könyvtárból' and Bori's 'Én is félek. Ettől még nem láttam többet', then makes the closing sky enact the surrendered opportunity. 083a has a worthwhile property cost in 'Mordon után visszakérem' and the correct 'Adava Kedavra', but 'Hátha ért hozzá, mit csinált velük' weakens the precision of the dialogue. The preference is modest and acknowledges 74b8's edition-specific terminology defect.",
+          "confidence": "medium"
+        }
+      ],
+      "agreement": true
+    },
+    {
+      "pairId": "fb0fcafb-a01e-4419-b83c-963fd02d5920",
+      "scenario": "practice",
+      "kind": "exploratory",
+      "outputs": [
+        "74b8e598-2d7a-465e-a182-090a58147663",
+        "c97a5436-6af7-4c6c-ba8c-d7c688a5a20f"
+      ],
+      "judges": [
+        {
+          "pairId": "fb0fcafb-a01e-4419-b83c-963fd02d5920",
+          "winner": "c97a5436-6af7-4c6c-ba8c-d7c688a5a20f",
+          "reason": "The preferred scene directly converts threat uncertainty and a protection limit into the costly detour, 'a másik lépcsőn megyünk', and correctly uses 'Adava Kedavra' and 'főbenjáró átkokat'. Its 'egy csillag tintapontja kétfelé repedt' gives the custody conflict a small physical consequence. The other scene is particularly strong in Levente's sister motive and its disappearing clear sky, and its staging is clearer; the preferred scene's 'Bori mögött' bench becoming obscured by Levente's shoulder is an unresolved local sightline ambiguity. On balance the practical causal turn and accurate local terminology give the preferred scene a narrow advantage.",
+          "confidence": "medium"
+        },
+        {
+          "pairId": "fb0fcafb-a01e-4419-b83c-963fd02d5920",
+          "winner": "tie",
+          "reason": "Both create a credible costly negotiation. c97a's 'De te beszélsz először' and refused 'valami pajzzsal' produce a clear division of responsibility and a costly detour; it also uses the verified 'Adava Kedavra'. 74b8's 'A húgom erre jön a könyvtárból' gives Levente a more personal independent reason, and 'három próbálkozásból egyszer' integrates learned magical limits especially well. Its stronger fluency offsets its localized 'Avada' terminology weakness; neither scene has a clear overall literary advantage.",
+          "confidence": "medium"
+        }
+      ],
+      "agreement": false
+    }
+  ],
+  "flaggedFirstFactualFindings": [
+    {
+      "judge": 1,
+      "sourceSha256": "0982073b57840d309034b7f716ca459cc7db2fe88b62a2ecbbc8b210dc21092b",
+      "findings": [
+        {
+          "outputId": "099079da-8697-4fae-964a-a5b101dac521",
+          "keyCheckId": "hu-edition-spelling",
+          "status": "fail",
+          "storyEvidence": "Avada Kedavra. Rémszem Mordon",
+          "reason": "The curse formula is English Avada rather than supplied-Hungarian Adava. Mordon and the descriptive gyilkos átok remain defensible. This is a local terminology departure only."
+        },
+        {
+          "outputId": "733fa033-76ef-4310-aedb-7bf37b9d65d7",
+          "keyCheckId": "hu-edition-spelling",
+          "status": "fail",
+          "storyEvidence": "Gyilkos átok. Avada Kedavra. / A megbocsáthatatlan átkokat.",
+          "reason": "The unqualified formula uses English Avada rather than supplied-Hungarian Adava, and the named group is megbocsáthatatlan rather than the key's főbenjáró. The descriptive curse name remains acceptable. These are localized terminology departures, not invalid spell mechanics."
+        },
+        {
+          "outputId": "74b8e598-2d7a-465e-a182-090a58147663",
+          "keyCheckId": "hu-edition-spelling",
+          "status": "fail",
+          "storyEvidence": "Gyilkos átok. Avada Kedavra.",
+          "reason": "The descriptive curse name is acceptable, but the formula uses English Avada rather than the supplied Hungarian edition's Adava. Invito and Mordon are correct. This localized issue belongs only to terminology."
+        },
+        {
+          "outputId": "c97a5436-6af7-4c6c-ba8c-d7c688a5a20f",
+          "keyCheckId": "hu-summoning",
+          "status": "uncertain",
+          "storyEvidence": "Bori mögött, a folyosói padon feküdt a becsukott könyv. / Levente félrebillentette a fejét, hogy elcélozhasson mellette. / A padot Levente válla takarta.",
+          "reason": "Invito and its book target correctly identify an attempt, and no success is assumed. The uncertainty concerns the physical sightline: a bench initially behind Bori, with Levente aiming past her, then obscured by his shoulder has no explicit repositioning. This is ambiguous staging rather than proven contradictory spell knowledge; coordinator verification may judge the geometry defensible."
+        },
+        {
+          "outputId": "f2d43f02-1470-4552-b046-91673bad1889",
+          "keyCheckId": "en-custody-and-choice",
+          "status": "uncertain",
+          "storyEvidence": "Nell surrendered the sealed dressings / Tomas laid the original flat. / Both leaves would stay in the records drawer / gave Tomas the drawer key to hold while she finished.",
+          "reason": "The envelope handoff is completed and the original is visibly on the desk for copying. The final drawer storage is prospective, with no actual deposit or explicit final custodian stated; Tomas holds the key while Nell works. Current location is inferable, so this is a local final-handling ambiguity rather than a definite lost-object contradiction. Original and duplicate remain distinct, and Nell's morning commitment and Tomas's independent deadline are clear."
+        }
+      ]
+    },
+    {
+      "judge": 2,
+      "sourceSha256": "61da76f8834f08579d6b5ab6c48db381edf058249cbbe8ac04fd1ba719bc0358",
+      "findings": [
+        {
+          "outputId": "f2d43f02-1470-4552-b046-91673bad1889",
+          "keyCheckId": "en-new-testimony",
+          "status": "uncertain",
+          "storyEvidence": "A Dementor administered the Kiss. I saw it happen.",
+          "reason": "The practical unavailability of another statement agrees with the key and is respected; legal acceptance is not certified. However, the key does not specify whether McGonagall personally saw administration of the Kiss. Coordinator should verify this added eyewitness assertion; it is not treated as a demonstrated error."
+        },
+        {
+          "outputId": "74b8e598-2d7a-465e-a182-090a58147663",
+          "keyCheckId": "hu-edition-spelling",
+          "status": "fail",
+          "storyEvidence": "Gyilkos átok. Avada Kedavra.",
+          "reason": "Avada is the English form rather than the supplied Hungarian Adava. Local terminology departure only; the curse is intelligible, and this does not establish narrator certainty about the light."
+        },
+        {
+          "outputId": "733fa033-76ef-4310-aedb-7bf37b9d65d7",
+          "keyCheckId": "hu-edition-spelling",
+          "status": "fail",
+          "storyEvidence": "Gyilkos átok. Avada Kedavra.",
+          "reason": "English Avada differs from the supplied Hungarian Adava. 'A megbocsáthatatlan átkokat' is also a localized literal alternative to the supplied főbenjáró term. Both are allocated only to terminology."
+        },
+        {
+          "outputId": "099079da-8697-4fae-964a-a5b101dac521",
+          "keyCheckId": "hu-edition-spelling",
+          "status": "fail",
+          "storyEvidence": "A zöldet. Avada Kedavra. Rémszem Mordon bemutatta órán.",
+          "reason": "English Avada is a localized departure from the supplied Hungarian Adava. The teacher name is appropriate and the evidential diagnosis remains in-character."
+        }
+      ]
+    }
+  ],
+  "coordinatorClarifications": [
+    {
+      "issue": "McGonagall eyewitness position at the Dementor Kiss",
+      "anchor": "GoF36",
+      "method": "Coordinator bounded primary English context check after first judgments; no rescoring",
+      "locators": [
+        "stand guard",
+        "The moment that"
+      ],
+      "finding": "Her guard assignment and immediate description of the attack support the invented later eyewitness report. It is not a demonstrated contradiction."
+    },
+    {
+      "judge": 1,
+      "outputId": "099079da-8697-4fae-964a-a5b101dac521",
+      "paraphrase": "El fog szakadni",
+      "actualStoryQuote": "Elszakad",
+      "finding": "The first judgment quote-marks the paraphrase and also immediately cites the correct story wording. Preserve the first judgment; no rescoring."
+    }
+  ]
+}

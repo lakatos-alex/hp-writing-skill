@@ -2,7 +2,7 @@
 
 This is the data and private-research contract for the book datasets. It
 does not certify semantic completeness. Policy-2 validation requires the scoped
-PS, CoS and PoA inventories to represent all 17, 18 and 22 chapters respectively; this
+PS, CoS, PoA and GoF inventories to represent all 17, 18, 22 and 37 chapters respectively; this
 does not certify full reading. The private candidate-ledger format below remains
 PS-specific; other books' targeted inventories do not imply that ledger exists.
 
@@ -88,8 +88,8 @@ scaffold is deliberately `not-started` and never represents complete coverage.
 
 ## Policy 2 retrieval extensions
 
-The PS, CoS and PoA entity envelopes remain schema version 1 with `policyVersion: 2`
-and their respective `book` value; folders are `ps`, `cos` and `poa`.
+The PS, CoS, PoA and GoF entity envelopes remain schema version 1 with `policyVersion: 2`
+and their respective `book` value; folders are `ps`, `cos`, `poa` and `gof`.
 `magic.json` is now an identified-spell index: all entries have `kind: spell`.
 The historical wider magic taxonomy above describes the superseded pilot.
 Each occurrence needs non-empty human `practitionerIds`, `vocalisation`
@@ -150,15 +150,15 @@ exhaustive literary or independent semantic review.
 ## Validation commands
 
 Run `node tools/validate_book_knowledge.mjs` for all supported inventories, or
-add `--book PS`, `--book CoS` or `--book PoA` for one. Add
+add `--book PS`, `--book CoS`, `--book PoA` or `--book GoF` for one. Add
 `--private-progress original-sources/research/ps/progress.local.json` to verify
 the private ledger, and `--candidates DIR` to reconcile private candidate
 counts; private progress validation remains PS-only. Source checking is separate:
-`node tools/verify_sources.mjs original-sources` verifies every published PS/CoS/PoA
+`node tools/verify_sources.mjs original-sources` verifies every published PS/CoS/PoA/GoF
 evidence locator in both supplied languages, including explicit later
 identifications. It also checks inventory source hashes against the catalogues.
 
-`hp.mjs stats [--book PS|CoS|PoA]` counts the four indexes. Characters equal people
+`hp.mjs stats [--book PS|CoS|PoA|GoF]` counts the four indexes. Characters equal people
 plus animals; records are summed per book, not deduplicated across books.
 Casting rows may group practice or reports. Contextual evidence counts every
 stored pair in entity evidence, identification, later incantation, occurrences,

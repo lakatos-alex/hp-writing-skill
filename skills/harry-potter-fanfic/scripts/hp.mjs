@@ -398,7 +398,7 @@ export function projectBookFact(fact, book) {
 export function glossary(query, category, book) {
   const entries = JSON.parse(fs.readFileSync(path.join(root, 'data/hu-glossary.json'), 'utf8'));
   if (category && !entries.some(e => e.category === category)) throw Error(`Unknown glossary category: ${category}`);
-  if (book && book !== 'PS') throw Error(`Unsupported book knowledge: ${book}`);
+  if (book && book !== 'PS') throw Error(`glossary --book supports PS only, not ${book}. Omit --book for selective series-wide terms, or use semantic --book ${book} for typed entities.`);
   const needle = query?.normalize('NFKC').toLocaleLowerCase('hu');
   return entries.filter(e => (!category || e.category === category) && (!book || e.anchors?.some(anchor => anchor.startsWith(`${book}`))) && (!needle || [e.id,e.en,e.hu,...e.aliases].join(' ').normalize('NFKC').toLocaleLowerCase('hu').includes(needle))).map(e => book ? projectBookGlossary(e, book) : e);
 }
@@ -469,7 +469,7 @@ export function checkState(s) {
   return { ok: errors.length === 0, errors, note: 'Checks supplied events, not manuscript semantics.' };
 }
 export function main(args = process.argv.slice(2)) {
-  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA. Stats: [--book PS|CoS|PoA]. Typed inventories cover PS, CoS and PoA; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.';
+  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA|GoF [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA|GoF. Stats: [--book PS|CoS|PoA|GoF]. Typed inventories cover PS, CoS, PoA and GoF; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH. Output is JSON except read; --json makes read JSON. See references/tools.md.';
   if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') return console.log(helpText);
   const [command, ...rest] = args, o = options(rest);
   const entityOptions = ['book','query','id','anchor','kind','limit','offset','json'];
@@ -491,7 +491,7 @@ export function main(args = process.argv.slice(2)) {
   } else if (command === 'facts') {
     const facts = JSON.parse(fs.readFileSync(path.join(root, 'data', 'facts.json'), 'utf8'));
     if (o.kind && !['event','testimony','interpretation'].includes(o.kind)) throw Error(`Unknown fact kind: ${o.kind}`);
-    if (o.book && o.book !== 'PS') throw Error(`Unsupported book knowledge: ${o.book}`);
+    if (o.book && o.book !== 'PS') throw Error(`facts --book supports PS only, not ${o.book}. Omit --book for selective series-wide cards, or use semantic --book ${o.book} for typed entities.`);
     if (!o.page && (o.limit != null || o.offset != null)) throw Error('Facts pagination requires --page');
     const found = facts.filter(f => (!o.kind || f.kind === o.kind) && (!o.query || JSON.stringify(f).toLowerCase().includes(o.query.toLowerCase()))).map(f => o.book ? projectBookFact(f, o.book) : f).filter(Boolean);
     if (o.page) { const offset = integer(o.offset, 0), limit = integer(o.limit, 10, 1); result = {total:found.length, offset, nextOffset:offset + limit < found.length ? offset + limit : null, facts:found.slice(offset, offset + limit)}; }
@@ -500,12 +500,12 @@ export function main(args = process.argv.slice(2)) {
     const found = glossary(o.query, o.category, o.book), offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
     result = { total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, entries: found.slice(offset, offset + limit) };
   } else if (['characters','people','magic','spells','places','objects','semantic'].includes(command)) {
-    if (!Object.hasOwn(knowledgeBooks,o.book)) throw Error(`Unsupported book knowledge: ${o.book ?? '(choose PS, CoS or PoA)'}`);
+    if (!Object.hasOwn(knowledgeBooks,o.book)) throw Error(`Unsupported book knowledge: ${o.book ?? `(choose ${Object.keys(knowledgeBooks).join(', ')})`}`);
     const category = {people:'person',magic:'spell',spells:'spell',places:'place',objects:'object'}[command];
     const entries = loadKnowledge(o.book).filter(entry => command !== 'characters' || ['person','animal'].includes(entry.category));
     result = semanticSearch({...o,category:category ?? o.category},entries);
   } else if (command === 'coverage') {
-    if (!Object.hasOwn(knowledgeBooks,o.book)) throw Error(`Unsupported book knowledge: ${o.book ?? '(choose PS, CoS or PoA)'}`);
+    if (!Object.hasOwn(knowledgeBooks,o.book)) throw Error(`Unsupported book knowledge: ${o.book ?? `(choose ${Object.keys(knowledgeBooks).join(', ')})`}`);
     const coverage = JSON.parse(fs.readFileSync(path.join(root, 'data', 'books', o.book.toLowerCase(), 'coverage.json'), 'utf8'));
     const indexes=Object.fromEntries(['characters','magic','places','objects'].map(name=>[name,JSON.parse(fs.readFileSync(path.join(root, 'data', 'books', o.book.toLowerCase(), `${name}.json`), 'utf8')).entries]));
     const complete=coverage.chapters.length === knowledgeBooks[o.book] && coverage.chapters.every(chapter => chapter.en === 'independently-reviewed' && chapter.hu === 'independently-reviewed') && coverage.candidateDisposition.pending === 0 && coverage.candidateDisposition.unresolved === 0 && Object.entries(indexes).every(([name,entries])=>coverage.categoryCounts[name] === entries.length);

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "book": "GoF",
+  "policyVersion": 2,
+  "sourceManifests": {
+    "en": "data/source-coverage.json",
+    "hu": "data/source-coverage-hu.json"
+  },
+  "chapters": [
+    {
+      "anchor": "GoF1",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF2",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF3",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF4",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF5",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF6",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF7",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF8",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF9",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF10",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF11",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF12",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF13",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF14",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF15",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF16",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF17",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF18",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF19",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF20",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF21",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF22",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF23",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF24",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF25",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF26",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF27",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF28",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF29",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF30",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF31",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF32",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF33",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF34",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF35",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF36",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    },
+    {
+      "anchor": "GoF37",
+      "en": "partial",
+      "hu": "partial",
+      "inventory": "targeted-evidence-reviewed"
+    }
+  ],
+  "categoryCounts": {
+    "characters": 129,
+    "magic": 37,
+    "places": 61,
+    "objects": 66,
+    "terms": 0,
+    "facts": 0
+  },
+  "candidateDisposition": {
+    "pending": 0,
+    "accepted": 293,
+    "merged": 0,
+    "excluded": 0,
+    "unresolved": 0
+  },
+  "reviewDate": "2026-10-11",
+  "limitations": [
+    "All 37 chapters are represented by selected paired evidence and literal mentions. Independent whole-book semantic reading and editorial review remain incomplete.",
+    "The false teacher is Crouch Junior; the real Moody is a distinct captive. Whole-book identities expose later reveals. Chapter filters are not scene-knowledge cutoffs.",
+    "Reported class uses, grouped practice and failed casts are distinct from counts of individual physical casts. Missing speech is not certified non-verbal casting.",
+    "Unidentified effects, Animagus changes, potion consumption, creature acts and object operations are excluded as spells.",
+    "Hungarian labels preserve the indexed original edition, including Invito, Baziteo, Relaxo, Carbunculus, Stimula, Obstructo and Adava Kedavra. GoF9 formula Priori incantatem is separate from the GoF34 linked-wand effect."
+  ],
+  "retrievalPass": {
+    "policyVersion": 2,
+    "state": "complete",
+    "scope": "Curated identifiable characters and significant places, notable object types and titles, and identified human spells across GoF1–GoF37.",
+    "chapterAnchors": [
+      "GoF1",
+      "GoF2",
+      "GoF3",
+      "GoF4",
+      "GoF5",
+      "GoF6",
+      "GoF7",
+      "GoF8",
+      "GoF9",
+      "GoF10",
+      "GoF11",
+      "GoF12",
+      "GoF13",
+      "GoF14",
+      "GoF15",
+      "GoF16",
+      "GoF17",
+      "GoF18",
+      "GoF19",
+      "GoF20",
+      "GoF21",
+      "GoF22",
+      "GoF23",
+      "GoF24",
+      "GoF25",
+      "GoF26",
+      "GoF27",
+      "GoF28",
+      "GoF29",
+      "GoF30",
+      "GoF31",
+      "GoF32",
+      "GoF33",
+      "GoF34",
+      "GoF35",
+      "GoF36",
+      "GoF37"
+    ],
+    "reviewMethod": "Targeted paired evidence review and inclusion/exclusion decisions; independent full-book semantic reading not performed.",
+    "sourceHashes": {
+      "en": "f041f4df52394e54aff88cfd0815a95e053be9275bbcd46f2ab779216ba3fd39",
+      "hu": "32b38cf3c8e97b2787c42285f09b75a5336b3902c2af794969dcceb4b9882493"
+    }
+  }
+}
