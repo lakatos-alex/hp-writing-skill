@@ -8,7 +8,7 @@ import {fileURLToPath} from 'node:url';
 import {glossary,lintHungarian} from '../../skills/harry-potter-fanfic/scripts/hp.mjs';
 const script=fileURLToPath(new URL('../../skills/harry-potter-fanfic/scripts/hp.mjs',import.meta.url));
 const env={...process.env};delete env.HP_SOURCES;
-const cli=(...args)=>spawnSync(process.execPath,[script,...args],{cwd:path.dirname(script),encoding:'utf8',env});
+const cli=(...args)=>spawnSync(process.execPath,[script,...args,...(args[0]==='lint-hu'||args.includes('--lang')?[]:['--lang','both'])],{cwd:path.dirname(script),encoding:'utf8',env});
 const result=(...args)=>{const call=cli(...args);assert.equal(call.status,0,call.stderr);return JSON.parse(call.stdout);};
 
 test('previously failed GoF term queries resolve edition wording without a series fallback',()=>{

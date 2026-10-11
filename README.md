@@ -2,7 +2,7 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-**Version 0.4.1.** An agent skill for researching, planning, writing and revising
+**Version 0.4.2.** An agent skill for researching, planning, writing and revising
 original Harry Potter fanfiction. It combines writing guidance, continuity checks
 and searchable book references, with support for English and Hungarian.
 
@@ -35,13 +35,28 @@ npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 To stay on this release:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.4.1 --skill harry-potter-fanfic
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v0.4.2 --skill harry-potter-fanfic
 ```
 
 You can also copy the [skill folder](skills/harry-potter-fanfic/SKILL.md) into
 your agent's skills directory. The guidance has no runtime requirement.
 The optional tools need **Node.js 22 or newer** and have no third-party runtime
 dependencies. Availability and skill invocation depend on your agent.
+
+## Tool language
+
+Reference output defaults to English. To remember a story project's language,
+run the installed script with the project's directory:
+
+```sh
+node /path/to/harry-potter-fanfic/scripts/hp.mjs config --lang en --project /path/to/story
+```
+
+Use `hu` for Hungarian names and source locators, or `both` for paired output.
+The preference lives in `.hp-writing.json` in the story project. Run subsequent
+queries from that project, or pass `--project` from elsewhere. An explicit
+`--lang` overrides the preference for one call. Explanatory summaries remain
+English; selecting Hungarian does not translate them.
 
 ## Working with it
 
@@ -114,7 +129,8 @@ node scripts/hp.mjs coverage --book GoF
 ```
 
 Book-scoped glossary lookup works for **PS, CoS, PoA and GoF**. It returns compact
-English/Hungarian terms, evidence and a command for the full record. A spell
+terms and evidence in the selected language, plus a command for the full record.
+Use `--lang both` to compare the English and Hungarian forms. A spell
 class name is distinguished from its spoken formula. Unfiltered glossary
 lookup uses the separate, selective series glossary. Evidence-card book filters
 currently support PS only.
@@ -146,8 +162,11 @@ A [magyar írási útmutató](skills/harry-potter-fanfic/references/workflow-hun
 a természetes szórenddel, a mondathangsúllyal, a párbeszédek írásmódjával és a
 szereplők eltérő beszédmódjával foglalkozik. A cél saját magyar próza.
 
-A név- és varázsige-keresés az angol és magyar könyvhivatkozásokat együtt adja
-vissza. A magyar terminológia Tóth Tamás Boldizsár fordításának ellenőrzött
+A kereső alapértelmezésben angol neveket és hivatkozásokat ad vissza.
+A `config --lang hu --project /path/to/story` paranccsal mentheted a magyar
+beállítást; összehasonlításhoz használd a `--lang both` kapcsolót.
+A magyarázó összefoglalók továbbra is angolul szerepelnek.
+A magyar terminológia Tóth Tamás Boldizsár fordításának ellenőrzött
 szóhasználatára támaszkodik; az adott kötet és szöveghely számít. Az első négy
 könyvhöz használj könyvre szűkített keresést. A saját történetedben elfogadott
 névváltozatokat is add meg az agentnek.
@@ -174,7 +193,7 @@ changes have mechanical coverage; their effect on new writing remains untested.
 Next comes typed retrieval for *Order of the Phoenix*, *Half-Blood Prince* and
 *Deathly Hallows*, followed by further reading and review. See the
 [seven-book roadmap](docs/semantic-search-roadmap.md),
-[release notes](docs/releases/v0.4.1.md) and [changelog](CHANGELOG.md).
+[release notes](docs/releases/v0.4.2.md) and [changelog](CHANGELOG.md).
 For development and release checks, see [contributing](CONTRIBUTING.md) and the
 [release procedure](skills/harry-potter-fanfic/PUBLISHING.md).
 

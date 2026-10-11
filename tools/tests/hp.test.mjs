@@ -67,7 +67,7 @@ test('book knowledge inventory validates and independent reading remains incompl
   const coverage=cli('coverage','--book','PS');assert.equal(coverage.status,0);assert.equal(JSON.parse(coverage.stdout).coverageState,'incomplete');
   assert.equal(JSON.parse(coverage.stdout).retrievalPass.state,'complete');
   const characters=cli('characters','--book','PS','--limit','1');assert.equal(characters.status,0);assert.equal(JSON.parse(characters.stdout).total,117);
-  const paged=cli('facts','--book','PS','--page','--limit','1');assert.equal(paged.status,0);assert.deepEqual(Object.keys(JSON.parse(paged.stdout)).sort(),['facts','nextOffset','offset','total']);
+  const paged=cli('facts','--book','PS','--page','--limit','1');assert.equal(paged.status,0);assert.deepEqual(Object.keys(JSON.parse(paged.stdout)).sort(),['facts','language','languageSource','nextOffset','offset','total']);
   assert.notEqual(cli('facts','--limit','1').status,0);assert.notEqual(cli('magic','--book','PS','--id','x','--query','x').status,0);
 });
 test('private progress validator rejects stale hashes and incomplete reviewed intervals',()=>temporary(dir=>{

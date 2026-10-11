@@ -37,7 +37,7 @@ For a project that deliberately follows a particular Hungarian edition, preserve
 
 ## Retrieve by scene, then stop when the question is answered
 
-Use the installed `scripts/hp.mjs` tools described in [tools](tools.md), with the user's actual source directories supplied through `--sources`. Keep English and Hungarian catalogues separate. Use the same chapter anchor in each language, then locate the same event; matching offsets, paragraph numbers and EPUB filenames are not reliable alignment.
+Use the installed `scripts/hp.mjs` tools described in [tools](tools.md), with the user's actual source directories supplied through `--sources`. Save the accepted project language with `config --lang hu --project /path/to/story`, or use `--lang hu` for individual calls. Keep English and Hungarian catalogues separate; use `align --lang both` when comparing them. Use the same chapter anchor in each language, then locate the same event; matching offsets, paragraph numbers and EPUB filenames are not reliable alignment.
 
 For a narrow question, read enough before and after the match to identify speaker, addressee, cause and response. Expand when a revelation, negation or change of speaker affects interpretation. Keyword hits and catalogue chapter counts establish retrieval coverage, not semantic reading. The paired samples underlying this guidance are explicitly listed in [Hungarian prose](hungarian-prose.md#paired-evidence-sampling).
 

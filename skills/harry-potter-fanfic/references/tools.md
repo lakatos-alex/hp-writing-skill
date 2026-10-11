@@ -1,11 +1,12 @@
 # Local tools
 
-The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no third-party dependencies. It makes no network requests. All paths in commands below are relative to the installed skill folder; pass an absolute source path when running from another project.
+The bundled [hp.mjs](../scripts/hp.mjs) runs on Node.js 22 or newer with no third-party dependencies. It makes no network requests. Examples use a script path relative to the installed skill folder. For project preferences, run from the story directory with the absolute installed script path, or add `--project /path/to/story`.
 
 ## Commands
 
 | Command | Purpose | Writes |
 |---|---|---|
+| `config` | Show or save the story project's language | `.hp-writing.json` when `--lang` is supplied |
 | `import` | Read supported EPUBs, verify chapter order, create Markdown and a local catalogue | Generated files beside source EPUBs |
 | `inventory` | Verify hashes and list local chapter metadata | None |
 | `chapters` | Search the bundled chapter catalogue by title, book or topic | None |
@@ -29,6 +30,43 @@ The data-only commands `chapters`, `facts` and `glossary` work without books. Th
 For a scene's names or formulas, start with `glossary --book BOOK --query "TERM" --limit 3`.
 For mechanisms and attribution, use `semantic --book BOOK --query "CONCEPT"` or the returned
 `detailsCommand`. `glossary --help` and `facts --help` describe their different scopes.
+
+## Project language
+
+`--lang en|hu|both` overrides the nearest `.hp-writing.json` found from the working
+directory upwards. Without either, output defaults to `en`. `--project PATH`
+starts discovery in that directory; relative `--sources` paths are also resolved
+there. `--config FILE` selects an explicit preference file, relative to that
+project directory. Invalid or missing explicit configurations fail visibly.
+
+```sh
+node /path/to/skill/scripts/hp.mjs config --lang hu --project /path/to/story
+node /path/to/skill/scripts/hp.mjs config --project /path/to/story
+node /path/to/skill/scripts/hp.mjs glossary --book PS --query "float feather" --project /path/to/story
+node /path/to/skill/scripts/hp.mjs glossary --book PS --query "float feather" --lang both
+```
+
+The saved file is small JSON: `{"schemaVersion":1,"language":"hu"}`. Saving
+updates the nearest existing preference or creates one in the selected directory.
+It never writes into the installed skill. Query overrides do not change it.
+Only `language` and optional `schemaVersion: 1` are accepted; the file is not an
+instruction source.
+
+Single-language output omits counterpart labels and locators, and mixed untagged
+`aliases`/`searchTerms`. English output also omits marked Hungarian localization
+commentary. Ranking still uses bilingual concepts internally. Record IDs, counts,
+paging and canon scope are unchanged. Explanatory summaries remain English even
+in Hungarian mode; no translation is generated. A returned `detailsCommand`
+preserves the chosen language. `--lang both` retains paired fields and aliases.
+Chapter listings use the selected edition's catalogue; `both` adds Hungarian
+titles and word counts to the English records.
+
+These settings apply to source access, chapter metadata, terminology, evidence
+cards, semantic records and coverage. `import`, `inventory`, `search` and `read`
+require one language; `align --lang both` reads both. Statistics always count the
+full reference dataset. Manuscript audit, state checks and deliberate `lint-hu`
+checks do not use the language setting. Direct JavaScript data APIs retain their
+bilingual return values; this projection is a CLI behavior.
 
 ## Concept retrieval
 
@@ -76,7 +114,7 @@ node scripts/hp.mjs import --sources /path/to/sources
 node scripts/hp.mjs import --sources /path/to/sources --strict
 ```
 
-The source directory defaults to `HP_SOURCES`, then `original-sources` under the working directory. `--sources` takes precedence. A bilingual root contains `en/` and `hu/`; `--lang en` or `--lang hu` selects the child. Without `--lang`, a bilingual root selects English. A flat single-language directory remains supported. Use separate catalogues for separate languages and one edition per book per catalogue.
+The source directory defaults to `HP_SOURCES`, then `original-sources` under the selected project directory (otherwise the working directory). `--sources` takes precedence. A bilingual root contains `en/` and `hu/`; `--lang en` or `--lang hu` selects the child. Without `--lang`, the project preference selects the child, defaulting to English. A flat single-language directory remains supported. Use separate catalogues for separate languages and one edition per book per catalogue.
 
 By default, the importer operates in permissive mode: it accepts arbitrary EPUBs (via EPUB 3 Navigation documents, standard NCX with fragment links, or spine fallback) and direct novel text files (`.txt` / `.md`). If a non-canonical edition contains preview chapters or minor discrepancies, non-fatal warnings are recorded instead of halting the import. Passing `--strict` enforces exact verification against official benchmark editions (Pottermore `hpNN_chNNN` layout for English, documented strict NCX layout for Hungarian, and exact canonical chapter counts).
 
@@ -124,7 +162,7 @@ node scripts/hp.mjs read --sources /path/to/books --anchor DH15 --max-chars 1200
 node scripts/hp.mjs read --sources /path/to/books --anchor DH15 --offset 12000 --max-chars 12000
 node scripts/hp.mjs read --sources /path/to/books --anchor DH-epilogue --full
 node scripts/hp.mjs search --sources /path/to/books --lang hu --query "Roxfort"
-node scripts/hp.mjs align --sources /path/to/books --anchor PS6 --max-chars 4000
+node scripts/hp.mjs align --sources /path/to/books --lang both --anchor PS6 --max-chars 4000
 ```
 
 Search defaults to 12 hits and 180 characters of context on each side. `--offset` paginates hits; `--limit` controls page size. Read defaults to 12,000 characters and reports `nextOffset`; `--full` returns the whole selected chapter. These are adjustable output defaults, not limits on research depth.
@@ -133,7 +171,7 @@ All commands emit JSON except ordinary `read`; use `read --json` for structured 
 
 Every local read verifies the source and extracted-text hashes. If a source or catalogue changes, import again. There is no semantic-search model or embedding store. Exact query misses require alternate terms or chapter reading.
 
-`align` requires a bilingual root and returns one passage per language. Its default window is 4,000 characters per language; `--offset` starts that numeric offset independently in both texts. Alignment is chapter-level, not sentence-level. Locate a matching event separately when comparing translation choices. Hungarian suffixes can change word endings; stem searches can help but require referent checks.
+`align` reads the selected language from its child catalogue under a source root. Use `align --lang both` with a bilingual root to return one passage per language. Its default window is 4,000 characters per language; `--offset` starts that numeric offset independently in both texts. Alignment is chapter-level, not sentence-level. Locate a matching event separately when comparing translation choices. Hungarian suffixes can change word endings; stem searches can help but require referent checks.
 
 ## Manuscripts and continuity
 

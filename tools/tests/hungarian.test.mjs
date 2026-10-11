@@ -32,9 +32,9 @@ test('paired read requires both languages and preserves independent offsets and 
       fs.writeFileSync(path.join(d,'catalogue.local.json'),JSON.stringify({schemaVersion:1,books:[b]}));
       if(lang==='hu')assert.ok(search([b],{query:'magyar'}).hits[0].sourceQuality);
     }
-    const a=cli('align','--sources',dir,'--anchor','PS1','--offset','2','--max-chars','5');assert.equal(a.status,0);const r=JSON.parse(a.stdout);
+    const a=cli('align','--sources',dir,'--lang','both','--anchor','PS1','--offset','2','--max-chars','5');assert.equal(a.status,0);const r=JSON.parse(a.stdout);
     assert.equal(r.passages.length,2);assert.ok(r.passages.every(p=>p.offset===2&&p.text.length===5&&p.nextOffset===7));assert.ok(r.passages[1].sourceWarnings.length);
     assert.notEqual(cli('read','--sources',path.join(dir,'hu'),'--lang','en','--anchor','PS1').status,0);
-    fs.renameSync(path.join(dir,'hu'),path.join(dir,'missing-hu'));assert.notEqual(cli('align','--sources',dir,'--anchor','PS1').status,0);
+    fs.renameSync(path.join(dir,'hu'),path.join(dir,'missing-hu'));assert.notEqual(cli('align','--sources',dir,'--lang','both','--anchor','PS1').status,0);
   } finally { fs.rmSync(dir,{recursive:true,force:true}); }
 });

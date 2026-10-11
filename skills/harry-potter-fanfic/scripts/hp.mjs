@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { inflateRawSync } from 'node:zlib';
 import { loadKnowledge, semanticSearch, knowledgeBooks, knowledgeStats } from './semantic.mjs';
+import { languageSettings, saveLanguage, projectLanguage } from './language.mjs';
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const codes = ['PS', 'CoS', 'PoA', 'GoF', 'OotP', 'HBP', 'DH'];
 const counts = [17, 18, 22, 37, 38, 30, 37];
@@ -490,28 +491,44 @@ export function checkState(s) {
   return { ok: errors.length === 0, errors, note: 'Checks supplied events, not manuscript semantics.' };
 }
 export function main(args = process.argv.slice(2)) {
-  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (default en for bilingual roots); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: bilingual source root and --anchor; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS|CoS|PoA|GoF] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] (book projection PS-only) [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA|GoF [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA|GoF. Stats: [--book PS|CoS|PoA|GoF]. Typed inventories cover PS, CoS, PoA and GoF; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH; lint-hu also accepts --book PS|CoS|PoA|GoF. Output is JSON except read; --json makes read JSON. See references/tools.md.';
+  const helpText = 'hp.mjs import|inventory|chapters|search|read|align|facts|glossary|characters|people|spells|magic|places|objects|semantic|coverage|stats|lint-hu|audit|check-state\nSources: --sources PATH or HP_SOURCES; --lang en|hu (project preference, otherwise en); import [--strict]. Search: --query TEXT [--book PS] [--anchor PS1] [--limit 12] [--offset 0]. Read: --anchor PS1 [--max-chars 12000 | --full]. Align: --anchor and selected language; --lang both for a bilingual pair; independent per-language offsets, not sentence alignment. Chapters: [--lang hu] [--topic KEY] [--book PS] [--query TEXT]. Glossary: [--book PS|CoS|PoA|GoF] [--query TEXT] [--category person] [--limit 20]. Facts: [--book PS] (book projection PS-only) [--query TEXT] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0]; pagination requires --page. Entities: --book PS|CoS|PoA|GoF [--query TEXT|--id ID] [--anchor PS1] [--kind human] [--limit 10] [--offset 0]. Semantic: [--category person|animal|place|object|spell]. Objects: [--magic-status demonstrated|ordinary|not-established]. Coverage: --book PS|CoS|PoA|GoF. Stats: [--book PS|CoS|PoA|GoF]. Typed inventories cover PS, CoS, PoA and GoF; independent full-book semantic review remains incomplete. Audit/lint-hu/check-state: --file PATH; lint-hu also accepts --book PS|CoS|PoA|GoF. Output is JSON except read; --json makes read JSON. See references/tools.md.';
   if (args.length === 0 || args.includes('--help') || args.includes('-h') || args[0] === 'help') {
+    const languageHelp='\nLanguage: --lang en|hu|both; flag > nearest project .hp-writing.json > en. Use --project PATH when outside the story, or --config FILE for an explicit preference file. Save: config --lang en --project /path/to/story. Single-language results omit opposite labels/locators and mixed aliases/searchTerms. Explanatory summaries remain English. For bilingual chapter access use align --lang both; import/search/read/inventory require en or hu.';
     const topicHelp = {
+      config:'hp.mjs config [--lang en|hu|both] [--project PATH] [--config FILE]\nWithout --lang, show the resolved preference. With --lang, save .hp-writing.json in the story project, never in the installed skill. No book files are needed.',
       glossary:'hp.mjs glossary [--book PS|CoS|PoA|GoF] --query "TERM" [--category spell|person|place|object|creature] [--limit 3] [--offset 0]\nBook-scoped default: edition terminology. All four books use compact typed terms with a detailsCommand for full evidence. Without --book: selective series-wide glossary, not an edition-specific fallback. Typed records may include later revelations; apply the scene knowledge cutoff yourself.',
       facts:'hp.mjs facts [--query "CLAIM"] [--kind event|testimony|interpretation] [--page --limit 10 --offset 0] [--book PS]\nSelective evidence cards, not the typed book inventory. --book supports PS only. For CoS/PoA/GoF referents or mechanisms use semantic --book BOOK --query "CONCEPT"; for edition terms use glossary --book BOOK --query "TERM". A missing card is not proof of canon absence.'
     };
-    return console.log(topicHelp[args[0]] ?? helpText);
+    return console.log((topicHelp[args[0]] ?? helpText)+languageHelp);
   }
   const [command, ...rest] = args, o = options(rest);
   const entityOptions = ['book','query','id','anchor','kind','limit','offset','json'];
   const allowed = { help: [], import: ['sources', 'lang', 'strict', 'json'], inventory: ['sources', 'lang', 'json'], chapters: ['query', 'book', 'topic', 'lang', 'limit', 'offset', 'json'], search: ['sources', 'lang', 'query', 'book', 'anchor', 'context', 'offset', 'limit', 'json'], read: ['sources', 'lang', 'anchor', 'offset', 'max-chars', 'full', 'json'], align: ['sources', 'anchor', 'offset', 'max-chars', 'json'], glossary: ['query','category','book','limit','offset','json'], 'lint-hu': ['file','book','json'], facts: ['query', 'kind', 'book', 'page', 'limit', 'offset', 'json'], characters: entityOptions, people: entityOptions, magic: entityOptions, spells: entityOptions, places: entityOptions, objects: [...entityOptions,'magic-status'], semantic: [...entityOptions,'category','magic-status'], coverage: ['book','json'], stats: ['book','json'], audit: ['file', 'json'], 'check-state': ['file', 'json'] };
+  allowed.config=['lang','project','config','json'];
+  const languageCommands=new Set(['import','inventory','chapters','search','read','align','glossary','facts','characters','people','magic','spells','places','objects','semantic','coverage']);
+  for (const name of languageCommands) allowed[name]=[...new Set([...allowed[name],'lang','project','config'])];
   if (!allowed[command]) throw Error(`Unknown command: ${command}`);
   for (const k of Object.keys(o)) if (!allowed[command].includes(k)) throw Error(`Unknown option --${k} for ${command}`);
-  const base = path.resolve(o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
-  const dir = sourceDirectory(base, o.lang);
+  if (command==='config') {
+    const settings=o.lang == null ? languageSettings(o) : saveLanguage(o,root);
+    return console.log(JSON.stringify({language:settings.language,languageSource:settings.languageSource,configFile:settings.configFile},null,2));
+  }
+  const settings=languageCommands.has(command) ? languageSettings(o) : null;
+  if (settings) o.lang=settings.language;
+  if (['import','inventory','search','read'].includes(command) && o.lang==='both') throw Error(`${command} requires --lang en or hu. Use align --lang both for paired chapter access.`);
+  const base = path.resolve(settings?.directory ?? process.cwd(),o.sources ?? process.env.HP_SOURCES ?? 'original-sources');
+  const dir = sourceDirectory(base,o.lang==='both' ? undefined : o.lang);
   let result;
   if (command === 'import') result = importSources(dir, o.lang, { strict: !!o.strict });
   else if (command === 'chapters') {
-    const chapters = JSON.parse(fs.readFileSync(path.join(root, o.lang === 'hu' ? 'data/chapters-hu.json' : 'data/chapters.json'), 'utf8'));
+    let chapters = JSON.parse(fs.readFileSync(path.join(root, o.lang === 'hu' ? 'data/chapters-hu.json' : 'data/chapters.json'), 'utf8'));
+    if (o.lang==='both') {
+      const hu=new Map(JSON.parse(fs.readFileSync(path.join(root,'data/chapters-hu.json'),'utf8')).map(c=>[c.anchor,c]));
+      chapters=chapters.map(c=>({...c,titleHu:hu.get(c.anchor).title,huWords:hu.get(c.anchor).words}));
+    }
     const topics = JSON.parse(fs.readFileSync(path.join(root, 'data/topics.json'), 'utf8'));
     if (o.topic && !Object.hasOwn(topics, o.topic)) throw Error(`Unknown topic: ${o.topic}`);
-    const found = chapters.filter(c => (!o.book || c.book.toLowerCase() === o.book.toLowerCase()) && (!o.topic || c.topicCounts[o.topic]) && (!o.query || `${c.anchor} ${c.title}`.toLowerCase().includes(o.query.toLowerCase())));
+    const found = chapters.filter(c => (!o.book || c.book.toLowerCase() === o.book.toLowerCase()) && (!o.topic || c.topicCounts[o.topic]) && (!o.query || `${c.anchor} ${c.title} ${c.titleHu ?? ''}`.toLowerCase().includes(o.query.toLowerCase())));
     if (o.topic) found.sort((a, b) => b.topicCounts[o.topic] - a.topicCounts[o.topic]);
     const offset = integer(o.offset, 0), limit = integer(o.limit, 20, 1);
     result = { total: found.length, offset, nextOffset: offset + limit < found.length ? offset + limit : null, chapters: found.slice(offset, offset + limit) };
@@ -544,7 +561,7 @@ export function main(args = process.argv.slice(2)) {
   } else if (command === 'align') {
     if (!o.anchor) throw Error('--anchor is required');
     const offset = integer(o.offset, 0), limit = integer(o['max-chars'], 4000, 1);
-    result = { anchor: o.anchor, alignment: 'chapter only; character offsets are independent in each language', passages: ['en','hu'].map(language => {
+    result = { anchor: o.anchor, alignment: 'chapter only; character offsets are independent in each language', passages: (o.lang==='both' ? ['en','hu'] : [o.lang]).map(language => {
       const { books } = loadCatalogue(path.join(base, language));
       const book = books.find(b => b.chapters.some(c => c.anchor.toLowerCase() === o.anchor.toLowerCase()));
       const chapter = book?.chapters.find(c => c.anchor.toLowerCase() === o.anchor.toLowerCase());
@@ -569,6 +586,11 @@ export function main(args = process.argv.slice(2)) {
       result = { anchor: c.anchor, title: c.title, offset, totalCharacters: c.text.length, nextOffset: offset + limit < c.text.length ? offset + limit : null, text: c.text.slice(offset, offset + limit), ...(book.conversion?.warnings ? {sourceWarnings:book.conversion.warnings} : {}) };
       if (!o.json) return console.log(`# ${result.anchor}: ${result.title}\n[offset=${offset}; nextOffset=${result.nextOffset}; total=${result.totalCharacters}]\n${result.sourceWarnings ? '\nSource warnings: '+result.sourceWarnings.join(' ')+'\n' : ''}\n${result.text}`);
     }
+  }
+  if (settings) {
+    result=projectLanguage(result,settings.language);
+    if (Array.isArray(result.entries)) result.entries=result.entries.map(entry=>entry.detailsCommand ? {...entry,detailsCommand:`${entry.detailsCommand} --lang ${settings.language}`} : entry);
+    if (!Array.isArray(result)) result={...result,language:settings.language,languageSource:settings.languageSource};
   }
   console.log(JSON.stringify(result, null, 2));
 }

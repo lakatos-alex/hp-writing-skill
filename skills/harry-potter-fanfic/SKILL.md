@@ -4,7 +4,7 @@ description: Plan, write, revise and research Harry Potter fanfiction in English
 license: MIT
 metadata:
   author: Alex Lakatos
-  version: "0.4.1"
+  version: "0.4.2"
   runtime: "Optional tools require Node.js 22+; guidance has no runtime requirement"
 ---
 
@@ -56,7 +56,9 @@ Before a substantial draft, expansion or prose revision, inspect the active proj
 
 Optional [local tools](references/tools.md) provide import, inventory, passage search, chapter reading, fact filtering, manuscript measurements and continuity-state checks. They run directly without loading their implementation into context.
 
-For a term in PS, CoS, PoA or GoF, start with `node scripts/hp.mjs glossary --book BOOK --query "TERM" --limit 3` from the installed skill folder. Read `en`, `hu`, `termKind` when present, evidence and scope together; a spoken formula and a spell-class label differ. Use `semantic --book BOOK --id ID` for mechanics or attribution. The unfiltered glossary is selective series-wide material, not an edition-specific fallback. For other books or a consequential ambiguity, locate the matching chapter and read bounded context through [tools](references/tools.md). Whole-book identities are author reference, not automatic character knowledge.
+Use the host project's accepted language. Run the installed script from the story project using its absolute path, or pass `--project /path/to/story` when working elsewhere. Once the language is established, save it with `config --lang en|hu --project /path/to/story`; subsequent calls inherit `.hp-writing.json` outside the installed skill. An explicit request can override it with `--lang en|hu` for that call. Unconfigured projects default to English. Use `--lang both` when paired terminology or translation evidence is needed. Do not ask again for an already accepted language. See [language settings](references/tools.md#project-language).
+
+For a term in PS, CoS, PoA or GoF, start with `node scripts/hp.mjs glossary --book BOOK --query "TERM" --limit 3` using the installed script path. Read the selected headword and label, `termKind` when present, evidence and scope together; a spoken formula and a spell-class label differ. Use the returned `detailsCommand` for mechanics or attribution. The unfiltered glossary is selective series-wide material, not an edition-specific fallback. For other books or a consequential ambiguity, locate the matching chapter and read bounded context through [tools](references/tools.md). Whole-book identities are author reference, not automatic character knowledge.
 
 - [Chapter catalogue](data/chapters.json): 199 anchors, titles and mechanically measured topic occurrences.
 - [Hungarian chapter catalogue](data/chapters-hu.json): corresponding Hungarian titles and counts; topic ranking is inherited from aligned English chapters.

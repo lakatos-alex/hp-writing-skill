@@ -3,6 +3,17 @@
 Release history for `harry-potter-fanfic`. Counts describe the data included in
 each release; they do not measure literary quality or independent reading.
 
+## 0.4.2 — 2026-10-11
+
+Reference CLI output now defaults to English. A project-local `.hp-writing.json`
+remembers `en`, `hu` or `both`; `--lang` overrides it for one call. Single-language
+results omit counterpart labels, locators and mixed aliases. Skill setup now
+saves the accepted project language. Explanatory summaries remain English.
+
+Paired chapter access now requires `align --lang both`; direct JavaScript data
+APIs retain bilingual behavior. Reference counts and coverage are unchanged.
+See the [release notes](docs/releases/v0.4.2.md) for configuration and compatibility.
+
 ## 0.4.1 — 2026-10-11
 
 The reference tools now provide typed retrieval for the first four books and
