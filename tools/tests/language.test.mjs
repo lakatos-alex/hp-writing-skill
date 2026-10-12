@@ -96,7 +96,10 @@ test('chapters and evidence cards follow the preference; paging is stable betwee
   assert.equal(en.total,hu.total);assert.equal(en.nextOffset,hu.nextOffset);
   assert.deepEqual(en.entries.map(e=>e.id),hu.entries.map(e=>e.id));
   const facts=json(dir,'facts','--book','PS','--page','--limit','2');
-  assert.equal(facts.language,'hu');assert.ok(facts.facts.some(f=>f.evidence.some(e=>e.huLocator)));
+  assert.equal(facts.language,'hu');
+  assert.ok(facts.facts.every(f=>f.evidence.some(e=>e.huLocator) || f.sourceQuality?.includes('Hungarian context projection has not been reviewed')));
+  const paired=json(dir,'facts','--book','PS','--query','harry-placed-privet-drive','--page','--limit','2');
+  assert.ok(paired.facts.some(f=>f.evidence.some(e=>e.huLocator)));
   assert.ok(facts.facts.every(f=>f.evidence.every(e=>!Object.hasOwn(e,'enLocator'))));
 }));
 

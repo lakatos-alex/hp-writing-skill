@@ -1,5 +1,7 @@
 # Order of the Phoenix: organising under pressure
 
+For entity and terminology questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) and [local tools](tools.md). Apply the scene knowledge cutoff to later revelations; inventory completion is separate from full-book reading.
+
 ## Narrative orientation
 
 OotP1–9 brings danger, legal pressure, isolation and a hidden headquarters. OotP10–19 turns school policy into daily constraint and prompts peer organisation. OotP20–31 develops conflicting information, family vulnerability, resistance and examination pressure. OotP32–38 turns a belief about danger into action, loss, explanation and aftermath.

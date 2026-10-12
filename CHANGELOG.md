@@ -3,6 +3,23 @@
 Release history for `harry-potter-fanfic`. Counts describe the data included in
 each release; they do not measure literary quality or independent reading.
 
+## 1.0.1 — 2026-10-12
+
+- Added one generated, readable canon reference with 20 selected constraints
+  spanning all seven novels, backed by the shared evidence-card database.
+- Expanded the evidence-card library from 64 to 72 cards with object capabilities,
+  physical constraints, supplies and character-knowledge cutoffs.
+- Added `glossary --book all` and safe evidence-card projections for every book.
+  Empty scoped searches can suggest relevant cross-book records for inspection.
+- Gave all seven dossiers equal manual access to characters, spells, places,
+  objects and coverage.
+- Made tool configuration and complementary writing support optional for drafting.
+- Improved Windows metadata validation and added regression checks for the shared
+  reference, evidence projection and retrieval suggestions.
+- Updated installed-product documentation and contributor release practices.
+
+See the [release notes](docs/releases/v1.0.1.md).
+
 ## 1.0.0 — 2026-10-11
 
 All seven core novels now have typed character, spell, place and object

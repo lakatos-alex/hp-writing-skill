@@ -1,5 +1,7 @@
 # Chamber of Secrets: suspicion and coercion
 
+For entity and terminology questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) and [local tools](tools.md). Apply the scene knowledge cutoff to later revelations; inventory completion is separate from full-book reading.
+
 ## Narrative orientation
 
 CoS1–6 establishes blocked communication, warnings, family hospitality and a teacher whose reputation exceeds his competence. CoS7–12 develops blood prejudice, attacks and increasingly risky investigation. CoS13–16 tests explanations through a diary, testimony and physical clues. CoS17–18 reveals coercion and changes the meaning of several earlier events.

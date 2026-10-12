@@ -14,13 +14,17 @@ const check = (value, message) => { if (!value) fail(message); };
 const read = file => JSON.parse(fs.readFileSync(file, 'utf8'));
 const isNfc = value => typeof value === 'string' && value === value.normalize('NFC');
 function strings(value, label) { check(Array.isArray(value) && value.every(isNfc), `${label} must be NFC strings`); }
-function validateEvidence(items, label, characterIds, allowedAnchors = psAnchors) {
+function validateEvidence(items, label, characterIds, allowedAnchors = psAnchors, allowEnglishContext = false) {
   check(Array.isArray(items) && items.length, `${label} evidence must be a non-empty array`);
   for (const item of items) {
     check(item && allowedAnchors.includes(item.anchor), `${label} evidence has invalid anchor`);
     check(evidenceKinds.has(item.kind), `${label} evidence has invalid kind`);
     for (const field of ['enLocator', 'huLocator', 'scope', 'status']) check(isNfc(item[field]) && item[field].trim(), `${label} evidence needs NFC ${field}`);
-    check(item.status === 'paired-context-reviewed', `${label} evidence is not paired-context-reviewed`);
+    const englishContext = allowEnglishContext && item.status === 'english-context-reviewed-hu-locator-checked'
+      && item.anchor.startsWith('DH') && item.sourceQuality?.includes('degraded')
+      && item.reviewedLanguages?.length === 1 && item.reviewedLanguages[0] === 'en'
+      && item.locatorLanguages?.length === 2 && item.locatorLanguages.includes('en') && item.locatorLanguages.includes('hu');
+    check(item.status === 'paired-context-reviewed' || englishContext, `${label} evidence is not paired-context-reviewed or explicitly qualified English context`);
     if (item.speakerId != null) check(characterIds.has(item.speakerId), `${label} evidence references unknown speaker`);
   }
 }
@@ -53,7 +57,8 @@ export function validateBookKnowledge(base = ROOT, book = 'PS') {
     for (const mention of entry.termMentions ?? []) check(bookAnchors.includes(mention.anchor) && mention.status === 'paired-term-checked' && isNfc(mention.enLocator) && mention.enLocator.trim() && isNfc(mention.huLocator) && mention.huLocator.trim(), `Invalid term mention: ${entry.id}`);
   }
   const glossaryIds = new Set(glossary.map(entry => entry.id)), factIds = new Set(facts.map(entry => entry.id));
-  for (const entry of [...glossary, ...facts]) if (entry.evidence != null) evidence(entry.evidence, `Legacy ${entry.id}`, new Set(), anchors);
+  for (const entry of glossary) if (entry.evidence != null) evidence(entry.evidence, `Legacy ${entry.id}`, new Set(), anchors);
+  for (const entry of facts) if (entry.evidence != null) validateEvidence(entry.evidence, `Legacy ${entry.id}`, new Set(), anchors, true);
   for (const entry of glossary) if (entry.bookUsage?.[book] != null) { const usage = entry.bookUsage[book]; check(isNfc(usage.notes) && usage.notes.trim(), `Invalid book glossary usage: ${entry.id}`); evidence(usage.evidence, `Book glossary usage ${entry.id}`, new Set()); }
   for (const entry of facts) if (entry.bookUsage?.[book] != null) { const usage = entry.bookUsage[book]; check(isNfc(usage.claim) && usage.claim.trim() && isNfc(usage.limits) && usage.limits.trim(), `Invalid book fact usage: ${entry.id}`); evidence(usage.evidence, `Book fact usage ${entry.id}`, new Set()); }
   const characterIds = new Set(characters.entries.map(entry => entry.id));

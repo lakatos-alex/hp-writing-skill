@@ -1426,5 +1426,313 @@
       "date": "2026-10-11",
       "locator": "Protego"
     }
+  },
+  {
+    "id": "map-geographic-scope",
+    "topics": [
+      "map",
+      "Hogwarts",
+      "occupants",
+      "range"
+    ],
+    "kind": "event",
+    "claim": "The Marauder's Map displays Hogwarts routes and moving named occupants, rather than mapping arbitrary surrounding country.",
+    "anchors": [
+      "PoA10"
+    ],
+    "limits": "PoA10 establishes the school map. Knowing an occupant's location does not establish motive, danger or a safe woodland foraging route. Activation is object operation, not evidence of a new spell cast.",
+    "evidence": [
+      {
+        "anchor": "PoA10",
+        "kind": "event",
+        "enLocator": "Marauder’s Map",
+        "huLocator": "TEKERGŐK TÉRKÉPE",
+        "scope": "Identity and selected contextual claim. Description summarizes the book, not every event at this anchor.",
+        "status": "paired-context-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "Marauder’s Map"
+    }
+  },
+  {
+    "id": "beaded-bag-storage",
+    "topics": [
+      "bag",
+      "storage",
+      "supplies",
+      "equipment"
+    ],
+    "kind": "event",
+    "claim": "Hermione's beaded bag has expanded storage for possessions including clothes, books and camping equipment.",
+    "anchors": [
+      "DH9"
+    ],
+    "limits": "Expanded storage does not generate provisions, certify that an item was packed, or make an ordinary stored object magical. Check contents against the particular scene; finding an item can take effort.",
+    "evidence": [
+      {
+        "anchor": "DH9",
+        "kind": "event",
+        "enLocator": "beaded handbag",
+        "huLocator": "gyongyberakasos",
+        "scope": "Selected contextual identity and property evidence; whole-book records can contain later revelations.",
+        "status": "paired-context-reviewed",
+        "sourceQuality": "Hungarian transcription has degraded diacritics; literal locators are retrieval keys, not spelling authority."
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "beaded handbag"
+    },
+    "sourceQuality": "English selected context reviewed; Hungarian DH locators are degraded retrieval keys, not spelling authority."
+  },
+  {
+    "id": "first-camp-injury",
+    "topics": [
+      "Ron",
+      "injury",
+      "camping",
+      "Splinching",
+      "Dittany"
+    ],
+    "kind": "event",
+    "claim": "After the Ministry escape, Ron has lost flesh from his left upper arm through Splinching. Hermione applies Essence of Dittany; he remains weak and unwell.",
+    "anchors": [
+      "DH14"
+    ],
+    "limits": "DH14 concerns the upper arm, not a leg, forearm or collarbone. Stopping the bleeding does not establish restored strength or fitness for an excursion. The English anatomy is decisive because the Hungarian transcription omits precision.",
+    "evidence": [
+      {
+        "anchor": "DH14",
+        "kind": "event",
+        "enLocator": "upper arm",
+        "huLocator": "csupasz karjat",
+        "scope": "Selected English scene context reviewed; Hungarian locator checked separately. Not a full-chapter reading claim.",
+        "status": "english-context-reviewed-hu-locator-checked",
+        "sourceQuality": "Hungarian DH is a degraded transcription; its locator does not certify wording, arm anatomy or spelling.",
+        "reviewedLanguages": [
+          "en"
+        ],
+        "locatorLanguages": [
+          "en",
+          "hu"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "upper arm"
+    },
+    "sourceQuality": "English selected context reviewed; Hungarian DH locators are degraded retrieval keys, not spelling authority."
+  },
+  {
+    "id": "first-camp-provisions",
+    "topics": [
+      "food",
+      "camping",
+      "supplies",
+      "Grimmauld",
+      "mushrooms"
+    ],
+    "kind": "event",
+    "claim": "Hermione packed no food because she expected them to return to Grimmauld Place. The first evening's meal consists of gathered wild mushrooms cooked in a billycan.",
+    "anchors": [
+      "DH14"
+    ],
+    "limits": "This is the first camping day after the Ministry escape, not every later camp. Storage capacity and prior planning do not establish a stocked food cache. An invented incidental possession must not erase this shortage.",
+    "evidence": [
+      {
+        "anchor": "DH14",
+        "kind": "event",
+        "enLocator": "not packed any food",
+        "huLocator": "nem pakolt be etelt",
+        "scope": "Selected English scene context reviewed; Hungarian locator checked separately. Not a full-chapter reading claim.",
+        "status": "english-context-reviewed-hu-locator-checked",
+        "sourceQuality": "Hungarian DH is a degraded transcription; its locator does not certify wording, arm anatomy or spelling.",
+        "reviewedLanguages": [
+          "en"
+        ],
+        "locatorLanguages": [
+          "en",
+          "hu"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "not packed any food"
+    },
+    "sourceQuality": "English selected context reviewed; Hungarian DH locators are degraded retrieval keys, not spelling authority."
+  },
+  {
+    "id": "grimmauld-refuge-risk",
+    "topics": [
+      "Grimmauld",
+      "Yaxley",
+      "refuge",
+      "supplies",
+      "Kreacher"
+    ],
+    "kind": "testimony",
+    "claim": "Hermione reports that Yaxley followed her escape into the Fidelius protection. The trio treats Grimmauld Place as unsafe to return to; Harry regrets losing that refuge and Kreacher's meal.",
+    "anchors": [
+      "DH14"
+    ],
+    "limits": "The disclosure is Hermione's explanation and the trio's risk assessment, not witnessed proof of what Yaxley subsequently did. The immediate abandoned refuge is Grimmauld Place. Returning for supplies requires accounting for the exposure risk.",
+    "evidence": [
+      {
+        "anchor": "DH14",
+        "kind": "testimony",
+        "enLocator": "Yaxley",
+        "huLocator": "Yaxley",
+        "scope": "Selected English scene context reviewed; Hungarian locator checked separately. Not a full-chapter reading claim.",
+        "status": "english-context-reviewed-hu-locator-checked",
+        "sourceQuality": "Hungarian DH is a degraded transcription; its locator does not certify wording, arm anatomy or spelling.",
+        "reviewedLanguages": [
+          "en"
+        ],
+        "locatorLanguages": [
+          "en",
+          "hu"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "Yaxley"
+    },
+    "sourceQuality": "English selected context reviewed; Hungarian DH locators are degraded retrieval keys, not spelling authority."
+  },
+  {
+    "id": "deluminator-discovery",
+    "topics": [
+      "Deluminator",
+      "light",
+      "Ron",
+      "return",
+      "knowledge"
+    ],
+    "kind": "event",
+    "claim": "Ron receives the light-taking Deluminator in DH7. In DH19 he reports hearing Hermione through it and following a guiding light back to the others.",
+    "anchors": [
+      "DH7",
+      "DH19"
+    ],
+    "limits": "The later guiding discovery is not knowledge Ron has before leaving the group. Earlier scenes may use the demonstrated light-taking/restoring function, but should not invent unrestricted positioning, tracking or food-finding powers. The object is not itself an identified human spell cast.",
+    "evidence": [
+      {
+        "anchor": "DH7",
+        "kind": "event",
+        "enLocator": "Deluminator",
+        "huLocator": "kiolt",
+        "scope": "Selected English scene context reviewed; Hungarian locator checked separately. Not a full-chapter reading claim.",
+        "status": "english-context-reviewed-hu-locator-checked",
+        "sourceQuality": "Hungarian DH is a degraded transcription; its locator does not certify wording, arm anatomy or spelling.",
+        "reviewedLanguages": [
+          "en"
+        ],
+        "locatorLanguages": [
+          "en",
+          "hu"
+        ]
+      },
+      {
+        "anchor": "DH19",
+        "kind": "testimony",
+        "enLocator": "Your voice",
+        "huLocator": "A hangod",
+        "scope": "Selected English scene context reviewed; Hungarian locator checked separately. Not a full-chapter reading claim.",
+        "status": "english-context-reviewed-hu-locator-checked",
+        "sourceQuality": "Hungarian DH is a degraded transcription; its locator does not certify wording, arm anatomy or spelling.",
+        "reviewedLanguages": [
+          "en"
+        ],
+        "locatorLanguages": [
+          "en",
+          "hu"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "Deluminator"
+    },
+    "sourceQuality": "English selected context reviewed; Hungarian DH locators are degraded retrieval keys, not spelling authority."
+  },
+  {
+    "id": "taboo-disclosure",
+    "topics": [
+      "Taboo",
+      "name",
+      "knowledge",
+      "warning"
+    ],
+    "kind": "testimony",
+    "claim": "In DH20 Ron explains the name-triggered Taboo to Harry and Hermione; Harry's question shows he did not already understand it.",
+    "anchors": [
+      "DH20"
+    ],
+    "limits": "Earlier reluctance to say the name is not the same as knowing this mechanism. Do not give first-camp characters the later explanation solely because the author knows it.",
+    "evidence": [
+      {
+        "anchor": "DH20",
+        "kind": "testimony",
+        "enLocator": "Taboo",
+        "huLocator": "Tabura",
+        "scope": "Selected English scene context reviewed; Hungarian locator checked separately. Not a full-chapter reading claim.",
+        "status": "english-context-reviewed-hu-locator-checked",
+        "sourceQuality": "Hungarian DH is a degraded transcription; its locator does not certify wording, arm anatomy or spelling.",
+        "reviewedLanguages": [
+          "en"
+        ],
+        "locatorLanguages": [
+          "en",
+          "hu"
+        ]
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "Taboo"
+    },
+    "sourceQuality": "English selected context reviewed; Hungarian DH locators are degraded retrieval keys, not spelling authority."
+  },
+  {
+    "id": "unlocking-has-limits",
+    "topics": [
+      "Alohomora",
+      "unlocking",
+      "failure",
+      "protection"
+    ],
+    "kind": "event",
+    "claim": "Hermione's Alohomora attempt fails on the protected door in the winged-key chamber.",
+    "anchors": [
+      "PS16"
+    ],
+    "limits": "A successful earlier unlocking does not establish that the charm opens every lock or protection. A failed attempt can be a genuine constraint rather than a reason to invent a stronger unnamed spell.",
+    "evidence": [
+      {
+        "anchor": "PS16",
+        "kind": "event",
+        "enLocator": "Alohomora Charm",
+        "huLocator": "Alohomora bűbája",
+        "scope": "Casting event and its stated outcome in the surrounding passage.",
+        "status": "paired-context-reviewed"
+      }
+    ],
+    "verification": {
+      "status": "passage-checked",
+      "date": "2026-10-12",
+      "locator": "Alohomora Charm"
+    }
   }
 ]

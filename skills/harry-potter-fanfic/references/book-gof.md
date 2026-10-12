@@ -1,5 +1,7 @@
 # Goblet of Fire: spectacle and institutional failure
 
+For entity and terminology questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) and [local tools](tools.md). Apply the scene knowledge cutoff to later revelations; inventory completion is separate from full-book reading.
+
 ## Narrative orientation
 
 GoF1–9 links private danger to a large public event and its aftermath. GoF10–17 introduces the Tournament and coerced participation. GoF18–31 interleaves tasks, research, social conflict, publicity and unseen intervention. GoF32–37 moves from catastrophe to testimony, denial, grief and decisions about the future.

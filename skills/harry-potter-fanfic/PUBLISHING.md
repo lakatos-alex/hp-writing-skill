@@ -1,8 +1,6 @@
 # Release procedure
 
-Publish this GitHub-hosted Agent Skill through the skills CLI. It is not a separate npm package. The commands below use version 1.0.0; create a tag only after its checks pass and publication is authorised.
-
-For the 1.0 milestone, the user explicitly deferred new tests, including writing evaluation, the local automated suite and installation smoke testing. Record that exception rather than claiming those checks passed. Static version, source-exclusion and archive inspection still apply. Resume the normal procedure below for subsequent releases unless instructed otherwise.
+Publish this GitHub-hosted Agent Skill through the skills CLI. It is not a separate npm package. The commands below use version 1.0.1; create a tag only after its checks pass and publication is authorised.
 
 ## Validate the actual release
 
@@ -16,6 +14,8 @@ git diff --check
 ```
 
 The source check accepts a bilingual root containing `en/` and `hu/` catalogues. It verifies EPUB fidelity, paired metadata, glossary locators and publication overlap. PDF extraction has separate page/line and visual checks. Public CI runs source-free package checks and synthetic tool tests on Windows/Linux with Node.js 22/24. The Python validation entrypoint remains a compatibility wrapper around the Node validator.
+
+Write release-facing copy around installed behavior and user benefits. Keep raw drafts, word-count observations, resource traces and experiment gates in a contributor archive. Preserve exact evidence; do not translate ordinal scores into percentage claims. Canon correctness is a writing-quality dimension and can support a scoped maintenance release.
 
 Read [coverage](references/coverage.md), the [A/B/C protocol](evals/abc-0.3.0-protocol.md) and [release evaluation](evals/release-0.3.0.md). Keep observed behaviour separate from a planned test and structural import separate from semantic reading. Preserve raw and calibrated judge results, snapshot hashes and resource-use notes. Do not retry completed writing runs after an interruption merely to obtain a cleaner score.
 
@@ -33,14 +33,14 @@ node tools/build_catalogue.mjs /path/to/books
 
 Inspect staged changes, public data and notices. The skill folder must remain self-contained. Confirm version agreement, valid relative links, source exclusions and no private manuscripts or full-text catalogues. Root and bundled licenses/acknowledgments must agree.
 
-Stage the intended package files, commit the reviewed result and tag the verified commit as `v1.0.0`. Push the commit and tag through the repository's normal release process. Do not overwrite an existing release tag. A request for release preparation alone does not authorise publication; report the prepared state separately from a live release.
+Stage the intended package files, commit the reviewed result and tag the verified commit as `v1.0.1`. Push the commit and tag through the repository's normal release process. Do not overwrite an existing release tag. A request for release preparation alone does not authorise publication; report the prepared state separately from a live release.
 
 ## Archive
 
 Create the archive in a release-output directory outside the repository:
 
 ```sh
-git -c core.autocrlf=false archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/harry-potter-fanfic-1.0.0.zip v1.0.0:skills/harry-potter-fanfic
+git -c core.autocrlf=false archive --format=zip --prefix=harry-potter-fanfic/ --output=/path/to/output/harry-potter-fanfic-1.0.1.zip v1.0.1:skills/harry-potter-fanfic
 ```
 
 Inspect actual ZIP entries and compare their bytes with the tagged Git blobs. The command disables newline conversion so the archive is reproducible across hosts. It should contain SKILL.md, references, data, scripts, metadata, evaluation records and notices. EPUBs, local catalogues, generated book Markdown and private story files must be absent. Whole-repository Git archives exclude `original-sources/` through .gitattributes.
@@ -50,7 +50,7 @@ Inspect actual ZIP entries and compare their bytes with the tagged Git blobs. Th
 Use a fresh temporary directory for an installation smoke test:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v1.0.0 --skill harry-potter-fanfic --agent codex --copy -y
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v1.0.1 --skill harry-potter-fanfic --agent codex --copy -y
 ```
 
 Before publication, the same CLI accepts an absolute local repository path for a candidate smoke test. After publication, test the exact remote tag. Actually change into the temporary directory before installing; creating a temporary directory while running the installer in the checkout is not isolation.

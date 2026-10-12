@@ -2,7 +2,7 @@
 
 ![An illuminated map-book and magical academy architecture in a study](assets/harry-potter-writing-skill-social-preview.png)
 
-**Version 1.0.0.** An agent skill for researching, planning, writing and revising
+**Version 1.0.1.** An agent skill for researching, planning, writing and revising
 original Harry Potter fanfiction. It combines writing guidance, continuity checks
 and searchable book references, with support for English and Hungarian.
 
@@ -22,7 +22,7 @@ that work too.
 
 This is a hobby project, developed alongside the stories I write. I'm sharing it
 because the same tools may help someone else keep a longer story together.
-The references are still growing, and the writing needs an editor.
+The references support a shared writing experience across all seven novels.
 
 ## Install
 
@@ -35,7 +35,7 @@ npx skills add lakatos-alex/hp-writing-skill --skill harry-potter-fanfic
 To stay on this release:
 
 ```sh
-npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v1.0.0 --skill harry-potter-fanfic
+npx skills add https://github.com/lakatos-alex/hp-writing-skill/tree/v1.0.1 --skill harry-potter-fanfic
 ```
 
 You can also copy the [skill folder](skills/harry-potter-fanfic/SKILL.md) into
@@ -79,7 +79,15 @@ learns later from what the students can know at this point.
 The [entrypoint](skills/harry-potter-fanfic/SKILL.md) routes the agent to the
 relevant workflow. There are guides for chapter production, revision, character
 work, mysteries, daily life, magic, canon research and continuity. They are
-loaded as needed, so a short scene does not require reading the whole library.
+loaded as needed. For a short scene, the agent checks two to four consequential
+canon facts, then writes through character choices and practical action. The new
+[selected canon reference](skills/harry-potter-fanfic/references/selected-canon-constraints.md)
+brings 20 useful constraints from all seven books into one readable guide.
+
+Start drafting with the included workflows and references. The tool provides
+optional search and evidence retrieval, and an existing general writing skill
+can complement the project when useful. No companion installation or language
+configuration is required for manual reference use.
 
 The seven novels are the primary canon baseline. Film or other adaptations can
 be used when you choose them, with the difference recorded. Writing guidance
@@ -89,7 +97,7 @@ Your accepted story decisions govern an alternate universe.
 ## Searchable references
 
 The package includes a **199-chapter English–Hungarian catalogue** for all seven
-books, **192 selective series glossary entries** and **64 evidence cards**.
+books, **192 selective series glossary entries** and **72 evidence cards**.
 Typed semantic inventories now cover all seven core novels:
 
 | Book | Chapters | Characters | Places | Objects | Spells | Records |
@@ -123,7 +131,7 @@ full-book semantic reading and editorial review, which remain incomplete.
 From the installed skill folder, try:
 
 ```sh
-node scripts/hp.mjs glossary --book PS --query "float feather" --limit 3
+node scripts/hp.mjs glossary --book all --query "float feather" --limit 3
 node scripts/hp.mjs glossary --book GoF --category spell --query "Killing Curse" --limit 3
 node scripts/hp.mjs semantic --book PoA --query "travel time"
 node scripts/hp.mjs objects --book PS --magic-status ordinary --limit 5
@@ -138,12 +146,17 @@ terms and evidence in the selected language, plus a command for the full record.
 Hungarian DH labels carry a transcription warning and need edition verification.
 Use `--lang both` to compare the English and Hungarian forms. A spell
 class name is distinguished from its spoken formula. Unfiltered glossary
-lookup uses the separate, selective series glossary. Evidence-card book filters
-currently support PS only.
+lookup uses the separate, selective series glossary. Evidence-card queries
+support all seven books with `facts --book BOOK`; `facts --book all` returns
+the selective series collection. Each result retains its evidence and scope.
+The [manual inventory index](skills/harry-potter-fanfic/references/book-dossiers.md#typed-inventory-navigation)
+links directly to every book's characters, spells, places, objects and coverage.
 
 Whole-book records can contain later revelations. A chapter filter is useful
 for finding evidence, but does not enforce a character's knowledge at that point.
-A missing result may reflect a gap in the inventory or query.
+If a narrow search has no match, the tool can suggest relevant records from
+another book for inspection. These suggestions retain their original book and
+knowledge limits. Try a shorter query or the unified view for broader discovery.
 Use `semantic --book all` to search across books. Shared referent IDs connect
 known identities while preserving separate evidence, properties and reveal anchors.
 
@@ -192,27 +205,22 @@ A `lint-hu --file /path/to/draft.md --book PoA` ellenőrzés felhívhatja a
 figyelmet az angol névalakokra. A szöveget nem írja át; az idézeteket, a
 fejezetenként eltérő alakokat és a saját névhasználatot külön kell mérlegelni.
 
-## Tests and further work
+## Release 1.0.1
 
-Automated checks cover the tools, record structure, links and package boundaries.
-Small writing comparisons have produced mixed results. They do not establish
-general writing superiority or replace human editing. The
-[sample index](samples/README.md) links the preserved evaluations, including
-the [GoF retrieval pilot](docs/gof-writing-pilot.md). An
-[eight-story comparison](docs/ootp-writing-review.md) used four resource conditions
-with the five-book inventory. Both model judges preferred the book-access
-version over the bare model on the two briefs; intermediate conditions had
-mixed preferences, and the bare drafts also passed the factual checks.
+This patch makes the seven-book experience easier to use: one compact canon
+reference, equal manual navigation, unified terminology lookup and safe fact
+queries across all seven books. The evidence-card library now contains 72 cards.
 
-Version 1.0 marks the first milestone: all seven core novels are incorporated
-into the same typed reference system. Further reading, editorial review and a
-fresh writing comparison remain ahead. New tests were deferred for this release;
-the existing comparison does not evaluate the new HBP/DH inventories. See the
-[milestone review](docs/core-books-milestone.md), the
-[seven-book roadmap](docs/semantic-search-roadmap.md),
-[release notes](docs/releases/v1.0.0.md) and [changelog](CHANGELOG.md).
-For development and release checks, see [contributing](CONTRIBUTING.md) and the
-[release procedure](skills/harry-potter-fanfic/PUBLISHING.md).
+In a targeted comparison using the same writing prompt, a fresh Luna Medium draft
+with the expanded manual references scored **16/20**, compared with **13/20** for
+the previous skill-only draft under a blinded Sol 6.1 Medium judge. The gain came
+from canon accuracy. This describes the observed comparison rather than a
+percentage estimate of general writing quality.
+
+The release is checked with automated tool tests, package and source validation,
+and an installation smoke test. See the [release notes](docs/releases/v1.0.1.md)
+and [changelog](CHANGELOG.md). Development procedures live in
+[contributing](CONTRIBUTING.md) and the [release guide](skills/harry-potter-fanfic/PUBLISHING.md).
 
 ## License and credits
 

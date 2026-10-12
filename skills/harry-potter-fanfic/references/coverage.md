@@ -18,7 +18,7 @@ That PDF already contains missing accents, displaced initials, inconsistent head
 | Hungarian EPUB structure and normalized text | 6 EPUBs, 162 chapters | NCX/spine agreement; letters/numbers compared to source XHTML |
 | Hungarian PDF text layer | 1 PDF, 37 chapters | Page/line accounting, source defects retained, hashes and saved text checked |
 | Topic retrieval | 33 English vocabularies | Lexical counts; Hungarian ranks inherit aligned English counts |
-| Evidence cards | 64 original cards | Selected passage readings with claim type and limitations |
+| Evidence cards | 72 original cards | Selected passage readings with claim type and limitations |
 | Bilingual terminology | Searchable paired entries | Short term locators in EN/HU chapters, referents checked in context |
 | Typed semantic retrieval | 1756 per-book records across all seven novels and 199 chapter anchors | Curated identities, concepts, objects and identified human spells with selected paired evidence |
 | Hungarian craft analysis | 12 paired chapter samples across the first six books | Selected windows actually examined, listed in the prose guide |
@@ -32,7 +32,7 @@ The per-book coverage records ([PS](../data/books/ps/coverage.json), [CoS](../da
 
 DH typed records use English context with paired retrieval keys from the degraded Hungarian transcription. Their Hungarian labels may inherit earlier reliable book forms or use editorial forms; they are not newly certified spellings. `glossary --book DH` exposes this limitation, and `lint-hu --book DH` supplies no spelling replacements. HBP spelling and silent-casting evidence use the paired EPUB editions. Where editions describe speech differently, retain both language-specific statuses.
 
-The preserved four-condition comparison used the five-book inventory. The 1.0 HBP/DH additions and tool changes have no fresh writing evaluation or local automated-suite result: new tests were explicitly deferred. Earlier source-conversion checks remain historical evidence, not a new release-wide pass.
+Release 1.0.1 validates the seven-book package and automated tool suite. A targeted blinded comparison of expanded manual references on the same brief recorded a canon-accuracy gain from 13/20 to 16/20 overall. The selected guide contains 20 constraints generated from the 72-card evidence collection. Evaluation records are maintained separately from source coverage and independent reading states.
 
 
 An indexed chapter is not a chapter semantically read by an agent. A locator match is not independent proof of a claim. The source check re-finds evidence-card and glossary locators; interpretive accuracy still needs contextual judgment. The no-long-match publication scan catches exact 30-word source sequences, not every possible copyright or editorial issue.

@@ -111,7 +111,7 @@ test('source-free PoA CLI and chapter filters report scope separately from readi
   assert.equal(lookup('Capitulatus',{anchor:'PoA19'}).total,1);
   for(const anchor of ['PS17','PoA0','PoA23','PoA01']) assert.throws(()=>lookup('Lumos',{anchor}),/Invalid PoA anchor/);
   assert.equal(semanticSearch({book:'CoS',id:'patronus-charm'}).total,0);
-  assert.notEqual(cli('facts','--book','PoA').status,0);
+  assert.equal(cli('facts','--book','PoA').status,0);
 });
 
 test('validator rejects duplicate casts and unsupported repeated viewpoint metadata',()=>{

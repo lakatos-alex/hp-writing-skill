@@ -119,9 +119,18 @@ export function semanticSearch(options = {}, entries = loadKnowledge(options.boo
     && (!options['magic-status'] || entry.magicStatus === options['magic-status']))
     .map(entry => ({entry,match:rank(entry,options.query)})).filter(item => item.match)
     .sort((a,b) => b.match.score-a.match.score || a.entry.id.localeCompare(b.entry.id,'en') || Object.keys(knowledgeBooks).indexOf(a.entry.book)-Object.keys(knowledgeBooks).indexOf(b.entry.book));
+  const suggestions = !ranked.length && options.query && book !== 'all' && !options.anchor
+    ? semanticSearch({...options,book:'all',offset:0,limit:3},loadKnowledge('all')
+      .filter(entry=>entries.some(local=>local.category===entry.category))).entries
+      .filter(entry=>entry.book!==book).map(entry=>({book:entry.book,id:entry.id,category:entry.category,
+        labelEn:entry.labelEn,labelHu:entry.labelHu,referentId:entry.referentId,
+        detailsCommand:`semantic --book ${entry.book} --id ${entry.id}`,
+        reason:'Match in another book; inspect its evidence and the scene cutoff before using it.'}))
+    : [];
   return {book, method:'curated aliases and bilingual concepts; deterministic ranking, no embeddings',
     scope:'Whole-book records may include later revelations. An anchor filters evidence matches, not viewpoint knowledge. Shared referent IDs connect records without merging their book evidence or properties. Missing results indicate inventory/query limits, not canon absence.',
     total:ranked.length,offset,nextOffset:offset+limit<ranked.length?offset+limit:null,
+    ...(!ranked.length && options.query ? {suggestions,queryHint:'All meaningful query terms must match. Try one named entity or a shorter concept; --book all searches the shared inventory. No result is not proof of canon absence.'} : {}),
     entries:ranked.slice(offset,offset+limit).map(({entry,match}) => ({...entry,retrieval:{...match,anchors:evidenceAnchors(entry)}}))};
 }
 

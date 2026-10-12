@@ -1,5 +1,7 @@
 # Prisoner of Azkaban: history revised
 
+For entity and terminology questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) and [local tools](tools.md). Apply the scene knowledge cutoff to later revelations; inventory completion is separate from full-book reading.
+
 ## Narrative orientation
 
 PoA1–6 brings escape, apparent pursuit, Dementors and a new teacher. PoA7–16 develops fear, restricted access, practical training and danger interpreted through an accepted history. PoA17–19 forces competing witnesses and explanations together. PoA20–22 tests what the protagonists can do with revised knowledge and a constrained second pass through events.

@@ -54,6 +54,6 @@ test('source-free OotP routes select languages and preserve paging and knowledge
     assert.match(a.scope,/knowledge/i);
   }
   for(const anchor of ['OotP0','OotP39','OotP01','GoF35'])assert.throws(()=>lookup('Harry',{anchor}),/Invalid OotP anchor/);
-  assert.notEqual(cli('facts','--book','OotP').status,0,'legacy evidence-card projection remains PS-only');
+  assert.equal(cli('facts','--book','OotP').status,0,'selective evidence cards now have reviewed seven-book projections');
   assert.notEqual(cli('glossary','--book','Unknown').status,0,'unknown books fail visibly');
 });

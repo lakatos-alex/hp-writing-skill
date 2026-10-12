@@ -1,6 +1,6 @@
 # Philosopher's Stone: discovery and belonging
 
-For targeted identity or magic questions, query the [partial character](../data/books/ps/characters.json) and [magic](../data/books/ps/magic.json) datasets through the [local tools](tools.md#book-one-pilot-retrieval). Their [coverage](../data/books/ps/coverage.json) is limited to reviewed PS1/PS10 material. A missing result is a research gap, not a canon absence. Use these book-specific records before the series-wide character map when later revelations would be inappropriate.
+For targeted identity or magic questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) through the [local tools](tools.md). The PS scoped inventory covers all 17 chapter anchors; independent full-book reading remains incomplete. A missing result is a research gap, not a canon absence. Book evidence and later revelations still require the scene's knowledge cutoff.
 
 ## Narrative orientation
 

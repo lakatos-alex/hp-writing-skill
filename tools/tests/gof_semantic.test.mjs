@@ -78,11 +78,10 @@ test('GoF source-free commands and scope retain honest reading and knowledge lim
   assert.equal(lookup('Professor Moody',{category:'person',anchor:'GoF14'}).entries[0]?.id,'barty-crouch-junior');
   assert.ok(find('barty-crouch-junior').limits.includes('not a character-knowledge cutoff'));
   for(const anchor of ['PS14','GoF0','GoF38','GoF01'])assert.throws(()=>lookup('Lumos',{anchor}),/Invalid GoF anchor/);
-  assert.notEqual(cli('facts','--book','GoF').status,0);
+  assert.equal(cli('facts','--book','GoF').status,0);
   for(const command of ['facts']){
-    const failure=cli(command,'--book','GoF');
-    assert.match(failure.stderr,/--book supports PS only/);
-    assert.match(failure.stderr,/semantic --book GoF/);
+    const failure=cli(command,'--book','Unknown');
+    assert.match(failure.stderr,/Unsupported fact book/);
     assert.equal(cli(command,'--query','electricity').status,0);
   }
   assert.match(cli('people').stderr,/choose PS, CoS, PoA, GoF/);

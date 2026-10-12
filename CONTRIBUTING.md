@@ -24,12 +24,11 @@ Future model support should preserve portable files and stable anchor/schema con
 
 ## Tests and evidence
 
-The seven-book [1.0 milestone](docs/core-books-milestone.md) used the existing
-blind comparison to address supported lookup gaps. The user explicitly deferred
-new tests for that release; local automated testing, writing evaluation and
-installation smoke testing remain pending. Record the exception rather than
-substituting historical passes. Future selected books still follow the same
-typed inventory before evaluation sequence and declare edition/canon status.
+All seven core novels share the same typed inventory contract. New books follow
+the same inventory-first sequence and declare their edition and canon status.
+Keep writing evaluation, source verification and inventory coverage separately
+recorded. Development records belong in a contributor archive; release-facing
+documentation describes the installed product and supported benefits.
 
 Run `node tools/validate_package.mjs`, `node --test tools/tests/*.test.mjs` and `git diff --check`. When local books are available, run `node tools/verify_sources.mjs /path/to/books`.
 

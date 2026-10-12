@@ -16,7 +16,7 @@ function walk(dir) {
   });
 }
 try {
-  const files = walk(ROOT), entry = fs.readFileSync(path.join(SKILL,'SKILL.md'),'utf8');
+  const files = walk(ROOT), entry = fs.readFileSync(path.join(SKILL,'SKILL.md'),'utf8').replace(/\r\n/g,'\n');
   check(entry.startsWith('---\n'), 'Missing frontmatter');
   const [header, body] = entry.slice(4).split('\n---\n');
   check(/^name: harry-potter-fanfic$/m.test(header), 'Invalid skill name');
@@ -57,6 +57,7 @@ try {
     check(f.verification.status==='passage-checked' && f.verification.locator,`Missing evidence status: ${f.id}`);
   }
   execFileSync(process.execPath,[path.join(ROOT,'tools','validate_book_knowledge.mjs')],{cwd:ROOT,stdio:'pipe'});
+  execFileSync(process.execPath,[path.join(ROOT,'tools','build_scene_reference.mjs'),'--check'],{cwd:ROOT,stdio:'pipe'});
   const referents=JSON.parse(fs.readFileSync(path.join(SKILL,'data/referents.json'),'utf8'));
   check(new Set(referents.map(r=>r.id)).size===referents.length,'Duplicate shared referent');
   const memberships=new Set();

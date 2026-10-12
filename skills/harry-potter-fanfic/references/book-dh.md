@@ -1,5 +1,7 @@
 # Deathly Hallows: custody, trust and choice
 
+For entity and terminology questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) and [local tools](tools.md). Apply the scene knowledge cutoff to later revelations; inventory completion is separate from full-book reading.
+
 ## Narrative orientation
 
 DH1–8 stages preparation, flight, family life and institutional collapse. DH9–15 makes concealment, supplies and trust increasingly difficult. DH16–22 interleaves dangerous history, competing interpretations and the Hallows temptation. DH23–30 changes resources, alliances and access. DH31–36 brings battle, revelation and chosen action; the epilogue gives a limited future view.

@@ -4,7 +4,7 @@ description: Plan, write, revise and research Harry Potter fanfiction in English
 license: MIT
 metadata:
   author: Alex Lakatos
-  version: "1.0.0"
+  version: "1.0.1"
   runtime: "Optional tools require Node.js 22+; guidance has no runtime requirement"
 ---
 
@@ -16,7 +16,7 @@ Build a story whose choices hold up: people have independent motives, magic chan
 
 Use this entrypoint as a router. Load the relevant workflow and reference sections when needed. The supporting library can be large without being read in full for every task. More capable models can pursue deeper evidence and more interacting arcs; available context is not a reason to preload unrelated sources.
 
-For a short scene, start with one writing workflow and the accepted brief. Use [prose profiles](references/prose-profiles.md) only when voice needs a decision, and the [small scene-state check](references/scene-state.md) when custody, knowledge or physical limits drive the scene. A Hungarian scene can start with its language workflow; do not automatically load a second full workflow or every linked reference.
+For a short scene, start with the accepted brief and one writing workflow. Establish two to four facts that actually change the characters' choices: current physical capacity, actual supplies, object capabilities and who knows what at this date. Read the relevant entries in [selected canon constraints](references/selected-canon-constraints.md), then draft through practical action and check those facts against the finished scene. Use [prose profiles](references/prose-profiles.md) only when voice needs a decision, and the [small scene-state check](references/scene-state.md) for consequential handoffs. A Hungarian scene can start with its language workflow; do not preload unrelated references.
 
 | Work requested | On-demand subskill | Useful supporting reference |
 |---|---|---|
@@ -50,15 +50,15 @@ Identify the canon cutoff and divergences, immediate preceding scene, present ch
 
 ## Check for complementary writing support
 
-Before a substantial draft, expansion or prose revision, inspect the active project and available skill directories for a general writing or continuity skill. If no complementary writing skill is detected, read [writing skill integration](references/writing-skill-integration.md) and ask the user whether they want to install the recommended companion before continuing. Research-only and canon-only requests can proceed without it. This HP skill still supplies its own canon, chapter, magic and continuity workflows when the user chooses to continue without an additional companion.
+Use a general writing or continuity skill already accepted by the host project when it helps. This skill supplies its own writing workflows; drafting does not require installing a companion. Read [writing skill integration](references/writing-skill-integration.md) if the user requests additional support or a distinct need remains unresolved.
 
 ## Tools and structured library
 
-Optional [local tools](references/tools.md) provide import, inventory, passage search, chapter reading, fact filtering, manuscript measurements and continuity-state checks. They run directly without loading their implementation into context.
+The guidance and public reference data work without scripts. Optional [local tools](references/tools.md) help locate evidence, read bounded passages and measure a manuscript; they support optional research and manuscript checks alongside the writing workflows. Use the [manual canon selection](references/selected-canon-constraints.md) and [inventory navigation](references/book-dossiers.md#typed-inventory-navigation) when direct reading is enough. Import and source validation serve source maintenance rather than mandatory writing steps.
 
-Use the host project's accepted language. Run the installed script from the story project using its absolute path, or pass `--project /path/to/story` when working elsewhere. Once the language is established, save it with `config --lang en|hu --project /path/to/story`; subsequent calls inherit `.hp-writing.json` outside the installed skill. An explicit request can override it with `--lang en|hu` for that call. Unconfigured projects default to English. Use `--lang both` when paired terminology or translation evidence is needed. Do not ask again for an already accepted language. See [language settings](references/tools.md#project-language).
+Use the host project's accepted language. If tools are useful, run the installed script from the story project using its absolute path, or pass `--project /path/to/story`. An explicit `--lang en|hu` selects one language; optional `config --lang en|hu --project /path/to/story` remembers it in `.hp-writing.json`. Manual reference use requires no configuration command. Unconfigured tools default to English; use `--lang both` for paired evidence. Do not ask again for an accepted language. See [language settings](references/tools.md#project-language).
 
-For a term in any of the seven novels (PS, CoS, PoA, GoF, OotP, HBP, DH), start with `node scripts/hp.mjs glossary --book BOOK --query "TERM" --limit 3` using the installed script path. Read the selected headword and label, `termKind` when present, evidence and scope together; a spoken formula and a spell-class label differ. Use the returned `detailsCommand` for mechanics or attribution. The unfiltered glossary is selective series-wide material, not an edition-specific fallback. For a consequential ambiguity, locate the matching chapter and read bounded context through [tools](references/tools.md). Whole-book identities are author reference, not automatic character knowledge.
+For a term, read the manual index or use `glossary --book all --query "TERM" --limit 3`. For a mechanism, use `semantic --book all --query "CONCEPT"`; narrow to a book for specific evidence. Read the headword, `termKind` when present, evidence and scope together: a formula and a spell-class label differ. A failed narrow lookup may suggest another book; it does not prove absence or confer later knowledge. Use a returned `detailsCommand` for attribution, and bounded primary context for a consequential unresolved claim. Whole-book identities are author reference, not automatic character knowledge.
 
 - [Chapter catalogue](data/chapters.json): 199 anchors, titles and mechanically measured topic occurrences.
 - [Hungarian chapter catalogue](data/chapters-hu.json): corresponding Hungarian titles and counts; topic ranking is inherited from aligned English chapters.

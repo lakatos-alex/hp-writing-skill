@@ -1,5 +1,7 @@
 # Half-Blood Prince: preparation and incomplete memory
 
+For entity and terminology questions, use the [unified seven-book inventory](book-dossiers.md#typed-inventory-navigation) and [local tools](tools.md). Apply the scene knowledge cutoff to later revelations; inventory completion is separate from full-book reading.
+
 ## Narrative orientation
 
 HBP1–6 presents war through political contact, family pressure and suspicious activity. HBP7–17 interleaves school life, inherited expertise and Dumbledore's selected historical evidence. HBP18–25 develops investigation, persuasion and relationship changes. HBP26–30 brings a costly expedition, a confrontation, loss and a decision about the next quest.

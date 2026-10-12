@@ -11,6 +11,23 @@ const env={...process.env};delete env.HP_SOURCES;
 const cli=(...args)=>spawnSync(process.execPath,[script,...args,...(args[0]==='lint-hu'||args.includes('--lang')?[]:['--lang','both'])],{cwd:path.dirname(script),encoding:'utf8',env});
 const result=(...args)=>{const call=cli(...args);assert.equal(call.status,0,call.stderr);return JSON.parse(call.stdout);};
 
+test('unified glossary retrieves all seven inventories with book-specific evidence and details',()=>{
+  const page=result('glossary','--book','all','--query','Harry','--category','person','--limit','30');
+  assert.equal(page.book,'all');
+  const harry=page.entries.filter(e=>e.id==='harry-potter' || e.id==='harry');
+  assert.deepEqual(new Set(harry.map(e=>e.book)),new Set(['PS','CoS','PoA','GoF','OotP','HBP','DH']));
+  for(const term of page.entries){
+    assert.equal(term.verification.book,term.book);
+    assert.ok(term.referentId);
+    assert.equal(term.detailsCommand,`semantic --book ${term.book} --id ${term.id} --lang both`);
+    assert.ok(result(...term.detailsCommand.split(' ')).entries.some(e=>e.id===term.id && e.book===term.book));
+  }
+  assert.equal(glossary(undefined,undefined,'all').length,1756);
+  const light=glossary('deluminator','object','all');
+  assert.ok(light.some(e=>e.book==='DH' && e.sourceQuality));
+  assert.ok(glossary('Put-Outer','object','all').some(e=>e.book==='PS' && e.referentId==='object:deluminator'));
+});
+
 test('previously failed GoF term queries resolve edition wording without a series fallback',()=>{
   for(const [query,id,hu] of [['Summoning','accio','Invito'],['Killing','killing-curse','Adava Kedavra']]){
     const page=result('glossary','--book','GoF','--query',query,'--category','spell','--limit','1');
@@ -74,7 +91,7 @@ test('focused help distinguishes typed terminology from selective evidence cards
   const terms=cli('glossary','--help');const cards=cli('facts','--help');
   assert.equal(terms.status,0);assert.equal(cards.status,0);
   assert.ok(terms.stdout.includes('PS|CoS|PoA|GoF'));
-  assert.ok(cards.stdout.includes('--book supports PS only'));
+  assert.ok(cards.stdout.includes('--book supports all seven core novels'));
 });
 
 test('book-aware Hungarian advisory scan catches the missed edition form without rewriting text',()=>{
